@@ -33,11 +33,11 @@ Students who struggle with mathematics should understand that these challenges a
 
 #### The Effects on STEM Fields
 
-- The median annual STEM wage in 2024 was \$103,580, more than double the non-STEM median of \$48,000 and STEM jobs are projected to grow by 8.1% from 2024 to 2034 - roughly three times faster than non-STEM occupations at 2.7%- meaning math anxiety functions as a direct economic barrier, locking people out of the fastest-growing and highest-paying sector of the economy (Bureau of Labor Statistics).
-- Up to 2 million STEM jobs may go unfilled in the U.S. due to the skills gap. Math anxiety is a key predictor of STEM avoidance - even more predictive than actual math ability - and independently predicts lower STEM career choice even after controlling for performance (Ferdinand et al.).
+- In 2024, the median annual STEM wage was $103,580, more than double the non-STEM median of $48,000. STEM jobs are projected to grow by 8.1% from 2024 to 2034, nearly three times faster than non-STEM occupations at 2.7%. Math anxiety acts as a direct economic barrier, excluding individuals from the fastest-growing, highest-paying sector (Bureau of Labor Statistics).
+- Up to 2 million STEM jobs in the U.S. may go unfilled due to the skills gap. Math anxiety is a stronger predictor of STEM avoidance than actual math ability and independently predicts lower STEM career choice, even after accounting for performance (Ferdinand et al.).
 - One in four parents cannot help their children with math homework, and one in ten feel triggered by being asked to help - perpetuating the intergenerational cycle documented by Malanchini et al. (Prodigy Education; Malanchini et al.).
-- Students with math anxiety often avoid math courses early, missing prerequisites for many careers and majors (Finlayson 109). This avoidance limits future opportunities and creates a cycle: less exposure increases anxiety and skill gaps, leading to further avoidance. As a result, even related fields can seem inaccessible, worsening STEM workforce shortages.
-- Only about 20% of U.S. high school graduates are considered ready for college-level STEM coursework, a pipeline problem that begins with math avoidance long before college (iD Tech).
+- Students with math anxiety often avoid math courses early, missing prerequisites for many careers and majors (Finlayson 109). This avoidance limits future opportunities and creates a cycle where less exposure increases anxiety and skill gaps, leading to further avoidance. Consequently, even related fields may seem inaccessible, worsening STEM workforce shortages.
+- Only about 20% of U.S. high school graduates are prepared for college-level STEM coursework, a pipeline issue rooted in early math avoidance (iD Tech).
 
 #### Anxiety Drives Career Avoidance
 
