@@ -14,22 +14,22 @@ Students who struggle with mathematics should understand that these challenges a
 
 ### Avoidance Costs Money
 
-- Math anxiety drives financial vulnerability in retail settings and causes significant wealth-building gaps due to the avoidance of complex investment strategies (Peters, 2020)
-- 37% say math anxiety hinders their financial decision-making, including budgeting, investing, and comparing loan terms (Prodigy Education).
-- 46% of Gen Z respondents say that math anxiety influences their financial decisions, affecting everyday tasks such as sticking to a budget, understanding bills, investing, and even helping children with math homework (Prodigy Education).
-- Adults with high math anxiety are more likely to make costly financial errors: misunderstanding interest rates, overpaying on loans, and avoiding financial products that require numerical evaluation entirely (Lusardi and Tufano 340-345).
-- Math-anxious adults are less likely to seek optimal financial products, understand compound interest, or make sound retirement decisions. This is not due to lack of ability, but because anxiety leads them to avoid anything resembling math (Lusardi and Tufano 350).
-- Lusardi and Tufano found that adults who are less comfortable with math - and thus avoid it - are significantly more likely to be overindebted, less likely to shop for optimal financial products, and less likely to understand compound interest or make sound retirement savings decisions (Lusardi and Tufano 340-355).
-- The connection is direct: math anxiety triggers avoidance behaviors - not reading the fine print on credit card offers, not comparing mortgage rates, not engaging with retirement calculators - that lead to measurably worse financial outcomes over a lifetime (Lusardi and Tufano 337; Ashcraft and Krause 245).
+- Math anxiety significantly increases financial vulnerability in retail settings, contributing to wealth disparities. It causes individuals to avoid complex investment strategies, limiting their ability to build wealth (Peters, 2020).
+- 37% say math anxiety impairs their financial decision-making, including budgeting, investing, and comparing loan terms (Prodigy Education).
+- 46% of Gen Z respondents state that math anxiety affects their financial decisions, including budgeting, understanding bills, investing, and assisting children with math homework (Prodigy Education).
+- Adults with high math anxiety are more prone to costly financial errors, such as misunderstanding interest rates, overpaying on loans, and avoiding financial products that require numerical evaluation (Lusardi and Tufano 340-345).
+- Math-anxious adults are less likely to pursue optimal financial products, understand compound interest, or make informed retirement decisions. This avoidance stems from anxiety, not lack of ability (Lusardi and Tufano 350).
+- Lusardi and Tufano found that adults uncomfortable with math are more likely to be overindebted, less likely to seek optimal financial products, and less likely to understand compound interest or make sound retirement decisions (Lusardi and Tufano 340-355).
+- The connection is direct: math anxiety triggers avoidance behaviors, such as skipping fine print on credit card offers, not comparing mortgage rates, and avoiding retirement calculators, which result in poorer financial outcomes over time (Lusardi and Tufano 337; Ashcraft and Krause 245).
 
 ---
 
 ### Educational and Professional Consequences
 
-- One in five Americans (20%) reports that math anxiety has directly cost them a career opportunity, and Gen Z is hit hardest: 62% say it has created roadblocks in their education or career, with 26% reporting lost job opportunities specifically due to poor math skills (Prodigy Education).
+- 1 in 5 Americans (20%) reports that math anxiety has cost them a career opportunity. Gen Z is most affected: 62% cite educational or career barriers, and 26% report lost job opportunities due to poor math skills (Prodigy Education).
 - 47% of adults with math anxiety report that it has set them back in their academic or professional lives (Prodigy Education).
 - Math anxiety most commonly begins in middle school (34% report onset there), meaning the damage to career trajectories starts years before students ever reach the workforce (Prodigy Education, Weir). Since math is a gateway to advanced coursework in science, technology, engineering, and mathematics, anxious students may opt out of upper-level math before high school. This early attrition reduces the STEM talent pipeline and limits students' academic and career opportunities. (Paechter et al., 2024)
-- The main self-reported triggers of math anxiety are fear of failure (53%), not understanding concepts (48%), struggling with calculations (46%), and mismatched teaching methods (45%). Notably, three of these four relate to presentation and framing, not the math itself (SWNS).
+- The main self-reported triggers of math anxiety are fear of failure (53%), lack of understanding (48%), difficulty with calculations (46%), and mismatched teaching methods (45%). Notably, three of these four relate to presentation and framing rather than the math itself (SWNS).
 
 #### The Effects on STEM Fields
 
