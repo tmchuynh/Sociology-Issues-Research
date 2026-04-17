@@ -28,7 +28,7 @@ Students who struggle with mathematics should understand that these challenges a
 
 - One in five Americans (20%) reports that math anxiety has directly cost them a career opportunity, and Gen Z is hit hardest: 62% say it has created roadblocks in their education or career, with 26% reporting lost job opportunities specifically due to poor math skills (Prodigy Education).
 - 47% of adults with math anxiety report that it has set them back in their academic or professional lives (Prodigy Education).
-- Math anxiety most commonly begins in middle school (34% report onset there), meaning the damage to career trajectories starts years before students ever reach the workforce (Prodigy Education, Weir). Since math is a gateway to advanced coursework in science, technology, engineering, and mathematics, anxious students may opt out of upper-level math before high school. This early attrition reduces the STEM talent pipeline and limits students' academic and career opportunities.
+- Math anxiety most commonly begins in middle school (34% report onset there), meaning the damage to career trajectories starts years before students ever reach the workforce (Prodigy Education, Weir). Since math is a gateway to advanced coursework in science, technology, engineering, and mathematics, anxious students may opt out of upper-level math before high school. This early attrition reduces the STEM talent pipeline and limits students' academic and career opportunities. (Paechter et al., 2024)
 - The main self-reported triggers of math anxiety are fear of failure (53%), not understanding concepts (48%), struggling with calculations (46%), and mismatched teaching methods (45%). Notably, three of these four relate to presentation and framing, not the math itself (SWNS).
 
 #### The Effects on STEM Fields
@@ -50,11 +50,11 @@ Students who struggle with mathematics should understand that these challenges a
 
 - Women report math anxiety at a rate of 70%, compared to 57% for men (Prodigy Education), and this anxiety has a greater negative impact on women's outcomes (Yu et al.). This effect is linked to stereotypes and societal expectations that portray math as a male domain, discouraging women from fully participating regardless of skill.
 - Hottinger's analysis reveals how gender and race shape cultural understandings of who is considered a "mathematician," demonstrating that mathematical identity is constructed through social narratives that systematically exclude women and people of color (Hottinger).
-- Math anxiety can disproportionately affect women's test performance, classroom participation, and long-term confidence, even when achievement matches that of men. These patterns highlight the need for targeted interventions and cultural change to address the barriers women face in mathematics.
-- Even among high-performing students, girls are significantly less likely than equally performing boys to intend to pursue math-intensive fields - a gap driven by anxiety rather than ability (Denervaud et al.). This means that despite demonstrated competence, girls are self-selecting out of advanced math pathways, often because they internalize doubts about their place in these fields. Addressing anxiety could unlock a large pool of untapped STEM talent.
+- Math anxiety can disproportionately affect women's test performance, classroom participation, and long-term confidence, even when achievement matches that of men. These patterns highlight the need for targeted interventions and cultural change to address the barriers women face in mathematics. (Opesemowo et al., 2025)
+- Even among high-performing students, girls are significantly less likely than equally performing boys to intend to pursue math-intensive fields - a gap driven by anxiety rather than ability (Denervaud et al.). This means that despite demonstrated competence, girls are self-selecting out of advanced math pathways, often because they internalize doubts about their place in these fields. Addressing anxiety could unlock a large pool of untapped STEM talent. (Samuel et al., 2022, pp. 613-626)
 - Gender gaps in math achievement emerge early in schooling, even when pre-school abilities are similar, suggesting that school environment and cultural messaging - not innate ability - are the drivers (Denervaud et al.). The way teachers, peers, and media talk about math shapes students' perceptions of who "belongs" in mathematics, with lasting effects on choices and self-concept.
 - Career-sorting effects are compounded by gender: as noted in the equity analysis above, high-performing girls self-select out of math-intensive fields at higher rates than boys, driven by anxiety rather than ability (Denervaud et al.).
-- Racial and ethnic minority students face compounding challenges: higher rates of math anxiety, stereotype threat, resource disparities, and underrepresentation in advanced courses (Steele 613; Ma 530). Additional hurdles, such as fewer role models, limited access to quality instruction, and persistent societal biases, can reinforce anxiety and reduce participation in higher-level math.
+- Racial and ethnic minority students face compounding challenges: higher rates of math anxiety, stereotype threat, resource disparities, and underrepresentation in advanced courses (Steele 613; Ma 530). Additional hurdles, such as fewer role models, limited access to quality instruction, and persistent societal biases, can reinforce anxiety and reduce participation in higher-level math. ("Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents" 1001-1011).
 - Math anxiety does not merely discourage STEM pursuits - it erodes self-efficacy, which, in turn, suppresses STEM interest. Because women report higher math anxiety, this effect is multiplicative - each stage amplifies the next (Özdemir 7; see Research section for the full mediation analysis).
 
 ---
@@ -97,7 +97,7 @@ Students who struggle with mathematics should understand that these challenges a
 - Institutions often see math failure as a competence issue and respond with remedial content and repetitive drills (Hodkowski). However, if language barriers are the root cause, simply adding more math is not effective; we need better translations between mathematical language and intuitive reasoning (Tobias 70).
 - Hiebert developed a comprehensive theory of how learners develop competence with written mathematical symbols, demonstrating that symbolic fluency is a learned skill distinct from conceptual understanding. Students can possess mathematical reasoning ability while struggling with symbolic representation - a separation that confirms the language barrier thesis (Hiebert 333-350).
 - Kirshner directly addressed the relationship between linguistic and mathematical competence, arguing that difficulties in mathematics are often rooted in linguistic processing rather than mathematical reasoning. This early work established that language proficiency and mathematical proficiency are separable constructs - you can have one without the other (Kirshner 31-33).
-- Ortlieb et al.'s analysis of disciplinary literacies demonstrates that each academic discipline, including mathematics, has its own specialized discourse community with unique vocabulary, syntax, and argumentation patterns that must be explicitly taught as literacy practices, not assumed as transparent (Ortlieb et al.). Mathematical literacy requires fluency in reading, writing, and communicating within the conventions of mathematical discourse—skills that are distinct from computational ability.
+- Ortlieb et al.'s analysis of disciplinary literacies demonstrates that each academic discipline, including mathematics, has its own specialized discourse community with unique vocabulary, syntax, and argumentation patterns that must be explicitly taught as literacy practices rather than assumed to be transparent (Ortlieb et al.). Mathematical literacy requires fluency in reading, writing, and communicating within the conventions of mathematical discourse—skills that are distinct from computational ability.
 
 #### Jargon Is the Gatekeeper
 
@@ -105,11 +105,11 @@ Students who struggle with mathematics should understand that these challenges a
 - Castillo et al.'s 2025 systematic review found that formal notation alone is a significant barrier when not coordinated with concrete, intuitive representations. Integrating semiotic representations (symbols, graphs, algebra) with real-world framing is critical for conceptual understanding, yet curricula routinely lead with formalism rather than intuition (Castillo et al.).
 - Ferreira et al. found in 2025 that math-specific vocabulary is a stronger predictor of early math performance than general language skills. Students who could not parse terminology experienced higher anxiety, which decreased performance - creating a vicious cycle where jargon, not intelligence, determines outcomes (Ferreira et al.).
 - Tobias argued that much of what is perceived as a math "block" is actually a language barrier: students struggle not with mathematical logic but with notation, vocabulary, and methods of formal argument. She observed that with supportive instruction focusing on interpretation and translation, many students overcome their anxiety entirely (Tobias 65-70).
-- Wynn and Reyes examine the rhetorical dimensions of mathematical communication, arguing that mathematical arguments are persuasive acts embedded in language, not neutral transmissions of truth. The way mathematics is argued and presented shapes who has access to it, making rhetoric a critical factor in mathematical literacy (Wynn and Reyes). The specialized vocabulary and proof structures of formal mathematics function as gatekeeping mechanisms that exclude those who have not been initiated into the discourse community.
+- Wynn and Reyes examine the rhetorical dimensions of mathematical communication, arguing that mathematical arguments are persuasive acts embedded in language rather than neutral transmissions of truth. The way mathematics is argued and presented shapes who has access to it, making rhetoric a critical factor in mathematical literacy (Wynn and Reyes). The specialized vocabulary and proof structures of formal mathematics function as gatekeeping mechanisms that exclude those who have not been initiated into the discourse community.
 
 #### Framing Changes Everything
 
-- Pei, Poon, and Suen found in 2025 that mathematical engagement mediates the relationship between anxiety and performance. Students guided to engage with concepts through plain language and real-world framing showed significantly reduced anxiety effects - demonstrating that how math is presented matters more than what math is presented (Pei et al.).
+- Pei, Poon, and Suen found in 2025 that mathematical engagement mediates the relationship between anxiety and performance. Students guided to engage with concepts through plain language and real-world framing showed significantly reduced anxiety, demonstrating that how math is presented matters more than what is presented (Pei et al.).
 - Holenstein et al.'s longitudinal study demonstrated significant transfer effects of mathematical literacy: students who develop strong mathematical literacy - the ability to interpret, communicate, and reason with mathematical ideas in context - show improved performance across domains. Critically, literacy (language-based competence) predicted transfer more strongly than procedural skill, confirming that linguistic fluency is the foundation for mathematical flexibility (Holenstein et al. 810-820).
 - Abrantes argued for "Mathematical Competence for All," examining the institutional and pedagogical obstacles that prevent universal access. The barriers are not cognitive - they are structural, linguistic, and pedagogical. When mathematics is presented as an accessible language rather than an exclusive code, competence becomes achievable for all learners (Abrantes 130-140).
 - Hodkowski reported on the ongoing conceptual vs. procedural debate, concluding that conceptual understanding - grasping the "why" - leads to more robust and transferable mathematical thinking than procedural fluency alone. Relying on algorithms and jargon without conceptual context can leave students struggling even when they intuitively understand the ideas (Hodkowski).
@@ -149,7 +149,7 @@ D'Ambrosio's framework helps explain why math anxiety can be so destructive. If 
 
 This is also why ethnomathematics has major implications for teaching. Instead of starting with abstract notation and then hoping students attach meaning to it later, educators can begin with familiar practices - shopping, cooking, measuring, building, designing, budgeting, and navigating - and then connect those practices to formal mathematical language. When teachers do this, they are not lowering standards. They are translating between mathematical registers and making visible the competence students already possess.
 
-D'Ambrosio's framework is supported by later ethnomathematics scholarship showing that mathematics is always culturally situated and that formal schooling often privileges only one version of it. Rosa and Orey describe ethnomathematics as a way to recognize "mathematical ideas" in diverse cultural activities, including architecture, crafts, measurement, and local problem-solving (Rosa and Orey 11-15). A recent literature review likewise argues that ethnomathematics helps connect mathematics education to local practices, cultural identity, and meaningful real-world applications rather than treating mathematics as detached abstraction (Kabuye Batiibwe 383-405).
+D'Ambrosio's framework is supported by later ethnomathematics scholarship, which shows that mathematics is always culturally situated and that formal schooling often privileges only one version of it. Rosa and Orey describe ethnomathematics as a way to recognize "mathematical ideas" in diverse cultural activities, including architecture, crafts, measurement, and local problem-solving (Rosa and Orey 11-15). A recent literature review likewise argues that ethnomathematics helps connect mathematics education to local practices, cultural identity, and meaningful real-world applications rather than treating mathematics as detached abstraction (Kabuye Batiibwe 383-405).
 
 Munetsi emphasizes that ethnomathematics reveals how different cultural groups have developed sophisticated mathematical practices that are often invisible to formal education systems (Munetsi). Joseph's comprehensive historical analysis demonstrates that mathematics has deep non-European roots, with significant contributions from African, Asian, and Indigenous American civilizations that are systematically erased in Eurocentric narratives (Joseph). Knijnik argues that ethnomathematics is inherently political, challenging the power structures that determine whose mathematical knowledge is valued and legitimized in educational institutions (Knijnik). However, Rowlands and Carson raise important questions about how ethnomathematics should inform curriculum, cautioning that overly relativistic approaches risk undermining the universal applicability of mathematical reasoning while acknowledging the validity of culturally situated mathematical practices (Rowlands and Carson).
 
@@ -169,7 +169,7 @@ Carpenters, masons, electricians, mechanics, and fabricators use geometry, ratio
 
 Indigenous knowledge systems also contain rich mathematical reasoning in ecological observation, navigation, pattern-making, spatial organization, and resource management. A recent review on Indigenous mathematical knowledge argues that bringing these practices into contemporary education can strengthen equity and sustainability while affirming local ways of knowing (Ghosh and Banerjee).
 
-Sillitoe's examination of local science and indigenous knowledge systems demonstrates that traditional practices embody sophisticated mathematical and scientific reasoning that international development efforts often dismiss or ignore (Sillitoe). Devisch and Nyamnjoh's postcolonial analysis reveals how Western academic frameworks have systematically devalued non-Western ways of knowing, including mathematical practices embedded in African cultural traditions (Devisch and Nyamnjoh). Kanu emphasizes that curriculum itself is a cultural practice shaped by colonial legacies, and decolonizing mathematics education requires recognizing that indigenous mathematical knowledge is epistemologically valid, not merely "interesting" cultural content (Kanu).
+Sillitoe's examination of local science and indigenous knowledge systems demonstrates that traditional practices embody sophisticated mathematical and scientific reasoning that international development efforts often dismiss or ignore (Sillitoe). Devisch and Nyamnjoh's postcolonial analysis reveals how Western academic frameworks have systematically devalued non-Western ways of knowing, including mathematical practices embedded in African cultural traditions (Devisch and Nyamnjoh). Kanu emphasizes that the curriculum itself is a cultural practice shaped by colonial legacies, and decolonizing mathematics education requires recognizing that indigenous mathematical knowledge is epistemologically valid, not merely "interesting" cultural content (Kanu).
 
 This matters because too often schools treat Indigenous reasoning as cultural background rather than as mathematics itself.
 
@@ -183,7 +183,7 @@ Present-day people use mathematics constantly in budgeting apps, rideshare prici
 
 Striphas analyzes how algorithmic culture shapes everyday life, demonstrating that ordinary people navigate complex mathematical systems embedded in digital technologies without recognizing these interactions as mathematical engagement (Striphas). Gillman's work on quantitative literacy emphasizes that functional numeracy in contemporary society requires not advanced calculus but rather the ability to interpret data, evaluate claims, and make informed decisions using basic mathematical reasoning—skills that many mathematically anxious adults already possess in practical contexts but fail to recognize as "real math" (Gillman). Roberts argues for making mathematics relevant to everyone by connecting formal concepts to the mathematical reasoning people already use in daily life, essentially bridging the translation gap between informal competence and formal language (Roberts).
 
-Many adults function fluently in these environments while still claiming they are "bad at math," because they do not recognize informal numeracy as mathematics.
+Many adults function fluently in these environments while still claiming they are “bad at math,” because they do not recognize informal numeracy as mathematics. (Gal et al.)
 
 ---
 
@@ -214,7 +214,6 @@ Introducing lessons or discussions with real-world examples increases the relata
 - **Online Shopping (RSA Encryption)**: Every time you enter your credit card on a website, your computer uses Number Theory. It relies on the fact that it is easy to multiply two massive Prime Numbers together, but mathematically “impossible” for a hacker to figure out what those primes were just by looking at the result.
 
   The security of online shopping relies on the _Integer Factorization Problem_. Here is the mathematical process:
-
   1. <u>Key Generation</u>
      - First, pick two distinct large prime numbers, $p$ and $q$.
      - Compute the modulus: $n = p \times q$
@@ -227,7 +226,7 @@ Introducing lessons or discussions with real-world examples increases the relata
   4. <u>Decryption (The Server's Task)</u>
      - The merchant uses their private key $d$ to recover the original message: $M = C^d \pmod{n}$
 
-   **Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way.
+  **Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way.
 
 - **Barcodes and ISBNs**: The last digit on a barcode or a book’s ISBN is a Check Digit. It is calculated using a specific number theory formula to ensure that if a scanner misreads a number, the “math” won’t add up, and the system will flag an error
 - **Elliptic Curve Encryption**: Every time you visit an “https” website or use a messaging app, your device uses Elliptic-Curve Diffie-Hellman (a form of number theory) to agree on a secret key with the server. You are using prime numbers to build a “digital wall” around your private data.
@@ -358,10 +357,10 @@ Introducing lessons or discussions with real-world examples increases the relata
 
 ### Universal Quantifier
 
-- The symbol ∀, which simply means “this is true for every single case.”
-- You use it in plain speech all the time: “Every restaurant in this city charges too much.” “All my friends have seen that movie.” The ∀ symbol is just a shorthand for “for all” - the idea is completely ordinary.
-- “Every student in the class passed the exam.” (∀ students in the class, the student passed the exam.)
-- “All birds have feathers.” (∀ birds, the bird has feathers.)
+- The symbol $\forall$, which simply means “this is true for every single case.”
+- You use it in plain speech all the time: “Every restaurant in this city charges too much.” “All my friends have seen that movie.” The $\forall$ symbol is just a shorthand for “for all” - the idea is completely ordinary.
+- “Every student in the class passed the exam.” ($\forall$ students in the class, the student passed the exam.)
+- “All birds have feathers.” ($\forall$ birds, the bird has feathers.)
 
 ---
 
@@ -451,7 +450,7 @@ Introducing lessons or discussions with real-world examples increases the relata
 
    - Prize = \$1,000,000
 
-   - The average wealth of the group is: $\displaystyle E = \left( \frac{5}{6} \times \$1,000,000 \right) + \left( \frac{1}{6} \times \$0 \right) \approx \$833,333$
+   - The average wealth of the group is: $\displaystyle E = \left( \frac{5}{6} \times \$1,000,000 \right) + \left( \frac{1}{6} \times \$0 \right) \implies \sim\$833,333$
    - _Result: The "average" person in this group is a millionaire._
 
 2. <u>Time Average (The Individual View)</u>
@@ -575,16 +574,6 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
 ---
 
-### Ramsey Theory
-
-- The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory is all about finding "order in chaos."
-- Ramsey Theory is a branch of combinatorics in mathematics that studies conditions under which order must emerge within large, chaotic systems. It posits that "complete disorder is impossible"—if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear
-- **The Theorem on Friends and Strangers ($R(3,3) = 6$)**: This is the most famous everyday example. It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns
-- **Constellations in the Sky**: Ramsey theory explains why we see shapes like the Big Dipper. It isn’t because the stars were placed in a specific design; it’s because in any sufficiently large “chaos” of random points (stars), you are guaranteed to be able to find any small geometric pattern you want if you look hard enough.
-- **Data in Large Networks**: In massive computer networks or social media datasets, “random” spikes in activity aren’t always meaningful. Ramsey theory suggests that, in a sufficiently large stream of data, certain clusters or patterns will appear purely by chance, which helps computer scientists distinguish between true signals and mathematical inevitability
-
----
-
 ### Ring Theory
 
 - The branch of abstract algebra studying rings - algebraic structures with two operations (addition and multiplication) that interact via distribution
@@ -680,7 +669,6 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 - **Password Creation**: When you create a password, combinatorics tells you how many possible combinations there are with letters, numbers, and symbols. A password with 8 characters chosen from 62 possible characters (uppercase, lowercase, digits) involves $62^8 \approx 218$ trillion combinations. Password security is combinatorics.
 
   Here is the combinatorial breakdown for these password requirements, assuming a standard 26-letter alphabet.
-
   1.  <u>Basic (Lowercase only, min 6 characters)</u>
       - If you only use lowercase letters ($a-z$), you have $26$ choices for each slot. For a password of length $L$, the number of combinations is $26^L$.
       - If the password must be at least 6 characters, you sum the possibilities for each length (e.g., 6, 7, 8...):
@@ -690,33 +678,34 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
       When a "at least one" requirement is added, the easiest math is Total Combinations minus Illegal Combinations (those with zero capitals).
       - Pool: 26 lowercase + 26 uppercase = 52 total.
-      - Formula: $$(\text{Total})^L - (\text{LowercaseOnly})^L \rightarrow 52^L - 26^L \rightarrow 52^6 - 26^6 = 19,468,362,432$$
-      - Using a summation, we count every case where the number of capitals \(k\) ranges from 1 to the total length \(L\):
-        $$ \sum\_{k=1}^{L} \left( \binom{L}{k} \times 26^k \times 26^{L-k} \right) $$
+      - Formula: 
+        $$(\text{Total})^L - (\text{LowercaseOnly})^L \rightarrow 52^L - 26^L \rightarrow 52^6 - 26^6 = 19,468,362,432$$
+      - Using a summation, we count every case where the number of capitals ( $k$ ) ranges from 1 to the total length ( $L$ ):
+        $$\sum_{k=1}^{L} \left( \binom{L}{k} \times 26^k \times 26^{L-k} \right) $$
 
-  3.  <u>At Least One Capital AND One Number</u>
+  1.  <u>At Least One Capital AND One Number</u>
 
       Now we subtract all "illegal" sets using the Principle of Inclusion-Exclusion.
       - Pool: 26 lowercase + 26 uppercase + 10 numbers = 62 total.
         $$(Total)^L - (\text{No Caps})^L - (\text{No Numbers})^L + (\text{No Caps AND No Numbers})^L$$
         $$62^L - 36^L - 52^L + 26^L$$
-      - This requires a nested summation to ensure at least one capital \(j\) and at least one number \(k\) are present:
+      - This requires a nested summation to ensure at least one capital ( $j$ ) and at least one number ( $k$ ) are present:
         $$\sum_{j=1}^{L-1} \sum_{k=1}^{L-j} \left( \frac{L!}{j!k!(L-j-k)!} \times 26^j \times 10^k \times 26^{L-j-k} \right)$$
 
-        This multinomial approach counts all valid permutations of \(j\) capitals, \(k\) numbers, and the remaining lowercase letters.
+        This multinomial approach counts all valid permutations of ( $j$ ) capitals, ( $k$ ) numbers, and the remaining lowercase letters.
 
-  4.  <u>At Least One Capital, One Number AND One Special Character</u>
+  2.  <u>At Least One Capital, One Number AND One Special Character</u>
 
       This requires a full Inclusion-Exclusion for three sets.
       - Pool: 26 lowercase + 26 uppercase + 10 numbers + 32 special = 94 total.
         $$94^L - (\text{missing 1 type}) + (\text{missing 2 types}) - (\text{missing 3 types})$$
         $$94^L - (68^L + 84^L + 62^L) + (58^L + 36^L + 52^L) - 26^L$$
-      - For a length \(L\), we sum over all possible counts of capitals (\(c\)), numbers (\(n\)), and special characters (\(s\)), where each count is at least 1:
-        $$\sum_{c=1} \sum_{n=1} \sum_{s=1} \left( \frac{L!}{c!n!s!(L-c-n-s)!} \times 26^c \times 10^n \times 32^s \times 26^{L-c-n-s} \right) $$
-        **Note**: The summation continues as long as \(c + n + s \leq L\).
+      - For a length ( $L$ ), we sum over all possible counts of capitals ( $c$ ), numbers ( $n$ ), and special characters ( $s$ ), where each count is at least 1:
+        $$\sum_{c=1} \sum_{n=1} \sum_{s=1} \Biggl( \frac{L!}{c!n!s!(L-c-n-s)!} \times 26^c \times 10^n \times 32^s \times 26^{L-c-n-s} \Biggr)$$
+        **Note**: The summation continues as long as ($c + n + s \le L$).
 
 | Requirement                     | Simplified Summation Form                                                                                | Total Combinations     |
-| :------------------------------ | :------------------------------------------------------------------------------------------------------- | :--------------------- |
+| :------------------------------ | :------------------------------------------------------------------------------------- | :--------------------- |
 | Lowercase Only                  | $\displaystyle \sum_{i=1}^{6} 26^i$                                                                      | $3.08 \times 10^8$     |
 | At least 1 Cap                  | $\displaystyle \sum_{k=1}^{6} \binom{6}{k} 26^6$                                                         | $1.946 \times 10^{10}$ |
 | At least 1 Cap + 1 Num          | $\displaystyle \sum_{j=1}^{5} \sum_{k=1}^{6-j} \frac{6!}{j!k!(6-j-k)!} 26^{6-k} 10^k$                    | $3.591 \times 10^{10}$ |
@@ -724,39 +713,35 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
 - **Kente Cloth Weaving**: Kente cloth weavers in Ghana work with a set of colored threads and must decide which colors to alternate, how many threads of each to include, and in what sequence—producing patterns that are, mathematically, permutations and combinations of color and position. The number of possible Kente patterns from a given set of colors and thread counts is a combinatorics problem, solved visually and by tradition rather than by formula.
 - **Lottery Odds**: The math behind “What are my chances of winning the lottery?” is combinatorics, the study of how many possible ticket combinations exist.
-
   1. <u>Standard Jackpot Formula:</u>
 
-      For a lottery where you choose $k$ numbers from a pool of $n$, the total number of possible combinations is calculated using the Binomial Coefficient (often called "$n$ choose $k$"):
-      
-      $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
-      
-      - **$n$**: Total numbers in the pool (e.g., $49$ or $69$).
-      - **$k$**: How many numbers you must pick (e.g., $6$).
-      - **$!$ (Factorial)**: Multiply the number by every whole number below it down to $1$.
-      
-      $$\frac{49!}{6!(49-6)!} = 13,983,816 $$
-      The odds are $1$ in $13,983,816$.
+     For a lottery where you choose $k$ numbers from a pool of $n$, the total number of possible combinations is calculated using the Binomial Coefficient (often called "$n$ choose $k$"):
+
+     $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+     - **$n$**: Total numbers in the pool (e.g., $49$ or $69$).
+     - **$k$**: How many numbers you must pick (e.g., $6$).
+     - **$!$ (Factorial)**: Multiply the number by every whole number below it down to $1$.
+
+     $$\frac{49!}{6!(49-6)!} = 13,983,816 $$
+     The odds are $1$ in $13,983,816$.
 
   2. <u>Odds for Arithmetic Patterns:</u>
 
-      The math for a specific sequence, such as the arithmetic progression $\{2, 4, 6, 8, 10, 12\}$, is identical to any other combination:
-      
-      - The specific pattern counts as **$1$** possible outcome.
-      - The denominator is the total combinations $\displaystyle \binom{n}{k}$.
-      
-      The odds of hitting $\{2, 4, 6, 8, 10, 12\}$ are identical to hitting $\{1, 19, 23, 31, 44, 48\}$. Both are **$1$ in $13,983,816$**.
+     The math for a specific sequence, such as the arithmetic progression $\{2, 4, 6, 8, 10, 12\}$, is identical to any other combination:
+     - The specific pattern counts as **$1$** possible outcome.
+     - The denominator is the total combinations $\displaystyle \binom{n}{k}$.
+
+     The odds of hitting $\{2, 4, 6, 8, 10, 12\}$ are identical to hitting $\{1, 19, 23, 31, 44, 48\}$. Both are **$1$ in $13,983,816$**.
 
   3. <u>The Hypergeometric Distribution:</u>
 
-      To find the odds of matching some but not all numbers (e.g., getting $3$ out of $6$ correct), use the Hypergeometric Distribution formula:
-      
-      $$ P(X=k) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}$$
-      
-      - **$N$**: Total pool size.
-      - **$n$**: Numbers you picked.
-      - **$K$**: Number of winning balls drawn.
-      - **$k$**: Number of your balls that must match the winning balls.
+     To find the odds of matching some but not all numbers (e.g., getting $3$ out of $6$ correct), use the Hypergeometric Distribution formula:
+
+     $$ P(X=k) = \frac{\binom{K}{k} \binom{N-K}{n-k}}{\binom{N}{n}}$$
+     - **$N$**: Total pool size.
+     - **$n$**: Numbers you picked.
+     - **$K$**: Number of winning balls drawn.
+     - **$k$**: Number of your balls that must match the winning balls.
 
 | Event                                       | Odds (1 in X)    |
 | :------------------------------------------ | :--------------- |
@@ -767,6 +752,32 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 | **Being Struck by Lightning** (Lifetime)    | $\sim 15,300$    |
 | **Making a Hole-in-One** (Amateur)          | $\sim 12,500$    |
 | **Being Bitten by a Shark**                 | $\sim 3,700,000$ |
+
+---
+
+
+### Ramsey Theory
+
+- The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory is all about finding "order in chaos." Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns
+- Ramsey Theory is a branch of combinatorics in mathematics that studies conditions under which order must emerge within large, chaotic systems. It posits that "complete disorder is impossible"—if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear
+- **The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property.
+  - Finite Ramsey's Theorem for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
+  - <u>Existence of Order</u>: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
+  - <u>The "Least Number" Property</u>: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
+  - While the "party" version is a popular way to explain it, the exact theorem is a pillar of combinatorics. In graph theory terms:
+    - <u>Complete Graph ($K_N$)</u>: A network where every pair of vertices (people) is connected by an edge.
+    - <u>Bicoloring</u>: Assigning one of two colors (usually red and blue) to every edge in the graph.
+    - <u>Monochromatic Clique</u>: A subset of vertices where every single connecting edge is the same color
+  - Common Values and Limits:
+    - $R(3,3) = 6$: It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers.
+![](r3_3.png)
+    - $R(4,3) = R(3,4) = 9$
+![](r3_4.png)
+    - $R(4,4) = 18$: For four mutual friends/strangers, you need a group of 18
+    - $R(5,5)$: Despite the theorem proving these numbers exist, we still do not know the exact value for $R(5,5)$, which is currently bounded between 43 and 48.
+
+- **Constellations in the Sky**: Ramsey theory explains why we see shapes like the Big Dipper. It isn’t because the stars were placed in a specific design; it’s because in any sufficiently large “chaos” of random points (stars), you are guaranteed to be able to find any small geometric pattern you want if you look hard enough.
+- **Data in Large Networks**: In massive computer networks or social media datasets, “random” spikes in activity aren’t always meaningful. Ramsey theory suggests that, in a sufficiently large stream of data, certain clusters or patterns will appear purely by chance, which helps computer scientists distinguish between true signals and mathematical inevitability
 
 ---
 
@@ -832,7 +843,7 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
 - An eigenvector is a direction that does not change when a transformation is applied - it just gets stretched or compressed. The eigenvalue is how much it stretches. The transformation (stretching) takes a vector ($v$) and multiplies it by a scalar factor ($\lambda$). The result is the same as just stretching that specific line in place, preserving its direction
 - **Pull a rubber band**: In mathematical terms, stretching a rubber band acts as a linear transformation that preserves the orientation of specific, privileged lines. The direction along its length does not rotate; it just gets longer. That direction is the eigenvector; how much longer it gets is the eigenvalue.
-- **The Mirror Reflection**: The reflection itself maps every point on your body to a point in "mirror space". 
+- **The Mirror Reflection**: The reflection itself maps every point on your body to a point in "mirror space".
   - Eigenvectors:
     - Side-to-side/Up-and-down: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
     - Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1
@@ -841,7 +852,7 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
   - Eigenvectors: The specific shapes the string takes (the fundamental tone and overtones). These are the only ways the string can move without the pattern twisting into chaos.
   - Eigenvalues: The frequencies (pitch) of those notes. The eigenvalues determine how fast the string vibrates
 - **Google’s original PageRank algorithm** - the system that decides which web pages appear first in search results - is fundamentally an eigenvector computation. The “most important” page is the eigenvector of the web’s link graph (Brin and Page 109).
-- **Facial Recognition (Eigenfaces)**: Computers see faces not as people, but as huge grids of numbers (pixels). 
+- **Facial Recognition (Eigenfaces)**: Computers see faces not as people, but as huge grids of numbers (pixels).
   - The Transformation: An algorithm analyzing a database of thousands of faces.
   - Eigenvectors: These are called "Eigenfaces"—ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). “Eigenfaces” are the fundamental patterns that all faces can be decomposed into. The technology on your phone that unlocks when it sees your face is built on eigenvectors.
   - Eigenvalues: The importance of each feature. A high eigenvalue means that specific "feature" (like eye spacing) is very useful for telling two people apart
@@ -861,7 +872,7 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 - **Medical Imaging (MRI, CT scans)**: These machines use the Fourier Transform to reconstruct images of your body from the raw data they collect.
 - **Seismology**: Scientists use the Fourier Transform to analyze earthquake waves and determine which frequencies are present, helping them understand the earthquake’s characteristics.
 - **Prism Analogy**: Just as a prism splits white light into its component colors, the Fourier Transform splits a signal into its component frequencies.
-- **Cell Phone Signals**: When you talk on the phone, your voice is converted into signals made of many frequencies. The Fourier Transform helps separate, process, and decode these signals. 
+- **Cell Phone Signals**: When you talk on the phone, your voice is converted into signals made of many frequencies. The Fourier Transform helps separate, process, and decode these signals.
 
 ---
 
@@ -1020,7 +1031,7 @@ To continue building your confidence, seek out resources that present mathematic
 
 ## References
 
-Abbott, Martin, et al. Winning the Math Wars: No Teacher Left Behind. University of Washington Press, 2010. JSTOR, http://www.jstor.org/stable/j.ctvcwnf7z. Accessed 15 Apr. 2026.
+Abbott, Martin, et al. Winning the Math Wars: No Teacher Left Behind. University of Washington Press, 2010. JSTOR, <http://www.jstor.org/stable/j.ctvcwnf7z>. Accessed 15 Apr. 2026.
 
 Al-Naim, Fatima, and Wael Mefi. "A Meta-Analysis of the Effectiveness of Interventions to Reduce Math Anxiety." Cypriot Journal of Educational Sciences, vol. 18, no. 3, 2023, pp. 869-885. Accessed 12 Apr. 2026.
 
@@ -1078,6 +1089,8 @@ Ferreira, Roberto A., et al. "The Interplay of Vocabulary, Working Memory, and M
 
 Finlayson, Maureen. "Addressing Math Anxiety in the Classroom." Journal of Curriculum and Teaching, vol. 3, no. 2, 2014, pp. 108-115.
 
+Gal, Iddo, et al. "Numeracy, adult education, and vulnerable adults: a critical view of a neglected field." ZDM – Mathematics Education, vol. 52, 2020. <https://doi.org/10.1007/s11858-020-01155-9>
+
 Garland, Ken. Mr Beck's Underground Map. Capital Transport Publishing, 1994.
 
 Ghosh, Chaitali, and Trisha Banerjee. "Integrating Indigenous Mathematical Knowledge into Contemporary Education: Relevance, Pedagogical Implications, and Sustainable Perspectives." EPRA International Journal of Multidisciplinary Research, Apr. 2026, <https://eprajournals.com/IJMR/article/19532>. Accessed 9 Apr. 2026.
@@ -1094,9 +1107,9 @@ iD Tech. "STEM Education Statistics." iD Tech, 2025, <www.idtech.com/blog/stem-e
 
 Kabuye Batiibwe, Marjorie Sarah. "The Role of Ethnomathematics in Mathematics Education: A Literature Review." Asian Journal for Mathematics Education, 2024, pp. 383-405, <https://journals.sagepub.com/doi/pdf/10.1177/27527263241300400>. Accessed 12 Apr. 2026.
 
-Joseph, George Gheverghese. The Crest of the Peacock: Non-European Roots of Mathematics (Third Edition). STU-Student edition, Princeton University Press, 2011. JSTOR, http://www.jstor.org/stable/j.ctt7sdsb. Accessed 15 Apr. 2026.
+Joseph, George Gheverghese. The Crest of the Peacock: Non-European Roots of Mathematics (Third Edition). STU-Student edition, Princeton University Press, 2011. JSTOR, <http://www.jstor.org/stable/j.ctt7sdsb>. Accessed 15 Apr. 2026.
 
-Kanu, Yatta, editor. Curriculum as Cultural Practice: Postcolonial Imaginations. University of Toronto Press, 2006. JSTOR, https://doi.org/10.3138/9781442686267. Accessed 15 Apr. 2026.
+Kanu, Yatta, editor. Curriculum as Cultural Practice: Postcolonial Imaginations. University of Toronto Press, 2006. JSTOR, <https://doi.org/10.3138/9781442686267>. Accessed 15 Apr. 2026.
 
 Lu, Peter J., and Paul J. Steinhardt. "Decagonal and Quasi-Crystalline Tilings in Medieval Islamic Architecture." Science, vol. 315, no. 5815, 2007, pp. 1106-1110, <doi:10.1126/science.1135491>. Accessed 12 Apr. 2026.
 
@@ -1104,15 +1117,21 @@ Lusardi, Annamaria, and Peter Tufano. "Debt Literacy, Financial Experiences, and
 
 Lyons, Ian M., and Sian L. Beilock. "When Math Hurts: Math Anxiety Predicts Pain Network Activation in Anticipation of Doing Math." PLoS ONE, vol. 7, no. 10, 2012, e48076, <doi:10.1371/journal.pone.0048076>. Accessed 12 Apr. 2026.
 
-Ma, Xin. “A Meta-Analysis of the Relationship between Anxiety toward Mathematics and Achievement in Mathematics.” Journal for Research in Mathematics Education, vol. 30, no. 5, 1999, pp. 520–40. JSTOR, https://doi.org/10.2307/749772. Accessed 12 Apr. 2026.
+Ma, Xin. “A Meta-Analysis of the Relationship between Anxiety toward Mathematics and Achievement in Mathematics.” Journal for Research in Mathematics Education, vol. 30, no. 5, 1999, pp. 520–40. JSTOR, <https://doi.org/10.2307/749772>. Accessed 12 Apr. 2026.
 
 Malanchini, Margherita, et al. "Math Anxiety in Parents and Children: Links and Mechanisms." Frontiers in Psychology, vol. 13, 2022, article 885152, <doi:10.3389/fpsyg.2022.885152>. Accessed 12 Apr. 2026.
 
-Millroy, Wendy L. “Exploring the Nature of Street Mathematics.” Street Mathematics and School Mathematicsby Terezinha Nunes et al. Journal for Research in Mathematics Education, vol. 25, no. 3, 1994, pp. 304–09. JSTOR, https://doi.org/10.2307/749340. Accessed 15 Apr. 2026.
+"Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents." Cognitive Therapy and Research, vol. 45, no. 5, 2021, pp. 1001-1011. <https://doi.org/10.1007/s10608-023-10390-9>
+
+Millroy, Wendy L. “Exploring the Nature of Street Mathematics.” Street Mathematics and School Mathematicsby Terezinha Nunes et al. Journal for Research in Mathematics Education, vol. 25, no. 3, 1994, pp. 304–09. JSTOR, <https://doi.org/10.2307/749340>. Accessed 15 Apr. 2026.
 
 Nunes, Terezinha, Analucia Dias Schliemann, and David William Carraher. Street Mathematics and School Mathematics. Cambridge UP, 1993.
 
 Oppenheim, Alan V., and Ronald W. Schafer. Discrete-Time Signal Processing. 3rd ed., Pearson, 2010.
+
+Opesemowo, Oluwaseyi Aina Gbolade, et al. "Improving Mathematics Performance Through After-School Interventions: A Gender-Based Analysis of Low-Achieving Students." Educ. Sci. 2025, 2025. <https://doi.org/10.3390/educsci15121587>
+
+Paechter, Manuela, et al. "From Early Interest to Career Persistence: Understanding and Supporting STEM Pathways." Educ. Sci. 2024, 2024. <https://doi.org/10.3390/educsci14070767>
 
 Pei, Yiru, Kin Keung Poon, and Anthony Suen. "Influence of Mathematics Anxiety on Mathematics Performance: Mediating Effects of Mathematical Engagement." Mathematics Education Research Journal, Springer, 2025, <doi:10.1007/s13394-025-00536-1>. Accessed 12 Apr. 2026.
 
@@ -1129,6 +1148,8 @@ Rada, Emily, and Anne M. Lucietto. "Math Anxiety - A Literature Review on Confou
 Rivest, Ronald L., Adi Shamir, and Leonard Adleman. "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems." Communications of the ACM, vol. 21, no. 2, 1978, pp. 120-126.
 
 Rosa, M., Orey, D.C. (2016). State of the Art in Ethnomathematics. In: Current and Future Perspectives of Ethnomathematics as a Program. ICME-13 Topical Surveys. Springer, Cham. <https://doi.org/10.1007/978-3-319-30120-4_3>
+
+Samuel, Tashana S., et al. "“I Can Math, Too!”: Reducing Math Anxiety in STEM-Related Courses Using a Combined Mindfulness and Growth Mindset Approach (MAGMA) in the Classroom." Community College Journal of Research and Practice, vol. 47, no. 10, 2022, pp. 613-626. <https://doi.org/10.1080/10668926.2022.2050843>
 
 Setiaputra, Felix Indra, et al. "A Systematic Review of Ethnomathematics Research (2019-2023): Cultural Integration in Mathematics Teaching and Learning." Jurnal Pendidikan MIPA, vol. 26, no. 1, 2025, pp. 195-211, <https://jpmipa.fkip.unila.ac.id/index.php/jpmipa/article/view/213>. Accessed 12 Apr. 2026.
 
@@ -1150,6 +1171,8 @@ Zhang, Jijun, Nan Zhao, and Qi-Ping Kong. "The Relationship Between Math Anxiety
 
 Barrow, Melissa A. "Even Math Requires Learning Academic Language." The Phi Delta Kappan, vol. 95, no. 6, 2014, pp. 35-38. JSTOR, <http://www.jstor.org/stable/24374510>. Accessed 13 Apr. 2026.
 
+"The secret language of peers: How peer behaviours signal mindset and influence classroom experiences." Psychology of Education Review, 2024. <https://doi.org/10.1080/02667363.2024.12590930>
+
 Fortescue, Chelsea M. "Using Oral and Written Language to Increase Understanding of Math Concepts." Language Arts, vol. 71, no. 8, 1994, pp. 576-80. JSTOR, <http://www.jstor.org/stable/41962011>. Accessed 13 Apr. 2026.
 
 Greenberg, Jan. "More, All Gone, Empty, Full: Math Talk Every Day in Every Way." YC Young Children, vol. 67, no. 3, 2012, pp. 62-64. JSTOR, <http://www.jstor.org/stable/42731176>. Accessed 13 Apr. 2026.
@@ -1160,24 +1183,24 @@ Faye Bruun, et al. "The Language of Mathematics." Teaching Children Mathematics,
 
 Knight, Lester N., and Charles H. Hargis. "Math Language Ability: Its Relationship to Reading in Math." Language Arts, vol. 54, no. 4, 1977, pp. 423-28. JSTOR, <http://www.jstor.org/stable/41404547>. Accessed 13 Apr. 2026.
 
-Knijnik, Gelsa. "Ethnomathematics: Culture and Politics of Knowledge in Mathematics Education." For the Learning of Mathematics, vol. 22, no. 1, 2002, pp. 11–14. JSTOR, http://www.jstor.org/stable/40248378. Accessed 15 Apr. 2026.
+Knijnik, Gelsa. "Ethnomathematics: Culture and Politics of Knowledge in Mathematics Education." For the Learning of Mathematics, vol. 22, no. 1, 2002, pp. 11–14. JSTOR, <http://www.jstor.org/stable/40248378>. Accessed 15 Apr. 2026.
 
 Munro, John. "Language Abilities and Maths Performance." The Reading Teacher, vol. 32, no. 8, 1979, pp. 900-15. JSTOR, <http://www.jstor.org/stable/20194911>. Accessed 13 Apr. 2026.
 
-Munetsi, Cribert. "Ethnomathematics." The Mathematics Teacher, vol. 88, no. 1, 1995, pp. 74–74. JSTOR, http://www.jstor.org/stable/27969197. Accessed 15 Apr. 2026.
+Munetsi, Cribert. "Ethnomathematics." The Mathematics Teacher, vol. 88, no. 1, 1995, pp. 74–74. JSTOR, <http://www.jstor.org/stable/27969197>. Accessed 15 Apr. 2026.
 
-Ortlieb, Evan, et al., editors. Disciplinary Literacies: Unpacking Research, Theory, and Practice. Guilford Press, 2024. JSTOR, http://www.jstor.org/stable/10.1521/jj.41115529. Accessed 15 Apr. 2026.
+Ortlieb, Evan, et al., editors. Disciplinary Literacies: Unpacking Research, Theory, and Practice. Guilford Press, 2024. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115529>. Accessed 15 Apr. 2026.
 
-Roberts, Gareth Ffowc. Count Us In: How to Make Maths Real for All of Us. 1st ed., University of Wales Press, 2016. JSTOR, https://doi.org/10.2307/jj.14491657. Accessed 15 Apr. 2026.
+Roberts, Gareth Ffowc. Count Us In: How to Make Maths Real for All of Us. 1st ed., University of Wales Press, 2016. JSTOR, <https://doi.org/10.2307/jj.14491657>. Accessed 15 Apr. 2026.
 
-Rowlands, Stuart, and Robert Carson. "Where Would Formal, Academic Mathematics Stand in a Curriculum Informed by Ethnomathematics? A Critical Review of Ethnomathematics." Educational Studies in Mathematics, vol. 50, no. 1, 2002, pp. 79–102. JSTOR, http://www.jstor.org/stable/3483053. Accessed 15 Apr. 2026.
+Rowlands, Stuart, and Robert Carson. "Where Would Formal, Academic Mathematics Stand in a Curriculum Informed by Ethnomathematics? A Critical Review of Ethnomathematics." Educational Studies in Mathematics, vol. 50, no. 1, 2002, pp. 79–102. JSTOR, <http://www.jstor.org/stable/3483053>. Accessed 15 Apr. 2026.
 
-Sillitoe, Paul, editor. Local Science Vs Global Science: Approaches to Indigenous Knowledge in International Development. 1st ed., vol. 4, Berghahn Books, 2009. JSTOR, https://doi.org/10.2307/j.ctt9qdfbm. Accessed 15 Apr. 2026.
+Sillitoe, Paul, editor. Local Science Vs Global Science: Approaches to Indigenous Knowledge in International Development. 1st ed., vol. 4, Berghahn Books, 2009. JSTOR, <https://doi.org/10.2307/j.ctt9qdfbm>. Accessed 15 Apr. 2026.
 
-Striphas, Ted. Algorithmic Culture Before the Internet. Columbia University Press, 2023. JSTOR, http://www.jstor.org/stable/10.7312/stri20668. Accessed 15 Apr. 2026.
+Striphas, Ted. Algorithmic Culture Before the Internet. Columbia University Press, 2023. JSTOR, <http://www.jstor.org/stable/10.7312/stri20668>. Accessed 15 Apr. 2026.
 
-Wynn, James, and G. Mitchell Reyes, editors. Arguing with Numbers: The Intersections of Rhetoric and Mathematics. vol. 16, Penn State University Press, 2021. JSTOR, https://doi.org/10.5325/j.ctv1mvw8dg. Accessed 15 Apr. 2026.
+Wynn, James, and G. Mitchell Reyes, editors. Arguing with Numbers: The Intersections of Rhetoric and Mathematics. vol. 16, Penn State University Press, 2021. JSTOR, <https://doi.org/10.5325/j.ctv1mvw8dg>. Accessed 15 Apr. 2026.
 
-Hersh, Reuben, and Vera John-Steiner. Loving and Hating Mathematics: Challenging the Myths of Mathematical Life. Princeton University Press, 2011. JSTOR, http://www.jstor.org/stable/j.ctt7s8zx. Accessed 15 Apr. 2026.
+Hersh, Reuben, and Vera John-Steiner. Loving and Hating Mathematics: Challenging the Myths of Mathematical Life. Princeton University Press, 2011. JSTOR, <http://www.jstor.org/stable/j.ctt7s8zx>. Accessed 15 Apr. 2026.
 
-Hottinger, Sara N. Inventing the Mathematician: Gender, Race, and Our Cultural Understanding of Mathematics. State University of New York Press, 2016. JSTOR, http://www.jstor.org/stable/jj.18255257. Accessed 15 Apr. 2026.
+Hottinger, Sara N. Inventing the Mathematician: Gender, Race, and Our Cultural Understanding of Mathematics. State University of New York Press, 2016. JSTOR, <http://www.jstor.org/stable/jj.18255257>. Accessed 15 Apr. 2026.
