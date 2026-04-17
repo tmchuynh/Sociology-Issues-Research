@@ -577,7 +577,7 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
 ### Ramsey Theory
 
-- The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things
+- The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory is all about finding "order in chaos."
 - Ramsey Theory is a branch of combinatorics in mathematics that studies conditions under which order must emerge within large, chaotic systems. It posits that "complete disorder is impossible"—if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear
 - **The Theorem on Friends and Strangers ($R(3,3) = 6$)**: This is the most famous everyday example. It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns
 - **Constellations in the Sky**: Ramsey theory explains why we see shapes like the Big Dipper. It isn’t because the stars were placed in a specific design; it’s because in any sufficiently large “chaos” of random points (stars), you are guaranteed to be able to find any small geometric pattern you want if you look hard enough.
@@ -830,10 +830,21 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
 ### Eigenvalue / Eigenvector
 
-- An eigenvector is a direction that does not change when a transformation is applied - it just gets stretched or compressed. The eigenvalue is how much it stretches.
-- **Pull a rubber band**: the direction along its length does not rotate; it just gets longer. That direction is the eigenvector; how much longer it gets is the eigenvalue.
+- An eigenvector is a direction that does not change when a transformation is applied - it just gets stretched or compressed. The eigenvalue is how much it stretches. The transformation (stretching) takes a vector ($v$) and multiplies it by a scalar factor ($\lambda$). The result is the same as just stretching that specific line in place, preserving its direction
+- **Pull a rubber band**: In mathematical terms, stretching a rubber band acts as a linear transformation that preserves the orientation of specific, privileged lines. The direction along its length does not rotate; it just gets longer. That direction is the eigenvector; how much longer it gets is the eigenvalue.
+- **The Mirror Reflection**: The reflection itself maps every point on your body to a point in "mirror space". 
+  - Eigenvectors:
+    - Side-to-side/Up-and-down: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
+    - Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1
+- **Musical Instruments (Resonance)**: When you pluck a guitar string, it vibrates in specific patterns called "harmonics."
+  - The Transformation: The physical laws governing the string's vibration.
+  - Eigenvectors: The specific shapes the string takes (the fundamental tone and overtones). These are the only ways the string can move without the pattern twisting into chaos.
+  - Eigenvalues: The frequencies (pitch) of those notes. The eigenvalues determine how fast the string vibrates
 - **Google’s original PageRank algorithm** - the system that decides which web pages appear first in search results - is fundamentally an eigenvector computation. The “most important” page is the eigenvector of the web’s link graph (Brin and Page 109).
-- **In facial recognition software**, “eigenfaces” are the fundamental patterns that all faces can be decomposed into. The technology on your phone that unlocks when it sees your face is built on eigenvectors.
+- **Facial Recognition (Eigenfaces)**: Computers see faces not as people, but as huge grids of numbers (pixels). 
+  - The Transformation: An algorithm analyzing a database of thousands of faces.
+  - Eigenvectors: These are called "Eigenfaces"—ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). “Eigenfaces” are the fundamental patterns that all faces can be decomposed into. The technology on your phone that unlocks when it sees your face is built on eigenvectors.
+  - Eigenvalues: The importance of each feature. A high eigenvalue means that specific "feature" (like eye spacing) is very useful for telling two people apart
 
 ---
 
@@ -841,13 +852,16 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
 - The Fourier Transform is a mathematical tool that takes a complex signal or pattern (such as a sound wave, image, or data series) and decomposes it into a sum of simple waves (sines and cosines) of different frequencies. In other words, it’s like discovering what “notes” make up a complicated song, or what “colors” make up a complicated image.
 - **Music and Sound**: When you play a chord on a piano, the sound you hear is made up of many notes (frequencies) at once. The Fourier Transform tells you exactly which notes (frequencies) and how loud each one is. Equalizers on audio equipment (bass and treble sliders) work by adjusting the strength of different frequency components, as determined by the Fourier Transform.
+  - **Piano Chords**: When a chord is played, it produces a composite sound wave made of multiple notes, overtones, and harmonics. A Fourier Transform analyzes this complex wave, generating a spectrum that displays individual frequencies as peaks
+  - **Timbre/Sound Quality**: The unique sound (timbre) of an instrument is defined by its fundamental frequency (the base note) and its overtones, which the Fourier Transform can identify
+  - **Pitch Detection**: Algorithms use the Fast Fourier Transform (FFT) to convert digital audio signals from the time domain (amplitude over time) to the frequency domain to determine which notes are being played
 - **Signal Processing**: The Fourier Transform converts a function (such as a sound wave) from the time domain to the frequency domain, revealing the frequencies present and their amplitudes.
 - **Periodic Functions**: Any repeating function can be written as a sum of sines and cosines-a core idea behind the Fourier Transform.
 - **Image Compression (JPEG)**: Your camera or phone uses a variant of the Fourier Transform to break images into patterns of different frequencies, making them easier to compress and store efficiently.
 - **Medical Imaging (MRI, CT scans)**: These machines use the Fourier Transform to reconstruct images of your body from the raw data they collect.
 - **Seismology**: Scientists use the Fourier Transform to analyze earthquake waves and determine which frequencies are present, helping them understand the earthquake’s characteristics.
 - **Prism Analogy**: Just as a prism splits white light into its component colors, the Fourier Transform splits a signal into its component frequencies.
-- **Cell Phone Signals**: When you talk on the phone, your voice is converted into signals made of many frequencies. The Fourier Transform helps separate, process, and decode these signals.
+- **Cell Phone Signals**: When you talk on the phone, your voice is converted into signals made of many frequencies. The Fourier Transform helps separate, process, and decode these signals. 
 
 ---
 
