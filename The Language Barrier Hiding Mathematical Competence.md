@@ -797,18 +797,24 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
 - Graph theory studies networks of connections. In math, a “graph” is not a plot or chart-it’s a collection of points (called vertices or nodes) connected by lines (called edges). Graph theory explores how things are linked together, how you can move through networks, and what patterns or structures emerge.
 - Graph theory is the mathematics of connections and networks. It is everywhere in daily life and technology, from social media and transportation to biology and project management. It helps us understand and optimize the many webs of relationships that connect the world.
-- **Social Networks**: Each person is a node, and a friendship or “follow” is an edge. Graph theory helps analyze how people are connected, how information spreads, or who is most “central” in a group.
+- Directed Acyclic Graph (DAG)
+  - Nodes ($V$): Represent individual tasks.
+  - Directed Edges ($E$): An edge from task $A$ to task $B$ ($A \to B$) represents a precedence constraint, meaning $A$ must be finished before $B$ starts.
+  - Acyclic Property: The graph must be acyclic (no loops). If a cycle exists (e.g., $A \to B \to C \to A$), the project is mathematically impossible to complete because each task is waiting on itself.
 - **Internet and Webpages**: Each webpage is a node; hyperlinks are edges. Search engines use graph theory to rank and find pages.
 - **Google Maps Routing**: Finding the fastest path through a web of roads with varying traffic is a weighted graph problem, solved by algorithms like Dijkstra’s algorithm billions of times per day (Dijkstra 269).
 - **Network Route Planning**: Airline route planning, subway maps, internet packet routing, LinkedIn’s “2nd degree connections,” and even the spread of a virus through a population are all modeled by graph theory.
 - **Family Trees**: Family members are nodes, relationships (parent, child) are edges. Graph theory helps visualize and analyze ancestry.
 - **Google PageRank**: The original Google Search algorithm treated the entire internet as a giant graph. A page’s “importance” (rank) was determined by how many other important nodes (websites) were pointing to it
-- **Project Planning (Workflow)**: Tasks are nodes; dependencies (“do A before B”) are edges. This helps schedule or optimize large projects.
 - **Shortest Path Algorithms**: Dijkstra’s algorithm finds the shortest route between two nodes.
 - **Network Flow**: Figuring out the most efficient way to send goods through a network.
 - **Coloring Problems**: Assigning colors to nodes so that no two connected nodes share the same color
 - **The Polynesian “star compass” system is, structurally, a graph**: islands are vertices, and the star-path routes connecting them are edges. Navigators memorized which routes connected which islands and in what sequence - they were traversing a mental graph, solving shortest-path and connectivity problems through oral tradition rather than Dijkstra’s algorithm (Gladwin 135).
 - **Trade networks in pre-colonial Africa and the Inca road system (Qhapaq Ñan) were graph structures**: settlements were nodes, trade routes were edges, and the flow of goods followed paths through the network. Administrators optimized these routes for speed and resource distribution - graph theory applied at the scale of an empire, without the formal vocabulary.
+- **Project Planning (Workflow)**: Tasks are nodes; dependencies (“do A before B”) are edges. This helps schedule or optimize large projects.
+
+
+- **Social Networks**: Each person is a node, and a friendship or “follow” is an edge. Graph theory helps analyze how people are connected, how information spreads, or who is most “central” in a group.
 
 ---
 
