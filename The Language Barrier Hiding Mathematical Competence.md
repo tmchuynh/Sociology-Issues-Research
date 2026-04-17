@@ -2,9 +2,7 @@
 
 ## The Issue
 
-Mathematics is often seen as a difficult subject, with 64% of Americans reporting some level of math anxiety and 13% experiencing severe anxiety (Prodigy Education). Nearly half say this anxiety has impacted their academic or professional paths, and 37% note effects on financial decisions such as budgeting and investing (Prodigy Education). Math anxiety is common, but it does not indicate a lack of ability. Research by Sheila Tobias (1978) and recent studies show that linguistic and psychological barriers, rather than conceptual ones, often hinder progress in advanced mathematics (Tobias 65; Ma 525; Zhang et al.; Ferreira et al.). Recognizing this, educators can help students succeed by addressing communication and presentation challenges.
-
-Many people intuitively understand mathematical concepts but struggle with Greek letters, formal notation, and technical jargon. Everyday tasks-such as doubling a recipe, coordinating time zones, finding the fastest route, or estimating if furniture fits through a doorway-use mathematical principles like proportional reasoning and spatial geometry, even if the terminology is unfamiliar. For instance, while "diffeomorphism" may sound complex, its core idea-smoothly transforming an object without tearing it, like stretching pizza dough-is accessible to all learners.
+Mathematics is often seen as a difficult subject, with 64% of Americans reporting some level of math anxiety and 13% experiencing severe anxiety (Prodigy Education). Nearly half say this anxiety has impacted their academic or professional paths, and 37% note effects on financial decisions such as budgeting and investing (Prodigy Education). Math anxiety is common, but it does not indicate a lack of ability. Research by Sheila Tobias (1978) and recent studies show that linguistic and psychological barriers, rather than conceptual ones, often hinder progress in advanced mathematics (Tobias 65; Ma 525; Zhang et al.; Ferreira et al.). Recognizing this, educators can help students succeed by addressing communication and presentation challenges. Many people intuitively understand mathematical concepts but struggle with Greek letters, formal notation, and technical jargon. Everyday tasks-such as doubling a recipe, coordinating time zones, finding the fastest route, or estimating if furniture fits through a doorway-use mathematical principles like proportional reasoning and spatial geometry, even if the terminology is unfamiliar. For instance, while "diffeomorphism" may sound complex, its core idea-smoothly transforming an object without tearing it, like stretching pizza dough-is accessible to all learners.
 
 Students who struggle with mathematics should understand that these challenges are common and do not reflect their potential. Confusion or anxiety often arises from learning mathematical language, but with support, these barriers can be overcome. Keeping a math vocabulary journal, defining new terms in your own words with examples, and seeking plain-language explanations or real-life scenarios can improve understanding. These steps help translate formal concepts into familiar ideas. Research consistently shows that mathematics itself is not inaccessible; rather, its language can create unnecessary barriers (Tobias 65; Ferreira et al.).
 
@@ -109,7 +107,7 @@ Students who struggle with mathematics should understand that these challenges a
 
 - Pei, Poon, and Suen found in 2025 that mathematical engagement mediates the relationship between anxiety and performance. Students guided to engage with concepts through plain language and real-world framing showed significantly reduced anxiety, demonstrating that how math is presented matters more than what is presented (Pei et al.).
 - Holenstein et al.'s longitudinal study demonstrated significant transfer effects of mathematical literacy: students who develop strong mathematical literacy - the ability to interpret, communicate, and reason with mathematical ideas in context - show improved performance across domains. Critically, literacy (language-based competence) predicted transfer more strongly than procedural skill, confirming that linguistic fluency is the foundation for mathematical flexibility (Holenstein et al. 810-820).
-- Abrantes argued for “Mathematical Competence for All,” examining the institutional and pedagogical obstacles that prevent universal access. The barriers are not cognitive - they are structural, linguistic, and pedagogical. When mathematics is presented as an accessible language rather than an exclusive code, competence becomes achievable for all learners (Abrantes 130-140). 
+- Abrantes argued for “Mathematical Competence for All,” examining the institutional and pedagogical obstacles that prevent universal access. The barriers are not cognitive - they are structural, linguistic, and pedagogical. When mathematics is presented as an accessible language rather than an exclusive code, competence becomes achievable for all learners (Abrantes 130-140).
 - Hodkowski reported on the ongoing conceptual vs. procedural debate, concluding that conceptual understanding - grasping the “why” - leads to more robust and transferable mathematical thinking than procedural fluency alone. Relying on algorithms and jargon without conceptual context can leave students struggling even when they intuitively understand the ideas (Hodkowski).
 - Abbott et al. chronicle the “math wars”—decades of contentious debates over curriculum and pedagogy—demonstrating that disagreements about how to teach mathematics often reflect deeper tensions about access, equity, and whose mathematical knowledge counts as legitimate (Abbott et al.).
 - Nunes, Schliemann, and Carraher’s ethnomathematics research further supports this: mathematical reasoning embedded in meaningful, real-world contexts consistently produces higher accuracy and confidence than identical reasoning presented in abstract formal notation (Nunes et al. 40-55).
@@ -676,12 +674,12 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
       When a "at least one" requirement is added, the easiest math is Total Combinations minus Illegal Combinations (those with zero capitals).
       - Pool: 26 lowercase + 26 uppercase = 52 total.
-      - Formula: 
+      - Formula:
         $$(\text{Total})^L - (\text{LowercaseOnly})^L \rightarrow 52^L - 26^L \rightarrow 52^6 - 26^6 = 19,468,362,432$$
       - Using a summation, we count every case where the number of capitals ( $k$ ) ranges from 1 to the total length ( $L$ ):
         $$\sum_{k=1}^{L} \left( \binom{L}{k} \times 26^k \times 26^{L-k} \right) $$
 
-  1.  <u>At Least One Capital AND One Number</u>
+  3.  <u>At Least One Capital AND One Number</u>
 
       Now we subtract all "illegal" sets using the Principle of Inclusion-Exclusion.
       - Pool: 26 lowercase + 26 uppercase + 10 numbers = 62 total.
@@ -692,7 +690,7 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 
         This multinomial approach counts all valid permutations of ( $j$ ) capitals, ( $k$ ) numbers, and the remaining lowercase letters.
 
-  2.  <u>At Least One Capital, One Number AND One Special Character</u>
+  4.  <u>At Least One Capital, One Number AND One Special Character</u>
 
       This requires a full Inclusion-Exclusion for three sets.
       - Pool: 26 lowercase + 26 uppercase + 10 numbers + 32 special = 94 total.
@@ -703,7 +701,7 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
         **Note**: The summation continues as long as ($c + n + s \le L$).
 
 | Requirement                     | Simplified Summation Form                                                                                | Total Combinations     |
-| :------------------------------ | :------------------------------------------------------------------------------------- | :--------------------- |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------- | :--------------------- |
 | Lowercase Only                  | $\displaystyle \sum_{i=1}^{6} 26^i$                                                                      | $3.08 \times 10^8$     |
 | At least 1 Cap                  | $\displaystyle \sum_{k=1}^{6} \binom{6}{k} 26^6$                                                         | $1.946 \times 10^{10}$ |
 | At least 1 Cap + 1 Num          | $\displaystyle \sum_{j=1}^{5} \sum_{k=1}^{6-j} \frac{6!}{j!k!(6-j-k)!} 26^{6-k} 10^k$                    | $3.591 \times 10^{10}$ |
@@ -741,41 +739,43 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
      - **$K$**: Number of winning balls drawn.
      - **$k$**: Number of your balls that must match the winning balls.
 
-| Event                                       | Odds (1 in X)    |
-| :------------------------------------------ | :--------------- |
-| **Winning Mega Millions Jackpot**           | $302,575,350$    |
-| **Winning Powerball Jackpot**               | $292,201,338$    |
-| **Winning a standard 6/49 Lottery**         | $13,983,816$     |
-| **Becoming an Astronaut** (NASA 2024 class) | $\sim 1,500$     |
-| **Being Struck by Lightning** (Lifetime)    | $\sim 15,300$    |
-| **Making a Hole-in-One** (Amateur)          | $\sim 12,500$    |
-| **Being Bitten by a Shark**                 | $\sim 3,700,000$ |
+| Event                                                     | Odds (1 in X)                      |
+| :-------------------------------------------------------- | :--------------------------------- |
+| **Winning Mega Millions Jackpot**                         | $302,575,350$                      |
+| **Winning Powerball Jackpot**                             | $292,201,338$                      |
+| **Winning a standard 6/49 Lottery**                       | $13,983,816$                       |
+| **Being Struck by Lightning** (Lifetime)                  | $\sim 15,300$                      |
+| **Making a Hole-in-One** (Amateur)                        | $\sim 12,500$ (per par-3 hole)     |
+| **Being Injured by a Toilet** (Annually)                  | $\sim 10,000$                      |
+| **Being Bitten by a Shark**                               | $\sim 3,700,000$ (per beach visit) |
+| **Being Killed by a Shark** (Lifetime)                    | $\sim 4, 332, 817$                 |
+| **An Average Person Winning an Olympic Medal** (Lifetime) | $\sim 662, 000$                    |
+| **Being Killed by a Vending Machine** (Annually)          | $\sim 112,000,000$                 |
 
 ---
 
-
 ### Ramsey Theory
 
-- The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory is all about finding "order in chaos." Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns
-- Ramsey Theory is a branch of combinatorics in mathematics that studies conditions under which order must emerge within large, chaotic systems. It posits that "complete disorder is impossible"—if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear
-- **The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property.
-  - Finite Ramsey's Theorem for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
+- The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns — that "complete disorder is impossible", if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear — the "order in chaos."
+- **The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property (Klop).
+  - **Finite Ramsey's Theorem** for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
   - <u>Existence of Order</u>: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
   - <u>The "Least Number" Property</u>: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
   - While the "party" version is a popular way to explain it, the exact theorem is a pillar of combinatorics. In graph theory terms:
-    - <u>Complete Graph ($K_N$)</u>: A network where every pair of vertices (people) is connected by an edge.
-    - <u>Bicoloring</u>: Assigning one of two colors (usually red and blue) to every edge in the graph.
-    - <u>Monochromatic Clique</u>: A subset of vertices where every single connecting edge is the same color
-  - Common Values and Limits:
+    - <i>Complete Graph ( $K_N$ )</i>: A network where every pair of vertices (people) is connected by an edge.
+    - <i>Bicoloring</i>: Assigning one of two colors (usually red and blue) to every edge in the graph.
+    - <i>Monochromatic Clique</i>: A subset of vertices where every single connecting edge is the same color
+  - Common Values and Limits (Klop):
     - $R(3,3) = 6$: It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers.
-![](r3_3.png)
-    - $R(4,3) = R(3,4) = 9$
-![](r3_4.png)
-    - $R(4,4) = 18$: For four mutual friends/strangers, you need a group of 18
-    - $R(5,5)$: Despite the theorem proving these numbers exist, we still do not know the exact value for $R(5,5)$, which is currently bounded between 43 and 48.
 
-- **Constellations in the Sky**: Ramsey theory explains why we see shapes like the Big Dipper. It isn’t because the stars were placed in a specific design; it’s because in any sufficiently large “chaos” of random points (stars), you are guaranteed to be able to find any small geometric pattern you want if you look hard enough.
-- **Data in Large Networks**: In massive computer networks or social media datasets, “random” spikes in activity aren’t always meaningful. Ramsey theory suggests that, in a sufficiently large stream of data, certain clusters or patterns will appear purely by chance, which helps computer scientists distinguish between true signals and mathematical inevitability
+      "A party of 6 always contains a trio of mutual friends, or a trio of mutual strangers. Red edges indicate pairs of friends, blue lines connect strangers. The three green nodes indicate the (only) trio of mutual friends."
+
+    ![](r3_3.png)
+    - $R(4,3) = R(3,4) = 9$: "A party of 9 people will always contain a trio (red), or a quartet of mutual friends of mutual strangers (blue)."
+      ![](r3_4.png)
+    - $R(4,4) = 18$: For four mutual friends/strangers, you need a group of $18$
+    - $R(5,5)$: Despite the theorem proving these numbers exist, we still do not know the exact value for $R(5,5)$, which is currently bounded between $43$ and $48$.
+
 
 ---
 
@@ -927,7 +927,7 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
 #### Teach the Language Explicitly
 
 - Mathematical vocabulary and notation should be taught as a language, using deliberate scaffolding, practice, and patience similar to learning a foreign language (Sfard 95).
-- Introduce concepts using plain language and real-world examples before gradually adding formal notation, rather than expecting students to absorb notation implicitly (Finlayson 112).  When mathematics is introduced in ways that feel disconnected from real-life applications, lack visual support, or are delivered without adapting to students' backgrounds, anxiety is more likely to arise. By clarifying which elements of presentation and framing contribute most to anxiety, researchers and educators can more effectively target interventions.
+- Introduce concepts using plain language and real-world examples before gradually adding formal notation, rather than expecting students to absorb notation implicitly (Finlayson 112). When mathematics is introduced in ways that feel disconnected from real-life applications, lack visual support, or are delivered without adapting to students' backgrounds, anxiety is more likely to arise. By clarifying which elements of presentation and framing contribute most to anxiety, researchers and educators can more effectively target interventions.
 - Teachers should provide tools and supports to help students acquire and use mathematical language confidently. Example scaffolding tools include vocabulary journals for recording new terms and analogies, sentence frames that guide students in explaining mathematical ideas in their own words, and translation exercises that ask students to restate formal notation or definitions in everyday language. These concrete supports help make mathematical language accessible and reduce intimidation. Sample templates teachers can adapt directly for the classroom can look like:
 
 **Sample Math Vocabulary Journal Entry:**
@@ -1190,6 +1190,8 @@ Knijnik, Gelsa. "Ethnomathematics: Culture and Politics of Knowledge in Mathemat
 Munro, John. "Language Abilities and Maths Performance." The Reading Teacher, vol. 32, no. 8, 1979, pp. 900-15. JSTOR, <http://www.jstor.org/stable/20194911>. Accessed 13 Apr. 2026.
 
 Munetsi, Cribert. "Ethnomathematics." The Mathematics Teacher, vol. 88, no. 1, 1995, pp. 74–74. JSTOR, <http://www.jstor.org/stable/27969197>. Accessed 15 Apr. 2026.
+
+Klop, Jan Willem. "Ramsey Theory: An Aha! Insight." 2023, <https://janwillemklop.com/wp-content/uploads/2023/08/ramsey-aha-insight.pdf>. Accessed 16 Apr. 2026.
 
 Ortlieb, Evan, et al., editors. Disciplinary Literacies: Unpacking Research, Theory, and Practice. Guilford Press, 2024. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115529>. Accessed 15 Apr. 2026.
 
