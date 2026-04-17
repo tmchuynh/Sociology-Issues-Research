@@ -41,8 +41,8 @@ Students who struggle with mathematics should understand that these challenges a
 
 #### Anxiety Drives Career Avoidance
 
-- Ferdinand, Malanchini, and Rimfeld found in 2024 that math anxiety independently predicts lower STEM career choice in emerging adulthood, even after controlling for actual math ability. This means the anxiety itself - not any underlying skill gap - is what keeps people from pursuing STEM careers (Ferdinand et al.).
-- Özdemir found in 2023 that math anxiety does not merely reduce performance - it reduces self-efficacy, which in turn reduces STEM career interest. The pathway is sequential: anxiety → diminished belief in one's own ability → diminished interest in pursuing math-related fields. This means math anxiety causes career avoidance not by making people less capable, but by making them believe they are less capable (Özdemir 7-9).
+- Ferdinand, Malanchini, and Rimfeld found in 2024 that math anxiety independently predicts lower STEM career choice in emerging adults, even after accounting for actual math ability. This indicates that anxiety itself, not a skill gap, deters individuals from pursuing STEM careers (Ferdinand et al.).
+- Özdemir found in 2023 that math anxiety reduces self-efficacy, thereby lowering interest in STEM careers. The sequence is clear: anxiety leads to diminished self-belief, which reduces interest in math-related fields. Thus, math anxiety causes career avoidance by undermining confidence rather than ability (Özdemir 7-9).
 
 ---
 
