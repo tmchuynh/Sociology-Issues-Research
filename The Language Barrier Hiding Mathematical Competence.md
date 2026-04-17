@@ -776,6 +776,20 @@ The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 
     - $R(4,4) = 18$: For four mutual friends/strangers, you need a group of $18$
     - $R(5,5)$: Despite the theorem proving these numbers exist, we still do not know the exact value for $R(5,5)$, which is currently bounded between $43$ and $48$.
 
+### Dirichlet's Box Principle (The Pigeonhole Principle)
+
+- This is one of the simplest yet most powerful ideas in mathematics. If you have more items than containers, at least one container must hold more than one item. Formally: if $n$ items are placed into $m$ containers, and $n > m$, then at least one container must contain more than one item.
+- Also known as Dirichlet's box principle or Dirichlet's drawer principle, named after German mathematician Peter Gustav Lejeune Dirichlet (1805-1859)
+- Despite its simplicity, the pigeonhole principle is a fundamental tool in combinatorics and is closely related to Ramsey Theory—both guarantee that certain patterns must appear when a structure is large enough
+- <u>The Basic Principle</u>: If you try to put 11 pigeons into 10 pigeonholes, at least one pigeonhole must contain at least 2 pigeons. More generally, if you have $n$ pigeons and $m$ holes where $n > m$, at least one hole must contain at least $\lceil \frac{n}{m} \rceil$ pigeons (the ceiling function rounds up to the nearest integer).
+- <u>The Strong Pigeonhole Principle</u>: If $n$ items are distributed among $m$ containers, then at least one container must hold at least $\lceil \frac{n}{m} \rceil$ items. For example, if you distribute 100 items into 7 containers, at least one container must hold at least $\lceil \frac{100}{7} \rceil = 15$ items.
+- **Birthday Matching**: In any group of 367 people, at least two must share the same birthday (ignoring leap years). There are only 366 possible birthdays (including February 29), so by the pigeonhole principle, with 367 people, at least one birthday must be shared. More surprisingly, in a group of just 23 people, there's a better than 50% chance that two people share a birthday—though this requires probability theory beyond the basic pigeonhole principle.
+- **Class Scheduling**: If a school offers 7 class periods per day and a student is enrolled in 8 classes, at least one period must have a scheduling conflict—it's mathematically impossible to avoid.
+- **Sock Drawer**: If you have 10 pairs of socks in 5 different colors (2 pairs per color) and you randomly grab 6 socks in the dark, you are guaranteed to have at least one matching pair. With 5 colors and 6 socks, at least one color must appear twice.
+- **Hair Counting**: No two people in New York City (population ~8 million) who have hair can have the exact same number of hairs on their head. The average human head has about 100,000 hairs, and even accounting for variation, nobody has more than 200,000 hairs. By the pigeonhole principle (with 8 million people and fewer than 200,000 possible hair counts), thousands of people must share the same hair count.
+- **Tournament Results**: In any tournament with $n$ players where each plays every other player once, at least two players must win the same number of games. The possible win totals range from 0 to $n-1$ wins (n possibilities), but if one player wins all games (n-1 wins), no one can win 0 games. This reduces the available outcomes, forcing a match.
+- **Hashing and Collisions**: In computer science, hash functions map large data sets into smaller address spaces. The pigeonhole principle guarantees that hash collisions (different inputs producing the same output) are inevitable when the input space exceeds the output space—a fundamental consideration in database design and cryptography.
+- The pigeonhole principle proves that coincidences and patterns are sometimes unavoidable mathematical necessities rather than unlikely events. It's a tool for proving existence without construction—you can prove something must exist without finding or identifying it.
 
 ---
 
