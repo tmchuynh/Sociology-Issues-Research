@@ -1359,11 +1359,9 @@ $$\text{Posterior} \propto \text{Likelihood} \times \text{Prior}$$
 
 ### Differential Geometry (Geodesics)
 
-Differential geometry studies how curved surfaces bend and what "straight lines" look like on them. The mathematical framework, while expressed through Christoffel symbols and covariant derivatives, describes phenomena everyone experiences intuitively (Jamski 227; Bliss 1).
+Differential geometry studies how curved surfaces bend and what "straight lines" look like on them. The mathematical framework, while expressed through Christoffel symbols and covariant derivatives, describes phenomena everyone experiences intuitively (Jamski 227; Bliss 1). At the heart of this study lies the concept of a geodesic—a remarkable curve that parallel-transports its own tangent vector. To put it simply, a geodesic represents the shortest path between two points on a curved surface, acting as a splendid generalization of the "straight line" in curved spaces (Liu 1; Villanueva 1). Imagine walking along a geodesic; if you continue straight ahead without veering left or right in relation to the surface, you are following this elegant path.
 
-A geodesic is a curve that parallel-transports its own tangent vector, or simply put the shortest path between two points on a curved surface—it's the generalization of a "straight line" to curved spaces (Liu 1; Villanueva 1). In simpler terms: if you're walking along a geodesic on a curved surface and you keep going "straight ahead" without turning left or right relative to the surface, you're following a geodesic.
-
-On a flat plane, geodesics are ordinary straight lines. On a sphere (like Earth), geodesics are segments of great circles (circles whose centers coincide with the center of the sphere) (Jamski 228; Strong and Strong 43).
+On a flat plane, geodesics align with familiar straight lines, while on a sphere, like our beautiful Earth, they become segments of great circles whose centers coincide with that of the sphere (Jamski 228; Strong and Strong 43). This vibrant interplay of geometry and intuition enriches our understanding of the world around us!
 
 A curve on a curved surface is a geodesic if its geodesic curvature ( $\kappa_g$ ) is zero everywhere. This means the acceleration vector of the curve is everywhere normal (orthogonal) to the tangent plane of the surface, representing the "straightest" possible path, defined by satisfying the geodesic differential equations (Baek 1; Rumble 105).
 
