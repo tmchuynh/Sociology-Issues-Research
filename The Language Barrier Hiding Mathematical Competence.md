@@ -525,7 +525,7 @@ $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} 
     When you play a single note, say middle A at 440 Hz, the sound wave can be approximated as:
     $$A(t) = \sin(2\pi \cdot 440 \cdot t)$$
     
-
+    When you play a chord—say A-major with notes A (440 Hz), C# (554 Hz), and E (659 Hz)—the sound wave is the sum:
     $$S(t) = A_1\sin(2\pi \cdot 440t) + A_2\sin(2\pi \cdot 554t) + A_3\sin(2\pi \cdot 659t)$$
     
     where $A_1, A_2, A_3$ are the amplitudes (loudness) of each note. The Fourier Transform decomposes this composite wave:
@@ -541,8 +541,14 @@ $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} 
 **Signal Processing**: The Fourier Transform converts a function (such as a sound wave) from the time domain to the frequency domain, revealing the frequencies present and their amplitudes (Bracewell 88-90). The Fast Fourier Transform (FFT) algorithm, developed in the 1960s, made this computation efficient enough for real-time applications, revolutionizing digital signal processing (Bailey and Swarztrauber 390-392).
 
 **Periodic Functions**: Any repeating function can be written as a sum of sines and cosines—a core idea behind the Fourier Transform (Bracewell 86-87). This Fourier series representation converts complex periodic behavior into simple harmonic components, each with its own frequency and amplitude (Morrison 716-720).
-- **Timbre/Sound Quality**: The unique sound (timbre) of an instrument is defined by its fundamental frequency (the base note) and its overtones, which the Fourier Transform can identify
+
 **Image Compression (JPEG)**: Your camera or phone uses a variant of the Fourier Transform (the Discrete Cosine Transform) to break images into patterns of different frequencies, making them easier to compress and store efficiently (Bailey and Swarztrauber 398-400). High-frequency components (fine details) can be discarded with minimal perceptual loss, achieving 10:1 or higher compression ratios.
+
+**Spectroscopy and Medical Imaging**: Fourier Transform Infrared Spectroscopy (FTIR) identifies chemical compounds by analyzing how molecules absorb infrared light at different frequencies (Griffiths 297-300). MRI and CT scans use the Fourier Transform to reconstruct images of your body from the raw data they collect—the spatial structure of tissue is encoded in frequency information that must be transformed back into recognizable images (Griffiths 300-302).
+
+**Wave Equations and Physics**: The Fourier Transform provides elegant solutions to the wave equation, which governs everything from vibrating strings to electromagnetic radiation (Torchinsky 599-605). By transforming the wave equation from the time-space domain to the frequency domain, complex partial differential equations become algebraic expressions that can be solved directly (Torchinsky 606-609).
+
+**Quantum Computing**: Quantum algorithms achieve exponential speedups over classical computation by exploiting the Quantum Fourier Transform, which operates on quantum superpositions to extract periodicity information (Jozsa 323-330). Shor's famous algorithm for factoring large numbers—threatening current cryptographic systems—relies fundamentally on this quantum version of Fourier analysis (Jozsa 331-335).
 
 **Metamaterials and Physical Systems**: Recent advances enable mechanical systems that physically implement Fourier Transforms through programmable metamaterial structures, creating analog computers that process signals through material deformation rather than digital calculation (Lin et al. 1-6). These "mechanical Fourier Transforms" demonstrate that the mathematical concept has direct physical embodiments.
 
