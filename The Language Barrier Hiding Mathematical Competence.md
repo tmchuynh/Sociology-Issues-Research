@@ -622,6 +622,35 @@ Starting with a square sheet with corners at coordinates $(0,0)$, $(1,0)$, $(1,1
 
 Someone folding a paper crane performs dozens of angle bisections, creates precise $22.5°$ and $67.5°$ angles through repeated halving, constructs perpendiculars and parallels, and maintains symmetry—all without calculating a single trigonometric function or measuring an angle with a protractor (Geretschläger 370-371). The geometric competence is complete and rigorous; only the formal vocabulary is absent.
 
+---
+
+### Non-Euclidean Geometry
+
+The development of non-Euclidean geometry represents one of mathematics' most dramatic intellectual revolutions. For over 2,000 years, mathematicians attempted to prove Euclid's fifth postulate (the parallel postulate) from the other four, assuming it must be derivable from more fundamental truths (Halsted 247-249; Daus 12). The breakthrough came independently from János Bolyai, Nikolai Lobachevsky, and Carl Friedrich Gauss in the early 19th century, who demonstrated that consistent geometries could be built by denying the parallel postulate (Halsted 149-150; Miller 370-371). Remarkably, evidence suggests non-Euclidean concepts may have been intuited even before Euclid formalized his system (Tóth 87-90).
+
+The history of non-Euclidean geometry offers a meta-lesson about mathematical competence. For 2,000 years, mathematicians had the logical tools to develop non-Euclidean geometry but couldn't because they were psychologically trapped by the assumption that Euclidean geometry was "true" (Jones 139-140). The barrier wasn't computational or even logical—it was conceptual and linguistic. Once the conceptual framework shifted, the mathematics followed rapidly. Similarly, students may possess geometric intuition and spatial reasoning that formal Euclidean axioms fail to validate or express. The competence exists; the language to articulate it may not.
+
+Non-Euclidean geometry is a branch of mathematics that defines space using different rules than classical Euclidean (flat) geometry, primarily by rejecting Euclid's parallel postulate (Busemann 19; Halsted 123). It describes curved spaces—either spherical (positive curvature) or hyperbolic (negative curvature)—where parallel lines can intersect or diverge, and triangle angles do not sum to $180^\circ$ (Busemann 21-23).
+
+While Euclidean geometry assumes a flat, two-dimensional plane, non-Euclidean geometry handles the reality of curved spaces in physics and geography (Bussey 445).
+
+- **Spherical (Elliptic) Geometry**: Models a positively curved surface, like a sphere (Leisenring 315). "Straight" lines are great circles, meaning parallel lines do not exist and all lines eventually intersect. The sum of angles in a triangle is always greater than $180^\circ$ (Busemann 22; Leisenring 317-318).
+
+- **Hyperbolic Geometry**: Models a negatively curved, saddle-shaped surface (Busemann 23-25). Through a point not on a given line, there are at least two distinct parallel lines, and often infinitely many, that never intersect. The sum of angles in a triangle is less than $180^\circ$ (Leisenring 319-320). Visualizing hyperbolic space challenges human intuition, as we evolved in approximately Euclidean environments (Banchoff).
+
+- **Key Differences**: In Non-Euclidean spaces, parallel lines can intersect (spherical) or curve away from each other (hyperbolic), and shapes cannot be scaled up or down without changing their angle measurements (Miller 371-372). Area formulas behave fundamentally differently: in hyperbolic geometry, area can be directly calculated from angles alone, without measuring sides (Leisenring 315-320).
+
+#### Applications:
+
+**General Relativity**: Einstein used non-Euclidean geometry (specifically Riemannian geometry) to describe how gravity curves spacetime (Einstein 145-160). His field equations show that massive objects create curvature in four-dimensional spacetime, and what we experience as "gravity" is actually objects following geodesics (straight lines) through this curved space. The mathematical framework developed by Gauss, Riemann, and others in the 19th century—initially pursued as pure abstraction—became the essential language for describing physical reality in the 20th century (Busemann 32-33).
+
+**Navigation**: Airplanes and ships navigate using spherical geometry to find the shortest path (great circle route) on Earth (Bussey 455-457). Pilots understand intuitively that the shortest route from New York to Tokyo curves north over Alaska, even though it appears curved on flat maps—they're applying non-Euclidean geometry without the formalism.
+
+**Technology**: Elliptic Curve Cryptography (ECC) is a crucial, widely used encryption technique in modern security that relies on this geometry. The algebraic structure of curves in non-Euclidean spaces provides the mathematical foundation for protecting digital communications.
+
+**Art and Culture**: Non-Euclidean geometry profoundly influenced early 20th-century art, inspiring Cubism's multiple perspectives and abstract art's break from representational reality (Henderson 205-208). The 1884 novella *Flatland* by Edwin Abbott popularized non-Euclidean concepts, using geometric allegory to explore social hierarchy and dimensional thinking (Henderson 455-460). The book demonstrates how geometric ideas can be communicated through narrative and analogy, reaching audiences who would never engage with formal mathematics (Henderson 465-470). Artists and writers grasped the conceptual implications—that reality might have more dimensions than we directly perceive, that geometry is a choice not a given—without mastering the technical mathematics (Henderson 208-210).
+
+**The Fourth Dimension**: Non-Euclidean geometry opened conceptual space for thinking about dimensions beyond the three we experience (Henderson 205-206; Banchoff). While we cannot visualize four-dimensional space directly, we can reason about it mathematically and understand its properties through analogy—just as a two-dimensional being could reason about three dimensions without experiencing them. This capacity to work with concepts beyond direct experience demonstrates a sophisticated form of mathematical thinking that exists independently of computational facility.
 
 ---
 
