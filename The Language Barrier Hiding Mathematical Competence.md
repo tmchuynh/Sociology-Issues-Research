@@ -394,21 +394,74 @@ The quadratic eigenvalue problem $(\lambda^2 M + \lambda C + K)x = 0$ arises in 
 
 #### Applications:
 
-**Pull a rubber band**: In mathematical terms, stretching a rubber band acts as a linear transformation that preserves the orientation of specific, privileged lines. The direction along its length does not rotate; it just gets longer. That direction is the eigenvector; how much longer it gets is the eigenvalue.
+**Pull a rubber band**: In mathematical terms, stretching a rubber band acts as a linear transformation that preserves the orientation of specific, privileged lines (Schonefeld 316-317). The direction along its length does not rotate; it just gets longer. That direction is the eigenvector; how much longer it gets is the eigenvalue.
 
 **The Mirror Reflection**: The reflection itself maps every point on your body to a point in "mirror space".
 
-- *Eigenvectors*:
+Eigenvectors:
   - Side-to-side/Up-and-down: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
-  - Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1
+  - Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1.
 
 **Musical Instruments (Resonance)**: When you pluck a guitar string, it vibrates in specific patterns called "harmonics."
 
-- *The Transformation*: The physical laws governing the string's vibration.
-- *Eigenvectors*: The specific shapes the string takes (the fundamental tone and overtones). These are the only ways the string can move without the pattern twisting into chaos.
-- *Eigenvalues*: The frequencies (pitch) of those notes. The eigenvalues determine how fast the string vibrates
+A guitar string fixed at both ends (length $L$) obeys the wave equation:
+$$\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$$
+where $u(x,t)$ is the displacement at position $x$ and time $t$, and $\displaystyle c = \sqrt{\frac{T}{\mu}}$ is wave speed (tension $T$, mass per length $\mu$).
 
-**Google's original PageRank algorithm** - the system that decides which web pages appear first in search results - is fundamentally an eigenvector computation. The "most important" page is the eigenvector of the web's link graph (Brin and Page 109).
+Seeking standing wave solutions of the form $u(x,t) = X(x) \cdot \cos(\omega t)$ and applying boundary conditions $u(0,t) = u(L,t) = 0$ (fixed ends) yields the spatial eigenvalue problem:
+$$\frac{d^2 X}{dx^2} = -k^2 X, \quad X(0) = X(L) = 0$$
+where $\displaystyle k = \frac{\omega}{c}$.
+
+*Eigenfunctions (mode shapes)*:
+$$X_n(x) = \sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots$$
+
+These are the only shapes the string can vibrate in without "twisting into chaos"—each is an eigenfunction of the differential operator $\displaystyle \frac{d^2}{dx^2}$ with eigenvalue $\displaystyle -k_n^2 = -\left(\frac{n\pi}{L}\right)^2$.
+
+*Eigenvalues (frequencies)*:
+$$f_n = \frac{nc}{2L} = \frac{n}{2L}\sqrt{\frac{T}{\mu}}$$
+
+For a guitar A string ($L \approx 0.65$ m, fundamental $f_1 = 110$ Hz):
+- $n=1$: Fundamental tone, 110 Hz (the note you hear)
+- $n=2$: First overtone, 220 Hz (octave higher)
+- $n=3$: Second overtone, 330 Hz  
+- $n=4$: Third overtone, 440 Hz (two octaves higher)
+
+When you pluck the string, the initial displacement decomposes into a sum of these eigenfunctions:
+$$u(x,t) = \sum_{n=1}^{\infty} a_n \sin\left(\frac{n\pi x}{L}\right) \cos(2\pi f_n t)$$
+
+The coefficients $a_n$ depend on *where* you pluck. Plucking at the center excites odd harmonics strongly; plucking near the end emphasizes higher harmonics, creating a brighter timbre (Tisseur and Meerbergen 250-255). The guitar string "knows" its eigenmodes instinctively—physics forces the vibration into these patterns. Every musical instrument (violin, piano, flute, drum) operates on eigenvalue principles: permitted vibration modes determined by geometry and boundary conditions (Chu 25-30).
+
+**Google's Original PageRank Algorithm**: The system that decides which web pages appear first in search results is fundamentally an eigenvector computation (Bryan and Leise 569-575). The "most important" page is the dominant eigenvector of the web's link graph (Brin and Page 109).
+
+Imagine a simplified web with 4 pages. The link structure forms a matrix $H$ where $\displaystyle H_{ij} = \frac{1}/{n_j}$ if page $j$ links to page $i$ ($n_j$ = number of outlinks from page $j$), and 0 otherwise.
+
+Suppose:
+- Page 1 links to pages 2, 3, 4  
+- Page 2 links to page 1  
+- Page 3 links to pages 1, 4  
+- Page 4 links to pages 1, 2, 3
+
+The hyperlink matrix:
+$$H = \begin{bmatrix}
+0 & 1 & 1/2 & 1/3 \\
+1/3 & 0 & 0 & 1/3 \\
+1/3 & 0 & 0 & 1/3 \\
+1/3 & 0 & 1/2 & 0
+\end{bmatrix}$$
+
+PageRank assumes a "random surfer" who follows links with probability $d \approx 0.85$ and jumps to a random page with probability $1-d$. The Google matrix:
+$$G = dH + \frac{1-d}{n}E$$
+where $E$ is the matrix of all ones, and $n=4$ pages. The PageRank vector $\pi$ satisfies:
+$$G\pi = \pi$$
+
+This is an eigenvector equation with eigenvalue $\lambda = 1$ (Bryan and Leise 572-575). The eigenvector components represent page importance:
+$$\pi = \begin{bmatrix} 0.387 \\ 0.213 \\ 0.177 \\ 0.223 \end{bmatrix}$$
+
+Page 1 receives 38.7% of the "importance," making it the top search result. Pages 2, 4, 3 follow in that order.
+
+*The \$25 Billion Eigenvector*: In 2006, Google's market value was tied to this eigenvector computation running on billions of pages (Bryan and Leise 569). The algorithm's brilliance: reducing the subjective problem of "importance" to an objective eigenvalue problem (Langville and Meyer 135-145). Modern search uses hundreds of factors, but PageRank's eigenvector remains foundational (Langville and Meyer 145-155).
+
+**Web-scale computation**: For the real web with billions of pages, computing the dominant eigenvector requires iterative methods (power iteration, Arnoldi iteration) that exploit sparsity (Langville and Meyer 150-160). Google updates PageRank periodically, recalculating the eigenvector as the web's link structure evolves—the largest eigenvalue problem solved regularly in practice (Bryan and Leise 575-580).
 
 **Facial Recognition (Eigenfaces)**: Computers see faces not as people, but as huge grids of numbers (pixels).
 
