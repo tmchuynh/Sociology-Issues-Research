@@ -581,6 +581,42 @@ Euclidean geometry is the study of flat surfaces, points, lines, angles, and sha
 
 **Carpenter's Pythagorean Theorem**: A carpenter who checks that a corner is square by measuring 3 feet along one edge, 4 feet along the other, and confirming the diagonal is 5 feet is using the Pythagorean theorem—whether or not they know its name. Framing a roof requires calculating angles, slopes, and load distribution. Cutting crown molding requires understanding compound miters—angles formed by two planes. These are problems in Euclidean geometry and trigonometry, performed daily by tradespeople who would never describe their work in those terms.
 
+**Origami as Euclidean Construction**: When you fold paper to create origami, you're performing Euclidean constructions through a different medium (Geretschläger 357-360). Every fold creates a line, and the intersections of folds create points—the same fundamental elements as compass-and-straightedge constructions. Remarkably, origami can solve certain geometric problems that are impossible with classical tools alone, such as trisecting an angle (Geretschläger 365-368). Someone who masters complex origami demonstrates profound geometric intuition without ever encountering formal proofs.
+
+Consider folding a traditional paper crane (orizuru), which requires approximately 20-25 distinct folds. 
+- *Angle bisection*: Every valley fold bisects the angle between existing creases
+- *Perpendicular construction*: Edge-to-edge folds create perpendiculars automatically  
+- *Proportion creation*: The $1:\sqrt{2}$ ratio appears in diagonal folds
+- *Symmetry operations*: The crane exhibits bilateral symmetry across its central axis
+- *Three-dimensional construction*: Flat Euclidean operations create a spatial form
+
+Starting with a square sheet with corners at coordinates $(0,0)$, $(1,0)$, $(1,1)$, and $(0,1)$:
+
+1. **Diagonal Folds** - Fold corner to opposite corner, creating the two main diagonals:
+    $$L_1: y = x \quad \text{and} \quad L_2: y = 1-x$$
+    
+    These lines bisect the square at $90°$ angles, meeting at the center point $(0.5, 0.5)$. This construction divides the square into four congruent right isosceles triangles, each with legs of length $\displaystyle \frac{1}{\sqrt{2}}$ and angles of $45°-45°-90°$ (Geretschläger 358-360).
+
+2. **Edge Midpoint Folds** - Folding each edge to the opposite edge creates perpendicular bisectors:
+    $$L_3: x = 0.5 \quad \text{and} \quad L_4: y = 0.5$$
+    
+    These four fold lines (two diagonals + two edge bisectors) create the "preliminary fold" pattern, dividing the square into 8 congruent triangular regions. The intersection points form a regular octagon inscribed within the square (Geretschläger 361-363).
+
+3. **The Bird Base Construction** - Creating the bird base requires collapsing the preliminary fold and then performing "petal folds." A petal fold brings a corner point to a central axis while simultaneously bisecting two angles:
+
+    For the top flap, if the corner is at $(0.5, 1)$ and must align with the central vertical axis, the fold line satisfies:
+    $$\text{Fold line: } y - 0.5 = m(x - 0.5)$$
+    
+    where $m = \tan(67.5°) \approx 2.414$. This creates an angle bisector dividing the original $135°$ angle into two $67.5°$ angles (Geretschläger 365-366).
+
+4. **Geometric Transformations** - Each fold is mathematically a reflection across the fold line. If a fold line is $ax + by + c = 0$, a point $(x_0, y_0)$ reflects to:
+    $$\left(x_0 - \frac{2a(ax_0 + by_0 + c)}{a^2 + b^2}, y_0 - \frac{2b(ax_0 + by_0 + c)}{a^2 + b^2}\right)$$
+    
+    The paper crane ultimately creates a three-dimensional structure from these planar reflections. The final crane has specific proportions: if the square has side length $s$, the crane's wingspan is approximately $0.7s$, and its body length is approximately $0.5s$ (Geretschläger 368-370).
+
+Someone folding a paper crane performs dozens of angle bisections, creates precise $22.5°$ and $67.5°$ angles through repeated halving, constructs perpendiculars and parallels, and maintains symmetry—all without calculating a single trigonometric function or measuring an angle with a protractor (Geretschläger 370-371). The geometric competence is complete and rigorous; only the formal vocabulary is absent.
+
+
 ---
 
 ### Ansatz
