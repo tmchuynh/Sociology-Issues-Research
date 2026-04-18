@@ -291,25 +291,27 @@ This tool is widely used in engineering and physics to analyze control systems, 
 
 While named after Pierre-Simon Laplace, the transform's essential ideas appeared much earlier in Leonhard Euler's work from the 1730s and 1750s (Deakin 264-267). Euler used similar integral transforms to solve differential equations decades before Laplace formalized the method, demonstrating once again how mathematical concepts often exist in practice before receiving their formal names and notation (Deakin 268-269). The transform remained relatively obscure until Oliver Heaviside rediscovered and popularized operational methods in the late 19th century for solving electrical circuit problems (Widder 419-420).
 
-The Laplace transform is computed by evaluating the improper integral, often using tables for common functions (MIT OCW)[^1]. Inverse Laplace transforms recover $f(t)$ from $F(s)$, typically using partial fraction decomposition and inverse transform tables (Ungar 786-788; Widder 179-180). However, the inversion process can be remarkably intuitive once patterns are recognized, allowing practitioners to work "by inspection" without formal calculations (Ungar 789-791). 
+The Laplace transform is computed by evaluating the improper integral, often using tables for common functions (MIT OCW)[^1]. Inverse Laplace transforms recover $f(t)$ from $F(s)$, typically using partial fraction decomposition and inverse transform tables (Ungar 786-788; Widder 179-180). However, the inversion process can be remarkably intuitive once patterns are recognized, allowing practitioners to work "by inspection" without formal calculations (Ungar 789-791).
 
-**Properties** (Campbell and Haberman 251-255; Guggenheimer 196-198): 
-  - Linearity $\mathcal{L}\{af+bg\} = aF+bG$
-  - Differentiation $\mathcal{L}\{f'\}=sF(s)-f(0)$
-  - Convolution $L\{f*g\}=F(s)G(s)$
+**Properties** (Campbell and Haberman 251-255; Guggenheimer 196-198):
+
+- Linearity $\mathcal{L}\{af+bg\} = aF+bG$
+- Differentiation $\mathcal{L}\{f'\}=sF(s)-f(0)$
+- Convolution $L\{f*g\}=F(s)G(s)$
 
 **Advantages of Laplace Transform**:
-  - *Simplification*: Converts complicated integro-differential equations into easy algebraic expressions (Lunardi 185-188).
-  - *Initial Conditions*: Automatically incorporates initial conditions, making it ideal for transient analysis (Guggenheimer 199-200).
-  - *System Function*: Allows for the derivation of a "transfer function," which helps in understanding system behavior (stability) without solving the entire equation (Campbell and Haberman 258-262).
-  - *Matrix Exponentials*: Provides elegant methods for computing $e^{At}$ in systems of differential equations using algorithmic approaches (Adkins and Davidson 267-273).
 
-| Transforms |
-| :------------------------| 
- | $\displaystyle \mathcal{L}\{1\} = \frac{1}{s}$ |
- | $\displaystyle \mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}$ (Pribitkin 238-240) |
- |  $\displaystyle \mathcal{L}\{e^{at}\} = \frac{1}{s-a}$ |
- |   $\displaystyle \mathcal{L}\{\sin(bt)\} = \frac{b}{s^2+b^2}$ (Efthimiou 376-378) |
+- _Simplification_: Converts complicated integro-differential equations into easy algebraic expressions (Lunardi 185-188).
+- _Initial Conditions_: Automatically incorporates initial conditions, making it ideal for transient analysis (Guggenheimer 199-200).
+- _System Function_: Allows for the derivation of a "transfer function," which helps in understanding system behavior (stability) without solving the entire equation (Campbell and Haberman 258-262).
+- _Matrix Exponentials_: Provides elegant methods for computing $e^{At}$ in systems of differential equations using algorithmic approaches (Adkins and Davidson 267-273).
+
+| Transforms                                                                      |
+| :------------------------------------------------------------------------------ |
+| $\displaystyle \mathcal{L}\{1\} = \frac{1}{s}$                                  |
+| $\displaystyle \mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}$ (Pribitkin 238-240)     |
+| $\displaystyle \mathcal{L}\{e^{at}\} = \frac{1}{s-a}$                           |
+| $\displaystyle \mathcal{L}\{\sin(bt)\} = \frac{b}{s^2+b^2}$ (Efthimiou 376-378) |
 
 #### Applications:
 
@@ -350,8 +352,9 @@ Taylor series converge to the original function within a specific radius of conv
 Suppose you're driving on a highway toward a destination 50 miles away. Your GPS doesn't just divide distance by current speed—it uses a Taylor series approximation of your position over time.
 
 Let $s(t)$ be your position along the route at time $t$ (in miles from start). At the current time $t_0$, the GPS knows:
+
 - Your current position: $s(t_0) = 10$ miles
-- Your current velocity: $s'(t_0) = v_0 = 60$ mph  
+- Your current velocity: $s'(t_0) = v_0 = 60$ mph
 - Your current acceleration: $s''(t_0) = a_0 = 5$ mph per hour (you're speeding up)
 
 To predict your position at future time $t = t_0 + \Delta t$, the GPS uses a truncated Taylor series:
@@ -376,6 +379,7 @@ $$\Delta t = \frac{-60 + \sqrt{3600 + 400}}{5} = \frac{-60 + 63.25}{5} \approx 0
 The acceleration term changes the estimate by about 1 minute. If the GPS tracked higher-order derivatives (jerk, snap, crackle), it could include third, fourth, and fifth-order terms for even greater precision (Banner 562-565).
 
 **Real-world complexity**: Modern GPS systems continuously update these calculations, incorporating:
+
 - Traffic conditions (modeled as velocity changes)
 - Speed limit changes (discontinuous derivatives)
 - Historical traffic patterns (probabilistic modifications to the Taylor expansion)
@@ -397,10 +401,10 @@ terminating after sufficient terms for the desired precision (typically 10-15 te
 
 **Engineering Approximations**: Engineers routinely use first- or second-order Taylor approximations to linearize nonlinear systems, making complex differential equations solvable (Widder 130-135). The small-angle approximation $\sin(\theta) \approx \theta$ (first term of Taylor series) is fundamental in physics, enabling analytical solutions to pendulum motion, wave equations, and optics.
 
-**Assignment Completion Times**: Every time you mentally estimate "if I keep going at this rate, I'll finish in about..." you're performing zeroth- and first-order Taylor approximation. When you account for how tired you're getting (second derivative—rate of slowing down), you're including quadratic terms. (Banner 572-574). 
+**Assignment Completion Times**: Every time you mentally estimate "if I keep going at this rate, I'll finish in about..." you're performing zeroth- and first-order Taylor approximation. When you account for how tired you're getting (second derivative—rate of slowing down), you're including quadratic terms. (Banner 572-574).
 
-The formalism 
-$$\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$ 
+The formalism
+$$\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
 captures this intuition precisely, but the competence exists independently: people successfully predict futures from present trends without ever seeing the notation (Eves 48-50). The mathematical language provides precision and generality; the conceptual understanding already operates in daily decision-making.
 
 ---
@@ -462,8 +466,9 @@ The quadratic eigenvalue problem $(\lambda^2 M + \lambda C + K)x = 0$ arises in 
 **The Mirror Reflection**: The reflection itself maps every point on your body to a point in "mirror space".
 
 Eigenvectors:
-  - Side-to-side/Up-and-down: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
-  - Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1.
+
+- Side-to-side/Up-and-down: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
+- Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1.
 
 **Musical Instruments (Resonance)**: When you pluck a guitar string, it vibrates in specific patterns called "harmonics."
 
@@ -475,42 +480,47 @@ Seeking standing wave solutions of the form $u(x,t) = X(x) \cdot \cos(\omega t)$
 $$\frac{d^2 X}{dx^2} = -k^2 X, \quad X(0) = X(L) = 0$$
 where $\displaystyle k = \frac{\omega}{c}$.
 
-*Eigenfunctions (mode shapes)*:
+_Eigenfunctions (mode shapes)_:
 $$X_n(x) = \sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots$$
 
 These are the only shapes the string can vibrate in without "twisting into chaos"—each is an eigenfunction of the differential operator $\displaystyle \frac{d^2}{dx^2}$ with eigenvalue $\displaystyle -k_n^2 = -\left(\frac{n\pi}{L}\right)^2$.
 
-*Eigenvalues (frequencies)*:
+_Eigenvalues (frequencies)_:
 $$f_n = \frac{nc}{2L} = \frac{n}{2L}\sqrt{\frac{T}{\mu}}$$
 
 For a guitar A string ($L \approx 0.65$ m, fundamental $f_1 = 110$ Hz):
+
 - $n=1$: Fundamental tone, 110 Hz (the note you hear)
 - $n=2$: First overtone, 220 Hz (octave higher)
-- $n=3$: Second overtone, 330 Hz  
+- $n=3$: Second overtone, 330 Hz
 - $n=4$: Third overtone, 440 Hz (two octaves higher)
 
 When you pluck the string, the initial displacement decomposes into a sum of these eigenfunctions:
 $$u(x,t) = \sum_{n=1}^{\infty} a_n \sin\left(\frac{n\pi x}{L}\right) \cos(2\pi f_n t)$$
 
-The coefficients $a_n$ depend on *where* you pluck. Plucking at the center excites odd harmonics strongly; plucking near the end emphasizes higher harmonics, creating a brighter timbre (Tisseur and Meerbergen 250-255). The guitar string "knows" its eigenmodes instinctively—physics forces the vibration into these patterns. Every musical instrument (violin, piano, flute, drum) operates on eigenvalue principles: permitted vibration modes determined by geometry and boundary conditions (Chu 25-30).
+The coefficients $a_n$ depend on _where_ you pluck. Plucking at the center excites odd harmonics strongly; plucking near the end emphasizes higher harmonics, creating a brighter timbre (Tisseur and Meerbergen 250-255). The guitar string "knows" its eigenmodes instinctively—physics forces the vibration into these patterns. Every musical instrument (violin, piano, flute, drum) operates on eigenvalue principles: permitted vibration modes determined by geometry and boundary conditions (Chu 25-30).
 
 **Google's Original PageRank Algorithm**: The system that decides which web pages appear first in search results is fundamentally an eigenvector computation (Bryan and Leise 569-575). The "most important" page is the dominant eigenvector of the web's link graph (Brin and Page 109).
 
 Imagine a simplified web with 4 pages. The link structure forms a matrix $H$ where $\displaystyle H_{ij} = \frac{1}/{n_j}$ if page $j$ links to page $i$ ($n_j$ = number of outlinks from page $j$), and 0 otherwise.
 
 Suppose:
-- Page 1 links to pages 2, 3, 4  
-- Page 2 links to page 1  
-- Page 3 links to pages 1, 4  
+
+- Page 1 links to pages 2, 3, 4
+- Page 2 links to page 1
+- Page 3 links to pages 1, 4
 - Page 4 links to pages 1, 2, 3
 
 The hyperlink matrix:
-$$H = \begin{bmatrix}
+
+$$
+H = \begin{bmatrix}
 0 & 1 & 1/2 & 1/3 \\
 1/3 & 0 & 0 & 1/3 \\
 1/3 & 0 & 0 & 1/3 \\
 1/3 & 0 & 1/2 & 0
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 PageRank assumes a "random surfer" who follows links with probability $d \approx 0.85$ and jumps to a random page with probability $1-d$. The Google matrix:
 $$G = dH + \frac{1-d}{n}E$$
@@ -522,17 +532,17 @@ $$\pi = \begin{bmatrix} 0.387 \\ 0.213 \\ 0.177 \\ 0.223 \end{bmatrix}$$
 
 Page 1 receives 38.7% of the "importance," making it the top search result. Pages 2, 4, 3 follow in that order.
 
-*The \$25 Billion Eigenvector*: In 2006, Google's market value was tied to this eigenvector computation running on billions of pages (Bryan and Leise 569). The algorithm's brilliance: reducing the subjective problem of "importance" to an objective eigenvalue problem (Langville and Meyer 135-145). Modern search uses hundreds of factors, but PageRank's eigenvector remains foundational (Langville and Meyer 145-155).
+_The \$25 Billion Eigenvector_: In 2006, Google's market value was tied to this eigenvector computation running on billions of pages (Bryan and Leise 569). The algorithm's brilliance: reducing the subjective problem of "importance" to an objective eigenvalue problem (Langville and Meyer 135-145). Modern search uses hundreds of factors, but PageRank's eigenvector remains foundational (Langville and Meyer 145-155).
 
 **Web-scale computation**: For the real web with billions of pages, computing the dominant eigenvector requires iterative methods (power iteration, Arnoldi iteration) that exploit sparsity (Langville and Meyer 150-160). Google updates PageRank periodically, recalculating the eigenvector as the web's link structure evolves—the largest eigenvalue problem solved regularly in practice (Bryan and Leise 575-580).
 
 **Facial Recognition (Eigenfaces)**: Computers see faces not as people, but as huge grids of numbers (pixels).
 
-*The Transformation*: An algorithm analyzing a database of thousands of faces computes the covariance matrix of pixel values across all images.
+_The Transformation_: An algorithm analyzing a database of thousands of faces computes the covariance matrix of pixel values across all images.
 
-*Eigenvectors*: These are called "Eigenfaces"—ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). Each face can be expressed as a weighted sum of these eigenvectors (Baik et al. 1650-1660). "Eigenfaces" are the fundamental patterns that all faces can be decomposed into. The technology on your phone that unlocks when it sees your face is built on eigenvectors.
+_Eigenvectors_: These are called "Eigenfaces"—ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). Each face can be expressed as a weighted sum of these eigenvectors (Baik et al. 1650-1660). "Eigenfaces" are the fundamental patterns that all faces can be decomposed into. The technology on your phone that unlocks when it sees your face is built on eigenvectors.
 
-*Eigenvalues*: The importance of each feature. A high eigenvalue means that specific "feature" (like eye spacing) varies significantly across faces and is useful for telling two people apart. Low-eigenvalue components represent noise and can be discarded (Baik et al. 1660-1670).
+_Eigenvalues_: The importance of each feature. A high eigenvalue means that specific "feature" (like eye spacing) varies significantly across faces and is useful for telling two people apart. Low-eigenvalue components represent noise and can be discarded (Baik et al. 1660-1670).
 
 **Geographic Networks**: Transportation networks, river systems, and migration patterns can be analyzed using eigenvector centrality, identifying the most "central" or influential locations based on connectivity (Straffin 269-272). The dominant eigenvector of an adjacency matrix reveals which cities or nodes are most important to the network's structure (Straffin 272-276).
 
@@ -544,11 +554,11 @@ Page 1 receives 38.7% of the "importance," making it the top search result. Page
 
 **Quantum Mechanics**: The Schrödinger equation $H\psi = E\psi$ is an eigenvalue problem where $H$ is the Hamiltonian operator, $\psi$ are energy eigenstates (wavefunctions), and $E$ are energy eigenvalues (Chu 30-35). Every quantum system—atoms, molecules, semiconductors—is fundamentally described by eigenvalues and eigenfunctions.
 
-Musicians intuitively understand that instruments have "sweet spots" where certain notes resonate—they're finding physical eigenmodes without solving differential equations (Tisseur and Meerbergen 270-275). Social media users who cultivate connections to "influencers" are implicitly maximizing their eigenvector centrality (Jia et al. 380-385). 
+Musicians intuitively understand that instruments have "sweet spots" where certain notes resonate—they're finding physical eigenmodes without solving differential equations (Tisseur and Meerbergen 270-275). Social media users who cultivate connections to "influencers" are implicitly maximizing their eigenvector centrality (Jia et al. 380-385).
 
-When you search Google and trust that the top result is probably most relevant, you're relying on eigenvector mathematics you've never seen (Bryan and Leise 580-581). The formalism $Av = \lambda v$ and characteristic polynomials $\det(A - \lambda I) = 0$ provide precision, but the conceptual competence—recognizing special directions, resonant patterns, influential positions, and dominant modes—operates continuously in perception, music, social navigation, and spatial reasoning (Schonefeld 318-319). 
+When you search Google and trust that the top result is probably most relevant, you're relying on eigenvector mathematics you've never seen (Bryan and Leise 580-581). The formalism $Av = \lambda v$ and characteristic polynomials $\det(A - \lambda I) = 0$ provide precision, but the conceptual competence—recognizing special directions, resonant patterns, influential positions, and dominant modes—operates continuously in perception, music, social navigation, and spatial reasoning (Schonefeld 318-319).
 
-While computing eigenvectors requires linear algebra sophistication, *recognizing* eigenvector structure is something people do naturally when identifying the "main" pattern, the "most important" person, or the "resonant" frequency—mathematical competence hiding in plain sight (Chu 35-39).
+While computing eigenvectors requires linear algebra sophistication, _recognizing_ eigenvector structure is something people do naturally when identifying the "main" pattern, the "most important" person, or the "resonant" frequency—mathematical competence hiding in plain sight (Chu 35-39).
 
 ---
 
@@ -573,25 +583,28 @@ where $u_i$ is player $i$'s utility function. It is foundational for predicting 
 **Rationality**: Participants are assumed to make decisions that maximize their own rewards or payoffs, though this assumption can be questioned in real-world applications (Rubinstein 91-100; Stone 220-225).
 
 **Types of Games**:
-  - Classical Game Theory: Focuses on games with continuous strategies and often utilizes calculus (Resnik 140-150).
-  - Combinatorial Game Theory: Deals with games like chess or Go, which are often analyzed using discrete mathematics (van Benthem et al. 127-130).
+
+- Classical Game Theory: Focuses on games with continuous strategies and often utilizes calculus (Resnik 140-150).
+- Combinatorial Game Theory: Deals with games like chess or Go, which are often analyzed using discrete mathematics (van Benthem et al. 127-130).
 
 #### Applications:
 
 **Prisoner's Dilemma**: A classic scenario showing why two completely rational individuals might not cooperate, even if it appears in their best interest to do so (Cunningham 11-15).
 
-Two suspects are arrested and interrogated separately. Each has two strategies: 
-- **Cooperate** (with each other, stay silent) 
-- **Defect** (betray the other). 
+Two suspects are arrested and interrogated separately. Each has two strategies:
+
+- **Cooperate** (with each other, stay silent)
+- **Defect** (betray the other).
 
 The payoff matrix shows years in prison (negative utility), with each entry $(a, b)$ represents (Suspect 1's years, Suspect 2's years):
 
-|  | **Suspect 2: Cooperate** | **Suspect 2: Defect** |
-|---|---|---|
-| **Suspect 1: Cooperate** | (-1, -1) | (-10, 0) |
-| **Suspect 1: Defect** | (0, -10) | (-5, -5) |
+|                          | **Suspect 2: Cooperate** | **Suspect 2: Defect** |
+| ------------------------ | ------------------------ | --------------------- |
+| **Suspect 1: Cooperate** | (-1, -1)                 | (-10, 0)              |
+| **Suspect 1: Defect**    | (0, -10)                 | (-5, -5)              |
 
 From Suspect 1's perspective:
+
 - If Suspect 2 cooperates: Defecting gives 0 years vs. 1 year → **Defect is better**
 - If Suspect 2 defects: Defecting gives 5 years vs. 10 years → **Defect is better**
 
@@ -599,7 +612,7 @@ Defecting is a **dominant strategy**—it's optimal regardless of the opponent's
 
 By symmetry, Suspect 2 has the same reasoning. Both rationally choose to defect, yielding outcome **(-5, -5)**.
 
-*Nash Equilibrium*: (Defect, Defect) is the unique Nash equilibrium (Cunningham 18-20). At this point:
+_Nash Equilibrium_: (Defect, Defect) is the unique Nash equilibrium (Cunningham 18-20). At this point:
 $$u_1(\text{Defect}, \text{Defect}) = -5 \geq u_1(\text{Cooperate}, \text{Defect}) = -10$$
 $$u_2(\text{Defect}, \text{Defect}) = -5 \geq u_2(\text{Defect}, \text{Cooperate}) = -10$$
 
@@ -619,35 +632,39 @@ When the game repeats indefinitely, cooperation can emerge through strategies li
 
 **Helping a Coworker**: You use this logic every time you decide whether to help a coworker with a project—you're weighing your effort (cost) against the shared success (reward).
 
-You and a coworker are both working on a project that affects both your reputations. Each can choose: 
-- **Help** (contribute extra effort) 
-- **Slack** (minimal effort). 
+You and a coworker are both working on a project that affects both your reputations. Each can choose:
+
+- **Help** (contribute extra effort)
+- **Slack** (minimal effort).
 
 Payoffs represent net benefit (recognition minus effort):
 
-|  | **Coworker: Help** | **Coworker: Slack** |
-|---|---|---|
-| **You: Help** | (3, 3) | (-1, 4) |
-| **You: Slack** | (4, -1) | (0, 0) |
+|                | **Coworker: Help** | **Coworker: Slack** |
+| -------------- | ------------------ | ------------------- |
+| **You: Help**  | (3, 3)             | (-1, 4)             |
+| **You: Slack** | (4, -1)            | (0, 0)              |
 
 Interpretation:
+
 - **(Help, Help) = (3, 3)**: Both contribute, project succeeds, both get credit minus effort cost
 - **(Help, Slack) = (-1, 4)**: You work hard while they coast; they get credit, you're exhausted
-- **(Slack, Help) = (4, -1)**: You coast while they work; you get credit without effort  
+- **(Slack, Help) = (4, -1)**: You coast while they work; you get credit without effort
 - **(Slack, Slack) = (0, 0)**: Project mediocre, no one looks good, minimal effort wasted
 
 From your perspective:
+
 - If coworker helps: Slacking gives 4 vs. 3 → **Slack is better** (+1 gain)
 - If coworker slacks: Slacking gives 0 vs. -1 → **Slack is better** (+1 gain)
 
 Slacking is a dominant strategy for both players.
 
-*Nash Equilibrium*: (Slack, Slack) with payoff **(0, 0)** (Binmore 30-32). Neither can improve unilaterally:
+_Nash Equilibrium_: (Slack, Slack) with payoff **(0, 0)** (Binmore 30-32). Neither can improve unilaterally:
 $$u_{\text{you}}(\text{Slack}, \text{Slack}) = 0 \geq u_{\text{you}}(\text{Help}, \text{Slack}) = -1$$
 
 But mutual helping **(3, 3)** is Pareto superior—better for everyone (Cunningham 24-26). This creates workplace tension: rational self-interest suggests slacking, but everyone is worse off than if they'd cooperated.
 
 Real-World Modifications:
+
 - **Repeated interaction**: If you work together repeatedly, defecting (slacking) now damages future cooperation. The shadow of the future makes cooperation rational (Resnik 155-160).
 - **Reputation**: In office environments, your choice affects your reputation. The single-shot payoffs don't capture long-term career costs of being known as a slacker (Rubinstein 110-120).
 - **Altruism/Reciprocity**: People often have utility functions that value fairness and reciprocity beyond pure self-interest, changing the effective payoff matrix (Rubinstein 120-130).
@@ -708,21 +725,21 @@ The Fourier Transform satisfies remarkable inequalities that constrain how "spre
 - **Pitch Detection**: Algorithms use the Fast Fourier Transform (FFT) to convert digital audio signals from the time domain (amplitude over time) to the frequency domain to determine which notes are being played (Bailey and Swarztrauber 389-395).
 - **Piano Chords**: When a chord is played, it produces a composite sound wave made of multiple notes, overtones, and harmonics. A Fourier Transform analyzes this complex wave, generating a spectrum that displays individual frequencies as peaks (Alm and Walker 457-465).
 
-    When you play a single note, say middle A at 440 Hz, the sound wave can be approximated as:
-    $$A(t) = \sin(2\pi \cdot 440 \cdot t)$$
-    
-    When you play a chord—say A-major with notes A (440 Hz), C# (554 Hz), and E (659 Hz)—the sound wave is the sum:
-    $$S(t) = A_1\sin(2\pi \cdot 440t) + A_2\sin(2\pi \cdot 554t) + A_3\sin(2\pi \cdot 659t)$$
-    
-    where $A_1, A_2, A_3$ are the amplitudes (loudness) of each note. The Fourier Transform decomposes this composite wave:
-    $$\mathcal{F}\{S(t)\} = F(\omega)$$
-    
-    producing a frequency spectrum with three distinct peaks at 440 Hz, 554 Hz, and 659 Hz, with heights proportional to $A_1, A_2, A_3$ (Alm and Walker 461-465). This decomposition reveals exactly which notes are present and their relative volumes—information that exists in the composite waveform but is invisible in the time domain.
-    
-    Real instruments are far more complex. A piano string doesn't produce a pure sine wave; it generates overtones (harmonics) at integer multiples of the fundamental frequency: 440 Hz, 880 Hz, 1320 Hz, etc. (Alm and Walker 465-470). The Fourier Transform reveals this entire harmonic structure:
-    $$\text{Piano A} = \sum_{n=1}^{\infty} a_n \sin(2\pi \cdot n \cdot 440 \cdot t)$$
-    
-    where the coefficients $a_n$ decrease with $n$. The unique pattern of these overtones—the relative strengths of the harmonics—defines the instrument's timbre (Alm and Walker 471-473). A violin playing the same note has a different pattern of $a_n$ values, which is why it sounds distinct from a piano despite playing the same fundamental frequency.
+  When you play a single note, say middle A at 440 Hz, the sound wave can be approximated as:
+  $$A(t) = \sin(2\pi \cdot 440 \cdot t)$$
+
+  When you play a chord—say A-major with notes A (440 Hz), C# (554 Hz), and E (659 Hz)—the sound wave is the sum:
+  $$S(t) = A_1\sin(2\pi \cdot 440t) + A_2\sin(2\pi \cdot 554t) + A_3\sin(2\pi \cdot 659t)$$
+
+  where $A_1, A_2, A_3$ are the amplitudes (loudness) of each note. The Fourier Transform decomposes this composite wave:
+  $$\mathcal{F}\{S(t)\} = F(\omega)$$
+
+  producing a frequency spectrum with three distinct peaks at 440 Hz, 554 Hz, and 659 Hz, with heights proportional to $A_1, A_2, A_3$ (Alm and Walker 461-465). This decomposition reveals exactly which notes are present and their relative volumes—information that exists in the composite waveform but is invisible in the time domain.
+
+  Real instruments are far more complex. A piano string doesn't produce a pure sine wave; it generates overtones (harmonics) at integer multiples of the fundamental frequency: 440 Hz, 880 Hz, 1320 Hz, etc. (Alm and Walker 465-470). The Fourier Transform reveals this entire harmonic structure:
+  $$\text{Piano A} = \sum_{n=1}^{\infty} a_n \sin(2\pi \cdot n \cdot 440 \cdot t)$$
+
+  where the coefficients $a_n$ decrease with $n$. The unique pattern of these overtones—the relative strengths of the harmonics—defines the instrument's timbre (Alm and Walker 471-473). A violin playing the same note has a different pattern of $a_n$ values, which is why it sounds distinct from a piano despite playing the same fundamental frequency.
 
 **Signal Processing**: The Fourier Transform converts a function (such as a sound wave) from the time domain to the frequency domain, revealing the frequencies present and their amplitudes (Bracewell 88-90). The Fast Fourier Transform (FFT) algorithm, developed in the 1960s, made this computation efficient enough for real-time applications, revolutionizing digital signal processing (Bailey and Swarztrauber 390-392).
 
@@ -750,12 +767,13 @@ The Fourier Transform satisfies remarkable inequalities that constrain how "spre
 
 ### Euclidean Geometry
 
-Euclidean geometry[^3] is the study of flat surfaces, points, lines, angles, and shapes. It is based on the axioms and postulates established by the ancient Greek mathematician Euclid. His notable work, *The Elements*[^2], systematically organized geometric concepts into a cohesive framework using five postulates and fundamental definitions (Meserve 372-374). Commonly referred to as plane geometry, this branch illustrates the two-dimensional realm and also includes aspects of three-dimensional space. In Euclidean geometry, parallel lines never meet, and the sum of the interior angles in a triangle equals $180^\circ$ (Mader 43).
+Euclidean geometry[^3] is the study of flat surfaces, points, lines, angles, and shapes. It is based on the axioms and postulates established by the ancient Greek mathematician Euclid. His notable work, _The Elements_[^2], systematically organized geometric concepts into a cohesive framework using five postulates and fundamental definitions (Meserve 372-374). Commonly referred to as plane geometry, this branch illustrates the two-dimensional realm and also includes aspects of three-dimensional space. In Euclidean geometry, parallel lines never meet, and the sum of the interior angles in a triangle equals $180^\circ$ (Mader 43).
 
 **Key aspects include**:
-- *The Five Postulates*: Euclidean geometry is based on five core assumptions, including that a straight line can be drawn between any two points, and the "parallel postulate," which dictates how parallel lines behave (Menger 721-722).
-- *Properties*: The shortest distance between two points is a straight line, and all right angles ($90^\circ$) are congruent (Green 343).
-- *Applications*: It is used to analyze 2D figures (planes) and 3D objects (solid geometry) (Posamentier et al. 221)
+
+- _The Five Postulates_: Euclidean geometry is based on five core assumptions, including that a straight line can be drawn between any two points, and the "parallel postulate," which dictates how parallel lines behave (Menger 721-722).
+- _Properties_: The shortest distance between two points is a straight line, and all right angles ($90^\circ$) are congruent (Green 343).
+- _Applications_: It is used to analyze 2D figures (planes) and 3D objects (solid geometry) (Posamentier et al. 221)
 
 Mathematics educators face a persistent challenge: how to teach Euclidean geometry in a way that maintains its logical rigor while remaining accessible (Allendoerfer 165-167). The axiomatic approach, while mathematically elegant, often alienates students who can demonstrate geometric competence through construction, measurement, and spatial reasoning (Allendoerfer 168-169). This pedagogical tension mirrors the document's central theme—students may possess geometric understanding that formal axioms fail to capture or validate.
 
@@ -775,36 +793,37 @@ Mathematics educators face a persistent challenge: how to teach Euclidean geomet
 
 **Origami as Euclidean Construction**: When you fold paper to create origami, you're performing Euclidean constructions through a different medium (Geretschläger 357-360). Every fold creates a line, and the intersections of folds create points—the same fundamental elements as compass-and-straightedge constructions. Remarkably, origami can solve certain geometric problems that are impossible with classical tools alone, such as trisecting an angle (Geretschläger 365-368). Someone who masters complex origami demonstrates profound geometric intuition without ever encountering formal proofs.
 
-Consider folding a traditional paper crane (orizuru), which requires approximately 20-25 distinct folds. 
-- *Angle bisection*: Every valley fold bisects the angle between existing creases
-- *Perpendicular construction*: Edge-to-edge folds create perpendiculars automatically  
-- *Proportion creation*: The $1:\sqrt{2}$ ratio appears in diagonal folds
-- *Symmetry operations*: The crane exhibits bilateral symmetry across its central axis
-- *Three-dimensional construction*: Flat Euclidean operations create a spatial form
+Consider folding a traditional paper crane (orizuru), which requires approximately 20-25 distinct folds.
+
+- _Angle bisection_: Every valley fold bisects the angle between existing creases
+- _Perpendicular construction_: Edge-to-edge folds create perpendiculars automatically
+- _Proportion creation_: The $1:\sqrt{2}$ ratio appears in diagonal folds
+- _Symmetry operations_: The crane exhibits bilateral symmetry across its central axis
+- _Three-dimensional construction_: Flat Euclidean operations create a spatial form
 
 Starting with a square sheet with corners at coordinates $(0,0)$, $(1,0)$, $(1,1)$, and $(0,1)$:
 
 1. **Diagonal Folds** - Fold corner to opposite corner, creating the two main diagonals:
-    $$L_1: y = x \quad \text{and} \quad L_2: y = 1-x$$
-    
-    These lines bisect the square at $90°$ angles, meeting at the center point $(0.5, 0.5)$. This construction divides the square into four congruent right isosceles triangles, each with legs of length $\displaystyle \frac{1}{\sqrt{2}}$ and angles of $45°-45°-90°$ (Geretschläger 358-360).
+   $$L_1: y = x \quad \text{and} \quad L_2: y = 1-x$$
+
+   These lines bisect the square at $90°$ angles, meeting at the center point $(0.5, 0.5)$. This construction divides the square into four congruent right isosceles triangles, each with legs of length $\displaystyle \frac{1}{\sqrt{2}}$ and angles of $45°-45°-90°$ (Geretschläger 358-360).
 
 2. **Edge Midpoint Folds** - Folding each edge to the opposite edge creates perpendicular bisectors:
-    $$L_3: x = 0.5 \quad \text{and} \quad L_4: y = 0.5$$
-    
-    These four fold lines (two diagonals + two edge bisectors) create the "preliminary fold" pattern, dividing the square into 8 congruent triangular regions. The intersection points form a regular octagon inscribed within the square (Geretschläger 361-363).
+   $$L_3: x = 0.5 \quad \text{and} \quad L_4: y = 0.5$$
+
+   These four fold lines (two diagonals + two edge bisectors) create the "preliminary fold" pattern, dividing the square into 8 congruent triangular regions. The intersection points form a regular octagon inscribed within the square (Geretschläger 361-363).
 
 3. **The Bird Base Construction** - Creating the bird base requires collapsing the preliminary fold and then performing "petal folds." A petal fold brings a corner point to a central axis while simultaneously bisecting two angles:
 
-    For the top flap, if the corner is at $(0.5, 1)$ and must align with the central vertical axis, the fold line satisfies:
-    $$\text{Fold line: } y - 0.5 = m(x - 0.5)$$
-    
-    where $m = \tan(67.5°) \approx 2.414$. This creates an angle bisector dividing the original $135°$ angle into two $67.5°$ angles (Geretschläger 365-366).
+   For the top flap, if the corner is at $(0.5, 1)$ and must align with the central vertical axis, the fold line satisfies:
+   $$\text{Fold line: } y - 0.5 = m(x - 0.5)$$
+
+   where $m = \tan(67.5°) \approx 2.414$. This creates an angle bisector dividing the original $135°$ angle into two $67.5°$ angles (Geretschläger 365-366).
 
 4. **Geometric Transformations** - Each fold is mathematically a reflection across the fold line. If a fold line is $ax + by + c = 0$, a point $(x_0, y_0)$ reflects to:
-    $$\left(x_0 - \frac{2a(ax_0 + by_0 + c)}{a^2 + b^2}, y_0 - \frac{2b(ax_0 + by_0 + c)}{a^2 + b^2}\right)$$
-    
-    The paper crane ultimately creates a three-dimensional structure from these planar reflections. The final crane has specific proportions: if the square has side length $s$, the crane's wingspan is approximately $0.7s$, and its body length is approximately $0.5s$ (Geretschläger 368-370).
+   $$\left(x_0 - \frac{2a(ax_0 + by_0 + c)}{a^2 + b^2}, y_0 - \frac{2b(ax_0 + by_0 + c)}{a^2 + b^2}\right)$$
+
+   The paper crane ultimately creates a three-dimensional structure from these planar reflections. The final crane has specific proportions: if the square has side length $s$, the crane's wingspan is approximately $0.7s$, and its body length is approximately $0.5s$ (Geretschläger 368-370).
 
 Someone folding a paper crane performs dozens of angle bisections, creates precise $22.5°$ and $67.5°$ angles through repeated halving, constructs perpendiculars and parallels, and maintains symmetry—all without calculating a single trigonometric function or measuring an angle with a protractor (Geretschläger 370-371). The geometric competence is complete and rigorous; only the formal vocabulary is absent.
 
@@ -828,7 +847,7 @@ Non-Euclidean geometry[^4] is a branch of mathematics that defines space using d
 
 **Technology**: Elliptic Curve Cryptography (ECC) is a crucial, widely used encryption technique in modern security that relies on this geometry. The algebraic structure of curves in non-Euclidean spaces provides the mathematical foundation for protecting digital communications.
 
-**Art and Culture**: Non-Euclidean geometry profoundly influenced early 20th-century art, inspiring Cubism's multiple perspectives and abstract art's break from representational reality (Henderson 205-208). The 1884 novella *Flatland* by Edwin Abbott popularized non-Euclidean concepts, using geometric allegory to explore social hierarchy and dimensional thinking (Henderson 455-460). The book demonstrates how geometric ideas can be communicated through narrative and analogy, reaching audiences who would never engage with formal mathematics (Henderson 465-470). Artists and writers grasped the conceptual implications—that reality might have more dimensions than we directly perceive, that geometry is a choice not a given—without mastering the technical mathematics (Henderson 208-210).
+**Art and Culture**: Non-Euclidean geometry profoundly influenced early 20th-century art, inspiring Cubism's multiple perspectives and abstract art's break from representational reality (Henderson 205-208). The 1884 novella _Flatland_ by Edwin Abbott popularized non-Euclidean concepts, using geometric allegory to explore social hierarchy and dimensional thinking (Henderson 455-460). The book demonstrates how geometric ideas can be communicated through narrative and analogy, reaching audiences who would never engage with formal mathematics (Henderson 465-470). Artists and writers grasped the conceptual implications—that reality might have more dimensions than we directly perceive, that geometry is a choice not a given—without mastering the technical mathematics (Henderson 208-210).
 
 **The Fourth Dimension**: Non-Euclidean geometry opened conceptual space for thinking about dimensions beyond the three we experience (Henderson 205-206; Banchoff). While we cannot visualize four-dimensional space directly, we can reason about it mathematically and understand its properties through analogy—just as a two-dimensional being could reason about three dimensions without experiencing them. This capacity to work with concepts beyond direct experience demonstrates a sophisticated form of mathematical thinking that exists independently of computational facility.
 
@@ -893,28 +912,29 @@ Most people intuitively understand topological equivalence without the formalism
 
 ### Number Theory
 
-Number theory is the branch of pure mathematics devoted to the study of integers and their properties—divisibility, prime factorization, congruences, and the solutions to equations involving whole numbers (Hardy and Wright 1-5). Often called "the queen of mathematics" by Carl Friedrich Gauss, number theory has historically been pursued for its intrinsic beauty and logical elegance rather than practical application (Hardy and Wright v-vi). Yet paradoxically, in the late 20th century, number theory became the foundation of modern cryptography and digital security, transforming one of the most "pure" mathematical disciplines into one of the most practically consequential (Koblitz 1-3). Despite its reputation for abstraction, number theory permeates daily life in ways most people never recognize. 
+Number theory is the branch of pure mathematics devoted to the study of integers and their properties—divisibility, prime factorization, congruences, and the solutions to equations involving whole numbers (Hardy and Wright 1-5). Often called "the queen of mathematics" by Carl Friedrich Gauss, number theory has historically been pursued for its intrinsic beauty and logical elegance rather than practical application (Hardy and Wright v-vi). Yet paradoxically, in the late 20th century, number theory became the foundation of modern cryptography and digital security, transforming one of the most "pure" mathematical disciplines into one of the most practically consequential (Koblitz 1-3). Despite its reputation for abstraction, number theory permeates daily life in ways most people never recognize.
 
-At its core, number theory investigates fundamental questions about integers: Which numbers are prime? How can we factor a given integer into primes? What patterns emerge in the distribution of primes? When does a Diophantine equation (an equation requiring integer solutions) have solutions? (Hardy and Wright 1-10). These questions, simple to state yet often extraordinarily difficult to answer, have occupied mathematicians for millennia. 
+At its core, number theory investigates fundamental questions about integers: Which numbers are prime? How can we factor a given integer into primes? What patterns emerge in the distribution of primes? When does a Diophantine equation (an equation requiring integer solutions) have solutions? (Hardy and Wright 1-10). These questions, simple to state yet often extraordinarily difficult to answer, have occupied mathematicians for millennia.
 
 The irony is instructive: mathematical knowledge developed for purely aesthetic reasons centuries ago[^5]—Fermat's Little Theorem (1640), Euler's Theorem (1736), Gauss's modular arithmetic (1801)—became essential tools for 21st-century digital infrastructure (Koblitz 3-8). This demonstrates both the unpredictability of mathematical application and the value of pursuing abstract knowledge without demanding immediate utility. Number theory's journey from "pure" to "applied" mathematics illustrates how mathematical structures, once understood, persist as tools waiting for problems they can solve (Koblitz 8-10).
 
-**Modular Arithmetic**: One of number theory's most powerful tools is modular arithmetic, formalized by Gauss in his 1801 *Disquisitiones Arithmeticae* (Gauss 1-5; Dudley 1-3). In modular arithmetic, numbers "wrap around" upon reaching a certain value called the modulus. Two integers $a$ and $b$ are congruent modulo $n$ (written $a \equiv b \pmod{n}$) if they differ by a multiple of $n$—equivalently, if they leave the same remainder when divided by $n$ (Dudley 3-5). Formally:
+**Modular Arithmetic**: One of number theory's most powerful tools is modular arithmetic, formalized by Gauss in his 1801 _Disquisitiones Arithmeticae_ (Gauss 1-5; Dudley 1-3). In modular arithmetic, numbers "wrap around" upon reaching a certain value called the modulus. Two integers $a$ and $b$ are congruent modulo $n$ (written $a \equiv b \pmod{n}$) if they differ by a multiple of $n$—equivalently, if they leave the same remainder when divided by $n$ (Dudley 3-5). Formally:
 
 $$a \equiv b \pmod{n} \iff n \mid (a - b)$$
 
 where $n \mid (a - b)$ means "$n$ divides $(a-b)$" (Dudley 4). For example, $17 \equiv 5 \pmod{12}$ because $17 - 5 = 12$, which is divisible by 12. Both 17 and 5 leave remainder 5 when divided by 12.
 
 Modular arithmetic behaves algebraically: congruences can be added, subtracted, and multiplied while preserving congruence (Dudley 5-8). If $a \equiv b \pmod{n}$ and $c \equiv d \pmod{n}$, then:
+
 - $a + c \equiv b + d \pmod{n}$
 - $a - c \equiv b - d \pmod{n}$
 - $a \cdot c \equiv b \cdot d \pmod{n}$
 
 This algebraic structure makes modular arithmetic extraordinarily useful for solving problems about remainders, cyclical patterns, and divisibility (Dudley 8-10).
 
-*Prime Numbers and Unique Factorization*: Central to number theory is the *Fundamental Theorem of Arithmetic*: every integer greater than 1 can be expressed uniquely as a product of prime numbers (Hardy and Wright 2-3). For example, $360 = 2^3 \times 3^2 \times 5$. This unique prime factorization is so foundational that it's easy to overlook its significance—without it, arithmetic as we know it would collapse (Hardy and Wright 3-4). The theorem guarantees that primes are the "atoms" of number theory: all composite numbers are built from primes in exactly one way.
+_Prime Numbers and Unique Factorization_: Central to number theory is the _Fundamental Theorem of Arithmetic_: every integer greater than 1 can be expressed uniquely as a product of prime numbers (Hardy and Wright 2-3). For example, $360 = 2^3 \times 3^2 \times 5$. This unique prime factorization is so foundational that it's easy to overlook its significance—without it, arithmetic as we know it would collapse (Hardy and Wright 3-4). The theorem guarantees that primes are the "atoms" of number theory: all composite numbers are built from primes in exactly one way.
 
-Primes themselves exhibit mysterious patterns. The *Prime Number Theorem*, proved independently by Hadamard and de la Vallée Poussin in 1896, describes the asymptotic distribution of primes: the number of primes less than $x$ is approximately $\displaystyle \frac{x}{\ln(x)}$ (Derbyshire 70-75). Yet despite this regularity in the large-scale distribution, the primes appear randomly scattered when examined locally—no simple formula generates all primes, and predicting the next prime remains computationally challenging for large numbers (Derbyshire 75-80).
+Primes themselves exhibit mysterious patterns. The _Prime Number Theorem_, proved independently by Hadamard and de la Vallée Poussin in 1896, describes the asymptotic distribution of primes: the number of primes less than $x$ is approximately $\displaystyle \frac{x}{\ln(x)}$ (Derbyshire 70-75). Yet despite this regularity in the large-scale distribution, the primes appear randomly scattered when examined locally—no simple formula generates all primes, and predicting the next prime remains computationally challenging for large numbers (Derbyshire 75-80).
 
 This asymmetry—multiplication is easy, factorization is hard—became the cornerstone of modern cryptography (Koblitz 1-5). Multiplying two 300-digit primes takes milliseconds on a standard computer. Factoring their product back into those primes could take longer than the age of the universe with current classical algorithms (Koblitz 5-8). This computational asymmetry, a fundamental property of number theory, protects every secure online transaction.
 
@@ -934,7 +954,7 @@ This asymmetry—multiplication is easy, factorization is hard—became the corn
 
 The journey from ancient cryptography to modern public-key systems illustrates how mathematical concepts accumulate power over time. Caesar used simple letter-shifting ciphers 2,000 years ago—pure modular arithmetic (Luciano and Prichett 3-5). During WWII, the Enigma machine relied on permutation groups, a concept from abstract algebra (Sinkov and Feil 1-15). By 1976, the RSA algorithm united number theory, modular arithmetic, and computational complexity into a system that revolutionized digital security (Luciano and Prichett 12-14; Holden 157-175). The same mathematical structures—just applied with increasing sophistication.
 
-The security of online shopping relies on the *Integer Factorization Problem* (Lefton 55-56). Here is the mathematical process:
+The security of online shopping relies on the _Integer Factorization Problem_ (Lefton 55-56). Here is the mathematical process:
 
 1. Key Generation (Boyer and Moore 183-184)
    - First, pick two distinct large prime numbers, $p$ and $q$.
@@ -948,21 +968,21 @@ The security of online shopping relies on the *Integer Factorization Problem* (L
 4. Decryption (The Server's Task)
    - The merchant uses their private key $d$ to recover the original message: $M = C^d \pmod{n}$
 
-**Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: *Compute M to the e, mod n*" (Treat 255).
+**Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: _Compute M to the e, mod n_" (Treat 255).
 
 **Barcodes and ISBNs**: The last digit on a barcode or a book's ISBN is a Check Digit. It is calculated using a specific number theory formula to ensure that if a scanner misreads a number, the "math" won't add up, and the system will flag an error (Sinkov and Feil 25-30).
 
 **Elliptic Curve Encryption**: Every time you visit an "https" website or use a messaging app, your device uses Elliptic-Curve Diffie-Hellman (a form of number theory) to agree on a secret key with the server (Zimmermann 112-113; DeArmond 1). You are using prime numbers to build a "digital wall" around your private data.
 
-Elliptic Curve Cryptography (ECC) relies on the algebraic structure of elliptic curves over finite fields, providing the same security as RSA with much smaller key sizes (DeArmond 2-5; Havil 205-210). While RSA might require a 2048-bit key for strong security, ECC achieves equivalent security with just 224 bits—making it ideal for smartphones and IoT devices where computational power is limited (Zimmermann 113). The mathematical foundation involves points on curves defined by equations like $y^2 = x^3 + ax + b$, where operations are performed modulo a prime number (Havil 206-208).
+[Elliptic Curve Cryptography (ECC)](#iwasawa-theory) relies on the algebraic structure of elliptic curves over finite fields, providing the same security as RSA with much smaller key sizes (DeArmond 2-5; Havil 205-210). While RSA might require a 2048-bit key for strong security, ECC achieves equivalent security with just 224 bits—making it ideal for smartphones and IoT devices where computational power is limited (Zimmermann 113). The mathematical foundation involves points on curves defined by equations like $y^2 = x^3 + ax + b$, where operations are performed modulo a prime number (Havil 206-208).
 
 **The Privacy Dimension**: The mathematics of cryptography isn't just about security—it's fundamentally about privacy and individual rights (Froomkin 709-712; Feldman and Haber 197-200). When you use encryption, you're exercising number theory to protect your constitutional right to private communication (Froomkin 715-720). The "always-on" digital era makes this mathematical protection more crucial than ever: every text message, medical record, and financial transaction depends on the computational hardness of certain number-theoretic problems (Feldman and Haber 205-210; Petras 690-695).
 
-**The Quantum Threat**: However, a major disruption looms. Quantum computers, when sufficiently developed, will be able to factor large numbers exponentially faster than classical computers using Shor's algorithm (Grobman 54-58; Clark et al. 25). This would break RSA and current elliptic curve systems, rendering decades of encrypted data vulnerable (Grobman 59-62). Researchers are now developing "post-quantum cryptography"—new mathematical structures resistant to quantum attacks, such as lattice-based cryptography and hash-based signatures (Clark et al. 25-26). The race is on to deploy these systems before quantum computers become powerful enough to threaten current encryption.
+**The Quantum Threat**: However, a major disruption looms. Quantum computers, when sufficiently developed, will be able to factor large numbers exponentially faster than classical computers using Shor's algorithm (Grobman 54-58; Clark et al. 25). This would break RSA and current [elliptic curve](#iwasawa-theory) systems, rendering decades of encrypted data vulnerable (Grobman 59-62). Researchers are now developing "post-quantum cryptography"—new mathematical structures resistant to quantum attacks, such as lattice-based cryptography and hash-based signatures (Clark et al. 25-26). The race is on to deploy these systems before quantum computers become powerful enough to threaten current encryption.
 
 **Home Cooking and Ratios**: Any home cook who doubles a recipe, converts cups to tablespoons, or adjusts a recipe designed for 4 people to serve 7 is performing proportional reasoning and ratio arithmetic—the same operations formalized in number theory and algebra. The cook who eyeballs "a little more flour" because the dough "doesn't feel right" is performing real-time estimation and feedback-based adjustment—an informal version of iterative approximation.
 
-**The Competence-Language Gap in Cryptography**: Every person who uses online banking, sends encrypted messages, or makes secure purchases demonstrates implicit trust in number-theoretic principles. They understand the *function* of encryption ("this keeps my data safe") and make sophisticated decisions about when to use it, even if they've never seen Euler's totient function or studied modular arithmetic (Petras 700-705). The mathematical competence exists in recognizing the need for security, choosing appropriate tools, and verifying secure connections (the lock icon in the browser). The formal language—prime factorization, discrete logarithms, elliptic curve point multiplication—describes the mechanism but isn't necessary for effective use. As Lefton notes in teaching cryptography to students: the concepts become accessible when presented through familiar problems before introducing the intimidating notation (Lefton 54-60). This pedagogical finding supports the broader thesis: mathematical literacy can exist independently of mathematical language fluency.
+**The Competence-Language Gap in Cryptography**: Every person who uses online banking, sends encrypted messages, or makes secure purchases demonstrates implicit trust in number-theoretic principles. They understand the _function_ of encryption ("this keeps my data safe") and make sophisticated decisions about when to use it, even if they've never seen Euler's totient function or studied modular arithmetic (Petras 700-705). The mathematical competence exists in recognizing the need for security, choosing appropriate tools, and verifying secure connections (the lock icon in the browser). The formal language—prime factorization, discrete logarithms, elliptic curve point multiplication—describes the mechanism but isn't necessary for effective use. As Lefton notes in teaching cryptography to students: the concepts become accessible when presented through familiar problems before introducing the intimidating notation (Lefton 54-60). This pedagogical finding supports the broader thesis: mathematical literacy can exist independently of mathematical language fluency.
 
 ---
 
@@ -970,18 +990,20 @@ Elliptic Curve Cryptography (ECC) relies on the algebraic structure of elliptic 
 
 Group theory is the branch of mathematics that studies symmetry and structure by analyzing groups—sets of elements combined with an operation (like multiplication or addition) that satisfy axioms of closure, associativity, identity, and invertibility. It provides a rigorous framework for identifying, classifying, and managing structural symmetries in mathematics, physics, and chemistry.
 
-Groups are considered the foundation of abstract algebra because they isolate the core properties of algebraic operations, allowing mathematicians to study structural relationships in a generalized way.  A group $G$ consists of a set of elements and a binary operation ($\cdot$) that combine two elements ($a, b$) to form another element ($a \cdot b$). Group theory formalizes symmetries, such as rotations and reflections of geometric shapes or permutations of roots in polynomial equations. 
+Groups are considered the foundation of abstract algebra because they isolate the core properties of algebraic operations, allowing mathematicians to study structural relationships in a generalized way. A group $G$ consists of a set of elements and a binary operation ($\cdot$) that combine two elements ($a, b$) to form another element ($a \cdot b$). Group theory formalizes symmetries, such as rotations and reflections of geometric shapes or permutations of roots in polynomial equations.
 
-**The Four Group Axioms**: 
-1. Closure: If $a, b \in G$, then $a \cdot b \in G$. 
-2. Associativity: $(a \cdot b) \cdot c = a \cdot (b \cdot c)$. 
-3. Identity: An element $e$ exists such that $e \cdot a = a \cdot e = a$ for all $a \in G$. 
-4. Inverse: For every $a \in G$, there exists $a^{-1}$ such that $a \cdot a^{-1} = e$. 
+**The Four Group Axioms**:
 
-**Types of Groups**: 
-- *Abelian Group*: A group where the order of operations does not matter (commutative, $a \cdot b = b \cdot a$). 
-- *Finite Group*: A group with a finite number of elements (its order). 
-- *Isomorphic Groups*: Groups that are conceptually different but share the same structure and behave the same way.
+1. Closure: If $a, b \in G$, then $a \cdot b \in G$.
+2. Associativity: $(a \cdot b) \cdot c = a \cdot (b \cdot c)$.
+3. Identity: An element $e$ exists such that $e \cdot a = a \cdot e = a$ for all $a \in G$.
+4. Inverse: For every $a \in G$, there exists $a^{-1}$ such that $a \cdot a^{-1} = e$.
+
+**Types of Groups**:
+
+- _Abelian Group_: A group where the order of operations does not matter (commutative, $a \cdot b = b \cdot a$).
+- _Finite Group_: A group with a finite number of elements (its order).
+- _Isomorphic Groups_: Groups that are conceptually different but share the same structure and behave the same way.
 
 In simple terms: A "group" in abstract algebra is a set of actions you can perform and reverse, following specific rules: every action has an opposite, combining actions produces another valid action, and there is a "do nothing" action.
 
@@ -997,53 +1019,45 @@ In simple terms: A "group" in abstract algebra is a set of actions you can perfo
 
 1. The Generators (The Actions)
 
-    The group is generated by the set $S = \{R, L U, D, F, B\}$, representing the 90-degree clockwise turns of the six faces. Any sequence of moves is a word created from these letters (Turner and Gold 618).
+   The group is generated by the set $S = \{R, L U, D, F, B\}$, representing the 90-degree clockwise turns of the six faces. Any sequence of moves is a word created from these letters (Turner and Gold 618).
 
 2. The Group Axioms
-    *Closure*: If you perform move $A$ and then move $B$, the result ( $AB$ ) is just another
-    single, albeit more complex, element of the group.
-    
-    - *Identity* ( $e$ ): This is the "do nothing" move. If you perform a sequence that returns the cube to its original state (like $R^4$ ), you have performed the identity.
-    
-    - *Inverses*: Every move has an opposite. The inverse of $R$ (clockwise) is $R'$ (counter-clockwise). For a sequence like $FR$, the inverse is $R'F'$.
-    
-    - *Associativity*: $(FR)U$ is the same as $F(RU)$. The order of operations matters, but the grouping doesn't.
+   _Closure_: If you perform move $A$ and then move $B$, the result ( $AB$ ) is just another
+   single, albeit more complex, element of the group.
+   - _Identity_ ( $e$ ): This is the "do nothing" move. If you perform a sequence that returns the cube to its original state (like $R^4$ ), you have performed the identity.
+   - _Inverses_: Every move has an opposite. The inverse of $R$ (clockwise) is $R'$ (counter-clockwise). For a sequence like $FR$, the inverse is $R'F'$.
+   - _Associativity_: $(FR)U$ is the same as $F(RU)$. The order of operations matters, but the grouping doesn't.
 
 3. Calculating the Size ( $|G|$ )
-    The "43 quintillion" number comes from the Product Rule of combinatorics, constrained
-    by the laws of the cube's mechanics (Turner and Gold 620):
-    
-    $$|G| = \frac{(8! \times 3^7) \times (12! \times 2^{11})}{2} = 43,252,003, 274, 489, 856, 000$$
-    
-    - *Corners*: $8!$ ways to arrange them; $3^7$ ways to orient them (the 8th is forced).
-    
-    - *Edges*: $12!$ ways to arrange them; $2^{11}$ ways to orient them (the 12th is forced).
-    
-    - *The "$/2$"*: You cannot swap just two pieces or flip a single edge without taking the cube apart; only even permutations are reachable (Turner and Gold 621; Hecker and Banerji 213).
+   The "43 quintillion" number comes from the Product Rule of combinatorics, constrained
+   by the laws of the cube's mechanics (Turner and Gold 620):
+
+   $$|G| = \frac{(8! \times 3^7) \times (12! \times 2^{11})}{2} = 43,252,003, 274, 489, 856, 000$$
+   - _Corners_: $8!$ ways to arrange them; $3^7$ ways to orient them (the 8th is forced).
+   - _Edges_: $12!$ ways to arrange them; $2^{11}$ ways to orient them (the 12th is forced).
+   - _The "$/2$"_: You cannot swap just two pieces or flip a single edge without taking the cube apart; only even permutations are reachable (Turner and Gold 621; Hecker and Banerji 213).
 
 4. Commutators and Conjugates
 
-    Speedcubing "algorithms" are built on two specific structures:
-    
-    - *Commutators ( $aba^{-1}b^{-1}$ )*: Used to swap a few specific pieces while leaving the rest of  the cube untouched.
-    
-    - *Conjugates ( $aba^{-1}$ )*: A "setup move" ( $a$ ), an operation ( $b$ ), and "undoing the setup" ($a^{-1}$).
+   Speedcubing "algorithms" are built on two specific structures:
+   - _Commutators ( $aba^{-1}b^{-1}$ )_: Used to swap a few specific pieces while leaving the rest of the cube untouched.
+   - _Conjugates ( $aba^{-1}$ )_: A "setup move" ( $a$ ), an operation ( $b$ ), and "undoing the setup" ($a^{-1}$).
 
-  - **God's Number: Solving Rubik's Cube in 20 Moves[^6]**
+- **God's Number: Solving Rubik's Cube in 20 Moves[^6]**
 
-  - **The Superflip**
+- **The Superflip**
 
-      **Optimal 20-move sequence:** $U \ R^2 \ F \ B \ R \ B^2 \ R \ U^2 \ L \ B^2 \ R \ U' \ D' \ R^2 \ F \ R' \ L \ B^2 \ U^2 \ F^2$ (Rokicki et al. 647)
-      
-      **Notation:** $U, D, L, R, F, B$ = Up, Down, Left, Right, Front, Back (90° clockwise); $'$ (prime) = counter-clockwise; $^2$ = 180°.
-      
-      **Speedcuber version:** $(M' \ U) \times 4$, rotate cube ($y \ z'$), repeat $3 \times$ total.
-      
-      The Superflip demonstrates how complex mathematical objects can be described in plain language ("all edges flipped") yet require sophisticated group-theoretic proof to establish minimal solution length. This position is maximally distant from the solved state in the Cayley graph (van Grol 12). 
+  **Optimal 20-move sequence:** $U \ R^2 \ F \ B \ R \ B^2 \ R \ U^2 \ L \ B^2 \ R \ U' \ D' \ R^2 \ F \ R' \ L \ B^2 \ U^2 \ F^2$ (Rokicki et al. 647)
 
-  - **Solving Algorithms**
-    - **Thistlethwaite Algorithm (1980)**[^7]
-    - **Kociemba's Algorithm (1992)**[^8]
+  **Notation:** $U, D, L, R, F, B$ = Up, Down, Left, Right, Front, Back (90° clockwise); $'$ (prime) = counter-clockwise; $^2$ = 180°.
+
+  **Speedcuber version:** $(M' \ U) \times 4$, rotate cube ($y \ z'$), repeat $3 \times$ total.
+
+  The Superflip demonstrates how complex mathematical objects can be described in plain language ("all edges flipped") yet require sophisticated group-theoretic proof to establish minimal solution length. This position is maximally distant from the solved state in the Cayley graph (van Grol 12).
+
+- **Solving Algorithms**
+  - **Thistlethwaite Algorithm (1980)**[^7]
+  - **Kociemba's Algorithm (1992)**[^8]
 
 ---
 
@@ -1051,14 +1065,15 @@ In simple terms: A "group" in abstract algebra is a set of actions you can perfo
 
 Representation theory studies how abstract mathematical structures—like groups and symmetries—can be expressed as concrete operations, often through matrices or transformations. This translation makes complex ideas easier to visualize and manipulate. As a branch of mathematics, representation theory simplifies the study of abstract algebraic structures like groups, Lie algebras[^9], and associative algebras by representing their elements as linear transformations (i.e., matrices) that act on vector spaces. This effectively reduces complex, often nonlinear symmetry problems to more manageable linear algebra problems. In essence, representation theory makes abstract objects more concrete by describing their elements using matrices and performing operations through matrix addition and multiplication. This transformation allows mathematicians to convert complex issues in abstract algebra into problems that are easier to understand in linear algebra.
 
-- *Representations*: A representation of an algebraic object (like a group $G$) on a vector space $V$ is a map that associates each element of the group with an invertible matrix (or linear operator) in a way that preserves the group's structure.
-- *Irreducible Representations*: These are the "building blocks" of the theory. A representation is irreducible if it has no smaller "sub-representations" (subspaces that stay within themselves when acted upon by the group).
-- *Linearization*: The process often turns non-linear actions (like the symmetries of a geometric shape) into linear actions on vector spaces, making them easier to calculate. 
+- _Representations_: A representation of an algebraic object (like a group $G$) on a vector space $V$ is a map that associates each element of the group with an invertible matrix (or linear operator) in a way that preserves the group's structure.
+- _Irreducible Representations_: These are the "building blocks" of the theory. A representation is irreducible if it has no smaller "sub-representations" (subspaces that stay within themselves when acted upon by the group).
+- _Linearization_: The process often turns non-linear actions (like the symmetries of a geometric shape) into linear actions on vector spaces, making them easier to calculate.
 
 **Major Branches**:
-- *Group Representations*: Historically the first branch, representing group elements as invertible matrices.
-- *Lie Algebra Representations*: Studies infinitesimal symmetries, often used to understand continuous symmetry in physics.
-- *Modular Representation Theory*: Studies representations over fields of positive characteristic (like finite fields), which is crucial for classifying finite simple groups. 
+
+- _Group Representations_: Historically the first branch, representing group elements as invertible matrices.
+- _Lie Algebra Representations_: Studies infinitesimal symmetries, often used to understand continuous symmetry in physics.
+- _Modular Representation Theory_: Studies representations over fields of positive characteristic (like finite fields), which is crucial for classifying finite simple groups.
 
 #### Applications:
 
@@ -1086,15 +1101,16 @@ At its core, Galois Theory[^10] intertwines the realms of algebra, focusing on p
 
 This theory is named after the brilliant Évariste Galois, a French mathematician who, despite his untimely passing at the tender age of 20, made contributions that were so innovative they took years for the mathematical community to fully recognize. His legacy laid the groundwork for the evolution of modern abstract algebra, inspiring generations to explore the beauty of mathematics.
 
-The Fundamental Theorem of Galois Theory establishes a one-to-one correspondence between: 
+The Fundamental Theorem of Galois Theory establishes a one-to-one correspondence between:
+
 - The subgroups of a Galois group.
 - The intermediate fields of a field extension
 
 **Permutations and Solvability**: Galois Theory proved that certain polynomial equations can't be solved with a simple formula (like the Quadratic Formula) because their "symmetry group" is too complex.
 
-- *Unsolvable Rubik's Cube*: If you peel the stickers off a Rubik's Cube and put them back at random, there is a high probability that the cube is now "unsolvable."
+- _Unsolvable Rubik's Cube_: If you peel the stickers off a [Rubik's Cube](#abstract-algebra-group-theory) and put them back at random, there is a high probability that the cube is now "unsolvable."
 
-- *The "Unsolvable" Note*: Just as Galois proved some equations are unsolvable because their symmetries are too messy, music has "unsolvable" scales. For example, you cannot create a perfectly symmetrical scale using only whole steps that hits every note in an octave-the math (the Galois Group of the tuning system) simply doesn't allow it.
+- _The "Unsolvable" Note_: Just as Galois proved some equations are unsolvable because their symmetries are too messy, music has "unsolvable" scales. For example, you cannot create a perfectly symmetrical scale using only whole steps that hits every note in an octave-the math (the Galois Group of the tuning system) simply doesn't allow it.
 
 #### Applications:
 
@@ -1106,7 +1122,7 @@ $4 \times 4$ Sudoku solutions can be analyzed through a "hidden" group structure
 
 The mathematical sophistication underlying Sudoku—involving group operations, Latin squares, and permutation theory—is completely hidden from casual players who solve puzzles using purely logical reasoning. This exemplifies how mathematical competence (solving the puzzle) can be entirely separate from mathematical language (understanding the group-theoretic structure). As Cook et al. observe, "the mathematics is there whether or not the solver is aware of it" (15).
 
-**Circle of Fifths**:  In music, the Circle of Fifths is a map of these relationships. Moving from C to G to D is a mathematical "rotation" through a group. Galois Theory tells us which shapes are "constructible" using only a straightedge and compass.
+**Circle of Fifths**: In music, the Circle of Fifths is a map of these relationships. Moving from C to G to D is a mathematical "rotation" through a group. Galois Theory tells us which shapes are "constructible" using only a straightedge and compass.
 
 **Symmetric Shifts**: If you take a melody in the key of C Major and move every note up seven semitones to G Major, the relationships between the notes stay exactly the same. The song sounds the same, just higher. This "shift" is a symmetry operation.
 
@@ -1123,20 +1139,21 @@ The mathematical sophistication underlying Sudoku—involving group operations, 
 ### Real Analysis (Epsilon-Delta Limits)
 
 Real analysis uses the "epsilon-delta" definition to express limits rigorously - the idea that you can get as close as you want to a target value.
-The epsilon-delta ($\epsilon$-$\delta$) definition of a limit is the formal way to prove that a function $f(x)$ approaches a value $L$ as $x$ approaches $c$. While early calculus uses "approaches" or "tends to," this definition provides a precise, irrefutable mathematical structure for "closeness". 
+The epsilon-delta ($\epsilon$-$\delta$) definition of a limit is the formal way to prove that a function $f(x)$ approaches a value $L$ as $x$ approaches $c$. While early calculus uses "approaches" or "tends to," this definition provides a precise, irrefutable mathematical structure for "closeness".
 
-We say $\lim_{x \to c} f(x) = L$ if for every $\epsilon > 0$, there exists a $\delta > 0$ such that for all $x$, if $0 < |x - c| < \delta$, then $|f(x) - L| < \epsilon$. 
+We say $\lim_{x \to c} f(x) = L$ if for every $\epsilon > 0$, there exists a $\delta > 0$ such that for all $x$, if $0 < |x - c| < \delta$, then $|f(x) - L| < \epsilon$.
 
 - $\epsilon$ (Epsilon): Represents a tiny "tolerance" or error margin on the $y$-axis (the output range).
 - $\delta$ (Delta): Represents a corresponding distance on the $x$-axis (the input range).
-- $0 < |x - c|$: This ensures we are looking at values near $c$ but not necessarily at $c$, as the limit doesn't care what happens exactly at the point. [6, 7, 8] 
+- $0 < |x - c|$: This ensures we are looking at values near $c$ but not necessarily at $c$, as the limit doesn't care what happens exactly at the point. [6, 7, 8]
 
 **The "Challenge" Game**
 
-Think of this definition as a challenge between two people: 
- 1. Person A (The Challenger): Picks any tiny distance $\epsilon$ around the limit $L$. They say, "I want the function's output to stay within this window $(L - \epsilon, L + \epsilon)$."
- 2. Person B (The Prover): Must find a distance $\delta$ around $c$. If they can find a $\delta$ such that every $x$ within that distance (except $c$) maps to an output within the challenger's window, the limit is proven.
- 3. If the limit exists, Person B can always find a $\delta$, no matter how small Person A makes $\epsilon$. [1, 9, 10, 11, 12] 
+Think of this definition as a challenge between two people:
+
+1.  Person A (The Challenger): Picks any tiny distance $\epsilon$ around the limit $L$. They say, "I want the function's output to stay within this window $(L - \epsilon, L + \epsilon)$."
+2.  Person B (The Prover): Must find a distance $\delta$ around $c$. If they can find a $\delta$ such that every $x$ within that distance (except $c$) maps to an output within the challenger's window, the limit is proven.
+3.  If the limit exists, Person B can always find a $\delta$, no matter how small Person A makes $\epsilon$. [1, 9, 10, 11, 12]
 
 #### Applications:
 
@@ -1150,25 +1167,26 @@ Think of this definition as a challenge between two people:
 
 **Smooth Driving**: If you want your car ride to be gentle, you want the speed and acceleration to change smoothly-not suddenly. Real analysis provides the tools for understanding what "smooth change" means (continuity and differentiability). The mathematics behind a smooth ride is epsilon-delta analysis in action.
 
-*The Formal Definition of a Limit*: A function $f(x)$ approaches limit $L$ as $x$ approaches $a$ (written $\displaystyle \lim_{x \to a} f(x) = L$) if:
+_The Formal Definition of a Limit_: A function $f(x)$ approaches limit $L$ as $x$ approaches $a$ (written $\displaystyle \lim_{x \to a} f(x) = L$) if:
 
 For every $\varepsilon > 0$ (epsilon, representing how close you want to be to the target), there exists a $\delta > 0$ (delta, representing how close you need to be to the input) such that whenever $0 < |x - a| < \delta$, we have $|f(x) - L| < \varepsilon$.
 
 In plain language: No matter how tight a "tolerance window" ($\varepsilon$) you demand around the target value $L$, I can always find a corresponding "input window" ($\delta$) around $a$ that guarantees the output stays within your tolerance.
 
-*The Challenge-Response Game*: Think of epsilon-delta as a game between you and the function:
-  1. **You challenge**: "I want the output within $\varepsilon = 0.01$ of the target"
-  2. **The function responds**: "Stay within $\delta = 0.005$ of the input, and I guarantee it"
-  3. **You challenge harder**: "Now I want $\varepsilon = 0.0001$"
-  4. **The function responds**: "Then stay within $\delta = 0.00005$"
+_The Challenge-Response Game_: Think of epsilon-delta as a game between you and the function:
+
+1. **You challenge**: "I want the output within $\varepsilon = 0.01$ of the target"
+2. **The function responds**: "Stay within $\delta = 0.005$ of the input, and I guarantee it"
+3. **You challenge harder**: "Now I want $\varepsilon = 0.0001$"
+4. **The function responds**: "Then stay within $\delta = 0.00005$"
 
 If the function can always respond successfully no matter how small you make $\varepsilon$, the limit exists.
 
-*Continuity (No Sudden Jumps)*: A function $f(x)$ is continuous at point $a$ if $\displaystyle \lim_{x \to a} f(x) = f(a)$. In driving terms: your velocity is continuous if there are no instantaneous jumps from 30 mph to 60 mph - the speedometer reading changes smoothly.
+_Continuity (No Sudden Jumps)_: A function $f(x)$ is continuous at point $a$ if $\displaystyle \lim_{x \to a} f(x) = f(a)$. In driving terms: your velocity is continuous if there are no instantaneous jumps from 30 mph to 60 mph - the speedometer reading changes smoothly.
 
 When you press the gas pedal, a well-designed car's velocity function $v(t)$ is continuous. The car doesn't teleport from one speed to another; it passes through every intermediate speed value. This is continuity.
 
-*Differentiability (No Sharp Corners)*: A function is differentiable at point $a$ if its derivative exists at that point:
+_Differentiability (No Sharp Corners)_: A function is differentiable at point $a$ if its derivative exists at that point:
 
 $$f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$
 
@@ -1176,27 +1194,28 @@ In driving terms: your velocity has a well-defined derivative (acceleration) at 
 
 When you smoothly press the gas pedal, your car's velocity function is not only continuous but differentiable - the acceleration $a(t) = v'(t)$ exists at every moment. A "jerky" ride happens when velocity changes aren't differentiable (sudden changes in acceleration).
 
-*Highway Merging*: Suppose you're merging onto a highway and your velocity follows the function:
+_Highway Merging_: Suppose you're merging onto a highway and your velocity follows the function:
 
 $$v(t) = 30 + 30t - 5t^2 \text{ mph (for } 0 \leq t \leq 3 \text{ seconds)}$$
 
-  - At $t = 0$: $v(0) = 30$ mph (your starting speed)
-  - At $t = 3$: $v(3) = 30 + 90 - 45 = 75$ mph (highway speed)
-  - The function is continuous: no jumps in speed
-  - The derivative (acceleration) is: $v'(t) = 30 - 10t$ mph/second
-  - At $t = 0$: $a(0) = 30$ mph/s (strong initial acceleration)
-  - At $t = 3$: $a(3) = 0$ mph/s (you've stopped accelerating)
+- At $t = 0$: $v(0) = 30$ mph (your starting speed)
+- At $t = 3$: $v(3) = 30 + 90 - 45 = 75$ mph (highway speed)
+- The function is continuous: no jumps in speed
+- The derivative (acceleration) is: $v'(t) = 30 - 10t$ mph/second
+- At $t = 0$: $a(0) = 30$ mph/s (strong initial acceleration)
+- At $t = 3$: $a(3) = 0$ mph/s (you've stopped accelerating)
 
 The function is differentiable everywhere in $[0,3]$, meaning your acceleration changes smoothly from 30 mph/s to 0, creating a comfortable ride. If the acceleration function had a discontinuity (a jump), passengers would feel a jolt.
 
-*Why Epsilon-Delta Matters for Engineering*: Engineers designing cruise control systems, antilock brakes, and automatic transmissions use epsilon-delta concepts to ensure that:
-  - Speed changes are continuous (no jumps)
-  - Acceleration changes are smooth (differentiable)
-  - The system responds predictably within tolerance windows
+_Why Epsilon-Delta Matters for Engineering_: Engineers designing cruise control systems, antilock brakes, and automatic transmissions use epsilon-delta concepts to ensure that:
+
+- Speed changes are continuous (no jumps)
+- Acceleration changes are smooth (differentiable)
+- The system responds predictably within tolerance windows
 
 When a car manufacturer advertises "smooth acceleration," they're promising that velocity is not just continuous but also differentiable with bounded derivatives—pure real analysis translated into mechanical engineering.
 
-*The Practical Translation*: Every time you judge a car as having a "smooth ride" versus "jerky," you're intuitively detecting whether the velocity and acceleration functions are continuous and differentiable. You're performing real analysis without the Greek letters.
+_The Practical Translation_: Every time you judge a car as having a "smooth ride" versus "jerky," you're intuitively detecting whether the velocity and acceleration functions are continuous and differentiable. You're performing real analysis without the Greek letters.
 
 **Measuring and Approximating**: When you weigh something on a scale or measure a piece of wood, you're dealing with real numbers and approximations. Real analysis explains what it means for those approximations to approach the "true" value.
 
@@ -1211,9 +1230,9 @@ In topology, a knot is a closed loop in 3D space that cannot be untangled to a s
 - **Crossing Number**: The minimum number of times the string crosses over itself in any diagram of the knot. A trefoil has crossing number 3. An unknot has crossing number 0.
 - **Unknotting Number**: The minimum number of times you need to pass the string through itself to turn the knot into an unknot. For a trefoil, the unknotting number is 1.
 - **Jones Polynomial** $V(t)$: A mathematical formula assigned to each knot that acts like a fingerprint. Different knots (usually) have different Jones polynomials. For example:
-  - *Unknot*: $V(t) = 1$
-  - *Trefoil knot*: $V(t) = t + t^3 - t^4$
-  - *Figure-eight knot*: $V(t) = t^{-2} - t^{-1} + 1 - t + t^2$
+  - _Unknot_: $V(t) = 1$
+  - _Trefoil knot_: $V(t) = t + t^3 - t^4$
+  - _Figure-eight knot_: $V(t) = t^{-2} - t^{-1} + 1 - t + t^2$
 
     If two knots have different Jones polynomials, they are definitely different knots (though the converse isn't always true).
 
@@ -1228,18 +1247,20 @@ In topology, a knot is a closed loop in 3D space that cannot be untangled to a s
 **DNA**: Your DNA is essentially a very long, thin string that constantly gets tangled and "knotted" as it replicates (Wang 94; Osheroff and Wang 232). Your body uses enzymes called topoisomerases to "snip" and untangle these biological knots—effectively performing high-level topology every second to keep you alive. The mathematics of DNA untangling is knot theory in its most literal biological application. These enzymes are "enzymes that change the shape of DNA" without altering its chemical sequence (Austin and Fisher 147), solving computational problems in topology that would require sophisticated algorithms if done artificially.
 
 Human DNA is about 2 meters long but packed into a nucleus only 6 micrometers in diameter—roughly 300,000 times smaller. It's like fitting 40 km of thread into a tennis ball. During cell division, DNA must:
-  1. Unwind (the double helix)
-  2. Replicate (make a copy)
-  3. Separate the copies
-  4. Rewind
+
+1. Unwind (the double helix)
+2. Replicate (make a copy)
+3. Separate the copies
+4. Rewind
 
 Without topoisomerases, the DNA would become a hopelessly knotted mess, and the cell would die (Wang 95; Austin and Fisher 148). This problem occurs in all living organisms—from bacteria to plants (Chiatante et al. 1045) to humans—making topoisomerases universally essential enzymes.
 
-*Linking Number (Measuring DNA Entanglement)*: When two closed loops of DNA are intertwined, their linking number $Lk$ counts how many times one loop passes through the other (Wang 96). For a DNA double helix:
+_Linking Number (Measuring DNA Entanglement)_: When two closed loops of DNA are intertwined, their linking number $Lk$ counts how many times one loop passes through the other (Wang 96). For a DNA double helix:
 
 $$Lk = Tw + Wr$$
 
 where:
+
 - $Lk$ (Linking number): Total entanglement, an integer that doesn't change unless you cut the DNA
 - $Tw$ (Twist): Number of times the two strands wind around each other
 - $Wr$ (Writhe): How the DNA coils in 3D space (supercoiling)
@@ -1249,6 +1270,7 @@ Relaxed DNA has $Lk \approx 0$. When DNA is underwound (negative supercoiling), 
 Topoisomerases are enzymes that temporarily cut one or both DNA strands, allow the strands to pass through the break, then reseal the cut (Wang 99; Austin and Fisher 149). There are two main types:
 
 **Type I Topoisomerase**:
+
 - Cuts one strand of the DNA
 - Allows the other strand to pass through
 - Changes linking number by $\pm1$ per action (Champoux 11998)
@@ -1257,6 +1279,7 @@ Topoisomerases are enzymes that temporarily cut one or both DNA strands, allow t
 - Can synthesize and dissolve hemicatenanes (partially interlocked DNA rings), demonstrating remarkable topological sophistication (Lee et al. 15177)
 
 **Type II Topoisomerase**:
+
 - Cuts both strands
 - Passes another double helix through the gap (Vologodskii et al. 3045)
 - Changes linking number by $\pm 2$ per action
@@ -1275,25 +1298,27 @@ Every living cell performs advanced knot theory continuously. Your body contains
 
 While we think in 3D, computer programs, like the video games you play or the augmented reality (AR) filters on your phone, often use 4D quaternions to calculate how objects rotate smoothly without glitching.
 
-Clifford algebras are associative algebraic structures that extend the real numbers, complex numbers, and quaternions to higher dimensions, acting as a unified language for geometry and physics (Lee 760; Shale and Stinespring 365). They generalize the exterior (Grassmann) algebra by allowing vectors to square to a scalar, linking algebraic multiplication directly to geometric, rotation-based transformations. Clifford algebras are often called *Geometric Algebra* when used to represent geometric objects and operations directly. The mathematical framework, formalized in the 1940s-1960s, provides a unified algebraic structure for representing geometric transformations that would otherwise require separate mathematical languages (Lee 761; Lounesto and Latvamaa 533).
+Clifford algebras are associative algebraic structures that extend the real numbers, complex numbers, and quaternions to higher dimensions, acting as a unified language for geometry and physics (Lee 760; Shale and Stinespring 365). They generalize the exterior (Grassmann) algebra by allowing vectors to square to a scalar, linking algebraic multiplication directly to geometric, rotation-based transformations. Clifford algebras are often called _Geometric Algebra_ when used to represent geometric objects and operations directly. The mathematical framework, formalized in the 1940s-1960s, provides a unified algebraic structure for representing geometric transformations that would otherwise require separate mathematical languages (Lee 761; Lounesto and Latvamaa 533).
 
 **Key Concepts and Features**
-- *Geometric Product*: Clifford algebra introduces a product that combines the dot product (scalar) and the wedge product (bivector) to describe both length and orientation (Lee 762).
-- *Defining Relation*: The algebra is generated by vectors $v$ where $v^2 = Q(v)$, meaning the square of a vector equals the value of a quadratic form, often $v^2 = \pm 1 \text{or} 0$ (Shale and Stinespring 366)
-- *Basis Components*: Clifford algebras contain scalars, vectors, bivectors (areas), and higher-grade elements (multivectors) (Lee 763)
-- *Structure*: For an $n$-dimensional vector space, the Clifford algebra forms a $2^n$-dimensional associative algebra (Lee 760)
-- *Conformal Transformations*: Clifford algebras naturally encode conformal transformations (angle-preserving mappings), making them ideal for computer graphics applications where shapes must be rotated and scaled while preserving their fundamental geometry (Lounesto and Latvamaa 533-536)
+
+- _Geometric Product_: Clifford algebra introduces a product that combines the dot product (scalar) and the wedge product (bivector) to describe both length and orientation (Lee 762).
+- _Defining Relation_: The algebra is generated by vectors $v$ where $v^2 = Q(v)$, meaning the square of a vector equals the value of a quadratic form, often $v^2 = \pm 1 \text{or} 0$ (Shale and Stinespring 366)
+- _Basis Components_: Clifford algebras contain scalars, vectors, bivectors (areas), and higher-grade elements (multivectors) (Lee 763)
+- _Structure_: For an $n$-dimensional vector space, the Clifford algebra forms a $2^n$-dimensional associative algebra (Lee 760)
+- _Conformal Transformations_: Clifford algebras naturally encode conformal transformations (angle-preserving mappings), making them ideal for computer graphics applications where shapes must be rotated and scaled while preserving their fundamental geometry (Lounesto and Latvamaa 533-536)
 
 Quaternions[^11] are a four-dimensional number system ( $a + bi + cj + dk$ ) discovered by William Rowan Hamilton in 1843, extending complex numbers to higher dimensions (Hamilton 1; Bannon 43). Hamilton's breakthrough came on October 16, 1843, during a walk along the Royal Canal in Dublin when he realized that by sacrificing commutativity (the order of multiplication), he could extend complex numbers from 2D to a 4D system that elegantly represents 3D rotations (Bannon 44-47). The discovery was so significant that Hamilton carved the fundamental equations into the stone of Brougham Bridge: $i^2 = j^2 = k^2 = ijk = -1$ (Bannon 48).
 
 They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient mathematical framework for representing 3D rotations, widely used in computer graphics, robotics, and navigation (Dirac 261; Niven 654). What makes quaternions remarkable is that this seemingly abstract mathematical structure—born from pure theoretical investigation—turned out to be precisely what modern technology needs for smooth rotation calculations (Alderson 735).
 
 **Core Characteristics**
-- *Structure*: Represented as $q = a + bi + cj + dk$, where $a$, $b$, $c$, $d$ are real numbers and $i$, $j$, $k$ are imaginary units (Hamilton 2; Wood 11).
-- *Dimensions*: Comprised of one real dimension and three imaginary dimensions (Ladd 172).
-- *Non-Commutative*: The order of multiplication matters ($ij = k$, $ji = -k$), a property that initially seemed like a mathematical defect but is precisely what makes quaternions suitable for representing rotations (Niven 655; Bannon 46).
-- *Algebraic Properties*: Form a four-dimensional associative normed division algebra over real numbers (Hamilton 3; Lee 761)
-- *Solving Equations*: Quaternion equations behave differently from real or complex equations. For instance, the equation $x^2 + 1 = 0$ has exactly two solutions in complex numbers ($i$ and $-i$), but infinitely many solutions in quaternions—any unit vector in the imaginary 3D subspace works (Niven 656-658). This demonstrates how the algebraic structure fundamentally changes the nature of mathematical operations.
+
+- _Structure_: Represented as $q = a + bi + cj + dk$, where $a$, $b$, $c$, $d$ are real numbers and $i$, $j$, $k$ are imaginary units (Hamilton 2; Wood 11).
+- _Dimensions_: Comprised of one real dimension and three imaginary dimensions (Ladd 172).
+- _Non-Commutative_: The order of multiplication matters ($ij = k$, $ji = -k$), a property that initially seemed like a mathematical defect but is precisely what makes quaternions suitable for representing rotations (Niven 655; Bannon 46).
+- _Algebraic Properties_: Form a four-dimensional associative normed division algebra over real numbers (Hamilton 3; Lee 761)
+- _Solving Equations_: Quaternion equations behave differently from real or complex equations. For instance, the equation $x^2 + 1 = 0$ has exactly two solutions in complex numbers ($i$ and $-i$), but infinitely many solutions in quaternions—any unit vector in the imaginary 3D subspace works (Niven 656-658). This demonstrates how the algebraic structure fundamentally changes the nature of mathematical operations.
 
 #### Applications:
 
@@ -1313,25 +1338,25 @@ They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient math
 
 ### Bayesian Inference
 
-This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head. Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available. Unlike traditional (frequentist) statistics, which treats probability as the long-run frequency of repeatable events, the Bayesian approach treats it as a "degree of belief" in a specific outcome or parameter. 
+This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head. Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available. Unlike traditional (frequentist) statistics, which treats probability as the long-run frequency of repeatable events, the Bayesian approach treats it as a "degree of belief" in a specific outcome or parameter.
 
 **The Core Logic: Bayes' Theorem**
 At the heart of this method is Bayes' Theorem, which provides a formal mathematical bridge to update your initial views with new data. The relationship is often summarized as:
-$$\text{Posterior} \propto \text{Likelihood} \times \text{Prior}$$ 
+$$\text{Posterior} \propto \text{Likelihood} \times \text{Prior}$$
 
 - Prior ($P(H)$): Your initial degree of belief in a hypothesis before seeing the new data.
 - Likelihood ($P(D|H)$): How likely it is that you would see this specific data if your hypothesis were true.
 - Posterior ($P(H|D)$): Your updated belief in the hypothesis after accounting for the new evidence.
-- Evidence ($P(D)$): A normalizing constant representing the total probability of observing the data across all possible hypotheses. 
+- Evidence ($P(D)$): A normalizing constant representing the total probability of observing the data across all possible hypotheses.
 
 **Key Differences from Frequentist Statistics**
 
-| Feature | Frequentist Approach | Bayesian Approach |
-|---|---|---|
-| Probability Definition | Long-run frequency of events. | Subjective degree of belief or certainty. |
-| Parameters | Fixed, unknown values. | Random variables with a probability distribution. |
-| Prior Knowledge | Not formally used in the calculation. | Explicitly combined with new data. |
-| Goal | Find a single "best" point estimate. | Find a full distribution of possible values. |
+| Feature                | Frequentist Approach                  | Bayesian Approach                                 |
+| ---------------------- | ------------------------------------- | ------------------------------------------------- |
+| Probability Definition | Long-run frequency of events.         | Subjective degree of belief or certainty.         |
+| Parameters             | Fixed, unknown values.                | Random variables with a probability distribution. |
+| Prior Knowledge        | Not formally used in the calculation. | Explicitly combined with new data.                |
+| Goal                   | Find a single "best" point estimate.  | Find a full distribution of possible values.      |
 
 #### Applications:
 
@@ -1343,7 +1368,7 @@ $$\text{Posterior} \propto \text{Likelihood} \times \text{Prior}$$
 
 **Autonomous Vehicles**: Helping drones and self-driving cars constantly update their position and environment estimates based on noisy sensor data.
 
-**A/B Testing in Marketing**: Dynamically monitoring which version of a website is performing better and stopping the test early if one variant clearly wins. 
+**A/B Testing in Marketing**: Dynamically monitoring which version of a website is performing better and stopping the test early if one variant clearly wins.
 
 **Guessing Who's at the Door**: If you expect a package (prior), and you hear a knock (evidence), you're more likely to think it's the delivery person. If it's late at night, your prior belief might be different.
 
@@ -1362,21 +1387,22 @@ On a flat plane, geodesics align with familiar straight lines, while on a sphere
 A curve on a curved surface is a geodesic if its geodesic curvature ( $\kappa_g$ ) is zero everywhere. This means the acceleration vector of the curve is everywhere normal (orthogonal) to the tangent plane of the surface, representing the "straightest" possible path, defined by satisfying the geodesic differential equations (Baek 1; Rumble 105).
 
 **Key conditions that define a geodesic**:
-- *Zero Geodesic Curvature ( $\kappa_g = 0 $ ):* The curve does not bend within the tangent plane of the surface (Jia 2).
 
-- *Normal Acceleration*: The acceleration vector, $\gamma''(s)$ (for a unit-speed curve $\gamma$ ), is parallel to the surface normal vector $N$ at every point (Villanueva 2)
+- _Zero Geodesic Curvature ( $\kappa_g = 0 $ ):_ The curve does not bend within the tangent plane of the surface (Jia 2).
 
-- *Locally Shortest Path*: The curve locally minimizes the distance (length) between points on the surface (Bliss 3; Rumble 107)
+- _Normal Acceleration_: The acceleration vector, $\gamma''(s)$ (for a unit-speed curve $\gamma$ ), is parallel to the surface normal vector $N$ at every point (Villanueva 2)
 
-- *Geodesic Equations*: A curve $\gamma(t) = (x^1(t), x^2(t), \ldots, x^n(t))$ on a curved surface is a geodesic if it satisfies (Jia 3; Liu 2):
+- _Locally Shortest Path_: The curve locally minimizes the distance (length) between points on the surface (Bliss 3; Rumble 107)
 
-    $$\frac{d^2 x^k}{dt^2} + \sum_{i,j} \Gamma^k_{ij} \frac{dx^i}{dt} \frac{dx^j}{dt} = 0$$
-    
-    where $\Gamma^k_{ij}$ are the Christoffel symbols, which encode how the surface curves.
-    
-    The equation says: the curve has zero acceleration when you account for the curvature of the space.
+- _Geodesic Equations_: A curve $\gamma(t) = (x^1(t), x^2(t), \ldots, x^n(t))$ on a curved surface is a geodesic if it satisfies (Jia 3; Liu 2):
 
-    In plain language: A geodesic is a path where, if you're moving along it, you feel no "sideways" force pushing you off course. On a curved surface, this doesn't mean the path looks straight from the outside—it curves with the surface.
+  $$\frac{d^2 x^k}{dt^2} + \sum_{i,j} \Gamma^k_{ij} \frac{dx^i}{dt} \frac{dx^j}{dt} = 0$$
+
+  where $\Gamma^k_{ij}$ are the Christoffel symbols, which encode how the surface curves.
+
+  The equation says: the curve has zero acceleration when you account for the curvature of the space.
+
+  In plain language: A geodesic is a path where, if you're moving along it, you feel no "sideways" force pushing you off course. On a curved surface, this doesn't mean the path looks straight from the outside—it curves with the surface.
 
 In short, a curve is a geodesic if it is locally "straight" on the surface, ensuring the acceleration has no component tangent to the surface (Baek 2; Rumble 106). While the formal differential equations appear forbidding, the underlying concept—finding the shortest natural path on a curved surface—is something navigators, hikers, and even animals understand without symbolic notation.
 
@@ -1468,7 +1494,7 @@ Chaos theory studies systems that are highly sensitive to initial conditions, me
 
 ### Stochastic Processes and Random Dynamical Systems
 
-A stochastic process is a mathematical model describing a system that evolves over time with inherent randomness—a collection of random variables indexed by time (Ross 45-48). Unlike deterministic systems where the future is completely determined by present conditions, stochastic processes incorporate uncertainty at every step: given the current state, multiple future states are possible, each with an associated probability (Karlin and Taylor 1-5)[^12]. The word "stochastic" derives from the Greek *stokhastikos*, meaning "able to guess" or "proceeding by conjecture," reflecting the fundamental role of probability in predicting these systems' behavior (Ross 45).
+A stochastic process is a mathematical model describing a system that evolves over time with inherent randomness—a collection of random variables indexed by time (Ross 45-48). Unlike deterministic systems where the future is completely determined by present conditions, stochastic processes incorporate uncertainty at every step: given the current state, multiple future states are possible, each with an associated probability (Karlin and Taylor 1-5)[^12]. The word "stochastic" derives from the Greek _stokhastikos_, meaning "able to guess" or "proceeding by conjecture," reflecting the fundamental role of probability in predicting these systems' behavior (Ross 45).
 
 When randomness becomes continuous (Brownian motion rather than discrete coin flips), ordinary calculus fails—functions that are continuous everywhere but differentiable nowhere cannot be handled with standard derivatives and integrals (Øksendal 1-5). This necessitated the development of stochastic calculus in the 1940s-1960s, particularly Kiyoshi Itô's theory of stochastic integration (Itô 1-10). The Itô integral and Itô's lemma became the foundation for modern quantitative finance: the Black-Scholes option pricing formula, which won its creators the 1997 Nobel Prize in Economics, is derived using stochastic calculus applied to geometric Brownian motion (Black and Scholes 637-654).
 
@@ -1476,9 +1502,9 @@ Formally, a stochastic process is a family of random variables $\{X(t) : t \in T
 
 **Key Types of Stochastic Processes**:
 
-1. **Markov Chains and the Memoryless Property**: A Markov chain is a stochastic process where the future depends only on the present state, not on the sequence of events that preceded it—the *Markov property* or "memorylessness" (Karlin and Taylor 30-35). Mathematically, for a discrete-time Markov chain:
+1. **Markov Chains and the Memoryless Property**: A Markov chain is a stochastic process where the future depends only on the present state, not on the sequence of events that preceded it—the _Markov property_ or "memorylessness" (Karlin and Taylor 30-35). Mathematically, for a discrete-time Markov chain:
    $$P(X_{n+1} = j \mid X_n = i, X_{n-1} = i_{n-1}, \ldots, X_0 = i_0) = P(X_{n+1} = j \mid X_n = i)$$
-   
+
    The system has "no memory" of how it arrived at state $i$; only the current state matters for predicting the next state (Ross 180-185). This property dramatically simplifies analysis: instead of tracking the entire history, we only need to know where we are now.
 
 2. **Random Walks**: The simplest non-trivial stochastic process, a random walk describes a path consisting of a succession of random steps (Feller 342-345). In one dimension, at each time step, the walker moves either left or right (or up or down) with certain probabilities. The position after $n$ steps is:
@@ -1490,12 +1516,12 @@ Formally, a stochastic process is a family of random variables $\{X(t) : t \in T
    - Independent increments: changes in disjoint time intervals are independent
    - $B(t) - B(s) \sim N(0, t-s)$ for $t > s$ (normally distributed with mean 0 and variance $t-s$)
    - Continuous paths (but nowhere differentiable—mathematically continuous yet infinitely jagged) (Einstein 8-12)
-   
+
    Einstein's 1905 theory of Brownian motion provided crucial evidence for the atomic theory of matter: the visible random jiggling of pollen resulted from invisible collisions with water molecules (Einstein 12-15). The same mathematics now underpins modern financial modeling, where stock prices are often modeled as "geometric Brownian motion" (Black and Scholes 637-641).
 
 4. **Poisson Processes**: A Poisson process models random events occurring continuously over time at a constant average rate $\lambda$ (Ross 290-295). Examples include phone calls arriving at a call center, radioactive decay events, or customers entering a store. The number of events $N(t)$ in time interval $[0,t]$ follows a Poisson distribution:
    $$P(N(t) = k) = \frac{(\lambda t)^k e^{-\lambda t}}{k!}$$
-   
+
    The time between events follows an exponential distribution with mean $1/\lambda$, and crucially, these inter-arrival times are memoryless: if you've been waiting 5 minutes for a bus, your remaining wait time has the same distribution as when you first arrived (Ross 295-300). This counterintuitive property—that "waiting doesn't help"—is unique to the exponential distribution and reflects the Markov property at the continuous-time level.
 
 Despite the mathematical sophistication, everyone reasons stochastically in daily life. When you leave extra time for a commute "in case traffic is bad," you're accounting for the stochastic nature of travel time. When you bring an umbrella because there's a 30% chance of rain, you're making decisions under uncertainty. When you check multiple times whether your alarm is set, you're responding to low-probability events with high consequences—basic risk assessment from a stochastic perspective (Kahneman and Tversky 1124-1131). The formal mathematics codifies what people already understand intuitively: the world contains genuine randomness, and optimal decisions require thinking probabilistically about uncertain futures.
@@ -1507,9 +1533,9 @@ Everyone engages in stochastic reasoning constantly. When you decide whether to 
 **The Stock Market and Financial Modeling**: Stock prices are the canonical example of stochastic processes in popular consciousness (Black and Scholes 637-641). The "efficient market hypothesis" posits that stock price changes are essentially random walks because all available information is already incorporated into current prices—past movements don't predict future movements (Fama 383-417). This means technical analysis ("chartism") shouldn't work, though its persistence suggests either market inefficiency or human pattern-seeking overreach. Options and derivatives pricing requires sophisticated stochastic modeling: the Black-Scholes model treats stock prices as geometric Brownian motion and derives the "fair price" for an option by solving a partial differential equation from stochastic calculus (Black and Scholes 640-650). Every transaction in trillion-dollar derivatives markets relies on this mathematics, yet traders speak of "volatility" and "drift" without necessarily invoking Itô's lemma or the Wiener process—demonstrating, once again, that practical competence can exist without formal language fluency.
 
 **Queueing Theory and Wait Times**: When you stand in line at Starbucks or wait on hold for customer service, you're experiencing a queueing system—a stochastic process where arrivals and service times are both random (Gross and Harris 1-10). The simplest model, the M/M/1 queue (Markovian arrivals, Markovian service, 1 server), assumes customers arrive according to a Poisson process with rate $\lambda$ and service times are exponentially distributed with rate $\mu$ (Ross 469-475). The average number of customers in the system at steady state is:
-   $$L = \frac{\lambda}{\mu - \lambda}$$
-   
-   This formula reveals a dramatic insight: as arrival rate $\lambda$ approaches service rate $\mu$, the queue length explodes to infinity (Ross 475-478). A coffee shop at 80% capacity ($\lambda = 0.8\mu$) has an average of 4 customers in line, but at 95% capacity ($\lambda = 0.95\mu$), the average swells to 19 customers. This nonlinear relationship explains why wait times can suddenly become intolerable with small increases in demand—a stochastic effect everyone has experienced, though few know the mathematical formula describing it.
+$$L = \frac{\lambda}{\mu - \lambda}$$
+
+This formula reveals a dramatic insight: as arrival rate $\lambda$ approaches service rate $\mu$, the queue length explodes to infinity (Ross 475-478). A coffee shop at 80% capacity ($\lambda = 0.8\mu$) has an average of 4 customers in line, but at 95% capacity ($\lambda = 0.95\mu$), the average swells to 19 customers. This nonlinear relationship explains why wait times can suddenly become intolerable with small increases in demand—a stochastic effect everyone has experienced, though few know the mathematical formula describing it.
 
 **Sports Analytics and Live Betting**: The "live odds" displayed during sports games update continuously based on the current score, time remaining, and game situation (Kovalchik 1-8). These odds are generated by stochastic models that simulate thousands of possible game trajectories given the current state. A basketball team leading by 10 points with 2 minutes remaining might have an 95% win probability, computed by modeling the remaining time as a stochastic process (Poisson-distributed scoring events) and determining what fraction of simulations result in victory (Stern 1-5). As each basket is scored or minute passes, the model updates—Bayesian updating applied to a stochastic process. Bettors who understand that a 70% win probability means the underdog wins 3 times out of 10 demonstrate probabilistic sophistication, even if they've never seen the equations generating those percentages.
 
@@ -1530,11 +1556,11 @@ Everyone engages in stochastic reasoning constantly. When you decide whether to 
 A Markov chain is a mathematical model that describes how sequences of random events change. In this model, the chance of each event depends only on the previous event. This key feature, called the Markov property or memorylessness, means that future outcomes depend only on the current situation, not on what happened before. In short, what comes next is only based on the present state, not the path that got us here. This unique memoryless quality allows movement between states based on set probabilities. Markov chains are useful for understanding systems that change step by step, with each step based on the current situation. They provide a basis for many predictions, simulations, and algorithms used in various fields like science, engineering, and daily life. By using Markov chains, people can spark innovation and gain a deeper understanding in many areas.
 
 **Core Concepts**
--  State Space ($\Omega$): The set of all possible "states" or conditions the system can be in. These can be discrete (like "sunny" vs. "rainy") or continuous.
--  Transitions: The movement from one state to another at each step (often representing a unit of time).
--  Transition Matrix ($P$): A square matrix where the entry $P_{ij}$ represents the probability of moving from state $i$ to state $j$. Each row must sum to 1.
--  Stationary Distribution ($\pi$): A long-term "steady state" where the probability of being in any given state remains constant even as transitions continue. Mathematically, it satisfies $\pi P = \pi$. 
 
+- State Space ($\Omega$): The set of all possible "states" or conditions the system can be in. These can be discrete (like "sunny" vs. "rainy") or continuous.
+- Transitions: The movement from one state to another at each step (often representing a unit of time).
+- Transition Matrix ($P$): A square matrix where the entry $P_{ij}$ represents the probability of moving from state $i$ to state $j$. Each row must sum to 1.
+- Stationary Distribution ($\pi$): A long-term "steady state" where the probability of being in any given state remains constant even as transitions continue. Mathematically, it satisfies $\pi P = \pi$.
 
 #### Applications:
 
@@ -1556,17 +1582,20 @@ A Markov chain is a mathematical model that describes how sequences of random ev
 
 ### Manifold
 
-A manifold is a mathematical space that looks like standard Euclidean space (flat space) when you zoom in on any point, even though its global shape might be much more complex. 
-The best way to visualize a manifold is to think of an ant crawling on a giant sphere (like Earth). 
+A manifold is a mathematical space that looks like standard Euclidean space (flat space) when you zoom in on any point, even though its global shape might be much more complex.
+The best way to visualize a manifold is to think of an ant crawling on a giant sphere (like Earth).
+
 - Locally: To the ant, the world looks like a flat 2D plane (Euclidean space).
 - Globally: If the ant walks far enough, it discovers the world is actually a sphere, which is a 2D manifold
 
 **Key Mathematical Concepts**
+
 - Charts and Atlases: Since a manifold can't usually be represented by a single flat map (like how a flat map of Earth distorts the poles), mathematicians use a collection of overlapping maps called charts. The entire set of charts is called an atlas.
 - Dimensions: A 1-manifold looks like a line locally (e.g., a circle), a 2-manifold looks like a plane (e.g., a torus), and so on into higher dimensions.
 - Non-Examples: A figure-eight is not a manifold because the point where the lines cross does not look like a single flat line, no matter how much you zoom in
 
 **Types of Manifolds**
+
 - Topological Manifold: The most basic type, where "looking like" Euclidean space only means the shapes can be continuously deformed into each other.
 - Differentiable (Smooth) Manifold: A manifold where you can perform calculus. The "gluing" between charts is smooth enough to allow for derivatives and integrals.
 - Riemannian Manifold: A smooth manifold equipped with a way to measure distances and angles (a metric), essential for studying curvature
@@ -1587,7 +1616,8 @@ The best way to visualize a manifold is to think of an ant crawling on a giant s
 
 Ergodicity is a mathematical property that states the time average of a system—essentially, the average behavior of a single point over an extended period—is equal to its ensemble average, which represents the average behavior of all possible states at a single moment. This means that an ergodic system is "well-mixed," indicating that it cannot be separated into smaller, independent parts. In simpler terms, an ergodic system eventually explores every possible state it can reach, spending a duration of time in each region proportional to the size of that region. Therefore, when we compare the average behavior over time to the average behavior across all possibilities at a single moment, they will be the same in an ergodic system.
 
-Ergodicity is defined by the equality of two different ways of looking at data: 
+Ergodicity is defined by the equality of two different ways of looking at data:
+
 - Time Average: Observing a single individual or system over a very long period.
 - Ensemble Average: Taking a "snapshot" of many identical systems at once and averaging their current states
 
@@ -1634,47 +1664,47 @@ In an **ergodic** system, the average of a group at one point in time is the sam
 
 The number of ways to arrange a 52-card deck is $8.06 \times 10^{67}$.
 
-To understand why this number is so large and why a repeat is virtually impossible, we look at the *Fundamental Counting Principle*[^13] (or rule of product) states that if there are $n$ ways to do one thing and $m$ ways to do another, there are $n \times m$ ways to do both. To calculate the number of ways to arrange a 52-card deck, we follow the given steps:
+To understand why this number is so large and why a repeat is virtually impossible, we look at the _Fundamental Counting Principle_[^13] (or rule of product) states that if there are $n$ ways to do one thing and $m$ ways to do another, there are $n \times m$ ways to do both. To calculate the number of ways to arrange a 52-card deck, we follow the given steps:
 
 1. Calculate the total permutations
    When you build a deck card by card, the number of choices for each slot decreases by one:
 
-    For the first card, you have 52 choices.
-    
-    For the second card, you have 51 choices remaining.
-    
-    For the third card, you have 50 choices, and so on.
-    
-    The total number of unique arrangements is the product of these choices:
-    
-    $$52 \times 51 \times 50 \times \dots \times 3 \times 2 \times 1 = 52!$$
-    
-    This value, known as 52 factorial, is exactly:
-    
-    $$80,658,175,170,943,878,571,660,636,856,403,766,975,289,505,440,883,277,824,000,000,000,000$$
+   For the first card, you have 52 choices.
+
+   For the second card, you have 51 choices remaining.
+
+   For the third card, you have 50 choices, and so on.
+
+   The total number of unique arrangements is the product of these choices:
+
+   $$52 \times 51 \times 50 \times \dots \times 3 \times 2 \times 1 = 52!$$
+
+   This value, known as 52 factorial, is exactly:
+
+   $$80,658,175,170,943,878,571,660,636,856,403,766,975,289,505,440,883,277,824,000,000,000,000$$
 
 2. Compare to human history
    To see if humans could have repeated a shuffle by chance, we can estimate the total number of shuffles ever performed. Even using extremely generous assumptions:
 
-    Total Humans Ever: $\approx 117 \text{ billion}$
-    
-    Age of the Universe: $\approx 13.8 \text{ billion years}$
-    
-    Scenario: Every human who ever lived shuffles a deck once per second since the Big Bang.
-    
-    The total number of shuffles would be:
-    
-    $$(1.17 \times 10^{11} \text{ humans}) \times (1.38 \times 10^{10} \text{ years}) \times (31,557,600 \text{ seconds/year}) \approx 5.1 \times 10^{28} \text{ shuffles}$$
-    
+   Total Humans Ever: $\approx 117 \text{ billion}$
+
+   Age of the Universe: $\approx 13.8 \text{ billion years}$
+
+   Scenario: Every human who ever lived shuffles a deck once per second since the Big Bang.
+
+   The total number of shuffles would be:
+
+   $$(1.17 \times 10^{11} \text{ humans}) \times (1.38 \times 10^{10} \text{ years}) \times (31,557,600 \text{ seconds/year}) \approx 5.1 \times 10^{28} \text{ shuffles}$$
+
 3. Determine the probability of a match
    We now compare the "total shuffles in history" to the "total possible arrangements":
 
-    $$\frac{5.1 \times 10^{28}}{8.06 \times 10^{67}} \approx 6.3 \times 10^{-40}$$
-    
-    This means that even in this impossible scenario, we would have covered only $0.0000000000000000000000000000000000000063\%$ of the possible combinations. The probability of any two shuffles matching is effectively zero.
-    
-    The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 10^{67}$) possible arrangements. Because this number is roughly $10^{39}$ times larger than the most aggressive estimate of all shuffles in human history, it is statistically certain that every thorough shuffle produces a unique result.
-    
+   $$\frac{5.1 \times 10^{28}}{8.06 \times 10^{67}} \approx 6.3 \times 10^{-40}$$
+
+   This means that even in this impossible scenario, we would have covered only $0.0000000000000000000000000000000000000063\%$ of the possible combinations. The probability of any two shuffles matching is effectively zero.
+
+   The math proves that a deck of $52$ cards has $52!$ (approximately $8.06 \times 10^{67}$) possible arrangements. Because this number is roughly $10^{39}$ times larger than the most aggressive estimate of all shuffles in human history, it is statistically certain that every thorough shuffle produces a unique result.
+
 ---
 
 ### Measure Theory
@@ -1695,30 +1725,28 @@ Measure theory is a branch of mathematical analysis that generalizes intuitive c
 
 ### Cardinality of the Continuum
 
-The cardinality of the continuum represents the "size" of the set of all real numbers ($\mathbb{R}$). It is a foundational concept in set theory that describes an infinity strictly larger than the "countable" infinity of whole numbers and is denoted by the symbol $\mathfrak{c}$ or $|\mathbb{R}|$. The core insight, famously proven by Georg Cantor, is that this infinity is "larger" than the infinity of the natural numbers ($\mathbb{N}$). 
+The cardinality of the continuum represents the "size" of the set of all real numbers ($\mathbb{R}$). It is a foundational concept in set theory that describes an infinity strictly larger than the "countable" infinity of whole numbers and is denoted by the symbol $\mathfrak{c}$ or $|\mathbb{R}|$. The core insight, famously proven by Georg Cantor, is that this infinity is "larger" than the infinity of the natural numbers ($\mathbb{N}$).
 
 **Cantor’s Diagonal Argument**
 
 Before Cantor, it was assumed all infinite sets were the same size. He proved otherwise by showing that you cannot create a one-to-one correspondence (a perfect pairing) between the counting numbers ($1, 2, 3...$) and the real numbers.
 
--  The Result: Even if you had an infinite list of real numbers, you could always construct a new real number that isn't on that list.
--  The Conclusion: The real numbers are uncountable. 
-
+- The Result: Even if you had an infinite list of real numbers, you could always construct a new real number that isn't on that list.
+- The Conclusion: The real numbers are uncountable.
 
 **How Big is $\mathfrak{c}$?**
 
-Mathematically, the cardinality of the continuum is equal to $2^{\aleph_0}$ (2 raised to the power of "aleph-null"). 
+Mathematically, the cardinality of the continuum is equal to $2^{\aleph_0}$ (2 raised to the power of "aleph-null").
 
--  $\aleph_0$ (Aleph-null): The size of the natural numbers (integers, fractions).
--  $2^{\aleph_0}$: The size of the power set of the natural numbers.
--  Interestingly, the number of points on a 1-inch line segment is the exact same as the number of points in the entire universe or a 3D cube. In higher dimensions, the cardinality remains $\mathfrak{c}$. 
-
+- $\aleph_0$ (Aleph-null): The size of the natural numbers (integers, fractions).
+- $2^{\aleph_0}$: The size of the power set of the natural numbers.
+- Interestingly, the number of points on a 1-inch line segment is the exact same as the number of points in the entire universe or a 3D cube. In higher dimensions, the cardinality remains $\mathfrak{c}$.
 
 **The Continuum Hypothesis (CH)**
 
-This is one of the most famous problems in mathematical history. It asks: Is there any infinity between the size of the integers ($\aleph_0$) and the size of the real numbers ($\mathfrak{c}$)? 
+This is one of the most famous problems in mathematical history. It asks: Is there any infinity between the size of the integers ($\aleph_0$) and the size of the real numbers ($\mathfrak{c}$)?
 
-**The Answer**: In 1963, Paul Cohen proved that this is "undecidable" using standard set theory (ZFC)[^14]. You can choose to believe there is an intermediate size, or choose to believe there isn't, and the math remains consistent either way. 
+**The Answer**: In 1963, Paul Cohen proved that this is "undecidable" using standard set theory (ZFC)[^14]. You can choose to believe there is an intermediate size, or choose to believe there isn't, and the math remains consistent either way.
 
 #### Applications:
 
@@ -1758,9 +1786,9 @@ Approximation theory is about finding the best way to use simple, practical tool
 
 ### Ring Theory
 
-Ring theory is a branch of abstract algebra that studies rings—algebraic structures characterized by two operations: addition and multiplication. These operations interact through distribution. Ring theory investigates various sets where addition and multiplication can occur, even in cases where division may not always be possible. This area of mathematics serves as a foundation for many modern mathematical disciplines, including number theory, algebraic geometry, and cryptography. You can think of a ring as a mathematical playground where addition and multiplication coexist, working together in a predictable way.
+Ring theory is a branch of abstract algebra that studies rings—algebraic structures characterized by two operations: addition and multiplication. These operations interact through distribution. Ring theory investigates various sets where addition and multiplication can occur, even in cases where division may not always be possible. This area of mathematics serves as a foundation for many modern mathematical disciplines, including [number theory](#number-theory), algebraic geometry, and [cryptography](#iwasawa-theory). You can think of a ring as a mathematical playground where addition and multiplication coexist, working together in a predictable way.
 
-- **Integers**: The prototypical example of a commutative ring. You can add, subtract, and multiply any two integers, and the results are always integers. But division doesn't always give an integer (3 ÷ 2 = 1.5, not an integer), so integers form a ring, not a field.
+- **Integers**: The prototypical example of a commutative ring. You can add, subtract, and multiply any two integers, and the results are always integers. But division doesn't always give an integer ($3 ÷ 2 = 1.5$, not an integer), so integers form a ring, not a field.
 - **Polynomials**: Polynomials with coefficients in a ring. The set of all polynomials with real coefficients forms a ring-you can add, subtract, and multiply polynomials, and the result is always another polynomial.
 - **Matrices**: Square matrices, which are typically non-commutative.
 - **Clock Arithmetic $\pmod n$**: Numbers on a clock (like 0-11 for hours) form a ring under addition and multiplication $\pmod {12}$.
@@ -1779,14 +1807,15 @@ Ring theory is a branch of abstract algebra that studies rings—algebraic struc
 
 ### Iwasawa Theory
 
-Iwasawa theory is a branch of algebraic number theory that studies arithmetic objects, such as ideal class groups and Selmer groups of elliptic curves, as they grow along infinite towers of number fields, typically $\mathbb{Z}_p$-extensions. Initiated by Kenkichi Iwasawa in the 1950s, it connects these algebraic objects to $p$-adic $L$-functions via the "main conjecture," which was proved by Mazur & Wiles.
+Iwasawa theory is a branch of algebraic [number theory](#number-theory) that studies arithmetic objects, such as ideal class groups and Selmer groups of elliptic curves, as they grow along infinite towers of number fields, typically $\mathbb{Z}_p$-extensions. Initiated by Kenkichi Iwasawa in the 1950s, it connects these algebraic objects to $p$-adic $L$-functions via the "main conjecture," which was proved by Mazur & Wiles.
 
 **Key Aspects of Iwasawa Theory**
-- Infinite Towers (-extensions): The theory looks at a tower of number fields $F = F_0 \subset F_1 \subset F_2 \subset \dots \subset F_\infty$, where the Galois group $\text{Gal}(F_n/F)$ is a cyclic group of order $p^n$, and the total Galois group $\Gamma = \text{Gal}(F_\infty/F)$ is isomorphic to the additive group of $p$-adic integers $\mathbb{Z}_p$. 
-- Growth of Class Groups: Iwasawa showed that the $p$-part of the class number $h_{F_n}$ (the size of the ideal class group) follows a strict formula for large $n$: $p^{e_n}$ where $e_n = \mu p^n + \lambda n + \nu$, with $\mu, \lambda, \nu$ being constants known as Iwasawa invariants. 
-- Iwasawa Algebra: The study involves the Iwasawa algebra $\Lambda = \mathbb{Z}_p[[\Gamma]]$, which is isomorphic to the power series ring $\mathbb{Z}_p[[T]]$. Arithmetic objects like the inverse limit of class groups are modules over this ring. 
-- Main Conjecture: Proved by Barry Mazur and Andrew Wiles in 1984, this conjecture bridges algebraic objects and analytic functions, stating that the characteristic ideal of an Iwasawa module is generated by a $p$-adic $L$-function. 
-- Iwasawa Main Conjectures: Generalizations of the main conjecture exist for elliptic curves and higher-dimensional varieties, linking Selmer groups to $p$-adic $L$-functions, as highlighted in studies on link to Springer Book on Iwasawa Theory 2012 and research on Elliptic Curves and Iwasawa's µ = 0 Conjecture. 
+
+- Infinite Towers (-extensions): The theory looks at a tower of number fields $F = F_0 \subset F_1 \subset F_2 \subset \dots \subset F_\infty$, where the Galois group $\displaystyle \text{Gal}(\frac{F_n}{F})$ is a cyclic group of order $p^n$, and the total Galois group $\displaystyle \Gamma = \text{Gal}(\frac{F_\infty}{F})$ is isomorphic to the additive group of $p$-adic integers $\mathbb{Z}_p$.
+- Growth of Class Groups: Iwasawa showed that the $p$-part of the class number $h_{F_n}$ (the size of the ideal class group) follows a strict formula for large $n$: $\displaystyle p^{e_n}$ where $e_n = \mu p^n + \lambda n + \nu$, with $\mu, \lambda, \nu$ being constants known as Iwasawa invariants.
+- Iwasawa Algebra: The study involves the Iwasawa algebra $\Lambda = \mathbb{Z}_p[[\Gamma]]$, which is isomorphic to the power series ring $\mathbb{Z}_p[[T]]$. Arithmetic objects like the inverse limit of class groups are modules over this ring.
+- Main Conjecture: Proved by Barry Mazur and Andrew Wiles in 1984, this conjecture bridges algebraic objects and analytic functions, stating that the characteristic ideal of an Iwasawa module is generated by a $p$-adic $L$-function.
+- Iwasawa Main Conjectures: Generalizations of the main conjecture exist for elliptic curves and higher-dimensional varieties, linking Selmer groups to $p$-adic $L$-functions, as highlighted in studies on link to Springer Book on Iwasawa Theory 2012 and research on Elliptic Curves and Iwasawa's µ = 0 Conjecture.
 
 #### Applications:
 
@@ -1827,6 +1856,7 @@ By allowing the use of scalars that don’t always have inverses, as required in
 Topology is a branch of mathematics that studies the properties of shapes and spaces that are preserved when they are stretched, bent, or twisted, but not torn or glued. Often referred to as "rubber-sheet geometry," topology treats shapes as though they are made of a flexible material that can be manipulated in any way, as long as no tearing or gluing occurs. This field focuses on the characteristics of geometric objects that remain unchanged even when they undergo continuous deformation.
 
 **Key Subfields**
+
 - General (Point-Set) Topology: The "foundation" that studies the abstract properties of spaces, such as continuity, compactness, and connectedness, without needing to measure distances.
 - Algebraic Topology: Uses tools from algebra (like groups and rings) to solve topological problems, such as "counting holes" to distinguish between different spaces.
 - Differential Topology: Focuses on smoothness and the properties of differentiable manifolds (shapes where you can perform calculus).
@@ -1838,7 +1868,7 @@ Topology is a branch of mathematics that studies the properties of shapes and sp
 
 - Why? Both have exactly one hole.
 - Deformation: You can imagine molding a lump of clay from the shape of a doughnut into a coffee cup without ever having to break the clay or poke a new hole in it.
-- Contrast: A sphere (like a ball) is not equivalent to a doughnut because you would have to tear a hole in the ball to make it match. 
+- Contrast: A sphere (like a ball) is not equivalent to a doughnut because you would have to tear a hole in the ball to make it match.
 
 **Untangling Headphone Cords**: When you untangle headphone cords, you are solving a topology problem—you are trying to determine whether the tangle can be undone by smooth manipulation without cutting the wire.
 
@@ -1864,21 +1894,23 @@ Topology is a branch of mathematics that studies the properties of shapes and sp
 
 ### Diffeomorphism
 
-A diffeomorphism is a special kind of function between two manifolds (like a sphere and a bowl) that is not only a perfect 1-to-1 match but is also "smooth" in both directions. 
-In simpler terms, if a homeomorphism allows you to stretch and bend a shape (like turning a donut into a coffee mug), a diffeomorphism ensures you do it so smoothly that you never create a sharp crease or a "kink." 
+A diffeomorphism is a special kind of function between two manifolds (like a sphere and a bowl) that is not only a perfect 1-to-1 match but is also "smooth" in both directions.
+In simpler terms, if a homeomorphism allows you to stretch and bend a shape (like turning a donut into a coffee mug), a diffeomorphism ensures you do it so smoothly that you never create a sharp crease or a "kink."
 
 **The Three Requirements**
 
 For a function $f$ between two manifolds to be a diffeomorphism, it must satisfy three conditions:
+
 1. Bijective: It is a perfect 1-to-1 pairing; every point on the first shape maps to exactly one point on the second, and vice versa.
 2. Differentiable ($C^\infty$): The function is smooth. If you move along the first shape, the corresponding movement on the second shape changes smoothly, with no sudden jumps or sharp turns.
-3. Inverse is Differentiable: The "return trip" must also be smooth. This is the crucial part that distinguishes it from a standard smooth map. 
+3. Inverse is Differentiable: The "return trip" must also be smooth. This is the crucial part that distinguishes it from a standard smooth map.
 
 **Diffeomorphism vs. Homeomorphism**
 
 While they sound similar, the difference is about the "tools" you are allowed to use:
+
 - Homeomorphism (Topology): Cares about connectivity. As long as you don't tear the object, it's the same. (A square is homeomorphic to a circle).
-- Diffeomorphism (Differential Geometry): Cares about calculus. You need the transition to be smooth. (A square is not diffeomorphic to a circle because of the sharp corners).  
+- Diffeomorphism (Differential Geometry): Cares about calculus. You need the transition to be smooth. (A square is not diffeomorphic to a circle because of the sharp corners).
 
 #### Applications:
 
@@ -1931,38 +1963,41 @@ Graph theory is the study of networks of connections. In mathematics, a "graph" 
 **Project Planning (Workflow)**: Tasks are nodes; dependencies ("do A before B") are edges. This helps schedule or optimize large projects.
 
 The Graph Structure (Planning a Math Degree):
-  - **Nodes (Vertices)**: Each course is a node: Calculus I, Linear Algebra, Differential Equations, etc.
-  - **Directed Edges**: A directed edge from node $A$ to node $B$ (written $A \to B$) means "A is a prerequisite for B" or "A must be completed before B."
 
-    For example: Calculus I $\to$ Calculus II $\to$ Calculus III represents the sequence where each course requires completion of the previous one.
+- **Nodes (Vertices)**: Each course is a node: Calculus I, Linear Algebra, Differential Equations, etc.
+- **Directed Edges**: A directed edge from node $A$ to node $B$ (written $A \to B$) means "A is a prerequisite for B" or "A must be completed before B."
 
-  - **In-degree**: The number of edges pointing into a node (how many prerequisites a course has). A course with in-degree 0 has no prerequisites and can be taken immediately.
-  - **Out-degree**: The number of edges leaving a node (how many courses require this one as a prerequisite). A capstone course might have out-degree 0.
+  For example: Calculus I $\to$ Calculus II $\to$ Calculus III represents the sequence where each course requires completion of the previous one.
 
-*Acyclic Property (No Impossible Loops)*: The graph must be acyclic—it cannot contain any cycles. If there were a path Calculus I $\to$ Linear Algebra $\to$ Discrete Math $\to$ Calculus I, it would be mathematically impossible to complete your degree because each course would be waiting on itself. A cycle in a prerequisite graph represents a logical impossibility.
+- **In-degree**: The number of edges pointing into a node (how many prerequisites a course has). A course with in-degree 0 has no prerequisites and can be taken immediately.
+- **Out-degree**: The number of edges leaving a node (how many courses require this one as a prerequisite). A capstone course might have out-degree 0.
 
-*Topological Sorting (Finding a Valid Course Order)*: A topological sort of a DAG is a linear ordering of all vertices such that for every directed edge $u \to v$, vertex $u$ comes before $v$ in the ordering. In plain language: it's a valid order in which you can take all your courses while respecting all prerequisites. There may be multiple valid topological orderings (multiple ways to schedule your degree), but at least one must exist if the graph is a DAG.
+_Acyclic Property (No Impossible Loops)_: The graph must be acyclic—it cannot contain any cycles. If there were a path Calculus I $\to$ Linear Algebra $\to$ Discrete Math $\to$ Calculus I, it would be mathematically impossible to complete your degree because each course would be waiting on itself. A cycle in a prerequisite graph represents a logical impossibility.
 
-*Kahn's Algorithm (one method for topological sorting)*:
-  1. Find all nodes with in-degree 0 (courses with no prerequisites)
-  2. Add them to your schedule and "remove" them from the graph
-  3. Update in-degrees for remaining courses (since prerequisites are now completed)
-  4. Repeat until all courses are scheduled
+_Topological Sorting (Finding a Valid Course Order)_: A topological sort of a DAG is a linear ordering of all vertices such that for every directed edge $u \to v$, vertex $u$ comes before $v$ in the ordering. In plain language: it's a valid order in which you can take all your courses while respecting all prerequisites. There may be multiple valid topological orderings (multiple ways to schedule your degree), but at least one must exist if the graph is a DAG.
+
+_Kahn's Algorithm (one method for topological sorting)_:
+
+1. Find all nodes with in-degree 0 (courses with no prerequisites)
+2. Add them to your schedule and "remove" them from the graph
+3. Update in-degrees for remaining courses (since prerequisites are now completed)
+4. Repeat until all courses are scheduled
 
 Consider a simplified math major with these prerequisites:
-  - Calculus I (no prereqs) $\to$ Calculus II $\to$ Calculus III
-  - Calculus I $\to$ Linear Algebra
-  - Calculus II $\to$ Differential Equations
-  - Linear Algebra $\to$ Abstract Algebra
-  - Calculus III + Linear Algebra $\to$ Real Analysis (requires both)
 
-*One valid topological ordering*: Calculus I $\to$ Calculus II $\to$ Linear Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Abstract Algebra $\to$ Real Analysis
+- Calculus I (no prereqs) $\to$ Calculus II $\to$ Calculus III
+- Calculus I $\to$ Linear Algebra
+- Calculus II $\to$ Differential Equations
+- Linear Algebra $\to$ Abstract Algebra
+- Calculus III + Linear Algebra $\to$ Real Analysis (requires both)
 
-*Another valid ordering*: Calculus I $\to$ Linear Algebra $\to$ Calculus II $\to$ Abstract Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Real Analysis
+_One valid topological ordering_: Calculus I $\to$ Calculus II $\to$ Linear Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Abstract Algebra $\to$ Real Analysis
+
+_Another valid ordering_: Calculus I $\to$ Linear Algebra $\to$ Calculus II $\to$ Abstract Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Real Analysis
 
 Both satisfy all prerequisites, demonstrating that multiple valid degree plans can exist.
 
-*Critical Path (Longest Path to Graduation)*: The longest path through the graph determines the minimum number of semesters needed to graduate. In the example above, the critical path is Calculus I $\to$ Calculus II $\to$ Calculus III $\to$ Real Analysis (4 semesters minimum, assuming Real Analysis also needs Linear Algebra completed). You can take other courses in parallel, but this path determines your graduation timeline.
+_Critical Path (Longest Path to Graduation)_: The longest path through the graph determines the minimum number of semesters needed to graduate. In the example above, the critical path is Calculus I $\to$ Calculus II $\to$ Calculus III $\to$ Real Analysis (4 semesters minimum, assuming Real Analysis also needs Linear Algebra completed). You can take other courses in parallel, but this path determines your graduation timeline.
 
 When your college advisor says "you can't take Real Analysis yet," they're enforcing the edge constraints in the prerequisite graph. When you plan your schedule, you're computing a topological sort. When you ask "what's the fastest I can graduate?" you're finding the critical path. This is pure graph theory in action, whether or not the formal terminology is used.
 
@@ -1972,39 +2007,40 @@ When your college advisor says "you can't take Real Analysis yet," they're enfor
 
 Combinatorics is a branch of mathematics that focuses on counting, arranging, and configuring finite or discrete structures. It explores techniques for counting permutations and combinations to determine the number of ways objects can be arranged or selected. Key concepts in combinatorics include factorials, graph theory, and the principle of inclusion-exclusion. This field has significant applications in computer science, cryptography, and probability. Combinatorics addresses questions such as "How many ways can I choose or arrange these items?" It involves discovering all possible patterns, groupings, or orders that can be created from a given set of objects.
 
-**Basic Concepts and Formulas** 
+**Basic Concepts and Formulas**
+
 - Permutations: The number of ways to order $n$ distinct objects, denoted as $n!$
 - Combinations: The number of ways to choose $r$ objects from a set of $n$ without regard to order, calculated as $\displaystyle \frac{n!}{r!(n-r)!}$. How many ways to choose a subset from a larger set (like picking a committee from a group)?
-  - Types of Combinatorics 
-    - Enumerative Combinatorics: Counting the number of elements in finite sets. 
-    - Extremal Combinatorics: Determining the maximum or minimum size of a collection of finite structures that satisfy certain properties. 
-    - Algebraic Combinatorics: Using algebraic methods to solve combinatorial problems. 
-    - Probabilistic Combinatorics: Using probability theory to prove the existence of specific configurations. 
-    - Graph Theory: The study of graphs, which are mathematical structures used to model pairwise relations between objects. 
+  - Types of Combinatorics
+    - Enumerative Combinatorics: Counting the number of elements in finite sets.
+    - Extremal Combinatorics: Determining the maximum or minimum size of a collection of finite structures that satisfy certain properties.
+    - Algebraic Combinatorics: Using algebraic methods to solve combinatorial problems.
+    - Probabilistic Combinatorics: Using probability theory to prove the existence of specific configurations.
+    - Graph Theory: The study of graphs, which are mathematical structures used to model pairwise relations between objects.
 - Partitions: Methods of breaking down integers or sets. How can a number or set be split into smaller parts?
   - Types of Partitions:
-    - Integer Partitions: The partition function $p(n)$ represents the number of ways to write an integer $n$ as a sum of positive integers. The number of partitions of 4 is 5: (4), (3+1), (2+2), (2+1+1), (1+1+1+1). 
+    - Integer Partitions: The partition function $p(n)$ represents the number of ways to write an integer $n$ as a sum of positive integers. The number of partitions of 4 is 5: (4), (3+1), (2+2), (2+1+1), (1+1+1+1).
     - Set Partitions: A partition of a set $A$ is a collection of disjoint subsets (blocks) whose union equals the original set. The number of ways to partition a set with $n$ elements is known as the Bell number $B_n$ (e.g., $B_3 = 5$, $B_4 = 15$). For complex set partitions, the number of ways to partition $k$ distinct elements into $n$ subsets is described by the Stirling number of the second kind, denoted $S(k,n)$ or $\lbrace\begin{matrix} \begin{array}{c} x \\ y \end{array} \end{matrix} \rbrace$.
-  - Representations: 
-    - Ferrers/Young Diagrams: Visual representations using dots or squares to represent integer partitions. 
-    - Conjugate Partitions: Obtained by reflecting a Ferrers diagram along its diagonal. 
-  - Special Partition Types: 
-    - Distinct Parts: Partitions where each integer is used at most once. 
-    - Odd Parts: Partitions where each part is an odd integer, which equals the number of partitions into distinct parts. 
-  - Counting Methods: 
-    - Generating Functions: Used to calculate $p(n)$ using power series, such as Euler's pentagonal number theorem. 
-    - Recurrence Relations: Used for computing specific values of $p(n, k)$ (partitions of $n$ with $k$ parts). 
-  - Key Differences 
-    - Partitions: Order does not matter ($2+1$ is the same as $1+2$). 
-    - Compositions: Order matters ($2+1$ is different from $1+2$). 
-- Rule of Sum: If one task can be done in $n$ ways and another in $m$ ways, and they cannot be done together, there are $n+m$ ways. 
+  - Representations:
+    - Ferrers/Young Diagrams: Visual representations using dots or squares to represent integer partitions.
+    - Conjugate Partitions: Obtained by reflecting a Ferrers diagram along its diagonal.
+  - Special Partition Types:
+    - Distinct Parts: Partitions where each integer is used at most once.
+    - Odd Parts: Partitions where each part is an odd integer, which equals the number of partitions into distinct parts.
+  - Counting Methods:
+    - Generating Functions: Used to calculate $p(n)$ using power series, such as Euler's pentagonal number theorem.
+    - Recurrence Relations: Used for computing specific values of $p(n, k)$ (partitions of $n$ with $k$ parts).
+  - Key Differences
+    - Partitions: Order does not matter ($2+1$ is the same as $1+2$).
+    - Compositions: Order matters ($2+1$ is different from $1+2$).
+- Rule of Sum: If one task can be done in $n$ ways and another in $m$ ways, and they cannot be done together, there are $n+m$ ways.
 - Rule of Product: If one task can be done in $n$ ways and a second independent task in $m$ ways, there are $n \times m$ ways.
 
-**Common Techniques** 
-- Recurrence Relations: Defining a sequence based on a rule that relates terms to earlier terms. 
-- Generating Functions: Using power series to solve counting problems. 
-- Inclusion-Exclusion Principle: A technique to compute the size of the union of multiple sets. 
+**Common Techniques**
 
+- Recurrence Relations: Defining a sequence based on a rule that relates terms to earlier terms.
+- Generating Functions: Using power series to solve counting problems.
+- Inclusion-Exclusion Principle: A technique to compute the size of the union of multiple sets.
 
 #### Applications:
 
@@ -2135,27 +2171,30 @@ The study of conditions under which order must inevitably appear in large enough
 
 #### Applications:
 
-**The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property (Klop). *Finite Ramsey's Theorem* for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
+**The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property (Klop). _Finite Ramsey's Theorem_ for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
 
-*Existence of Order*: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
+_Existence of Order_: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
 
-*The "Least Number" Property*: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
+_The "Least Number" Property_: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
 
 While the "party" version is a popular way to explain it, the exact theorem is a pillar of combinatorics. In graph theory terms:
-  - <i>Complete Graph ( $K_N$ )</i>: A network where every pair of vertices (people) is connected by an edge.
-  - <i>Bicoloring</i>: Assigning one of two colors (usually red and blue) to every edge in the graph.
-  - <i>Monochromatic Clique</i>: A subset of vertices where every single connecting edge is the same color
+
+- <i>Complete Graph ( $K_N$ )</i>: A network where every pair of vertices (people) is connected by an edge.
+- <i>Bicoloring</i>: Assigning one of two colors (usually red and blue) to every edge in the graph.
+- <i>Monochromatic Clique</i>: A subset of vertices where every single connecting edge is the same color
 
 Common Values and Limits (Klop):
-  - $R(3,3) = 6$: It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers.
 
-    "A party of 6 always contains a trio of mutual friends, or a trio of mutual strangers. Red edges indicate pairs of friends, blue lines connect strangers. The three green nodes indicate the (only) trio of mutual friends."
+- $R(3,3) = 6$: It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers.
 
-  ![](r3_3.png)
-  - $R(4,3) = R(3,4) = 9$: "A party of 9 people will always contain a trio (red), or a quartet of mutual friends of mutual strangers (blue)."
-    ![](r3_4.png)
-  - $R(4,4) = 18$: For four mutual friends/strangers, you need a group of $18$
-  - $R(5,5)$: Despite the theorem proving these numbers exist, we still do not know the exact value for $R(5,5)$, which is currently bounded between $43$ and $48$.
+  "A party of 6 always contains a trio of mutual friends, or a trio of mutual strangers. Red edges indicate pairs of friends, blue lines connect strangers. The three green nodes indicate the (only) trio of mutual friends."
+
+![](r3_3.png)
+
+- $R(4,3) = R(3,4) = 9$: "A party of 9 people will always contain a trio (red), or a quartet of mutual friends of mutual strangers (blue)."
+  ![](r3_4.png)
+- $R(4,4) = 18$: For four mutual friends/strangers, you need a group of $18$
+- $R(5,5)$: Despite the theorem proving these numbers exist, we still do not know the exact value for $R(5,5)$, which is currently bounded between $43$ and $48$.
 
 ---
 
@@ -2857,7 +2896,7 @@ Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https:
 
 [^1]: Beyond basic forms, the Laplace transform has been computed for remarkably complex functions including Bessel functions $J_n(t)$ (Spiegel 329-330), error functions (Opatowski 392), and the psi (digamma) function (Dixit 593-600). These specialized results connect the Laplace transform to deep areas of mathematical analysis including the gamma function and Euler's constant (Pribitkin 241-245). Generalizations extend the classical Laplace transform to time scales and conformable derivatives, broadening its applicability to discrete-continuous hybrid systems (Thange et al. 1699-1705).
 
-[^2]: Euclid's Elements is a foundational 13-book mathematical treatise, written around 300 BCE in Alexandria, which structured plane/solid geometry, number theory, and proportion through a logical framework of definitions, postulates, and proofs. It is the oldest, most influential deductive textbook in history, establishing the use of straight-edge and compass constructions
+[^2]: Euclid's Elements is a foundational 13-book mathematical treatise, written around 300 BCE in Alexandria, which structured plane/solid geometry, [number theory](#number-theory), and proportion through a logical framework of definitions, postulates, and proofs. It is the oldest, most influential deductive textbook in history, establishing the use of straight-edge and compass constructions
 
 [^3]: For centuries, philosophers debated whether Euclidean geometry was a discovered truth about physical reality or a human construction. Kant argued that Euclidean geometry was synthetic a priori knowledge—built into the structure of human perception itself (Jones 137-138; French 213). The later development of non-Euclidean geometries challenged this view, demonstrating that alternative geometric systems could be logically consistent, suggesting geometry might be a choice rather than a necessity (Jones 140-142). This philosophical shift—from viewing Euclidean geometry as "the" geometry to recognizing it as "a" geometry—represents one of mathematics' most profound conceptual revolutions (Daus 12-13).
 
@@ -2865,123 +2904,137 @@ Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https:
 
 [^5]: The ancient Greeks studied perfect numbers and amicable numbers; Fermat posed questions in the 1600s that weren't resolved until the 1990s; the Riemann Hypothesis, formulated in 1859, remains unsolved and is considered one of mathematics' greatest open problems (Derbyshire 1-15). For over two millennia, number theory was the epitome of "useless" mathematics—pursued purely for intellectual satisfaction (Hardy 150-152). G.H. Hardy famously wrote in 1940 that number theory "has never been of the slightest practical use" and would never be applied to warfare or commerce (Hardy 151). Within decades, his prediction was spectacularly wrong. The development of public-key cryptography in the 1970s, particularly the RSA algorithm, transformed number theory into a discipline of profound practical importance (Koblitz 1-3; Rivest et al. 120-123). Today, number-theoretic algorithms secure credit card transactions, authenticate digital signatures, enable blockchain technology, and protect government communications (Menezes et al. 1-5).
 
-[^6]: **God's Number**—the maximum moves to solve any of the 43 quintillion states of a Rubik's Cube—is **20** (Half-Turn Metric). This represents the diameter of the Cayley graph of the Rubik's Cube group (Rokicki et al. 645). Proven in July 2010 by Tomas Rokicki, Morley Davidson, John Dethridge, and Herbert Kociemba using 35 CPU-years from Google, the proof combined mathematical group theory with massive computational search (Joyner 258; van Grol 10).
-    
+[^6]:
+    **God's Number**—the maximum moves to solve any of the 43 quintillion states of a Rubik's Cube—is **20** (Half-Turn Metric). This represents the diameter of the Cayley graph of the Rubik's Cube group (Rokicki et al. 645). Proven in July 2010 by Tomas Rokicki, Morley Davidson, John Dethridge, and Herbert Kociemba using 35 CPU-years from Google, the proof combined mathematical group theory with massive computational search (Joyner 258; van Grol 10).
+
     **Lower Bound (n ≥ 20):** The "Superflip" position (all corners correct, all edges flipped) requires exactly 20 moves, proven by Michael Reid in 1995 (Rokicki et al. 647; Joyner 263).
-    
+
     **Upper Bound (n ≤ 20):** Using coset decomposition and symmetry reduction, researchers reduced 43 quintillion positions to ~56 million unique cosets, solving each in ≤20 moves (Rokicki et al. 648-652; "God's Number Is 20").
-    
-    | **Metric** | **Detail** |
-    |------------|------------|
-    | God's Number (HTM) | 20 moves |
-    | Computing Power | 35 CPU-years |
+
+    | **Metric**                   | **Detail**               |
+    | ---------------------------- | ------------------------ |
+    | God's Number (HTM)           | 20 moves                 |
+    | Computing Power              | 35 CPU-years             |
     | Positions requiring 20 moves | ~490 million (0.000001%) |
-    | Average optimal solution | 17-18 moves |
-    
+    | Average optimal solution     | 17-18 moves              |
+
     **Metric Comparison:**
-    
-    | Metric | Moves | Rule |
-    |--------|-------|------|
-    | Half-Turn (HTM) | 20 | $F, F', F^2$ all = 1 move |
-    | Quarter-Turn (QTM) | 26 | $F, F'$ = 1 move; $F^2$ = 2 moves (Rokicki, "Towards God's Number" 242) |
-    | Slice-Turn (STM) | 18–20 | Middle slices (e.g., $M$) = 1 move (Hecker and Banerji 211) |
-    
+
+    | Metric             | Moves | Rule                                                                    |
+    | ------------------ | ----- | ----------------------------------------------------------------------- |
+    | Half-Turn (HTM)    | 20    | $F, F', F^2$ all = 1 move                                               |
+    | Quarter-Turn (QTM) | 26    | $F, F'$ = 1 move; $F^2$ = 2 moves (Rokicki, "Towards God's Number" 242) |
+    | Slice-Turn (STM)   | 18–20 | Middle slices (e.g., $M$) = 1 move (Hecker and Banerji 211)             |
+
     The variation in God's Number across metrics illustrates how mathematical results depend on formal definitions—the underlying puzzle-solving ability remains constant, but changing the "language" (metric) changes the answer (Jones et al. 267).
 
-[^7]: Proved the cube can be solved in ≤45 moves (avg. 31) using four nested subgroups ("Thistlethwaite's Algorithm"; Milewski and Frohardt 399). This algorithm demonstrates how breaking a problem into stages—each with progressively restricted "legal moves"—makes an impossibly large search space tractable.
+[^7]:
+    Proved the cube can be solved in ≤45 moves (avg. 31) using four nested subgroups ("Thistlethwaite's Algorithm"; Milewski and Frohardt 399). This algorithm demonstrates how breaking a problem into stages—each with progressively restricted "legal moves"—makes an impossibly large search space tractable.
 
-      | Stage | Group | Allowed Moves | Purpose | Max Moves |
-      |-------|-------|---------------|---------|-----------|
-      | 0 | $G_0$ | $\langle L, R, F, B, U, D \rangle$ | Fully scrambled | - |
-      | 1 | $G_1$ | $\langle L, R, F, B, U^2, D^2 \rangle$ | Orient edges | 7 |
-      | 2 | $G_2$ | $\langle L, R, F^2, B^2, U^2, D^2 \rangle$ | Position U/D edges, orient corners | 10 |
-      | 3 | $G_3$ | $\langle L^2, R^2, F^2, B^2, U^2, D^2 \rangle$ | Correct orbits | 13 |
-      | 4 | $G_4$ | $\{1\}$ (Identity) | Final permutation | 15 |
-      
-      **Key insight:** Coset decomposition and pruning the search space (e.g., $G_3$ has only ~663,552 states vs 43 quintillion in $G_0$) through one-way transitions between nested subgroups (Milewski and Frohardt 400). The formal language of subgroup chains $G_0 \supset G_1 \supset G_2 \supset G_3 \supset G_4$ describes a strategy any cuber uses intuitively: solve in stages.
+    | Stage | Group | Allowed Moves                                  | Purpose                            | Max Moves |
+    | ----- | ----- | ---------------------------------------------- | ---------------------------------- | --------- |
+    | 0     | $G_0$ | $\langle L, R, F, B, U, D \rangle$             | Fully scrambled                    | -         |
+    | 1     | $G_1$ | $\langle L, R, F, B, U^2, D^2 \rangle$         | Orient edges                       | 7         |
+    | 2     | $G_2$ | $\langle L, R, F^2, B^2, U^2, D^2 \rangle$     | Position U/D edges, orient corners | 10        |
+    | 3     | $G_3$ | $\langle L^2, R^2, F^2, B^2, U^2, D^2 \rangle$ | Correct orbits                     | 13        |
+    | 4     | $G_4$ | $\{1\}$ (Identity)                             | Final permutation                  | 15        |
 
-[^8]:  Modern standard for computer solvers; compresses Thistlethwaite's four stages into two phases, typically solving in ~20-22 moves ("Kociemba's Two-Phase Algorithm"; Joyner 260). This algorithm was fundamental to proving God's Number by enabling efficient computational search (Rokicki et al. 650).
-      
-      **Phase 1:** Reduce to subgroup $H$ where:
-      - Edge Orientation (EO) solved
-      - Corner Orientation (CO) solved  
-      - E-slice edges in middle layer
-      
-      Allowed moves: All ($\langle U, D, R, L, F, B \rangle$)
-      
-      **Phase 2:** Solve from $H$ (20 billion states) using only $\langle U, D, R^2, L^2, F^2, B^2 \rangle$. Uses pruning tables for near-instant optimal path (Rokicki et al. 651).
-      
-      | Feature | Thistlethwaite | Kociemba |
-      |---------|----------------|----------|
-      | Stages | 4 | 2 |
-      | Max Moves | 45 | ~20–22 |
-      | Philosophy | Mathematical Subgroups | Heuristic Search + Subgroups |
-      | Use Case | Educational/Theory | World Record Robots |
-      
-      **Pedagogical Value:** Milewski and Frohardt emphasize that using the Rubik's Cube to teach group theory makes abstract algebra concrete and accessible, demonstrating that "students can see and feel the algebraic structure" (397). The cube transforms symbols like $G_i$ and cosets from intimidating jargon into tangible manipulation.
+    **Key insight:** Coset decomposition and pruning the search space (e.g., $G_3$ has only ~663,552 states vs 43 quintillion in $G_0$) through one-way transitions between nested subgroups (Milewski and Frohardt 400). The formal language of subgroup chains $G_0 \supset G_1 \supset G_2 \supset G_3 \supset G_4$ describes a strategy any cuber uses intuitively: solve in stages.
 
-[^9]: Lie algebras are mathematical structures used to study continuous symmetries, often acting as the "linearized" or "infinitesimal" version of a Lie group. They allow complex problems in geometry and physics to be translated into simpler linear algebra. Lie theory is fundamental to modern particle physics (where fundamental particles are seen as representations of Lie groups like $SU(3)$ or $SU(2)$ and the study of differential equations. 
+[^8]:
+    Modern standard for computer solvers; compresses Thistlethwaite's four stages into two phases, typically solving in ~20-22 moves ("Kociemba's Two-Phase Algorithm"; Joyner 260). This algorithm was fundamental to proving God's Number by enabling efficient computational search (Rokicki et al. 650).
+
+    **Phase 1:** Reduce to subgroup $H$ where:
+
+    - Edge Orientation (EO) solved
+    - Corner Orientation (CO) solved
+    - E-slice edges in middle layer
+
+    Allowed moves: All ($\langle U, D, R, L, F, B \rangle$)
+
+    **Phase 2:** Solve from $H$ (20 billion states) using only $\langle U, D, R^2, L^2, F^2, B^2 \rangle$. Uses pruning tables for near-instant optimal path (Rokicki et al. 651).
+
+    | Feature    | Thistlethwaite         | Kociemba                     |
+    | ---------- | ---------------------- | ---------------------------- |
+    | Stages     | 4                      | 2                            |
+    | Max Moves  | 45                     | ~20–22                       |
+    | Philosophy | Mathematical Subgroups | Heuristic Search + Subgroups |
+    | Use Case   | Educational/Theory     | World Record Robots          |
+
+    **Pedagogical Value:** Milewski and Frohardt emphasize that using the Rubik's Cube to teach group theory makes abstract algebra concrete and accessible, demonstrating that "students can see and feel the algebraic structure" (397). The cube transforms symbols like $G_i$ and cosets from intimidating jargon into tangible manipulation.
+
+[^9]:
+    Lie algebras are mathematical structures used to study continuous symmetries, often acting as the "linearized" or "infinitesimal" version of a Lie group. They allow complex problems in geometry and physics to be translated into simpler linear algebra. Lie theory is fundamental to modern particle physics (where fundamental particles are seen as representations of Lie groups like $SU(3)$ or $SU(2)$ and the study of differential equations.
 
     **Definition and Core Axioms**:
 
-    A Lie algebra is a vector space $\mathfrak{g}$ over a field $F$ equipped with a binary operation $[ \cdot, \cdot ]$ called the Lie bracket. It must satisfy three primary rules: 
+    A Lie algebra is a vector space $\mathfrak{g}$ over a field $F$ equipped with a binary operation $[ \cdot, \cdot ]$ called the Lie bracket. It must satisfy three primary rules:
+
     - Bilinearity: $[ax + by, z] = a[x, z] + b[y, z]$ and $[z, ax + by] = a[z, x] + b[y, z]$.
     - Alternating Property: $[x, x] = 0$ for all $x \in \mathfrak{g}$ (this implies anticommutativity: $[x, y] = -[y, x]$).
-    - Jacobi Identity: $[x, [y, z]] + [y, [z, x]] + [z, [x, y]] = 0$. 
-    
+    - Jacobi Identity: $[x, [y, z]] + [y, [z, x]] + [z, [x, y]] = 0$.
+
     **The Lie Group Connection**:
 
-    For every Lie group (a group that is also a smooth manifold), there is a corresponding Lie algebra, defined as the tangent space at the identity. 
+    For every Lie group (a group that is also a smooth manifold), there is a corresponding Lie algebra, defined as the tangent space at the identity.
+
     - Infinitesimal Motion: The Lie algebra represents "tiny" motions near the identity of the group.
     - Exponential Map: You can "recover" the group from the algebra (at least locally) using the exponential map, $e^X$.
     - Simplified Analysis: Because Lie algebras are vector spaces, it is often easier to classify and study them than the groups themselves.
-    
+
     **Examples of Lie Algebras**
+
     - Matrix Commutator: Any associative algebra of $n \times n$ matrices becomes a Lie algebra if you define the bracket as $[A, B] = AB - BA$.
     - General Linear ($\mathfrak{gl}_n$): All $n \times n$ matrices.
     - Special Linear ($\mathfrak{sl}_n$): Matrices with trace zero, corresponding to volume-preserving transformations.
     - Special Orthogonal ($\mathfrak{so}_n$): Skew-symmetric matrices ($M^T = -M$), representing rotations.
     - Vector Fields: The space of smooth vector fields on a manifold forms an infinite-dimensional Lie algebra under the Lie derivative bracket.
-    
+
     **Key Classifications**:
 
     Lie algebras are categorized by their internal structure:
+
     - Abelian: All brackets are zero ($[x, y] = 0$).
     - Simple: Non-abelian and has no non-trivial ideals (subspaces $I$ where $[\mathfrak{g}, I] \subseteq I$).
     - Semisimple: A direct sum of simple Lie algebras; these are fully classified by Dynkin diagrams and root systems.
-    
 
 [^10]: Galois Theory offers a fascinating insight into the conditions under which the solutions of polynomials can be expressed through fundamental operations such as addition, subtraction, multiplication, division, and taking roots, like square and cube roots. For example, it beautifully elucidates why a general formula for all quintic equations (those of degree five) remains elusive. This remarkable branch of abstract algebra serves as a bridge between field theory and group theory, empowering mathematicians to approach intricate challenges related to fields—particularly the roots of polynomials—by transforming them into more approachable problems linked to groups.
 
 [^11]: For decades after Hamilton's 1843 discovery, quaternions were taught as a competing system to vector algebra (Bannon 48-50; Alderson 735). Mathematicians debated whether quaternions or vectors would become the standard language for 3D geometry. Vectors won for most purposes—but quaternions found their niche in the one place where their non-commutative structure is an advantage: rotations. What seemed like a mathematical curiosity for 19th-century physicists became indispensable for 21st-century computer graphics (Wood 12).
 
-[^12]: The mathematical theory of stochastic processes emerged primarily in the early 20th century, though gambling problems had prompted earlier probability work by Fermat and Pascal in the 1650s (Feller 1-5). Markov developed his chains in 1906 to analyze sequences of vowels and consonants in *Eugene Onegin*, demonstrating that literary patterns could be modeled mathematically (Basharin et al. 1-5). Einstein's 1905 work on Brownian motion applied stochastic thinking to physics. Norbert Wiener formalized Brownian motion mathematically in the 1920s, creating what's now called the Wiener process (Wiener 131-150). Andrey Kolmogorov axiomatized probability theory in 1933, providing the rigorous foundation for all modern stochastic analysis (Kolmogorov 1-8).
+[^12]:
+    The mathematical theory of stochastic processes emerged primarily in the early 20th century, though gambling problems had prompted earlier probability work by Fermat and Pascal in the 1650s (Feller 1-5). Markov developed his chains in 1906 to analyze sequences of vowels and consonants in _Eugene Onegin_, demonstrating that literary patterns could be modeled mathematically (Basharin et al. 1-5). Einstein's 1905 work on Brownian motion applied stochastic thinking to physics. Norbert Wiener formalized Brownian motion mathematically in the 1920s, creating what's now called the Wiener process (Wiener 131-150). Andrey Kolmogorov axiomatized probability theory in 1933, providing the rigorous foundation for all modern stochastic analysis (Kolmogorov 1-8).
 
     The philosophical distinction between deterministic and stochastic systems has deep implications. Classical physics, from Newton through the 19th century, assumed fundamental determinism: given perfect knowledge of initial conditions, the future could be predicted exactly (Laplace 4-6). The discovery of quantum mechanics and the development of chaos theory shattered this worldview. Quantum mechanics is fundamentally probabilistic—outcomes are inherently random, not just unknown (Heisenberg 197-205). [Chaos theory](#chaos-theory-the-butterfly-effect) showed that even deterministic systems can be practically unpredictable due to sensitive dependence on initial conditions (Lorenz 130-141). Weather is chaotic but not stochastic—in principle deterministic, yet in practice unpredictable beyond a few days because tiny measurement errors amplify exponentially (Lorenz 133-136). Distinguishing deterministic chaos from genuine stochasticity remains an active research area.
 
-[^13]: It calculates the total number of outcomes for multiple independent choices by multiplying the number of options for each decision, which is crucial for large-scale combinations where diagrams are impractical.
+[^13]:
+    The Fundamental Counting Principle calculates the total number of outcomes for multiple independent choices by multiplying the number of options for each decision, which is crucial for large-scale combinations where diagrams are impractical.
 
     **Key Aspects of the Fundamental Counting Principle Definition**:
+
     - If a task can be broken down into stages (e.g., event 1, event 2,...), the total number of ways to complete the task is the product of the number of choices at each stage.
     - Independent Events: The formula works best when choices are independent, meaning the selection in one step does not affect the number of options in another.
     - Formula: Total Outcomes = $M_1 \times M_2 \times M_3 \times \dots \times M_n$.
     - Application: Used extensively in probability and combinatorics to determine total outcomes, such as combinations of food, outfits, or password possibilities
 
-[^14]: Zermelo-Fraenkel set theory with the Axiom of Choice (ZFC) is the standard foundational system for modern mathematics, designed to avoid paradoxes (like Russell's) by defining sets through axioms. It defines sets via a single membership relation ($\in$), building structures from the empty set to define complex math objects. 
+[^14]:
+    Zermelo-Fraenkel set theory with the Axiom of Choice (ZFC) is the standard foundational system for modern mathematics, designed to avoid paradoxes (like Russell's) by defining sets through axioms. It defines sets via a single membership relation ($\in$), building structures from the empty set to define complex math objects.
 
-    **Core Axioms of ZFC**: 
-    - Extensionality: Two sets are equal if they have the same elements. 
-    - Empty Set: There exists a set $\emptyset$ containing no elements. 
-    - Pairing: For any sets $x, y$, there exists a set $\{x, y\}$. 
-    - Union: For any set of sets, there exists a set containing all elements of those sets. 
-    - Power Set: For any set $x$, there exists a set $\mathcal{P}(x)$ containing all subsets of $x$. 
-    - Infinity: There exists an infinite set, used to construct natural numbers. 
-    - Replacement: The image of a set under a definable function is also a set. 
-    - Separation (Subset): A subset of an existing set can be formed from a property $P(x)$. 
-    - Foundation (Regularity): Every non-empty set has an $\in$-minimal element, prohibiting sets containing themselves and ruling out infinite descending membership chains. 
-    - Choice (AC): A "choice function" exists for any family of non-empty sets. 
-    
-    **Key Aspects**: 
-    - Paradox Prevention: Replaces unrestricted comprehension with specific axioms like Separation and Replacement. 
-    - Foundation of Mathematics: Almost all mathematical objects (numbers, functions, topological spaces) are encoded as sets within ZFC. 
-    - Independence: Foundational results, such as the independence of the continuum hypothesis, are studied within this framework. 
+    **Core Axioms of ZFC**:
+
+    - Extensionality: Two sets are equal if they have the same elements.
+    - Empty Set: There exists a set $\emptyset$ containing no elements.
+    - Pairing: For any sets $x, y$, there exists a set $\{x, y\}$.
+    - Union: For any set of sets, there exists a set containing all elements of those sets.
+    - Power Set: For any set $x$, there exists a set $\mathcal{P}(x)$ containing all subsets of $x$.
+    - Infinity: There exists an infinite set, used to construct natural numbers.
+    - Replacement: The image of a set under a definable function is also a set.
+    - Separation (Subset): A subset of an existing set can be formed from a property $P(x)$.
+    - Foundation (Regularity): Every non-empty set has an $\in$-minimal element, prohibiting sets containing themselves and ruling out infinite descending membership chains.
+    - Choice (AC): A "choice function" exists for any family of non-empty sets.
+
+    **Key Aspects**:
+
+    - Paradox Prevention: Replaces unrestricted comprehension with specific axioms like Separation and Replacement.
+    - Foundation of Mathematics: Almost all mathematical objects (numbers, functions, topological spaces) are encoded as sets within ZFC.
+    - Independence: Foundational results, such as the independence of the continuum hypothesis, are studied within this framework.
