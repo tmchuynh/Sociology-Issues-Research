@@ -891,23 +891,52 @@ Most people intuitively understand topological equivalence without the formalism
 
 ### Number Theory
 
-Number theory is the study of whole numbers and their relationships. One of its core tools is modular arithmetic - numbers that "wrap around" when they reach a given value.
+Number theory is the branch of pure mathematics devoted to the study of integers and their properties—divisibility, prime factorization, congruences, and the solutions to equations involving whole numbers (Hardy and Wright 1-5). Often called "the queen of mathematics" by Carl Friedrich Gauss, number theory has historically been pursued for its intrinsic beauty and logical elegance rather than practical application (Hardy and Wright v-vi). Yet paradoxically, in the late 20th century, number theory became the foundation of modern cryptography and digital security, transforming one of the most "pure" mathematical disciplines into one of the most practically consequential (Koblitz 1-3). 
+
+Despite its reputation for abstraction, number theory permeates daily life in ways most people never recognize. 
+
+At its core, number theory investigates fundamental questions about integers: Which numbers are prime? How can we factor a given integer into primes? What patterns emerge in the distribution of primes? When does a Diophantine equation (an equation requiring integer solutions) have solutions? (Hardy and Wright 1-10). These questions, simple to state yet often extraordinarily difficult to answer, have occupied mathematicians for millennia. The ancient Greeks studied perfect numbers and amicable numbers; Fermat posed questions in the 1600s that weren't resolved until the 1990s; the Riemann Hypothesis, formulated in 1859, remains unsolved and is considered one of mathematics' greatest open problems (Derbyshire 1-15). 
+
+For over two millennia, number theory was the epitome of "useless" mathematics—pursued purely for intellectual satisfaction (Hardy 150-152). G.H. Hardy famously wrote in 1940 that number theory "has never been of the slightest practical use" and would never be applied to warfare or commerce (Hardy 151). Within decades, his prediction was spectacularly wrong. The development of public-key cryptography in the 1970s, particularly the RSA algorithm, transformed number theory into a discipline of profound practical importance (Koblitz 1-3; Rivest et al. 120-123). Today, number-theoretic algorithms secure credit card transactions, authenticate digital signatures, enable blockchain technology, and protect government communications (Menezes et al. 1-5).
+
+The irony is instructive: mathematical knowledge developed for purely aesthetic reasons centuries ago—Fermat's Little Theorem (1640), Euler's Theorem (1736), Gauss's modular arithmetic (1801)—became essential tools for 21st-century digital infrastructure (Koblitz 3-8). This demonstrates both the unpredictability of mathematical application and the value of pursuing abstract knowledge without demanding immediate utility. Number theory's journey from "pure" to "applied" mathematics illustrates how mathematical structures, once understood, persist as tools waiting for problems they can solve (Koblitz 8-10).
+
+**Modular Arithmetic**: One of number theory's most powerful tools is modular arithmetic, formalized by Gauss in his 1801 *Disquisitiones Arithmeticae* (Gauss 1-5; Dudley 1-3). In modular arithmetic, numbers "wrap around" upon reaching a certain value called the modulus. Two integers $a$ and $b$ are congruent modulo $n$ (written $a \equiv b \pmod{n}$) if they differ by a multiple of $n$—equivalently, if they leave the same remainder when divided by $n$ (Dudley 3-5). Formally:
+
+$$a \equiv b \pmod{n} \iff n \mid (a - b)$$
+
+where $n \mid (a - b)$ means "$n$ divides $(a-b)$" (Dudley 4). For example, $17 \equiv 5 \pmod{12}$ because $17 - 5 = 12$, which is divisible by 12. Both 17 and 5 leave remainder 5 when divided by 12.
+
+Modular arithmetic behaves algebraically: congruences can be added, subtracted, and multiplied while preserving congruence (Dudley 5-8). If $a \equiv b \pmod{n}$ and $c \equiv d \pmod{n}$, then:
+- $a + c \equiv b + d \pmod{n}$
+- $a - c \equiv b - d \pmod{n}$
+- $a \cdot c \equiv b \cdot d \pmod{n}$
+
+This algebraic structure makes modular arithmetic extraordinarily useful for solving problems about remainders, cyclical patterns, and divisibility (Dudley 8-10).
+
+*Prime Numbers and Unique Factorization*: Central to number theory is the *Fundamental Theorem of Arithmetic*: every integer greater than 1 can be expressed uniquely as a product of prime numbers (Hardy and Wright 2-3). For example, $360 = 2^3 \times 3^2 \times 5$. This unique prime factorization is so foundational that it's easy to overlook its significance—without it, arithmetic as we know it would collapse (Hardy and Wright 3-4). The theorem guarantees that primes are the "atoms" of number theory: all composite numbers are built from primes in exactly one way.
+
+Primes themselves exhibit mysterious patterns. The *Prime Number Theorem*, proved independently by Hadamard and de la Vallée Poussin in 1896, describes the asymptotic distribution of primes: the number of primes less than $x$ is approximately $\displaystyle \frac{x}{\ln(x)}$ (Derbyshire 70-75). Yet despite this regularity in the large-scale distribution, the primes appear randomly scattered when examined locally—no simple formula generates all primes, and predicting the next prime remains computationally challenging for large numbers (Derbyshire 75-80).
+
+This asymmetry—multiplication is easy, factorization is hard—became the cornerstone of modern cryptography (Koblitz 1-5). Multiplying two 300-digit primes takes milliseconds on a standard computer. Factoring their product back into those primes could take longer than the age of the universe with current classical algorithms (Koblitz 5-8). This computational asymmetry, a fundamental property of number theory, protects every secure online transaction.
 
 #### Applications:
+
+**Calculating Days/Weeks/Years**: Every time you check whether a year is a leap year (divisibility by 4, with exceptions for century years), you're applying divisibility rules from elementary number theory. The competence-language gap is particularly stark in number theory. A child who can determine "If today is Tuesday, what day will it be 100 days from now?" is performing modular arithmetic: $100 \equiv 2 \pmod{7}$, so it will be Thursday (Dudley 3). The child may solve this by counting by sevens ("7, 14, 21... 98 is 14 weeks, so 2 days after Tuesday") without ever encountering the formal notation. The mathematical reasoning is complete and correct; only the symbolic language is absent. This pattern repeats throughout number theory: people demonstrate numerical competence—recognizing patterns, applying divisibility shortcuts, estimating prime factorizations—without the formal vocabulary that would let them discuss these concepts with mathematicians.
 
 **Calculating time on a 12-hour clock**: You perform modular arithmetic by saying, "It's 10am, and the meeting is in 5 hours." → $10 + 5 = 15$, but on a clock, that is 3 o'clock. You just computed $15 \pmod {12} = 3$.
 
 **Time zones**: "It is 8pm here, and Tokyo is 14 hours ahead" requires modular arithmetic to land on 10am the next day.
 
-**Dividing Items Fairly**: Even dividing items fairly among friends—"I have 14 cookies for 4 people, how many are left over?"—is a modular arithmetic problem $14 \pmod 4 = 2$ remaining.
+**Dividing Items Fairly**: When you calculate whether you can evenly divide 30 items among 7 people (quotient 4, remainder 2), you're performing division with remainder—the fundamental operation underlying modular arithmetic. "I have 14 cookies for 4 people, how many are left over?"—is a modular arithmetic problem $14 \pmod 4 = 2$ remaining.
 
 **Prime Numbers and Security**: Prime numbers, the backbone of number theory, secure every online transaction you make (Lefton 54; Petras 689). Your credit card encryption relies on the difficulty of factoring large prime numbers—number theory protects your bank account every day (Rivest et al. 120; Boyer and Moore 181). What makes this remarkable is that the mathematical principles date back millennia, yet their application to modern cryptography emerged only in the 1970s (Luciano and Prichett 2-3).
 
 **Online Shopping (RSA Encryption)**: Every time you enter your credit card on a website, your computer uses Number Theory (Zimmermann 110). It relies on the fact that it is easy to multiply two massive Prime Numbers together, but mathematically "impossible" for a hacker to figure out what those primes were just by looking at the result—the asymmetry between multiplication and factorization is the foundation of modern cryptography (Boyer and Moore 182; Meijer 103).
 
-*Historical Evolution*: The journey from ancient cryptography to modern public-key systems illustrates how mathematical concepts accumulate power over time. Caesar used simple letter-shifting ciphers 2,000 years ago—pure modular arithmetic (Luciano and Prichett 3-5). During WWII, the Enigma machine relied on permutation groups, a concept from abstract algebra (Sinkov and Feil 1-15). By 1976, the RSA algorithm united number theory, modular arithmetic, and computational complexity into a system that revolutionized digital security (Luciano and Prichett 12-14; Holden 157-175). The same mathematical structures—just applied with increasing sophistication.
+The journey from ancient cryptography to modern public-key systems illustrates how mathematical concepts accumulate power over time. Caesar used simple letter-shifting ciphers 2,000 years ago—pure modular arithmetic (Luciano and Prichett 3-5). During WWII, the Enigma machine relied on permutation groups, a concept from abstract algebra (Sinkov and Feil 1-15). By 1976, the RSA algorithm united number theory, modular arithmetic, and computational complexity into a system that revolutionized digital security (Luciano and Prichett 12-14; Holden 157-175). The same mathematical structures—just applied with increasing sophistication.
 
-The security of online shopping relies on the _Integer Factorization Problem_ (Lefton 55-56). Here is the mathematical process:
+The security of online shopping relies on the *Integer Factorization Problem* (Lefton 55-56). Here is the mathematical process:
 
 1. Key Generation (Boyer and Moore 183-184)
    - First, pick two distinct large prime numbers, $p$ and $q$.
