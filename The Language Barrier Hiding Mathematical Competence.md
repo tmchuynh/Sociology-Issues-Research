@@ -1771,14 +1771,11 @@ To avoid paradoxes, modern mathematics often uses *Zermelo-Fraenkel set theory w
 *The "Least Number" Property*: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
 
 While the "party" version is a popular way to explain it, the exact theorem is a pillar of combinatorics. In graph theory terms:
-- Existence of Order: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
-- The "Least Number" Property: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
-
-Common Values and Limits (Klop):
   - <i>Complete Graph ( $K_N$ )</i>: A network where every pair of vertices (people) is connected by an edge.
   - <i>Bicoloring</i>: Assigning one of two colors (usually red and blue) to every edge in the graph.
   - <i>Monochromatic Clique</i>: A subset of vertices where every single connecting edge is the same color
-- Common Values and Limits (Klop):
+
+Common Values and Limits (Klop):
   - $R(3,3) = 6$: It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers.
 
     "A party of 6 always contains a trio of mutual friends, or a trio of mutual strangers. Red edges indicate pairs of friends, blue lines connect strangers. The three green nodes indicate the (only) trio of mutual friends."
