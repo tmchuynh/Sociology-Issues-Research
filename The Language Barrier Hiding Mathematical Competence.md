@@ -921,8 +921,8 @@ The security of online shopping relies on the _Integer Factorization Problem_ (L
    - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$ (Lefton 57)
 3. Encryption (The Computer's Task)
    - Your credit card data $M$ is transformed into ciphertext $C$ using the public key $(n, e)$: $C = M^e \pmod{n}$
+4. Decryption (The Server's Task)
    - The merchant uses their private key $d$ to recover the original message: $M = C^d \pmod{n}$
-**Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: *Compute M to the e, mod n*" (Treat 255).
 
 **Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: *Compute M to the e, mod n*" (Treat 255).
 
