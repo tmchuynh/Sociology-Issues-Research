@@ -566,9 +566,9 @@ Number theory is the study of whole numbers and their relationships. One of its 
 
 **Dividing Items Fairly**: Even dividing items fairly among friends—"I have 14 cookies for 4 people, how many are left over?"—is a modular arithmetic problem $14 \pmod 4 = 2$ remaining.
 
-**Prime Numbers and Security**: Prime numbers, the backbone of number theory, secure every online transaction you make. Your credit card encryption relies on the difficulty of factoring large prime numbers—number theory protects your bank account every day (Rivest et al. 120).
+**Prime Numbers and Security**: Prime numbers, the backbone of number theory, secure every online transaction you make (Lefton 54; Petras 689). Your credit card encryption relies on the difficulty of factoring large prime numbers—number theory protects your bank account every day (Rivest et al. 120; Boyer and Moore 181). What makes this remarkable is that the mathematical principles date back millennia, yet their application to modern cryptography emerged only in the 1970s (Luciano and Prichett 2-3).
 
-**Online Shopping (RSA Encryption)**: Every time you enter your credit card on a website, your computer uses Number Theory. It relies on the fact that it is easy to multiply two massive Prime Numbers together, but mathematically "impossible" for a hacker to figure out what those primes were just by looking at the result.
+**Online Shopping (RSA Encryption)**: Every time you enter your credit card on a website, your computer uses Number Theory (Zimmermann 110). It relies on the fact that it is easy to multiply two massive Prime Numbers together, but mathematically "impossible" for a hacker to figure out what those primes were just by looking at the result—the asymmetry between multiplication and factorization is the foundation of modern cryptography (Boyer and Moore 182; Meijer 103).
 
 The security of online shopping relies on the _Integer Factorization Problem_. Here is the mathematical process:
 
@@ -624,7 +624,7 @@ A "group" in abstract algebra is a set of actions you can perform and reverse, f
 
 3. Calculating the Size ( $|G|$ )
     The "43 quintillion" number comes from the Product Rule of combinatorics, constrained
-    by the laws of the cube's mechanics:
+    by the laws of the cube's mechanics (Turner and Gold 620):
     
     $$|G| = \frac{(8! \times 3^7) \times (12! \times 2^{11})}{2} = 43,252,003, 274, 489, 856, 000$$
     
@@ -632,7 +632,7 @@ A "group" in abstract algebra is a set of actions you can perform and reverse, f
     
     - *Edges*: $12!$ ways to arrange them; $2^{11}$ ways to orient them (the 12th is forced).
     
-    - *The "$/2$"*: You cannot swap just two pieces or flip a single edge without taking the cube apart; only even permutations are reachable.
+    - *The "$/2$"*: You cannot swap just two pieces or flip a single edge without taking the cube apart; only even permutations are reachable (Turner and Gold 621; Hecker and Banerji 213).
 
 4. Commutators and Conjugates
 
@@ -985,19 +985,21 @@ In plain language: A geodesic is a path where, if you're moving along it, you fe
 
 #### Applications:
 
-**Great Circle Flights**: When you fly from New York to London, the plane does not follow a straight line on a flat map—it arcs north over the Atlantic along a curved "great circle" route, which is the actual shortest path on a sphere. That curve is called a geodesic, the central object of differential geometry.
+**Great Circle Flights**: When you fly from New York to London, the plane does not follow a straight line on a flat map—it arcs north over the Atlantic along a curved "great circle" route, which is the actual shortest path on a sphere (Jamski 228-231). That curve is called a geodesic, the central object of differential geometry. Pilots and navigators have used this principle for centuries, long before the formal mathematics was developed (Strong and Strong 44).
 
-**GPS and Curved Earth**: Your GPS solves differential geometry every time it gives you directions on a round Earth—it must account for curvature to compute accurate distances and routes.
+**GPS and Curved Earth**: Your GPS solves differential geometry every time it gives you directions on a round Earth—it must account for curvature to compute accurate distances and routes (Wood 637). On an ellipsoid (Earth's actual shape, slightly flattened at the poles), geodesic calculations become even more complex, involving what Wood calls "vertex latitudes"—points where the geodesic reaches its maximum northern or southern extent (Wood 640-642).
 
-**Map Distortion**: You intuitively understand that flat maps distort reality—that Greenland is not actually the size of Africa, even though it appears that way on a Mercator projection. That distortion is precisely what differential geometry quantifies.
+**Map Distortion**: You intuitively understand that flat maps distort reality—that Greenland is not actually the size of Africa, even though it appears that way on a Mercator projection. That distortion is precisely what differential geometry quantifies. The inability to flatten a curved surface without distortion is a fundamental theorem in differential geometry (Rumble 112; Bliss 5).
 
-**Water Flow and Geodesics**: The way water flows downhill, following the contours of terrain, traces geodesics on a curved surface. You have watched differential geometry happen every time it rains.
+**Water Flow and Geodesics**: The way water flows downhill, following the contours of terrain, traces geodesics on a curved surface. You have watched differential geometry happen every time it rains (Wheeler 2-3).
 
 **Car Tires**: The tread of a tire is designed using these principles. To maintain a consistent grip as the tire deforms under load and turns, engineers model it as a shifting geometric surface.
 
 **CGI & Face Filters**: When an Instagram filter maps a 3D mask onto your moving face, it uses differential geometry. It calculates the Gaussian Curvature of your cheeks and nose to make sure the digital mask stretches and "flows" realistically as you talk.
 
-**General Relativity (Gravity)**: Einstein used differential geometry to show that gravity isn't a "pull," but a curve in the fabric of space. The Einstein Field Equations use these symbols to describe how the sun "curves" the space around it, keeping the Earth in orbit.
+**General Relativity (Gravity)**: Einstein used differential geometry to show that gravity isn't a "pull," but a curve in the fabric of space (Bliss 1; Liu 3). The Einstein Field Equations use these symbols to describe how the sun "curves" the space around it, keeping the Earth in orbit. The same mathematical framework that describes the shortest path on a sphere describes the motion of planets and light itself.
+
+**Educational Value**: Strong and Strong demonstrate that physical models of geodesics—such as string stretched on globe surfaces—help students grasp the size and scale of Earth far more effectively than equations alone (43-45). Students who struggle with the formal calculus of variations can still understand and predict geodesic paths through hands-on manipulation, again illustrating the separation between conceptual understanding and symbolic fluency.
 
 ---
 
