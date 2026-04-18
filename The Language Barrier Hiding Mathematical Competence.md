@@ -1291,18 +1291,11 @@ Quaternions[^11] are a four-dimensional number system ( $a + bi + cj + dk$ ) dis
 They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient mathematical framework for representing 3D rotations, widely used in computer graphics, robotics, and navigation (Dirac 261; Niven 654). What makes quaternions remarkable is that this seemingly abstract mathematical structure—born from pure theoretical investigation—turned out to be precisely what modern technology needs for smooth rotation calculations (Alderson 735).
 
 **Core Characteristics**
-
 - *Structure*: Represented as $q = a + bi + cj + dk$, where $a$, $b$, $c$, $d$ are real numbers and $i$, $j$, $k$ are imaginary units (Hamilton 2; Wood 11).
-
 - *Dimensions*: Comprised of one real dimension and three imaginary dimensions (Ladd 172).
-
 - *Non-Commutative*: The order of multiplication matters ($ij = k$, $ji = -k$), a property that initially seemed like a mathematical defect but is precisely what makes quaternions suitable for representing rotations (Niven 655; Bannon 46).
-
 - *Algebraic Properties*: Form a four-dimensional associative normed division algebra over real numbers (Hamilton 3; Lee 761)
-
 - *Solving Equations*: Quaternion equations behave differently from real or complex equations. For instance, the equation $x^2 + 1 = 0$ has exactly two solutions in complex numbers ($i$ and $-i$), but infinitely many solutions in quaternions—any unit vector in the imaginary 3D subspace works (Niven 656-658). This demonstrates how the algebraic structure fundamentally changes the nature of mathematical operations.
-
-- *Physics Applications*: Dirac showed that quaternions provide a natural framework for Lorentz transformations in special relativity, connecting rotations in 3D space to the structure of spacetime itself (Dirac 261-265). The fact that quaternions—discovered through abstract algebraic reasoning—perfectly encode the symmetries of Einstein's universe reveals the deep connection between pure mathematics and physical reality.
 
 #### Applications:
 
@@ -1312,7 +1305,7 @@ They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient math
 
 **Robotics**: Applied in kinematic calculations for robot arm movement, where the order of rotations matters—rotating around X then Y produces a different result than Y then X, exactly the non-commutative behavior encoded in quaternions (Niven 658).
 
-**Physics**: Used in quantum mechanics to describe particle spin and in special relativity for Lorentz transformations (Dirac 261-270). Dirac's application of quaternions to spacetime transformations revealed that the abstract algebra Hamilton carved into a bridge in 1843 encodes the symmetries of Einstein's universe.
+**Physics**: Used in quantum mechanics to describe particle spin and in special relativity for Lorentz transformations (Dirac 261-270). Dirac's application of quaternions to spacetime transformations revealed that the abstract algebra Hamilton carved into a bridge in 1843 encodes the symmetries of Einstein's universe. Dirac showed that quaternions provide a natural framework for Lorentz transformations in special relativity, connecting rotations in 3D space to the structure of spacetime itself (Dirac 261-265). The fact that quaternions—discovered through abstract algebraic reasoning—perfectly encode the symmetries of Einstein's universe reveals the deep connection between pure mathematics and physical reality.
 
 **Smartphone To-Phone AirDrop**: When you point one phone at another to share a file, the Inertial Measurement Unit (IMU) uses quaternions to track exactly where your phone is pointing in space. Millions of people use Hamilton's 1843 discovery dozens of times per day without knowing it exists.
 
