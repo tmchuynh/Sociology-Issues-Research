@@ -1344,21 +1344,32 @@ This is just the math of "changing your mind based on new evidence." If you thin
 
 ### Differential Geometry (Geodesics)
 
-Differential geometry studies how curved surfaces bend and what "straight lines" look like on them.
+Differential geometry studies how curved surfaces bend and what "straight lines" look like on them. The mathematical framework, while expressed through Christoffel symbols and covariant derivatives, describes phenomena everyone experiences intuitively (Jamski 227; Bliss 1).
 
-A geodesic is a curve that parallel-transports its own tangent vector, or simply put the shortest path between two points on a curved surface—it's the generalization of a "straight line" to curved spaces. In simpler terms: if you're walking along a geodesic on a curved surface and you keep going "straight ahead" without turning left or right relative to the surface, you're following a geodesic.
+A geodesic is a curve that parallel-transports its own tangent vector, or simply put the shortest path between two points on a curved surface—it's the generalization of a "straight line" to curved spaces (Liu 1; Villanueva 1). In simpler terms: if you're walking along a geodesic on a curved surface and you keep going "straight ahead" without turning left or right relative to the surface, you're following a geodesic.
 
-On a flat plane, geodesics are ordinary straight lines. On a sphere (like Earth), geodesics are segments of great circles (circles whose centers coincide with the center of the sphere).
+On a flat plane, geodesics are ordinary straight lines. On a sphere (like Earth), geodesics are segments of great circles (circles whose centers coincide with the center of the sphere) (Jamski 228; Strong and Strong 43).
 
-A curve $\gamma(t) = (x^1(t), x^2(t), \ldots, x^n(t))$ on a curved surface is a geodesic if it satisfies:
+A curve on a curved surface is a geodesic if its geodesic curvature ( $\kappa_g$ ) is zero everywhere. This means the acceleration vector of the curve is everywhere normal (orthogonal) to the tangent plane of the surface, representing the "straightest" possible path, defined by satisfying the geodesic differential equations (Baek 1; Rumble 105).
 
-$$\frac{d^2 x^k}{dt^2} + \sum_{i,j} \Gamma^k_{ij} \frac{dx^i}{dt} \frac{dx^j}{dt} = 0$$
+**Key conditions that define a geodesic**:
+- *Zero Geodesic Curvature ( $\kappa_g = 0 $ ):* The curve does not bend within the tangent plane of the surface (Jia 2).
 
-where $\Gamma^k_{ij}$ are the Christoffel symbols, which encode how the surface curves.
+- *Normal Acceleration*: The acceleration vector, $\gamma''(s)$ (for a unit-speed curve $\gamma$ ), is parallel to the surface normal vector $N$ at every point (Villanueva 2)
 
-The equation says: the curve has zero acceleration when you account for the curvature of the space.
+- *Locally Shortest Path*: The curve locally minimizes the distance (length) between points on the surface (Bliss 3; Rumble 107)
 
-In plain language: A geodesic is a path where, if you're moving along it, you feel no "sideways" force pushing you off course. On a curved surface, this doesn't mean the path looks straight from the outside—it curves with the surface.
+- *Geodesic Equations*: A curve $\gamma(t) = (x^1(t), x^2(t), \ldots, x^n(t))$ on a curved surface is a geodesic if it satisfies (Jia 3; Liu 2):
+
+    $$\frac{d^2 x^k}{dt^2} + \sum_{i,j} \Gamma^k_{ij} \frac{dx^i}{dt} \frac{dx^j}{dt} = 0$$
+    
+    where $\Gamma^k_{ij}$ are the Christoffel symbols, which encode how the surface curves.
+    
+    The equation says: the curve has zero acceleration when you account for the curvature of the space.
+
+    In plain language: A geodesic is a path where, if you're moving along it, you feel no "sideways" force pushing you off course. On a curved surface, this doesn't mean the path looks straight from the outside—it curves with the surface.
+
+In short, a curve is a geodesic if it is locally "straight" on the surface, ensuring the acceleration has no component tangent to the surface (Baek 2; Rumble 106). While the formal differential equations appear forbidding, the underlying concept—finding the shortest natural path on a curved surface—is something navigators, hikers, and even animals understand without symbolic notation.
 
 #### Applications:
 
