@@ -423,6 +423,16 @@ A heuristic is a practical "rule of thumb," mental shortcut, or experimental met
 
 #### Applications:
 
+**Mental Shortcuts**: Evaluating a situation by "gut feeling" rather than in-depth analysis (e.g., assuming a higher-priced item is better quality).
+
+**Problem Solving/AI**: In computing, it is a technique that finds a "good enough" solution when a formal algorithm is too slow.
+
+**Learning/Teaching**: Methods that encourage students to discover solutions themselves, such as "trial and error" or "learning by doing".
+
+**Daily Life**: Using a rule of thumb, such as "if I haven't used it in a year, I should throw it away
+
+#### Examples:
+
 **"Don't grocery shop hungry." "If it sounds too good to be true, it probably is."** You use heuristics constantly - they're reliable shortcuts that don't need a formal proof.
 
 **The "Half Your Age Plus Seven" Rule**: a famous social heuristic for dating. It's not a law of nature, but it's a quick mathematical "shortcut" people use to judge social appropriateness without overthinking it.
@@ -430,6 +440,12 @@ A heuristic is a practical "rule of thumb," mental shortcut, or experimental met
 **Finding Your Keys**: You don't search every square inch of your house, starting from the front door (that would be a "Brute Force" algorithm). You use a Heuristic: "I probably left them near where I last sat down." You sacrifice thoroughness for speed.
 
 **The "Look for a Tall Building" Strategy**: If you're lost in a city, you don't look at every street sign. You use the heuristic of walking toward a landmark to orient yourself.
+
+where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain representation (Berry 227-230). The inverse transform reconstructs the original signal: $f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} \,d\omega$ (Berry 230-232). This bidirectional relationship—the Fourier Transform Identity Theorem—guarantees that information is perfectly preserved in both representations (Berry 227).
+
+**Mathematical Foundations**: The Fourier Transform satisfies remarkable inequalities that constrain how "spread out" a function can be simultaneously in time and frequency domains (Beckner 159-165). These uncertainty principles, formalized through weighted norm inequalities, have profound implications from quantum mechanics to signal processing (Beckner 175-180; Muckenhoupt 729-735). Mean convergence theorems ensure that Fourier representations converge to the original function under broad conditions (McShane 205-208). The transform extends beyond real and complex numbers to quaternions and higher algebraic structures, enabling analysis of multidimensional rotations and color image processing (Gao 9851-9860).
+
+#### Applications:
 
 **Shopping by Unit Price**: Instead of calculating the complex value of 50 different brands of cereal, you use the "Price per Ounce" heuristic to find the best deal instantly.
 
@@ -450,7 +466,7 @@ $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} 
     When you play a single note, say middle A at 440 Hz, the sound wave can be approximated as:
     $$A(t) = \sin(2\pi \cdot 440 \cdot t)$$
     
-    When you play a chord—say A-major with notes A (440 Hz), C# (554 Hz), and E (659 Hz)—the sound wave is the sum:
+
     $$S(t) = A_1\sin(2\pi \cdot 440t) + A_2\sin(2\pi \cdot 554t) + A_3\sin(2\pi \cdot 659t)$$
     
     where $A_1, A_2, A_3$ are the amplitudes (loudness) of each note. The Fourier Transform decomposes this composite wave:
@@ -469,12 +485,6 @@ $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} 
 - **Timbre/Sound Quality**: The unique sound (timbre) of an instrument is defined by its fundamental frequency (the base note) and its overtones, which the Fourier Transform can identify
 **Image Compression (JPEG)**: Your camera or phone uses a variant of the Fourier Transform (the Discrete Cosine Transform) to break images into patterns of different frequencies, making them easier to compress and store efficiently (Bailey and Swarztrauber 398-400). High-frequency components (fine details) can be discarded with minimal perceptual loss, achieving 10:1 or higher compression ratios.
 
-**Spectroscopy and Medical Imaging**: Fourier Transform Infrared Spectroscopy (FTIR) identifies chemical compounds by analyzing how molecules absorb infrared light at different frequencies (Griffiths 297-300). MRI and CT scans use the Fourier Transform to reconstruct images of your body from the raw data they collect—the spatial structure of tissue is encoded in frequency information that must be transformed back into recognizable images (Griffiths 300-302).
-
-**Wave Equations and Physics**: The Fourier Transform provides elegant solutions to the wave equation, which governs everything from vibrating strings to electromagnetic radiation (Torchinsky 599-605). By transforming the wave equation from the time-space domain to the frequency domain, complex partial differential equations become algebraic expressions that can be solved directly (Torchinsky 606-609).
-
-**Quantum Computing**: Quantum algorithms achieve exponential speedups over classical computation by exploiting the Quantum Fourier Transform, which operates on quantum superpositions to extract periodicity information (Jozsa 323-330). Shor's famous algorithm for factoring large numbers—threatening current cryptographic systems—relies fundamentally on this quantum version of Fourier analysis (Jozsa 331-335).
-
 **Metamaterials and Physical Systems**: Recent advances enable mechanical systems that physically implement Fourier Transforms through programmable metamaterial structures, creating analog computers that process signals through material deformation rather than digital calculation (Lin et al. 1-6). These "mechanical Fourier Transforms" demonstrate that the mathematical concept has direct physical embodiments.
 
 **Seismology**: Scientists use the Fourier Transform to analyze earthquake waves and determine which frequencies are present, helping them understand the earthquake's characteristics (Bracewell 92-93).
@@ -485,17 +495,11 @@ $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} 
 
 **Common Frequency Thinking**: Every time you recognize a voice on the phone, identify an instrument in a song, or notice that bass travels through walls better than treble, you're demonstrating intuitive understanding of frequency decomposition—the core concept of the Fourier Transform (Alm and Walker 475-476). You know that complex sounds can be broken into simpler components, that different frequencies behave differently, and that the "same information" can be represented in time or frequency domains. Musicians develop profound intuition about harmonic relationships without ever seeing $e^{-i\omega t}$ (Callender 315-325). Audio engineers adjust parametric equalizers by ear, manipulating frequency-domain representations through tactile interfaces (Alm and Walker 473-475). The mathematical formalism captures and generalizes this intuitive knowledge, but the competence precedes and exists independently of the notation.
 
-**Seismology**: Scientists use the Fourier Transform to analyze earthquake waves and determine which frequencies are present, helping them understand the earthquake's characteristics.
-
+Euclidean geometry is the study of flat surfaces, points, lines, angles, and shapes, based on the axioms and postulates of the ancient Greek mathematician Euclid (Meserve 372). Often called plane geometry, it describes the flat, two-dimensional world and 3D space, where parallel lines never meet and the interior angles of a triangle total $180^\circ$ (Mader 43).
 **Prism Analogy**: Just as a prism splits white light into its component colors, the Fourier Transform splits a signal into its component frequencies.
 
-**Cell Phone Signals**: When you talk on the phone, your voice is converted into signals made of many frequencies. The Fourier Transform helps separate, process, and decode these signals.
-
----
-
-### Euclidean Geometry
-
-The geometry of flat surfaces - points, lines, angles, triangles, circles
+- *Foundation*: Established in Euclid's work The Elements, which organized geometric principles into a logical system built from five postulates and basic definitions (Meserve 373-374).
+- *The Five Postulates*: Euclidean geometry is based on five core assumptions, including that a straight line can be drawn between any two points, and the "parallel postulate," which dictates how parallel lines behave (Menger 721-722).
 Euclidean geometry is the study of flat surfaces, points, lines, angles, and shapes, based on the axioms and postulates of the ancient Greek mathematician Euclid. Often called plane geometry, it describes the flat, two-dimensional world and 3D space, where parallel lines never meet and the interior angles of a triangle total $180^\circ$
 
 **Key aspects include**:
