@@ -283,20 +283,15 @@ An integral in mathematics represents the accumulation of quantities, such as th
 
 ### Laplace Transform
 
-The Laplace transform is an integral transform that converts a function of time $f(t)$ into a complex frequency domain function $F(s)$, simplifying differential equations into algebraic ones (Widder 419; Campbell and Haberman 245). It is defined as:
+The Laplace transform is an integral transform that converts a function of time $f(t)$ into a complex frequency domain function $F(s)$, simplifying differential equations into algebraic ones (Widder 419; Campbell and Haberman 245). The notation may be intimidating, but the conceptual act of transforming a hard problem in one domain into an easier problem in another domain is something people do intuitively across countless contexts. The mathematical language barriers obscure the conceptual competence already present. It is defined as:
 
 $$\mathcal{L}\{f(t)\} = F(s) = \int_{0}^{\infty} e^{-st} f(t) \,dt$$
 
-This tool is widely used in engineering and physics to analyze control systems, circuits, and differential equations (Campbell and Haberman 247-250). 
+This tool is widely used in engineering and physics to analyze control systems, circuits, and differential equations (Campbell and Haberman 247-250).
 
 While named after Pierre-Simon Laplace, the transform's essential ideas appeared much earlier in Leonhard Euler's work from the 1730s and 1750s (Deakin 264-267). Euler used similar integral transforms to solve differential equations decades before Laplace formalized the method, demonstrating once again how mathematical concepts often exist in practice before receiving their formal names and notation (Deakin 268-269). The transform remained relatively obscure until Oliver Heaviside rediscovered and popularized operational methods in the late 19th century for solving electrical circuit problems (Widder 419-420).
 
-The Laplace transform is computed by evaluating the improper integral, often using tables for common functions (MIT OCW). Inverse Laplace transforms recover $f(t)$ from $F(s)$, typically using partial fraction decomposition and inverse transform tables (Ungar 786-788; Widder 179-180). However, the inversion process can be remarkably intuitive once patterns are recognized, allowing practitioners to work "by inspection" without formal calculations (Ungar 789-791). 
-
-Beyond basic forms, the Laplace transform has been computed for remarkably complex functions including Bessel functions $J_n(t)$ (Spiegel 329-330), error functions (Opatowski 392), and the psi (digamma) function (Dixit 593-600). These specialized results connect the Laplace transform to deep areas of mathematical analysis including the gamma function and Euler's constant (Pribitkin 241-245). Generalizations extend the classical Laplace transform to time scales and conformable derivatives, broadening its applicability to discrete-continuous hybrid systems (Thange et al. 1699-1705).
-
-
-
+The Laplace transform is computed by evaluating the improper integral, often using tables for common functions (MIT OCW)[^1]. Inverse Laplace transforms recover $f(t)$ from $F(s)$, typically using partial fraction decomposition and inverse transform tables (Ungar 786-788; Widder 179-180). However, the inversion process can be remarkably intuitive once patterns are recognized, allowing practitioners to work "by inspection" without formal calculations (Ungar 789-791). 
 
 **Properties** (Campbell and Haberman 251-255; Guggenheimer 196-198): 
   - Linearity $\mathcal{L}\{af+bg\} = aF+bG$
@@ -316,8 +311,6 @@ Beyond basic forms, the Laplace transform has been computed for remarkably compl
  |  $\displaystyle \mathcal{L}\{e^{at}\} = \frac{1}{s-a}$ |
  |   $\displaystyle \mathcal{L}\{\sin(bt)\} = \frac{b}{s^2+b^2}$ (Efthimiou 376-378) |
 
-
-
 #### Applications:
 
 **Control Engineering**: Crucial for designing and analyzing automatic control systems, such as cruise control in cars, flight control systems, and industrial process control (Campbell and Haberman 258-265). The transfer function approach enabled by Laplace transforms allows engineers to predict system behavior without solving differential equations repeatedly.
@@ -334,7 +327,7 @@ Beyond basic forms, the Laplace transform has been computed for remarkably compl
 
 **Nuclear Physics**: Used to study radioactive decay processes, where exponential decay functions transform cleanly into simple algebraic forms.
 
-**Equalizers in Music**: Every time you adjust bass and treble on an equalizer, you're applying transform thinking—converting a time-domain signal (the music) into frequency components you can independently control. Engineers who use Laplace transform tables daily often describe themselves as "just looking things up" rather than "doing mathematics," yet they're performing sophisticated mathematical reasoning: recognizing patterns, matching forms, applying linearity properties, and decomposing complex systems into manageable pieces (Ungar 786-791). The notation may be intimidating ($\int_{0}^{\infty} e^{-st} f(t) \,dt$), but the conceptual act of transforming a hard problem in one domain into an easier problem in another domain is something people do intuitively across countless contexts. The mathematical language barriers obscure the conceptual competence already present.
+**Equalizers in Music**: Every time you adjust bass and treble on an equalizer, you're applying transform thinking—converting a time-domain signal (the music) into frequency components you can independently control. Engineers who use Laplace transform tables daily often describe themselves as "just looking things up" rather than "doing mathematics," yet they're performing sophisticated mathematical reasoning: recognizing patterns, matching forms, applying linearity properties, and decomposing complex systems into manageable pieces (Ungar 786-791).
 
 ---
 
@@ -2724,3 +2717,5 @@ Villanueva, Jay. "Geodesics." Pearson, <https://www.pearson.com/content/dam/one-
 Wheeler, Nicholas. "Geodesics on Surfaces: Paraboloid & Hexenhut." Reed College Physics, <https://www.reed.edu/physics/faculty/wheeler/documents/Miscellaneous%20Math/Differential%20Geometry/Geodesics%20on%20Surfaces/Paraboloid%20&%20Hexenhut%20Geodesics.pdf>. Accessed 18 Apr. 2026.
 
 Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https://prod-ms-be.lib.mcmaster.ca/server/api/core/bitstreams/5004a6a1-22f3-4e67-b94d-5567959e4d50/content>. Accessed 18 Apr. 2026.
+
+[^1]: Beyond basic forms, the Laplace transform has been computed for remarkably complex functions including Bessel functions $J_n(t)$ (Spiegel 329-330), error functions (Opatowski 392), and the psi (digamma) function (Dixit 593-600). These specialized results connect the Laplace transform to deep areas of mathematical analysis including the gamma function and Euler's constant (Pribitkin 241-245). Generalizations extend the classical Laplace transform to time scales and conformable derivatives, broadening its applicability to discrete-continuous hybrid systems (Thange et al. 1699-1705).
