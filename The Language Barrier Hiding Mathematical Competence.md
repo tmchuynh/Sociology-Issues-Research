@@ -1180,20 +1180,20 @@ $$v(t) = 30 + 30t - 5t^2 \text{ mph (for } 0 \leq t \leq 3 \text{ seconds)}$$
   - At $t = 0$: $v(0) = 30$ mph (your starting speed)
   - At $t = 3$: $v(3) = 30 + 90 - 45 = 75$ mph (highway speed)
   - The function is continuous: no jumps in speed
-  - At $t = 3$: $a(3) = 0$ mph/s (you've stopped accelerating)
-
   - The derivative (acceleration) is: $v'(t) = 30 - 10t$ mph/second
   - At $t = 0$: $a(0) = 30$ mph/s (strong initial acceleration)
+  - At $t = 3$: $a(3) = 0$ mph/s (you've stopped accelerating)
+
 The function is differentiable everywhere in $[0,3]$, meaning your acceleration changes smoothly from 30 mph/s to 0, creating a comfortable ride. If the acceleration function had a discontinuity (a jump), passengers would feel a jolt.
 
-- *Why Epsilon-Delta Matters for Engineering*: Engineers designing cruise control systems, antilock brakes, and automatic transmissions use epsilon-delta concepts to ensure that:
+*Why Epsilon-Delta Matters for Engineering*: Engineers designing cruise control systems, antilock brakes, and automatic transmissions use epsilon-delta concepts to ensure that:
+  - Speed changes are continuous (no jumps)
+  - Acceleration changes are smooth (differentiable)
   - The system responds predictably within tolerance windows
 
-  - Speed changes are continuous (no jumps)
+When a car manufacturer advertises "smooth acceleration," they're promising that velocity is not just continuous but also differentiable with bounded derivatives—pure real analysis translated into mechanical engineering.
 
 *The Practical Translation*: Every time you judge a car as having a "smooth ride" versus "jerky," you're intuitively detecting whether the velocity and acceleration functions are continuous and differentiable. You're performing real analysis without the Greek letters.
-
-- *The Practical Translation*: Every time you judge a car as having a "smooth ride" versus "jerky," you're intuitively detecting whether the velocity and acceleration functions are continuous and differentiable. You're performing real analysis without the Greek letters.
 
 **Measuring and Approximating**: When you weigh something on a scale or measure a piece of wood, you're dealing with real numbers and approximations. Real analysis explains what it means for those approximations to approach the "true" value.
 
