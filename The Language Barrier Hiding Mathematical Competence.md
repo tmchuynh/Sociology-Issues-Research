@@ -1876,7 +1876,7 @@ Topology is a branch of mathematics that studies the properties of shapes and sp
 
 ### Diffeomorphism
 
-A diffeomorphism is a special kind of function between two manifolds (like a sphere and a bowl) that is not only a perfect 1-to-1 match but is also "smooth" in both directions. [1, 2, 3, 4] 
+A diffeomorphism is a special kind of function between two manifolds (like a sphere and a bowl) that is not only a perfect 1-to-1 match but is also "smooth" in both directions. 
 In simpler terms, if a homeomorphism allows you to stretch and bend a shape (like turning a donut into a coffee mug), a diffeomorphism ensures you do it so smoothly that you never create a sharp crease or a "kink." 
 
 **The Three Requirements**
@@ -1884,13 +1884,13 @@ In simpler terms, if a homeomorphism allows you to stretch and bend a shape (lik
 For a function $f$ between two manifolds to be a diffeomorphism, it must satisfy three conditions:
 1. Bijective: It is a perfect 1-to-1 pairing; every point on the first shape maps to exactly one point on the second, and vice versa.
 2. Differentiable ($C^\infty$): The function is smooth. If you move along the first shape, the corresponding movement on the second shape changes smoothly, with no sudden jumps or sharp turns.
-3. Inverse is Differentiable: The "return trip" must also be smooth. This is the crucial part that distinguishes it from a standard smooth map. [8, 9, 10, 11, 12] 
+3. Inverse is Differentiable: The "return trip" must also be smooth. This is the crucial part that distinguishes it from a standard smooth map. 
 
 **Diffeomorphism vs. Homeomorphism**
 
 While they sound similar, the difference is about the "tools" you are allowed to use:
 - Homeomorphism (Topology): Cares about connectivity. As long as you don't tear the object, it's the same. (A square is homeomorphic to a circle).
-- Diffeomorphism (Differential Geometry): Cares about calculus. You need the transition to be smooth. (A square is not diffeomorphic to a circle because of the sharp corners). [18, 19, 20, 21, 22] 
+- Diffeomorphism (Differential Geometry): Cares about calculus. You need the transition to be smooth. (A square is not diffeomorphic to a circle because of the sharp corners).  
 
 #### Applications:
 
