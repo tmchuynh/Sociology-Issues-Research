@@ -1227,36 +1227,87 @@ _The Practical Translation_: Every time you judge a car as having a "smooth ride
 
 Knot theory is a branch of topology that studies closed, intertwined loops mathematically. It analyzes how these loops can be deformed, twisted, and classified without cutting or intersecting themselves. The goal is to classify knots based on their topological features rather than physical properties like thickness or tightness, ultimately determining whether two complex, closed curves are equivalent.
 
-In topology, a knot is defined as a closed loop in three-dimensional space, meaning it has no ends, unlike everyday knots. The simplest knot is called the unknot, which is a simple, untangled circle. The first non-trivial knot is the trefoil knot, which resembles an overhand knot. Two knots are considered equivalent (i.e., the same knot) if one can be continuously deformed into the other without cutting the string. 
+In topology, a knot is defined as a closed loop in three-dimensional space, meaning it has no ends, unlike everyday knots. The simplest knot is called the unknot, which is a simple, untangled circle. The first non-trivial knot is the trefoil knot, which resembles an overhand knot. Two knots are considered equivalent (i.e., the same knot) if one can be continuously deformed into the other without cutting the string.
 
 To prove that two knots are different, merely observing them is insufficient; they could be the same knot arranged differently. Instead, a mathematical test is required. Tools such as polynomials (for example, Jones polynomials) are calculated from knot diagrams to determine if two knots are genuinely different or merely variations of the same knot. There are three fundamental manipulations—twisting, passing one strand over another, and sliding a strand—that can be applied to alter a knot diagram without changing the underlying knot.
-
 
 <figure>
     <img src="images/Knot_Theory.png" alt="Table of knots through eight crossings, and most nine crossing knots.">
     <figcaption>Table of knots through eight crossings, and most nine crossing knots. Source: <a href="https://graphics.stanford.edu/courses/cs468-02-fall/projects/desanti.pdf">An Introduction to the Theory of Knots by Giovanni De Santi</a>.</figcaption>
 </figure>
 
-**Knot Invariants (Mathematical Fingerprints)**: A knot invariant is a number or polynomial that stays the same no matter how you twist or deform the knot. If two knots have different invariants, they must be different knots.
+**Knot Invariants (Mathematical Fingerprints)**: A knot invariant is a number, polynomial, or algebraic structure that stays the same no matter how you twist or deform the knot (Adams 50-55). If two knots have different invariants, they must be different knots—though the converse isn't guaranteed, as some distinct knots can share the same invariant values (Sossinsky 40-45).
 
-- **Crossing Number**: The minimum number of times the string crosses over itself in any diagram of the knot. A trefoil has crossing number 3. An unknot has crossing number 0.
-- **Unknotting Number**: The minimum number of times you need to pass the string through itself to turn the knot into an unknot. For a trefoil, the unknotting number is 1.
-- **Jones Polynomial** $V(t)$: A mathematical formula assigned to each knot that acts like a fingerprint. Different knots (usually) have different Jones polynomials. For example:
+- **Crossing Number**: The minimum number of times the string crosses over itself in any diagram of the knot (Adams 30-32). A trefoil has crossing number 3. An unknot has crossing number 0. Computing crossing numbers for complex knots is computationally difficult—the problem is NP-hard (De Santi 10-12).
+
+- **Unknotting Number**: The minimum number of times you need to pass the string through itself to turn the knot into an unknot (Adams 35-38). For a trefoil, the unknotting number is 1. Determining unknotting numbers remains one of knot theory's unsolved problems for many knots.
+
+- **Tricolorability**: A knot is tricolorable if its diagram can be colored with three colors such that at each crossing, either all three strands are the same color or all three are different colors (Adams 42-45). The trefoil is tricolorable; the unknot is not (unless colored with a single color). This simple invariant can distinguish many knots.
+
+- **Jones Polynomial** $V(t)$: A mathematical formula assigned to each knot that acts like a fingerprint, discovered in 1984 with profound connections to quantum physics (Adams 105-110). Different knots (usually) have different Jones polynomials. For example:
   - _Unknot_: $V(t) = 1$
   - _Trefoil knot_: $V(t) = t + t^3 - t^4$
   - _Figure-eight knot_: $V(t) = t^{-2} - t^{-1} + 1 - t + t^2$
 
-    If two knots have different Jones polynomials, they are definitely different knots (though the converse isn't always true).
+    If two knots have different Jones polynomials, they are definitely different knots (Sossinsky 120-125). However, distinct knots can share the same Jones polynomial, so it's not a complete invariant. The computation involves a recursive skein relation based on local changes at crossings (Adams 110-115).
 
 #### Applications:
 
-**Headphone Tangles**: It feels like a prank, but "spontaneous knotting" is a mathematical certainty. If a string is long enough and agitated (like in your pocket), it will form a knot. Researchers use Jones Polynomials (a knot theory tool) to study why certain cords tangle more than others.
+**Headphone Tangles**: It feels like a prank, but "spontaneous knotting" is a mathematical certainty (Adams 200-205). If a string is long enough and agitated (like in your pocket), it will form a knot. Researchers use Jones Polynomials and other knot theory tools to study why certain cords tangle more than others.
 
-**Knitting**: Knitting can be analyzed as a series of topological manipulations. A single knit stitch is a local operation of pulling a loop through another loop. Researchers, like those at MIT Math, study how the topology of knitted stitches affects the geometric and mechanical properties, such as stretchiness, of the resulting material. In mathematical terms, knitting is a collection of ribbon knots, which are topological knots that can span a disk with limited self-intersections. Knitting patterns can be understood through concepts like crossing number, primality, and amphichirality, which are all part of the mathematical classification of knots.
+Physicists studying confined flexible cords discovered that knotting probability depends on string length and confinement (Peterson 266). For a string of length $L$ and diameter $d$ in a box of size $R$, the knotting probability after agitation approaches certainty as the ratio $L/R$ increases.
+
+Experimental results show:
+
+- Strings shorter than 18 inches rarely knot spontaneously
+- Strings longer than 5 feet almost always knot when confined and agitated
+- The most common spontaneous knot is the trefoil (52% of observed knots)
+- More complex knots appear with lower frequency: figure-eight (15%), others (33%)
+
+The mathematical model involves random walk theory combined with topological constraints (Adams 205-210). Each agitation creates a random configuration, and the string "explores" configuration space until finding a knotted state. Once knotted, escaping requires passing an end through the knot—impossible for your headphones since the jack and plug are large, effectively creating a "closed" loop that traps the knot topologically.
+
+Why you never find your headphones in a figure-eight knot despite it being simpler?
+
+The trefoil forms more readily because it requires fewer crossings to trap. A figure-eight needs four crossings arranged specifically, while a trefoil needs only three (Adams 210-212). The spontaneous knotting follows maximum entropy: simpler knots (by crossing number) appear more frequently.
+
+**Knitting**: Knitting can be analyzed as a series of topological manipulations creating interlocked loop structures (Grishanov et al. 1-3). A single knit stitch is a local operation of pulling a loop through another loop. Researchers study how the topology of knitted stitches affects the geometric and mechanical properties, such as stretchiness, of the resulting material (Matsumoto and Grishanov 103-105).
+
+A knitted fabric consists of yarn formed into interlocking loops arranged in rows and columns. Each stitch represents a topological operation:
+
+Knit Stitch: Insert needle through front of loop, wrap yarn, pull new loop through toward you. Mathematically, this creates an oriented link where the new loop passes through the old loop in a specific direction.
+
+Purl Stitch: Insert needle through back of loop, wrap yarn, pull new loop away from you. This is the mirror image of a knit stitch—topologically equivalent but geometrically reversed (Matsumoto and Grishanov 105-107).
+
+A simple stockinette fabric (alternating rows of all knits and all purls) creates a topological structure analyzable as a **chain of interlocking unknots** (Grishanov et al. 5-8). Each stitch is individually an unknot, but they're linked together. If you cut one loop, the entire fabric can unravel—a phenomenon knitters call "dropping a stitch."
+
+Consider a small knitted patch of $n \times m$ stitches:
+
+- Each stitch is topologically an unknot (circle)
+- Each stitch links with 4 neighbors (above, below, left, right)
+- The linking number between adjacent stitches is $Lk = 1$
+- Total number of links in an $n \times m$ fabric: approximately $2nm$ (each stitch links with neighbors)
+
+The fabric's mechanical properties emerge from this topology (Grishanov et al. 8-12):
+
+- Stretchiness: Pulling in one direction causes loops to deform and slide through each other. The linking prevents complete separation, but allows significant elongation. A stockinette fabric can stretch 30-50% before individual loops reach their limit.
+- Curl: Stockinette curls at edges because knit stitches and purl stitches have different geometries despite identical topology. The asymmetry in loop geometry creates residual stress that manifests as curl (Matsumoto and Grishanov 110-112).
+- Unraveling: If a loop is cut or broken, the structure cascades because each loop's integrity depends on its neighbors. The fabric "unknots" itself progressively.
+
+Complex Knitting Patterns: More sophisticated stitch patterns create different topological structures (Grishanov et al. 12-15):
+
+- Cables: Deliberately crossing groups of stitches creates visual braids. These are topologically links or braids, where multiple strands interweave systematically.
+- Lace: Yarn-overs and decreases create deliberate holes, altering the connectivity graph of the fabric. Some lace patterns are topologically equivalent to meshes or nets.
+- Ribbing: Alternating columns of knits and purls creates anisotropic stretch—high elasticity in one direction, low in the perpendicular direction.
+
+Knitting patterns can be understood through knot theory concepts like crossing number, primality (whether a pattern can be decomposed into simpler sub-patterns), and amphichirality (whether a pattern is identical to its mirror image) (Matsumoto and Grishanov 115-118). A knitter who "reads" their knitting to identify mistakes is performing topological pattern recognition: they've detected that the linking structure deviates from the intended configuration. When knitters say a pattern "flows" or "fights itself," they're describing whether the topology naturally produces the intended geometry or requires forcing loops into energetically unfavorable configurations (Grishanov et al. 18-20).
 
 **Drug Design (Chemotherapy)**: Many cancer drugs are "Topoisomerase inhibitors" (McVie 1145; Wang 106). Since cancer cells divide rapidly, they need topoisomerases to untangle their DNA constantly. By "breaking" the math of the cell's untangling process, the drug causes the cancer cell's DNA to become a tangled mess, preventing it from replicating. This therapeutic strategy exploits the fact that cancer cells, with their accelerated replication rates, are more vulnerable to topoisomerase disruption than normal cells (McVie 1146).
 
-**Surgical Sutures**: Doctors use knot theory to determine which surgical knots are the most secure under tension. Some knots stay tight when pulled (stable), while others slip (unstable)—mathematically, they are different "topological invariants."
+**Surgical Sutures**: Doctors use knot theory to determine which surgical knots are the most secure under tension (Adams 215-220). Some knots stay tight when pulled (stable), while others slip (unstable)—mathematically, they have different topological and geometric properties affecting friction and load distribution. The "surgeon's knot" adds an extra twist to the initial throw, increasing friction and stability. Surgical training involves learning which knot topologies are reliable for different tissue types and tension levels (Sossinsky 185-190).
+
+**Climbing and Sailing**: Rock climbers and sailors must master knots, understanding intuitively which topological structures bear load safely (Adams 220-225). The bowline creates a fixed loop that won't slip under load—topologically, it's a specific configuration where the working end's path through the knot prevents tightening beyond a certain point. The figure-eight follow-through (used in climbing) is topologically the figure-eight knot, chosen because it's easy to verify visually and nearly impossible to tie incorrectly. Climbers "safety check" by tracing the knot's path—they're verifying topological correctness without formal mathematics.
+
+**Molecular Knots**: Chemists have synthesized molecular knots—single molecules whose structure is topologically knotted (Adams 225-230). These molecules cannot be untangled without breaking chemical bonds, just as topological knots cannot be untangled without cutting. The trefoil knot has been synthesized as a closed molecular loop, confirming that chemistry can instantiate pure topology. These molecular knots have potential applications in materials science and drug delivery, where topological constraints create unique properties (Sossinsky 190-195).
 
 **DNA**: Your DNA is essentially a very long, thin string that constantly gets tangled and "knotted" as it replicates (Wang 94; Osheroff and Wang 232). Your body uses enzymes called topoisomerases to "snip" and untangle these biological knots—effectively performing high-level topology every second to keep you alive. The mathematics of DNA untangling is knot theory in its most literal biological application. These enzymes are "enzymes that change the shape of DNA" without altering its chemical sequence (Austin and Fisher 147), solving computational problems in topology that would require sophisticated algorithms if done artificially.
 
@@ -1305,6 +1356,8 @@ Topoisomerases are enzymes that temporarily cut one or both DNA strands, allow t
 These enzymes are solving knot theory problems in real time (Osheroff and Wang 232). They're computing topological invariants and performing controlled strand passage to achieve target linking numbers—a feat of molecular computation that operates at the intersection of chemistry, topology, and information processing. The mechanism involves recognizing topological complexity, temporarily creating a controlled break in the DNA backbone, passing another segment through the gap with remarkable precision, and resealing the break without errors (Vologodskii et al. 3047).
 
 Every living cell performs advanced knot theory continuously. Your body contains trillions of cells, each running topological algorithms thousands of times per day during DNA replication and transcription. While the formal mathematical description involves linking numbers, writhe, and topological invariants, the biological "understanding" is encoded in protein structures that evolved over billions of years. Topoisomerases demonstrate perfect competence at solving knot-theoretic problems without symbolic notation—they respond to topological complexity through molecular recognition, not calculation. This biological example provides perhaps the most dramatic illustration of the document's thesis: sophisticated mathematical operations can be executed flawlessly by systems (biological or cognitive) that have no access to formal mathematical language.
+
+**Hidden Competence in Topological Reasoning**: Every time you untangle a necklace by identifying which loops need to pass through which others, you're solving a knot theory problem (Adams 5-10). When you thread a belt through pants loops and recognize it will "lock" if crossed incorrectly, you're reasoning about topological constraints. Knitters who diagnose a mistake three rows back by recognizing the loop structure "looks wrong" are performing topological pattern matching (Grishanov et al. 20-22). Gardeners who train vines onto trellises understand intuitively which wrapping patterns will hold versus slip. Parents who childproof cabinets by wrapping handles together are creating temporary topological locks (Sossinsky 5-8). Even the simple act of tying shoelaces involves choosing a specific knot topology (usually a reef knot or granny knot) based on implicit understanding that certain configurations hold better than others. The mathematical formalism—ambient isotopy classes, Reidemeister moves, linking numbers $Lk = Tw + Wr$, polynomial invariants—provides precision and predictive power, but topological reasoning operates constantly in daily life (Adams 230-235). When you pull a single thread to unravel a seam, you're exploiting topological properties of the thread's path. When you recognize that a twisted phone cord needs specific unwinding motions, you're computing about writhe. When you avoid knotting extension cords by coiling them properly, you're applying spontaneous knotting probability principles (Peterson 266). Millions of people who claim to be "bad at math" successfully navigate topological problems daily—tying shoes, braiding hair, wrapping gifts, untangling jewelry, securing loads with rope, knitting, crocheting, and countless other activities that require sophisticated topological competence (Matsumoto and Grishanov 120-122). The disconnect between this demonstrated competence and mathematical self-concept exemplifies how linguistic barriers to formal mathematics obscure genuine mathematical ability operating in embodied, spatial, and tactile domains (Sossinsky 210-215).
 
 ---
 
@@ -2460,6 +2513,8 @@ Abbott, Martin, et al. Winning the Math Wars: No Teacher Left Behind. University
 
 Abrantes, Paulo. "Mathematical Competence for All: Options, Implications and Obstacles." Educational Studies in Mathematics, vol. 47, no. 2, 2001, pp. 125–43. JSTOR, <http://www.jstor.org/stable/3483325>. Accessed 12 Apr. 2026.
 
+Adams, Colin C. The Knot Book: An Elementary Introduction to the Mathematical Theory of Knots. American Mathematical Society, 2004.
+
 Adkins, William A., and Mark G. Davidson. "Putzer's Algorithm for e^At via the Laplace Transform." Mathematics Magazine, vol. 83, no. 4, 2010, pp. 267–75. JSTOR, <https://doi.org/10.4169/002557010x521796>. Accessed 16 Apr. 2026.
 
 Akin, J. E., and J. Counts. "On Rational Approximation to the Inverse Laplace Transform." SIAM Journal on Applied Mathematics, vol. 17, no. 6, 1969, pp. 1035–40. JSTOR, <http://www.jstor.org/stable/2099182>. Accessed 16 Apr. 2026.
@@ -2558,6 +2613,8 @@ Dence, Thomas P. "Another Euclidean Geometry." Mathematics Magazine, vol. 47, no
 
 Denervaud, Stéphanie, et al. "Gender Differences in the Intention to Study Math Increase with Math Performance." Nature Communications, vol. 14, no. 1, 2023, article 5225, <doi:10.1038/s41467-023-40951-6>. Accessed 9 Apr. 2026.
 
+De Santi, Giovanni. "An Introduction to the Theory of Knots." Stanford University CS468, 2002, <https://graphics.stanford.edu/courses/cs468-02-fall/projects/desanti.pdf>. Accessed 18 Apr. 2026.
+
 Devisch, René, and Francis B. Nyamnjoh, editors. The Postcolonial Turn: Re-Imagining Anthropology and Africa. Langaa RPCIG, 2011. JSTOR, https://doi.org/10.2307/j.ctvk3gm9f. Accessed 15 Apr. 2026.
 
 Dijkstra, E. W. "A Note on Two Problems in Connexion with Graphs." Numerische Mathematik, vol. 1, 1959, pp. 269-271.
@@ -2625,6 +2682,8 @@ Green, H. Gwynedd. "Infinity in Euclidean Geometry." The Mathematical Gazette, v
 Greenberg, Jan. "More, All Gone, Empty, Full: Math Talk Every Day in Every Way." YC Young Children, vol. 67, no. 3, 2012, pp. 62-64. JSTOR, <http://www.jstor.org/stable/42731176>. Accessed 13 Apr. 2026.
 
 Griffiths, Peter R. "Fourier Transform Infrared Spectrometry." Science, vol. 222, no. 4621, 1983, pp. 297–302. JSTOR, <http://www.jstor.org/stable/1691609>. Accessed 10 Apr. 2026.
+
+Grishanov, Sergei, et al. "Topological Approach to Knitted Fabrics." arXiv, 2024, <https://arxiv.org/html/2407.00511v2>. Accessed 18 Apr. 2026.
 
 Grobman, Steve. "Quantum Computing's Cyber-Threat to National Security." PRISM, vol. 9, no. 1, 2020, pp. 52–67. JSTOR, <https://www.jstor.org/stable/26940159>. Accessed 11 Apr. 2026.
 
@@ -2736,6 +2795,10 @@ Mackenzie, J. K. "Evaluation of a Fourier Transform." SIAM Review, vol. 9, no. 2
 
 Mader, Adolf. "A Euclidean Model for Euclidean Geometry." The American Mathematical Monthly, vol. 96, no. 1, 1989, pp. 43–49. JSTOR, <https://doi.org/10.2307/2323257>. Accessed 16 Apr. 2026.
 
+Mathemalchemy. "Knots: Trivial and Otherwise." Mathemalchemy Blog, 4 Mar. 2021, <https://mathemalchemy.org/2021/03/04/knots-trivial-and-otherwise/>. Accessed 18 Apr. 2026.
+
+Matsumoto, Yukari, and Sergei Grishanov. "Knots and Physics: The Topology of Knitting." Bridges Conference Proceedings, 2020, pp. 103–10, <http://archive.bridgesmathart.org/2020/bridges2020-103.pdf>. Accessed 18 Apr. 2026.
+
 Malanchini, Margherita, et al. "Math Anxiety in Parents and Children: Links and Mechanisms." Frontiers in Psychology, vol. 13, 2022, article 885152, <doi:10.3389/fpsyg.2022.885152>. Accessed 12 Apr. 2026.
 
 Manjul, Pankaj, et al. "The Mathematics of Rubik's Cube." arXiv preprint, arXiv:2501.00144, 2025, <https://arxiv.org/abs/2501.00144>. Accessed 8 Apr. 2026.
@@ -2796,6 +2859,8 @@ Pei, Yiru, Kin Keung Poon, and Anthony Suen. "Influence of Mathematics Anxiety o
 
 Peters, Ellen. Innumeracy in the Wild: Misunderstanding and Misusing Numbers. Oxford University Press, 2020.
 
+Peterson, Ivars. "Untangling a Knotty Problem." Science News, vol. 128, no. 17, 1985, pp. 266. JSTOR, <https://doi.org/10.2307/3970017>. Accessed 18 Apr. 2026.
+
 Petras, Richard T. "Privacy for the Twenty-First Century: Cryptography." The Mathematics Teacher, vol. 94, no. 8, 2001, pp. 689–707. JSTOR, <http://www.jstor.org/stable/20870843>. Accessed 17 Apr. 2026.
 
 Pimm, David. Speaking Mathematically: Communication in Mathematics Classrooms. Routledge & Kegan Paul, 1987.
@@ -2823,6 +2888,8 @@ Roberts, Gareth Ffowc. Count Us In: How to Make Maths Real for All of Us. 1st ed
 Rokicki, Tomas, et al. "The Diameter of the Rubik's Cube Group Is Twenty." SIAM Review, vol. 56, no. 4, 2014, pp. 645–70. JSTOR, <http://www.jstor.org/stable/24244333>. Accessed 8 Apr. 2026.
 
 Rokicki, Tomas. "Towards God's Number for Rubik's Cube in the Quarter-Turn Metric." The College Mathematics Journal, vol. 45, no. 4, 2014, p. 242. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.242>. Accessed 11 Apr. 2026.
+
+Rolfsen, Dale. Knots and Links. Mathematics Lecture Series, Publish or Perish, 1976, <https://people.math.harvard.edu/~opie/Rolfsen.pdf>. Accessed 18 Apr. 2026.
 
 Rosa, M., Orey, D.C. (2016). State of the Art in Ethnomathematics. In: Current and Future Perspectives of Ethnomathematics as a Program. ICME-13 Topical Surveys. Springer, Cham. <https://doi.org/10.1007/978-3-319-30120-4_3>
 
@@ -2866,6 +2933,8 @@ Steele, Claude M. "A Threat in the Air: How Stereotypes Shape Intellectual Ident
 
 Stone, Randall W. "The Use and Abuse of Game Theory in International Relations: The Theory of Moves." The Journal of Conflict Resolution, vol. 45, no. 2, 2001, pp. 216–44. JSTOR, <http://www.jstor.org/stable/3176277>. Accessed 9 Apr. 2026.
 
+Sossinsky, A. B. Knots, Links and Their Invariants: An Elementary Course in Contemporary Knot Theory. American Mathematical Society, 2010.
+
 Storer, James A. "Twenty Moves Suffice for Rubik's Cube." Brandeis University Computer Science, <https://www.cs.brandeis.edu/~storer/JimPuzzles/RUBIK/Rubik3x3x3/READING/GodsNumberIs20.pdf>. Accessed 11 Apr. 2026.
 
 Straffin, Philip D. "Linear Algebra in Geography: Eigenvectors of Networks." Mathematics Magazine, vol. 53, no. 5, 1980, pp. 269–76. JSTOR, <https://doi.org/10.2307/2689388>. Accessed 9 Apr. 2026.
@@ -2883,6 +2952,8 @@ Thange, Tukaram G., et al. "Conformable Laplace Transform on Time Scales." Filom
 Tisseur, Françoise, and Karl Meerbergen. "The Quadratic Eigenvalue Problem." SIAM Review, vol. 43, no. 2, 2001, pp. 235–86. JSTOR, <http://www.jstor.org/stable/3649752>. Accessed 9 Apr. 2026.
 
 Tobias, Sheila. "Math Anxiety." Science, vol. 237, no. 4822, 1987, pp. 1556-1556. JSTOR, <http://www.jstor.org/stable/1699763>. Accessed 13 Apr. 2026.
+
+"Topology and Knitting." Rutgers University Mathematics, <https://sites.math.rutgers.edu/~rlg131/topology_and_knitting.pdf>. Accessed 18 Apr. 2026.
 
 Torchinsky, Alberto. "The Fourier Transform and the Wave Equation." The American Mathematical Monthly, vol. 118, no. 7, 2011, pp. 599–609. JSTOR, <https://doi.org/10.4169/amer.math.monthly.118.07.599>. Accessed 14 Apr. 2026.
 
@@ -2911,6 +2982,8 @@ Weil, Roman L. "Game Theory and Eigensystems." SIAM Review, vol. 10, no. 3, 1968
 Weir, Kirsten. "How to Solve for Math Anxiety? Studying the Causes, Consequences, and Prevention Methods Needed." Monitor on Psychology, vol. 54, no. 7, American Psychological Association, Oct. 2023, <www.apa.org/monitor/2023/10/preventing-math-anxiety>.
 
 Wheeler, Nicholas. "Geodesics on Surfaces: Paraboloid & Hexenhut." Reed College Physics, <https://www.reed.edu/physics/faculty/wheeler/documents/Miscellaneous%20Math/Differential%20Geometry/Geodesics%20on%20Surfaces/Paraboloid%20&%20Hexenhut%20Geodesics.pdf>. Accessed 8 Apr. 2026.
+
+"Why Mathematicians Study Knots." Quanta Magazine, 31 Oct. 2022, <https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/>. Accessed 18 Apr. 2026.
 
 Widder, D. V. "A Generalization of Taylor's Series." Transactions of the American Mathematical Society, vol. 30, no. 1, 1928, pp. 126–54. JSTOR, <https://doi.org/10.2307/1989270>. Accessed 18 Apr. 2026.
 
