@@ -866,46 +866,53 @@ How do you prove two knots are different? You can't just look at them - they mig
 
 **Headphone Tangles**: It feels like a prank, but "spontaneous knotting" is a mathematical certainty. If a string is long enough and agitated (like in your pocket), it will form a knot. Researchers use Jones Polynomials (a knot theory tool) to study why certain cords tangle more than others.
 
-**Drug Design (Chemotherapy)**: Many cancer drugs are "Topoisomerase inhibitors." Since cancer cells divide rapidly, they need topoisomerases to untangle their DNA constantly. By "breaking" the math of the cell's untangling process, the drug causes the cancer cell's DNA to become a tangled mess, preventing it from replicating.
+**Drug Design (Chemotherapy)**: Many cancer drugs are "Topoisomerase inhibitors" (McVie 1145; Wang 106). Since cancer cells divide rapidly, they need topoisomerases to untangle their DNA constantly. By "breaking" the math of the cell's untangling process, the drug causes the cancer cell's DNA to become a tangled mess, preventing it from replicating. This therapeutic strategy exploits the fact that cancer cells, with their accelerated replication rates, are more vulnerable to topoisomerase disruption than normal cells (McVie 1146).
 
-**Surgical Sutures**: Doctors use knot theory to determine which surgical knots are the most secure under tension. Some knots stay tight when pulled (stable), while others slip (unstable)-mathematically, they are different "topological invariants."
+**Surgical Sutures**: Doctors use knot theory to determine which surgical knots are the most secure under tension. Some knots stay tight when pulled (stable), while others slip (unstable)—mathematically, they are different "topological invariants."
 
-**DNA**: Your DNA is essentially a very long, thin string that constantly gets tangled and "knotted" as it replicates. Your body uses enzymes called topoisomerases to "snip" and untangle these biological knots-effectively performing high-level topology every second to keep you alive. The mathematics of DNA untangling is knot theory in its most literal biological application.
+  2. Replicate (make a copy)
+
+  4. Rewind
+
+Without topoisomerases, the DNA would become a hopelessly knotted mess, and the cell would die (Wang 95; Austin and Fisher 148). This problem occurs in all living organisms—from bacteria to plants (Chiatante et al. 1045) to humans—making topoisomerases universally essential enzymes.
 
 - Human DNA is about 2 meters long but packed into a nucleus only 6 micrometers in diameter—roughly 300,000 times smaller. It's like fitting 40 km of thread into a tennis ball. During cell division, DNA must:
   1. Unwind (the double helix)
-  2. Replicate (make a copy)
+Without topoisomerases, the DNA would become a hopelessly knotted mess, and the cell would die (Wang 95; Austin and Fisher 148). This problem occurs in all living organisms—from bacteria to plants (Chiatante et al. 1045) to humans—making topoisomerases universally essential enzymes.
   3. Separate the copies
-  4. Rewind
+*Linking Number (Measuring DNA Entanglement)*: When two closed loops of DNA are intertwined, their linking number $Lk$ counts how many times one loop passes through the other (Wang 96). For a DNA double helix:
 
-  Without topoisomerases, the DNA would become a hopelessly knotted mess, and the cell would die.
+$$Lk = Tw + Wr$$
 
-- *Linking Number (Measuring DNA Entanglement)*: When two closed loops of DNA are intertwined, their linking number $Lk$ counts how many times one loop passes through the other. For a DNA double helix:
+where:
+- $Lk$ (Linking number): Total entanglement, an integer that doesn't change unless you cut the DNA
 
-  $$Lk = Tw + Wr$$
-
+- $Wr$ (Writhe): How the DNA coils in 3D space (supercoiling)
   where:
-  - $Lk$ (Linking number): Total entanglement, an integer that doesn't change unless you cut the DNA
+**Type I Topoisomerase**:
+- Cuts one strand of the DNA
+Relaxed DNA has $Lk \approx 0$. When DNA is underwound (negative supercoiling), it's easier to separate the strands for replication. When overwound (positive supercoiling), it becomes too tightly packed. Cells carefully regulate this balance (Wang 97-98). Remarkably, DNA supercoiling can actually facilitate knot removal: tightly supercoiled DNA forces knots to become more compact, making them easier for topoisomerases to recognize and untangle (Witz et al. 3608-3610).
   - $Tw$ (Twist): Number of times the two strands wind around each other
-  - $Wr$ (Writhe): How the DNA coils in 3D space (supercoiling)
+Topoisomerases are enzymes that temporarily cut one or both DNA strands, allow the strands to pass through the break, then reseal the cut (Wang 99; Austin and Fisher 149). There are two main types:
 
-  Relaxed DNA has $Lk \approx 0$. When DNA is underwound (negative supercoiling), it's easier to separate the strands for replication. When overwound (positive supercoiling), it becomes too tightly packed. Cells carefully regulate this balance.
-
-- Topoisomerases are enzymes that temporarily cut one or both DNA strands, allow the strands to pass through the break, then reseal the cut. There are two types:
-
-  **Type I Topoisomerase**:
-  - Cuts one strand of the DNA
-  - Allows the other strand to pass through
-  - Changes linking number by ±1 per action
+- Allows the other strand to pass through
+- Changes linking number by $\pm1$ per action (Champoux 11998)
+- Equation: $Lk_{new} = Lk_{old} \pm 1$
+- Works "strictly one step at a time," making single-unit changes to DNA topology (Champoux 11999)
+- Can synthesize and dissolve hemicatenanes (partially interlocked DNA rings), demonstrating remarkable topological sophistication (Lee et al. 15177)
   - Equation: $Lk_{new} = Lk_{old} \pm 1$
+**Type II Topoisomerase**:
+- Cuts both strands
+- Passes another double helix through the gap (Vologodskii et al. 3045)
+- Changes linking number by $\pm 2$ per action
+- Equation: $Lk_{new} = Lk_{old} \pm 2$
+- Evolutionary variations include gyrase and topoisomerase IV, which perform specialized functions despite structural similarity (Neuman 22363)
+- Can also participate in chromatin organization, preventing the spread of repressive histone modifications (Méteignier et al. 1-2)
 
-  **Type II Topoisomerase**:
-  - Cuts both strands
-  - Passes another double helix through the gap
-  - Changes linking number by ±2 per action
-  - Equation: $Lk_{new} = Lk_{old} \pm 2$
+These enzymes are solving knot theory problems in real time (Osheroff and Wang 232). They're computing topological invariants and performing controlled strand passage to achieve target linking numbers—a feat of molecular computation that operates at the intersection of chemistry, topology, and information processing. The mechanism involves recognizing topological complexity, temporarily creating a controlled break in the DNA backbone, passing another segment through the gap with remarkable precision, and resealing the break without errors (Vologodskii et al. 3047).
 
-  These enzymes are solving knot theory problems in real time. They're computing topological invariants and performing controlled strand passage to achieve target linking numbers.
+Every living cell performs advanced knot theory continuously. Your body contains trillions of cells, each running topological algorithms thousands of times per day during DNA replication and transcription. While the formal mathematical description involves linking numbers, writhe, and topological invariants, the biological "understanding" is encoded in protein structures that evolved over billions of years. Topoisomerases demonstrate perfect competence at solving knot-theoretic problems without symbolic notation—they respond to topological complexity through molecular recognition, not calculation. This biological example provides perhaps the most dramatic illustration of the document's thesis: sophisticated mathematical operations can be executed flawlessly by systems (biological or cognitive) that have no access to formal mathematical language.
+Every living cell performs advanced knot theory continuously. Your body contains trillions of cells, each running topological algorithms thousands of times per day during DNA replication and transcription. While the formal mathematical description involves linking numbers, writhe, and topological invariants, the biological "understanding" is encoded in protein structures that evolved over billions of years. Topoisomerases demonstrate perfect competence at solving knot-theoretic problems without symbolic notation—they respond to topological complexity through molecular recognition, not calculation. This biological example provides perhaps the most dramatic illustration of the document's thesis: sophisticated mathematical operations can be executed flawlessly by systems (biological or cognitive) that have no access to formal mathematical language.
 
 ---
 
