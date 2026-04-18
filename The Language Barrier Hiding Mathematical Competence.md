@@ -1175,12 +1175,6 @@ When you smoothly press the gas pedal, your car's velocity function is not only 
 
 $$v(t) = 30 + 30t - 5t^2 \text{ mph (for } 0 \leq t \leq 3 \text{ seconds)}$$
 
-
-  $$v(t) = 30 + 30t - 5t^2 \text{ mph (for } 0 \leq t \leq 3 \text{ seconds)}$$
-  - At $t = 0$: $v(0) = 30$ mph (your starting speed)
-  - At $t = 3$: $v(3) = 30 + 90 - 45 = 75$ mph (highway speed)
-  - The function is continuous: no jumps in speed
-  - The derivative (acceleration) is: $v'(t) = 30 - 10t$ mph/second
   - At $t = 0$: $a(0) = 30$ mph/s (strong initial acceleration)
   - At $t = 3$: $a(3) = 0$ mph/s (you've stopped accelerating)
 
@@ -1974,6 +1968,10 @@ To avoid paradoxes, modern mathematics often uses *Zermelo-Fraenkel set theory w
 *Existence of Order*: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
 
 *The "Least Number" Property*: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
+
+The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns — that "complete disorder is impossible", if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear — the "order in chaos."
+
+#### Applications:
 
 While the "party" version is a popular way to explain it, the exact theorem is a pillar of combinatorics. In graph theory terms:
   - <i>Complete Graph ( $K_N$ )</i>: A network where every pair of vertices (people) is connected by an edge.
