@@ -915,8 +915,8 @@ The security of online shopping relies on the _Integer Factorization Problem_ (L
 1. Key Generation (Boyer and Moore 183-184)
    - First, pick two distinct large prime numbers, $p$ and $q$.
    - Compute the modulus: $n = p \times q$
+   - Compute Euler's Totient: $\phi(n) = (p-1)(q-1)$
    - Choose a public exponent $e$ such that: $\gcd(e, \phi(n)) = 1$
-   - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$ (Lefton 57)
 2. The Private Key
    - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$ (Lefton 57)
 3. Encryption (The Computer's Task)
