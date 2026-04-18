@@ -1834,9 +1834,63 @@ By allowing the use of scalars that don’t always have inverses, as required in
 
 ---
 
+### Topology
+
+Topology is a branch of mathematics that studies the properties of shapes and spaces that are preserved when they are stretched, bent, or twisted, but not torn or glued. Often referred to as "rubber-sheet geometry," topology treats shapes as though they are made of a flexible material that can be manipulated in any way, as long as no tearing or gluing occurs. This field focuses on the characteristics of geometric objects that remain unchanged even when they undergo continuous deformation.
+
+**Key Subfields**
+- General (Point-Set) Topology: The "foundation" that studies the abstract properties of spaces, such as continuity, compactness, and connectedness, without needing to measure distances.
+- Algebraic Topology: Uses tools from algebra (like groups and rings) to solve topological problems, such as "counting holes" to distinguish between different spaces.
+- Differential Topology: Focuses on smoothness and the properties of differentiable manifolds (shapes where you can perform calculus).
+- Geometric Topology: Specifically looks at lower-dimensional manifolds, such as 2D surfaces and 3D spaces.
+
+#### Applications:
+
+**Donut and Coffee Mug Equivalence**: One of the most famous examples in topology is that a coffee cup and a doughnut are considered "the same" shape.—you could mold one into the other without cutting. That equivalence is the central insight of topology.
+
+- Why? Both have exactly one hole.
+- Deformation: You can imagine molding a lump of clay from the shape of a doughnut into a coffee cup without ever having to break the clay or poke a new hole in it.
+- Contrast: A sphere (like a ball) is not equivalent to a doughnut because you would have to tear a hole in the ball to make it match. 
+
+**Untangling Headphone Cords**: When you untangle headphone cords, you are solving a topology problem—you are trying to determine whether the tangle can be undone by smooth manipulation without cutting the wire.
+
+**Rubber Sheet Geometry**: Imagine a world where everything is made of infinitely flexible rubber. You can stretch, squish, and bend objects into new shapes, but you can't tear or fuse them. Topology cares about features that survive this kind of transformation-like the number of holes.
+
+**Knots and Loops**: Tying shoelaces, braiding hair, or untangling cables: the study of knots is a branch of topology, which asks if one knot can be turned into another without cutting.
+
+**Networks**: Whether a subway system is connected, or whether you can travel from one station to another, is a topological question. The exact distances don't matter-only the connections.
+
+**Maps and Regions**: The famous "four color theorem" (any map can be colored using at most four colors so that no adjacent regions share a color) is a topological result.
+
+**Soap Bubbles and Films**: The shapes that soap films form are often determined by topological constraints-how many loops or surfaces are involved.
+
+**Homeomorphism**: Two objects are homeomorphic if you can deform one into the other without cutting or gluing (like a donut and a mug with a handle).
+
+**Connectedness**: Whether a space is all in "one piece" or split into disconnected parts.
+
+**Compactness**: A technical property related to whether something can be "covered" by a finite collection of patches.
+
+**The London Tube map is a topological map**: it preserves the connections between stations (which station connects to which) but intentionally distorts the distances and shapes. The useful information is topological, not geometric (Garland 18).
+
+---
+
 ### Diffeomorphism
 
-A diffeomorphism is a smooth, bijective (invertible) mapping between two differentiable manifolds such that both the function and its inverse are smooth (infinitely differentiable). It acts as a "smooth equivalence" or isomorphism, allowing shapes to be deformed without tearing, gluing, or creating sharp corners
+A diffeomorphism is a special kind of function between two manifolds (like a sphere and a bowl) that is not only a perfect 1-to-1 match but is also "smooth" in both directions. [1, 2, 3, 4] 
+In simpler terms, if a homeomorphism allows you to stretch and bend a shape (like turning a donut into a coffee mug), a diffeomorphism ensures you do it so smoothly that you never create a sharp crease or a "kink." 
+
+**The Three Requirements**
+
+For a function $f$ between two manifolds to be a diffeomorphism, it must satisfy three conditions:
+1. Bijective: It is a perfect 1-to-1 pairing; every point on the first shape maps to exactly one point on the second, and vice versa.
+2. Differentiable ($C^\infty$): The function is smooth. If you move along the first shape, the corresponding movement on the second shape changes smoothly, with no sudden jumps or sharp turns.
+3. Inverse is Differentiable: The "return trip" must also be smooth. This is the crucial part that distinguishes it from a standard smooth map. [8, 9, 10, 11, 12] 
+
+**Diffeomorphism vs. Homeomorphism**
+
+While they sound similar, the difference is about the "tools" you are allowed to use:
+- Homeomorphism (Topology): Cares about connectivity. As long as you don't tear the object, it's the same. (A square is homeomorphic to a circle).
+- Diffeomorphism (Differential Geometry): Cares about calculus. You need the transition to be smooth. (A square is not diffeomorphic to a circle because of the sharp corners). [18, 19, 20, 21, 22] 
 
 #### Applications:
 
@@ -2126,36 +2180,6 @@ Despite its simplicity, the pigeonhole principle is a fundamental tool in combin
 **Hashing and Collisions**: In computer science, hash functions map large data sets into smaller address spaces. The pigeonhole principle guarantees that hash collisions (different inputs producing the same output) are inevitable when the input space exceeds the output space—a fundamental consideration in database design and cryptography.
 
 The pigeonhole principle proves that coincidences and patterns are sometimes unavoidable mathematical necessities rather than unlikely events. It's a tool for proving existence without construction—you can prove something must exist without finding or identifying it.
-
----
-
-### Topology
-
-Topology is the branch of mathematics that studies the properties of shapes and spaces that are preserved under stretching, bending, or twisting-but not tearing or gluing. In topology, a coffee mug and a donut (torus) are "the same" because each has one hole; you can deform one into the other without cutting or attaching anything new.
-
-#### Applications:
-
-**Donut and Coffee Mug Equivalence**: You intuitively understand that a donut and a coffee mug with one handle are "the same shape"—you could mold one into the other without cutting. That equivalence is the central insight of topology.
-
-**Untangling Headphone Cords**: When you untangle headphone cords, you are solving a topology problem—you are trying to determine whether the tangle can be undone by smooth manipulation without cutting the wire.
-
-**Rubber Sheet Geometry**: Imagine a world where everything is made of infinitely flexible rubber. You can stretch, squish, and bend objects into new shapes, but you can't tear or fuse them. Topology cares about features that survive this kind of transformation-like the number of holes.
-
-**Knots and Loops**: Tying shoelaces, braiding hair, or untangling cables: the study of knots is a branch of topology, which asks if one knot can be turned into another without cutting.
-
-**Networks**: Whether a subway system is connected, or whether you can travel from one station to another, is a topological question. The exact distances don't matter-only the connections.
-
-**Maps and Regions**: The famous "four color theorem" (any map can be colored using at most four colors so that no adjacent regions share a color) is a topological result.
-
-**Soap Bubbles and Films**: The shapes that soap films form are often determined by topological constraints-how many loops or surfaces are involved.
-
-**Homeomorphism**: Two objects are homeomorphic if you can deform one into the other without cutting or gluing (like a donut and a mug with a handle).
-
-**Connectedness**: Whether a space is all in "one piece" or split into disconnected parts.
-
-**Compactness**: A technical property related to whether something can be "covered" by a finite collection of patches.
-
-**The London Tube map is a topological map**: it preserves the connections between stations (which station connects to which) but intentionally distorts the distances and shapes. The useful information is topological, not geometric (Garland 18).
 
 ---
 
