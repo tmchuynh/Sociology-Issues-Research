@@ -756,19 +756,20 @@ where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain r
 **Common Frequency Thinking**: Every time you recognize a voice on the phone, identify an instrument in a song, or notice that bass travels through walls better than treble, you're demonstrating intuitive understanding of frequency decomposition—the core concept of the Fourier Transform (Alm and Walker 475-476). You know that complex sounds can be broken into simpler components, that different frequencies behave differently, and that the "same information" can be represented in time or frequency domains. Musicians develop profound intuition about harmonic relationships without ever seeing $e^{-i\omega t}$ (Callender 315-325). Audio engineers adjust parametric equalizers by ear, manipulating frequency-domain representations through tactile interfaces (Alm and Walker 473-475). The mathematical formalism captures and generalizes this intuitive knowledge, but the competence precedes and exists independently of the notation.
 
 ---
+
 ### Euclidean Geometry
-**Key aspects include**:
 
 Euclidean geometry is the study of flat surfaces, points, lines, angles, and shapes, based on the axioms and postulates of the ancient Greek mathematician Euclid (Meserve 372). Often called plane geometry, it describes the flat, two-dimensional world and 3D space, where parallel lines never meet and the interior angles of a triangle total $180^\circ$ (Mader 43).
+
+**Key aspects include**:
+- *Foundation*: Established in Euclid's work The Elements, which organized geometric principles into a logical system built from five postulates and basic definitions (Meserve 373-374).
+- *The Five Postulates*: Euclidean geometry is based on five core assumptions, including that a straight line can be drawn between any two points, and the "parallel postulate," which dictates how parallel lines behave (Menger 721-722).
 - *Properties*: The shortest distance between two points is a straight line, and all right angles ($90^\circ$) are congruent (Green 343).
 - *Applications*: It is used to analyze 2D figures (planes) and 3D objects (solid geometry) (Posamentier et al. 221)
 
 **Philosophical Status**: For centuries, philosophers debated whether Euclidean geometry was a discovered truth about physical reality or a human construction. Kant argued that Euclidean geometry was synthetic a priori knowledge—built into the structure of human perception itself (Jones 137-138; French 213). The later development of non-Euclidean geometries challenged this view, demonstrating that alternative geometric systems could be logically consistent, suggesting geometry might be a choice rather than a necessity (Jones 140-142). This philosophical shift—from viewing Euclidean geometry as "the" geometry to recognizing it as "a" geometry—represents one of mathematics' most profound conceptual revolutions (Daus 12-13).
 
 **The Educational Dilemma**: Mathematics educators face a persistent challenge: how to teach Euclidean geometry in a way that maintains its logical rigor while remaining accessible (Allendoerfer 165-167). The axiomatic approach, while mathematically elegant, often alienates students who can demonstrate geometric competence through construction, measurement, and spatial reasoning (Allendoerfer 168-169). This pedagogical tension mirrors the document's central theme—students may possess geometric understanding that formal axioms fail to capture or validate.
-
-
-Euclid's Elements is a foundational 13-book mathematical treatise, written around 300 BCE in Alexandria, which structured plane/solid geometry, number theory, and proportion through a logical framework of definitions, postulates, and proofs. It is the oldest, most influential deductive textbook in history, establishing the use of straight-edge and compass constructions
 
 
 
@@ -914,13 +915,13 @@ The security of online shopping relies on the _Integer Factorization Problem_ (L
 1. Key Generation (Boyer and Moore 183-184)
    - First, pick two distinct large prime numbers, $p$ and $q$.
    - Compute the modulus: $n = p \times q$
-   - Compute Euler's Totient: $\phi(n) = (p-1)(q-1)$
+   - Choose a public exponent $e$ such that: $\gcd(e, \phi(n)) = 1$
    - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$ (Lefton 57)
 2. The Private Key
    - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$ (Lefton 57)
 3. Encryption (The Computer's Task)
    - Your credit card data $M$ is transformed into ciphertext $C$ using the public key $(n, e)$: $C = M^e \pmod{n}$
-4. Decryption (The Server's Task)
+   - The merchant uses their private key $d$ to recover the original message: $M = C^d \pmod{n}$
 **Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: *Compute M to the e, mod n*" (Treat 255).
 
 **Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: *Compute M to the e, mod n*" (Treat 255).
