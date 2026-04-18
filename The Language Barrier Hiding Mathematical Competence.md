@@ -675,11 +675,6 @@ Every time you think "I'll help if they help, but I'm not getting taken advantag
 
 A heuristic is a practical "rule of thumb," mental shortcut, or experimental method used to solve problems or make decisions quickly, especially when an optimal solution is impossible or impractical to find. It focuses on efficiency and "good enough" results rather than perfection.
 
-- **Mental Shortcuts**: Evaluating a situation by "gut feeling" rather than in-depth analysis (e.g., assuming a higher-priced item is better quality).
-- **Problem Solving/AI**: In computing, it is a technique that finds a "good enough" solution when a formal algorithm is too slow.
-- **Learning/Teaching**: Methods that encourage students to discover solutions themselves, such as "trial and error" or "learning by doing".
-- **Daily Life**: Using a rule of thumb, such as "if I haven't used it in a year, I should throw it away
-
 #### Applications:
 
 **Mental Shortcuts**: Evaluating a situation by "gut feeling" rather than in-depth analysis (e.g., assuming a higher-priced item is better quality).
@@ -700,12 +695,6 @@ A heuristic is a practical "rule of thumb," mental shortcut, or experimental met
 
 **The "Look for a Tall Building" Strategy**: If you're lost in a city, you don't look at every street sign. You use the heuristic of walking toward a landmark to orient yourself.
 
-where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain representation (Berry 227-230). The inverse transform reconstructs the original signal: $f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} \,d\omega$ (Berry 230-232). This bidirectional relationship—the Fourier Transform Identity Theorem—guarantees that information is perfectly preserved in both representations (Berry 227).
-
-**Mathematical Foundations**: The Fourier Transform satisfies remarkable inequalities that constrain how "spread out" a function can be simultaneously in time and frequency domains (Beckner 159-165). These uncertainty principles, formalized through weighted norm inequalities, have profound implications from quantum mechanics to signal processing (Beckner 175-180; Muckenhoupt 729-735). Mean convergence theorems ensure that Fourier representations converge to the original function under broad conditions (McShane 205-208). The transform extends beyond real and complex numbers to quaternions and higher algebraic structures, enabling analysis of multidimensional rotations and color image processing (Gao 9851-9860).
-
-#### Applications:
-
 **Shopping by Unit Price**: Instead of calculating the complex value of 50 different brands of cereal, you use the "Price per Ounce" heuristic to find the best deal instantly.
 
 ---
@@ -715,6 +704,12 @@ where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain r
 The Fourier Transform is a mathematical tool that takes a complex signal or pattern (such as a sound wave, image, or data series) and decomposes it into a sum of simple waves (sines and cosines) of different frequencies (Bracewell 86-88). In other words, it's like discovering what "notes" make up a complicated song, or what "colors" make up a complicated image. The continuous Fourier Transform is defined as:
 
 $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} \,dt$$
+
+where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain representation (Berry 227-230). The inverse transform reconstructs the original signal: $f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} \,d\omega$ (Berry 230-232). This bidirectional relationship—the Fourier Transform Identity Theorem—guarantees that information is perfectly preserved in both representations (Berry 227).
+
+**Mathematical Foundations**: The Fourier Transform satisfies remarkable inequalities that constrain how "spread out" a function can be simultaneously in time and frequency domains (Beckner 159-165). These uncertainty principles, formalized through weighted norm inequalities, have profound implications from quantum mechanics to signal processing (Beckner 175-180; Muckenhoupt 729-735). Mean convergence theorems ensure that Fourier representations converge to the original function under broad conditions (McShane 205-208). The transform extends beyond real and complex numbers to quaternions and higher algebraic structures, enabling analysis of multidimensional rotations and color image processing (Gao 9851-9860).
+
+#### Applications:
 
 **Music and Sound**: When you play a chord on a piano, the sound you hear is made up of many notes (frequencies) at once. The Fourier Transform tells you exactly which notes (frequencies) and how loud each one is (Alm and Walker 457-460). Equalizers on audio equipment (bass and treble sliders) work by adjusting the strength of different frequency components, as determined by the Fourier Transform.
 
