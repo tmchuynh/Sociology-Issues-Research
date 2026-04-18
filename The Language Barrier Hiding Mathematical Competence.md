@@ -1113,7 +1113,7 @@ A completed $9 \times 9$ Sudoku is a $9 \times 9$ Latin square where each $3 \ti
 
 $4 \times 4$ Sudoku solutions can be analyzed through a "hidden" group structure, where the solution space can collapse based on symmetry-breaking. The 288 solutions for $4 \times 4$ are generated via permutation, which is the foundational concept of Galois theory (Arcos et al. 112-115). Mini-Sudokus provide an accessible entry point for understanding how group-theoretic constraints determine puzzle solvability without requiring advanced mathematical notation (Arcos et al. 120).
 
-- $4 \times 4$ Sudoku solutions can be analyzed through a "hidden" group structure, where the solution space can collapse based on symmetry-breaking. The 288 solutions for $4 \times 4$ are generated via permutation, which is the foundational concept of Galois theory
+The mathematical sophistication underlying Sudoku—involving group operations, Latin squares, and permutation theory—is completely hidden from casual players who solve puzzles using purely logical reasoning. This exemplifies how mathematical competence (solving the puzzle) can be entirely separate from mathematical language (understanding the group-theoretic structure). As Cook et al. observe, "the mathematics is there whether or not the solver is aware of it" (15).
 
 **Circle of Fifths**:  In music, the Circle of Fifths is a map of these relationships. Moving from C to G to D is a mathematical "rotation" through a group. Galois Theory tells us which shapes are "constructible" using only a straightedge and compass.
 
