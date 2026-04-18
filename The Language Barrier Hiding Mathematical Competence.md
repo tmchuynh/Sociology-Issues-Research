@@ -339,15 +339,13 @@ $$f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^
 
 When $a = 0$, this becomes the Maclaurin series. The remarkable fact is that every power series is actually a Taylor series for some function (Meyerson 51-52), creating a fundamental equivalence between polynomial approximations and smooth functions.
 
-**Theoretical Foundation**: The Taylor series represents one of mathematics' most powerful ideas: any sufficiently smooth curve can be approximated locally by polynomials (Eves 40-45). The Mean Value Theorem guarantees that the error in truncating a Taylor series after $n$ terms can be bounded and estimated (Spiegel 263-266). This connection between derivatives and polynomial approximations enables both theoretical analysis and practical computation (Widder 126-130).
+The Taylor series represents one of mathematics' most powerful ideas: any sufficiently smooth curve can be approximated locally by polynomials (Eves 40-45). The Mean Value Theorem guarantees that the error in truncating a Taylor series after $n$ terms can be bounded and estimated (Spiegel 263-266). This connection between derivatives and polynomial approximations enables both theoretical analysis and practical computation (Widder 126-130).
 
 Taylor series converge to the original function within a specific radius of convergence, but can diverge outside this region or at certain pathological points (Erdős et al. 262-266). The coefficients' behavior determines convergence properties: bounded coefficients ensure convergence within the unit circle (Duffin and Schaeffer 141-145). The deep connection between Taylor series and Laplace transforms provides powerful tools for solving differential equations (Euler 305-307). Integration methods like Romberg integration leverage Taylor series to achieve high-precision numerical results (Rozema 284-288).
 
 #### Applications:
 
 **Estimated Time Arrival (GPS Navigation)**: When your GPS estimates your arrival time, it uses your current speed and recent acceleration to project your arrival time (Banner 560-565). You're approximating future behavior from what's happening right now—that's the exact same idea behind a Taylor series.
-
-**Mathematical Example - GPS ETA Calculation**:
 
 Suppose you're driving on a highway toward a destination 50 miles away. Your GPS doesn't just divide distance by current speed—it uses a Taylor series approximation of your position over time.
 
@@ -700,7 +698,7 @@ $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} 
 
 where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain representation (Berry 227-230). The inverse transform reconstructs the original signal: $f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} \,d\omega$ (Berry 230-232). This bidirectional relationship—the Fourier Transform Identity Theorem—guarantees that information is perfectly preserved in both representations (Berry 227).
 
-**Mathematical Foundations**: The Fourier Transform satisfies remarkable inequalities that constrain how "spread out" a function can be simultaneously in time and frequency domains (Beckner 159-165). These uncertainty principles, formalized through weighted norm inequalities, have profound implications from quantum mechanics to signal processing (Beckner 175-180; Muckenhoupt 729-735). Mean convergence theorems ensure that Fourier representations converge to the original function under broad conditions (McShane 205-208). The transform extends beyond real and complex numbers to quaternions and higher algebraic structures, enabling analysis of multidimensional rotations and color image processing (Gao 9851-9860).
+The Fourier Transform satisfies remarkable inequalities that constrain how "spread out" a function can be simultaneously in time and frequency domains (Beckner 159-165). These uncertainty principles, formalized through weighted norm inequalities, have profound implications from quantum mechanics to signal processing (Beckner 175-180; Muckenhoupt 729-735). Mean convergence theorems ensure that Fourier representations converge to the original function under broad conditions (McShane 205-208). The transform extends beyond real and complex numbers to quaternions and higher algebraic structures, enabling analysis of multidimensional rotations and color image processing (Gao 9851-9860).
 
 #### Applications:
 
@@ -752,10 +750,9 @@ where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain r
 
 ### Euclidean Geometry
 
-Euclidean geometry is the study of flat surfaces, points, lines, angles, and shapes, based on the axioms and postulates of the ancient Greek mathematician Euclid (Meserve 372). Often called plane geometry, it describes the flat, two-dimensional world and 3D space, where parallel lines never meet and the interior angles of a triangle total $180^\circ$ (Mader 43).
+Euclidean geometry is the study of flat surfaces, points, lines, angles, and shapes. It is based on the axioms and postulates established by the ancient Greek mathematician Euclid. His notable work, *The Elements*[^2], systematically organized geometric concepts into a cohesive framework using five postulates and fundamental definitions (Meserve 372-374). Commonly referred to as plane geometry, this branch illustrates the two-dimensional realm and also includes aspects of three-dimensional space. In Euclidean geometry, parallel lines never meet, and the sum of the interior angles in a triangle equals $180^\circ$ (Mader 43).
 
 **Key aspects include**:
-- *Foundation*: Established in Euclid's work The Elements, which organized geometric principles into a logical system built from five postulates and basic definitions (Meserve 373-374).
 - *The Five Postulates*: Euclidean geometry is based on five core assumptions, including that a straight line can be drawn between any two points, and the "parallel postulate," which dictates how parallel lines behave (Menger 721-722).
 - *Properties*: The shortest distance between two points is a straight line, and all right angles ($90^\circ$) are congruent (Green 343).
 - *Applications*: It is used to analyze 2D figures (planes) and 3D objects (solid geometry) (Posamentier et al. 221)
@@ -763,12 +760,6 @@ Euclidean geometry is the study of flat surfaces, points, lines, angles, and sha
 **Philosophical Status**: For centuries, philosophers debated whether Euclidean geometry was a discovered truth about physical reality or a human construction. Kant argued that Euclidean geometry was synthetic a priori knowledge—built into the structure of human perception itself (Jones 137-138; French 213). The later development of non-Euclidean geometries challenged this view, demonstrating that alternative geometric systems could be logically consistent, suggesting geometry might be a choice rather than a necessity (Jones 140-142). This philosophical shift—from viewing Euclidean geometry as "the" geometry to recognizing it as "a" geometry—represents one of mathematics' most profound conceptual revolutions (Daus 12-13).
 
 **The Educational Dilemma**: Mathematics educators face a persistent challenge: how to teach Euclidean geometry in a way that maintains its logical rigor while remaining accessible (Allendoerfer 165-167). The axiomatic approach, while mathematically elegant, often alienates students who can demonstrate geometric competence through construction, measurement, and spatial reasoning (Allendoerfer 168-169). This pedagogical tension mirrors the document's central theme—students may possess geometric understanding that formal axioms fail to capture or validate.
-
-
-Euclid's Elements is a foundational 13-book mathematical treatise, written around 300 BCE in Alexandria, which structured plane/solid geometry, number theory, and proportion through a logical framework of definitions, postulates, and proofs. It is the oldest, most influential deductive textbook in history, establishing the use of straight-edge and compass constructions
-
-
-
 
 #### Applications:
 
@@ -2719,3 +2710,5 @@ Wheeler, Nicholas. "Geodesics on Surfaces: Paraboloid & Hexenhut." Reed College 
 Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https://prod-ms-be.lib.mcmaster.ca/server/api/core/bitstreams/5004a6a1-22f3-4e67-b94d-5567959e4d50/content>. Accessed 18 Apr. 2026.
 
 [^1]: Beyond basic forms, the Laplace transform has been computed for remarkably complex functions including Bessel functions $J_n(t)$ (Spiegel 329-330), error functions (Opatowski 392), and the psi (digamma) function (Dixit 593-600). These specialized results connect the Laplace transform to deep areas of mathematical analysis including the gamma function and Euler's constant (Pribitkin 241-245). Generalizations extend the classical Laplace transform to time scales and conformable derivatives, broadening its applicability to discrete-continuous hybrid systems (Thange et al. 1699-1705).
+
+[^2]: Euclid's Elements is a foundational 13-book mathematical treatise, written around 300 BCE in Alexandria, which structured plane/solid geometry, number theory, and proportion through a logical framework of definitions, postulates, and proofs. It is the oldest, most influential deductive textbook in history, establishing the use of straight-edge and compass constructions
