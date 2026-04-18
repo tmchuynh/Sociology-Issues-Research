@@ -1703,7 +1703,30 @@ Measure theory is a branch of mathematical analysis that generalizes intuitive c
 
 ### Cardinality of the Continuum
 
-The "size" of the set of all real numbers is a strictly larger infinity than the infinity of counting numbers
+The cardinality of the continuum represents the "size" of the set of all real numbers ($\mathbb{R}$). It is a foundational concept in set theory that describes an infinity strictly larger than the "countable" infinity of whole numbers and is denoted by the symbol $\mathfrak{c}$ or $|\mathbb{R}|$. The core insight, famously proven by Georg Cantor, is that this infinity is "larger" than the infinity of the natural numbers ($\mathbb{N}$). 
+
+**Cantor’s Diagonal Argument**
+
+Before Cantor, it was assumed all infinite sets were the same size. He proved otherwise by showing that you cannot create a one-to-one correspondence (a perfect pairing) between the counting numbers ($1, 2, 3...$) and the real numbers.
+
+-  The Result: Even if you had an infinite list of real numbers, you could always construct a new real number that isn't on that list.
+-  The Conclusion: The real numbers are uncountable. 
+
+
+**How Big is $\mathfrak{c}$?**
+
+Mathematically, the cardinality of the continuum is equal to $2^{\aleph_0}$ (2 raised to the power of "aleph-null"). 
+
+-  $\aleph_0$ (Aleph-null): The size of the natural numbers (integers, fractions).
+-  $2^{\aleph_0}$: The size of the power set of the natural numbers.
+-  Interestingly, the number of points on a 1-inch line segment is the exact same as the number of points in the entire universe or a 3D cube. In higher dimensions, the cardinality remains $\mathfrak{c}$. 
+
+
+**The Continuum Hypothesis (CH)**
+
+This is one of the most famous problems in mathematical history. It asks: Is there any infinity between the size of the integers ($\aleph_0$) and the size of the real numbers ($\mathfrak{c}$)? 
+
+**The Answer**: In 1963, Paul Cohen proved that this is "undecidable" using standard set theory (ZFC)[^14]. You can choose to believe there is an intermediate size, or choose to believe there isn't, and the math remains consistent either way. 
 
 #### Applications:
 
@@ -2912,3 +2935,22 @@ Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https:
     - Independent Events: The formula works best when choices are independent, meaning the selection in one step does not affect the number of options in another.
     - Formula: Total Outcomes = $M_1 \times M_2 \times M_3 \times \dots \times M_n$.
     - Application: Used extensively in probability and combinatorics to determine total outcomes, such as combinations of food, outfits, or password possibilities
+
+[^14]: Zermelo-Fraenkel set theory with the Axiom of Choice (ZFC) is the standard foundational system for modern mathematics, designed to avoid paradoxes (like Russell's) by defining sets through axioms. It defines sets via a single membership relation ($\in$), building structures from the empty set to define complex math objects. 
+
+    **Core Axioms of ZFC**: 
+    - Extensionality: Two sets are equal if they have the same elements. 
+    - Empty Set: There exists a set $\emptyset$ containing no elements. 
+    - Pairing: For any sets $x, y$, there exists a set $\{x, y\}$. 
+    - Union: For any set of sets, there exists a set containing all elements of those sets. 
+    - Power Set: For any set $x$, there exists a set $\mathcal{P}(x)$ containing all subsets of $x$. 
+    - Infinity: There exists an infinite set, used to construct natural numbers. 
+    - Replacement: The image of a set under a definable function is also a set. 
+    - Separation (Subset): A subset of an existing set can be formed from a property $P(x)$. 
+    - Foundation (Regularity): Every non-empty set has an $\in$-minimal element, prohibiting sets containing themselves and ruling out infinite descending membership chains. 
+    - Choice (AC): A "choice function" exists for any family of non-empty sets. 
+    
+    **Key Aspects**: 
+    - Paradox Prevention: Replaces unrestricted comprehension with specific axioms like Separation and Replacement. 
+    - Foundation of Mathematics: Almost all mathematical objects (numbers, functions, topological spaces) are encoded as sets within ZFC. 
+    - Independence: Foundational results, such as the independence of the continuum hypothesis, are studied within this framework. 
