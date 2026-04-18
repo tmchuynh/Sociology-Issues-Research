@@ -537,9 +537,27 @@ Page 1 receives 38.7% of the "importance," making it the top search result. Page
 
 **Facial Recognition (Eigenfaces)**: Computers see faces not as people, but as huge grids of numbers (pixels).
 
-- *The Transformation*: An algorithm analyzing a database of thousands of faces.
-- *Eigenvectors*: These are called "Eigenfaces"—ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). "Eigenfaces" are the fundamental patterns that all faces can be decomposed into. The technology on your phone that unlocks when it sees your face is built on eigenvectors.
-- *Eigenvalues*: The importance of each feature. A high eigenvalue means that specific "feature" (like eye spacing) is very useful for telling two people apart
+*The Transformation*: An algorithm analyzing a database of thousands of faces computes the covariance matrix of pixel values across all images.
+
+*Eigenvectors*: These are called "Eigenfaces"—ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). Each face can be expressed as a weighted sum of these eigenvectors (Baik et al. 1650-1660). "Eigenfaces" are the fundamental patterns that all faces can be decomposed into. The technology on your phone that unlocks when it sees your face is built on eigenvectors.
+
+*Eigenvalues*: The importance of each feature. A high eigenvalue means that specific "feature" (like eye spacing) varies significantly across faces and is useful for telling two people apart. Low-eigenvalue components represent noise and can be discarded (Baik et al. 1660-1670).
+
+**Geographic Networks**: Transportation networks, river systems, and migration patterns can be analyzed using eigenvector centrality, identifying the most "central" or influential locations based on connectivity (Straffin 269-272). The dominant eigenvector of an adjacency matrix reveals which cities or nodes are most important to the network's structure (Straffin 272-276).
+
+**Social Influence Networks**: In social networks, eigenvector centrality measures influence: you're important if you're connected to important people (Jia et al. 367-375). The dynamics of opinion formation, power distribution, and consensus-building can be modeled as eigenvalue problems, with convergence to steady states determined by the dominant eigenvector (Jia et al. 375-390). Twitter's suggestion algorithm, LinkedIn's "People You May Know," and academic citation rankings all use eigenvector centrality variants (Jia et al. 390-395).
+
+**Evolutionary Biology**: Phylogenetic inertia—the tendency of species to retain ancestral traits—can be quantified using eigenvector methods that decompose evolutionary correlation structures (Diniz-Filho et al. 1247-1255). Eigenvector analysis reveals which traits evolved together and identifies evolutionary constraints (Diniz-Filho et al. 1255-1262).
+
+**Structural Engineering**: Buildings and bridges have natural vibration modes (eigenvectors) and resonant frequencies (eigenvalues). Engineers design structures to ensure earthquake frequencies don't match resonant frequencies, which would cause catastrophic resonance (Tisseur and Meerbergen 260-270). The Tacoma Narrows Bridge collapse (1940) resulted from wind exciting a torsional eigenmode.
+
+**Quantum Mechanics**: The Schrödinger equation $H\psi = E\psi$ is an eigenvalue problem where $H$ is the Hamiltonian operator, $\psi$ are energy eigenstates (wavefunctions), and $E$ are energy eigenvalues (Chu 30-35). Every quantum system—atoms, molecules, semiconductors—is fundamentally described by eigenvalues and eigenfunctions.
+
+Musicians intuitively understand that instruments have "sweet spots" where certain notes resonate—they're finding physical eigenmodes without solving differential equations (Tisseur and Meerbergen 270-275). Social media users who cultivate connections to "influencers" are implicitly maximizing their eigenvector centrality (Jia et al. 380-385). 
+
+When you search Google and trust that the top result is probably most relevant, you're relying on eigenvector mathematics you've never seen (Bryan and Leise 580-581). The formalism $Av = \lambda v$ and characteristic polynomials $\det(A - \lambda I) = 0$ provide precision, but the conceptual competence—recognizing special directions, resonant patterns, influential positions, and dominant modes—operates continuously in perception, music, social navigation, and spatial reasoning (Schonefeld 318-319). 
+
+While computing eigenvectors requires linear algebra sophistication, *recognizing* eigenvector structure is something people do naturally when identifying the "main" pattern, the "most important" person, or the "resonant" frequency—mathematical competence hiding in plain sight (Chu 35-39).
 
 ---
 
