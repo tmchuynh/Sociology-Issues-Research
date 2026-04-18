@@ -1049,9 +1049,7 @@ In simple terms: A "group" in abstract algebra is a set of actions you can perfo
 
 ### Representation Theory
 
-Representation theory is the study of how abstract mathematical objects—such as groups, symmetries, and algebraic structures—can be expressed as concrete operations, often through matrices or transformations. This approach helps to visualize and work with these concepts more easily. It’s like translating a complicated idea into a more familiar language, such as pictures, actions, or numbers, enabling better understanding and manipulation.
-
-As a branch of mathematics, representation theory simplifies the study of abstract algebraic structures like groups, Lie algebras[^9], and associative algebras by representing their elements as linear transformations (i.e., matrices) that act on vector spaces. This effectively reduces complex, often nonlinear symmetry problems to more manageable linear algebra problems. In essence, representation theory makes abstract objects more concrete by describing their elements using matrices and performing operations through matrix addition and multiplication. This transformation allows mathematicians to convert complex issues in abstract algebra into problems that are easier to understand in linear algebra.
+Representation theory studies how abstract mathematical structures—like groups and symmetries—can be expressed as concrete operations, often through matrices or transformations. This translation makes complex ideas easier to visualize and manipulate. As a branch of mathematics, representation theory simplifies the study of abstract algebraic structures like groups, Lie algebras[^9], and associative algebras by representing their elements as linear transformations (i.e., matrices) that act on vector spaces. This effectively reduces complex, often nonlinear symmetry problems to more manageable linear algebra problems. In essence, representation theory makes abstract objects more concrete by describing their elements using matrices and performing operations through matrix addition and multiplication. This transformation allows mathematicians to convert complex issues in abstract algebra into problems that are easier to understand in linear algebra.
 
 - *Representations*: A representation of an algebraic object (like a group $G$) on a vector space $V$ is a map that associates each element of the group with an invertible matrix (or linear operator) in a way that preserves the group's structure.
 - *Irreducible Representations*: These are the "building blocks" of the theory. A representation is irreducible if it has no smaller "sub-representations" (subspaces that stay within themselves when acted upon by the group).
@@ -1315,9 +1313,7 @@ They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient math
 
 ### Bayesian Inference
 
-This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head.
-
-Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available. Unlike traditional (frequentist) statistics, which treats probability as the long-run frequency of repeatable events, the Bayesian approach treats it as a "degree of belief" in a specific outcome or parameter. 
+This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head. Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available. Unlike traditional (frequentist) statistics, which treats probability as the long-run frequency of repeatable events, the Bayesian approach treats it as a "degree of belief" in a specific outcome or parameter. 
 
 **The Core Logic: Bayes' Theorem**
 At the heart of this method is Bayes' Theorem, which provides a formal mathematical bridge to update your initial views with new data. The relationship is often summarized as:
@@ -1531,9 +1527,7 @@ Everyone engages in stochastic reasoning constantly. When you decide whether to 
 
 ### Markov Chains (The "Memoryless" Process)
 
-A Markov chain represents a mathematical model that encapsulates the dynamics of sequences of random events. In this framework, the probability of each event is solely determined by the state of the preceding event. This essential characteristic, referred to as the Markov property or memorylessness, emphasizes that future outcomes are independent of past events, provided the present state is known. In essence, the subsequent developments in a Markov chain are contingent exclusively on the current situation rather than the trajectory that has led to that state. This remarkable memoryless attribute facilitates transitions between states based on fixed probabilities.
-
-Markov chains serve as valuable tools for elucidating systems that evolve incrementally, with each progression grounded in the prevailing context. They provide a mathematical foundation for numerous predictions, simulations, and algorithms employed across a variety of fields, including science, engineering, and everyday applications. By harnessing the potential of Markov chains, one can foster innovation and attain a deeper understanding in diverse domains.
+A Markov chain is a mathematical model that describes how sequences of random events change. In this model, the chance of each event depends only on the previous event. This key feature, called the Markov property or memorylessness, means that future outcomes depend only on the current situation, not on what happened before. In short, what comes next is only based on the present state, not the path that got us here. This unique memoryless quality allows movement between states based on set probabilities. Markov chains are useful for understanding systems that change step by step, with each step based on the current situation. They provide a basis for many predictions, simulations, and algorithms used in various fields like science, engineering, and daily life. By using Markov chains, people can spark innovation and gain a deeper understanding in many areas.
 
 **Core Concepts**
 -  State Space ($\Omega$): The set of all possible "states" or conditions the system can be in. These can be discrete (like "sunny" vs. "rainy") or continuous.
@@ -1591,9 +1585,7 @@ The best way to visualize a manifold is to think of an ant crawling on a giant s
 
 ### Ergodicity
 
-Ergodicity is a mathematical property that states the time average of a system—essentially, the average behavior of a single point over an extended period—is equal to its ensemble average, which represents the average behavior of all possible states at a single moment. This means that an ergodic system is "well-mixed," indicating that it cannot be separated into smaller, independent parts.
-
-In simpler terms, an ergodic system eventually explores every possible state it can reach, spending a duration of time in each region proportional to the size of that region. Therefore, when we compare the average behavior over time to the average behavior across all possibilities at a single moment, they will be the same in an ergodic system.
+Ergodicity is a mathematical property that states the time average of a system—essentially, the average behavior of a single point over an extended period—is equal to its ensemble average, which represents the average behavior of all possible states at a single moment. This means that an ergodic system is "well-mixed," indicating that it cannot be separated into smaller, independent parts. In simpler terms, an ergodic system eventually explores every possible state it can reach, spending a duration of time in each region proportional to the size of that region. Therefore, when we compare the average behavior over time to the average behavior across all possibilities at a single moment, they will be the same in an ergodic system.
 
 Ergodicity is defined by the equality of two different ways of looking at data: 
 - Time Average: Observing a single individual or system over a very long period.
@@ -1766,9 +1758,7 @@ Approximation theory is about finding the best way to use simple, practical tool
 
 ### Ring Theory
 
-Ring theory is a branch of abstract algebra that studies rings—algebraic structures characterized by two operations: addition and multiplication. These operations interact through distribution. Ring theory investigates various sets where addition and multiplication can occur, even in cases where division may not always be possible. This area of mathematics serves as a foundation for many modern mathematical disciplines, including number theory, algebraic geometry, and cryptography. 
-
-You can think of a ring as a mathematical playground where addition and multiplication coexist, working together in a predictable way.
+Ring theory is a branch of abstract algebra that studies rings—algebraic structures characterized by two operations: addition and multiplication. These operations interact through distribution. Ring theory investigates various sets where addition and multiplication can occur, even in cases where division may not always be possible. This area of mathematics serves as a foundation for many modern mathematical disciplines, including number theory, algebraic geometry, and cryptography. You can think of a ring as a mathematical playground where addition and multiplication coexist, working together in a predictable way.
 
 - **Integers**: The prototypical example of a commutative ring. You can add, subtract, and multiply any two integers, and the results are always integers. But division doesn't always give an integer (3 ÷ 2 = 1.5, not an integer), so integers form a ring, not a field.
 - **Polynomials**: Polynomials with coefficients in a ring. The set of all polynomials with real coefficients forms a ring-you can add, subtract, and multiply polynomials, and the result is always another polynomial.
@@ -1812,9 +1802,7 @@ Iwasawa theory is a branch of algebraic number theory that studies arithmetic ob
 
 ### Module Theory
 
-Module theory is an extension of linear algebra. It is often called “linear algebra for more complex scalars.” In regular linear algebra, we mainly work with vector spaces that come from fields—sets with rules for addition and multiplication where non-zero elements have inverses. Module theory expands this idea by studying modules, which allow for scaling elements using rings instead of just fields.
-
-In simple terms, a module over a ring is like a general version of a vector space. In a vector space, we use elements from a field, like real or complex numbers, to scale vectors. Modules let us use scalars from a wider range, including integers, polynomials, and matrices. This flexibility helps us explore various mathematical phenomena.
+Module theory is an extension of linear algebra. It is often called “linear algebra for more complex scalars.” In regular linear algebra, we mainly work with vector spaces that come from fields—sets with rules for addition and multiplication where non-zero elements have inverses. Module theory expands this idea by studying modules, which allow for scaling elements using rings instead of just fields. In simple terms, a module over a ring is like a general version of a vector space. In a vector space, we use elements from a field, like real or complex numbers, to scale vectors. Modules let us use scalars from a wider range, including integers, polynomials, and matrices. This flexibility helps us explore various mathematical phenomena.
 
 By allowing the use of scalars that don’t always have inverses, as required in field-based vector spaces, module theory opens the door to many new behaviors and properties. For example, in some modules over rings, not every non-zero element has an inverse. This leads to important concepts like free modules, projective modules, and injective modules, which are relevant in both theoretical and applied mathematics. Overall, module theory is a strong and useful tool in modern algebra. It offers important insights into areas like representation theory, homological algebra, and algebraic geometry. It helps mathematicians tackle more complex problems than those typically found in standard linear algebra, making it a crucial topic for advanced studies in mathematics.
 
@@ -2123,11 +2111,7 @@ Here is the combinatorial breakdown for these password requirements, assuming a 
 
 ### Set Theory (The Logic of Categories)
 
-Set theory is the fundamental branch of mathematics that studies well-defined collections of distinct objects, known as elements, which form the basis for constructing most mathematical structures. Pioneered by Georg Cantor in the 1870s, it formalizes concepts like cardinality, infinity, union, and intersection, acting as the foundational language for modern mathematics
-
-Set theory is about grouping things together and analyzing their relationships. It's everywhere in daily life-organizing lists, sorting objects, making choices-and is a foundation for all higher mathematics.
-
-To avoid paradoxes, modern mathematics often uses *Zermelo-Fraenkel set theory with the Axiom of Choice (ZFC)*, which provides a rigorous, axiomatic basis for constructing mathematical objects
+Set theory is a fundamental branch of mathematics that studies collections of distinct objects, known as elements. Pioneered by Georg Cantor in the 1870s, it formalizes concepts like cardinality, infinity, union, and intersection, serving as the foundational language for modern mathematics. Set theory helps us group objects and analyze their relationships, playing a crucial role in daily life, such as organizing lists and making choices. To avoid paradoxes, modern mathematics often uses Zermelo-Fraenkel set theory with the Axiom of Choice (ZFC) as its rigorous, axiomatic framework.
 
 #### Applications:
 
@@ -2177,11 +2161,7 @@ Common Values and Limits (Klop):
 
 ### Dirichlet's Box Principle (The Pigeonhole Principle)
 
-This is one of the simplest yet most powerful ideas in mathematics. If you have more items than containers, at least one container must hold more than one item. Formally: if $n$ items are placed into $m$ containers, and $n > m$, then at least one container must contain more than one item.
-
-Also known as Dirichlet's box principle or Dirichlet's drawer principle, named after German mathematician Peter Gustav Lejeune Dirichlet (1805-1859)
-
-Despite its simplicity, the pigeonhole principle is a fundamental tool in combinatorics and is closely related to Ramsey Theory—both guarantee that certain patterns must appear when a structure is large enough
+This is one of the simplest yet most powerful ideas in mathematics. If you have more items than containers, at least one container must hold more than one item. Formally: if $n$ items are placed into $m$ containers, and $n > m$, then at least one container must contain more than one item. Also known as Dirichlet's box principle or Dirichlet's drawer principle, named after German mathematician Peter Gustav Lejeune Dirichlet (1805-1859). Despite its simplicity, the pigeonhole principle is a fundamental tool in combinatorics and is closely related to Ramsey Theory—both guarantee that certain patterns must appear when a structure is large enough
 
 **The Basic Principle**: If you try to put 11 pigeons into 10 pigeonholes, at least one pigeonhole must contain at least 2 pigeons. More generally, if you have $n$ pigeons and $m$ holes where $n > m$, at least one hole must contain at least $\lceil \frac{n}{m} \rceil$ pigeons (the ceiling function rounds up to the nearest integer).
 
