@@ -1051,7 +1051,7 @@ In simple terms: A "group" in abstract algebra is a set of actions you can perfo
 
 Representation theory is the study of how abstract mathematical objects—such as groups, symmetries, and algebraic structures—can be expressed as concrete operations, often through matrices or transformations. This approach helps to visualize and work with these concepts more easily. It’s like translating a complicated idea into a more familiar language, such as pictures, actions, or numbers, enabling better understanding and manipulation.
 
-As a branch of mathematics, representation theory simplifies the study of abstract algebraic structures like groups, Lie algebras, and associative algebras by representing their elements as linear transformations (i.e., matrices) that act on vector spaces. This effectively reduces complex, often nonlinear symmetry problems to more manageable linear algebra problems. In essence, representation theory makes abstract objects more concrete by describing their elements using matrices and performing operations through matrix addition and multiplication. This transformation allows mathematicians to convert complex issues in abstract algebra into problems that are easier to understand in linear algebra.
+As a branch of mathematics, representation theory simplifies the study of abstract algebraic structures like groups, Lie algebras[^9], and associative algebras by representing their elements as linear transformations (i.e., matrices) that act on vector spaces. This effectively reduces complex, often nonlinear symmetry problems to more manageable linear algebra problems. In essence, representation theory makes abstract objects more concrete by describing their elements using matrices and performing operations through matrix addition and multiplication. This transformation allows mathematicians to convert complex issues in abstract algebra into problems that are easier to understand in linear algebra.
 
 - *Representations*: A representation of an algebraic object (like a group $G$) on a vector space $V$ is a map that associates each element of the group with an invertible matrix (or linear operator) in a way that preserves the group's structure.
 - *Irreducible Representations*: These are the "building blocks" of the theory. A representation is irreducible if it has no smaller "sub-representations" (subspaces that stay within themselves when acted upon by the group).
@@ -2782,3 +2782,34 @@ Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https:
       | Use Case | Educational/Theory | World Record Robots |
       
       **Pedagogical Value:** Milewski and Frohardt emphasize that using the Rubik's Cube to teach group theory makes abstract algebra concrete and accessible, demonstrating that "students can see and feel the algebraic structure" (397). The cube transforms symbols like $G_i$ and cosets from intimidating jargon into tangible manipulation.
+
+[^9]: Lie algebras are mathematical structures used to study continuous symmetries, often acting as the "linearized" or "infinitesimal" version of a Lie group. They allow complex problems in geometry and physics to be translated into simpler linear algebra. Lie theory is fundamental to modern particle physics (where fundamental particles are seen as representations of Lie groups like $SU(3)$ or $SU(2)$ and the study of differential equations. 
+
+    **Definition and Core Axioms**:
+
+    A Lie algebra is a vector space $\mathfrak{g}$ over a field $F$ equipped with a binary operation $[ \cdot, \cdot ]$ called the Lie bracket. It must satisfy three primary rules: 
+    - Bilinearity: $[ax + by, z] = a[x, z] + b[y, z]$ and $[z, ax + by] = a[z, x] + b[y, z]$.
+    - Alternating Property: $[x, x] = 0$ for all $x \in \mathfrak{g}$ (this implies anticommutativity: $[x, y] = -[y, x]$).
+    - Jacobi Identity: $[x, [y, z]] + [y, [z, x]] + [z, [x, y]] = 0$. 
+    
+    **The Lie Group Connection**:
+
+    For every Lie group (a group that is also a smooth manifold), there is a corresponding Lie algebra, defined as the tangent space at the identity. 
+    - Infinitesimal Motion: The Lie algebra represents "tiny" motions near the identity of the group.
+    - Exponential Map: You can "recover" the group from the algebra (at least locally) using the exponential map, $e^X$.
+    - Simplified Analysis: Because Lie algebras are vector spaces, it is often easier to classify and study them than the groups themselves.
+    
+    **Examples of Lie Algebras**
+    - Matrix Commutator: Any associative algebra of $n \times n$ matrices becomes a Lie algebra if you define the bracket as $[A, B] = AB - BA$.
+    - General Linear ($\mathfrak{gl}_n$): All $n \times n$ matrices.
+    - Special Linear ($\mathfrak{sl}_n$): Matrices with trace zero, corresponding to volume-preserving transformations.
+    - Special Orthogonal ($\mathfrak{so}_n$): Skew-symmetric matrices ($M^T = -M$), representing rotations.
+    - Vector Fields: The space of smooth vector fields on a manifold forms an infinite-dimensional Lie algebra under the Lie derivative bracket.
+    
+    **Key Classifications**:
+
+    Lie algebras are categorized by their internal structure:
+    - Abelian: All brackets are zero ($[x, y] = 0$).
+    - Simple: Non-abelian and has no non-trivial ideals (subspaces $I$ where $[\mathfrak{g}, I] \subseteq I$).
+    - Semisimple: A direct sum of simple Lie algebras; these are fully classified by Dynkin diagrams and root systems.
+    
