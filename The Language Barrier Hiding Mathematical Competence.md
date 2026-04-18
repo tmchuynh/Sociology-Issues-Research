@@ -1386,7 +1386,7 @@ Graph theory is the mathematics of connections and networks. It is everywhere in
 
 **Project Planning (Workflow)**: Tasks are nodes; dependencies ("do A before B") are edges. This helps schedule or optimize large projects.
 
-- The Graph Structure (Planning a Math Degree):
+The Graph Structure (Planning a Math Degree):
   - **Nodes (Vertices)**: Each course is a node: Calculus I, Linear Algebra, Differential Equations, etc.
   - **Directed Edges**: A directed edge from node $A$ to node $B$ (written $A \to B$) means "A is a prerequisite for B" or "A must be completed before B."
 
@@ -1395,28 +1395,32 @@ Graph theory is the mathematics of connections and networks. It is everywhere in
   - **In-degree**: The number of edges pointing into a node (how many prerequisites a course has). A course with in-degree 0 has no prerequisites and can be taken immediately.
   - **Out-degree**: The number of edges leaving a node (how many courses require this one as a prerequisite). A capstone course might have out-degree 0.
 
-- *Acyclic Property (No Impossible Loops)*: The graph must be acyclic—it cannot contain any cycles. If there were a path Calculus I $\to$ Linear Algebra $\to$ Discrete Math $\to$ Calculus I, it would be mathematically impossible to complete your degree because each course would be waiting on itself. A cycle in a prerequisite graph represents a logical impossibility.
-- *Topological Sorting (Finding a Valid Course Order)*: A topological sort of a DAG is a linear ordering of all vertices such that for every directed edge $u \to v$, vertex $u$ comes before $v$ in the ordering. In plain language: it's a valid order in which you can take all your courses while respecting all prerequisites. There may be multiple valid topological orderings (multiple ways to schedule your degree), but at least one must exist if the graph is a DAG.
-  - **Kahn's Algorithm** (one method for topological sorting):
-    1. Find all nodes with in-degree 0 (courses with no prerequisites)
-    2. Add them to your schedule and "remove" them from the graph
-    3. Update in-degrees for remaining courses (since prerequisites are now completed)
-    4. Repeat until all courses are scheduled
-- Consider a simplified math major with these prerequisites:
+*Acyclic Property (No Impossible Loops)*: The graph must be acyclic—it cannot contain any cycles. If there were a path Calculus I $\to$ Linear Algebra $\to$ Discrete Math $\to$ Calculus I, it would be mathematically impossible to complete your degree because each course would be waiting on itself. A cycle in a prerequisite graph represents a logical impossibility.
+
+*Topological Sorting (Finding a Valid Course Order)*: A topological sort of a DAG is a linear ordering of all vertices such that for every directed edge $u \to v$, vertex $u$ comes before $v$ in the ordering. In plain language: it's a valid order in which you can take all your courses while respecting all prerequisites. There may be multiple valid topological orderings (multiple ways to schedule your degree), but at least one must exist if the graph is a DAG.
+
+*Kahn's Algorithm (one method for topological sorting)*:
+  1. Find all nodes with in-degree 0 (courses with no prerequisites)
+  2. Add them to your schedule and "remove" them from the graph
+  3. Update in-degrees for remaining courses (since prerequisites are now completed)
+  4. Repeat until all courses are scheduled
+
+Consider a simplified math major with these prerequisites:
   - Calculus I (no prereqs) $\to$ Calculus II $\to$ Calculus III
   - Calculus I $\to$ Linear Algebra
   - Calculus II $\to$ Differential Equations
   - Linear Algebra $\to$ Abstract Algebra
   - Calculus III + Linear Algebra $\to$ Real Analysis (requires both)
 
-  *One valid topological ordering*: Calculus I $\to$ Calculus II $\to$ Linear Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Abstract Algebra $\to$ Real Analysis
+*One valid topological ordering*: Calculus I $\to$ Calculus II $\to$ Linear Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Abstract Algebra $\to$ Real Analysis
 
-  *Another valid ordering*: Calculus I $\to$ Linear Algebra $\to$ Calculus II $\to$ Abstract Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Real Analysis
+*Another valid ordering*: Calculus I $\to$ Linear Algebra $\to$ Calculus II $\to$ Abstract Algebra $\to$ Calculus III $\to$ Differential Equations $\to$ Real Analysis
 
-  Both satisfy all prerequisites, demonstrating that multiple valid degree plans can exist.
+Both satisfy all prerequisites, demonstrating that multiple valid degree plans can exist.
 
-- *Critical Path (Longest Path to Graduation)*: The longest path through the graph determines the minimum number of semesters needed to graduate. In the example above, the critical path is Calculus I $\to$ Calculus II $\to$ Calculus III $\to$ Real Analysis (4 semesters minimum, assuming Real Analysis also needs Linear Algebra completed). You can take other courses in parallel, but this path determines your graduation timeline.
-- When your college advisor says "you can't take Real Analysis yet," they're enforcing the edge constraints in the prerequisite graph. When you plan your schedule, you're computing a topological sort. When you ask "what's the fastest I can graduate?" you're finding the critical path. This is pure graph theory in action, whether or not the formal terminology is used.
+*Critical Path (Longest Path to Graduation)*: The longest path through the graph determines the minimum number of semesters needed to graduate. In the example above, the critical path is Calculus I $\to$ Calculus II $\to$ Calculus III $\to$ Real Analysis (4 semesters minimum, assuming Real Analysis also needs Linear Algebra completed). You can take other courses in parallel, but this path determines your graduation timeline.
+
+When your college advisor says "you can't take Real Analysis yet," they're enforcing the edge constraints in the prerequisite graph. When you plan your schedule, you're computing a topological sort. When you ask "what's the fastest I can graduate?" you're finding the critical path. This is pure graph theory in action, whether or not the formal terminology is used.
 
 ---
 
