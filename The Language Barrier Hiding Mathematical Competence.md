@@ -1565,6 +1565,11 @@ The best way to visualize a manifold is to think of an ant crawling on a giant s
 - Dimensions: A 1-manifold looks like a line locally (e.g., a circle), a 2-manifold looks like a plane (e.g., a torus), and so on into higher dimensions.
 - Non-Examples: A figure-eight is not a manifold because the point where the lines cross does not look like a single flat line, no matter how much you zoom in
 
+**Types of Manifolds**
+- Topological Manifold: The most basic type, where "looking like" Euclidean space only means the shapes can be continuously deformed into each other.
+- Differentiable (Smooth) Manifold: A manifold where you can perform calculus. The "gluing" between charts is smooth enough to allow for derivatives and integrals.
+- Riemannian Manifold: A smooth manifold equipped with a way to measure distances and angles (a metric), essential for studying curvature
+
 #### Applications:
 
 **The Earth**: Standing on it, the ground looks flat - but zoom out and it's a sphere. Every point on a manifold has a "locally flat" neighborhood. You've been living on a manifold your entire life
