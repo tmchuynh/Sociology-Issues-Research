@@ -852,14 +852,16 @@ You do this every time you estimate a tip, guess how long a drive will take, or 
 
 ### Genus
 
-Genus is a topological invariant that counts the number of "holes" in a surface—more precisely, the maximum number of non-intersecting simple closed curves that can be drawn on the surface without separating it into disconnected pieces (Munkres 341-343). This concept emerges from topology, the branch of mathematics concerned with properties preserved under continuous deformation—stretching, bending, and twisting, but not tearing or gluing (Armstrong 5-10). The genus provides a complete classification of closed orientable surfaces: every such surface is topologically equivalent to a sphere with $g$ handles attached (Munkres 344-346).
+Genus is a topological invariant that counts the number of "holes" in a surface. More specifically, it measures the maximum number of non-intersecting simple closed curves that can be drawn on the surface without separating it into disconnected pieces (Munkres 341-343). This concept arises from topology, a branch of mathematics focused on properties preserved through continuous deformation—stretching, bending, and twisting—but not tearing or gluing (Armstrong 5-10).
+
+The genus provides a complete classification of closed orientable surfaces, indicating that every such surface is topologically equivalent to a sphere with $g$ handles attached (Munkres 344-346). A remarkable aspect of the genus is that it is a topological invariant—it remains unchanged under continuous deformation (Armstrong 15-18). For example, a coffee mug can be continuously transformed into a donut by gradually morphing the handle into a ring shape, without tearing or creating new holes. Both the mug and the donut have a genus of 1, making them topologically equivalent despite their vastly different everyday functions (Munkres 341).
+
+This counterintuitive equivalence illustrates how topology defines "sameness" differently from Euclidean geometry: in topology, shape and size are irrelevant; instead, fundamental structural properties like connectivity and the number of holes are what matter (Armstrong 10-12).
 
 Mathematically, for a closed orientable surface, the genus $g$ relates to the surface's Euler characteristic $\chi$ through the formula:
 $$\chi = 2 - 2g$$
 
 where the Euler characteristic can be computed for any polyhedron as $\chi = V - E + F$ (vertices minus edges plus faces) (Armstrong 78-82). A sphere has $\chi = 2$, giving $g = 0$. A torus (donut shape) has $\chi = 0$, giving $g = 1$. A double torus (two-holed donut) has $\chi = -2$, giving $g = 2$ (Munkres 346-348).
-
-The remarkable insight is that genus is a topological invariant—it remains unchanged under continuous deformation (Armstrong 15-18). A coffee mug can be continuously deformed into a donut by gradually morphing the handle into the ring shape, never tearing or creating new holes. Both have genus 1, making them topologically equivalent despite their dramatically different everyday functions (Munkres 341). This counterintuitive equivalence reveals how topology sees "sameness" differently than Euclidean geometry: shape and size don't matter, only fundamental structural properties like connectivity and the number of holes (Armstrong 10-12).
 
 Most people intuitively understand topological equivalence without the formalism. You recognize that a bowl is fundamentally different from a mug with a handle precisely because of that one hole—one has genus 0, the other genus 1. You understand that no amount of reshaping will turn one into the other without breaking or gluing. This is topological thinking: recognizing structural invariants that persist through transformation (Weeks 3-8).
 
@@ -1143,9 +1145,15 @@ As a branch of mathematics, representation theory simplifies the study of abstra
 
 ### Galois Theory
 
-Galois Theory tells us when it's possible to write down the solutions to a polynomial using just addition, subtraction, multiplication, division, and roots (like square roots and cube roots). For example, it explains why there's no general formula for solving all quintic (degree 5) equations.
+Galois Theory offers a fascinating insight into the conditions under which the solutions of polynomials can be expressed through fundamental operations such as addition, subtraction, multiplication, division, and taking roots, like square and cube roots. For example, it beautifully elucidates why a general formula for all quintic equations (those of degree five) remains elusive. This remarkable branch of abstract algebra serves as a bridge between field theory and group theory, empowering mathematicians to approach intricate challenges related to fields—particularly the roots of polynomials—by transforming them into more approachable problems linked to groups.
 
-Galois Theory connects algebra (polynomials and equations) with group theory (the mathematics of symmetry). It's a powerful tool for understanding the structure and solvability of equations and for revealing the deep patterns hidden among their solutions. Galois Theory tells us which "fields" (sets of numbers) are related.
+At its core, Galois Theory intertwines the realms of algebra, focusing on polynomials and equations, with the study of symmetry found in group theory. This powerful framework not only enhances our understanding of equation structures and their solvability but also reveals the intricate patterns connecting their solutions. By identifying which "fields" or sets of numbers are interconnected, Galois Theory explores how the roots of a polynomial can be rearranged (or permuted) while preserving the essential algebraic relationships among them.
+
+This theory is named after the brilliant Évariste Galois, a French mathematician who, despite his untimely passing at the tender age of 20, made contributions that were so innovative they took years for the mathematical community to fully recognize. His legacy laid the groundwork for the evolution of modern abstract algebra, inspiring generations to explore the beauty of mathematics.
+
+The Fundamental Theorem of Galois Theory establishes a one-to-one correspondence between: 
+- The subgroups of a Galois group.
+- The intermediate fields of a field extension
 
 **Permutations and Solvability**: Galois Theory proved that certain polynomial equations can't be solved with a simple formula (like the Quadratic Formula) because their "symmetry group" is too complex.
 
