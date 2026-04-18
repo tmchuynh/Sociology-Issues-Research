@@ -906,7 +906,7 @@ Most people intuitively understand topological equivalence without the formalism
 
 **DNA Topology**: DNA's double helix structure creates profound topological challenges. When DNA replicates, the strands must unwind and separate, but because they're twisted around each other hundreds of times in a cell nucleus, this creates severe topological constraints (Bates and Maxwell 1-5). Enzymes called topoisomerases temporarily break DNA strands, allow them to pass through each other, then reseal them—essentially performing topological surgery to change the linking number of the two strands (Bates and Maxwell 15-20). Understanding DNA topology is crucial for comprehending replication, transcription, and how certain antibiotics work (they target bacterial topoisomerases) (Bates and Maxwell 25-30). Biologists studying DNA supercoiling are performing sophisticated topological analysis, often visualizing the process through physical models before translating to mathematical formalism.
 
-**Knot Theory and Surgery**: The genus concept extends naturally to knot theory, where knots are classified by their genus among other invariants (Adams 45-50). The unknot (a simple loop) has genus 0. A trefoil knot has genus 1. Complex knots can have high genus values. Surgeons tying sutures understand knot stability empirically—certain knots won't slip under tension—which reflects topological properties (Adams 1-5). The mathematical field of knot theory emerged partly from Lord Kelvin's failed theory that atoms were knotted vortices in ether, but the mathematics survived the physical theory's collapse (Adams 8-12). Modern applications include DNA knotting during replication and protein folding, where the three-dimensional path a protein takes determines its function (Adams 203-210).
+**Knot Theory and Surgery**: The genus concept extends naturally to [knot theory](#topoisomerases-knot-theory), where knots are classified by their genus among other invariants (Adams 45-50). The unknot (a simple loop) has genus 0. A trefoil knot has genus 1. Complex knots can have high genus values. Surgeons tying sutures understand knot stability empirically—certain knots won't slip under tension—which reflects topological properties (Adams 1-5). The mathematical field of knot theory emerged partly from Lord Kelvin's failed theory that atoms were knotted vortices in ether, but the mathematics survived the physical theory's collapse (Adams 8-12). Modern applications include DNA knotting during replication and protein folding, where the three-dimensional path a protein takes determines its function (Adams 203-210).
 
 **Network and Graph Topology**: In computer networks and graph theory, genus measures how many "handles" must be added to a plane to allow a graph to be drawn without edge crossings (Wilson 187-192). A planar graph (drawable without crossings on a flat surface) has genus 0. A graph requiring a torus has genus 1. The complete graph $K_5$ and the complete bipartite graph $K_{3,3}$ are the smallest non-planar graphs, both having genus 1 (Wilson 193-197). Network engineers designing circuit boards must consider genus: components and connections that can be laid out on a simple board (genus 0) are cheaper and easier to manufacture than those requiring multi-layer boards (topologically equivalent to higher genus) (Wilson 198-202).
 
@@ -1223,13 +1223,18 @@ _The Practical Translation_: Every time you judge a car as having a "smooth ride
 
 ---
 
-### Topoisomerases (Knot Theory)
+### Knot Theory
 
-In topology, a knot is a closed loop in 3D space that cannot be untangled to a simple circle without cutting it. Two knots are considered equivalent (the same knot) if one can be continuously deformed into the other without cutting the string. The simplest knot is the unknot (just a circle). The simplest non-trivial knot is the trefoil (overhand knot). How do you prove two knots are different? You can't just look at them - they might be the same knot twisted differently. You need a mathematical test.
+Knot theory is a branch of topology that studies closed, intertwined loops mathematically. It analyzes how these loops can be deformed, twisted, and classified without cutting or intersecting themselves. The goal is to classify knots based on their topological features rather than physical properties like thickness or tightness, ultimately determining whether two complex, closed curves are equivalent.
+
+In topology, a knot is defined as a closed loop in three-dimensional space, meaning it has no ends, unlike everyday knots. The simplest knot is called the unknot, which is a simple, untangled circle. The first non-trivial knot is the trefoil knot, which resembles an overhand knot. Two knots are considered equivalent (i.e., the same knot) if one can be continuously deformed into the other without cutting the string. 
+
+To prove that two knots are different, merely observing them is insufficient; they could be the same knot arranged differently. Instead, a mathematical test is required. Tools such as polynomials (for example, Jones polynomials) are calculated from knot diagrams to determine if two knots are genuinely different or merely variations of the same knot. There are three fundamental manipulations—twisting, passing one strand over another, and sliding a strand—that can be applied to alter a knot diagram without changing the underlying knot.
+
 
 <figure>
-    <img src="images/Knot_Theory.png" alt="The Rolfsen Knot Table: Knots with 9 crossings">
-    <figcaption>The Rolfsen Knot Table: Knots with 9 crossings Source: <a href="https://people.math.harvard.edu/~opie/Rolfsen.pdf">Harvard University</a>.</figcaption>
+    <img src="images/Knot_Theory.png" alt="Table of knots through eight crossings, and most nine crossing knots.">
+    <figcaption>Table of knots through eight crossings, and most nine crossing knots. Source: <a href="https://graphics.stanford.edu/courses/cs468-02-fall/projects/desanti.pdf">An Introduction to the Theory of Knots by Giovanni De Santi</a>.</figcaption>
 </figure>
 
 **Knot Invariants (Mathematical Fingerprints)**: A knot invariant is a number or polynomial that stays the same no matter how you twist or deform the knot. If two knots have different invariants, they must be different knots.
@@ -1246,6 +1251,8 @@ In topology, a knot is a closed loop in 3D space that cannot be untangled to a s
 #### Applications:
 
 **Headphone Tangles**: It feels like a prank, but "spontaneous knotting" is a mathematical certainty. If a string is long enough and agitated (like in your pocket), it will form a knot. Researchers use Jones Polynomials (a knot theory tool) to study why certain cords tangle more than others.
+
+**Knitting**: Knitting can be analyzed as a series of topological manipulations. A single knit stitch is a local operation of pulling a loop through another loop. Researchers, like those at MIT Math, study how the topology of knitted stitches affects the geometric and mechanical properties, such as stretchiness, of the resulting material. In mathematical terms, knitting is a collection of ribbon knots, which are topological knots that can span a disk with limited self-intersections. Knitting patterns can be understood through concepts like crossing number, primality, and amphichirality, which are all part of the mathematical classification of knots.
 
 **Drug Design (Chemotherapy)**: Many cancer drugs are "Topoisomerase inhibitors" (McVie 1145; Wang 106). Since cancer cells divide rapidly, they need topoisomerases to untangle their DNA constantly. By "breaking" the math of the cell's untangling process, the drug causes the cancer cell's DNA to become a tangled mess, preventing it from replicating. This therapeutic strategy exploits the fact that cancer cells, with their accelerated replication rates, are more vulnerable to topoisomerase disruption than normal cells (McVie 1146).
 
@@ -1352,6 +1359,7 @@ At the heart of this method is Bayes' Theorem, which provides a formal mathemati
 $$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
 
 where
+
 - $P(A|B)$ is the posterior probability, the probability of the hypothesis A given the data B .
 - $P(B|A)$ is the likelihood, the probability of observing the data B given the hypothesis A.
 - $P(A)$ is the prior probability, the initial belief about the hypothesis before seeing the data.
@@ -1371,6 +1379,7 @@ $$\text{Posterior} \propto \text{Likelihood} \times \text{Prior}$$
 </figure>
 
 In the above graphical representation,
+
 - Prior Belief (Green Curve): This represents the initial understanding or assumptions before, seeing any new data. It is based on previous knowledge.
 - Evidence (Brown Curve): This the data we collect from experiments or real-world interactions and this act as the new information we want to incorporate.
 - Posterior Beliefs (Blue Curve): After considering the new evidence, the prior is updated to form posterior distribution which is a redefined belief that more accurately represents the state of knowledge.
@@ -2212,7 +2221,7 @@ Common Values and Limits (Klop):
   <figcaption>A party of 6 always contains a trio of mutual friends, or a trio of mutual strangers. Red edges indicate pairs of friends, blue lines connect strangers. The three green nodes indicate the (only) trio of mutual friends. Source: Klop 4.</figcaption>
 </figure>
 
-- $R(4,3) = R(3,4) = 9$: 
+- $R(4,3) = R(3,4) = 9$:
 
 <figure>
     <img src="images/r3_4.png" alt="Graph illustrating R(4,3) = R(3,4) = 9 with red and blue edges">
