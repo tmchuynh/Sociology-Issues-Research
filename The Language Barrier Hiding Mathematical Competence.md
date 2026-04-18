@@ -561,6 +561,116 @@ While computing eigenvectors requires linear algebra sophistication, *recognizin
 
 ---
 
+### Game Theory
+
+Game theory is a mathematical framework for analyzing strategic interactions between rational decision-makers, where the outcome for each participant depends on the actions of others (Binmore 25-27). It models scenarios involving conflict or cooperation to identify optimal strategies, commonly used in economics, biology, and social sciences to predict behaviors (Resnik 121-125).
+
+Game theory provides a rigorous mathematical framework, often requiring knowledge of calculus and real analysis, particularly for finding "existence proofs" of solutions such as Nash's theorem (Binmore 28-30). The core goal is to determine the best action for a player when the outcome depends on the actions of others (Resnik 125-128). Interestingly, game theory exhibits uncertainty principles analogous to quantum mechanics, where certain strategic information cannot be simultaneously optimized (Székely and Rizzo 688-695).
+
+**Nash Equilibrium**: A situation where no player can benefit by changing strategies while others keep theirs unchanged (Binmore 30-32). Formally, a strategy profile $(s_1^*, s_2^*, \ldots, s_n^*)$ is a Nash equilibrium if for every player $i$ and every alternative strategy $s_i$:
+$$u_i(s_1^*, \ldots, s_i^*, \ldots, s_n^*) \geq u_i(s_1^*, \ldots, s_i, \ldots, s_n^*)$$
+where $u_i$ is player $i$'s utility function. It is foundational for predicting stable outcomes in competitive scenarios (Resnik 135-140).
+
+**Mathematical Techniques**: Range from basic arithmetic for simple models to calculus (derivatives for optimization), linear algebra (eigenvector methods for finding equilibria), and probability for mixed strategies in complex scenarios (Weil 360-363; Binmore 25-34).
+
+**Payoff Matrices**: Used to visualize and calculate the results of simultaneous games (like the Prisoner's Dilemma) for each player based on their choices (Resnik 130-135). Matrix entries represent utilities $u_i(s_1, s_2)$ for each combination of strategies.
+
+**Utility Maximization**: Players assign numerical values (utility) to outcomes, acting to maximize their own expected utility (Binmore 26-28). The expected utility for mixed strategies is computed as $E[u_i] = \sum_{s \in S} p(s) \cdot u_i(s)$ where $p(s)$ is the probability of strategy profile $s$.
+
+**Strategic Interdependence**: Players' outcomes are interconnected; a player must consider the choices of others to achieve their best result (van Benthem et al. 123-126).
+
+**Rationality**: Participants are assumed to make decisions that maximize their own rewards or payoffs, though this assumption can be questioned in real-world applications (Rubinstein 91-100; Stone 220-225).
+
+**Types of Games**:
+  - Classical Game Theory: Focuses on games with continuous strategies and often utilizes calculus (Resnik 140-150).
+  - Combinatorial Game Theory: Deals with games like chess or Go, which are often analyzed using discrete mathematics (van Benthem et al. 127-130).
+
+#### Applications:
+
+**Prisoner's Dilemma**: A classic scenario showing why two completely rational individuals might not cooperate, even if it appears in their best interest to do so (Cunningham 11-15).
+
+Two suspects are arrested and interrogated separately. Each has two strategies: 
+- **Cooperate** (with each other, stay silent) 
+- **Defect** (betray the other). 
+
+The payoff matrix shows years in prison (negative utility), with each entry $(a, b)$ represents (Suspect 1's years, Suspect 2's years):
+
+|  | **Suspect 2: Cooperate** | **Suspect 2: Defect** |
+|---|---|---|
+| **Suspect 1: Cooperate** | (-1, -1) | (-10, 0) |
+| **Suspect 1: Defect** | (0, -10) | (-5, -5) |
+
+From Suspect 1's perspective:
+- If Suspect 2 cooperates: Defecting gives 0 years vs. 1 year → **Defect is better**
+- If Suspect 2 defects: Defecting gives 5 years vs. 10 years → **Defect is better**
+
+Defecting is a **dominant strategy**—it's optimal regardless of the opponent's choice (Cunningham 15-18).
+
+By symmetry, Suspect 2 has the same reasoning. Both rationally choose to defect, yielding outcome **(-5, -5)**.
+
+*Nash Equilibrium*: (Defect, Defect) is the unique Nash equilibrium (Cunningham 18-20). At this point:
+$$u_1(\text{Defect}, \text{Defect}) = -5 \geq u_1(\text{Cooperate}, \text{Defect}) = -10$$
+$$u_2(\text{Defect}, \text{Defect}) = -5 \geq u_2(\text{Defect}, \text{Cooperate}) = -10$$
+
+Neither player can unilaterally improve by switching strategies.
+
+Mutual cooperation **(-1, -1)** would be better for both than mutual defection **(-5, -5)**, but rational self-interest prevents this outcome (Cunningham 20-24). This illustrates how individual rationality can lead to collective irrationality—a fundamental insight with implications for environmental policy, arms races, and public goods provision (Rubinstein 100-110).
+
+When the game repeats indefinitely, cooperation can emerge through strategies like "Tit-for-Tat" (start cooperating, then mirror opponent's previous move). The folk theorem shows that with sufficient patience (low discount rate), nearly any outcome between full defection and full cooperation can be sustained as an equilibrium (Resnik 155-165).
+
+**Economic Competition**: Firms set prices to maximize profits while anticipating competitor responses (Binmore 32-34). Bertrand competition models predict that firms will undercut each other to marginal cost, even though collusion would be more profitable—another prisoner's dilemma (Resnik 145-150).
+
+**Computer Science**: Used to optimize network operations, design algorithms, and enhance artificial intelligence systems (van Benthem et al. 130-132). Mechanism design uses game theory to create systems where self-interested behavior leads to desired outcomes.
+
+**Auctions and Voting**: Used for analyzing voter behavior, coalition formation, and international conflict negotiations (Stone 225-235). The revelation principle shows that any social choice outcome achievable with strategic behavior can also be achieved with truthful reporting under an appropriately designed mechanism (Resnik 165-170).
+
+**Four-Way Stop Dilemma**: Ever been at a four-way stop where everyone is waiting for someone else to move? You're stuck in a "stable" state where no one gains anything by changing their strategy alone. That's high-level economics and math in a suburban intersection—a Nash equilibrium with multiple possible outcomes (Binmore 30-32).
+
+**Helping a Coworker**: You use this logic every time you decide whether to help a coworker with a project—you're weighing your effort (cost) against the shared success (reward).
+
+You and a coworker are both working on a project that affects both your reputations. Each can choose: 
+- **Help** (contribute extra effort) 
+- **Slack** (minimal effort). 
+
+Payoffs represent net benefit (recognition minus effort):
+
+|  | **Coworker: Help** | **Coworker: Slack** |
+|---|---|---|
+| **You: Help** | (3, 3) | (-1, 4) |
+| **You: Slack** | (4, -1) | (0, 0) |
+
+Interpretation:
+- **(Help, Help) = (3, 3)**: Both contribute, project succeeds, both get credit minus effort cost
+- **(Help, Slack) = (-1, 4)**: You work hard while they coast; they get credit, you're exhausted
+- **(Slack, Help) = (4, -1)**: You coast while they work; you get credit without effort  
+- **(Slack, Slack) = (0, 0)**: Project mediocre, no one looks good, minimal effort wasted
+
+From your perspective:
+- If coworker helps: Slacking gives 4 vs. 3 → **Slack is better** (+1 gain)
+- If coworker slacks: Slacking gives 0 vs. -1 → **Slack is better** (+1 gain)
+
+Slacking is a dominant strategy for both players.
+
+*Nash Equilibrium*: (Slack, Slack) with payoff **(0, 0)** (Binmore 30-32). Neither can improve unilaterally:
+$$u_{\text{you}}(\text{Slack}, \text{Slack}) = 0 \geq u_{\text{you}}(\text{Help}, \text{Slack}) = -1$$
+
+But mutual helping **(3, 3)** is Pareto superior—better for everyone (Cunningham 24-26). This creates workplace tension: rational self-interest suggests slacking, but everyone is worse off than if they'd cooperated.
+
+Real-World Modifications:
+- **Repeated interaction**: If you work together repeatedly, defecting (slacking) now damages future cooperation. The shadow of the future makes cooperation rational (Resnik 155-160).
+- **Reputation**: In office environments, your choice affects your reputation. The single-shot payoffs don't capture long-term career costs of being known as a slacker (Rubinstein 110-120).
+- **Altruism/Reciprocity**: People often have utility functions that value fairness and reciprocity beyond pure self-interest, changing the effective payoff matrix (Rubinstein 120-130).
+
+Every time you think "I'll help if they help, but I'm not getting taken advantage of," you're computing conditional strategies in an implicit repeated game (van Benthem et al. 126-129).
+
+**Last Slice of Pizza**: There is one slice of pizza left at a party. Everyone wants it, but no one wants to look greedy. If one person "volunteers" to take it, they get the food but a small social cost (being the "greedy" one). If no one takes it, the pizza goes to waste. You are constantly calculating if your hunger is worth the potential social judgment—weighing utilities in a social coordination game (Rubinstein 95-100).
+
+**Yellow Light Game**: You're driving toward a yellow light. If you speed up and the other driver at the cross-street also "goes for it," you crash (worst outcome). If you both stop, you lose a little time but are safe. If one stops and the other goes, the "goer" wins time while the "stopper" loses it. This is a "chicken" game with two Nash equilibria (both pure strategy equilibria where one yields) and often leads to mixed strategy play where each player randomizes (Resnik 140-145).
+
+**Strategic Thinking**: Every time you decide whether to speak up in a meeting based on whether others will, choose a lane in traffic based on what other drivers might do, or hold the door wondering if the person will reciprocate next time, you're performing game-theoretic reasoning (van Benthem et al. 132-134). Parents negotiating bedtime with children, shoppers timing purchases for sales, employees deciding how hard to work when monitoring is imperfect—all demonstrate intuitive understanding of strategic equilibria, dominant strategies, and repeated game dynamics (Rubinstein 130-140). The notation of payoff matrices $u_i(s_1, s_2, \ldots, s_n)$ and Nash equilibrium conditions formalizes thinking that humans already do implicitly in countless social situations. While formal game theory requires mathematical sophistication, strategic competence—anticipating others' responses and optimizing accordingly—operates constantly in daily life, unrecognized as "mathematics" by those who claim to be "bad at math" (Stone 240-244; Rubinstein 140-146).
+
+---
+
 ### Heuristic
 
 A heuristic is a practical "rule of thumb," mental shortcut, or experimental method used to solve problems or make decisions quickly, especially when an optimal solution is impossible or impractical to find. It focuses on efficiency and "good enough" results rather than perfection.
