@@ -320,17 +320,23 @@ Beyond basic forms, the Laplace transform has been computed for remarkably compl
 
 #### Applications:
 
-**Prisoner's Dilemma**: A classic scenario showing why two completely rational individuals might not cooperate, even if it appears in their best interest to do so.
+**Control Engineering**: Crucial for designing and analyzing automatic control systems, such as cruise control in cars, flight control systems, and industrial process control (Campbell and Haberman 258-265). The transfer function approach enabled by Laplace transforms allows engineers to predict system behavior without solving differential equations repeatedly.
 
-**Economic Competition**: Firms set prices to maximize profits while anticipating competitor responses.
+**Electrical Circuit Analysis**: Simplifies the solution of differential equations governing electrical circuits, particularly in finding steady-state and transient responses (Guggenheimer 196-202). Oliver Heaviside's operational calculus—essentially the Laplace transform in disguise—revolutionized electrical engineering by making circuit analysis algebraic rather than requiring complex differential equation solutions (Widder 420-422).
 
-**Auctions and Voting**: Designing systems for bidding or selecting outcomes.
+**Mechanical System Modeling**: Used to analyze mechanical vibrations, such as in car suspension systems (mass-spring-damper systems) to ensure occupant comfort (Campbell and Haberman 252-255). Systems of coupled differential equations that would be intractable by hand become manageable through Laplace transform methods (Guggenheimer 199-202).
 
-**Four-Way Stop Dilemma**: Ever been at a four-way stop where everyone is waiting for someone else to move? You're stuck in a "stable" state where no one gains anything by changing their strategy alone. That's high-level economics and math in a suburban intersection.
+**Signal Processing**: Used in digital signal processing to analyze filters and system stability. The connection to Fourier analysis through trigonometric series provides powerful tools for understanding frequency content (Efthimiou 376-379).
 
-**Helping a Coworker**: You use this logic every time you decide whether to help a coworker with a project—you're weighing your effort (cost) against the shared success (reward).
+**Integrodifferential Equations**: Laplace transforms provide systematic methods for solving equations involving both derivatives and integrals, common in viscoelasticity, population dynamics, and epidemiology (Lunardi 185-195). These equations are notoriously difficult by classical methods but become algebraically tractable through transformation (Lunardi 200-210).
 
-**Last Slice of Pizza**: There is one slice of pizza left at a party. Everyone wants it, but no one wants to look greedy. If one person "volunteers" to take it, they get the food but a small social cost (being the "greedy" one). If no one takes it, the pizza goes to waste. You are constantly calculating if your hunger is worth the potential social judgment.
+**Medical Imaging**: Helps in reconstructing clear images in techniques like MRI and CT scans, where integral transforms convert measured data back into spatial representations.
+
+**Nuclear Physics**: Used to study radioactive decay processes, where exponential decay functions transform cleanly into simple algebraic forms.
+
+**Equalizers in Music**: Every time you adjust bass and treble on an equalizer, you're applying transform thinking—converting a time-domain signal (the music) into frequency components you can independently control. Engineers who use Laplace transform tables daily often describe themselves as "just looking things up" rather than "doing mathematics," yet they're performing sophisticated mathematical reasoning: recognizing patterns, matching forms, applying linearity properties, and decomposing complex systems into manageable pieces (Ungar 786-791). The notation may be intimidating ($\int_{0}^{\infty} e^{-st} f(t) \,dt$), but the conceptual act of transforming a hard problem in one domain into an easier problem in another domain is something people do intuitively across countless contexts. The mathematical language barriers obscure the conceptual competence already present.
+
+---
 
 **Yellow Light Game**: You're driving toward a yellow light. If you speed up and the other driver at the cross-street also "goes for it," you crash (worst outcome). If you both stop, you lose a little time but are safe. If one stops and the other goes, the "goer" wins time while the "stopper" loses it.
 
