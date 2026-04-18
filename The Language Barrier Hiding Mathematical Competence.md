@@ -1642,15 +1642,7 @@ In an **ergodic** system, the average of a group at one point in time is the sam
 
 The number of ways to arrange a 52-card deck is $8.06 \times 10^{67}$.
 
-To understand why this number is so large and why a repeat is virtually impossible, we look at the *Fundamental Counting Principle* (or rule of product) states that if there are $n$ ways to do one thing and $m$ ways to do another, there are $n \times m$ ways to do both. It calculates the total number of outcomes for multiple independent choices by multiplying the number of options for each decision, which is crucial for large-scale combinations where diagrams are impractical.
-
-*Key Aspects of the Fundamental Counting Principle Definition*:
-- If a task can be broken down into stages (e.g., event 1, event 2,...), the total number of ways to complete the task is the product of the number of choices at each stage.
-- Independent Events: The formula works best when choices are independent, meaning the selection in one step does not affect the number of options in another.
-- Formula: Total Outcomes = $M_1 \times M_2 \times M_3 \times \dots \times M_n$.
-- Application: Used extensively in probability and combinatorics to determine total outcomes, such as combinations of food, outfits, or password possibilities
-
-To calculate the number of ways to arrange a 52-card deck, we follow the given steps:
+To understand why this number is so large and why a repeat is virtually impossible, we look at the *Fundamental Counting Principle*[^13] (or rule of product) states that if there are $n$ ways to do one thing and $m$ ways to do another, there are $n \times m$ ways to do both. To calculate the number of ways to arrange a 52-card deck, we follow the given steps:
 
 1. Calculate the total permutations
    When you build a deck card by card, the number of choices for each slot decreases by one:
@@ -1695,9 +1687,7 @@ To calculate the number of ways to arrange a 52-card deck, we follow the given s
 
 ### Measure Theory
 
-A rigorous framework for assigning "size" to sets - lengths, areas, volumes, and probabilities
-
-Measure theory is a branch of mathematical analysis that generalizes intuitive concepts of length, area, and volume to abstract sets, providing a rigorous foundation for modern integration (Lebesgue integration) and probability theory. It formalizes how to assign a "size" (measure) to subsets, overcoming limitations of Riemann integration and enabling advanced analysis in spaces other than the real line
+Measure theory is a branch of mathematical analysis that generalizes intuitive concepts of length, area, and volume to abstract sets. It provides a rigorous foundation for modern integration, specifically Lebesgue integration, and for probability theory. This theory formalizes how to assign a "size" (measure) to subsets, overcoming the limitations of Riemann integration and enabling advanced analysis in spaces beyond the real line. In essence, it offers a systematic framework for determining the "size" of sets—whether they represent lengths, areas, volumes, or probabilities.
 
 #### Applications:
 
@@ -2914,3 +2904,11 @@ Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https:
 [^12]: The mathematical theory of stochastic processes emerged primarily in the early 20th century, though gambling problems had prompted earlier probability work by Fermat and Pascal in the 1650s (Feller 1-5). Markov developed his chains in 1906 to analyze sequences of vowels and consonants in *Eugene Onegin*, demonstrating that literary patterns could be modeled mathematically (Basharin et al. 1-5). Einstein's 1905 work on Brownian motion applied stochastic thinking to physics. Norbert Wiener formalized Brownian motion mathematically in the 1920s, creating what's now called the Wiener process (Wiener 131-150). Andrey Kolmogorov axiomatized probability theory in 1933, providing the rigorous foundation for all modern stochastic analysis (Kolmogorov 1-8).
 
     The philosophical distinction between deterministic and stochastic systems has deep implications. Classical physics, from Newton through the 19th century, assumed fundamental determinism: given perfect knowledge of initial conditions, the future could be predicted exactly (Laplace 4-6). The discovery of quantum mechanics and the development of chaos theory shattered this worldview. Quantum mechanics is fundamentally probabilistic—outcomes are inherently random, not just unknown (Heisenberg 197-205). [Chaos theory](#chaos-theory-the-butterfly-effect) showed that even deterministic systems can be practically unpredictable due to sensitive dependence on initial conditions (Lorenz 130-141). Weather is chaotic but not stochastic—in principle deterministic, yet in practice unpredictable beyond a few days because tiny measurement errors amplify exponentially (Lorenz 133-136). Distinguishing deterministic chaos from genuine stochasticity remains an active research area.
+
+[^13]: It calculates the total number of outcomes for multiple independent choices by multiplying the number of options for each decision, which is crucial for large-scale combinations where diagrams are impractical.
+
+    **Key Aspects of the Fundamental Counting Principle Definition**:
+    - If a task can be broken down into stages (e.g., event 1, event 2,...), the total number of ways to complete the task is the product of the number of choices at each stage.
+    - Independent Events: The formula works best when choices are independent, meaning the selection in one step does not affect the number of options in another.
+    - Formula: Total Outcomes = $M_1 \times M_2 \times M_3 \times \dots \times M_n$.
+    - Application: Used extensively in probability and combinatorics to determine total outcomes, such as combinations of food, outfits, or password possibilities
