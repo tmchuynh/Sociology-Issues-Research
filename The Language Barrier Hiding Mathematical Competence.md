@@ -579,6 +579,135 @@ A "group" in abstract algebra is a set of actions you can perform and reverse, f
     
     - *Conjugates ( $aba^{-1}$ )*: A "setup move" ( $a$ ), an operation ( $b$ ), and "undoing the setup" ($a^{-1}$).
 
+  - **God's Number: Solving Rubik's Cube in 20 Moves**
+
+    **God's Number**—the maximum moves to solve any of the 43 quintillion states of a Rubik's Cube—is **20** (Half-Turn Metric). Proven in July 2010 by Tomas Rokicki, Morley Davidson, John Dethridge, and Herbert Kociemba using 35 CPU-years from Google.
+    
+    **Lower Bound (n ≥ 20):** The "Superflip" position (all corners correct, all edges flipped) requires exactly 20 moves, proven by Michael Reid in 1995.
+    
+    **Upper Bound (n ≤ 20):** Using coset decomposition and symmetry reduction, researchers reduced 43 quintillion positions to ~56 million unique cosets, solving each in ≤20 moves.
+    
+    | **Metric** | **Detail** |
+    |------------|------------|
+    | God's Number (HTM) | 20 moves |
+    | Computing Power | 35 CPU-years |
+    | Positions requiring 20 moves | ~490 million (0.000001%) |
+    | Average optimal solution | 17-18 moves |
+    
+    **Metric Comparison:**
+    
+    | Metric | Moves | Rule |
+    |--------|-------|------|
+    | Half-Turn (HTM) | 20 | $F, F', F^2$ all = 1 move |
+    | Quarter-Turn (QTM) | 26 | $F, F'$ = 1 move; $F^2$ = 2 moves |
+    | Slice-Turn (STM) | 18–20 | Middle slices (e.g., $M$) = 1 move |
+
+
+  - **The Superflip**
+
+      **Optimal 20-move sequence:** $U \ R^2 \ F \ B \ R \ B^2 \ R \ U^2 \ L \ B^2 \ R \ U' \ D' \ R^2 \ F \ R' \ L \ B^2 \ U^2 \ F^2$
+      
+      **Notation:** $U, D, L, R, F, B$ = Up, Down, Left, Right, Front, Back (90° clockwise); $'$ = counter-clockwise; $^2$ = 180°.
+      
+      **Speedcuber version:** $(M' \ U) \times 4$, rotate cube ($y \ z'$), repeat 3× total. 
+
+
+  - **Solving Algorithms**
+    - **Thistlethwaite Algorithm (1980)**
+
+      Proved the cube can be solved in ≤45 moves (avg. 31) using four nested subgroups.
+
+      | Stage | Group | Allowed Moves | Purpose | Max Moves |
+      |-------|-------|---------------|---------|-----------|
+      | 0 | $G_0$ | $\langle L, R, F, B, U, D \rangle$ | Fully scrambled | - |
+      | 1 | $G_1$ | $\langle L, R, F, B, U^2, D^2 \rangle$ | Orient edges | 7 |
+      | 2 | $G_2$ | $\langle L, R, F^2, B^2, U^2, D^2 \rangle$ | Position U/D edges, orient corners | 10 |
+      | 3 | $G_3$ | $\langle L^2, R^2, F^2, B^2, U^2, D^2 \rangle$ | Correct orbits | 13 |
+      | 4 | $G_4$ | $\{1\}$ (Identity) | Final permutation | 15 |
+      
+      Coset decomposition, pruning search space (e.g., $G_3$ has only ~663,552 states vs 43 quintillion in $G_0$), one-way transitions.
+
+    - **Kociemba's Algorithm (1992)**
+
+      Modern standard for computer solvers; compresses Thistlethwaite's four stages into two phases, typically solving in ~20-22 moves.
+      
+      **Phase 1:** Reduce to subgroup $H$ where:
+      - Edge Orientation (EO) solved
+      - Corner Orientation (CO) solved  
+      - E-slice edges in middle layer
+      
+      Allowed moves: All ($\langle U, D, R, L, F, B \rangle$)
+      
+      **Phase 2:** Solve from $H$ (20 billion states) using only $\langle U, D, R^2, L^2, F^2, B^2 \rangle$. Uses pruning tables for near-instant optimal path.
+      
+      | Feature | Thistlethwaite | Kociemba |
+      |---------|----------------|----------|
+      | Stages | 4 | 2 |
+      | Max Moves | 45 | ~20–22 |
+      | Philosophy | Mathematical Subgroups | Heuristic Search + Subgroups |
+      | Use Case | Educational/Theory | World Record Robots |
+
+---
+
+### Representation Theory
+
+Representation theory is the study of how abstract mathematical objects (like groups, symmetries, or algebraic structures) can be "represented" as concrete operations-usually as matrices or transformations-making them easier to visualize and work with.
+
+It's like translating a complicated idea into a familiar language, such as pictures, actions, or numbers, so you can understand and manipulate it.
+
+#### Applications:
+
+**Traffic signs, map icons, and UI symbols** let you reason about complex situations at a glance by replacing the full thing with a simpler stand-in that preserves the key structure. That move - substituting a manageable model that behaves the same way - is the core idea of representation theory
+
+**Symmetries in Nature and Art**: The ways you can rotate or reflect a snowflake without changing its appearance form a symmetry group. Representation theory lets you "act out" these symmetries as concrete operations-like flipping or rotating an image in a computer.
+
+**Matrices as Representations**: Many symmetries can be described by matrices that act on vectors. This allows complex symmetry operations to be studied with linear algebra.
+
+**Molecules in Chemistry**: The possible vibrations or rotations of a molecule (its symmetries) can be represented mathematically, helping chemists predict physical properties.
+
+**Quantum Mechanics**: Symmetries of particles and systems are represented by operators on Hilbert spaces; representation theory organizes and simplifies these complex behaviors.
+
+**Dance Routines or Choreography**: Think of a set of dance moves (an abstract sequence). Representation theory is like describing each move as a specific set of instructions for the dancers-making the routine tangible.
+
+**Rubik's Cube**: The different twists and turns form an abstract group of moves. Representation theory studies how these abstract moves can be represented as actual physical manipulations or as mathematical matrices.
+
+**Computer Graphics**: Rotating, scaling, or reflecting a 3D model are transformations that can be represented by matrices. The abstract symmetries of shapes become actionable through these concrete representations.
+
+**Music**: Chord progressions and musical transformations (like transposing a key) can be understood using group theory, and representation theory translates these abstract operations into actual notes and sounds.
+
+---
+
+### Galois Theory
+
+Galois Theory tells us when it's possible to write down the solutions to a polynomial using just addition, subtraction, multiplication, division, and roots (like square roots and cube roots). For example, it explains why there's no general formula for solving all quintic (degree 5) equations.
+
+Galois Theory connects algebra (polynomials and equations) with group theory (the mathematics of symmetry). It's a powerful tool for understanding the structure and solvability of equations and for revealing the deep patterns hidden among their solutions. Galois Theory tells us which "fields" (sets of numbers) are related.
+
+**Permutations and Solvability**: Galois Theory proved that certain polynomial equations can't be solved with a simple formula (like the Quadratic Formula) because their "symmetry group" is too complex.
+
+- Unsolvable Rubik's Cube: If you peel the stickers off a Rubik's Cube and put them back at random, there is a high probability that the cube is now "unsolvable."
+
+- The "Unsolvable" Note: Just as Galois proved some equations are unsolvable because their symmetries are too messy, music has "unsolvable" scales. For example, you cannot create a perfectly symmetrical scale using only whole steps that hits every note in an octave-the math (the Galois Group of the tuning system) simply doesn't allow it.
+
+#### Applications:
+
+**Sudoku**: The 288 solutions for $4 \times 4$ Sudoku, or valid $9 \times 9$ grids, can be analyzed via symmetry-breaking (Galois action) and group theory, with underlying finite field structures providing mathematical constraints
+
+- A completed $9 \times 9$ Sudoku is a $9 \times 9$ Latin square where each $3 \times 3$ subgrid (block) also contains the numbers 1–9. The construction often relies on shifting rows, which, if done according to certain mathematical rules ( $gcd(d,n) = 1$), forms a valid Latin square
+
+- $4 \times 4$ Sudoku solutions can be analyzed through a "hidden" group structure, where the solution space can collapse based on symmetry-breaking. The 288 solutions for $4 \times 4$ are generated via permutation, which is the foundational concept of Galois theory
+
+**Circle of Fifths**:  In music, the Circle of Fifths is a map of these relationships. Moving from C to G to D is a mathematical "rotation" through a group. Galois Theory tells us which shapes are "constructible" using only a straightedge and compass.
+
+**Symmetric Shifts**: If you take a melody in the key of C Major and move every note up seven semitones to G Major, the relationships between the notes stay exactly the same. The song sounds the same, just higher. This "shift" is a symmetry operation.
+
+**A Kaleidoscope**: When you rotate it, the pattern stays symmetric - that's a symmetry group acting on the image. Galois Theory asks the same question about equations: which symmetries relate the solutions to each other? It's why we can prove certain equations have no "nice" solution formula
+
+**Digital Clock**: In your daily life, you use the "logic" of these symbols whenever you use a Digital Clock. You are navigating a Cyclic Group where numbers like 13 "wrap around" back to 1. This is the simplest type of Galois structure.
+
+**The Symmetry of the Cut**: If you want to cut a pizza into 8 equal slices, you are essentially solving the equation $x8 =1$ on a complex plane. Each cut represents a "root." You can easily divide a pizza into 4, 5, or 6 equal parts using simple geometric rules. However, it is mathematically impossible to perfectly divide a pizza into 7 or 9 equal slices using only those basic tools.
+
+**Scratched Discs**: If a CD has a scratch, some data is missing. Because the data was stored using the symmetry of a Galois Field, the player can "solve" the missing pieces by looking at the remaining symmetrical patterns. It's like being able to see half a butterfly and knowing exactly what the other wing looks like.
 
 ---
 
@@ -660,9 +789,9 @@ How do you prove two knots are different? You can't just look at them - they mig
 - **Crossing Number**: The minimum number of times the string crosses over itself in any diagram of the knot. A trefoil has crossing number 3. An unknot has crossing number 0.
 - **Unknotting Number**: The minimum number of times you need to pass the string through itself to turn the knot into an unknot. For a trefoil, the unknotting number is 1.
 - **Jones Polynomial** $V(t)$: A mathematical formula assigned to each knot that acts like a fingerprint. Different knots (usually) have different Jones polynomials. For example:
-  - Unknot: $V(t) = 1$
-  - Trefoil knot: $V(t) = t + t^3 - t^4$
-  - Figure-eight knot: $V(t) = t^{-2} - t^{-1} + 1 - t + t^2$
+  - *Unknot*: $V(t) = 1$
+  - *Trefoil knot*: $V(t) = t + t^3 - t^4$
+  - *Figure-eight knot*: $V(t) = t^{-2} - t^{-1} + 1 - t + t^2$
 
     If two knots have different Jones polynomials, they are definitely different knots (though the converse isn't always true).
 
@@ -713,15 +842,43 @@ How do you prove two knots are different? You can't just look at them - they mig
 
 ---
 
-### Quaternions (High-Dimensional Algebra)
+### Clifford Algebras (Quaternions $\implies$ High-Dimensional Algebra)
 
-While we think in 3D, computer programs, like the video games you play or the augmented reality (AR) filters on your phone, often use 4D quaternions to calculate how objects rotate smoothly without glitching
+While we think in 3D, computer programs, like the video games you play or the augmented reality (AR) filters on your phone, often use 4D quaternions to calculate how objects rotate smoothly without glitching.
+
+Clifford algebras are associative algebraic structures that extend the real numbers, complex numbers, and quaternions to higher dimensions, acting as a unified language for geometry and physics. They generalize the exterior (Grassmann) algebra by allowing vectors to square to a scalar, linking algebraic multiplication directly to geometric, rotation-based transformations. Clifford algebras are often called *Geometric Algebra* when used to represent geometric objects and operations directly
+
+**Key Concepts and Features**
+
+- *Geometric Product*: Clifford algebra introduces a product that combines the dot product (scalar) and the wedge product (bivector) to describe both length and orientation.
+
+- *Defining Relation*: The algebra is generated by vectors $v$ where $v^2 = Q(v)$, meaning the square of a vector equals the value of a quadratic form, often $v^2 = \pm 1 \text{or} 0$
+
+- *Basis Components*: Clifford algebras contain scalars, vectors, bivectors (areas), and higher-grade elements (multivectors)
+
+- *Structure*: For an $n$-dimensional vector space, the Clifford algebra forms a $2^n$-dimensional associative algebra
+
+Quaternions are a four-dimensional number system ( $a + bi + cj + dk$ ) discovered by William Rowan Hamilton in 1843, extending complex numbers to higher dimensions. They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient mathematical framework for representing 3D rotations, widely used in computer graphics, robotics, and navigation
+
+**Core Characteristics**
+
+- *Structure*: Represented as $q = a + bi + cj + jk$, where $a$, $b$, $c$, $d$ are real numbers and $i$, $j$, $k$ are imaginary units.
+
+- *Dimensions*: Comprised of one real dimension and three imaginary dimensions.
+
+- *Non-Commutative*: The order of multiplication matters ($ij = k$, $ji = -k$).
+
+- *Algebraic Properties*: Form a four-dimensional associative normed division algebra over real numbers
 
 #### Applications:
 
 **SpaceX and NASA**: Spacecraft don't have a "ground," so they rotate in every direction. The onboard computers use quaternions to calculate the rocket's attitude (orientation), so it doesn't spin out of control during docking.
 
-**CGI and Animation**: When you see a character like Thanos or a transformer move fluidly in a movie, animators use quaternions to "interpolate" the movement. Without them, the joints of the characters would jitter or snap unnaturally.
+**CGI and Animation**: When you see a character like Thanos or a transformer move fluidly in a movie, animators use quaternions to "interpolate" the movement. Without them, the joints of the characters would jitter or snap unnaturally. It is used computer graphics to represent rotations and geometric orientations in $n$-dimensions
+
+**Robotics**: Applied in kinematic calculations for robot arm movement.
+
+**Physics**: Used in quantum mechanics and to describe orbital mechanics $\implies$ spinors, Dirac equation
 
 **Smartphone To-Phone AirDrop**: When you point one phone at another to share a file, the Inertial Measurement Unit (IMU) uses quaternions to track exactly where your phone is pointing in space.
 
@@ -977,34 +1134,7 @@ Measure theory is a branch of mathematical analysis that generalizes intuitive c
 
 **Digital Files and Data**: Every time you see a file size (MB or GB), you are seeing a measure of a set of bits. Measure theory helps computer scientists define how to measure "information" in a way that remains consistent even if the data is compressed or scrambled.
 
-**Measuring a "Cloud"**: If you try to measure the volume of a cloud, it’s hard because the edges are blurry and there are holes inside. Measure theory provides the language to define exactly how much "space" a fuzzy, non-solid object occupies
-
----
-
-### Galois Theory
-
-Galois Theory tells us when it’s possible to write down the solutions to a polynomial using just addition, subtraction, multiplication, division, and roots (like square roots and cube roots). For example, it explains why there’s no general formula for solving all quintic (degree 5) equations.
-
-Galois Theory connects algebra (polynomials and equations) with group theory (the mathematics of symmetry). It’s a powerful tool for understanding the structure and solvability of equations and for revealing the deep patterns hidden among their solutions. Galois Theory tells us which "fields" (sets of numbers) are related.
-
-**Permutations and Solvability**: Galois Theory proved that certain polynomial equations can’t be solved with a simple formula (like the Quadratic Formula) because their "symmetry group" is too complex.
-
-- Unsolvable Rubik’s Cube: If you peel the stickers off a Rubik’s Cube and put them back at random, there is a high probability that the cube is now "unsolvable."
-- The "Unsolvable" Note: Just as Galois proved some equations are unsolvable because their symmetries are too messy, music has "unsolvable" scales. For example, you cannot create a perfectly symmetrical scale using only whole steps that hits every note in an octave-the math (the Galois Group of the tuning system) simply doesn’t allow it.
-
-#### Applications:
-
-**Circle of Fifths**:  In music, the Circle of Fifths is a map of these relationships. Moving from C to G to D is a mathematical "rotation" through a group. Galois Theory tells us which shapes are "constructible" using only a straightedge and compass.
-
-**Symmetric Shifts**: If you take a melody in the key of C Major and move every note up seven semitones to G Major, the relationships between the notes stay exactly the same. The song sounds the same, just higher. This "shift" is a symmetry operation.
-
-**A Kaleidoscope**: When you rotate it, the pattern stays symmetric - that’s a symmetry group acting on the image. Galois Theory asks the same question about equations: which symmetries relate the solutions to each other? It’s why we can prove certain equations have no "nice" solution formula
-
-**Digital Clock**: In your daily life, you use the "logic" of these symbols whenever you use a Digital Clock. You are navigating a Cyclic Group where numbers like 13 "wrap around" back to 1. This is the simplest type of Galois structure.
-
-**The Symmetry of the Cut**: If you want to cut a pizza into 8 equal slices, you are essentially solving the equation $x8 =1$ on a complex plane. Each cut represents a "root." You can easily divide a pizza into 4, 5, or 6 equal parts using simple geometric rules. However, it is mathematically impossible to perfectly divide a pizza into 7 or 9 equal slices using only those basic tools.
-
-**Scratched Discs**: If a CD has a scratch, some data is missing. Because the data was stored using the symmetry of a Galois Field, the player can "solve" the missing pieces by looking at the remaining symmetrical patterns. It’s like being able to see half a butterfly and knowing exactly what the other wing looks like.
+**Measuring a "Cloud"**: If you try to measure the volume of a cloud, it's hard because the edges are blurry and there are holes inside. Measure theory provides the language to define exactly how much "space" a fuzzy, non-solid object occupies
 
 ---
 
@@ -1044,35 +1174,7 @@ Approximation theory is about finding the best way to use simple, practical tool
 
 **JPEG Images and MP3 Audio**: When you save a photo as a JPEG or a song as an MP3, the computer stores an approximation of the original data, close enough that the difference is hard to notice.
 
-**Speed vs. Accuracy Tradeoff**: When you solve a math problem quickly in your head using rough numbers, you’re accepting a less precise answer for the sake of speed-classic approximation.
-
----
-
-### Representation Theory
-
-Representation theory is the study of how abstract mathematical objects (like groups, symmetries, or algebraic structures) can be "represented" as concrete operations-usually as matrices or transformations-making them easier to visualize and work with.
-
-It’s like translating a complicated idea into a familiar language, such as pictures, actions, or numbers, so you can understand and manipulate it.
-
-#### Applications:
-
-**Traffic signs, map icons, and UI symbols** let you reason about complex situations at a glance by replacing the full thing with a simpler stand-in that preserves the key structure. That move - substituting a manageable model that behaves the same way - is the core idea of representation theory
-
-**Symmetries in Nature and Art**: The ways you can rotate or reflect a snowflake without changing its appearance form a symmetry group. Representation theory lets you "act out" these symmetries as concrete operations-like flipping or rotating an image in a computer.
-
-**Matrices as Representations**: Many symmetries can be described by matrices that act on vectors. This allows complex symmetry operations to be studied with linear algebra.
-
-**Molecules in Chemistry**: The possible vibrations or rotations of a molecule (its symmetries) can be represented mathematically, helping chemists predict physical properties.
-
-**Quantum Mechanics**: Symmetries of particles and systems are represented by operators on Hilbert spaces; representation theory organizes and simplifies these complex behaviors.
-
-**Dance Routines or Choreography**: Think of a set of dance moves (an abstract sequence). Representation theory is like describing each move as a specific set of instructions for the dancers-making the routine tangible.
-
-**Rubik’s Cube**: The different twists and turns form an abstract group of moves. Representation theory studies how these abstract moves can be represented as actual physical manipulations or as mathematical matrices.
-
-**Computer Graphics**: Rotating, scaling, or reflecting a 3D model are transformations that can be represented by matrices. The abstract symmetries of shapes become actionable through these concrete representations.
-
-**Music**: Chord progressions and musical transformations (like transposing a key) can be understood using group theory, and representation theory translates these abstract operations into actual notes and sounds.
+**Speed vs. Accuracy Tradeoff**: When you solve a math problem quickly in your head using rough numbers, you're accepting a less precise answer for the sake of speed-classic approximation.
 
 ---
 
