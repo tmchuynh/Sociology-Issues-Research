@@ -1274,9 +1274,8 @@ The trefoil forms more readily because it requires fewer crossings to trap. A fi
 
 A knitted fabric consists of yarn formed into interlocking loops arranged in rows and columns. Each stitch represents a topological operation:
 
-Knit Stitch: Insert needle through front of loop, wrap yarn, pull new loop through toward you. Mathematically, this creates an oriented link where the new loop passes through the old loop in a specific direction.
-
-Purl Stitch: Insert needle through back of loop, wrap yarn, pull new loop away from you. This is the mirror image of a knit stitch—topologically equivalent but geometrically reversed (Matsumoto and Grishanov 105-107).
+- Knit Stitch: Insert needle through front of loop, wrap yarn, pull new loop through toward you. Mathematically, this creates an oriented link where the new loop passes through the old loop in a specific direction.
+- Purl Stitch: Insert needle through back of loop, wrap yarn, pull new loop away from you. This is the mirror image of a knit stitch—topologically equivalent but geometrically reversed (Matsumoto and Grishanov 105-107).
 
 A simple stockinette fabric (alternating rows of all knits and all purls) creates a topological structure analyzable as a **chain of interlocking unknots** (Grishanov et al. 5-8). Each stitch is individually an unknot, but they're linked together. If you cut one loop, the entire fabric can unravel—a phenomenon knitters call "dropping a stitch."
 
