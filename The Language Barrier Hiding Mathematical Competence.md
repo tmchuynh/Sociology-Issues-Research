@@ -1764,13 +1764,13 @@ To avoid paradoxes, modern mathematics often uses *Zermelo-Fraenkel set theory w
 
 ### Ramsey Theory
 
-The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns — that "complete disorder is impossible", if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear — the "order in chaos."
+**The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property (Klop). *Finite Ramsey's Theorem* for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
 
-#### Applications:
+*Existence of Order*: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
 
-**The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property (Klop).
+*The "Least Number" Property*: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
 
-- **Finite Ramsey's Theorem** for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
+While the "party" version is a popular way to explain it, the exact theorem is a pillar of combinatorics. In graph theory terms:
 - Existence of Order: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
 - The "Least Number" Property: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
 
