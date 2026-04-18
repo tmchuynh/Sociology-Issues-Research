@@ -785,7 +785,7 @@ Euclid's Elements is a foundational 13-book mathematical treatise, written aroun
 
 **Measuring and Leveling**: Every time you measure a room with a tape measure, check that a picture frame is level, or tile a floor, you are performing Euclidean geometry.
 
-**Triangle Angles and Shortest Distance**: Knowing that a triangle's angles add up to $180^\circ$ or that the shortest distance between two points is a straight line—these are Euclid's axioms, formalized over two thousand years ago, and you internalized them without a textbook.
+**Triangle Angles and Shortest Distance**: Knowing that a triangle's angles add up to $180^\circ$ or that the shortest distance between two points is a straight line—these are Euclid's axioms, formalized over two thousand years ago, and you internalized them without a textbook (Posamentier et al. 222-224).
 
 **City Grids and Straight Shelves**: Road intersections meeting at $90^\circ$ angles, the rectangular grid of city blocks, the way you eyeball whether a shelf is straight—all Euclidean geometry.
 
@@ -874,7 +874,7 @@ You do this every time you estimate a tip, guess how long a drive will take, or 
 
 **Diagnosing Car Trouble**: When your car won't start, and you think, "It's probably the battery," you have made an Ansatz. You test that specific assumption first. If the lights come on, your "guess" was mathematically consistent with the evidence
 
-**Investing**: If you assume the housing market will grow by 5% every year, that 5% is your Ansatz. You build your entire financial model on top of that starting assumption.
+**Investing**: If you assume the housing market will grow by $5\%$ every year, that $5\%$ is your Ansatz. You build your entire financial model on top of that starting assumption.
 
 ---
 
@@ -912,27 +912,37 @@ Number theory is the study of whole numbers and their relationships. One of its 
 
 **Online Shopping (RSA Encryption)**: Every time you enter your credit card on a website, your computer uses Number Theory (Zimmermann 110). It relies on the fact that it is easy to multiply two massive Prime Numbers together, but mathematically "impossible" for a hacker to figure out what those primes were just by looking at the result—the asymmetry between multiplication and factorization is the foundation of modern cryptography (Boyer and Moore 182; Meijer 103).
 
-The security of online shopping relies on the _Integer Factorization Problem_. Here is the mathematical process:
+*Historical Evolution*: The journey from ancient cryptography to modern public-key systems illustrates how mathematical concepts accumulate power over time. Caesar used simple letter-shifting ciphers 2,000 years ago—pure modular arithmetic (Luciano and Prichett 3-5). During WWII, the Enigma machine relied on permutation groups, a concept from abstract algebra (Sinkov and Feil 1-15). By 1976, the RSA algorithm united number theory, modular arithmetic, and computational complexity into a system that revolutionized digital security (Luciano and Prichett 12-14; Holden 157-175). The same mathematical structures—just applied with increasing sophistication.
 
-1. Key Generation
+The security of online shopping relies on the _Integer Factorization Problem_ (Lefton 55-56). Here is the mathematical process:
+
+1. Key Generation (Boyer and Moore 183-184)
    - First, pick two distinct large prime numbers, $p$ and $q$.
    - Compute the modulus: $n = p \times q$
    - Compute Euler's Totient: $\phi(n) = (p-1)(q-1)$
-   - Choose a public exponent $e$ such that: $\gcd(e, \phi(n)) = 1$
+   - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$ (Lefton 57)
 2. The Private Key
-   - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$
+   - The receiver calculates the secret private key $d$ using the **Extended Euclidean Algorithm** to solve for the modular multiplicative inverse: $de \equiv 1 \pmod{\phi(n)}$ (Lefton 57)
 3. Encryption (The Computer's Task)
    - Your credit card data $M$ is transformed into ciphertext $C$ using the public key $(n, e)$: $C = M^e \pmod{n}$
 4. Decryption (The Server's Task)
-   - The merchant uses their private key $d$ to recover the original message: $M = C^d \pmod{n}$
+**Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: *Compute M to the e, mod n*" (Treat 255).
 
-**Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way.
+**Note:** This works because of **Euler's Theorem**, which states that $M^{e \cdot d} \equiv M \pmod{n}$ when the keys are generated this way (Boyer and Moore 185-187). The mathematical proof of RSA's correctness has been rigorously verified, even formalized in automated proof systems (Boyer and Moore 181). As one mathematician demonstrated, the elegance of RSA can even be expressed poetically: "To encode, just use the public key: *Compute M to the e, mod n*" (Treat 255).
 
-**Barcodes and ISBNs**: The last digit on a barcode or a book's ISBN is a Check Digit. It is calculated using a specific number theory formula to ensure that if a scanner misreads a number, the "math" won't add up, and the system will flag an error
+**Barcodes and ISBNs**: The last digit on a barcode or a book's ISBN is a Check Digit. It is calculated using a specific number theory formula to ensure that if a scanner misreads a number, the "math" won't add up, and the system will flag an error (Sinkov and Feil 25-30).
 
-**Elliptic Curve Encryption**: Every time you visit an "https" website or use a messaging app, your device uses Elliptic-Curve Diffie-Hellman (a form of number theory) to agree on a secret key with the server. You are using prime numbers to build a "digital wall" around your private data.
+**Elliptic Curve Encryption**: Every time you visit an "https" website or use a messaging app, your device uses Elliptic-Curve Diffie-Hellman (a form of number theory) to agree on a secret key with the server (Zimmermann 112-113; DeArmond 1). You are using prime numbers to build a "digital wall" around your private data.
+
+Elliptic Curve Cryptography (ECC) relies on the algebraic structure of elliptic curves over finite fields, providing the same security as RSA with much smaller key sizes (DeArmond 2-5; Havil 205-210). While RSA might require a 2048-bit key for strong security, ECC achieves equivalent security with just 224 bits—making it ideal for smartphones and IoT devices where computational power is limited (Zimmermann 113). The mathematical foundation involves points on curves defined by equations like $y^2 = x^3 + ax + b$, where operations are performed modulo a prime number (Havil 206-208).
+
+**The Privacy Dimension**: The mathematics of cryptography isn't just about security—it's fundamentally about privacy and individual rights (Froomkin 709-712; Feldman and Haber 197-200). When you use encryption, you're exercising number theory to protect your constitutional right to private communication (Froomkin 715-720). The "always-on" digital era makes this mathematical protection more crucial than ever: every text message, medical record, and financial transaction depends on the computational hardness of certain number-theoretic problems (Feldman and Haber 205-210; Petras 690-695).
+
+**The Quantum Threat**: However, a major disruption looms. Quantum computers, when sufficiently developed, will be able to factor large numbers exponentially faster than classical computers using Shor's algorithm (Grobman 54-58; Clark et al. 25). This would break RSA and current elliptic curve systems, rendering decades of encrypted data vulnerable (Grobman 59-62). Researchers are now developing "post-quantum cryptography"—new mathematical structures resistant to quantum attacks, such as lattice-based cryptography and hash-based signatures (Clark et al. 25-26). The race is on to deploy these systems before quantum computers become powerful enough to threaten current encryption.
 
 **Home Cooking and Ratios**: Any home cook who doubles a recipe, converts cups to tablespoons, or adjusts a recipe designed for 4 people to serve 7 is performing proportional reasoning and ratio arithmetic—the same operations formalized in number theory and algebra. The cook who eyeballs "a little more flour" because the dough "doesn't feel right" is performing real-time estimation and feedback-based adjustment—an informal version of iterative approximation.
+
+**The Competence-Language Gap in Cryptography**: Every person who uses online banking, sends encrypted messages, or makes secure purchases demonstrates implicit trust in number-theoretic principles. They understand the *function* of encryption ("this keeps my data safe") and make sophisticated decisions about when to use it, even if they've never seen Euler's totient function or studied modular arithmetic (Petras 700-705). The mathematical competence exists in recognizing the need for security, choosing appropriate tools, and verifying secure connections (the lock icon in the browser). The formal language—prime factorization, discrete logarithms, elliptic curve point multiplication—describes the mechanism but isn't necessary for effective use. As Lefton notes in teaching cryptography to students: the concepts become accessible when presented through familiar problems before introducing the intimidating notation (Lefton 54-60). This pedagogical finding supports the broader thesis: mathematical literacy can exist independently of mathematical language fluency.
 
 ---
 
