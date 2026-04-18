@@ -1099,19 +1099,19 @@ Galois Theory tells us when it's possible to write down the solutions to a polyn
 
 Galois Theory connects algebra (polynomials and equations) with group theory (the mathematics of symmetry). It's a powerful tool for understanding the structure and solvability of equations and for revealing the deep patterns hidden among their solutions. Galois Theory tells us which "fields" (sets of numbers) are related.
 
+**Permutations and Solvability**: Galois Theory proved that certain polynomial equations can't be solved with a simple formula (like the Quadratic Formula) because their "symmetry group" is too complex.
+
 - *Unsolvable Rubik's Cube*: If you peel the stickers off a Rubik's Cube and put them back at random, there is a high probability that the cube is now "unsolvable."
 
 - *The "Unsolvable" Note*: Just as Galois proved some equations are unsolvable because their symmetries are too messy, music has "unsolvable" scales. For example, you cannot create a perfectly symmetrical scale using only whole steps that hits every note in an octave-the math (the Galois Group of the tuning system) simply doesn't allow it.
 
-- The "Unsolvable" Note: Just as Galois proved some equations are unsolvable because their symmetries are too messy, music has "unsolvable" scales. For example, you cannot create a perfectly symmetrical scale using only whole steps that hits every note in an octave-the math (the Galois Group of the tuning system) simply doesn't allow it.
+#### Applications:
 
 **Sudoku**: While Sudoku appears to be simply a logic puzzle, it is deeply connected to group theory, Latin squares, and combinatorial mathematics (Cook et al. 13; Delahaye 80). The 288 solutions for $4 \times 4$ Sudoku, or valid $9 \times 9$ grids, can be analyzed via symmetry-breaking (Galois action) and group theory, with underlying finite field structures providing mathematical constraints (Arcos et al. 111; Lindgren 21). What appears as "just a game" reveals sophisticated algebraic structure when examined mathematically.
 
 A completed $9 \times 9$ Sudoku is a $9 \times 9$ Latin square where each $3 \times 3$ subgrid (block) also contains the numbers 1–9 (Keedwell 425). The construction often relies on shifting rows, which, if done according to certain mathematical rules ( $\gcd(d,n) = 1$), forms a valid Latin square. This demonstrates how combinatorial constraints create structured solution spaces (Delahaye 82).
 
 $4 \times 4$ Sudoku solutions can be analyzed through a "hidden" group structure, where the solution space can collapse based on symmetry-breaking. The 288 solutions for $4 \times 4$ are generated via permutation, which is the foundational concept of Galois theory (Arcos et al. 112-115). Mini-Sudokus provide an accessible entry point for understanding how group-theoretic constraints determine puzzle solvability without requiring advanced mathematical notation (Arcos et al. 120).
-
-The mathematical sophistication underlying Sudoku—involving group operations, Latin squares, and permutation theory—is completely hidden from casual players who solve puzzles using purely logical reasoning. This exemplifies how mathematical competence (solving the puzzle) can be entirely separate from mathematical language (understanding the group-theoretic structure). As Cook et al. observe, "the mathematics is there whether or not the solver is aware of it" (15).
 
 - $4 \times 4$ Sudoku solutions can be analyzed through a "hidden" group structure, where the solution space can collapse based on symmetry-breaking. The 288 solutions for $4 \times 4$ are generated via permutation, which is the foundational concept of Galois theory
 
