@@ -1084,9 +1084,7 @@ As a branch of mathematics, representation theory simplifies the study of abstra
 
 ### Galois Theory
 
-Galois Theory offers a fascinating insight into the conditions under which the solutions of polynomials can be expressed through fundamental operations such as addition, subtraction, multiplication, division, and taking roots, like square and cube roots. For example, it beautifully elucidates why a general formula for all quintic equations (those of degree five) remains elusive. This remarkable branch of abstract algebra serves as a bridge between field theory and group theory, empowering mathematicians to approach intricate challenges related to fields—particularly the roots of polynomials—by transforming them into more approachable problems linked to groups.
-
-At its core, Galois Theory intertwines the realms of algebra, focusing on polynomials and equations, with the study of symmetry found in group theory. This powerful framework not only enhances our understanding of equation structures and their solvability but also reveals the intricate patterns connecting their solutions. By identifying which "fields" or sets of numbers are interconnected, Galois Theory explores how the roots of a polynomial can be rearranged (or permuted) while preserving the essential algebraic relationships among them.
+At its core, Galois Theory[^10] intertwines the realms of algebra, focusing on polynomials and equations, with the study of symmetry found in group theory. This powerful framework not only enhances our understanding of equation structures and their solvability but also reveals the intricate patterns connecting their solutions. By identifying which "fields" or sets of numbers are interconnected, Galois Theory explores how the roots of a polynomial can be rearranged (or permuted) while preserving the essential algebraic relationships among them.
 
 This theory is named after the brilliant Évariste Galois, a French mathematician who, despite his untimely passing at the tender age of 20, made contributions that were so innovative they took years for the mathematical community to fully recognize. His legacy laid the groundwork for the evolution of modern abstract algebra, inspiring generations to explore the beauty of mathematics.
 
@@ -1127,6 +1125,20 @@ The mathematical sophistication underlying Sudoku—involving group operations, 
 ### Real Analysis (Epsilon-Delta Limits)
 
 Real analysis uses the "epsilon-delta" definition to express limits rigorously - the idea that you can get as close as you want to a target value.
+The epsilon-delta ($\epsilon$-$\delta$) definition of a limit is the formal way to prove that a function $f(x)$ approaches a value $L$ as $x$ approaches $c$. While early calculus uses "approaches" or "tends to," this definition provides a precise, irrefutable mathematical structure for "closeness". 
+
+We say $\lim_{x \to c} f(x) = L$ if for every $\epsilon > 0$, there exists a $\delta > 0$ such that for all $x$, if $0 < |x - c| < \delta$, then $|f(x) - L| < \epsilon$. 
+
+- $\epsilon$ (Epsilon): Represents a tiny "tolerance" or error margin on the $y$-axis (the output range).
+- $\delta$ (Delta): Represents a corresponding distance on the $x$-axis (the input range).
+- $0 < |x - c|$: This ensures we are looking at values near $c$ but not necessarily at $c$, as the limit doesn't care what happens exactly at the point. [6, 7, 8] 
+
+**The "Challenge" Game**
+
+Think of this definition as a challenge between two people: 
+ 1. Person A (The Challenger): Picks any tiny distance $\epsilon$ around the limit $L$. They say, "I want the function's output to stay within this window $(L - \epsilon, L + \epsilon)$."
+ 2. Person B (The Prover): Must find a distance $\delta$ around $c$. If they can find a $\delta$ such that every $x$ within that distance (except $c$) maps to an output within the challenger's window, the limit is proven.
+ 3. If the limit exists, Person B can always find a $\delta$, no matter how small Person A makes $\epsilon$. [1, 9, 10, 11, 12] 
 
 #### Applications:
 
@@ -2813,3 +2825,5 @@ Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https:
     - Simple: Non-abelian and has no non-trivial ideals (subspaces $I$ where $[\mathfrak{g}, I] \subseteq I$).
     - Semisimple: A direct sum of simple Lie algebras; these are fully classified by Dynkin diagrams and root systems.
     
+
+[^10]: Galois Theory offers a fascinating insight into the conditions under which the solutions of polynomials can be expressed through fundamental operations such as addition, subtraction, multiplication, division, and taking roots, like square and cube roots. For example, it beautifully elucidates why a general formula for all quintic equations (those of degree five) remains elusive. This remarkable branch of abstract algebra serves as a bridge between field theory and group theory, empowering mathematicians to approach intricate challenges related to fields—particularly the roots of polynomials—by transforming them into more approachable problems linked to groups.
