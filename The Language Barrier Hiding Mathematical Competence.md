@@ -126,7 +126,15 @@ Students who struggle with mathematics should understand that these challenges a
 
 - Institutions often see math failure as a competence issue and respond with remedial content and repetitive drills (Hodkowski). However, if language barriers are the root cause, simply adding more math is not effective; we need better translations between mathematical language and intuitive reasoning (Tobias 70).
 
+- The competence-language gap is particularly stark in number theory. A child who can determine "If today is Tuesday, what day will it be 100 days from now?" is performing modular arithmetic: $100 \equiv 2 \pmod{7}$, so it will be Thursday (Dudley 3). The child may solve this by counting by sevens ("7, 14, 21... 98 is 14 weeks, so 2 days after Tuesday") without ever encountering the formal notation. The mathematical reasoning is complete and correct; only the symbolic language is absent. This pattern repeats throughout number theory: people demonstrate numerical competence—recognizing patterns, applying divisibility shortcuts, estimating prime factorizations—without the formal vocabulary that would let them discuss these concepts with mathematicians.
+
+- Every person who uses online banking, sends encrypted messages, or makes secure purchases demonstrates implicit trust in number-theoretic principles. They understand the _function_ of encryption ("this keeps my data safe") and make sophisticated decisions about when to use it, even if they've never seen Euler's totient function or studied modular arithmetic (Petras 700-705). The mathematical competence exists in recognizing the need for security, choosing appropriate tools, and verifying secure connections (the lock icon in the browser). The formal language—prime factorization, discrete logarithms, elliptic curve point multiplication—describes the mechanism but isn't necessary for effective use. As Lefton notes in teaching cryptography to students: the concepts become accessible when presented through familiar problems before introducing the intimidating notation (Lefton 54-60). This pedagogical finding supports the broader thesis: mathematical literacy can exist independently of mathematical language fluency.
+
+- People navigate topological concepts constantly—recognizing that pants have genus 3 (two leg holes plus one waist hole), understanding that a shirt must be pulled over the head or buttoned because its genus constrains how you can put it on, realizing that untangling headphones requires understanding how the cord is knotted—all without invoking Euler characteristics or homeomorphisms (Weeks 8-12). A person untangling jewelry chains demonstrates sophisticated topological reasoning: they visualize how loops connect, identify where chains are genuinely knotted versus merely tangled, and perform specific manipulations to reduce topological complexity. This is expert-level topology applied in real-time, lacking only the formal vocabulary to describe what's being done. The mathematical competence exists; the technical language that would let them communicate with professional topologists does not.
+
 - Hiebert developed a comprehensive theory of how learners develop competence with written mathematical symbols, demonstrating that symbolic fluency is a learned skill distinct from conceptual understanding. Students can possess mathematical reasoning ability while struggling with symbolic representation - a separation that confirms the language barrier thesis (Hiebert 333-350).
+
+- Everyone engages in stochastic reasoning constantly. When you decide whether to bring a jacket ("it might rain"), you're evaluating a stochastic outcome. When you leave early to catch a flight, accounting for possible traffic delays, you're responding to the random nature of travel time. When you diversify investments rather than putting everything in one stock, you're applying portfolio theory, which is built on stochastic processes (Markowitz 77-91). The formal mathematics—Markov chains, Poisson processes, Brownian motion, stochastic calculus—provides precision and enables quantitative predictions, but the core insight that "the future is uncertain and should be modeled probabilistically" is universally understood. People who have never heard of Kolmogorov's axioms or Itô's lemma make sophisticated stochastic decisions daily. They understand that randomness is real, that some things are predictable on average but uncertain in individual cases, and that optimal strategies must account for this uncertainty. The mathematical language lets specialists communicate precisely and derive optimal policies, but the underlying concepts—randomness, probability, risk—are part of common sense. Mathematical competence exists independently of mathematical language, and the absence of formal vocabulary should not be mistaken for absence of understanding.
 
 - Kirshner directly addressed the relationship between linguistic and mathematical competence, arguing that difficulties in mathematics are often rooted in linguistic processing rather than mathematical reasoning. This early work established that language proficiency and mathematical proficiency are separable constructs - you can have one without the other (Kirshner 31-33).
 
@@ -906,8 +914,6 @@ Most people intuitively understand topological equivalence without the formalism
 
 **Intuitive Topological Understanding**: Children demonstrate topological thinking early. A toddler who can't draw a recognizable square might successfully distinguish between shapes with holes and shapes without holes—a topological distinction that precedes Euclidean shape recognition (Piaget and Inhelder 45-50). When children play with nesting toys or shape sorters, they're exploring topological equivalence: this object fits through this hole because it's topologically compatible. The developmental psychologist Jean Piaget argued that topological intuitions (connectedness, enclosure, continuity) develop before Euclidean intuitions (straightness, angles, distances) (Piaget and Inhelder 50-55). This suggests genus-based thinking might be cognitively fundamental, not advanced.
 
-**The Competence-Language Gap**: People navigate topological concepts constantly—recognizing that pants have genus 3 (two leg holes plus one waist hole), understanding that a shirt must be pulled over the head or buttoned because its genus constrains how you can put it on, realizing that untangling headphones requires understanding how the cord is knotted—all without invoking Euler characteristics or homeomorphisms (Weeks 8-12). A person untangling jewelry chains demonstrates sophisticated topological reasoning: they visualize how loops connect, identify where chains are genuinely knotted versus merely tangled, and perform specific manipulations to reduce topological complexity. This is expert-level topology applied in real-time, lacking only the formal vocabulary to describe what's being done. The mathematical competence exists; the technical language that would let them communicate with professional topologists does not.
-
 ---
 
 ### Number Theory
@@ -939,8 +945,6 @@ Primes themselves exhibit mysterious patterns. The _Prime Number Theorem_, prove
 This asymmetry—multiplication is easy, factorization is hard—became the cornerstone of modern cryptography (Koblitz 1-5). Multiplying two 300-digit primes takes milliseconds on a standard computer. Factoring their product back into those primes could take longer than the age of the universe with current classical algorithms (Koblitz 5-8). This computational asymmetry, a fundamental property of number theory, protects every secure online transaction.
 
 #### Applications:
-
-**Calculating Days/Weeks/Years**: Every time you check whether a year is a leap year (divisibility by 4, with exceptions for century years), you're applying divisibility rules from elementary number theory. The competence-language gap is particularly stark in number theory. A child who can determine "If today is Tuesday, what day will it be 100 days from now?" is performing modular arithmetic: $100 \equiv 2 \pmod{7}$, so it will be Thursday (Dudley 3). The child may solve this by counting by sevens ("7, 14, 21... 98 is 14 weeks, so 2 days after Tuesday") without ever encountering the formal notation. The mathematical reasoning is complete and correct; only the symbolic language is absent. This pattern repeats throughout number theory: people demonstrate numerical competence—recognizing patterns, applying divisibility shortcuts, estimating prime factorizations—without the formal vocabulary that would let them discuss these concepts with mathematicians.
 
 **Calculating time on a 12-hour clock**: You perform modular arithmetic by saying, "It's 10am, and the meeting is in 5 hours." → $10 + 5 = 15$, but on a clock, that is 3 o'clock. You just computed $15 \pmod {12} = 3$.
 
@@ -981,8 +985,6 @@ The security of online shopping relies on the _Integer Factorization Problem_ (L
 **The Quantum Threat**: However, a major disruption looms. Quantum computers, when sufficiently developed, will be able to factor large numbers exponentially faster than classical computers using Shor's algorithm (Grobman 54-58; Clark et al. 25). This would break RSA and current [elliptic curve](#iwasawa-theory) systems, rendering decades of encrypted data vulnerable (Grobman 59-62). Researchers are now developing "post-quantum cryptography"—new mathematical structures resistant to quantum attacks, such as lattice-based cryptography and hash-based signatures (Clark et al. 25-26). The race is on to deploy these systems before quantum computers become powerful enough to threaten current encryption.
 
 **Home Cooking and Ratios**: Any home cook who doubles a recipe, converts cups to tablespoons, or adjusts a recipe designed for 4 people to serve 7 is performing proportional reasoning and ratio arithmetic—the same operations formalized in number theory and algebra. The cook who eyeballs "a little more flour" because the dough "doesn't feel right" is performing real-time estimation and feedback-based adjustment—an informal version of iterative approximation.
-
-**The Competence-Language Gap in Cryptography**: Every person who uses online banking, sends encrypted messages, or makes secure purchases demonstrates implicit trust in number-theoretic principles. They understand the _function_ of encryption ("this keeps my data safe") and make sophisticated decisions about when to use it, even if they've never seen Euler's totient function or studied modular arithmetic (Petras 700-705). The mathematical competence exists in recognizing the need for security, choosing appropriate tools, and verifying secure connections (the lock icon in the browser). The formal language—prime factorization, discrete logarithms, elliptic curve point multiplication—describes the mechanism but isn't necessary for effective use. As Lefton notes in teaching cryptography to students: the concepts become accessible when presented through familiar problems before introducing the intimidating notation (Lefton 54-60). This pedagogical finding supports the broader thesis: mathematical literacy can exist independently of mathematical language fluency.
 
 ---
 
@@ -1141,7 +1143,7 @@ The mathematical sophistication underlying Sudoku—involving group operations, 
 Real analysis uses the "epsilon-delta" definition to express limits rigorously - the idea that you can get as close as you want to a target value.
 The epsilon-delta ($\epsilon$-$\delta$) definition of a limit is the formal way to prove that a function $f(x)$ approaches a value $L$ as $x$ approaches $c$. While early calculus uses "approaches" or "tends to," this definition provides a precise, irrefutable mathematical structure for "closeness".
 
-We say $\lim_{x \to c} f(x) = L$ if for every $\epsilon > 0$, there exists a $\delta > 0$ such that for all $x$, if $0 < |x - c| < \delta$, then $|f(x) - L| < \epsilon$.
+We say $\displaystyle \lim_{x \to c} f(x) = L$ if for every $\epsilon > 0$, there exists a $\delta > 0$ such that for all $x$, if $0 < |x - c| < \delta$, then $|f(x) - L| < \epsilon$.
 
 - $\epsilon$ (Epsilon): Represents a tiny "tolerance" or error margin on the $y$-axis (the output range).
 - $\delta$ (Delta): Represents a corresponding distance on the $x$-axis (the input range).
@@ -1224,6 +1226,11 @@ _The Practical Translation_: Every time you judge a car as having a "smooth ride
 ### Topoisomerases (Knot Theory)
 
 In topology, a knot is a closed loop in 3D space that cannot be untangled to a simple circle without cutting it. Two knots are considered equivalent (the same knot) if one can be continuously deformed into the other without cutting the string. The simplest knot is the unknot (just a circle). The simplest non-trivial knot is the trefoil (overhand knot). How do you prove two knots are different? You can't just look at them - they might be the same knot twisted differently. You need a mathematical test.
+
+<figure>
+    <img src="images/Knot_Theory.png" alt="The Rolfsen Knot Table: Knots with 9 crossings">
+    <figcaption>The Rolfsen Knot Table: Knots with 9 crossings Source: <a href="https://people.math.harvard.edu/~opie/Rolfsen.pdf">Harvard University</a>.</figcaption>
+</figure>
 
 **Knot Invariants (Mathematical Fingerprints)**: A knot invariant is a number or polynomial that stays the same no matter how you twist or deform the knot. If two knots have different invariants, they must be different knots.
 
@@ -1341,13 +1348,32 @@ They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient math
 This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head. Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available. Unlike traditional (frequentist) statistics, which treats probability as the long-run frequency of repeatable events, the Bayesian approach treats it as a "degree of belief" in a specific outcome or parameter.
 
 **The Core Logic: Bayes' Theorem**
-At the heart of this method is Bayes' Theorem, which provides a formal mathematical bridge to update your initial views with new data. The relationship is often summarized as:
+At the heart of this method is Bayes' Theorem, which provides a formal mathematical bridge to update your initial views with new data, which can be written as:
+$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
+
+where
+- $P(A|B)$ is the posterior probability, the probability of the hypothesis A given the data B .
+- $P(B|A)$ is the likelihood, the probability of observing the data B given the hypothesis A.
+- $P(A)$ is the prior probability, the initial belief about the hypothesis before seeing the data.
+- $P(B)$ is the marginal likelihood, the probability of observing the data under all possible hypotheses.
+
+The relationship is often summarized as:
 $$\text{Posterior} \propto \text{Likelihood} \times \text{Prior}$$
 
 - Prior ($P(H)$): Your initial degree of belief in a hypothesis before seeing the new data.
 - Likelihood ($P(D|H)$): How likely it is that you would see this specific data if your hypothesis were true.
 - Posterior ($P(H|D)$): Your updated belief in the hypothesis after accounting for the new evidence.
 - Evidence ($P(D)$): A normalizing constant representing the total probability of observing the data across all possible hypotheses.
+
+<figure>
+    <img src="images/Bayesian.png" alt="Visual representation of Bayesian Updating">
+    <figcaption>Visual representation of Bayesian Updating Source: <a href="https://www.geeksforgeeks.org/data-science/bayesian-inference-1/">GeeksForGeeks: Bayesian Inference</a>.</figcaption>
+</figure>
+
+In the above graphical representation,
+- Prior Belief (Green Curve): This represents the initial understanding or assumptions before, seeing any new data. It is based on previous knowledge.
+- Evidence (Brown Curve): This the data we collect from experiments or real-world interactions and this act as the new information we want to incorporate.
+- Posterior Beliefs (Blue Curve): After considering the new evidence, the prior is updated to form posterior distribution which is a redefined belief that more accurately represents the state of knowledge.
 
 **Key Differences from Frequentist Statistics**
 
@@ -1421,8 +1447,6 @@ In short, a curve is a geodesic if it is locally "straight" on the surface, ensu
 **CGI & Face Filters**: When an Instagram filter maps a 3D mask onto your moving face, it uses differential geometry. It calculates the Gaussian Curvature of your cheeks and nose to make sure the digital mask stretches and "flows" realistically as you talk.
 
 **General Relativity (Gravity)**: Einstein used differential geometry to show that gravity isn't a "pull," but a curve in the fabric of space (Bliss 1; Liu 3). The Einstein Field Equations use these symbols to describe how the sun "curves" the space around it, keeping the Earth in orbit. The same mathematical framework that describes the shortest path on a sphere describes the motion of planets and light itself.
-
-**Educational Value**: Strong and Strong demonstrate that physical models of geodesics—such as string stretched on globe surfaces—help students grasp the size and scale of Earth far more effectively than equations alone (43-45). Students who struggle with the formal calculus of variations can still understand and predict geodesic paths through hands-on manipulation, again illustrating the separation between conceptual understanding and symbolic fluency.
 
 ---
 
@@ -1525,8 +1549,6 @@ Formally, a stochastic process is a family of random variables $\{X(t) : t \in T
    The time between events follows an exponential distribution with mean $1/\lambda$, and crucially, these inter-arrival times are memoryless: if you've been waiting 5 minutes for a bus, your remaining wait time has the same distribution as when you first arrived (Ross 295-300). This counterintuitive property—that "waiting doesn't help"—is unique to the exponential distribution and reflects the Markov property at the continuous-time level.
 
 Despite the mathematical sophistication, everyone reasons stochastically in daily life. When you leave extra time for a commute "in case traffic is bad," you're accounting for the stochastic nature of travel time. When you bring an umbrella because there's a 30% chance of rain, you're making decisions under uncertainty. When you check multiple times whether your alarm is set, you're responding to low-probability events with high consequences—basic risk assessment from a stochastic perspective (Kahneman and Tversky 1124-1131). The formal mathematics codifies what people already understand intuitively: the world contains genuine randomness, and optimal decisions require thinking probabilistically about uncertain futures.
-
-Everyone engages in stochastic reasoning constantly. When you decide whether to bring a jacket ("it might rain"), you're evaluating a stochastic outcome. When you leave early to catch a flight, accounting for possible traffic delays, you're responding to the random nature of travel time. When you diversify investments rather than putting everything in one stock, you're applying portfolio theory, which is built on stochastic processes (Markowitz 77-91). The formal mathematics—Markov chains, Poisson processes, Brownian motion, stochastic calculus—provides precision and enables quantitative predictions, but the core insight that "the future is uncertain and should be modeled probabilistically" is universally understood. People who have never heard of Kolmogorov's axioms or Itô's lemma make sophisticated stochastic decisions daily. They understand that randomness is real, that some things are predictable on average but uncertain in individual cases, and that optimal strategies must account for this uncertainty. The mathematical language lets specialists communicate precisely and derive optimal policies, but the underlying concepts—randomness, probability, risk—are part of common sense. This exemplifies the document's central thesis: mathematical competence exists independently of mathematical language, and the absence of formal vocabulary should not be mistaken for absence of understanding.
 
 #### Applications:
 
@@ -1948,9 +1970,7 @@ Graph theory is the study of networks of connections. In mathematics, a "graph" 
 
 **Google PageRank**: The original Google Search algorithm treated the entire internet as a giant graph. A page's "importance" (rank) was determined by how many other important nodes (websites) were pointing to it
 
-**Shortest Path Algorithms**: Dijkstra's algorithm finds the shortest route between two nodes.
-
-**Network Flow**: Figuring out the most efficient way to send goods through a network.
+**Data Structures**: Data structures provide the "containers" for those rules, such as Adjacency Matrices (2D arrays) or Adjacency Lists (arrays of linked lists) to represent the connections in a computer's memory
 
 **Coloring Problems**: Assigning colors to nodes so that no two connected nodes share the same color
 
@@ -2187,12 +2207,18 @@ Common Values and Limits (Klop):
 
 - $R(3,3) = 6$: It states that at any party with at least six people, you are mathematically guaranteed to find either a group of three people who all know each other or three people who are all total strangers.
 
-  "A party of 6 always contains a trio of mutual friends, or a trio of mutual strangers. Red edges indicate pairs of friends, blue lines connect strangers. The three green nodes indicate the (only) trio of mutual friends."
+<figure>
+  <img src="images/r3_3.png" alt="Graph illustrating R(3,3) = 6 with red and blue edges showing friendship and stranger relationships">
+  <figcaption>A party of 6 always contains a trio of mutual friends, or a trio of mutual strangers. Red edges indicate pairs of friends, blue lines connect strangers. The three green nodes indicate the (only) trio of mutual friends. Source: Klop 4.</figcaption>
+</figure>
 
-![](r3_3.png)
+- $R(4,3) = R(3,4) = 9$: 
 
-- $R(4,3) = R(3,4) = 9$: "A party of 9 people will always contain a trio (red), or a quartet of mutual friends of mutual strangers (blue)."
-  ![](r3_4.png)
+<figure>
+    <img src="images/r3_4.png" alt="Graph illustrating R(4,3) = R(3,4) = 9 with red and blue edges">
+    <figcaption>A party of 9 people will always contain a trio (red), or a quartet of mutual friends of mutual strangers (blue). Source: Klop 5.</figcaption>
+</figure>
+
 - $R(4,4) = 18$: For four mutual friends/strangers, you need a group of $18$
 - $R(5,5)$: Despite the theorem proving these numbers exist, we still do not know the exact value for $R(5,5)$, which is currently bounded between $43$ and $48$.
 
@@ -2201,6 +2227,11 @@ Common Values and Limits (Klop):
 ### Dirichlet's Box Principle (The Pigeonhole Principle)
 
 This is one of the simplest yet most powerful ideas in mathematics. If you have more items than containers, at least one container must hold more than one item. Formally: if $n$ items are placed into $m$ containers, and $n > m$, then at least one container must contain more than one item. Also known as Dirichlet's box principle or Dirichlet's drawer principle, named after German mathematician Peter Gustav Lejeune Dirichlet (1805-1859). Despite its simplicity, the pigeonhole principle is a fundamental tool in combinatorics and is closely related to Ramsey Theory—both guarantee that certain patterns must appear when a structure is large enough
+
+<figure>
+  <img src="images/Pigeonhole_Principle.png" alt="Illustration of the Pigeonhole Principle showing pigeons distributed among pigeonholes">
+  <figcaption>Visual representation of the Pigeonhole Principle. Source: <a href="https://calcworkshop.com/combinatorics/pigeonhole-principle">"Pigeonhole Principle," Calcworkshop</a>.</figcaption>
+</figure>
 
 **The Basic Principle**: If you try to put 11 pigeons into 10 pigeonholes, at least one pigeonhole must contain at least 2 pigeons. More generally, if you have $n$ pigeons and $m$ holes where $n > m$, at least one hole must contain at least $\lceil \frac{n}{m} \rceil$ pigeons (the ceiling function rounds up to the nearest integer).
 
@@ -2328,6 +2359,8 @@ Active learning, gamification, and collaborative problem-solving reduce intimida
 - Even one or two minutes of these structured activities can help reduce anxiety and prepare students emotionally for mathematical thinking.
 - Activities like journaling about challenges, guided breathing, and sharing coping strategies in small groups can normalize anxiety and build self-awareness, making emotional support a regular part of math instruction.
 
+Strong and Strong demonstrate that physical models of geodesics—such as string stretched on globe surfaces—help students grasp the size and scale of Earth far more effectively than equations alone (43-45). Students who struggle with the formal calculus of variations can still understand and predict geodesic paths through hands-on manipulation, again illustrating the separation between conceptual understanding and symbolic fluency.
+
 70% of Americans believe math education should focus more on real-world applications, further confirming that the public itself recognizes the disconnect between formal math instruction and the intuitive mathematical reasoning they already use (SWNS). Normalize confusion with mathematical language. Make it clear that difficulty with notation is common, expected, and not a reflection of intelligence (Al-Naim and Mefi 880).
 
 ### Students
@@ -2398,47 +2431,121 @@ To continue building your confidence, seek out resources that present mathematic
 
 ## References
 
+"Computer Algorithms for Solving Rubik's Cube." Cubing History, <https://www.cubinghistory.com/3x3/3x3ComputerAlgorithms>. Accessed 11 Apr. 2026.
+
+"God's Number Is 20." Cube20.org, <https://www.cube20.org>. Accessed 11 Apr. 2026.
+
+"God's Number." Ruwix, <https://ruwix.com/the-rubiks-cube/gods-number/>. Accessed 17 Apr. 2026.
+
+"God's Number." Wolfram MathWorld, <https://mathworld.wolfram.com/GodsNumber.html>. Accessed 11 Apr. 2026.
+
+"Kociemba's Two-Phase Algorithm." IIT Kanpur Computer Science, <https://cse.iitk.ac.in/users/cs365/2015/_submissions/anurag/report.pdf>. Accessed 17 Apr. 2026.
+
+"Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents." Cognitive Therapy and Research, vol. 45, no. 5, 2021, pp. 1001-1011. <https://doi.org/10.1007/s10608-023-10390-9>
+
+"The secret language of peers: How peer behaviours signal mindset and influence classroom experiences." Psychology of Education Review, 2024. <https://doi.org/10.1080/02667363.2024.12590930>
+
+"Thistlethwaite's Algorithm." University of Illinois, <https://new.math.uiuc.edu/math198/MA198-2016/lkulbis2/public_html/tmethod.html>. Accessed 17 Apr. 2026.
+
 Abbott, Martin, et al. Winning the Math Wars: No Teacher Left Behind. University of Washington Press, 2010. JSTOR, <http://www.jstor.org/stable/j.ctvcwnf7z>. Accessed 15 Apr. 2026.
-
-Al-Naim, Fatima, and Wael Mefi. "A Meta-Analysis of the Effectiveness of Interventions to Reduce Math Anxiety." Cypriot Journal of Educational Sciences, vol. 18, no. 3, 2023, pp. 869-885. Accessed 12 Apr. 2026.
-
-Sammallahti, E., et al. "A Meta-Analysis of Math Anxiety Interventions". Journal of Numerical Cognition, Vol. 9, no. 2, July 2023, p. Article e8401, <doi:10.5964/jnc.8401>. Accessed 12 Apr. 2026.
-
-Ding, Yanqing. "Measuring Developmental Students' Mathematics Anxiety." Research and Teaching in Developmental Education, vol. 33, no. 1, 2016, pp. 31–47. JSTOR, <http://www.jstor.org/stable/44290244>. Accessed 12 Apr. 2026.
-
-Holenstein, Mathias, et al. "Transfer Effects of Mathematical Literacy: An Integrative Longitudinal Study." European Journal of Psychology of Education, vol. 36, no. 3, 2021, pp. 799–825. JSTOR, <https://www.jstor.org/stable/48770850>. Accessed 13 Apr. 2026.
-
-Byrnes, James P. "The Development of Mathematical Competence." Cognitive Development for Academic Achievement: Building Skills and Motivation, Guilford Press, 2021, pp. 294–325. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115689.15>. Accessed 13 Apr. 2026.
-
-Souviney, Randall J. "Cognitive Competence and Mathematical Development." Journal for Research in Mathematics Education, vol. 11, no. 3, 1980, pp. 215–24. JSTOR, <https://doi.org/10.2307/748942>. Accessed 13 Apr. 2026.
 
 Abrantes, Paulo. "Mathematical Competence for All: Options, Implications and Obstacles." Educational Studies in Mathematics, vol. 47, no. 2, 2001, pp. 125–43. JSTOR, <http://www.jstor.org/stable/3483325>. Accessed 12 Apr. 2026.
 
-Hiebert, James. "A Theory of Developing Competence with Written Mathematical Symbols." Educational Studies in Mathematics, vol. 19, no. 3, 1988, pp. 333–55. JSTOR, <http://www.jstor.org/stable/3482522>. Accessed 13 Apr. 2026.
+Adkins, William A., and Mark G. Davidson. "Putzer's Algorithm for e^At via the Laplace Transform." Mathematics Magazine, vol. 83, no. 4, 2010, pp. 267–75. JSTOR, <https://doi.org/10.4169/002557010x521796>. Accessed 16 Apr. 2026.
 
-Kirshner, Dave. "Linguistic and Mathematical Competence." For the Learning of Mathematics, vol. 5, no. 2, 1985, pp. 31–33. JSTOR, <http://www.jstor.org/stable/40247778>. Accessed 13 Apr. 2026.
+Akin, J. E., and J. Counts. "On Rational Approximation to the Inverse Laplace Transform." SIAM Journal on Applied Mathematics, vol. 17, no. 6, 1969, pp. 1035–40. JSTOR, <http://www.jstor.org/stable/2099182>. Accessed 16 Apr. 2026.
 
-Schwartz, Robert. "Is Mathematical Competence Innate?" Philosophy of Science, vol. 62, no. 2, 1995, pp. 227–40. JSTOR, <http://www.jstor.org/stable/188432>. Accessed 13 Apr. 2026.
+Al-Naim, Fatima, and Wael Mefi. "A Meta-Analysis of the Effectiveness of Interventions to Reduce Math Anxiety." Cypriot Journal of Educational Sciences, vol. 18, no. 3, 2023, pp. 869-885. Accessed 12 Apr. 2026.
 
-Radišić, Jelena, et al. "Math Anxiety—Contributing School and Individual Level Factors." European Journal of Psychology of Education, vol. 30, no. 1, 2015, pp. 1–20. JSTOR, <http://www.jstor.org/stable/43551168>. Accessed 12 Apr. 2026.
+Alderson, Victor C. "Quaternions." Science, vol. 2, no. 48, 1895, pp. 735–36. JSTOR, <http://www.jstor.org/stable/1624054>. Accessed 17 Apr. 2026.
 
-Kim, Yanghee, et al. "An Embodied Agent Helps Anxious Students in Mathematics Learning." Educational Technology Research and Development, vol. 65, no. 1, 2017, pp. 219–35. JSTOR, http://www.jstor.org/stable/45018537. Accessed 12 Apr. 2026.
+Allendoerfer, Carl B. "The Dilemma in Geometry." The Mathematics Teacher, vol. 62, no. 3, 1969, pp. 165–69. JSTOR, <http://www.jstor.org/stable/27958094>. Accessed 16 Apr. 2026.
+
+Alm, Jeremy F., and James S. Walker. "Time-Frequency Analysis of Musical Instruments." SIAM Review, vol. 44, no. 3, 2002, pp. 457–76. JSTOR, <http://www.jstor.org/stable/4148384>. Accessed 14 Apr. 2026.
+
+Arcos, Carlos, et al. "Mini-Sudokus and Groups." Mathematics Magazine, vol. 83, no. 2, 2010, pp. 111–22. JSTOR, <https://doi.org/10.4169/002557010x482871>. Accessed 17 Apr. 2026.
 
 Ascher, Marcia. Mathematics Elsewhere: An Exploration of Ideas Across Cultures. Princeton University Press, 2002. JSTOR, https://doi.org/10.2307/j.ctv39x5q7. Accessed 9 Apr. 2026.
 
 Ashcraft, Mark H., and Elizabeth P. Krause. "Working Memory, Math Performance, and Math Anxiety." Psychonomic Bulletin & Review, vol. 14, no. 2, 2007, pp. 243-248.
 
+Austin, C. A., and L. M. Fisher. "DNA Topoisomerases: Enzymes That Change the Shape of DNA." Science Progress (1933- ), vol. 74, no. 2 (294), 1990, pp. 147–61. JSTOR, <http://www.jstor.org/stable/43423883>. Accessed 18 Apr. 2026.
+
+Baek, Joseph. "Geodesics and Curvature." Stanford University, <https://cs.stanford.edu/people/jbaek/18.821.paper2.pdf>. Accessed 14 Apr. 2026.
+
+Baik, Jinho, et al. "Phase Transition of the Largest Eigenvalue for Nonnull Complex Sample Covariance Matrices." The Annals of Probability, vol. 33, no. 5, 2005, pp. 1643–97. JSTOR, <http://www.jstor.org/stable/3481698>. Accessed 14 Apr. 2026.
+
+Bailey, David H., and Paul N. Swarztrauber. "The Fractional Fourier Transform and Applications." SIAM Review, vol. 33, no. 3, 1991, pp. 389–404. JSTOR, <http://www.jstor.org/stable/2031440>. Accessed 10 Apr. 2026.
+
+Banchoff, Thomas. "Non-Euclidean Geometry." Brown University, <https://www.math.brown.edu/tbanchof/Beyond3d/chapter9/section03.html>. Accessed 18 Apr. 2026.
+
+Banner, Adrian. "Taylor and Power Series: How to Solve Problems." The Calculus Lifesaver: All the Tools You Need to Excel at Calculus, SCH-School edition, Princeton University Press, 2007, pp. 551–74. JSTOR, <http://www.jstor.org/stable/j.ctt7s1h6.30>. Accessed 14 Apr. 2026.
+
+Bannon, Thomas. "The Origin of Quaternions." The College Mathematics Journal, vol. 46, no. 1, 2015, pp. 43–50. JSTOR, <https://doi.org/10.4169/college.math.j.46.1.43>. Accessed 8 Apr. 2026.
+
+Barrow, Melissa A. "Even Math Requires Learning Academic Language." The Phi Delta Kappan, vol. 95, no. 6, 2014, pp. 35-38. JSTOR, <http://www.jstor.org/stable/24374510>. Accessed 13 Apr. 2026.
+
+Beckner, William. "Inequalities in Fourier Analysis." Annals of Mathematics, vol. 102, no. 1, 1975, pp. 159–82. JSTOR, <https://doi.org/10.2307/1970980>. Accessed 10 Apr. 2026.
+
+Berry, Andrew C. "The Fourier Transform Identity Theorem." Annals of Mathematics, vol. 32, no. 2, 1931, pp. 227–32. JSTOR, <https://doi.org/10.2307/1968186>. Accessed 10 Apr. 2026.
+
+Binmore, Ken. "Game Theory." Rational Decisions, STU-Student edition, Princeton University Press, 2009, pp. 25–34. JSTOR, <http://www.jstor.org/stable/j.ctt7szmq.5>. Accessed 9 Apr. 2026.
+
+Bliss, Gilbert A. "Calculus of Variations." University of Edinburgh, <https://webhomes.maths.ed.ac.uk/~v1ranick/papers/bliss.pdf>. Accessed 14 Apr. 2026.
+
+Borschbach, Markus, and Christiane Grelle. "Solving the Rubik's Cube Using Genetic Algorithms." Workshop on Bio-Inspired Algorithms for Continuous Parameter Optimization, 2010, <http://www.genetic-programming.org/hc2010/7-Borschbach/Borschbach-PPSN-Paper.pdf>. Accessed 8 Apr. 2026.
+
+Boyer, Robert S., and J. Strother Moore. "Proof Checking the RSA Public Key Encryption Algorithm." The American Mathematical Monthly, vol. 91, no. 3, 1984, pp. 181–89. JSTOR, <https://doi.org/10.2307/2322356>. Accessed 17 Apr. 2026.
+
+Bracewell, Ronald N. "The Fourier Transform." Scientific American, vol. 260, no. 6, 1989, pp. 86–95. JSTOR, <http://www.jstor.org/stable/24987290>. Accessed 18 Apr. 2026.
+
 Brin, Sergey, and Lawrence Page. "The Anatomy of a Large-Scale Hypertextual Web Search Engine." Computer Networks and ISDN Systems, vol. 30, no. 1-7, 1998, pp. 107-117.
 
+Bryan, Kurt, and Tanya Leise. "The $25,000,000,000 Eigenvector: The Linear Algebra behind Google." SIAM Review, vol. 48, no. 3, 2006, pp. 569–81. JSTOR, <http://www.jstor.org/stable/20453840>. Accessed 10 Apr. 2026.
+
 Bureau of Labor Statistics, U.S. Department of Labor. "Numbers, Research, and Discovery: STEM Employment Projected to Take Off!" The Economics Daily, December 9, 2025, <www.bls.gov/opub/ted/2025/numbers-research-and-discovery-stem-employment-projected-to-take-off.htm>. Accessed 9 Apr. 2026.
+
+Busemann, Herbert. "Non-Euclidean Geometry." Mathematics Magazine, vol. 24, no. 1, 1950, pp. 19–34. JSTOR, <https://doi.org/10.2307/3029647>. Accessed 18 Apr. 2026.
+
+Bussey, W. H. "Non-Euclidean Geometry." The Mathematics Teacher, vol. 15, no. 8, 1922, pp. 445–59. JSTOR, <http://www.jstor.org/stable/27950455>. Accessed 17 Apr. 2026.
+
+Byrnes, James P. "The Development of Mathematical Competence." Cognitive Development for Academic Achievement: Building Skills and Motivation, Guilford Press, 2021, pp. 294–325. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115689.15>. Accessed 13 Apr. 2026.
+
+Callender, Clifton. "Continuous Harmonic Spaces." Journal of Music Theory, vol. 51, no. 2, 2007, pp. 277–332. JSTOR, <http://www.jstor.org/stable/40283131>. Accessed 18 Apr. 2026.
+
+Campbell, Stephen L., and Richard Haberman. Introduction to Differential Equations with Dynamical Systems. Princeton University Press, 2008. JSTOR, <https://doi.org/10.2307/j.ctvcmxp4x>. Accessed 10 Apr. 2026.
 
 Carey, Emma, et al. "Math Anxiety: Past Research, Promising Interventions, and a New Interpretation Framework." Frontiers in Psychology, vol. 10, 2019, article 2077, <doi:10.3389/fpsyg.2019.02077>. Accessed 12 Apr. 2026.
 
 Castillo, Darwin, et al. "Didactic Strategies for Conceptual Understanding and Motivation in University Mathematics: A Systematic Review." Frontiers in Education, vol. 10, 2025, <doi:10.3389/feduc.2025.1536470>. Accessed 12 Apr. 2026.
 
+Champoux, James J. "Type IA DNA Topoisomerases: Strictly One Step at a Time." Proceedings of the National Academy of Sciences of the United States of America, vol. 99, no. 19, 2002, pp. 11998–2000. JSTOR, <http://www.jstor.org/stable/3073156>. Accessed 17 Apr. 2026.
+
+Chiatante, D., et al. "Nuclear DNA Topoisomerases in Pisum Sativum L." Journal of Experimental Botany, vol. 44, no. 263, 1993, pp. 1045–51. JSTOR, <http://www.jstor.org/stable/23693460>. Accessed 17 Apr. 2026.
+
+Chu, Moody T. "Inverse Eigenvalue Problems." SIAM Review, vol. 40, no. 1, 1998, pp. 1–39. JSTOR, <http://www.jstor.org/stable/2652996>. Accessed 10 Apr. 2026.
+
+Clark, Robert, et al. "Post-Quantum Cryptography: A Security Patch for the Internet." The Impact of Quantum Technologies on Secure Communications, Australian Strategic Policy Institute, 2021, pp. 25–26. JSTOR, <http://www.jstor.org/stable/resrep31261.9>. Accessed 18 Apr. 2026.
+
+Cook, Sam, et al. "Sudoku: Just for Fun or Is It Mathematics?" Math Horizons, vol. 14, no. 3, 2007, pp. 13–15. JSTOR, <http://www.jstor.org/stable/25678670>. Accessed 8 Apr. 2026.
+
+Cunningham, R. L. "Ethics and Game Theory: The Prisoner's Dilemma." Papers on Non-Market Decision Making, vol. 2, 1967, pp. 11–26. JSTOR, <http://www.jstor.org/stable/25066097>. Accessed 14 Apr. 2026.
+
 D'Ambrosio, Ubiratan. "Ethnomathematics and Its Place in the History and Pedagogy of Mathematics." For the Learning of Mathematics, vol. 5, no. 1, 1985, pp. 44-48.
 
+D'Ambrosio, Ubiratan. Ethnomathematics: Link Between Traditions and Modernity. Sense Publishers, 2006.
+
+Daus, P. H. "The Founding of Non-Euclidean Geometry." Mathematics News Letter, vol. 7, no. 7/8, 1933, pp. 12–16. JSTOR, <https://doi.org/10.2307/3027483>. Accessed 18 Apr. 2026.
+
+Deakin, Michael A. B. "Euler's Version of the Laplace Transform." The American Mathematical Monthly, vol. 87, no. 4, 1980, pp. 264–69. JSTOR, <https://doi.org/10.2307/2321558>. Accessed 10 Apr. 2026.
+
+DeArmond, Joel. Elliptic Curve Cryptography: Extensions of Subfield Curves in Characteristic 2. Documents. Pence Boyce, Olivet Nazarene University, 2017, Olivet Scholarship. ONU Digital Collections. JSTOR, <https://jstor.org/stable/community.37867867>. Accessed 17 Apr. 2026.
+
+Delahaye, Jean-Paul. "The Science behind SUDOKU." Scientific American, vol. 294, no. 6, 2006, pp. 80–87. JSTOR, <http://www.jstor.org/stable/26061494>. Accessed 17 Apr. 2026.
+
 Demedts, Febe, et al. "Unraveling the Role of Math Anxiety in Students' Math Performance." Frontiers in Psychology, vol. 13, 2022, article 979113, <doi:10.3389/fpsyg.2022.979113>. Accessed 12 Apr. 2026.
+
+Dence, Thomas P. "Another Euclidean Geometry." Mathematics Magazine, vol. 47, no. 3, 1974, pp. 125–32. JSTOR, <https://doi.org/10.2307/2689267>. Accessed 16 Apr. 2026.
 
 Denervaud, Stéphanie, et al. "Gender Differences in the Intention to Study Math Increase with Math Performance." Nature Communications, vol. 14, no. 1, 2023, article 5225, <doi:10.1038/s41467-023-40951-6>. Accessed 9 Apr. 2026.
 
@@ -2446,9 +2553,33 @@ Devisch, René, and Francis B. Nyamnjoh, editors. The Postcolonial Turn: Re-Imag
 
 Dijkstra, E. W. "A Note on Two Problems in Connexion with Graphs." Numerische Mathematik, vol. 1, 1959, pp. 269-271.
 
-D'Ambrosio, Ubiratan. Ethnomathematics: Link Between Traditions and Modernity. Sense Publishers, 2006.
+Ding, Yanqing. "Measuring Developmental Students' Mathematics Anxiety." Research and Teaching in Developmental Education, vol. 33, no. 1, 2016, pp. 31–47. JSTOR, <http://www.jstor.org/stable/44290244>. Accessed 12 Apr. 2026.
+
+Diniz-Filho, José Alexandre Felizola, et al. "An Eigenvector Method for Estimating Phylogenetic Inertia." Evolution, vol. 52, no. 5, 1998, pp. 1247–62. JSTOR, <https://doi.org/10.2307/2411294>. Accessed 9 Apr. 2026.
+
+Dirac, P. A. M. "Application of Quaternions to Lorentz Transformations." Proceedings of the Royal Irish Academy. Section A: Mathematical and Physical Sciences, vol. 50, 1944, pp. 261–70. JSTOR, <http://www.jstor.org/stable/20520646>. Accessed 17 Apr. 2026.
+
+Dixit, Atul. "The Laplace Transform of the Psi Function." Proceedings of the American Mathematical Society, vol. 138, no. 2, 2010, pp. 593–603. JSTOR, <http://www.jstor.org/stable/40590774>. Accessed 16 Apr. 2026.
+
+Duffin, R. J., and A. C. Schaeffer. "Power Series with Bounded Coefficients." American Journal of Mathematics, vol. 67, no. 1, 1945, pp. 141–54. JSTOR, <https://doi.org/10.2307/2371922>. Accessed 14 Apr. 2026.
+
+Efthimiou, Costas J. "Trigonometric Series via Laplace Transforms." Mathematics Magazine, vol. 79, no. 5, 2006, pp. 376–79. JSTOR, <https://doi.org/10.2307/27642975>. Accessed 16 Apr. 2026.
 
 Eglash, Ron. African Fractals: Modern Computing and Indigenous Design. Rutgers UP, 1999.
+
+Einstein, Albert. The Essential Einstein: Public Writings. Edited by Diana Kormos Buchwald and Tilman Sauer, Princeton University Press, 2025. JSTOR, <https://doi.org/10.2307/jj.27710924>. Accessed 11 Apr. 2026.
+
+Erdős, Paul, et al. "Sets of Divergence of Taylor Series and of Trigonometric Series." Mathematica Scandinavica, vol. 2, no. 2, 1954, pp. 262–66. JSTOR, <http://www.jstor.org/stable/24489039>. Accessed 14 Apr. 2026.
+
+Euler, Russell. "Laplace Transforms and Taylor Series." Pi Mu Epsilon Journal, vol. 10, no. 4, 1996, pp. 305–07. JSTOR, <http://www.jstor.org/stable/24345100>. Accessed 18 Apr. 2026.
+
+Eves, Howard. "Power(ful) Series." Great Moments in Mathematics (After 1650), 1st ed., vol. 7, Mathematical Association of America, 1983, pp. 40–51. JSTOR, <http://www.jstor.org/stable/10.4169/j.ctt6wpwqx.7>. Accessed 14 Apr. 2026.
+
+Fava, Megan. "What is... Game Theory?" Ohio State University Department of Mathematics, 2018, <https://math.osu.edu/sites/math.osu.edu/files/What_is_2018_Game_Theory.pdf>. Accessed 8 Apr. 2026.
+
+Faye Bruun, et al. "The Language of Mathematics." Teaching Children Mathematics, vol. 21, no. 9, 2015, pp. 530-36. JSTOR, <https://doi.org/10.5951/teacchilmath.21.9.0530>. Accessed 13 Apr. 2026.
+
+Feldman, Dan, and Eldar Haber. "Measuring and Protecting Privacy in the Always-On Era." Berkeley Technology Law Journal, vol. 35, no. 1, 2020, pp. 197–250. JSTOR, <https://www.jstor.org/stable/26954423>. Accessed 18 Apr. 2026.
 
 Ferdinand, Rebecca, Margherita Malanchini, and Kaili Rimfeld. "Mathematics Interest, Self-Efficacy, and Anxiety Predict STEM Career Choice in Emerging Adulthood." npj Science of Learning, vol. 9, article 66, 2024, <doi:10.1038/s41539-024-00275-1>. Accessed 9 Apr. 2026.
 
@@ -2456,9 +2587,19 @@ Ferreira, Roberto A., et al. "The Interplay of Vocabulary, Working Memory, and M
 
 Finlayson, Maureen. "Addressing Math Anxiety in the Classroom." Journal of Curriculum and Teaching, vol. 3, no. 2, 2014, pp. 108-115.
 
+Fortescue, Chelsea M. "Using Oral and Written Language to Increase Understanding of Math Concepts." Language Arts, vol. 71, no. 8, 1994, pp. 576-80. JSTOR, <http://www.jstor.org/stable/41962011>. Accessed 13 Apr. 2026.
+
+French, Robert. "Is Euclidean Geometry Analytic?" Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition, vol. 49, no. 2, 1986, pp. 213–17. JSTOR, <http://www.jstor.org/stable/4319821>. Accessed 11 Apr. 2026.
+
+Fromkin, A. Michael. "The Metaphor Is the Key: Cryptography, the Clipper Chip, and the Constitution." University of Pennsylvania Law Review, vol. 143, no. 3, 1995, pp. 709–897. JSTOR, <https://doi.org/10.2307/3312529>. Accessed 11 Apr. 2026.
+
 Gal, Iddo, et al. "Numeracy, adult education, and vulnerable adults: a critical view of a neglected field." ZDM – Mathematics Education, vol. 52, 2020. <https://doi.org/10.1007/s11858-020-01155-9>
 
+Gao, Wen-Biao. "Biquaternion Fourier Transform and Its Applications." Filomat, vol. 38, no. 28, 2024, pp. 9851–65. JSTOR, <https://www.jstor.org/stable/27387941>. Accessed 16 Apr. 2026.
+
 Garland, Ken. Mr Beck's Underground Map. Capital Transport Publishing, 1994.
+
+Geretschläger, Robert. "Euclidean Constructions and the Geometry of Origami." Mathematics Magazine, vol. 68, no. 5, 1995, pp. 357–71. JSTOR, <https://doi.org/10.2307/2690924>. Accessed 11 Apr. 2026.
 
 Ghosh, Chaitali, and Trisha Banerjee. "Integrating Indigenous Mathematical Knowledge into Contemporary Education: Relevance, Pedagogical Implications, and Sustainable Perspectives." EPRA International Journal of Multidisciplinary Research, Apr. 2026, <https://eprajournals.com/IJMR/article/19532>. Accessed 9 Apr. 2026.
 
@@ -2468,17 +2609,113 @@ Gladwin, Thomas. East Is a Big Bird: Navigation and Logic on Puluwat Atoll. Harv
 
 Gold, Bonnie, and Roger A. Simons, editors. Proof and Other Dilemmas. 1st ed., Mathematical Association of America, 2008. JSTOR, http://www.jstor.org/stable/10.4169/j.ctt13x0n9d. Accessed 15 Apr. 2026.
 
+González-Díaz, Julio, et al. An Introductory Course on Mathematical Game Theory. American Mathematical Society, 2010.
+
+Green, H. Gwynedd. "Infinity in Euclidean Geometry." The Mathematical Gazette, vol. 21, no. 246, 1937, pp. 343–46. JSTOR, <https://doi.org/10.2307/3606664>. Accessed 11 Apr. 2026.
+
+Greenberg, Jan. "More, All Gone, Empty, Full: Math Talk Every Day in Every Way." YC Young Children, vol. 67, no. 3, 2012, pp. 62-64. JSTOR, <http://www.jstor.org/stable/42731176>. Accessed 13 Apr. 2026.
+
+Griffiths, Peter R. "Fourier Transform Infrared Spectrometry." Science, vol. 222, no. 4621, 1983, pp. 297–302. JSTOR, <http://www.jstor.org/stable/1691609>. Accessed 10 Apr. 2026.
+
+Grobman, Steve. "Quantum Computing's Cyber-Threat to National Security." PRISM, vol. 9, no. 1, 2020, pp. 52–67. JSTOR, <https://www.jstor.org/stable/26940159>. Accessed 11 Apr. 2026.
+
+Guggenheimer, H. "Systems of Linear Differential Equations by Laplace Transform." The College Mathematics Journal, vol. 23, no. 3, 1992, pp. 196–202. JSTOR, <https://doi.org/10.2307/2686296>. Accessed 16 Apr. 2026.
+
+Halsted, George Bruce. "Gauss and the Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 11, 1900, pp. 247–52. JSTOR, <https://doi.org/10.2307/2968396>. Accessed 16 Apr. 2026.
+
+Halsted, George Bruce. "Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 5, 1900, pp. 123–33. JSTOR, <https://doi.org/10.2307/2970500>. Accessed 16 Apr. 2026.
+
+Halsted, George Bruce. "Non-Euclidean Geometry: Historical and Expository." The American Mathematical Monthly, vol. 1, no. 5, 1894, pp. 149–52. JSTOR, <https://doi.org/10.2307/2969703>. Accessed 16 Apr. 2026.
+
+Hamilton, Wm. R. "Theory of Quaternions." Proceedings of the Royal Irish Academy (1836-1869), vol. 3, 1844, pp. 1–16. JSTOR, <http://www.jstor.org/stable/20489494>. Accessed 8 Apr. 2026.
+
+Havil, Julian. Curves for the Mathematically Curious: An Anthology of the Unpredictable, Historical, Beautiful, and Romantic. Princeton University Press, 2019. JSTOR, <https://doi.org/10.2307/j.ctvfrxr22>. Accessed 17 Apr. 2026.
+
+Hecker, David, and Ranan Banerji. "The Slice Group in Rubik's Cube." Mathematics Magazine, vol. 58, no. 4, 1985, pp. 211–18. JSTOR, <https://doi.org/10.2307/2689516>. Accessed 17 Apr. 2026.
+
+Henderson, Andrea. "Math for Math's Sake: Non-Euclidean Geometry, Aestheticism, and 'Flatland.'" PMLA, vol. 124, no. 2, 2009, pp. 455–71. JSTOR, <http://www.jstor.org/stable/25614286>. Accessed 11 Apr. 2026.
+
+Henderson, Linda Dalrymple. "The Fourth Dimension and Non-Euclidean Geometry in Modern Art: Conclusion." Leonardo, vol. 17, no. 3, 1984, pp. 205–10. JSTOR, <https://doi.org/10.2307/1575193>. Accessed 17 Apr. 2026.
+
+Hersh, Reuben, and Vera John-Steiner. Loving and Hating Mathematics: Challenging the Myths of Mathematical Life. Princeton University Press, 2011. JSTOR, <http://www.jstor.org/stable/j.ctt7s8zx>. Accessed 15 Apr. 2026.
+
+Herz, C. S. "Fourier Transforms Related to Convex Sets." Annals of Mathematics, vol. 75, no. 1, 1962, pp. 81–92. JSTOR, <https://doi.org/10.2307/1970421>. Accessed 14 Apr. 2026.
+
+Hiebert, James. "A Theory of Developing Competence with Written Mathematical Symbols." Educational Studies in Mathematics, vol. 19, no. 3, 1988, pp. 333–55. JSTOR, <http://www.jstor.org/stable/3482522>. Accessed 13 Apr. 2026.
+
 Hodkowski, Nicola. "When Teaching Students Math, Concepts Matter More Than Process." EdSurge, June 5, 2024, <www.edsurge.com/news/2024-06-05-when-teaching-students-math-concepts-matter-more-than-process>. Accessed 12 Apr. 2026.
+
+Holden, Joshua. The Mathematics of Secrets: Cryptography from Caesar Ciphers to Digital Encryption. NED-New edition, Princeton University Press, 2017. JSTOR, <https://doi.org/10.2307/j.ctvc775xv>. Accessed 17 Apr. 2026.
+
+Holenstein, Mathias, et al. "Transfer Effects of Mathematical Literacy: An Integrative Longitudinal Study." European Journal of Psychology of Education, vol. 36, no. 3, 2021, pp. 799–825. JSTOR, <https://www.jstor.org/stable/48770850>. Accessed 13 Apr. 2026.
+
+Hottinger, Sara N. Inventing the Mathematician: Gender, Race, and Our Cultural Understanding of Mathematics. State University of New York Press, 2016. JSTOR, <http://www.jstor.org/stable/jj.18255257>. Accessed 15 Apr. 2026.
+
+Hutton, M. "Laplace Transforms." The Mathematical Gazette, vol. 35, no. 314, 1951, pp. 303–303. JSTOR, <https://doi.org/10.2307/3611521>. Accessed 10 Apr. 2026.
 
 iD Tech. "STEM Education Statistics." iD Tech, 2025, <www.idtech.com/blog/stem-education-statistics>. Accessed 12 Apr. 2026.
 
-Kabuye Batiibwe, Marjorie Sarah. "The Role of Ethnomathematics in Mathematics Education: A Literature Review." Asian Journal for Mathematics Education, 2024, pp. 383-405, <https://journals.sagepub.com/doi/pdf/10.1177/27527263241300400>. Accessed 12 Apr. 2026.
+Jamski, William D. "Spherical Geodesics." The Mathematics Teacher, vol. 74, no. 3, 1981, pp. 227–36. JSTOR, <http://www.jstor.org/stable/27962399>. Accessed 8 Apr. 2026.
+
+Jia, Hongkai. "Geodesics." Iowa State University, <https://faculty.sites.iastate.edu/jia/files/inline-files/geodesics.pdf>. Accessed 14 Apr. 2026.
+
+Jia, Peng, et al. "Opinion Dynamics and the Evolution of Social Power in Influence Networks." SIAM Review, vol. 57, no. 3, 2015, pp. 367–97. JSTOR, <http://www.jstor.org/stable/24778737>. Accessed 9 Apr. 2026.
+
+Jones, Michael A., Brittany C. Shelton, and Miriam E. Weaverdyck. "On God's Number(s) for Rubik's Slide." The College Mathematics Journal, vol. 45, no. 4, 2014, pp. 267–75. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.267>. Accessed 14 Apr. 2026.
+
+Jones, Philip Chapin. "Kant, Euclid, and the Non-Euclideans." Philosophy of Science, vol. 13, no. 2, 1946, pp. 137–43. JSTOR, <http://www.jstor.org/stable/184259>. Accessed 11 Apr. 2026.
 
 Joseph, George Gheverghese. The Crest of the Peacock: Non-European Roots of Mathematics (Third Edition). STU-Student edition, Princeton University Press, 2011. JSTOR, <http://www.jstor.org/stable/j.ctt7sdsb>. Accessed 15 Apr. 2026.
 
+Joyner, David. "The Man Who Found God's Number." The College Mathematics Journal, vol. 45, no. 4, 2014, pp. 258–66. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.258>. Accessed 11 Apr. 2026.
+
+Jozsa, R. "Quantum Algorithms and the Fourier Transform." Proceedings: Mathematical, Physical and Engineering Sciences, vol. 454, no. 1969, 1998, pp. 323–37. JSTOR, <http://www.jstor.org/stable/53168>. Accessed 18 Apr. 2026.
+
+Kabuye Batiibwe, Marjorie Sarah. "The Role of Ethnomathematics in Mathematics Education: A Literature Review." Asian Journal for Mathematics Education, 2024, pp. 383-405, <https://journals.sagepub.com/doi/pdf/10.1177/27527263241300400>. Accessed 12 Apr. 2026.
+
 Kanu, Yatta, editor. Curriculum as Cultural Practice: Postcolonial Imaginations. University of Toronto Press, 2006. JSTOR, <https://doi.org/10.3138/9781442686267>. Accessed 15 Apr. 2026.
 
+Kashiwara, Masaki, and Pierre Schapira. "Integral Transforms with Exponential Kernels and Laplace Transform." Journal of the American Mathematical Society, vol. 10, no. 4, 1997, pp. 939–72. JSTOR, <http://www.jstor.org/stable/2152878>. Accessed 18 Apr. 2026.
+
+Keedwell, A. D. "Two Remarks about Sudoku Squares." The Mathematical Gazette, vol. 90, no. 519, 2006, pp. 425–30. JSTOR, <http://www.jstor.org/stable/40378190>. Accessed 17 Apr. 2026.
+
+Kim, Yanghee, et al. "An Embodied Agent Helps Anxious Students in Mathematics Learning." Educational Technology Research and Development, vol. 65, no. 1, 2017, pp. 219–35. JSTOR, http://www.jstor.org/stable/45018537. Accessed 12 Apr. 2026.
+
+Kirshner, Dave. "Linguistic and Mathematical Competence." For the Learning of Mathematics, vol. 5, no. 2, 1985, pp. 31–33. JSTOR, <http://www.jstor.org/stable/40247778>. Accessed 13 Apr. 2026.
+
+Klop, Jan Willem. "Ramsey Theory: An Aha! Insight." 2023, <https://janwillemklop.com/wp-content/uploads/2023/08/ramsey-aha-insight.pdf>. Accessed 16 Apr. 2026.
+
+Knight, Lester N., and Charles H. Hargis. "Math Language Ability: Its Relationship to Reading in Math." Language Arts, vol. 54, no. 4, 1977, pp. 423-28. JSTOR, <http://www.jstor.org/stable/41404547>. Accessed 13 Apr. 2026.
+
+Knijnik, Gelsa. "Ethnomathematics: Culture and Politics of Knowledge in Mathematics Education." For the Learning of Mathematics, vol. 22, no. 1, 2002, pp. 11–14. JSTOR, <http://www.jstor.org/stable/40248378>. Accessed 15 Apr. 2026.
+
+Ladd, Christine. "Quaternions." The Analyst, vol. 4, no. 6, 1877, pp. 172–74. JSTOR, <https://doi.org/10.2307/2635769>. Accessed 17 Apr. 2026.
+
+Langville, Amy N., and Carl D. Meyer. "A Survey of Eigenvector Methods for Web Information Retrieval." SIAM Review, vol. 47, no. 1, 2005, pp. 135–61. JSTOR, <http://www.jstor.org/stable/20453606>. Accessed 14 Apr. 2026.
+
+Lee, H. C. "On Clifford Algebras and Their Representations." Annals of Mathematics, vol. 49, no. 4, 1948, pp. 760–73. JSTOR, <https://doi.org/10.2307/1969398>. Accessed 17 Apr. 2026.
+
+Lee, Shun-Hsiao, et al. "Synthesis and Dissolution of Hemicatenanes by Type IA DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 110, no. 38, 2013, pp. 15177–15177. JSTOR, <http://www.jstor.org/stable/42713286>. Accessed 18 Apr. 2026.
+
+Lefton, Phyllis. "Number Theory and Public-Key Cryptography." The Mathematics Teacher, vol. 84, no. 1, 1991, pp. 54–62. JSTOR, <http://www.jstor.org/stable/27967000>. Accessed 11 Apr. 2026.
+
+Leisenring, Kenneth. "Area in Non-Euclidean Geometry." The American Mathematical Monthly, vol. 58, no. 5, 1951, pp. 315–22. JSTOR, <https://doi.org/10.2307/2307718>. Accessed 11 Apr. 2026.
+
+Lin, Xin, et al. "Mechanical Fourier Transform for Programmable Metamaterials." Proceedings of the National Academy of Sciences of the United States of America, vol. 120, no. 37, 2023, pp. 1–9. JSTOR, <https://www.jstor.org/stable/27265985>. Accessed 10 Apr. 2026.
+
+Lindgren, William. "Mathematical Sudoku." Math Horizons, vol. 15, no. 2, 2007, pp. 21–21. JSTOR, <http://www.jstor.org/stable/25678721>. Accessed 17 Apr. 2026.
+
+Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https://prod-ms-be.lib.mcmaster.ca/server/api/core/bitstreams/5004a6a1-22f3-4e67-b94d-5567959e4d50/content>. Accessed 8 Apr. 2026.
+
+Lord, Nick. "Winning Ways for Your Mathematical Plays, Volume 2." Review of Winning Ways for Your Mathematical Plays, Volume 2, by Elwyn R. Berlekamp et al. The Mathematical Gazette, vol. 88, no. 512, 2004, pp. 414–15. JSTOR, <http://www.jstor.org/stable/3620944>. Accessed 14 Apr. 2026.
+
+Lounesto, Pertti, and Esko Latvamaa. "Conformal Transformations and Clifford Algebras." Proceedings of the American Mathematical Society, vol. 79, no. 4, 1980, pp. 533–38. JSTOR, <https://doi.org/10.2307/2042491>. Accessed 8 Apr. 2026.
+
 Lu, Peter J., and Paul J. Steinhardt. "Decagonal and Quasi-Crystalline Tilings in Medieval Islamic Architecture." Science, vol. 315, no. 5815, 2007, pp. 1106-1110, <doi:10.1126/science.1135491>. Accessed 12 Apr. 2026.
+
+Luciano, Dennis, and Gordon Prichett. "Cryptology: From Caesar Ciphers to Public-Key Cryptosystems." The College Mathematics Journal, vol. 18, no. 1, 1987, pp. 2–17. JSTOR, <https://doi.org/10.2307/2686311>. Accessed 11 Apr. 2026.
+
+Lunardi, Alessandra. "Laplace Transform Methods in Integrodifferential Equations." Journal of Integral Equations, vol. 10, no. 1/3, 1985, pp. 185–211. JSTOR, <http://www.jstor.org/stable/26164176>. Accessed 16 Apr. 2026.
 
 Lusardi, Annamaria, and Peter Tufano. "Debt Literacy, Financial Experiences, and Overindebtedness." Journal of Pension Economics and Finance, vol. 14, no. 4, 2015, pp. 332-368.
 
@@ -2486,17 +2723,63 @@ Lyons, Ian M., and Sian L. Beilock. "When Math Hurts: Math Anxiety Predicts Pain
 
 Ma, Xin. "A Meta-Analysis of the Relationship between Anxiety toward Mathematics and Achievement in Mathematics." Journal for Research in Mathematics Education, vol. 30, no. 5, 1999, pp. 520–40. JSTOR, <https://doi.org/10.2307/749772>. Accessed 12 Apr. 2026.
 
+Mackenzie, J. K. "Evaluation of a Fourier Transform." SIAM Review, vol. 9, no. 2, 1967, pp. 219–22. JSTOR, <http://www.jstor.org/stable/2027445>. Accessed 14 Apr. 2026.
+
+Mader, Adolf. "A Euclidean Model for Euclidean Geometry." The American Mathematical Monthly, vol. 96, no. 1, 1989, pp. 43–49. JSTOR, <https://doi.org/10.2307/2323257>. Accessed 16 Apr. 2026.
+
 Malanchini, Margherita, et al. "Math Anxiety in Parents and Children: Links and Mechanisms." Frontiers in Psychology, vol. 13, 2022, article 885152, <doi:10.3389/fpsyg.2022.885152>. Accessed 12 Apr. 2026.
 
-"Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents." Cognitive Therapy and Research, vol. 45, no. 5, 2021, pp. 1001-1011. <https://doi.org/10.1007/s10608-023-10390-9>
+Manjul, Pankaj, et al. "The Mathematics of Rubik's Cube." arXiv preprint, arXiv:2501.00144, 2025, <https://arxiv.org/abs/2501.00144>. Accessed 8 Apr. 2026.
+
+Mazalov, Vladimir. Mathematical Game Theory and Applications. Wiley, 2014.
+
+McShane, E. J. "The Fourier Transform and Mean Convergence." The American Mathematical Monthly, vol. 68, no. 3, 1961, pp. 205–11. JSTOR, <https://doi.org/10.2307/2311446>. Accessed 16 Apr. 2026.
+
+McVie, J. G. "DNA Topoisomerases In Cancer Treatment." British Medical Journal (Clinical Research Edition), vol. 296, no. 6630, 1988, pp. 1145–46. JSTOR, <http://www.jstor.org/stable/29530477>. Accessed 17 Apr. 2026.
+
+Meijer, A. R. "Groups, Factoring, and Cryptography." Mathematics Magazine, vol. 69, no. 2, 1996, pp. 103–09. JSTOR, <http://www.jstor.org/stable/2690663>. Accessed 17 Apr. 2026.
+
+Menger, Karl. "New Foundation of Euclidean Geometry." American Journal of Mathematics, vol. 53, no. 4, 1931, pp. 721–45. JSTOR, <https://doi.org/10.2307/2371222>. Accessed 11 Apr. 2026.
+
+Meserve, Bruce E. "The Evolution of Geometry." The Mathematics Teacher, vol. 49, no. 5, 1956, pp. 372–82. JSTOR, <http://www.jstor.org/stable/27955187>. Accessed 10 Apr. 2026.
+
+Meyerson, Mark D. "Every Power Series Is a Taylor Series." The American Mathematical Monthly, vol. 88, no. 1, 1981, pp. 51–52. JSTOR, <https://doi.org/10.2307/2320716>. Accessed 10 Apr. 2026.
+
+Milewski, Amanda, and Daniel Frohardt. "Seeing Algebraic Structure: The Rubik's Cube." The Mathematics Teacher, vol. 113, no. 5, 2020, pp. 397–403. JSTOR, <https://doi.org/10.5951/mtlt.2019.0075>. Accessed 10 Apr. 2026.
+
+Miller, E. "The Non-Euclidean Geometry." Transactions of the Kansas Academy of Science (1903-), vol. 19, 1903, pp. 374–78. JSTOR, <https://doi.org/10.2307/3624223>. Accessed 16 Apr. 2026.
+
+Miller, G. A. "Non-Euclidean Geometry." Science, vol. 20, no. 517, 1892, pp. 370–72. JSTOR, <http://www.jstor.org/stable/1767948>. Accessed 17 Apr. 2026.
 
 Millroy, Wendy L. "Exploring the Nature of Street Mathematics." Street Mathematics and School Mathematicsby Terezinha Nunes et al. Journal for Research in Mathematics Education, vol. 25, no. 3, 1994, pp. 304–09. JSTOR, <https://doi.org/10.2307/749340>. Accessed 15 Apr. 2026.
 
+MIT OpenCourseWare. "Laplace Transform: Basics." MIT 18.03SC Differential Equations, Fall 2011, <https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/unit-iii-fourier-series-and-laplace-transform/laplace-transform-basics/>. Accessed 16 Apr. 2026.
+
+Morrison, Kent E. "Cosine Products, Fourier Transforms, and Random Sums." The American Mathematical Monthly, vol. 102, no. 8, 1995, pp. 716–24. JSTOR, <https://doi.org/10.2307/2974641>. Accessed 18 Apr. 2026.
+
+Muckenhoupt, Benjamin. "Weighted Norm Inequalities for the Fourier Transform." Transactions of the American Mathematical Society, vol. 276, no. 2, 1983, pp. 729–42. JSTOR, <https://doi.org/10.2307/1999080>. Accessed 14 Apr. 2026.
+
+Munetsi, Cribert. "Ethnomathematics." The Mathematics Teacher, vol. 88, no. 1, 1995, pp. 74–74. JSTOR, <http://www.jstor.org/stable/27969197>. Accessed 15 Apr. 2026.
+
+Munro, John. "Language Abilities and Maths Performance." The Reading Teacher, vol. 32, no. 8, 1979, pp. 900-15. JSTOR, <http://www.jstor.org/stable/20194911>. Accessed 13 Apr. 2026.
+
+Méteignier, Louis-Valentin, et al. "Topoisomerase VI Participates in an Insulator-like Function That Prevents H3K9me2 Spreading." Proceedings of the National Academy of Sciences of the United States of America, vol. 119, no. 27, 2022, pp. 1–12. JSTOR, <https://www.jstor.org/stable/27153060>. Accessed 8 Apr. 2026.
+
+Neuman, Keir C. "Evolutionary Twist on Topoisomerases: Conversion of Gyrase to Topoisomerase IV." Proceedings of the National Academy of Sciences of the United States of America, vol. 107, no. 52, 2010, pp. 22363–64. JSTOR, <http://www.jstor.org/stable/25770642>. Accessed 17 Apr. 2026.
+
+Niven, Ivan. "Equations in Quaternions." The American Mathematical Monthly, vol. 48, no. 10, 1941, pp. 654–61. JSTOR, <https://doi.org/10.2307/2303304>. Accessed 17 Apr. 2026.
+
 Nunes, Terezinha, Analucia Dias Schliemann, and David William Carraher. Street Mathematics and School Mathematics. Cambridge UP, 1993.
+
+Opatowski, I. "Laplace Transform of (erf√t)²." The American Mathematical Monthly, vol. 59, no. 6, 1952, pp. 392–392. JSTOR, <https://doi.org/10.2307/2306813>. Accessed 16 Apr. 2026.
+
+Opesemowo, Oluwaseyi Aina Gbolade, et al. "Improving Mathematics Performance Through After-School Interventions: A Gender-Based Analysis of Low-Achieving Students." Educ. Sci. 2025, 2025. <https://doi.org/10.3390/educsci15121587>
 
 Oppenheim, Alan V., and Ronald W. Schafer. Discrete-Time Signal Processing. 3rd ed., Pearson, 2010.
 
-Opesemowo, Oluwaseyi Aina Gbolade, et al. "Improving Mathematics Performance Through After-School Interventions: A Gender-Based Analysis of Low-Achieving Students." Educ. Sci. 2025, 2025. <https://doi.org/10.3390/educsci15121587>
+Ortlieb, Evan, et al., editors. Disciplinary Literacies: Unpacking Research, Theory, and Practice. Guilford Press, 2024. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115529>. Accessed 15 Apr. 2026.
+
+Osheroff, Neil, and James C. Wang. "Genetics." Untangling the Double Helix: DNA Entanglement and the Action of the DNA Topoisomerases. The Quarterly Review of Biology, vol. 85, no. 2, 2010, pp. 232–33. JSTOR, <https://doi.org/10.1086/652361>. Accessed 18 Apr. 2026.
 
 Paechter, Manuela, et al. "From Early Interest to Career Persistence: Understanding and Supporting STEM Pathways." Educ. Sci. 2024, 2024. <https://doi.org/10.3390/educsci14070767>
 
@@ -2504,395 +2787,145 @@ Pei, Yiru, Kin Keung Poon, and Anthony Suen. "Influence of Mathematics Anxiety o
 
 Peters, Ellen. Innumeracy in the Wild: Misunderstanding and Misusing Numbers. Oxford University Press, 2020.
 
+Petras, Richard T. "Privacy for the Twenty-First Century: Cryptography." The Mathematics Teacher, vol. 94, no. 8, 2001, pp. 689–707. JSTOR, <http://www.jstor.org/stable/20870843>. Accessed 17 Apr. 2026.
+
 Pimm, David. Speaking Mathematically: Communication in Mathematics Classrooms. Routledge & Kegan Paul, 1987.
 
 Pindyck, Robert S., and Daniel L. Rubinfeld. Microeconomics. 9th ed., Pearson, 2018.
+
+Posamentier, Alfred S., et al. "More Gems from Euclidean Geometry." The Mathematics Teacher, vol. 103, no. 3, 2009, pp. 221–26. JSTOR, <http://www.jstor.org/stable/20876583>. Accessed 16 Apr. 2026.
+
+Pribitkin, Wladimir de Azevedo. "Laplace's Integral, the Gamma Function, and Beyond." The American Mathematical Monthly, vol. 109, no. 3, 2002, pp. 235–45. JSTOR, <https://doi.org/10.2307/2695353>. Accessed 16 Apr. 2026.
 
 Prodigy Education. "64% of Americans Struggle With Math Anxiety." Prodigy Education, March 16, 2025, <www.prodigygame.com/main-en/blog/math-anxiety-in-america>.
 
 Rada, Emily, and Anne M. Lucietto. "Math Anxiety - A Literature Review on Confounding Factors." Journal of Research in Science, Mathematics and Technology Education, vol. 5, no. 2, 2022, pp. 117-129, <doi:10.31756/jrsmte.12040>. Accessed 12 Apr. 2026.
 
+Radišić, Jelena, et al. "Math Anxiety—Contributing School and Individual Level Factors." European Journal of Psychology of Education, vol. 30, no. 1, 2015, pp. 1–20. JSTOR, <http://www.jstor.org/stable/43551168>. Accessed 12 Apr. 2026.
+
+Reid, Thomas. Thomas Reid on Mathematics and Natural Philosophy. Edited by Paul Wood, Edinburgh University Press, 2017. JSTOR, <http://www.jstor.org/stable/10.3366/j.ctt1pwt34w>. Accessed 16 Apr. 2026.
+
+Resnik, Michael D. "Game Theory." Choices: An Introduction to Decision Theory, NED-New edition, University of Minnesota Press, 1987, pp. 121–76. JSTOR, <http://www.jstor.org/stable/10.5749/j.ctttshgd.9>. Accessed 9 Apr. 2026.
+
 Rivest, Ronald L., Adi Shamir, and Leonard Adleman. "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems." Communications of the ACM, vol. 21, no. 2, 1978, pp. 120-126.
+
+Roberts, Gareth Ffowc. Count Us In: How to Make Maths Real for All of Us. 1st ed., University of Wales Press, 2016. JSTOR, <https://doi.org/10.2307/jj.14491657>. Accessed 15 Apr. 2026.
+
+Rokicki, Tomas, et al. "The Diameter of the Rubik's Cube Group Is Twenty." SIAM Review, vol. 56, no. 4, 2014, pp. 645–70. JSTOR, <http://www.jstor.org/stable/24244333>. Accessed 8 Apr. 2026.
+
+Rokicki, Tomas. "Towards God's Number for Rubik's Cube in the Quarter-Turn Metric." The College Mathematics Journal, vol. 45, no. 4, 2014, p. 242. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.242>. Accessed 11 Apr. 2026.
 
 Rosa, M., Orey, D.C. (2016). State of the Art in Ethnomathematics. In: Current and Future Perspectives of Ethnomathematics as a Program. ICME-13 Topical Surveys. Springer, Cham. <https://doi.org/10.1007/978-3-319-30120-4_3>
 
+Ross, Philip E. "Math without Words." Scientific American, vol. 292, no. 6, 2005, pp. 28-30. JSTOR, <http://www.jstor.org/stable/26061022>. Accessed 13 Apr. 2026.
+
+Rowlands, Stuart, and Robert Carson. "Where Would Formal, Academic Mathematics Stand in a Curriculum Informed by Ethnomathematics? A Critical Review of Ethnomathematics." Educational Studies in Mathematics, vol. 50, no. 1, 2002, pp. 79–102. JSTOR, <http://www.jstor.org/stable/3483053>. Accessed 15 Apr. 2026.
+
+Rozema, Edward R. "Romberg Integration by Taylor Series." The American Mathematical Monthly, vol. 94, no. 3, 1987, pp. 284–88. JSTOR, <https://doi.org/10.2307/2323397>. Accessed 18 Apr. 2026.
+
+Rubinstein, Ariel. "Game Theory: A Beautiful Mind." Economic Fables, 1st ed., Open Book Publishers, 2012, pp. 91–146. JSTOR, <http://www.jstor.org/stable/j.ctt5vjswm.5>. Accessed 14 Apr. 2026.
+
+Rumble, David. "Differential Geometry: Chapter 6." Millersville University, <https://sites.millersville.edu/rumble/Math.457/chapter6.pdf>. Accessed 14 Apr. 2026.
+
+Sammallahti, E., et al. "A Meta-Analysis of Math Anxiety Interventions". Journal of Numerical Cognition, Vol. 9, no. 2, July 2023, p. Article e8401, <doi:10.5964/jnc.8401>. Accessed 12 Apr. 2026.
+
 Samuel, Tashana S., et al. ""I Can Math, Too!": Reducing Math Anxiety in STEM-Related Courses Using a Combined Mindfulness and Growth Mindset Approach (MAGMA) in the Classroom." Community College Journal of Research and Practice, vol. 47, no. 10, 2022, pp. 613-626. <https://doi.org/10.1080/10668926.2022.2050843>
+
+Scheinerman, Ed, and Mircea I. Cîrnu. "Newton's Identities and the Laplace Transform." The American Mathematical Monthly, vol. 117, no. 1, 2010, pp. 67–71. JSTOR, <https://doi.org/10.4169/000298910x474998>. Accessed 10 Apr. 2026.
+
+Schonefeld, Steven. "Eigenpictures: Picturing the Eigenvector Problem." The College Mathematics Journal, vol. 26, no. 4, 1995, pp. 316–19. JSTOR, <https://doi.org/10.2307/2687037>. Accessed 14 Apr. 2026.
+
+Schwartz, Robert. "Is Mathematical Competence Innate?" Philosophy of Science, vol. 62, no. 2, 1995, pp. 227–40. JSTOR, <http://www.jstor.org/stable/188432>. Accessed 13 Apr. 2026.
 
 Setiaputra, Felix Indra, et al. "A Systematic Review of Ethnomathematics Research (2019-2023): Cultural Integration in Mathematics Teaching and Learning." Jurnal Pendidikan MIPA, vol. 26, no. 1, 2025, pp. 195-211, <https://jpmipa.fkip.unila.ac.id/index.php/jpmipa/article/view/213>. Accessed 12 Apr. 2026.
 
 Sfard, Anna. Thinking as Communicating: Human Development, the Growth of Discourses, and Mathematizing. Cambridge: Cambridge University Press, 2008. Print. Learning in Doing: Social, Cognitive and Computational Perspectives.
 
+Shale, David, and W. Forrest Stinespring. "States of the Clifford Algebra." Annals of Mathematics, vol. 80, no. 2, 1964, pp. 365–81. JSTOR, <https://doi.org/10.2307/1970397>. Accessed 17 Apr. 2026.
+
+Sillitoe, Paul, editor. Local Science Vs Global Science: Approaches to Indigenous Knowledge in International Development. 1st ed., vol. 4, Berghahn Books, 2009. JSTOR, <https://doi.org/10.2307/j.ctt9qdfbm>. Accessed 15 Apr. 2026.
+
+Sinkov, Abraham, and Todd Feil. Elementary Cryptanalysis: A Mathematical Approach. 2nd ed., vol. 22, Mathematical Association of America, 2009. JSTOR, <http://www.jstor.org/stable/10.4169/j.ctt19b9krf>. Accessed 11 Apr. 2026.
+
+Souviney, Randall J. "Cognitive Competence and Mathematical Development." Journal for Research in Mathematics Education, vol. 11, no. 3, 1980, pp. 215–24. JSTOR, <https://doi.org/10.2307/748942>. Accessed 13 Apr. 2026.
+
+Spiegel, M. R. "3340. The Laplace Transform of Jₙ(t)." The Mathematical Gazette, vol. 56, no. 398, 1972, pp. 329–30. JSTOR, <https://doi.org/10.2307/3617845>. Accessed 18 Apr. 2026.
+
+Spiegel, M. R. "Mean Value Theorems and Taylor Series." Mathematics Magazine, vol. 29, no. 5, 1956, pp. 263–66. JSTOR, <https://doi.org/10.2307/3029299>. Accessed 14 Apr. 2026.
+
 Steele, Claude M. "A Threat in the Air: How Stereotypes Shape Intellectual Identity and Performance." American Psychologist, vol. 52, no. 6, 1997, pp. 613-629.
+
+Stone, Randall W. "The Use and Abuse of Game Theory in International Relations: The Theory of Moves." The Journal of Conflict Resolution, vol. 45, no. 2, 2001, pp. 216–44. JSTOR, <http://www.jstor.org/stable/3176277>. Accessed 9 Apr. 2026.
+
+Storer, James A. "Twenty Moves Suffice for Rubik's Cube." Brandeis University Computer Science, <https://www.cs.brandeis.edu/~storer/JimPuzzles/RUBIK/Rubik3x3x3/READING/GodsNumberIs20.pdf>. Accessed 11 Apr. 2026.
+
+Straffin, Philip D. "Linear Algebra in Geography: Eigenvectors of Networks." Mathematics Magazine, vol. 53, no. 5, 1980, pp. 269–76. JSTOR, <https://doi.org/10.2307/2689388>. Accessed 9 Apr. 2026.
+
+Striphas, Ted. Algorithmic Culture Before the Internet. Columbia University Press, 2023. JSTOR, <http://www.jstor.org/stable/10.7312/stri20668>. Accessed 15 Apr. 2026.
+
+Strong, Elizabeth A., and Robert E. Strong. "Geodesic Earth: Models Help Students Understand the Size and Scale of the Earth." The Science Teacher, vol. 66, no. 2, 1999, pp. 43–45. JSTOR, <http://www.jstor.org/stable/24153490>. Accessed 8 Apr. 2026.
 
 SWNS. "How 'Math Anxiety' Makes Life Harder for Two-Thirds of Americans." StudyFinds, Mar. 2025, <https://studyfinds.org/how-math-anxiety-makes-life-harder-for-two-thirds-of-americans/>. Accessed 12 Apr. 2026.
 
+Székely, Gábor J., and Maria L. Rizzo. "The Uncertainty Principle of Game Theory." The American Mathematical Monthly, vol. 114, no. 8, 2007, pp. 688–702. JSTOR, <http://www.jstor.org/stable/27642304>. Accessed 14 Apr. 2026.
+
+Thange, Tukaram G., et al. "Conformable Laplace Transform on Time Scales." Filomat, vol. 40, no. 5, 2026, pp. 1699–711. JSTOR, <https://www.jstor.org/stable/27470834>. Accessed 10 Apr. 2026.
+
+Tisseur, Françoise, and Karl Meerbergen. "The Quadratic Eigenvalue Problem." SIAM Review, vol. 43, no. 2, 2001, pp. 235–86. JSTOR, <http://www.jstor.org/stable/3649752>. Accessed 9 Apr. 2026.
+
 Tobias, Sheila. "Math Anxiety." Science, vol. 237, no. 4822, 1987, pp. 1556-1556. JSTOR, <http://www.jstor.org/stable/1699763>. Accessed 13 Apr. 2026.
 
+Torchinsky, Alberto. "The Fourier Transform and the Wave Equation." The American Mathematical Monthly, vol. 118, no. 7, 2011, pp. 599–609. JSTOR, <https://doi.org/10.4169/amer.math.monthly.118.07.599>. Accessed 14 Apr. 2026.
+
+Treat, Daniel G. "Proof by Poem: The RSA Encryption Algorithm." Mathematics Magazine, vol. 75, no. 4, 2002, pp. 255–255. JSTOR, <http://www.jstor.org/stable/3219159>. Accessed 17 Apr. 2026.
+
+Turner, Edward C., and Karen F. Gold. "Rubik's Groups." The American Mathematical Monthly, vol. 92, no. 9, 1985, pp. 617–29. JSTOR, <https://doi.org/10.2307/2323707>. Accessed 17 Apr. 2026.
+
+Tóth, Imre. "Non-Euclidean Geometry before Euclid." Scientific American, vol. 221, no. 5, 1969, pp. 87–101. JSTOR, <http://www.jstor.org/stable/24964348>. Accessed 17 Apr. 2026.
+
+Ungar, Abraham. "The Laplace Transform Inversion by Inspection." The American Mathematical Monthly, vol. 93, no. 10, 1986, pp. 786–91. JSTOR, <https://doi.org/10.2307/2322932>. Accessed 10 Apr. 2026.
+
+van Benthem, Johan, et al. "Game Theory, Logic and Rational Choice." Discourses on Social Software, edited by Jan van Eijck and Rineke Verbrugge, Amsterdam University Press, 2009, pp. 123–34. JSTOR, <http://www.jstor.org/stable/j.ctt46n2rz.14>. Accessed 14 Apr. 2026.
+
+van Grol, Rik. "The Quest for God's Number." Math Horizons, vol. 18, no. 2, 2010, pp. 10–13. JSTOR, <https://doi.org/10.4169/194762110x535961>. Accessed 17 Apr. 2026.
+
+Varma, R. S. "A Generalisation of Laplace's Transform." Current Science, vol. 16, no. 1, 1947, pp. 17–18. JSTOR, <http://www.jstor.org/stable/24211320>. Accessed 18 Apr. 2026.
+
+Villanueva, Jay. "Geodesics." Pearson, <https://www.pearson.com/content/dam/one-dot-com/one-dot-com/us/en/files/Jay%20Villanueva%20-%20geodesics9.pdf>. Accessed 14 Apr. 2026.
+
+Vologodskii, Alexander V., et al. "Mechanism of Topology Simplification by Type II DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 98, no. 6, 2001, pp. 3045–49. JSTOR, <http://www.jstor.org/stable/3055186>. Accessed 17 Apr. 2026.
+
+Wang, James C. "DNA Topoisomerases." Scientific American, vol. 247, no. 1, 1982, pp. 94–109. JSTOR, <http://www.jstor.org/stable/24966639>. Accessed 17 Apr. 2026.
+
+Weil, Roman L. "Game Theory and Eigensystems." SIAM Review, vol. 10, no. 3, 1968, pp. 360–67. JSTOR, <http://www.jstor.org/stable/2027660>. Accessed 14 Apr. 2026.
+
 Weir, Kirsten. "How to Solve for Math Anxiety? Studying the Causes, Consequences, and Prevention Methods Needed." Monitor on Psychology, vol. 54, no. 7, American Psychological Association, Oct. 2023, <www.apa.org/monitor/2023/10/preventing-math-anxiety>.
+
+Wheeler, Nicholas. "Geodesics on Surfaces: Paraboloid & Hexenhut." Reed College Physics, <https://www.reed.edu/physics/faculty/wheeler/documents/Miscellaneous%20Math/Differential%20Geometry/Geodesics%20on%20Surfaces/Paraboloid%20&%20Hexenhut%20Geodesics.pdf>. Accessed 8 Apr. 2026.
+
+Widder, D. V. "A Generalization of Taylor's Series." Transactions of the American Mathematical Society, vol. 30, no. 1, 1928, pp. 126–54. JSTOR, <https://doi.org/10.2307/1989270>. Accessed 18 Apr. 2026.
+
+Widder, D. V. "A Symbolic Form of the Classical Complex Inversion Formula for a Laplace Transform." The American Mathematical Monthly, vol. 58, no. 3, 1951, pp. 179–81. JSTOR, <https://doi.org/10.2307/2306589>. Accessed 18 Apr. 2026.
+
+Widder, D. V. "What Is the Laplace Transform?" The American Mathematical Monthly, vol. 52, no. 8, 1945, pp. 419–25. JSTOR, <https://doi.org/10.2307/2305640>. Accessed 16 Apr. 2026.
+
+Witz, Guillaume, et al. "Tightening of DNA Knots by Supercoiling Facilitates Their Unknotting by Type II DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 108, no. 9, 2011, pp. 3608–11. JSTOR, <http://www.jstor.org/stable/41060979>. Accessed 18 Apr. 2026.
+
+Wood, De Volson. "Quaternions." The Analyst, vol. 7, no. 1, 1880, pp. 11–13. JSTOR, <https://doi.org/10.2307/2635948>. Accessed 17 Apr. 2026.
+
+Wood, T. E. "Vertex Latitudes on Ellipsoid Geodesics." SIAM Review, vol. 38, no. 4, 1996, pp. 637–44. JSTOR, <http://www.jstor.org/stable/2132936>. Accessed 8 Apr. 2026.
+
+Wynn, James, and G. Mitchell Reyes, editors. Arguing with Numbers: The Intersections of Rhetoric and Mathematics. vol. 16, Penn State University Press, 2021. JSTOR, <https://doi.org/10.5325/j.ctv1mvw8dg>. Accessed 15 Apr. 2026.
 
 Yu, Wentao, et al. "Math Anxiety Is More Closely Associated with Math Performance in Female Than Male Students." Current Psychology, Springer, 2023, <doi:10.1007/s12144-023-04349-y>.
 
 Zhang, Jijun, Nan Zhao, and Qi-Ping Kong. "The Relationship Between Math Anxiety and Math Performance: A Meta-Analytic Investigation." Frontiers in Psychology, vol. 10, 2019, article 1613, <doi:10.3389/fpsyg.2019.01613>. Accessed 12 Apr. 2026.
 
+Zimmermann, Philip R. "Cryptography for the Internet." Scientific American, vol. 279, no. 4, 1998, pp. 110–15. JSTOR, <http://www.jstor.org/stable/26057991>. Accessed 17 Apr. 2026.
+
 Özdemir, Metin. "Gender and Grade Differences in Mathematics Anxiety: The Mediating Role of Mathematics Self-Efficacy and STEM Career Interest." International Journal of STEM Education, vol. 10, no. 1, 2023, pp. 1-15, <doi:10.1186/s40594-023-00441-8>. Accessed 12 Apr. 2026.
 
-Barrow, Melissa A. "Even Math Requires Learning Academic Language." The Phi Delta Kappan, vol. 95, no. 6, 2014, pp. 35-38. JSTOR, <http://www.jstor.org/stable/24374510>. Accessed 13 Apr. 2026.
-
-"The secret language of peers: How peer behaviours signal mindset and influence classroom experiences." Psychology of Education Review, 2024. <https://doi.org/10.1080/02667363.2024.12590930>
-
-Fortescue, Chelsea M. "Using Oral and Written Language to Increase Understanding of Math Concepts." Language Arts, vol. 71, no. 8, 1994, pp. 576-80. JSTOR, <http://www.jstor.org/stable/41962011>. Accessed 13 Apr. 2026.
-
-Greenberg, Jan. "More, All Gone, Empty, Full: Math Talk Every Day in Every Way." YC Young Children, vol. 67, no. 3, 2012, pp. 62-64. JSTOR, <http://www.jstor.org/stable/42731176>. Accessed 13 Apr. 2026.
-
-Ross, Philip E. "Math without Words." Scientific American, vol. 292, no. 6, 2005, pp. 28-30. JSTOR, <http://www.jstor.org/stable/26061022>. Accessed 13 Apr. 2026.
-
-Faye Bruun, et al. "The Language of Mathematics." Teaching Children Mathematics, vol. 21, no. 9, 2015, pp. 530-36. JSTOR, <https://doi.org/10.5951/teacchilmath.21.9.0530>. Accessed 13 Apr. 2026.
-
-Knight, Lester N., and Charles H. Hargis. "Math Language Ability: Its Relationship to Reading in Math." Language Arts, vol. 54, no. 4, 1977, pp. 423-28. JSTOR, <http://www.jstor.org/stable/41404547>. Accessed 13 Apr. 2026.
-
-Knijnik, Gelsa. "Ethnomathematics: Culture and Politics of Knowledge in Mathematics Education." For the Learning of Mathematics, vol. 22, no. 1, 2002, pp. 11–14. JSTOR, <http://www.jstor.org/stable/40248378>. Accessed 15 Apr. 2026.
-
-Munro, John. "Language Abilities and Maths Performance." The Reading Teacher, vol. 32, no. 8, 1979, pp. 900-15. JSTOR, <http://www.jstor.org/stable/20194911>. Accessed 13 Apr. 2026.
-
-Munetsi, Cribert. "Ethnomathematics." The Mathematics Teacher, vol. 88, no. 1, 1995, pp. 74–74. JSTOR, <http://www.jstor.org/stable/27969197>. Accessed 15 Apr. 2026.
-
-Klop, Jan Willem. "Ramsey Theory: An Aha! Insight." 2023, <https://janwillemklop.com/wp-content/uploads/2023/08/ramsey-aha-insight.pdf>. Accessed 16 Apr. 2026.
-
-Ortlieb, Evan, et al., editors. Disciplinary Literacies: Unpacking Research, Theory, and Practice. Guilford Press, 2024. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115529>. Accessed 15 Apr. 2026.
-
-Roberts, Gareth Ffowc. Count Us In: How to Make Maths Real for All of Us. 1st ed., University of Wales Press, 2016. JSTOR, <https://doi.org/10.2307/jj.14491657>. Accessed 15 Apr. 2026.
-
-Rowlands, Stuart, and Robert Carson. "Where Would Formal, Academic Mathematics Stand in a Curriculum Informed by Ethnomathematics? A Critical Review of Ethnomathematics." Educational Studies in Mathematics, vol. 50, no. 1, 2002, pp. 79–102. JSTOR, <http://www.jstor.org/stable/3483053>. Accessed 15 Apr. 2026.
-
-Sillitoe, Paul, editor. Local Science Vs Global Science: Approaches to Indigenous Knowledge in International Development. 1st ed., vol. 4, Berghahn Books, 2009. JSTOR, <https://doi.org/10.2307/j.ctt9qdfbm>. Accessed 15 Apr. 2026.
-
-Striphas, Ted. Algorithmic Culture Before the Internet. Columbia University Press, 2023. JSTOR, <http://www.jstor.org/stable/10.7312/stri20668>. Accessed 15 Apr. 2026.
-
-Wynn, James, and G. Mitchell Reyes, editors. Arguing with Numbers: The Intersections of Rhetoric and Mathematics. vol. 16, Penn State University Press, 2021. JSTOR, <https://doi.org/10.5325/j.ctv1mvw8dg>. Accessed 15 Apr. 2026.
-
-Hersh, Reuben, and Vera John-Steiner. Loving and Hating Mathematics: Challenging the Myths of Mathematical Life. Princeton University Press, 2011. JSTOR, <http://www.jstor.org/stable/j.ctt7s8zx>. Accessed 15 Apr. 2026.
-
-Hottinger, Sara N. Inventing the Mathematician: Gender, Race, and Our Cultural Understanding of Mathematics. State University of New York Press, 2016. JSTOR, <http://www.jstor.org/stable/jj.18255257>. Accessed 15 Apr. 2026.
-
-Rokicki, Tomas, et al. "The Diameter of the Rubik's Cube Group Is Twenty." SIAM Review, vol. 56, no. 4, 2014, pp. 645–70. JSTOR, <http://www.jstor.org/stable/24244333>. Accessed 18 Apr. 2026.
-
-Jones, Michael A., Brittany C. Shelton, and Miriam E. Weaverdyck. "On God's Number(s) for Rubik's Slide." The College Mathematics Journal, vol. 45, no. 4, 2014, pp. 267–75. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.267>. Accessed 18 Apr. 2026.
-
-van Grol, Rik. "The Quest for God's Number." Math Horizons, vol. 18, no. 2, 2010, pp. 10–13. JSTOR, <https://doi.org/10.4169/194762110x535961>. Accessed 18 Apr. 2026.
-
-Turner, Edward C., and Karen F. Gold. "Rubik's Groups." The American Mathematical Monthly, vol. 92, no. 9, 1985, pp. 617–29. JSTOR, <https://doi.org/10.2307/2323707>. Accessed 18 Apr. 2026.
-
-Hecker, David, and Ranan Banerji. "The Slice Group in Rubik's Cube." Mathematics Magazine, vol. 58, no. 4, 1985, pp. 211–18. JSTOR, <https://doi.org/10.2307/2689516>. Accessed 18 Apr. 2026.
-
-Milewski, Amanda, and Daniel Frohardt. "Seeing Algebraic Structure: The Rubik's Cube." The Mathematics Teacher, vol. 113, no. 5, 2020, pp. 397–403. JSTOR, <https://doi.org/10.5951/mtlt.2019.0075>. Accessed 18 Apr. 2026.
-
-Rokicki, Tomas. "Towards God's Number for Rubik's Cube in the Quarter-Turn Metric." The College Mathematics Journal, vol. 45, no. 4, 2014, p. 242. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.242>. Accessed 18 Apr. 2026.
-
-Joyner, David. "The Man Who Found God's Number." The College Mathematics Journal, vol. 45, no. 4, 2014, pp. 258–66. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.258>. Accessed 18 Apr. 2026.
-
-"God's Number Is 20." Cube20.org, <https://www.cube20.org>. Accessed 18 Apr. 2026.
-
-Storer, James A. "Twenty Moves Suffice for Rubik's Cube." Brandeis University Computer Science, <https://www.cs.brandeis.edu/~storer/JimPuzzles/RUBIK/Rubik3x3x3/READING/GodsNumberIs20.pdf>. Accessed 18 Apr. 2026.
-
-"God's Number." Wolfram MathWorld, <https://mathworld.wolfram.com/GodsNumber.html>. Accessed 18 Apr. 2026.
-
-"God's Number." Ruwix, <https://ruwix.com/the-rubiks-cube/gods-number/>. Accessed 18 Apr. 2026.
-
-"Thistlethwaite's Algorithm." University of Illinois, <https://new.math.uiuc.edu/math198/MA198-2016/lkulbis2/public_html/tmethod.html>. Accessed 18 Apr. 2026.
-
-"Kociemba's Two-Phase Algorithm." IIT Kanpur Computer Science, <https://cse.iitk.ac.in/users/cs365/2015/_submissions/anurag/report.pdf>. Accessed 18 Apr. 2026.
-
-"Computer Algorithms for Solving Rubik's Cube." Cubing History, <https://www.cubinghistory.com/3x3/3x3ComputerAlgorithms>. Accessed 18 Apr. 2026.
-
-Borschbach, Markus, and Christiane Grelle. "Solving the Rubik's Cube Using Genetic Algorithms." Workshop on Bio-Inspired Algorithms for Continuous Parameter Optimization, 2010, <http://www.genetic-programming.org/hc2010/7-Borschbach/Borschbach-PPSN-Paper.pdf>. Accessed 18 Apr. 2026.
-
-Manjul, Pankaj, et al. "The Mathematics of Rubik's Cube." arXiv preprint, arXiv:2501.00144, 2025, <https://arxiv.org/abs/2501.00144>. Accessed 18 Apr. 2026.
-
-Cook, Sam, et al. "Sudoku: Just for Fun or Is It Mathematics?" Math Horizons, vol. 14, no. 3, 2007, pp. 13–15. JSTOR, <http://www.jstor.org/stable/25678670>. Accessed 18 Apr. 2026.
-
-Lindgren, William. "Mathematical Sudoku." Math Horizons, vol. 15, no. 2, 2007, pp. 21–21. JSTOR, <http://www.jstor.org/stable/25678721>. Accessed 18 Apr. 2026.
-
-Delahaye, Jean-Paul. "The Science behind SUDOKU." Scientific American, vol. 294, no. 6, 2006, pp. 80–87. JSTOR, <http://www.jstor.org/stable/26061494>. Accessed 18 Apr. 2026.
-
-Arcos, Carlos, et al. "Mini-Sudokus and Groups." Mathematics Magazine, vol. 83, no. 2, 2010, pp. 111–22. JSTOR, <https://doi.org/10.4169/002557010x482871>. Accessed 18 Apr. 2026.
-
-Keedwell, A. D. "Two Remarks about Sudoku Squares." The Mathematical Gazette, vol. 90, no. 519, 2006, pp. 425–30. JSTOR, <http://www.jstor.org/stable/40378190>. Accessed 18 Apr. 2026.
-
-Lee, H. C. "On Clifford Algebras and Their Representations." Annals of Mathematics, vol. 49, no. 4, 1948, pp. 760–73. JSTOR, <https://doi.org/10.2307/1969398>. Accessed 18 Apr. 2026.
-
-Shale, David, and W. Forrest Stinespring. "States of the Clifford Algebra." Annals of Mathematics, vol. 80, no. 2, 1964, pp. 365–81. JSTOR, <https://doi.org/10.2307/1970397>. Accessed 18 Apr. 2026.
-
-Lounesto, Pertti, and Esko Latvamaa. "Conformal Transformations and Clifford Algebras." Proceedings of the American Mathematical Society, vol. 79, no. 4, 1980, pp. 533–38. JSTOR, <https://doi.org/10.2307/2042491>. Accessed 18 Apr. 2026.
-
-Hamilton, Wm. R. "Theory of Quaternions." Proceedings of the Royal Irish Academy (1836-1869), vol. 3, 1844, pp. 1–16. JSTOR, <http://www.jstor.org/stable/20489494>. Accessed 18 Apr. 2026.
-
-Bannon, Thomas. "The Origin of Quaternions." The College Mathematics Journal, vol. 46, no. 1, 2015, pp. 43–50. JSTOR, <https://doi.org/10.4169/college.math.j.46.1.43>. Accessed 18 Apr. 2026.
-
-Ladd, Christine. "Quaternions." The Analyst, vol. 4, no. 6, 1877, pp. 172–74. JSTOR, <https://doi.org/10.2307/2635769>. Accessed 18 Apr. 2026.
-
-Wood, De Volson. "Quaternions." The Analyst, vol. 7, no. 1, 1880, pp. 11–13. JSTOR, <https://doi.org/10.2307/2635948>. Accessed 18 Apr. 2026.
-
-Alderson, Victor C. "Quaternions." Science, vol. 2, no. 48, 1895, pp. 735–36. JSTOR, <http://www.jstor.org/stable/1624054>. Accessed 18 Apr. 2026.
-
-Dirac, P. A. M. "Application of Quaternions to Lorentz Transformations." Proceedings of the Royal Irish Academy. Section A: Mathematical and Physical Sciences, vol. 50, 1944, pp. 261–70. JSTOR, <http://www.jstor.org/stable/20520646>. Accessed 18 Apr. 2026.
-
-Niven, Ivan. "Equations in Quaternions." The American Mathematical Monthly, vol. 48, no. 10, 1941, pp. 654–61. JSTOR, <https://doi.org/10.2307/2303304>. Accessed 18 Apr. 2026.
-
-Wang, James C. "DNA Topoisomerases." Scientific American, vol. 247, no. 1, 1982, pp. 94–109. JSTOR, <http://www.jstor.org/stable/24966639>. Accessed 18 Apr. 2026.
-
-Méteignier, Louis-Valentin, et al. "Topoisomerase VI Participates in an Insulator-like Function That Prevents H3K9me2 Spreading." Proceedings of the National Academy of Sciences of the United States of America, vol. 119, no. 27, 2022, pp. 1–12. JSTOR, <https://www.jstor.org/stable/27153060>. Accessed 18 Apr. 2026.
-
-Lee, Shun-Hsiao, et al. "Synthesis and Dissolution of Hemicatenanes by Type IA DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 110, no. 38, 2013, pp. 15177–15177. JSTOR, <http://www.jstor.org/stable/42713286>. Accessed 18 Apr. 2026.
-
-Austin, C. A., and L. M. Fisher. "DNA Topoisomerases: Enzymes That Change the Shape of DNA." Science Progress (1933- ), vol. 74, no. 2 (294), 1990, pp. 147–61. JSTOR, <http://www.jstor.org/stable/43423883>. Accessed 18 Apr. 2026.
-
-Chiatante, D., et al. "Nuclear DNA Topoisomerases in Pisum Sativum L." Journal of Experimental Botany, vol. 44, no. 263, 1993, pp. 1045–51. JSTOR, <http://www.jstor.org/stable/23693460>. Accessed 18 Apr. 2026.
-
-Champoux, James J. "Type IA DNA Topoisomerases: Strictly One Step at a Time." Proceedings of the National Academy of Sciences of the United States of America, vol. 99, no. 19, 2002, pp. 11998–2000. JSTOR, <http://www.jstor.org/stable/3073156>. Accessed 18 Apr. 2026.
-
-Neuman, Keir C. "Evolutionary Twist on Topoisomerases: Conversion of Gyrase to Topoisomerase IV." Proceedings of the National Academy of Sciences of the United States of America, vol. 107, no. 52, 2010, pp. 22363–64. JSTOR, <http://www.jstor.org/stable/25770642>. Accessed 18 Apr. 2026.
-
-Vologodskii, Alexander V., et al. "Mechanism of Topology Simplification by Type II DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 98, no. 6, 2001, pp. 3045–49. JSTOR, <http://www.jstor.org/stable/3055186>. Accessed 18 Apr. 2026.
-
-McVie, J. G. "DNA Topoisomerases In Cancer Treatment." British Medical Journal (Clinical Research Edition), vol. 296, no. 6630, 1988, pp. 1145–46. JSTOR, <http://www.jstor.org/stable/29530477>. Accessed 18 Apr. 2026.
-
-Osheroff, Neil, and James C. Wang. "Genetics." Untangling the Double Helix: DNA Entanglement and the Action of the DNA Topoisomerases. The Quarterly Review of Biology, vol. 85, no. 2, 2010, pp. 232–33. JSTOR, <https://doi.org/10.1086/652361>. Accessed 18 Apr. 2026.
-
-Witz, Guillaume, et al. "Tightening of DNA Knots by Supercoiling Facilitates Their Unknotting by Type II DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 108, no. 9, 2011, pp. 3608–11. JSTOR, <http://www.jstor.org/stable/41060979>. Accessed 18 Apr. 2026.
-
-Sinkov, Abraham, and Todd Feil. Elementary Cryptanalysis: A Mathematical Approach. 2nd ed., vol. 22, Mathematical Association of America, 2009. JSTOR, <http://www.jstor.org/stable/10.4169/j.ctt19b9krf>. Accessed 18 Apr. 2026.
-
-Boyer, Robert S., and J. Strother Moore. "Proof Checking the RSA Public Key Encryption Algorithm." The American Mathematical Monthly, vol. 91, no. 3, 1984, pp. 181–89. JSTOR, <https://doi.org/10.2307/2322356>. Accessed 18 Apr. 2026.
-
-Petras, Richard T. "Privacy for the Twenty-First Century: Cryptography." The Mathematics Teacher, vol. 94, no. 8, 2001, pp. 689–707. JSTOR, <http://www.jstor.org/stable/20870843>. Accessed 18 Apr. 2026.
-
-Zimmermann, Philip R. "Cryptography for the Internet." Scientific American, vol. 279, no. 4, 1998, pp. 110–15. JSTOR, <http://www.jstor.org/stable/26057991>. Accessed 18 Apr. 2026.
-
-Treat, Daniel G. "Proof by Poem: The RSA Encryption Algorithm." Mathematics Magazine, vol. 75, no. 4, 2002, pp. 255–255. JSTOR, <http://www.jstor.org/stable/3219159>. Accessed 18 Apr. 2026.
-
-Luciano, Dennis, and Gordon Prichett. "Cryptology: From Caesar Ciphers to Public-Key Cryptosystems." The College Mathematics Journal, vol. 18, no. 1, 1987, pp. 2–17. JSTOR, <https://doi.org/10.2307/2686311>. Accessed 18 Apr. 2026.
-
-Lefton, Phyllis. "Number Theory and Public-Key Cryptography." The Mathematics Teacher, vol. 84, no. 1, 1991, pp. 54–62. JSTOR, <http://www.jstor.org/stable/27967000>. Accessed 18 Apr. 2026.
-
-Grobman, Steve. "Quantum Computing's Cyber-Threat to National Security." PRISM, vol. 9, no. 1, 2020, pp. 52–67. JSTOR, <https://www.jstor.org/stable/26940159>. Accessed 18 Apr. 2026.
-
-Fromkin, A. Michael. "The Metaphor Is the Key: Cryptography, the Clipper Chip, and the Constitution." University of Pennsylvania Law Review, vol. 143, no. 3, 1995, pp. 709–897. JSTOR, <https://doi.org/10.2307/3312529>. Accessed 18 Apr. 2026.
-
-Meijer, A. R. "Groups, Factoring, and Cryptography." Mathematics Magazine, vol. 69, no. 2, 1996, pp. 103–09. JSTOR, <http://www.jstor.org/stable/2690663>. Accessed 18 Apr. 2026.
-
-Havil, Julian. Curves for the Mathematically Curious: An Anthology of the Unpredictable, Historical, Beautiful, and Romantic. Princeton University Press, 2019. JSTOR, <https://doi.org/10.2307/j.ctvfrxr22>. Accessed 18 Apr. 2026.
-
-Holden, Joshua. The Mathematics of Secrets: Cryptography from Caesar Ciphers to Digital Encryption. NED-New edition, Princeton University Press, 2017. JSTOR, <https://doi.org/10.2307/j.ctvc775xv>. Accessed 18 Apr. 2026.
-
-DeArmond, Joel. Elliptic Curve Cryptography: Extensions of Subfield Curves in Characteristic 2. Documents. Pence Boyce, Olivet Nazarene University, 2017, Olivet Scholarship. ONU Digital Collections. JSTOR, <https://jstor.org/stable/community.37867867>. Accessed 18 Apr. 2026.
-
-Clark, Robert, et al. "Post-Quantum Cryptography: A Security Patch for the Internet." The Impact of Quantum Technologies on Secure Communications, Australian Strategic Policy Institute, 2021, pp. 25–26. JSTOR, <http://www.jstor.org/stable/resrep31261.9>. Accessed 18 Apr. 2026.
-
-Feldman, Dan, and Eldar Haber. "Measuring and Protecting Privacy in the Always-On Era." Berkeley Technology Law Journal, vol. 35, no. 1, 2020, pp. 197–250. JSTOR, <https://www.jstor.org/stable/26954423>. Accessed 18 Apr. 2026.
-
-Busemann, Herbert. "Non-Euclidean Geometry." Mathematics Magazine, vol. 24, no. 1, 1950, pp. 19–34. JSTOR, <https://doi.org/10.2307/3029647>. Accessed 18 Apr. 2026.
-
-Banchoff, Thomas. "Non-Euclidean Geometry." Brown University, <https://www.math.brown.edu/tbanchof/Beyond3d/chapter9/section03.html>. Accessed 18 Apr. 2026.
-
-Bussey, W. H. "Non-Euclidean Geometry." The Mathematics Teacher, vol. 15, no. 8, 1922, pp. 445–59. JSTOR, <http://www.jstor.org/stable/27950455>. Accessed 18 Apr. 2026.
-
-Henderson, Linda Dalrymple. "The Fourth Dimension and Non-Euclidean Geometry in Modern Art: Conclusion." Leonardo, vol. 17, no. 3, 1984, pp. 205–10. JSTOR, <https://doi.org/10.2307/1575193>. Accessed 18 Apr. 2026.
-
-Tóth, Imre. "Non-Euclidean Geometry before Euclid." Scientific American, vol. 221, no. 5, 1969, pp. 87–101. JSTOR, <http://www.jstor.org/stable/24964348>. Accessed 18 Apr. 2026.
-
-Miller, G. A. "Non-Euclidean Geometry." Science, vol. 20, no. 517, 1892, pp. 370–72. JSTOR, <http://www.jstor.org/stable/1767948>. Accessed 18 Apr. 2026.
-
-Halsted, George Bruce. "Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 5, 1900, pp. 123–33. JSTOR, <https://doi.org/10.2307/2970500>. Accessed 18 Apr. 2026.
-
-Miller, E. "The Non-Euclidean Geometry." Transactions of the Kansas Academy of Science (1903-), vol. 19, 1903, pp. 374–78. JSTOR, <https://doi.org/10.2307/3624223>. Accessed 18 Apr. 2026.
-
-Halsted, George Bruce. "Gauss and the Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 11, 1900, pp. 247–52. JSTOR, <https://doi.org/10.2307/2968396>. Accessed 18 Apr. 2026.
-
-Dence, Thomas P. "Another Euclidean Geometry." Mathematics Magazine, vol. 47, no. 3, 1974, pp. 125–32. JSTOR, <https://doi.org/10.2307/2689267>. Accessed 18 Apr. 2026.
-
-Reid, Thomas. Thomas Reid on Mathematics and Natural Philosophy. Edited by Paul Wood, Edinburgh University Press, 2017. JSTOR, <http://www.jstor.org/stable/10.3366/j.ctt1pwt34w>. Accessed 18 Apr. 2026.
-
-Mader, Adolf. "A Euclidean Model for Euclidean Geometry." The American Mathematical Monthly, vol. 96, no. 1, 1989, pp. 43–49. JSTOR, <https://doi.org/10.2307/2323257>. Accessed 18 Apr. 2026.
-
-Daus, P. H. "The Founding of Non-Euclidean Geometry." Mathematics News Letter, vol. 7, no. 7/8, 1933, pp. 12–16. JSTOR, <https://doi.org/10.2307/3027483>. Accessed 18 Apr. 2026.
-
-French, Robert. "Is Euclidean Geometry Analytic?" Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition, vol. 49, no. 2, 1986, pp. 213–17. JSTOR, <http://www.jstor.org/stable/4319821>. Accessed 18 Apr. 2026.
-
-Henderson, Andrea. "Math for Math's Sake: Non-Euclidean Geometry, Aestheticism, and 'Flatland.'" PMLA, vol. 124, no. 2, 2009, pp. 455–71. JSTOR, <http://www.jstor.org/stable/25614286>. Accessed 18 Apr. 2026.
-
-Jones, Philip Chapin. "Kant, Euclid, and the Non-Euclideans." Philosophy of Science, vol. 13, no. 2, 1946, pp. 137–43. JSTOR, <http://www.jstor.org/stable/184259>. Accessed 18 Apr. 2026.
-
-Green, H. Gwynedd. "Infinity in Euclidean Geometry." The Mathematical Gazette, vol. 21, no. 246, 1937, pp. 343–46. JSTOR, <https://doi.org/10.2307/3606664>. Accessed 18 Apr. 2026.
-
-Menger, Karl. "New Foundation of Euclidean Geometry." American Journal of Mathematics, vol. 53, no. 4, 1931, pp. 721–45. JSTOR, <https://doi.org/10.2307/2371222>. Accessed 18 Apr. 2026.
-
-Einstein, Albert. The Essential Einstein: Public Writings. Edited by Diana Kormos Buchwald and Tilman Sauer, Princeton University Press, 2025. JSTOR, <https://doi.org/10.2307/jj.27710924>. Accessed 18 Apr. 2026.
-
-Leisenring, Kenneth. "Area in Non-Euclidean Geometry." The American Mathematical Monthly, vol. 58, no. 5, 1951, pp. 315–22. JSTOR, <https://doi.org/10.2307/2307718>. Accessed 18 Apr. 2026.
-
-Geretschläger, Robert. "Euclidean Constructions and the Geometry of Origami." Mathematics Magazine, vol. 68, no. 5, 1995, pp. 357–71. JSTOR, <https://doi.org/10.2307/2690924>. Accessed 18 Apr. 2026.
-
-Meserve, Bruce E. "The Evolution of Geometry." The Mathematics Teacher, vol. 49, no. 5, 1956, pp. 372–82. JSTOR, <http://www.jstor.org/stable/27955187>. Accessed 18 Apr. 2026.
-
-Halsted, George Bruce. "Non-Euclidean Geometry: Historical and Expository." The American Mathematical Monthly, vol. 1, no. 5, 1894, pp. 149–52. JSTOR, <https://doi.org/10.2307/2969703>. Accessed 18 Apr. 2026.
-
-Świerczkowski, S. "Interpretations of Euclidean Geometry." Transactions of the American Mathematical Society, vol. 322, no. 1, 1990, pp. 315–28. JSTOR, <https://doi.org/10.2307/2001533>. Accessed 18 Apr. 2026.
-
-Posamentier, Alfred S., et al. "More Gems from Euclidean Geometry." The Mathematics Teacher, vol. 103, no. 3, 2009, pp. 221–26. JSTOR, <http://www.jstor.org/stable/20876583>. Accessed 18 Apr. 2026.
-
-Allendoerfer, Carl B. "The Dilemma in Geometry." The Mathematics Teacher, vol. 62, no. 3, 1969, pp. 165–69. JSTOR, <http://www.jstor.org/stable/27958094>. Accessed 18 Apr. 2026.
-
-Widder, D. V. "What Is the Laplace Transform?" The American Mathematical Monthly, vol. 52, no. 8, 1945, pp. 419–25. JSTOR, <https://doi.org/10.2307/2305640>. Accessed 18 Apr. 2026.
-
-Campbell, Stephen L., and Richard Haberman. Introduction to Differential Equations with Dynamical Systems. Princeton University Press, 2008. JSTOR, <https://doi.org/10.2307/j.ctvcmxp4x>. Accessed 18 Apr. 2026.
-
-Deakin, Michael A. B. "Euler's Version of the Laplace Transform." The American Mathematical Monthly, vol. 87, no. 4, 1980, pp. 264–69. JSTOR, <https://doi.org/10.2307/2321558>. Accessed 18 Apr. 2026.
-
-Scheinerman, Ed, and Mircea I. Cîrnu. "Newton's Identities and the Laplace Transform." The American Mathematical Monthly, vol. 117, no. 1, 2010, pp. 67–71. JSTOR, <https://doi.org/10.4169/000298910x474998>. Accessed 18 Apr. 2026.
-
-Thange, Tukaram G., et al. "Conformable Laplace Transform on Time Scales." Filomat, vol. 40, no. 5, 2026, pp. 1699–711. JSTOR, <https://www.jstor.org/stable/27470834>. Accessed 18 Apr. 2026.
-
-Hutton, M. "Laplace Transforms." The Mathematical Gazette, vol. 35, no. 314, 1951, pp. 303–303. JSTOR, <https://doi.org/10.2307/3611521>. Accessed 18 Apr. 2026.
-
-Guggenheimer, H. "Systems of Linear Differential Equations by Laplace Transform." The College Mathematics Journal, vol. 23, no. 3, 1992, pp. 196–202. JSTOR, <https://doi.org/10.2307/2686296>. Accessed 18 Apr. 2026.
-
-Efthimiou, Costas J. "Trigonometric Series via Laplace Transforms." Mathematics Magazine, vol. 79, no. 5, 2006, pp. 376–79. JSTOR, <https://doi.org/10.2307/27642975>. Accessed 18 Apr. 2026.
-
-Pribitkin, Wladimir de Azevedo. "Laplace's Integral, the Gamma Function, and Beyond." The American Mathematical Monthly, vol. 109, no. 3, 2002, pp. 235–45. JSTOR, <https://doi.org/10.2307/2695353>. Accessed 18 Apr. 2026.
-
-Akin, J. E., and J. Counts. "On Rational Approximation to the Inverse Laplace Transform." SIAM Journal on Applied Mathematics, vol. 17, no. 6, 1969, pp. 1035–40. JSTOR, <http://www.jstor.org/stable/2099182>. Accessed 18 Apr. 2026.
-
-Opatowski, I. "Laplace Transform of (erf√t)²." The American Mathematical Monthly, vol. 59, no. 6, 1952, pp. 392–392. JSTOR, <https://doi.org/10.2307/2306813>. Accessed 18 Apr. 2026.
-
-Ungar, Abraham. "The Laplace Transform Inversion by Inspection." The American Mathematical Monthly, vol. 93, no. 10, 1986, pp. 786–91. JSTOR, <https://doi.org/10.2307/2322932>. Accessed 18 Apr. 2026.
-
-Kashiwara, Masaki, and Pierre Schapira. "Integral Transforms with Exponential Kernels and Laplace Transform." Journal of the American Mathematical Society, vol. 10, no. 4, 1997, pp. 939–72. JSTOR, <http://www.jstor.org/stable/2152878>. Accessed 18 Apr. 2026.
-
-Spiegel, M. R. "3340. The Laplace Transform of Jₙ(t)." The Mathematical Gazette, vol. 56, no. 398, 1972, pp. 329–30. JSTOR, <https://doi.org/10.2307/3617845>. Accessed 18 Apr. 2026.
-
-Varma, R. S. "A Generalisation of Laplace's Transform." Current Science, vol. 16, no. 1, 1947, pp. 17–18. JSTOR, <http://www.jstor.org/stable/24211320>. Accessed 18 Apr. 2026.
-
-Widder, D. V. "A Symbolic Form of the Classical Complex Inversion Formula for a Laplace Transform." The American Mathematical Monthly, vol. 58, no. 3, 1951, pp. 179–81. JSTOR, <https://doi.org/10.2307/2306589>. Accessed 18 Apr. 2026.
-
-Dixit, Atul. "The Laplace Transform of the Psi Function." Proceedings of the American Mathematical Society, vol. 138, no. 2, 2010, pp. 593–603. JSTOR, <http://www.jstor.org/stable/40590774>. Accessed 18 Apr. 2026.
-
-Adkins, William A., and Mark G. Davidson. "Putzer's Algorithm for e^At via the Laplace Transform." Mathematics Magazine, vol. 83, no. 4, 2010, pp. 267–75. JSTOR, <https://doi.org/10.4169/002557010x521796>. Accessed 18 Apr. 2026.
-
-Lunardi, Alessandra. "Laplace Transform Methods in Integrodifferential Equations." Journal of Integral Equations, vol. 10, no. 1/3, 1985, pp. 185–211. JSTOR, <http://www.jstor.org/stable/26164176>. Accessed 18 Apr. 2026.
-
-MIT OpenCourseWare. "Laplace Transform: Basics." MIT 18.03SC Differential Equations, Fall 2011, <https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/unit-iii-fourier-series-and-laplace-transform/laplace-transform-basics/>. Accessed 18 Apr. 2026.
-
-Berry, Andrew C. "The Fourier Transform Identity Theorem." Annals of Mathematics, vol. 32, no. 2, 1931, pp. 227–32. JSTOR, <https://doi.org/10.2307/1968186>. Accessed 18 Apr. 2026.
-
-Griffiths, Peter R. "Fourier Transform Infrared Spectrometry." Science, vol. 222, no. 4621, 1983, pp. 297–302. JSTOR, <http://www.jstor.org/stable/1691609>. Accessed 18 Apr. 2026.
-
-Beckner, William. "Inequalities in Fourier Analysis." Annals of Mathematics, vol. 102, no. 1, 1975, pp. 159–82. JSTOR, <https://doi.org/10.2307/1970980>. Accessed 18 Apr. 2026.
-
-Jozsa, R. "Quantum Algorithms and the Fourier Transform." Proceedings: Mathematical, Physical and Engineering Sciences, vol. 454, no. 1969, 1998, pp. 323–37. JSTOR, <http://www.jstor.org/stable/53168>. Accessed 18 Apr. 2026.
-
-McShane, E. J. "The Fourier Transform and Mean Convergence." The American Mathematical Monthly, vol. 68, no. 3, 1961, pp. 205–11. JSTOR, <https://doi.org/10.2307/2311446>. Accessed 18 Apr. 2026.
-
-Gao, Wen-Biao. "Biquaternion Fourier Transform and Its Applications." Filomat, vol. 38, no. 28, 2024, pp. 9851–65. JSTOR, <https://www.jstor.org/stable/27387941>. Accessed 18 Apr. 2026.
-
-Alm, Jeremy F., and James S. Walker. "Time-Frequency Analysis of Musical Instruments." SIAM Review, vol. 44, no. 3, 2002, pp. 457–76. JSTOR, <http://www.jstor.org/stable/4148384>. Accessed 18 Apr. 2026.
-
-Torchinsky, Alberto. "The Fourier Transform and the Wave Equation." The American Mathematical Monthly, vol. 118, no. 7, 2011, pp. 599–609. JSTOR, <https://doi.org/10.4169/amer.math.monthly.118.07.599>. Accessed 18 Apr. 2026.
-
-Muckenhoupt, Benjamin. "Weighted Norm Inequalities for the Fourier Transform." Transactions of the American Mathematical Society, vol. 276, no. 2, 1983, pp. 729–42. JSTOR, <https://doi.org/10.2307/1999080>. Accessed 18 Apr. 2026.
-
-Mackenzie, J. K. "Evaluation of a Fourier Transform." SIAM Review, vol. 9, no. 2, 1967, pp. 219–22. JSTOR, <http://www.jstor.org/stable/2027445>. Accessed 18 Apr. 2026.
-
-Herz, C. S. "Fourier Transforms Related to Convex Sets." Annals of Mathematics, vol. 75, no. 1, 1962, pp. 81–92. JSTOR, <https://doi.org/10.2307/1970421>. Accessed 18 Apr. 2026.
-
-Callender, Clifton. "Continuous Harmonic Spaces." Journal of Music Theory, vol. 51, no. 2, 2007, pp. 277–332. JSTOR, <http://www.jstor.org/stable/40283131>. Accessed 18 Apr. 2026.
-
-Morrison, Kent E. "Cosine Products, Fourier Transforms, and Random Sums." The American Mathematical Monthly, vol. 102, no. 8, 1995, pp. 716–24. JSTOR, <https://doi.org/10.2307/2974641>. Accessed 18 Apr. 2026.
-
-Lin, Xin, et al. "Mechanical Fourier Transform for Programmable Metamaterials." Proceedings of the National Academy of Sciences of the United States of America, vol. 120, no. 37, 2023, pp. 1–9. JSTOR, <https://www.jstor.org/stable/27265985>. Accessed 18 Apr. 2026.
-
-Bailey, David H., and Paul N. Swarztrauber. "The Fractional Fourier Transform and Applications." SIAM Review, vol. 33, no. 3, 1991, pp. 389–404. JSTOR, <http://www.jstor.org/stable/2031440>. Accessed 18 Apr. 2026.
-
-Bracewell, Ronald N. "The Fourier Transform." Scientific American, vol. 260, no. 6, 1989, pp. 86–95. JSTOR, <http://www.jstor.org/stable/24987290>. Accessed 18 Apr. 2026.
-
-Euler, Russell. "Laplace Transforms and Taylor Series." Pi Mu Epsilon Journal, vol. 10, no. 4, 1996, pp. 305–07. JSTOR, <http://www.jstor.org/stable/24345100>. Accessed 18 Apr. 2026.
-
-Widder, D. V. "A Generalization of Taylor's Series." Transactions of the American Mathematical Society, vol. 30, no. 1, 1928, pp. 126–54. JSTOR, <https://doi.org/10.2307/1989270>. Accessed 18 Apr. 2026.
-
-Rozema, Edward R. "Romberg Integration by Taylor Series." The American Mathematical Monthly, vol. 94, no. 3, 1987, pp. 284–88. JSTOR, <https://doi.org/10.2307/2323397>. Accessed 18 Apr. 2026.
-
-Meyerson, Mark D. "Every Power Series Is a Taylor Series." The American Mathematical Monthly, vol. 88, no. 1, 1981, pp. 51–52. JSTOR, <https://doi.org/10.2307/2320716>. Accessed 18 Apr. 2026.
-
-Spiegel, M. R. "Mean Value Theorems and Taylor Series." Mathematics Magazine, vol. 29, no. 5, 1956, pp. 263–66. JSTOR, <https://doi.org/10.2307/3029299>. Accessed 18 Apr. 2026.
-
-Erdős, Paul, et al. "Sets of Divergence of Taylor Series and of Trigonometric Series." Mathematica Scandinavica, vol. 2, no. 2, 1954, pp. 262–66. JSTOR, <http://www.jstor.org/stable/24489039>. Accessed 18 Apr. 2026.
-
-Eves, Howard. "Power(ful) Series." Great Moments in Mathematics (After 1650), 1st ed., vol. 7, Mathematical Association of America, 1983, pp. 40–51. JSTOR, <http://www.jstor.org/stable/10.4169/j.ctt6wpwqx.7>. Accessed 18 Apr. 2026.
-
-Duffin, R. J., and A. C. Schaeffer. "Power Series with Bounded Coefficients." American Journal of Mathematics, vol. 67, no. 1, 1945, pp. 141–54. JSTOR, <https://doi.org/10.2307/2371922>. Accessed 18 Apr. 2026.
-
-Baik, Jinho, et al. "Phase Transition of the Largest Eigenvalue for Nonnull Complex Sample Covariance Matrices." The Annals of Probability, vol. 33, no. 5, 2005, pp. 1643–97. JSTOR, <http://www.jstor.org/stable/3481698>. Accessed 18 Apr. 2026.
-
-Banner, Adrian. "Taylor and Power Series: How to Solve Problems." The Calculus Lifesaver: All the Tools You Need to Excel at Calculus, SCH-School edition, Princeton University Press, 2007, pp. 551–74. JSTOR, <http://www.jstor.org/stable/j.ctt7s1h6.30>. Accessed 18 Apr. 2026.
-
-Bryan, Kurt, and Tanya Leise. "The $25,000,000,000 Eigenvector: The Linear Algebra behind Google." SIAM Review, vol. 48, no. 3, 2006, pp. 569–81. JSTOR, <http://www.jstor.org/stable/20453840>. Accessed 18 Apr. 2026.
-
-Chu, Moody T. "Inverse Eigenvalue Problems." SIAM Review, vol. 40, no. 1, 1998, pp. 1–39. JSTOR, <http://www.jstor.org/stable/2652996>. Accessed 18 Apr. 2026.
-
-Diniz-Filho, José Alexandre Felizola, et al. "An Eigenvector Method for Estimating Phylogenetic Inertia." Evolution, vol. 52, no. 5, 1998, pp. 1247–62. JSTOR, <https://doi.org/10.2307/2411294>. Accessed 18 Apr. 2026.
-
-Jia, Peng, et al. "Opinion Dynamics and the Evolution of Social Power in Influence Networks." SIAM Review, vol. 57, no. 3, 2015, pp. 367–97. JSTOR, <http://www.jstor.org/stable/24778737>. Accessed 18 Apr. 2026.
-
-Langville, Amy N., and Carl D. Meyer. "A Survey of Eigenvector Methods for Web Information Retrieval." SIAM Review, vol. 47, no. 1, 2005, pp. 135–61. JSTOR, <http://www.jstor.org/stable/20453606>. Accessed 18 Apr. 2026.
-
-Lord, Nick. "Winning Ways for Your Mathematical Plays, Volume 2." Review of Winning Ways for Your Mathematical Plays, Volume 2, by Elwyn R. Berlekamp et al. The Mathematical Gazette, vol. 88, no. 512, 2004, pp. 414–15. JSTOR, <http://www.jstor.org/stable/3620944>. Accessed 18 Apr. 2026.
-
-Rubinstein, Ariel. "Game Theory: A Beautiful Mind." Economic Fables, 1st ed., Open Book Publishers, 2012, pp. 91–146. JSTOR, <http://www.jstor.org/stable/j.ctt5vjswm.5>. Accessed 18 Apr. 2026.
-
-Schonefeld, Steven. "Eigenpictures: Picturing the Eigenvector Problem." The College Mathematics Journal, vol. 26, no. 4, 1995, pp. 316–19. JSTOR, <https://doi.org/10.2307/2687037>. Accessed 18 Apr. 2026.
-
-Straffin, Philip D. "Linear Algebra in Geography: Eigenvectors of Networks." Mathematics Magazine, vol. 53, no. 5, 1980, pp. 269–76. JSTOR, <https://doi.org/10.2307/2689388>. Accessed 18 Apr. 2026.
-
-Tisseur, Françoise, and Karl Meerbergen. "The Quadratic Eigenvalue Problem." SIAM Review, vol. 43, no. 2, 2001, pp. 235–86. JSTOR, <http://www.jstor.org/stable/3649752>. Accessed 18 Apr. 2026.
-
-Stone, Randall W. "The Use and Abuse of Game Theory in International Relations: The Theory of Moves." The Journal of Conflict Resolution, vol. 45, no. 2, 2001, pp. 216–44. JSTOR, <http://www.jstor.org/stable/3176277>. Accessed 18 Apr. 2026.
-
-Binmore, Ken. "Game Theory." Rational Decisions, STU-Student edition, Princeton University Press, 2009, pp. 25–34. JSTOR, <http://www.jstor.org/stable/j.ctt7szmq.5>. Accessed 18 Apr. 2026.
-
-Resnik, Michael D. "Game Theory." Choices: An Introduction to Decision Theory, NED-New edition, University of Minnesota Press, 1987, pp. 121–76. JSTOR, <http://www.jstor.org/stable/10.5749/j.ctttshgd.9>. Accessed 18 Apr. 2026.
-
-van Benthem, Johan, et al. "Game Theory, Logic and Rational Choice." Discourses on Social Software, edited by Jan van Eijck and Rineke Verbrugge, Amsterdam University Press, 2009, pp. 123–34. JSTOR, <http://www.jstor.org/stable/j.ctt46n2rz.14>. Accessed 18 Apr. 2026.
-
-Cunningham, R. L. "Ethics and Game Theory: The Prisoner's Dilemma." Papers on Non-Market Decision Making, vol. 2, 1967, pp. 11–26. JSTOR, <http://www.jstor.org/stable/25066097>. Accessed 18 Apr. 2026.
-
-Székely, Gábor J., and Maria L. Rizzo. "The Uncertainty Principle of Game Theory." The American Mathematical Monthly, vol. 114, no. 8, 2007, pp. 688–702. JSTOR, <http://www.jstor.org/stable/27642304>. Accessed 18 Apr. 2026.
-
-Weil, Roman L. "Game Theory and Eigensystems." SIAM Review, vol. 10, no. 3, 1968, pp. 360–67. JSTOR, <http://www.jstor.org/stable/2027660>. Accessed 18 Apr. 2026.
-
-Fava, Megan. "What is... Game Theory?" Ohio State University Department of Mathematics, 2018, <https://math.osu.edu/sites/math.osu.edu/files/What_is_2018_Game_Theory.pdf>. Accessed 18 Apr. 2026.
-
-González-Díaz, Julio, et al. An Introductory Course on Mathematical Game Theory. American Mathematical Society, 2010.
-
-Mazalov, Vladimir. Mathematical Game Theory and Applications. Wiley, 2014.
-
-Strong, Elizabeth A., and Robert E. Strong. "Geodesic Earth: Models Help Students Understand the Size and Scale of the Earth." The Science Teacher, vol. 66, no. 2, 1999, pp. 43–45. JSTOR, <http://www.jstor.org/stable/24153490>. Accessed 18 Apr. 2026.
-
-Wood, T. E. "Vertex Latitudes on Ellipsoid Geodesics." SIAM Review, vol. 38, no. 4, 1996, pp. 637–44. JSTOR, <http://www.jstor.org/stable/2132936>. Accessed 18 Apr. 2026.
-
-Jamski, William D. "Spherical Geodesics." The Mathematics Teacher, vol. 74, no. 3, 1981, pp. 227–36. JSTOR, <http://www.jstor.org/stable/27962399>. Accessed 18 Apr. 2026.
-
-Jia, Hongkai. "Geodesics." Iowa State University, <https://faculty.sites.iastate.edu/jia/files/inline-files/geodesics.pdf>. Accessed 18 Apr. 2026.
-
-Rumble, David. "Differential Geometry: Chapter 6." Millersville University, <https://sites.millersville.edu/rumble/Math.457/chapter6.pdf>. Accessed 18 Apr. 2026.
-
-Bliss, Gilbert A. "Calculus of Variations." University of Edinburgh, <https://webhomes.maths.ed.ac.uk/~v1ranick/papers/bliss.pdf>. Accessed 18 Apr. 2026.
-
-Baek, Joseph. "Geodesics and Curvature." Stanford University, <https://cs.stanford.edu/people/jbaek/18.821.paper2.pdf>. Accessed 18 Apr. 2026.
-
-Villanueva, Jay. "Geodesics." Pearson, <https://www.pearson.com/content/dam/one-dot-com/one-dot-com/us/en/files/Jay%20Villanueva%20-%20geodesics9.pdf>. Accessed 18 Apr. 2026.
-
-Wheeler, Nicholas. "Geodesics on Surfaces: Paraboloid & Hexenhut." Reed College Physics, <https://www.reed.edu/physics/faculty/wheeler/documents/Miscellaneous%20Math/Differential%20Geometry/Geodesics%20on%20Surfaces/Paraboloid%20&%20Hexenhut%20Geodesics.pdf>. Accessed 18 Apr. 2026.
-
-Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https://prod-ms-be.lib.mcmaster.ca/server/api/core/bitstreams/5004a6a1-22f3-4e67-b94d-5567959e4d50/content>. Accessed 18 Apr. 2026.
+Świerczkowski, S. "Interpretations of Euclidean Geometry." Transactions of the American Mathematical Society, vol. 322, no. 1, 1990, pp. 315–28. JSTOR, <https://doi.org/10.2307/2001533>. Accessed 16 Apr. 2026.
 
 [^1]: Beyond basic forms, the Laplace transform has been computed for remarkably complex functions including Bessel functions $J_n(t)$ (Spiegel 329-330), error functions (Opatowski 392), and the psi (digamma) function (Dixit 593-600). These specialized results connect the Laplace transform to deep areas of mathematical analysis including the gamma function and Euler's constant (Pribitkin 241-245). Generalizations extend the classical Laplace transform to time scales and conformable derivatives, broadening its applicability to discrete-continuous hybrid systems (Thange et al. 1699-1705).
 
