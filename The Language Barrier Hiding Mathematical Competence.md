@@ -1982,11 +1982,41 @@ When your college advisor says "you can't take Real Analysis yet," they're enfor
 
 ### Combinatorics
 
-Combinatorics is the branch of mathematics that studies counting, arranging, and combining objects. It answers questions like "How many ways can I choose or arrange these things?" It's about figuring out all the possible patterns, groupings, or orders that can be made from a set of items.
+Combinatorics is a branch of mathematics that focuses on counting, arranging, and configuring finite or discrete structures. It explores techniques for counting permutations and combinations to determine the number of ways objects can be arranged or selected. Key concepts in combinatorics include factorials, graph theory, and the principle of inclusion-exclusion. This field has significant applications in computer science, cryptography, and probability. Combinatorics addresses questions such as "How many ways can I choose or arrange these items?" It involves discovering all possible patterns, groupings, or orders that can be created from a given set of objects.
 
-- **Permutations**: How many ways to order a set of items (like shuffling a deck of cards)?
-- **Combinations**: How many ways to choose a subset from a larger set (like picking a committee from a group)?
-- **Partitions**: How can a number or set be split into smaller parts?
+**Basic Concepts and Formulas** 
+- Permutations: The number of ways to order $n$ distinct objects, denoted as $n!$
+- Combinations: The number of ways to choose $r$ objects from a set of $n$ without regard to order, calculated as $\displaystyle \frac{n!}{r!(n-r)!}$. How many ways to choose a subset from a larger set (like picking a committee from a group)?
+  - Types of Combinatorics 
+    - Enumerative Combinatorics: Counting the number of elements in finite sets. 
+    - Extremal Combinatorics: Determining the maximum or minimum size of a collection of finite structures that satisfy certain properties. 
+    - Algebraic Combinatorics: Using algebraic methods to solve combinatorial problems. 
+    - Probabilistic Combinatorics: Using probability theory to prove the existence of specific configurations. 
+    - Graph Theory: The study of graphs, which are mathematical structures used to model pairwise relations between objects. 
+- Partitions: Methods of breaking down integers or sets. How can a number or set be split into smaller parts?
+  - Types of Partitions:
+    - Integer Partitions: The partition function $p(n)$ represents the number of ways to write an integer $n$ as a sum of positive integers. The number of partitions of 4 is 5: (4), (3+1), (2+2), (2+1+1), (1+1+1+1). 
+    - Set Partitions: A partition of a set $A$ is a collection of disjoint subsets (blocks) whose union equals the original set. The number of ways to partition a set with $n$ elements is known as the Bell number $B_n$ (e.g., $B_3 = 5$, $B_4 = 15$). For complex set partitions, the number of ways to partition $k$ distinct elements into $n$ subsets is described by the Stirling number of the second kind, denoted $S(k,n)$ or $\lbrace\begin{matrix} \begin{array}{c} x \\ y \end{array} \end{matrix} \rbrace$.
+  - Representations: 
+    - Ferrers/Young Diagrams: Visual representations using dots or squares to represent integer partitions. 
+    - Conjugate Partitions: Obtained by reflecting a Ferrers diagram along its diagonal. 
+  - Special Partition Types: 
+    - Distinct Parts: Partitions where each integer is used at most once. 
+    - Odd Parts: Partitions where each part is an odd integer, which equals the number of partitions into distinct parts. 
+  - Counting Methods: 
+    - Generating Functions: Used to calculate $p(n)$ using power series, such as Euler's pentagonal number theorem. 
+    - Recurrence Relations: Used for computing specific values of $p(n, k)$ (partitions of $n$ with $k$ parts). 
+  - Key Differences 
+    - Partitions: Order does not matter ($2+1$ is the same as $1+2$). 
+    - Compositions: Order matters ($2+1$ is different from $1+2$). 
+- Rule of Sum: If one task can be done in $n$ ways and another in $m$ ways, and they cannot be done together, there are $n+m$ ways. 
+- Rule of Product: If one task can be done in $n$ ways and a second independent task in $m$ ways, there are $n \times m$ ways.
+
+**Common Techniques** 
+- Recurrence Relations: Defining a sequence based on a rule that relates terms to earlier terms. 
+- Generating Functions: Using power series to solve counting problems. 
+- Inclusion-Exclusion Principle: A technique to compute the size of the union of multiple sets. 
+
 
 #### Applications:
 
@@ -2062,7 +2092,7 @@ Here is the combinatorial breakdown for these password requirements, assuming a 
 
    The math for a specific sequence, such as the arithmetic progression $\{2, 4, 6, 8, 10, 12\}$, is identical to any other combination:
    - The specific pattern counts as **$1$** possible outcome.
-   - The denominator is the total combinations $\displaystyle \binom{n}{k}$.
+   - The denominator is the total combinations $\binom{n}{k}$.
 
    The odds of hitting $\{2, 4, 6, 8, 10, 12\}$ are identical to hitting $\{1, 19, 23, 31, 44, 48\}$. Both are **$1$ in $13,983,816$**.
 
@@ -2088,12 +2118,6 @@ Here is the combinatorial breakdown for these password requirements, assuming a 
 | **Being Killed by a Shark** (Lifetime)                    | $\sim 4, 332, 817$                 |
 | **An Average Person Winning an Olympic Medal** (Lifetime) | $\sim 662, 000$                    |
 | **Being Killed by a Vending Machine** (Annually)          | $\sim 112,000,000$                 |
-
----
-
-### Catalan numbers
-
-The Catalan numbers: 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845, ..., named after Eugéne Charles Catalan (1814--1894), arise in a number of problems in combinatorics.
 
 ---
 
