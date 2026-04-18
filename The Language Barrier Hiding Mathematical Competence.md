@@ -1908,15 +1908,13 @@ While they sound similar, the difference is about the "tools" you are allowed to
 
 ### Graph Theory
 
-Graph theory studies networks of connections. In math, a "graph" is not a plot or chart-it's a collection of points (called vertices or nodes) connected by lines (called edges). Graph theory explores how things are linked together, how you can move through networks, and what patterns or structures emerge.
-
-Graph theory is the mathematics of connections and networks. It is everywhere in daily life and technology, from social media and transportation to biology and project management. It helps us understand and optimize the many webs of relationships that connect the world.
+Graph theory is the study of networks of connections. In mathematics, a "graph" is not a plot or chart; rather, it is a collection of points, known as vertices or nodes, connected by lines called edges. Graph theory examines how these points are linked, how one can navigate through networks, and what patterns or structures may arise. It represents the mathematics of connections and networks and is applicable in many aspects of daily life and technology, including social media, transportation, biology, and project management. By utilizing graph theory, we can better understand and optimize the various webs of relationships that connect the world.
 
 **Directed Acyclic Graph (DAG)**
 
-- *Nodes ( $V$ )*: Represent individual tasks.
-- *Directed Edges ( $E$ )*: An edge from task $A$ to task $B$ ( $A \to B$ ) represents a precedence constraint, meaning $A$ must be finished before $B$ starts.
-- *Acyclic Property*: The graph must be acyclic (no loops). If a cycle exists (e.g., $A \to B \to C \to A$), the project is mathematically impossible to complete because each task is waiting on itself.
+- Nodes ( $V$ ): Represent individual tasks.
+- Directed Edges ( $E$ ): An edge from task $A$ to task $B$ ( $A \to B$ ) represents a precedence constraint, meaning $A$ must be finished before $B$ starts.
+- Acyclic Property: The graph must be acyclic (no loops). If a cycle exists (e.g., $A \to B \to C \to A$), the project is mathematically impossible to complete because each task is waiting on itself.
 
 #### Applications:
 
