@@ -58,7 +58,8 @@ Students who struggle with mathematics should understand that these challenges a
 
 - 70% of women report experiencing math anxiety, compared to 57% of men (Prodigy Education), and this anxiety has a greater negative impact on women’s outcomes (Yu et al.). Stereotypes and societal expectations that frame mathematics as a male domain discourage women from full participation, regardless of skill. Math anxiety also intersects with race, ethnicity, and socioeconomic status. Women of color and those from lower-income backgrounds face additional barriers, such as stereotype threat, limited access to quality instruction, and underrepresentation in advanced courses, all of which intensify anxiety and its long-term effects.
 
-- Hottinger’s analysis reveals how gender and race shape cultural understandings of who is considered a “mathematician,” demonstrating that mathematical identity is constructed through social narratives that systematically exclude women and people of color (Hottinger).
+- Hottinger’s analysis reveals how gender and race shape cultural understandings of who is considered a "mathematician," demonstrating that mathematical identity is constructed through social narratives that systematically exclude women and people of color (Hottinger).
+
 - Math anxiety disproportionately affects women’s test performance, classroom participation, and long-term confidence, even when achievement matches that of men. These patterns highlight the need for targeted interventions and cultural change to address barriers women face in mathematics (Opesemowo et al., 2025).
 
 - Among high-performing students, girls are significantly less likely than equally achieving boys to pursue math-intensive fields, a disparity driven by anxiety rather than ability (Denervaud et al.). Despite their competence, girls often opt out of advanced math pathways due to internalized doubts. Addressing math anxiety could unlock a substantial pool of untapped STEM talent (Samuel et al., 2022, pp. 613-626).
@@ -75,17 +76,24 @@ Students who struggle with mathematics should understand that these challenges a
 
 ### Physical, Psychological, and Physiological Harm
 
-- The phrase “I am not a math person” has become a culturally accepted identity label, reinforced by prevailing social norms, gender expectations, and classroom experiences (Weir).
+- The phrase "I am not a math person" has become a culturally accepted identity label, reinforced by prevailing social norms, gender expectations, and classroom experiences (Weir).
+
 - Hersh and John-Steiner document the emotional dimensions of mathematical engagement, showing that attitudes toward mathematics—love, hate, anxiety, confidence—are learned rather than innate, and are shaped by social context and instruction quality (Hersh and John-Steiner).
-- Byrnes’s analysis confirms that mathematical competence develops incrementally through skill acquisition, conceptual growth, and linguistic fluency. Students who seem to “lack” ability often simply lack exposure to accessible instruction; their underlying capacity remains untapped (Byrnes 300-315).
+
+- Byrnes’s analysis confirms that mathematical competence develops incrementally through skill acquisition, conceptual growth, and linguistic fluency. Students who seem to "lack" ability often simply lack exposure to accessible instruction; their underlying capacity remains untapped (Byrnes 300-315).
+
 - Math anxiety has measurable physiological effects, including increased cortisol, elevated heart rate, and working memory impairment, which mimic the body’s stress response to genuine physical threats (Ashcraft and Krause 244).
 
 - Lower health numeracy among the general adult population leads to poorer medical decision-making and increased healthcare costs (Peters, 2020).
 
 - Schwartz examined whether mathematical competence is innate and concluded that it is not - mathematical ability develops through experience, instruction, and practice. This finding is critical: if competence is learned rather than innate, then struggles in mathematics reflect inadequate learning environments (including language barriers) rather than fixed cognitive limitations (Schwartz 230-237).
-- Math anxiety is self-reinforcing: avoidance leads to skill gaps, which in turn increase anxiety and further avoidance, creating a feedback loop that Ashcraft and Krause documented as the “anxiety-performance cycle” (Ashcraft and Krause 245).
+
+- Math anxiety is self-reinforcing: avoidance leads to skill gaps, which in turn increase anxiety and further avoidance, creating a feedback loop that Ashcraft and Krause documented as the "anxiety-performance cycle" (Ashcraft and Krause 245).
+
 - Gold and Simons examine proof and mathematical reasoning, showing that even within professional mathematics, there are ongoing debates about what constitutes a valid mathematical argument, revealing that mathematical communication is more nuanced and context-dependent than the rigid formalism presented to students suggests (Gold and Simons).
-- Numeracy is essential, with higher proficiency linked to better health, wealth, and decision-making outcomes. Low numeracy increases vulnerability to cognitive biases and emotional reasoning, creating a “hidden tax” in a data-driven society (Peters, 2020).
+
+- Numeracy is essential, with higher proficiency linked to better health, wealth, and decision-making outcomes. Low numeracy increases vulnerability to cognitive biases and emotional reasoning, creating a "hidden tax" in a data-driven society (Peters, 2020).
+
 - In a landmark 2012 study, Lyons and Beilock used fMRI scans to demonstrate that for highly math-anxious individuals, the anticipation of performing mathematics activates the brain’s pain network, the same regions associated with physical pain. The mathematical tasks themselves did not activate these regions; rather, the fear of mathematical language and symbols did (Lyons and Beilock). This finding indicates that the physiological response is triggered by the presentation of mathematics—specifically, symbols, jargon, and formalism—rather than by the underlying reasoning. The body responds to the language, not the logic.
 
 - Math anxiety is intergenerational: Malanchini et al. found that parents’ math anxiety is significantly associated with their children’s, transmitted through both genetic and environmental pathways - including avoidance behaviors, negative messaging about math, and reduced home numeracy practices (Malanchini et al.).
@@ -131,7 +139,9 @@ Students who struggle with mathematics should understand that these challenges a
 - Castillo et al.'s 2025 systematic review found that formal notation alone is a significant barrier when not coordinated with concrete, intuitive representations. Integrating semiotic representations (symbols, graphs, algebra) with real-world framing is critical for conceptual understanding, yet curricula routinely lead with formalism rather than intuition (Castillo et al.).
 
 - Ferreira et al. found in 2025 that math-specific vocabulary is a stronger predictor of early math performance than general language skills. Students who could not parse terminology experienced higher anxiety, which decreased performance - creating a vicious cycle where jargon, not intelligence, determines outcomes (Ferreira et al.).
-- Tobias argued that much of what is perceived as a math “block” is actually a language barrier: students struggle not with mathematical logic but with notation, vocabulary, and methods of formal argument. She observed that with supportive instruction focusing on interpretation and translation, many students overcome their anxiety entirely (Tobias 65-70).
+
+- Tobias argued that much of what is perceived as a math "block" is actually a language barrier: students struggle not with mathematical logic but with notation, vocabulary, and methods of formal argument. She observed that with supportive instruction focusing on interpretation and translation, many students overcome their anxiety entirely (Tobias 65-70).
+
 - Wynn and Reyes examine the rhetorical aspects of mathematical communication, arguing that mathematical arguments are persuasive acts embedded in language, not neutral transmissions of truth. How mathematics is argued and presented determines access, making rhetoric a key factor in mathematical literacy (Wynn and Reyes). The specialized vocabulary and proof structures of formal mathematics act as gatekeeping mechanisms, excluding those not initiated into the discourse community.
 
 #### The Importance of Framing in Mathematics Education
@@ -139,9 +149,13 @@ Students who struggle with mathematics should understand that these challenges a
 - Pei, Poon, and Suen found in 2025 that mathematical engagement mediates the relationship between anxiety and performance. Students guided to engage with concepts through plain language and real-world framing showed significantly reduced anxiety, demonstrating that how math is presented matters more than what is presented (Pei et al.).
 
 - Holenstein et al.'s longitudinal study demonstrated significant transfer effects of mathematical literacy: students who develop strong mathematical literacy - the ability to interpret, communicate, and reason with mathematical ideas in context - show improved performance across domains. Critically, literacy (language-based competence) predicted transfer more strongly than procedural skill, confirming that linguistic fluency is the foundation for mathematical flexibility (Holenstein et al. 810-820).
-- Abrantes argued for “Mathematical Competence for All,” examining the institutional and pedagogical obstacles that prevent universal access. The barriers are not cognitive - they are structural, linguistic, and pedagogical. When mathematics is presented as an accessible language rather than an exclusive code, competence becomes achievable for all learners (Abrantes 130-140).
-- Hodkowski reported on the ongoing conceptual vs. procedural debate, concluding that conceptual understanding - grasping the “why” - leads to more robust and transferable mathematical thinking than procedural fluency alone. Relying on algorithms and jargon without conceptual context can leave students struggling even when they intuitively understand the ideas (Hodkowski).
-- Abbott et al. chronicle the “math wars”—decades of contentious debates over curriculum and pedagogy—demonstrating that disagreements about how to teach mathematics often reflect deeper tensions about access, equity, and whose mathematical knowledge counts as legitimate (Abbott et al.).
+
+- Abrantes argued for "Mathematical Competence for All," examining the institutional and pedagogical obstacles that prevent universal access. The barriers are not cognitive - they are structural, linguistic, and pedagogical. When mathematics is presented as an accessible language rather than an exclusive code, competence becomes achievable for all learners (Abrantes 130-140).
+
+- Hodkowski reported on the ongoing conceptual vs. procedural debate, concluding that conceptual understanding - grasping the "why" - leads to more robust and transferable mathematical thinking than procedural fluency alone. Relying on algorithms and jargon without conceptual context can leave students struggling even when they intuitively understand the ideas (Hodkowski).
+
+- Abbott et al. chronicle the "math wars"—decades of contentious debates over curriculum and pedagogy—demonstrating that disagreements about how to teach mathematics often reflect deeper tensions about access, equity, and whose mathematical knowledge counts as legitimate (Abbott et al.).
+
 - Nunes, Schliemann, and Carraher’s ethnomathematics research further supports this: mathematical reasoning embedded in meaningful, real-world contexts consistently produces higher accuracy and confidence than identical reasoning presented in abstract formal notation (Nunes et al. 40-55).
 
 - Sammallahti et al.'s 2023 meta-analysis examined 50 studies with 9,125 participants and found moderate effect sizes for both reducing math anxiety (g = -0.467) and improving math performance (g = 0.502). The most effective interventions combined cognitive support with emotion regulation strategies, and longer interventions targeting students over 12 years old showed the largest effects - demonstrating that anxiety reduction and skill building reinforce each other when addressed together (Sammallahti et al.).
@@ -178,15 +192,15 @@ Students who struggle with mathematics should understand that these challenges a
 
 ## D'Ambrosio's Ethnomathematics Framework
 
-D’Ambrosio’s ethnomathematics framework provides a powerful way to understand why mathematical competence is often hidden by formal schooling. D’Ambrosio argues that mathematics is not a culture-free universal code delivered in one official register; rather, it is a set of human practices that develops in every society through counting, measuring, designing, locating, trading, and explaining relationships in culturally meaningful ways (D’Ambrosio 44-47). In this view, the problem is not that some students “lack math,” but that schools often treat one culturally specific form of mathematics - the written, standardized, symbolic language of formal institutions - as if it were the only legitimate one.
+D’Ambrosio’s ethnomathematics framework provides a powerful way to understand why mathematical competence is often hidden by formal schooling. D’Ambrosio argues that mathematics is not a culture-free universal code delivered in one official register; rather, it is a set of human practices that develops in every society through counting, measuring, designing, locating, trading, and explaining relationships in culturally meaningful ways (D’Ambrosio 44-47). In this view, the problem is not that some students "lack math," but that schools often treat one culturally specific form of mathematics - the written, standardized, symbolic language of formal institutions - as if it were the only legitimate one.
 
 This is exactly what Nunes, Schliemann, and Carraher demonstrated in their study of Brazilian street vendors. The children could calculate mentally with impressive precision in the marketplace because the task was embedded in a meaningful social practice: selling, negotiating, making change, and estimating profit. Yet when equivalent arithmetic was presented in school form, detached from context and expressed in formal notation, their performance dropped dramatically (Nunes et al. 27-35, 40-54). The children had not lost mathematical ability; the setting had changed, and with it the language, expectations, and epistemic frame.
 
-D’Ambrosio’s framework helps explain why math anxiety can be so destructive. If learners have already developed useful mathematical practices through family life, work, community activity, or everyday problem-solving, then the classroom can feel like a place where their knowledge is ignored or invalidated. What appears to be a “lack of ability” may actually be a mismatch between the learner’s cultural mathematical experience and the school’s formal presentation.
+D’Ambrosio’s framework helps explain why math anxiety can be so destructive. If learners have already developed useful mathematical practices through family life, work, community activity, or everyday problem-solving, then the classroom can feel like a place where their knowledge is ignored or invalidated. What appears to be a "lack of ability" may actually be a mismatch between the learner’s cultural mathematical experience and the school’s formal presentation.
 
 This is also why ethnomathematics has major implications for teaching. Instead of starting with abstract notation and then hoping students attach meaning to it later, educators can begin with familiar practices - shopping, cooking, measuring, building, designing, budgeting, and navigating - and then connect those practices to formal mathematical language. When teachers do this, they are not lowering standards. They are translating between mathematical registers and making visible the competence students already possess.
 
-D’Ambrosio’s framework is supported by later ethnomathematics scholarship, which shows that mathematics is always culturally situated and that formal schooling often privileges only one version of it. Rosa and Orey describe ethnomathematics as a way to recognize “mathematical ideas” in diverse cultural activities, including architecture, crafts, measurement, and local problem-solving (Rosa and Orey 11-15). A recent literature review likewise argues that ethnomathematics helps connect mathematics education to local practices, cultural identity, and meaningful real-world applications rather than treating mathematics as detached abstraction (Kabuye Batiibwe 383-405).
+D’Ambrosio’s framework is supported by later ethnomathematics scholarship, which shows that mathematics is always culturally situated and that formal schooling often privileges only one version of it. Rosa and Orey describe ethnomathematics as a way to recognize "mathematical ideas" in diverse cultural activities, including architecture, crafts, measurement, and local problem-solving (Rosa and Orey 11-15). A recent literature review likewise argues that ethnomathematics helps connect mathematics education to local practices, cultural identity, and meaningful real-world applications rather than treating mathematics as detached abstraction (Kabuye Batiibwe 383-405).
 
 Munetsi emphasizes that ethnomathematics reveals how different cultural groups have developed sophisticated mathematical practices that are often invisible to formal education systems (Munetsi). Joseph’s comprehensive historical analysis demonstrates that mathematics has deep non-European roots, with significant contributions from African, Asian, and Indigenous American civilizations that are systematically erased in Eurocentric narratives (Joseph). Knijnik argues that ethnomathematics is inherently political, challenging the power structures that determine whose mathematical knowledge is valued and legitimized in educational institutions (Knijnik). However, Rowlands and Carson raise important questions about how ethnomathematics should inform curriculum, cautioning that overly relativistic approaches risk undermining the universal applicability of mathematical reasoning while acknowledging the validity of culturally situated mathematical practices (Rowlands and Carson). This ongoing debate highlights a central challenge: while validating local and cultural mathematical practices can improve student engagement and recognize previously excluded knowledge, educational systems also require common standards to ensure shared understanding and facilitate communication. A balanced approach seeks to honor diverse mathematical heritages within a curriculum that also maintains core principles and procedural rigor, supporting both equity and coherence in mathematics education.
 
@@ -200,13 +214,13 @@ In many countries, street vendors, market traders, and small business owners per
 
 ### 2\. Trades, construction, and vocational work
 
-Carpenters, masons, electricians, mechanics, and fabricators use geometry, ratios, estimation, scaling, and spatial reasoning every day. A contractor measuring lumber, a mechanic calculating torque, or a tile worker laying out a pattern may be using concepts that correspond to formal mathematics, even if they describe the work as “common sense” or “experience.” Rosa and Orey emphasize that ethnomathematics includes these occupational forms of reasoning, where measurement and design are inseparable from practice (Rosa and Orey 11-15). What schools often miss is that this competence is not informal in the sense of being unserious; it is informal only in the sense that it is not written in textbook notation.
+Carpenters, masons, electricians, mechanics, and fabricators use geometry, ratios, estimation, scaling, and spatial reasoning every day. A contractor measuring lumber, a mechanic calculating torque, or a tile worker laying out a pattern may be using concepts that correspond to formal mathematics, even if they describe the work as "common sense" or "experience." Rosa and Orey emphasize that ethnomathematics includes these occupational forms of reasoning, where measurement and design are inseparable from practice (Rosa and Orey 11-15). What schools often miss is that this competence is not informal in the sense of being unserious; it is informal only in the sense that it is not written in textbook notation.
 
 ### 3\. Indigenous mathematical practices
 
 Indigenous knowledge systems also contain rich mathematical reasoning in ecological observation, navigation, pattern-making, spatial organization, and resource management. A recent review on Indigenous mathematical knowledge argues that bringing these practices into contemporary education can strengthen equity and sustainability while affirming local ways of knowing (Ghosh and Banerjee).
 
-Sillitoe’s examination of local science and indigenous knowledge systems demonstrates that traditional practices embody sophisticated mathematical and scientific reasoning that international development efforts often dismiss or ignore (Sillitoe). Devisch and Nyamnjoh’s postcolonial analysis reveals how Western academic frameworks have systematically devalued non-Western ways of knowing, including mathematical practices embedded in African cultural traditions (Devisch and Nyamnjoh). Kanu emphasizes that the curriculum itself is a cultural practice shaped by colonial legacies, and decolonizing mathematics education requires recognizing that indigenous mathematical knowledge is epistemologically valid, not merely “interesting” cultural content (Kanu).
+Sillitoe’s examination of local science and indigenous knowledge systems demonstrates that traditional practices embody sophisticated mathematical and scientific reasoning that international development efforts often dismiss or ignore (Sillitoe). Devisch and Nyamnjoh’s postcolonial analysis reveals how Western academic frameworks have systematically devalued non-Western ways of knowing, including mathematical practices embedded in African cultural traditions (Devisch and Nyamnjoh). Kanu emphasizes that the curriculum itself is a cultural practice shaped by colonial legacies, and decolonizing mathematics education requires recognizing that indigenous mathematical knowledge is epistemologically valid, not merely "interesting" cultural content (Kanu).
 
 This matters because too often schools treat Indigenous reasoning as cultural background rather than as mathematics itself.
 
@@ -218,9 +232,9 @@ Quilters, weavers, bead artists, and textile designers use symmetry, tessellatio
 
 Present-day people use mathematics constantly in budgeting apps, rideshare pricing, online shopping comparisons, data dashboards, fitness trackers, and social media analytics. These are not trivial uses of math; they require percentages, rates, averages, trade-offs, and numerical judgment. A recent ethnomathematics review highlights the relevance of mathematics to contemporary cultural and technological practices, reinforcing the point that mathematical thinking extends far beyond worksheets and symbolic manipulation (Setiaputra et al. 195-211).
 
-Striphas analyzes how algorithmic culture shapes everyday life, demonstrating that ordinary people navigate complex mathematical systems embedded in digital technologies without recognizing these interactions as mathematical engagement (Striphas). Gillman’s work on quantitative literacy emphasizes that functional numeracy in contemporary society requires not advanced calculus but rather the ability to interpret data, evaluate claims, and make informed decisions using basic mathematical reasoning—skills that many mathematically anxious adults already possess in practical contexts but fail to recognize as “real math” (Gillman). Roberts argues for making mathematics relevant to everyone by connecting formal concepts to the mathematical reasoning people already use in daily life, essentially bridging the translation gap between informal competence and formal language (Roberts).
+Striphas analyzes how algorithmic culture shapes everyday life, demonstrating that ordinary people navigate complex mathematical systems embedded in digital technologies without recognizing these interactions as mathematical engagement (Striphas). Gillman’s work on quantitative literacy emphasizes that functional numeracy in contemporary society requires not advanced calculus but rather the ability to interpret data, evaluate claims, and make informed decisions using basic mathematical reasoning—skills that many mathematically anxious adults already possess in practical contexts but fail to recognize as "real math" (Gillman). Roberts argues for making mathematics relevant to everyone by connecting formal concepts to the mathematical reasoning people already use in daily life, essentially bridging the translation gap between informal competence and formal language (Roberts).
 
-Many adults function fluently in these environments while still claiming they are “bad at math,” because they do not recognize informal numeracy as mathematics. (Gal et al.)
+Many adults function fluently in these environments while still claiming they are "bad at math," because they do not recognize informal numeracy as mathematics. (Gal et al.)
 
 ---
 
@@ -1113,25 +1127,25 @@ Al-Naim, Fatima, and Wael Mefi. "A Meta-Analysis of the Effectiveness of Interve
 
 Sammallahti, E., et al. "A Meta-Analysis of Math Anxiety Interventions". Journal of Numerical Cognition, Vol. 9, no. 2, July 2023, p. Article e8401, <doi:10.5964/jnc.8401>. Accessed 12 Apr. 2026.
 
-Ding, Yanqing. “Measuring Developmental Students’ Mathematics Anxiety.” Research and Teaching in Developmental Education, vol. 33, no. 1, 2016, pp. 31–47. JSTOR, <http://www.jstor.org/stable/44290244>. Accessed 12 Apr. 2026.
+Ding, Yanqing. "Measuring Developmental Students’ Mathematics Anxiety." Research and Teaching in Developmental Education, vol. 33, no. 1, 2016, pp. 31–47. JSTOR, <http://www.jstor.org/stable/44290244>. Accessed 12 Apr. 2026.
 
-Holenstein, Mathias, et al. “Transfer Effects of Mathematical Literacy: An Integrative Longitudinal Study.” European Journal of Psychology of Education, vol. 36, no. 3, 2021, pp. 799–825. JSTOR, <https://www.jstor.org/stable/48770850>. Accessed 13 Apr. 2026.
+Holenstein, Mathias, et al. "Transfer Effects of Mathematical Literacy: An Integrative Longitudinal Study." European Journal of Psychology of Education, vol. 36, no. 3, 2021, pp. 799–825. JSTOR, <https://www.jstor.org/stable/48770850>. Accessed 13 Apr. 2026.
 
-Byrnes, James P. “The Development of Mathematical Competence.” Cognitive Development for Academic Achievement: Building Skills and Motivation, Guilford Press, 2021, pp. 294–325. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115689.15>. Accessed 13 Apr. 2026.
+Byrnes, James P. "The Development of Mathematical Competence." Cognitive Development for Academic Achievement: Building Skills and Motivation, Guilford Press, 2021, pp. 294–325. JSTOR, <http://www.jstor.org/stable/10.1521/jj.41115689.15>. Accessed 13 Apr. 2026.
 
-Souviney, Randall J. “Cognitive Competence and Mathematical Development.” Journal for Research in Mathematics Education, vol. 11, no. 3, 1980, pp. 215–24. JSTOR, <https://doi.org/10.2307/748942>. Accessed 13 Apr. 2026.
+Souviney, Randall J. "Cognitive Competence and Mathematical Development." Journal for Research in Mathematics Education, vol. 11, no. 3, 1980, pp. 215–24. JSTOR, <https://doi.org/10.2307/748942>. Accessed 13 Apr. 2026.
 
-Abrantes, Paulo. “Mathematical Competence for All: Options, Implications and Obstacles.” Educational Studies in Mathematics, vol. 47, no. 2, 2001, pp. 125–43. JSTOR, <http://www.jstor.org/stable/3483325>. Accessed 12 Apr. 2026.
+Abrantes, Paulo. "Mathematical Competence for All: Options, Implications and Obstacles." Educational Studies in Mathematics, vol. 47, no. 2, 2001, pp. 125–43. JSTOR, <http://www.jstor.org/stable/3483325>. Accessed 12 Apr. 2026.
 
-Hiebert, James. “A Theory of Developing Competence with Written Mathematical Symbols.” Educational Studies in Mathematics, vol. 19, no. 3, 1988, pp. 333–55. JSTOR, <http://www.jstor.org/stable/3482522>. Accessed 13 Apr. 2026.
+Hiebert, James. "A Theory of Developing Competence with Written Mathematical Symbols." Educational Studies in Mathematics, vol. 19, no. 3, 1988, pp. 333–55. JSTOR, <http://www.jstor.org/stable/3482522>. Accessed 13 Apr. 2026.
 
-Kirshner, Dave. “Linguistic and Mathematical Competence.” For the Learning of Mathematics, vol. 5, no. 2, 1985, pp. 31–33. JSTOR, <http://www.jstor.org/stable/40247778>. Accessed 13 Apr. 2026.
+Kirshner, Dave. "Linguistic and Mathematical Competence." For the Learning of Mathematics, vol. 5, no. 2, 1985, pp. 31–33. JSTOR, <http://www.jstor.org/stable/40247778>. Accessed 13 Apr. 2026.
 
-Schwartz, Robert. “Is Mathematical Competence Innate?” Philosophy of Science, vol. 62, no. 2, 1995, pp. 227–40. JSTOR, <http://www.jstor.org/stable/188432>. Accessed 13 Apr. 2026.
+Schwartz, Robert. "Is Mathematical Competence Innate?" Philosophy of Science, vol. 62, no. 2, 1995, pp. 227–40. JSTOR, <http://www.jstor.org/stable/188432>. Accessed 13 Apr. 2026.
 
-Radišić, Jelena, et al. “Math Anxiety—Contributing School and Individual Level Factors.” European Journal of Psychology of Education, vol. 30, no. 1, 2015, pp. 1–20. JSTOR, <http://www.jstor.org/stable/43551168>. Accessed 12 Apr. 2026.
+Radišić, Jelena, et al. "Math Anxiety—Contributing School and Individual Level Factors." European Journal of Psychology of Education, vol. 30, no. 1, 2015, pp. 1–20. JSTOR, <http://www.jstor.org/stable/43551168>. Accessed 12 Apr. 2026.
 
-Kim, Yanghee, et al. “An Embodied Agent Helps Anxious Students in Mathematics Learning.” Educational Technology Research and Development, vol. 65, no. 1, 2017, pp. 219–35. JSTOR, http://www.jstor.org/stable/45018537. Accessed 12 Apr. 2026.
+Kim, Yanghee, et al. "An Embodied Agent Helps Anxious Students in Mathematics Learning." Educational Technology Research and Development, vol. 65, no. 1, 2017, pp. 219–35. JSTOR, http://www.jstor.org/stable/45018537. Accessed 12 Apr. 2026.
 
 Ascher, Marcia. Mathematics Elsewhere: An Exploration of Ideas Across Cultures. Princeton University Press, 2002. JSTOR, https://doi.org/10.2307/j.ctv39x5q7. Accessed 9 Apr. 2026.
 
@@ -1193,13 +1207,13 @@ Lusardi, Annamaria, and Peter Tufano. "Debt Literacy, Financial Experiences, and
 
 Lyons, Ian M., and Sian L. Beilock. "When Math Hurts: Math Anxiety Predicts Pain Network Activation in Anticipation of Doing Math." PLoS ONE, vol. 7, no. 10, 2012, e48076, <doi:10.1371/journal.pone.0048076>. Accessed 12 Apr. 2026.
 
-Ma, Xin. “A Meta-Analysis of the Relationship between Anxiety toward Mathematics and Achievement in Mathematics.” Journal for Research in Mathematics Education, vol. 30, no. 5, 1999, pp. 520–40. JSTOR, <https://doi.org/10.2307/749772>. Accessed 12 Apr. 2026.
+Ma, Xin. "A Meta-Analysis of the Relationship between Anxiety toward Mathematics and Achievement in Mathematics." Journal for Research in Mathematics Education, vol. 30, no. 5, 1999, pp. 520–40. JSTOR, <https://doi.org/10.2307/749772>. Accessed 12 Apr. 2026.
 
 Malanchini, Margherita, et al. "Math Anxiety in Parents and Children: Links and Mechanisms." Frontiers in Psychology, vol. 13, 2022, article 885152, <doi:10.3389/fpsyg.2022.885152>. Accessed 12 Apr. 2026.
 
 "Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents." Cognitive Therapy and Research, vol. 45, no. 5, 2021, pp. 1001-1011. <https://doi.org/10.1007/s10608-023-10390-9>
 
-Millroy, Wendy L. “Exploring the Nature of Street Mathematics.” Street Mathematics and School Mathematicsby Terezinha Nunes et al. Journal for Research in Mathematics Education, vol. 25, no. 3, 1994, pp. 304–09. JSTOR, <https://doi.org/10.2307/749340>. Accessed 15 Apr. 2026.
+Millroy, Wendy L. "Exploring the Nature of Street Mathematics." Street Mathematics and School Mathematicsby Terezinha Nunes et al. Journal for Research in Mathematics Education, vol. 25, no. 3, 1994, pp. 304–09. JSTOR, <https://doi.org/10.2307/749340>. Accessed 15 Apr. 2026.
 
 Nunes, Terezinha, Analucia Dias Schliemann, and David William Carraher. Street Mathematics and School Mathematics. Cambridge UP, 1993.
 
@@ -1225,7 +1239,7 @@ Rivest, Ronald L., Adi Shamir, and Leonard Adleman. "A Method for Obtaining Digi
 
 Rosa, M., Orey, D.C. (2016). State of the Art in Ethnomathematics. In: Current and Future Perspectives of Ethnomathematics as a Program. ICME-13 Topical Surveys. Springer, Cham. <https://doi.org/10.1007/978-3-319-30120-4_3>
 
-Samuel, Tashana S., et al. "“I Can Math, Too!”: Reducing Math Anxiety in STEM-Related Courses Using a Combined Mindfulness and Growth Mindset Approach (MAGMA) in the Classroom." Community College Journal of Research and Practice, vol. 47, no. 10, 2022, pp. 613-626. <https://doi.org/10.1080/10668926.2022.2050843>
+Samuel, Tashana S., et al. ""I Can Math, Too!": Reducing Math Anxiety in STEM-Related Courses Using a Combined Mindfulness and Growth Mindset Approach (MAGMA) in the Classroom." Community College Journal of Research and Practice, vol. 47, no. 10, 2022, pp. 613-626. <https://doi.org/10.1080/10668926.2022.2050843>
 
 Setiaputra, Felix Indra, et al. "A Systematic Review of Ethnomathematics Research (2019-2023): Cultural Integration in Mathematics Teaching and Learning." Jurnal Pendidikan MIPA, vol. 26, no. 1, 2025, pp. 195-211, <https://jpmipa.fkip.unila.ac.id/index.php/jpmipa/article/view/213>. Accessed 12 Apr. 2026.
 
