@@ -1591,15 +1591,23 @@ The best way to visualize a manifold is to think of an ant crawling on a giant s
 
 ### Ergodicity
 
-Ergodicity is a property in mathematics where the time average of a system—the average behavior of a single point over a long time—is equal to its ensemble average—the average behavior of all possible states at a single moment. It implies a system is "well-mixed," meaning it cannot be broken down into smaller, independent parts
+Ergodicity is a mathematical property that states the time average of a system—essentially, the average behavior of a single point over an extended period—is equal to its ensemble average, which represents the average behavior of all possible states at a single moment. This means that an ergodic system is "well-mixed," indicating that it cannot be separated into smaller, independent parts.
 
-When the average behavior over time equals the average across all possibilities at one snapshot in time
+In simpler terms, an ergodic system eventually explores every possible state it can reach, spending a duration of time in each region proportional to the size of that region. Therefore, when we compare the average behavior over time to the average behavior across all possibilities at a single moment, they will be the same in an ergodic system.
+
+Ergodicity is defined by the equality of two different ways of looking at data: 
+- Time Average: Observing a single individual or system over a very long period.
+- Ensemble Average: Taking a "snapshot" of many identical systems at once and averaging their current states
 
 #### Applications:
 
 **Time Average = Ensemble Average**: Over a long period, a single system visits all parts of its state space in proportion to their probability.
 
-**Applications**: It is foundational to ergodic theory, statistical mechanics, and stochastic processes. For example, instead of observing 1,000 systems for one minute, you can observe one system for 1,000 minutes to understand its behavior.
+**Biology**: Living systems are often non-ergodic because they evolve and change based on their history; a cell doesn't just "reset" to explore every possible state randomly
+
+**Physics**: In statistical mechanics, we assume molecules in a gas are ergodic so we can calculate the temperature of the whole room by following one molecule's energy over time
+
+**Economics**: Many financial models incorrectly assume ergodicity. For example, the average return of the "market" might be positive, but a single investor could go bankrupt before they ever see those average returns—a phenomenon known as the Ergodicity Problem
 
 **The Coin Flip (Ergodic)**: If 100 people flip a coin once, about 50 will get heads. If one person flips a coin 100 times, they will also get heads about 50 times. Because the "group average" and "individual average" match, coin flipping is ergodic
 
