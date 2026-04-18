@@ -1008,8 +1008,12 @@ How do you prove two knots are different? You can't just look at them - they mig
 
 **Surgical Sutures**: Doctors use knot theory to determine which surgical knots are the most secure under tension. Some knots stay tight when pulled (stable), while others slip (unstable)—mathematically, they are different "topological invariants."
 
-  2. Replicate (make a copy)
+**DNA**: Your DNA is essentially a very long, thin string that constantly gets tangled and "knotted" as it replicates (Wang 94; Osheroff and Wang 232). Your body uses enzymes called topoisomerases to "snip" and untangle these biological knots—effectively performing high-level topology every second to keep you alive. The mathematics of DNA untangling is knot theory in its most literal biological application. These enzymes are "enzymes that change the shape of DNA" without altering its chemical sequence (Austin and Fisher 147), solving computational problems in topology that would require sophisticated algorithms if done artificially.
 
+Human DNA is about 2 meters long but packed into a nucleus only 6 micrometers in diameter—roughly 300,000 times smaller. It's like fitting 40 km of thread into a tennis ball. During cell division, DNA must:
+  1. Unwind (the double helix)
+  2. Replicate (make a copy)
+  3. Separate the copies
   4. Rewind
 
 Without topoisomerases, the DNA would become a hopelessly knotted mess, and the cell would die (Wang 95; Austin and Fisher 148). This problem occurs in all living organisms—from bacteria to plants (Chiatante et al. 1045) to humans—making topoisomerases universally essential enzymes.
@@ -1020,30 +1024,26 @@ Without topoisomerases, the DNA would become a hopelessly knotted mess, and the 
   3. Separate the copies
 *Linking Number (Measuring DNA Entanglement)*: When two closed loops of DNA are intertwined, their linking number $Lk$ counts how many times one loop passes through the other (Wang 96). For a DNA double helix:
 
+- Actively simplifies DNA topology beyond what random chance would achieve—they preferentially unknot and unlink DNA, maintaining chromosomes in their simplest possible topological state (Vologodskii et al. 3046-3048)
 $$Lk = Tw + Wr$$
+where:
 
+- $Tw$ (Twist): Number of times the two strands wind around each other
 
-- $Lk$ (Linking number): Total entanglement, an integer that doesn't change unless you cut the DNA
-
-- $Wr$ (Writhe): How the DNA coils in 3D space (supercoiling)
-  where:
-**Type I Topoisomerase**:
-- Cuts one strand of the DNA
 **Type I Topoisomerase**:
 
-Relaxed DNA has $Lk \approx 0$. When DNA is underwound (negative supercoiling), it's easier to separate the strands for replication. When overwound (positive supercoiling), it becomes too tightly packed. Cells carefully regulate this balance (Wang 97-98). Remarkably, DNA supercoiling can actually facilitate knot removal: tightly supercoiled DNA forces knots to become more compact, making them easier for topoisomerases to recognize and untangle (Witz et al. 3608-3610).
-  - $Tw$ (Twist): Number of times the two strands wind around each other
-**Type I Topoisomerase**:
+
 - Cuts one strand of the DNA
 Topoisomerases are enzymes that temporarily cut one or both DNA strands, allow the strands to pass through the break, then reseal the cut (Wang 99; Austin and Fisher 149). There are two main types:
+**Type I Topoisomerase**:
+- Cuts one strand of the DNA
 
-- Allows the other strand to pass through
+- Changes linking number by $\pm1$ per action (Champoux 11998)
 
-- Equation: $Lk_{new} = Lk_{old} \pm 1$
+- Works "strictly one step at a time," making single-unit changes to DNA topology (Champoux 11999)
 
-- Can synthesize and dissolve hemicatenanes (partially interlocked DNA rings), demonstrating remarkable topological sophistication (Lee et al. 15177)
+
   - Equation: $Lk_{new} = Lk_{old} \pm 1$
-**Type II Topoisomerase**:
 - Actively simplifies DNA topology beyond what random chance would achieve—they preferentially unknot and unlink DNA, maintaining chromosomes in their simplest possible topological state (Vologodskii et al. 3046-3048)
 - Cuts both strands
 - Passes another double helix through the gap (Vologodskii et al. 3045)
