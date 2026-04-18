@@ -384,7 +384,13 @@ Beyond basic forms, the Laplace transform has been computed for remarkably compl
 
 ### Eigenvalue / Eigenvector
 
-An eigenvector is a direction that does not change when a transformation is applied - it just gets stretched or compressed. The eigenvalue is how much it stretches. The transformation (stretching) takes a vector ($v$) and multiplies it by a scalar factor ($\lambda$). The result is the same as just stretching that specific line in place, preserving its direction
+An eigenvector is a direction that does not change when a transformation is applied—it just gets stretched or compressed (Schonefeld 316-318). The eigenvalue is how much it stretches. Formally, given a linear transformation represented by matrix $A$, a nonzero vector $v$ is an eigenvector with eigenvalue $\lambda$ if:
+$$Av = \lambda v$$
+The transformation takes the vector $v$ and multiplies it by a scalar factor $\lambda$, preserving its direction (Chu 1-5).
+
+The eigenvalue problem is one of the most fundamental in mathematics, appearing in differential equations, quantum mechanics, structural engineering, and data analysis (Chu 5-10). Finding eigenvalues requires solving the characteristic equation $\det(A - \lambda I) = 0$, which reduces the linear algebra problem to finding roots of a polynomial (Tisseur and Meerbergen 235-240). For an $n \times n$ matrix, this yields $n$ eigenvalues (counting multiplicity), though they may be complex even when $A$ is real.
+
+The quadratic eigenvalue problem $(\lambda^2 M + \lambda C + K)x = 0$ arises in vibration analysis, acoustic modeling, and fluid-structure interaction, generalizing the standard problem to account for damping and stiffness (Tisseur and Meerbergen 240-250). The inverse eigenvalue problem—constructing a matrix from specified eigenvalues—has applications in control theory, system identification, and molecular structure determination (Chu 10-20). In random matrix theory, eigenvalue distributions exhibit phase transitions and universal behavior with applications to statistics, nuclear physics, and wireless communications (Baik et al. 1643-1650).
 
 #### Applications:
 
