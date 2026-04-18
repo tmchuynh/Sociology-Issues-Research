@@ -1317,11 +1317,37 @@ They are non-commutative ( $ij = k$, but $ji = -k$), providing an efficient math
 
 This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head.
 
+Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available. Unlike traditional (frequentist) statistics, which treats probability as the long-run frequency of repeatable events, the Bayesian approach treats it as a "degree of belief" in a specific outcome or parameter. 
+
+**The Core Logic: Bayes' Theorem**
+At the heart of this method is Bayes' Theorem, which provides a formal mathematical bridge to update your initial views with new data. The relationship is often summarized as:
+$$\text{Posterior} \propto \text{Likelihood} \times \text{Prior}$$ 
+
+- Prior ($P(H)$): Your initial degree of belief in a hypothesis before seeing the new data.
+- Likelihood ($P(D|H)$): How likely it is that you would see this specific data if your hypothesis were true.
+- Posterior ($P(H|D)$): Your updated belief in the hypothesis after accounting for the new evidence.
+- Evidence ($P(D)$): A normalizing constant representing the total probability of observing the data across all possible hypotheses. 
+
+**Key Differences from Frequentist Statistics**
+
+| Feature | Frequentist Approach | Bayesian Approach |
+|---|---|---|
+| Probability Definition | Long-run frequency of events. | Subjective degree of belief or certainty. |
+| Parameters | Fixed, unknown values. | Random variables with a probability distribution. |
+| Prior Knowledge | Not formally used in the calculation. | Explicitly combined with new data. |
+| Goal | Find a single "best" point estimate. | Find a full distribution of possible values. |
+
 #### Applications:
 
 **Machine Learning**: Many AI algorithms use Bayesian inference to update their predictions as they see more data.
 
 **Medical Testing**: If a doctor knows that only 1 in 1,000 people has a rare disease, and you test positive, the doctor combines the rarity (prior probability) with the test result (new evidence) to estimate your actual chance of having the disease.
+
+**Medical Diagnosis**: Updating the probability that a patient has a disease after they receive a positive or negative test result.
+
+**Autonomous Vehicles**: Helping drones and self-driving cars constantly update their position and environment estimates based on noisy sensor data.
+
+**A/B Testing in Marketing**: Dynamically monitoring which version of a website is performing better and stopping the test early if one variant clearly wins. 
 
 **Guessing Who's at the Door**: If you expect a package (prior), and you hear a knock (evidence), you're more likely to think it's the delivery person. If it's late at night, your prior belief might be different.
 
