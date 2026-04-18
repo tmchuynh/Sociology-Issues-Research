@@ -893,15 +893,11 @@ Most people intuitively understand topological equivalence without the formalism
 
 ### Number Theory
 
-Number theory is the branch of pure mathematics devoted to the study of integers and their properties—divisibility, prime factorization, congruences, and the solutions to equations involving whole numbers (Hardy and Wright 1-5). Often called "the queen of mathematics" by Carl Friedrich Gauss, number theory has historically been pursued for its intrinsic beauty and logical elegance rather than practical application (Hardy and Wright v-vi). Yet paradoxically, in the late 20th century, number theory became the foundation of modern cryptography and digital security, transforming one of the most "pure" mathematical disciplines into one of the most practically consequential (Koblitz 1-3). 
+Number theory is the branch of pure mathematics devoted to the study of integers and their properties—divisibility, prime factorization, congruences, and the solutions to equations involving whole numbers (Hardy and Wright 1-5). Often called "the queen of mathematics" by Carl Friedrich Gauss, number theory has historically been pursued for its intrinsic beauty and logical elegance rather than practical application (Hardy and Wright v-vi). Yet paradoxically, in the late 20th century, number theory became the foundation of modern cryptography and digital security, transforming one of the most "pure" mathematical disciplines into one of the most practically consequential (Koblitz 1-3). Despite its reputation for abstraction, number theory permeates daily life in ways most people never recognize. 
 
-Despite its reputation for abstraction, number theory permeates daily life in ways most people never recognize. 
+At its core, number theory investigates fundamental questions about integers: Which numbers are prime? How can we factor a given integer into primes? What patterns emerge in the distribution of primes? When does a Diophantine equation (an equation requiring integer solutions) have solutions? (Hardy and Wright 1-10). These questions, simple to state yet often extraordinarily difficult to answer, have occupied mathematicians for millennia. 
 
-At its core, number theory investigates fundamental questions about integers: Which numbers are prime? How can we factor a given integer into primes? What patterns emerge in the distribution of primes? When does a Diophantine equation (an equation requiring integer solutions) have solutions? (Hardy and Wright 1-10). These questions, simple to state yet often extraordinarily difficult to answer, have occupied mathematicians for millennia. The ancient Greeks studied perfect numbers and amicable numbers; Fermat posed questions in the 1600s that weren't resolved until the 1990s; the Riemann Hypothesis, formulated in 1859, remains unsolved and is considered one of mathematics' greatest open problems (Derbyshire 1-15). 
-
-For over two millennia, number theory was the epitome of "useless" mathematics—pursued purely for intellectual satisfaction (Hardy 150-152). G.H. Hardy famously wrote in 1940 that number theory "has never been of the slightest practical use" and would never be applied to warfare or commerce (Hardy 151). Within decades, his prediction was spectacularly wrong. The development of public-key cryptography in the 1970s, particularly the RSA algorithm, transformed number theory into a discipline of profound practical importance (Koblitz 1-3; Rivest et al. 120-123). Today, number-theoretic algorithms secure credit card transactions, authenticate digital signatures, enable blockchain technology, and protect government communications (Menezes et al. 1-5).
-
-The irony is instructive: mathematical knowledge developed for purely aesthetic reasons centuries ago—Fermat's Little Theorem (1640), Euler's Theorem (1736), Gauss's modular arithmetic (1801)—became essential tools for 21st-century digital infrastructure (Koblitz 3-8). This demonstrates both the unpredictability of mathematical application and the value of pursuing abstract knowledge without demanding immediate utility. Number theory's journey from "pure" to "applied" mathematics illustrates how mathematical structures, once understood, persist as tools waiting for problems they can solve (Koblitz 8-10).
+The irony is instructive: mathematical knowledge developed for purely aesthetic reasons centuries ago[^5]—Fermat's Little Theorem (1640), Euler's Theorem (1736), Gauss's modular arithmetic (1801)—became essential tools for 21st-century digital infrastructure (Koblitz 3-8). This demonstrates both the unpredictability of mathematical application and the value of pursuing abstract knowledge without demanding immediate utility. Number theory's journey from "pure" to "applied" mathematics illustrates how mathematical structures, once understood, persist as tools waiting for problems they can solve (Koblitz 8-10).
 
 **Modular Arithmetic**: One of number theory's most powerful tools is modular arithmetic, formalized by Gauss in his 1801 *Disquisitiones Arithmeticae* (Gauss 1-5; Dudley 1-3). In modular arithmetic, numbers "wrap around" upon reaching a certain value called the modulus. Two integers $a$ and $b$ are congruent modulo $n$ (written $a \equiv b \pmod{n}$) if they differ by a multiple of $n$—equivalently, if they leave the same remainder when divided by $n$ (Dudley 3-5). Formally:
 
@@ -1033,30 +1029,7 @@ In simple terms: A "group" in abstract algebra is a set of actions you can perfo
     
     - *Conjugates ( $aba^{-1}$ )*: A "setup move" ( $a$ ), an operation ( $b$ ), and "undoing the setup" ($a^{-1}$).
 
-  - **God's Number: Solving Rubik's Cube in 20 Moves**
-
-    **God's Number**—the maximum moves to solve any of the 43 quintillion states of a Rubik's Cube—is **20** (Half-Turn Metric). This represents the diameter of the Cayley graph of the Rubik's Cube group (Rokicki et al. 645). Proven in July 2010 by Tomas Rokicki, Morley Davidson, John Dethridge, and Herbert Kociemba using 35 CPU-years from Google, the proof combined mathematical group theory with massive computational search (Joyner 258; van Grol 10).
-    
-    **Lower Bound (n ≥ 20):** The "Superflip" position (all corners correct, all edges flipped) requires exactly 20 moves, proven by Michael Reid in 1995 (Rokicki et al. 647; Joyner 263).
-    
-    **Upper Bound (n ≤ 20):** Using coset decomposition and symmetry reduction, researchers reduced 43 quintillion positions to ~56 million unique cosets, solving each in ≤20 moves (Rokicki et al. 648-652; "God's Number Is 20").
-    
-    | **Metric** | **Detail** |
-    |------------|------------|
-    | God's Number (HTM) | 20 moves |
-    | Computing Power | 35 CPU-years |
-    | Positions requiring 20 moves | ~490 million (0.000001%) |
-    | Average optimal solution | 17-18 moves |
-    
-    **Metric Comparison:**
-    
-    | Metric | Moves | Rule |
-    |--------|-------|------|
-    | Half-Turn (HTM) | 20 | $F, F', F^2$ all = 1 move |
-    | Quarter-Turn (QTM) | 26 | $F, F'$ = 1 move; $F^2$ = 2 moves (Rokicki, "Towards God's Number" 242) |
-    | Slice-Turn (STM) | 18–20 | Middle slices (e.g., $M$) = 1 move (Hecker and Banerji 211) |
-    
-    The variation in God's Number across metrics illustrates how mathematical results depend on formal definitions—the underlying puzzle-solving ability remains constant, but changing the "language" (metric) changes the answer (Jones et al. 267).
+  - **God's Number: Solving Rubik's Cube in 20 Moves[^6]**
 
   - **The Superflip**
 
@@ -1068,43 +1041,9 @@ In simple terms: A "group" in abstract algebra is a set of actions you can perfo
       
       The Superflip demonstrates how complex mathematical objects can be described in plain language ("all edges flipped") yet require sophisticated group-theoretic proof to establish minimal solution length. This position is maximally distant from the solved state in the Cayley graph (van Grol 12). 
 
-
   - **Solving Algorithms**
-    - **Thistlethwaite Algorithm (1980)**
-
-      Proved the cube can be solved in ≤45 moves (avg. 31) using four nested subgroups ("Thistlethwaite's Algorithm"; Milewski and Frohardt 399). This algorithm demonstrates how breaking a problem into stages—each with progressively restricted "legal moves"—makes an impossibly large search space tractable.
-
-      | Stage | Group | Allowed Moves | Purpose | Max Moves |
-      |-------|-------|---------------|---------|-----------|
-      | 0 | $G_0$ | $\langle L, R, F, B, U, D \rangle$ | Fully scrambled | - |
-      | 1 | $G_1$ | $\langle L, R, F, B, U^2, D^2 \rangle$ | Orient edges | 7 |
-      | 2 | $G_2$ | $\langle L, R, F^2, B^2, U^2, D^2 \rangle$ | Position U/D edges, orient corners | 10 |
-      | 3 | $G_3$ | $\langle L^2, R^2, F^2, B^2, U^2, D^2 \rangle$ | Correct orbits | 13 |
-      | 4 | $G_4$ | $\{1\}$ (Identity) | Final permutation | 15 |
-      
-      **Key insight:** Coset decomposition and pruning the search space (e.g., $G_3$ has only ~663,552 states vs 43 quintillion in $G_0$) through one-way transitions between nested subgroups (Milewski and Frohardt 400). The formal language of subgroup chains $G_0 \supset G_1 \supset G_2 \supset G_3 \supset G_4$ describes a strategy any cuber uses intuitively: solve in stages.
-
-    - **Kociemba's Algorithm (1992)**
-
-      Modern standard for computer solvers; compresses Thistlethwaite's four stages into two phases, typically solving in ~20-22 moves ("Kociemba's Two-Phase Algorithm"; Joyner 260). This algorithm was fundamental to proving God's Number by enabling efficient computational search (Rokicki et al. 650).
-      
-      **Phase 1:** Reduce to subgroup $H$ where:
-      - Edge Orientation (EO) solved
-      - Corner Orientation (CO) solved  
-      - E-slice edges in middle layer
-      
-      Allowed moves: All ($\langle U, D, R, L, F, B \rangle$)
-      
-      **Phase 2:** Solve from $H$ (20 billion states) using only $\langle U, D, R^2, L^2, F^2, B^2 \rangle$. Uses pruning tables for near-instant optimal path (Rokicki et al. 651).
-      
-      | Feature | Thistlethwaite | Kociemba |
-      |---------|----------------|----------|
-      | Stages | 4 | 2 |
-      | Max Moves | 45 | ~20–22 |
-      | Philosophy | Mathematical Subgroups | Heuristic Search + Subgroups |
-      | Use Case | Educational/Theory | World Record Robots |
-      
-      **Pedagogical Value:** Milewski and Frohardt emphasize that using the Rubik's Cube to teach group theory makes abstract algebra concrete and accessible, demonstrating that "students can see and feel the algebraic structure" (397). The cube transforms symbols like $G_i$ and cosets from intimidating jargon into tangible manipulation.
+    - **Thistlethwaite Algorithm (1980)**[^7]
+    - **Kociemba's Algorithm (1992)**[^8]
 
 ---
 
@@ -1255,9 +1194,7 @@ When a car manufacturer advertises "smooth acceleration," they're promising that
 
 ### Topoisomerases (Knot Theory)
 
-In topology, a knot is a closed loop in 3D space that cannot be untangled to a simple circle without cutting it. Two knots are considered equivalent (the same knot) if one can be continuously deformed into the other without cutting the string. The simplest knot is the unknot (just a circle). The simplest non-trivial knot is the trefoil (overhand knot).
-
-How do you prove two knots are different? You can't just look at them - they might be the same knot twisted differently. You need a mathematical test.
+In topology, a knot is a closed loop in 3D space that cannot be untangled to a simple circle without cutting it. Two knots are considered equivalent (the same knot) if one can be continuously deformed into the other without cutting the string. The simplest knot is the unknot (just a circle). The simplest non-trivial knot is the trefoil (overhand knot). How do you prove two knots are different? You can't just look at them - they might be the same knot twisted differently. You need a mathematical test.
 
 **Knot Invariants (Mathematical Fingerprints)**: A knot invariant is a number or polynomial that stays the same no matter how you twist or deform the knot. If two knots have different invariants, they must be different knots.
 
@@ -2788,3 +2725,60 @@ Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https:
 [^3]: For centuries, philosophers debated whether Euclidean geometry was a discovered truth about physical reality or a human construction. Kant argued that Euclidean geometry was synthetic a priori knowledge—built into the structure of human perception itself (Jones 137-138; French 213). The later development of non-Euclidean geometries challenged this view, demonstrating that alternative geometric systems could be logically consistent, suggesting geometry might be a choice rather than a necessity (Jones 140-142). This philosophical shift—from viewing Euclidean geometry as "the" geometry to recognizing it as "a" geometry—represents one of mathematics' most profound conceptual revolutions (Daus 12-13).
 
 [^4]: The development of non-Euclidean geometry marks a remarkable milestone in mathematics, showcasing the vibrant evolution of our understanding. For over 2,000 years, mathematicians diligently sought to establish Euclid's fifth postulate—the parallel postulate—as a consequence of the other four postulates, believing it necessary to derive it from more fundamental principles (Halsted 247-249; Daus 12). A significant breakthrough occurred in the early 19th century when János Bolyai, Nikolai Lobachevsky, and Carl Friedrich Gauss independently demonstrated that legitimate geometries could indeed be formed by discarding the parallel postulate (Halsted 149-150; Miller 370-371). It is fascinating to note that concepts similar to non-Euclidean geometry might have been subtly sensed even before Euclid formalized his system (Tóth 87-90). The rich history of non-Euclidean geometry imparts a profound lesson about our mathematical journey. Over the centuries, while mathematicians possessed the logical tools necessary for exploring non-Euclidean principles, their understanding was often constrained by the prevailing belief in the supremacy of Euclidean geometry (Jones 139-140). The hindrance was not one of computation but rather a conceptual barrier. Once this mindset shifted, mathematics flourished. Similarly, students today may have innate geometric intuition and spatial reasoning that traditional Euclidean axioms fail to adequately capture. The potential for understanding is certainly present; it simply requires the right language to bring it to light.
+
+[^5]: The ancient Greeks studied perfect numbers and amicable numbers; Fermat posed questions in the 1600s that weren't resolved until the 1990s; the Riemann Hypothesis, formulated in 1859, remains unsolved and is considered one of mathematics' greatest open problems (Derbyshire 1-15). For over two millennia, number theory was the epitome of "useless" mathematics—pursued purely for intellectual satisfaction (Hardy 150-152). G.H. Hardy famously wrote in 1940 that number theory "has never been of the slightest practical use" and would never be applied to warfare or commerce (Hardy 151). Within decades, his prediction was spectacularly wrong. The development of public-key cryptography in the 1970s, particularly the RSA algorithm, transformed number theory into a discipline of profound practical importance (Koblitz 1-3; Rivest et al. 120-123). Today, number-theoretic algorithms secure credit card transactions, authenticate digital signatures, enable blockchain technology, and protect government communications (Menezes et al. 1-5).
+
+[^6]: **God's Number**—the maximum moves to solve any of the 43 quintillion states of a Rubik's Cube—is **20** (Half-Turn Metric). This represents the diameter of the Cayley graph of the Rubik's Cube group (Rokicki et al. 645). Proven in July 2010 by Tomas Rokicki, Morley Davidson, John Dethridge, and Herbert Kociemba using 35 CPU-years from Google, the proof combined mathematical group theory with massive computational search (Joyner 258; van Grol 10).
+    
+    **Lower Bound (n ≥ 20):** The "Superflip" position (all corners correct, all edges flipped) requires exactly 20 moves, proven by Michael Reid in 1995 (Rokicki et al. 647; Joyner 263).
+    
+    **Upper Bound (n ≤ 20):** Using coset decomposition and symmetry reduction, researchers reduced 43 quintillion positions to ~56 million unique cosets, solving each in ≤20 moves (Rokicki et al. 648-652; "God's Number Is 20").
+    
+    | **Metric** | **Detail** |
+    |------------|------------|
+    | God's Number (HTM) | 20 moves |
+    | Computing Power | 35 CPU-years |
+    | Positions requiring 20 moves | ~490 million (0.000001%) |
+    | Average optimal solution | 17-18 moves |
+    
+    **Metric Comparison:**
+    
+    | Metric | Moves | Rule |
+    |--------|-------|------|
+    | Half-Turn (HTM) | 20 | $F, F', F^2$ all = 1 move |
+    | Quarter-Turn (QTM) | 26 | $F, F'$ = 1 move; $F^2$ = 2 moves (Rokicki, "Towards God's Number" 242) |
+    | Slice-Turn (STM) | 18–20 | Middle slices (e.g., $M$) = 1 move (Hecker and Banerji 211) |
+    
+    The variation in God's Number across metrics illustrates how mathematical results depend on formal definitions—the underlying puzzle-solving ability remains constant, but changing the "language" (metric) changes the answer (Jones et al. 267).
+
+[^7]: Proved the cube can be solved in ≤45 moves (avg. 31) using four nested subgroups ("Thistlethwaite's Algorithm"; Milewski and Frohardt 399). This algorithm demonstrates how breaking a problem into stages—each with progressively restricted "legal moves"—makes an impossibly large search space tractable.
+
+      | Stage | Group | Allowed Moves | Purpose | Max Moves |
+      |-------|-------|---------------|---------|-----------|
+      | 0 | $G_0$ | $\langle L, R, F, B, U, D \rangle$ | Fully scrambled | - |
+      | 1 | $G_1$ | $\langle L, R, F, B, U^2, D^2 \rangle$ | Orient edges | 7 |
+      | 2 | $G_2$ | $\langle L, R, F^2, B^2, U^2, D^2 \rangle$ | Position U/D edges, orient corners | 10 |
+      | 3 | $G_3$ | $\langle L^2, R^2, F^2, B^2, U^2, D^2 \rangle$ | Correct orbits | 13 |
+      | 4 | $G_4$ | $\{1\}$ (Identity) | Final permutation | 15 |
+      
+      **Key insight:** Coset decomposition and pruning the search space (e.g., $G_3$ has only ~663,552 states vs 43 quintillion in $G_0$) through one-way transitions between nested subgroups (Milewski and Frohardt 400). The formal language of subgroup chains $G_0 \supset G_1 \supset G_2 \supset G_3 \supset G_4$ describes a strategy any cuber uses intuitively: solve in stages.
+
+[^8]:  Modern standard for computer solvers; compresses Thistlethwaite's four stages into two phases, typically solving in ~20-22 moves ("Kociemba's Two-Phase Algorithm"; Joyner 260). This algorithm was fundamental to proving God's Number by enabling efficient computational search (Rokicki et al. 650).
+      
+      **Phase 1:** Reduce to subgroup $H$ where:
+      - Edge Orientation (EO) solved
+      - Corner Orientation (CO) solved  
+      - E-slice edges in middle layer
+      
+      Allowed moves: All ($\langle U, D, R, L, F, B \rangle$)
+      
+      **Phase 2:** Solve from $H$ (20 billion states) using only $\langle U, D, R^2, L^2, F^2, B^2 \rangle$. Uses pruning tables for near-instant optimal path (Rokicki et al. 651).
+      
+      | Feature | Thistlethwaite | Kociemba |
+      |---------|----------------|----------|
+      | Stages | 4 | 2 |
+      | Max Moves | 45 | ~20–22 |
+      | Philosophy | Mathematical Subgroups | Heuristic Search + Subgroups |
+      | Use Case | Educational/Theory | World Record Robots |
+      
+      **Pedagogical Value:** Milewski and Frohardt emphasize that using the Rubik's Cube to teach group theory makes abstract algebra concrete and accessible, demonstrating that "students can see and feel the algebraic structure" (397). The cube transforms symbols like $G_i$ and cosets from intimidating jargon into tangible manipulation.
