@@ -1151,12 +1151,12 @@ For every $\varepsilon > 0$ (epsilon, representing how close you want to be to t
 
 In plain language: No matter how tight a "tolerance window" ($\varepsilon$) you demand around the target value $L$, I can always find a corresponding "input window" ($\delta$) around $a$ that guarantees the output stays within your tolerance.
 
-- *The Challenge-Response Game*: Think of epsilon-delta as a game between you and the function:
+*The Challenge-Response Game*: Think of epsilon-delta as a game between you and the function:
   1. **You challenge**: "I want the output within $\varepsilon = 0.01$ of the target"
-  4. **The function responds**: "Then stay within $\delta = 0.00005$"
-
   2. **The function responds**: "Stay within $\delta = 0.005$ of the input, and I guarantee it"
   3. **You challenge harder**: "Now I want $\varepsilon = 0.0001$"
+  4. **The function responds**: "Then stay within $\delta = 0.00005$"
+
 If the function can always respond successfully no matter how small you make $\varepsilon$, the limit exists.
 
 *Continuity (No Sudden Jumps)*: A function $f(x)$ is continuous at point $a$ if $\displaystyle \lim_{x \to a} f(x) = f(a)$. In driving terms: your velocity is continuous if there are no instantaneous jumps from 30 mph to 60 mph - the speedometer reading changes smoothly.
@@ -1175,6 +1175,10 @@ When you smoothly press the gas pedal, your car's velocity function is not only 
 
 $$v(t) = 30 + 30t - 5t^2 \text{ mph (for } 0 \leq t \leq 3 \text{ seconds)}$$
 
+  - At $t = 0$: $v(0) = 30$ mph (your starting speed)
+  - At $t = 3$: $v(3) = 30 + 90 - 45 = 75$ mph (highway speed)
+  - The function is continuous: no jumps in speed
+  - The derivative (acceleration) is: $v'(t) = 30 - 10t$ mph/second
   - At $t = 0$: $a(0) = 30$ mph/s (strong initial acceleration)
   - At $t = 3$: $a(3) = 0$ mph/s (you've stopped accelerating)
 
@@ -1963,15 +1967,15 @@ To avoid paradoxes, modern mathematics often uses *Zermelo-Fraenkel set theory w
 
 ### Ramsey Theory
 
+The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns — that "complete disorder is impossible", if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear — the "order in chaos."
+
+#### Applications:
+
 **The Theorem on Friends and Strangers**: This is the most famous everyday example. In a finite gathering of $R(n,m)$ people there is a group of $n$ mutual friends, or a group of $m$ mutual strangers (not friends). $R(n,m)$ is the least number with this property (Klop). *Finite Ramsey's Theorem* for two colors is also more casually known as the Theorem on Friends and Strangers when applied to the social context of parties
 
 *Existence of Order*: It guarantees that for any two desired pattern sizes ($n$ and $m$), there exists a specific population size $R(n, m)$ large enough that a pattern must appear. No matter how you arrange the "friendship" or "stranger" links (the bicoloring), you cannot avoid having a group of $n$ friends or $m$ strangers.
 
 *The "Least Number" Property*: The definition of $R(n, m)$ as the least number means that for any number smaller than $R(n, m)$, it is possible to find at least one arrangement (a coloring) where neither pattern exists.
-
-The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns — that "complete disorder is impossible", if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear — the "order in chaos."
-
-#### Applications:
 
 While the "party" version is a popular way to explain it, the exact theorem is a pillar of combinatorics. In graph theory terms:
   - <i>Complete Graph ( $K_N$ )</i>: A network where every pair of vertices (people) is connected by an edge.
@@ -2401,4 +2405,322 @@ Hersh, Reuben, and Vera John-Steiner. Loving and Hating Mathematics: Challenging
 
 Hottinger, Sara N. Inventing the Mathematician: Gender, Race, and Our Cultural Understanding of Mathematics. State University of New York Press, 2016. JSTOR, <http://www.jstor.org/stable/jj.18255257>. Accessed 15 Apr. 2026.
 
-[^1]: Euclid's Elements is a foundational 13-book mathematical treatise, written around 300 BCE in Alexandria, which structured plane/solid geometry, number theory, and proportion through a logical framework of definitions, postulates, and proofs. It is the oldest, most influential deductive textbook in history, establishing the use of straight-edge and compass constructions
+Rokicki, Tomas, et al. "The Diameter of the Rubik's Cube Group Is Twenty." SIAM Review, vol. 56, no. 4, 2014, pp. 645–70. JSTOR, <http://www.jstor.org/stable/24244333>. Accessed 18 Apr. 2026.
+
+Jones, Michael A., Brittany C. Shelton, and Miriam E. Weaverdyck. "On God's Number(s) for Rubik's Slide." The College Mathematics Journal, vol. 45, no. 4, 2014, pp. 267–75. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.267>. Accessed 18 Apr. 2026.
+
+van Grol, Rik. "The Quest for God's Number." Math Horizons, vol. 18, no. 2, 2010, pp. 10–13. JSTOR, <https://doi.org/10.4169/194762110x535961>. Accessed 18 Apr. 2026.
+
+Turner, Edward C., and Karen F. Gold. "Rubik's Groups." The American Mathematical Monthly, vol. 92, no. 9, 1985, pp. 617–29. JSTOR, <https://doi.org/10.2307/2323707>. Accessed 18 Apr. 2026.
+
+Hecker, David, and Ranan Banerji. "The Slice Group in Rubik's Cube." Mathematics Magazine, vol. 58, no. 4, 1985, pp. 211–18. JSTOR, <https://doi.org/10.2307/2689516>. Accessed 18 Apr. 2026.
+
+Milewski, Amanda, and Daniel Frohardt. "Seeing Algebraic Structure: The Rubik's Cube." The Mathematics Teacher, vol. 113, no. 5, 2020, pp. 397–403. JSTOR, <https://doi.org/10.5951/mtlt.2019.0075>. Accessed 18 Apr. 2026.
+
+Rokicki, Tomas. "Towards God's Number for Rubik's Cube in the Quarter-Turn Metric." The College Mathematics Journal, vol. 45, no. 4, 2014, p. 242. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.242>. Accessed 18 Apr. 2026.
+
+Joyner, David. "The Man Who Found God's Number." The College Mathematics Journal, vol. 45, no. 4, 2014, pp. 258–66. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.258>. Accessed 18 Apr. 2026.
+
+"God's Number Is 20." Cube20.org, <https://www.cube20.org>. Accessed 18 Apr. 2026.
+
+Storer, James A. "Twenty Moves Suffice for Rubik's Cube." Brandeis University Computer Science, <https://www.cs.brandeis.edu/~storer/JimPuzzles/RUBIK/Rubik3x3x3/READING/GodsNumberIs20.pdf>. Accessed 18 Apr. 2026.
+
+"God's Number." Wolfram MathWorld, <https://mathworld.wolfram.com/GodsNumber.html>. Accessed 18 Apr. 2026.
+
+"God's Number." Ruwix, <https://ruwix.com/the-rubiks-cube/gods-number/>. Accessed 18 Apr. 2026.
+
+"Thistlethwaite's Algorithm." University of Illinois, <https://new.math.uiuc.edu/math198/MA198-2016/lkulbis2/public_html/tmethod.html>. Accessed 18 Apr. 2026.
+
+"Kociemba's Two-Phase Algorithm." IIT Kanpur Computer Science, <https://cse.iitk.ac.in/users/cs365/2015/_submissions/anurag/report.pdf>. Accessed 18 Apr. 2026.
+
+"Computer Algorithms for Solving Rubik's Cube." Cubing History, <https://www.cubinghistory.com/3x3/3x3ComputerAlgorithms>. Accessed 18 Apr. 2026.
+
+Borschbach, Markus, and Christiane Grelle. "Solving the Rubik's Cube Using Genetic Algorithms." Workshop on Bio-Inspired Algorithms for Continuous Parameter Optimization, 2010, <http://www.genetic-programming.org/hc2010/7-Borschbach/Borschbach-PPSN-Paper.pdf>. Accessed 18 Apr. 2026.
+
+Manjul, Pankaj, et al. "The Mathematics of Rubik's Cube." arXiv preprint, arXiv:2501.00144, 2025, <https://arxiv.org/abs/2501.00144>. Accessed 18 Apr. 2026.
+
+Cook, Sam, et al. "Sudoku: Just for Fun or Is It Mathematics?" Math Horizons, vol. 14, no. 3, 2007, pp. 13–15. JSTOR, <http://www.jstor.org/stable/25678670>. Accessed 18 Apr. 2026.
+
+Lindgren, William. "Mathematical Sudoku." Math Horizons, vol. 15, no. 2, 2007, pp. 21–21. JSTOR, <http://www.jstor.org/stable/25678721>. Accessed 18 Apr. 2026.
+
+Delahaye, Jean-Paul. "The Science behind SUDOKU." Scientific American, vol. 294, no. 6, 2006, pp. 80–87. JSTOR, <http://www.jstor.org/stable/26061494>. Accessed 18 Apr. 2026.
+
+Arcos, Carlos, et al. "Mini-Sudokus and Groups." Mathematics Magazine, vol. 83, no. 2, 2010, pp. 111–22. JSTOR, <https://doi.org/10.4169/002557010x482871>. Accessed 18 Apr. 2026.
+
+Keedwell, A. D. "Two Remarks about Sudoku Squares." The Mathematical Gazette, vol. 90, no. 519, 2006, pp. 425–30. JSTOR, <http://www.jstor.org/stable/40378190>. Accessed 18 Apr. 2026.
+
+Lee, H. C. "On Clifford Algebras and Their Representations." Annals of Mathematics, vol. 49, no. 4, 1948, pp. 760–73. JSTOR, <https://doi.org/10.2307/1969398>. Accessed 18 Apr. 2026.
+
+Shale, David, and W. Forrest Stinespring. "States of the Clifford Algebra." Annals of Mathematics, vol. 80, no. 2, 1964, pp. 365–81. JSTOR, <https://doi.org/10.2307/1970397>. Accessed 18 Apr. 2026.
+
+Lounesto, Pertti, and Esko Latvamaa. "Conformal Transformations and Clifford Algebras." Proceedings of the American Mathematical Society, vol. 79, no. 4, 1980, pp. 533–38. JSTOR, <https://doi.org/10.2307/2042491>. Accessed 18 Apr. 2026.
+
+Hamilton, Wm. R. "Theory of Quaternions." Proceedings of the Royal Irish Academy (1836-1869), vol. 3, 1844, pp. 1–16. JSTOR, <http://www.jstor.org/stable/20489494>. Accessed 18 Apr. 2026.
+
+Bannon, Thomas. "The Origin of Quaternions." The College Mathematics Journal, vol. 46, no. 1, 2015, pp. 43–50. JSTOR, <https://doi.org/10.4169/college.math.j.46.1.43>. Accessed 18 Apr. 2026.
+
+Ladd, Christine. "Quaternions." The Analyst, vol. 4, no. 6, 1877, pp. 172–74. JSTOR, <https://doi.org/10.2307/2635769>. Accessed 18 Apr. 2026.
+
+Wood, De Volson. "Quaternions." The Analyst, vol. 7, no. 1, 1880, pp. 11–13. JSTOR, <https://doi.org/10.2307/2635948>. Accessed 18 Apr. 2026.
+
+Alderson, Victor C. "Quaternions." Science, vol. 2, no. 48, 1895, pp. 735–36. JSTOR, <http://www.jstor.org/stable/1624054>. Accessed 18 Apr. 2026.
+
+Dirac, P. A. M. "Application of Quaternions to Lorentz Transformations." Proceedings of the Royal Irish Academy. Section A: Mathematical and Physical Sciences, vol. 50, 1944, pp. 261–70. JSTOR, <http://www.jstor.org/stable/20520646>. Accessed 18 Apr. 2026.
+
+Niven, Ivan. "Equations in Quaternions." The American Mathematical Monthly, vol. 48, no. 10, 1941, pp. 654–61. JSTOR, <https://doi.org/10.2307/2303304>. Accessed 18 Apr. 2026.
+
+Wang, James C. "DNA Topoisomerases." Scientific American, vol. 247, no. 1, 1982, pp. 94–109. JSTOR, <http://www.jstor.org/stable/24966639>. Accessed 18 Apr. 2026.
+
+Méteignier, Louis-Valentin, et al. "Topoisomerase VI Participates in an Insulator-like Function That Prevents H3K9me2 Spreading." Proceedings of the National Academy of Sciences of the United States of America, vol. 119, no. 27, 2022, pp. 1–12. JSTOR, <https://www.jstor.org/stable/27153060>. Accessed 18 Apr. 2026.
+
+Lee, Shun-Hsiao, et al. "Synthesis and Dissolution of Hemicatenanes by Type IA DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 110, no. 38, 2013, pp. 15177–15177. JSTOR, <http://www.jstor.org/stable/42713286>. Accessed 18 Apr. 2026.
+
+Austin, C. A., and L. M. Fisher. "DNA Topoisomerases: Enzymes That Change the Shape of DNA." Science Progress (1933- ), vol. 74, no. 2 (294), 1990, pp. 147–61. JSTOR, <http://www.jstor.org/stable/43423883>. Accessed 18 Apr. 2026.
+
+Chiatante, D., et al. "Nuclear DNA Topoisomerases in Pisum Sativum L." Journal of Experimental Botany, vol. 44, no. 263, 1993, pp. 1045–51. JSTOR, <http://www.jstor.org/stable/23693460>. Accessed 18 Apr. 2026.
+
+Champoux, James J. "Type IA DNA Topoisomerases: Strictly One Step at a Time." Proceedings of the National Academy of Sciences of the United States of America, vol. 99, no. 19, 2002, pp. 11998–2000. JSTOR, <http://www.jstor.org/stable/3073156>. Accessed 18 Apr. 2026.
+
+Neuman, Keir C. "Evolutionary Twist on Topoisomerases: Conversion of Gyrase to Topoisomerase IV." Proceedings of the National Academy of Sciences of the United States of America, vol. 107, no. 52, 2010, pp. 22363–64. JSTOR, <http://www.jstor.org/stable/25770642>. Accessed 18 Apr. 2026.
+
+Vologodskii, Alexander V., et al. "Mechanism of Topology Simplification by Type II DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 98, no. 6, 2001, pp. 3045–49. JSTOR, <http://www.jstor.org/stable/3055186>. Accessed 18 Apr. 2026.
+
+McVie, J. G. "DNA Topoisomerases In Cancer Treatment." British Medical Journal (Clinical Research Edition), vol. 296, no. 6630, 1988, pp. 1145–46. JSTOR, <http://www.jstor.org/stable/29530477>. Accessed 18 Apr. 2026.
+
+Osheroff, Neil, and James C. Wang. "Genetics." Untangling the Double Helix: DNA Entanglement and the Action of the DNA Topoisomerases. The Quarterly Review of Biology, vol. 85, no. 2, 2010, pp. 232–33. JSTOR, <https://doi.org/10.1086/652361>. Accessed 18 Apr. 2026.
+
+Witz, Guillaume, et al. "Tightening of DNA Knots by Supercoiling Facilitates Their Unknotting by Type II DNA Topoisomerases." Proceedings of the National Academy of Sciences of the United States of America, vol. 108, no. 9, 2011, pp. 3608–11. JSTOR, <http://www.jstor.org/stable/41060979>. Accessed 18 Apr. 2026.
+
+Sinkov, Abraham, and Todd Feil. Elementary Cryptanalysis: A Mathematical Approach. 2nd ed., vol. 22, Mathematical Association of America, 2009. JSTOR, <http://www.jstor.org/stable/10.4169/j.ctt19b9krf>. Accessed 18 Apr. 2026.
+
+Boyer, Robert S., and J. Strother Moore. "Proof Checking the RSA Public Key Encryption Algorithm." The American Mathematical Monthly, vol. 91, no. 3, 1984, pp. 181–89. JSTOR, <https://doi.org/10.2307/2322356>. Accessed 18 Apr. 2026.
+
+Petras, Richard T. "Privacy for the Twenty-First Century: Cryptography." The Mathematics Teacher, vol. 94, no. 8, 2001, pp. 689–707. JSTOR, <http://www.jstor.org/stable/20870843>. Accessed 18 Apr. 2026.
+
+Zimmermann, Philip R. "Cryptography for the Internet." Scientific American, vol. 279, no. 4, 1998, pp. 110–15. JSTOR, <http://www.jstor.org/stable/26057991>. Accessed 18 Apr. 2026.
+
+Treat, Daniel G. "Proof by Poem: The RSA Encryption Algorithm." Mathematics Magazine, vol. 75, no. 4, 2002, pp. 255–255. JSTOR, <http://www.jstor.org/stable/3219159>. Accessed 18 Apr. 2026.
+
+Luciano, Dennis, and Gordon Prichett. "Cryptology: From Caesar Ciphers to Public-Key Cryptosystems." The College Mathematics Journal, vol. 18, no. 1, 1987, pp. 2–17. JSTOR, <https://doi.org/10.2307/2686311>. Accessed 18 Apr. 2026.
+
+Lefton, Phyllis. "Number Theory and Public-Key Cryptography." The Mathematics Teacher, vol. 84, no. 1, 1991, pp. 54–62. JSTOR, <http://www.jstor.org/stable/27967000>. Accessed 18 Apr. 2026.
+
+Grobman, Steve. "Quantum Computing's Cyber-Threat to National Security." PRISM, vol. 9, no. 1, 2020, pp. 52–67. JSTOR, <https://www.jstor.org/stable/26940159>. Accessed 18 Apr. 2026.
+
+Fromkin, A. Michael. "The Metaphor Is the Key: Cryptography, the Clipper Chip, and the Constitution." University of Pennsylvania Law Review, vol. 143, no. 3, 1995, pp. 709–897. JSTOR, <https://doi.org/10.2307/3312529>. Accessed 18 Apr. 2026.
+
+Meijer, A. R. "Groups, Factoring, and Cryptography." Mathematics Magazine, vol. 69, no. 2, 1996, pp. 103–09. JSTOR, <http://www.jstor.org/stable/2690663>. Accessed 18 Apr. 2026.
+
+Havil, Julian. Curves for the Mathematically Curious: An Anthology of the Unpredictable, Historical, Beautiful, and Romantic. Princeton University Press, 2019. JSTOR, <https://doi.org/10.2307/j.ctvfrxr22>. Accessed 18 Apr. 2026.
+
+Holden, Joshua. The Mathematics of Secrets: Cryptography from Caesar Ciphers to Digital Encryption. NED-New edition, Princeton University Press, 2017. JSTOR, <https://doi.org/10.2307/j.ctvc775xv>. Accessed 18 Apr. 2026.
+
+DeArmond, Joel. Elliptic Curve Cryptography: Extensions of Subfield Curves in Characteristic 2. Documents. Pence Boyce, Olivet Nazarene University, 2017, Olivet Scholarship. ONU Digital Collections. JSTOR, <https://jstor.org/stable/community.37867867>. Accessed 18 Apr. 2026.
+
+Clark, Robert, et al. "Post-Quantum Cryptography: A Security Patch for the Internet." The Impact of Quantum Technologies on Secure Communications, Australian Strategic Policy Institute, 2021, pp. 25–26. JSTOR, <http://www.jstor.org/stable/resrep31261.9>. Accessed 18 Apr. 2026.
+
+Feldman, Dan, and Eldar Haber. "Measuring and Protecting Privacy in the Always-On Era." Berkeley Technology Law Journal, vol. 35, no. 1, 2020, pp. 197–250. JSTOR, <https://www.jstor.org/stable/26954423>. Accessed 18 Apr. 2026.
+
+Busemann, Herbert. "Non-Euclidean Geometry." Mathematics Magazine, vol. 24, no. 1, 1950, pp. 19–34. JSTOR, <https://doi.org/10.2307/3029647>. Accessed 18 Apr. 2026.
+
+Banchoff, Thomas. "Non-Euclidean Geometry." Brown University, <https://www.math.brown.edu/tbanchof/Beyond3d/chapter9/section03.html>. Accessed 18 Apr. 2026.
+
+Bussey, W. H. "Non-Euclidean Geometry." The Mathematics Teacher, vol. 15, no. 8, 1922, pp. 445–59. JSTOR, <http://www.jstor.org/stable/27950455>. Accessed 18 Apr. 2026.
+
+Henderson, Linda Dalrymple. "The Fourth Dimension and Non-Euclidean Geometry in Modern Art: Conclusion." Leonardo, vol. 17, no. 3, 1984, pp. 205–10. JSTOR, <https://doi.org/10.2307/1575193>. Accessed 18 Apr. 2026.
+
+Tóth, Imre. "Non-Euclidean Geometry before Euclid." Scientific American, vol. 221, no. 5, 1969, pp. 87–101. JSTOR, <http://www.jstor.org/stable/24964348>. Accessed 18 Apr. 2026.
+
+Miller, G. A. "Non-Euclidean Geometry." Science, vol. 20, no. 517, 1892, pp. 370–72. JSTOR, <http://www.jstor.org/stable/1767948>. Accessed 18 Apr. 2026.
+
+Halsted, George Bruce. "Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 5, 1900, pp. 123–33. JSTOR, <https://doi.org/10.2307/2970500>. Accessed 18 Apr. 2026.
+
+Miller, E. "The Non-Euclidean Geometry." Transactions of the Kansas Academy of Science (1903-), vol. 19, 1903, pp. 374–78. JSTOR, <https://doi.org/10.2307/3624223>. Accessed 18 Apr. 2026.
+
+Halsted, George Bruce. "Gauss and the Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 11, 1900, pp. 247–52. JSTOR, <https://doi.org/10.2307/2968396>. Accessed 18 Apr. 2026.
+
+Dence, Thomas P. "Another Euclidean Geometry." Mathematics Magazine, vol. 47, no. 3, 1974, pp. 125–32. JSTOR, <https://doi.org/10.2307/2689267>. Accessed 18 Apr. 2026.
+
+Reid, Thomas. Thomas Reid on Mathematics and Natural Philosophy. Edited by Paul Wood, Edinburgh University Press, 2017. JSTOR, <http://www.jstor.org/stable/10.3366/j.ctt1pwt34w>. Accessed 18 Apr. 2026.
+
+Mader, Adolf. "A Euclidean Model for Euclidean Geometry." The American Mathematical Monthly, vol. 96, no. 1, 1989, pp. 43–49. JSTOR, <https://doi.org/10.2307/2323257>. Accessed 18 Apr. 2026.
+
+Daus, P. H. "The Founding of Non-Euclidean Geometry." Mathematics News Letter, vol. 7, no. 7/8, 1933, pp. 12–16. JSTOR, <https://doi.org/10.2307/3027483>. Accessed 18 Apr. 2026.
+
+French, Robert. "Is Euclidean Geometry Analytic?" Philosophical Studies: An International Journal for Philosophy in the Analytic Tradition, vol. 49, no. 2, 1986, pp. 213–17. JSTOR, <http://www.jstor.org/stable/4319821>. Accessed 18 Apr. 2026.
+
+Henderson, Andrea. "Math for Math's Sake: Non-Euclidean Geometry, Aestheticism, and 'Flatland.'" PMLA, vol. 124, no. 2, 2009, pp. 455–71. JSTOR, <http://www.jstor.org/stable/25614286>. Accessed 18 Apr. 2026.
+
+Jones, Philip Chapin. "Kant, Euclid, and the Non-Euclideans." Philosophy of Science, vol. 13, no. 2, 1946, pp. 137–43. JSTOR, <http://www.jstor.org/stable/184259>. Accessed 18 Apr. 2026.
+
+Green, H. Gwynedd. "Infinity in Euclidean Geometry." The Mathematical Gazette, vol. 21, no. 246, 1937, pp. 343–46. JSTOR, <https://doi.org/10.2307/3606664>. Accessed 18 Apr. 2026.
+
+Menger, Karl. "New Foundation of Euclidean Geometry." American Journal of Mathematics, vol. 53, no. 4, 1931, pp. 721–45. JSTOR, <https://doi.org/10.2307/2371222>. Accessed 18 Apr. 2026.
+
+Einstein, Albert. The Essential Einstein: Public Writings. Edited by Diana Kormos Buchwald and Tilman Sauer, Princeton University Press, 2025. JSTOR, <https://doi.org/10.2307/jj.27710924>. Accessed 18 Apr. 2026.
+
+Leisenring, Kenneth. "Area in Non-Euclidean Geometry." The American Mathematical Monthly, vol. 58, no. 5, 1951, pp. 315–22. JSTOR, <https://doi.org/10.2307/2307718>. Accessed 18 Apr. 2026.
+
+Geretschläger, Robert. "Euclidean Constructions and the Geometry of Origami." Mathematics Magazine, vol. 68, no. 5, 1995, pp. 357–71. JSTOR, <https://doi.org/10.2307/2690924>. Accessed 18 Apr. 2026.
+
+Meserve, Bruce E. "The Evolution of Geometry." The Mathematics Teacher, vol. 49, no. 5, 1956, pp. 372–82. JSTOR, <http://www.jstor.org/stable/27955187>. Accessed 18 Apr. 2026.
+
+Halsted, George Bruce. "Non-Euclidean Geometry: Historical and Expository." The American Mathematical Monthly, vol. 1, no. 5, 1894, pp. 149–52. JSTOR, <https://doi.org/10.2307/2969703>. Accessed 18 Apr. 2026.
+
+Świerczkowski, S. "Interpretations of Euclidean Geometry." Transactions of the American Mathematical Society, vol. 322, no. 1, 1990, pp. 315–28. JSTOR, <https://doi.org/10.2307/2001533>. Accessed 18 Apr. 2026.
+
+Posamentier, Alfred S., et al. "More Gems from Euclidean Geometry." The Mathematics Teacher, vol. 103, no. 3, 2009, pp. 221–26. JSTOR, <http://www.jstor.org/stable/20876583>. Accessed 18 Apr. 2026.
+
+Allendoerfer, Carl B. "The Dilemma in Geometry." The Mathematics Teacher, vol. 62, no. 3, 1969, pp. 165–69. JSTOR, <http://www.jstor.org/stable/27958094>. Accessed 18 Apr. 2026.
+
+Widder, D. V. "What Is the Laplace Transform?" The American Mathematical Monthly, vol. 52, no. 8, 1945, pp. 419–25. JSTOR, <https://doi.org/10.2307/2305640>. Accessed 18 Apr. 2026.
+
+Campbell, Stephen L., and Richard Haberman. Introduction to Differential Equations with Dynamical Systems. Princeton University Press, 2008. JSTOR, <https://doi.org/10.2307/j.ctvcmxp4x>. Accessed 18 Apr. 2026.
+
+Deakin, Michael A. B. "Euler's Version of the Laplace Transform." The American Mathematical Monthly, vol. 87, no. 4, 1980, pp. 264–69. JSTOR, <https://doi.org/10.2307/2321558>. Accessed 18 Apr. 2026.
+
+Scheinerman, Ed, and Mircea I. Cîrnu. "Newton's Identities and the Laplace Transform." The American Mathematical Monthly, vol. 117, no. 1, 2010, pp. 67–71. JSTOR, <https://doi.org/10.4169/000298910x474998>. Accessed 18 Apr. 2026.
+
+Thange, Tukaram G., et al. "Conformable Laplace Transform on Time Scales." Filomat, vol. 40, no. 5, 2026, pp. 1699–711. JSTOR, <https://www.jstor.org/stable/27470834>. Accessed 18 Apr. 2026.
+
+Hutton, M. "Laplace Transforms." The Mathematical Gazette, vol. 35, no. 314, 1951, pp. 303–303. JSTOR, <https://doi.org/10.2307/3611521>. Accessed 18 Apr. 2026.
+
+Guggenheimer, H. "Systems of Linear Differential Equations by Laplace Transform." The College Mathematics Journal, vol. 23, no. 3, 1992, pp. 196–202. JSTOR, <https://doi.org/10.2307/2686296>. Accessed 18 Apr. 2026.
+
+Efthimiou, Costas J. "Trigonometric Series via Laplace Transforms." Mathematics Magazine, vol. 79, no. 5, 2006, pp. 376–79. JSTOR, <https://doi.org/10.2307/27642975>. Accessed 18 Apr. 2026.
+
+Pribitkin, Wladimir de Azevedo. "Laplace's Integral, the Gamma Function, and Beyond." The American Mathematical Monthly, vol. 109, no. 3, 2002, pp. 235–45. JSTOR, <https://doi.org/10.2307/2695353>. Accessed 18 Apr. 2026.
+
+Akin, J. E., and J. Counts. "On Rational Approximation to the Inverse Laplace Transform." SIAM Journal on Applied Mathematics, vol. 17, no. 6, 1969, pp. 1035–40. JSTOR, <http://www.jstor.org/stable/2099182>. Accessed 18 Apr. 2026.
+
+Opatowski, I. "Laplace Transform of (erf√t)²." The American Mathematical Monthly, vol. 59, no. 6, 1952, pp. 392–392. JSTOR, <https://doi.org/10.2307/2306813>. Accessed 18 Apr. 2026.
+
+Ungar, Abraham. "The Laplace Transform Inversion by Inspection." The American Mathematical Monthly, vol. 93, no. 10, 1986, pp. 786–91. JSTOR, <https://doi.org/10.2307/2322932>. Accessed 18 Apr. 2026.
+
+Kashiwara, Masaki, and Pierre Schapira. "Integral Transforms with Exponential Kernels and Laplace Transform." Journal of the American Mathematical Society, vol. 10, no. 4, 1997, pp. 939–72. JSTOR, <http://www.jstor.org/stable/2152878>. Accessed 18 Apr. 2026.
+
+Spiegel, M. R. "3340. The Laplace Transform of Jₙ(t)." The Mathematical Gazette, vol. 56, no. 398, 1972, pp. 329–30. JSTOR, <https://doi.org/10.2307/3617845>. Accessed 18 Apr. 2026.
+
+Varma, R. S. "A Generalisation of Laplace's Transform." Current Science, vol. 16, no. 1, 1947, pp. 17–18. JSTOR, <http://www.jstor.org/stable/24211320>. Accessed 18 Apr. 2026.
+
+Widder, D. V. "A Symbolic Form of the Classical Complex Inversion Formula for a Laplace Transform." The American Mathematical Monthly, vol. 58, no. 3, 1951, pp. 179–81. JSTOR, <https://doi.org/10.2307/2306589>. Accessed 18 Apr. 2026.
+
+Dixit, Atul. "The Laplace Transform of the Psi Function." Proceedings of the American Mathematical Society, vol. 138, no. 2, 2010, pp. 593–603. JSTOR, <http://www.jstor.org/stable/40590774>. Accessed 18 Apr. 2026.
+
+Adkins, William A., and Mark G. Davidson. "Putzer's Algorithm for e^At via the Laplace Transform." Mathematics Magazine, vol. 83, no. 4, 2010, pp. 267–75. JSTOR, <https://doi.org/10.4169/002557010x521796>. Accessed 18 Apr. 2026.
+
+Lunardi, Alessandra. "Laplace Transform Methods in Integrodifferential Equations." Journal of Integral Equations, vol. 10, no. 1/3, 1985, pp. 185–211. JSTOR, <http://www.jstor.org/stable/26164176>. Accessed 18 Apr. 2026.
+
+MIT OpenCourseWare. "Laplace Transform: Basics." MIT 18.03SC Differential Equations, Fall 2011, <https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/unit-iii-fourier-series-and-laplace-transform/laplace-transform-basics/>. Accessed 18 Apr. 2026.
+
+Berry, Andrew C. "The Fourier Transform Identity Theorem." Annals of Mathematics, vol. 32, no. 2, 1931, pp. 227–32. JSTOR, <https://doi.org/10.2307/1968186>. Accessed 18 Apr. 2026.
+
+Griffiths, Peter R. "Fourier Transform Infrared Spectrometry." Science, vol. 222, no. 4621, 1983, pp. 297–302. JSTOR, <http://www.jstor.org/stable/1691609>. Accessed 18 Apr. 2026.
+
+Beckner, William. "Inequalities in Fourier Analysis." Annals of Mathematics, vol. 102, no. 1, 1975, pp. 159–82. JSTOR, <https://doi.org/10.2307/1970980>. Accessed 18 Apr. 2026.
+
+Jozsa, R. "Quantum Algorithms and the Fourier Transform." Proceedings: Mathematical, Physical and Engineering Sciences, vol. 454, no. 1969, 1998, pp. 323–37. JSTOR, <http://www.jstor.org/stable/53168>. Accessed 18 Apr. 2026.
+
+McShane, E. J. "The Fourier Transform and Mean Convergence." The American Mathematical Monthly, vol. 68, no. 3, 1961, pp. 205–11. JSTOR, <https://doi.org/10.2307/2311446>. Accessed 18 Apr. 2026.
+
+Gao, Wen-Biao. "Biquaternion Fourier Transform and Its Applications." Filomat, vol. 38, no. 28, 2024, pp. 9851–65. JSTOR, <https://www.jstor.org/stable/27387941>. Accessed 18 Apr. 2026.
+
+Alm, Jeremy F., and James S. Walker. "Time-Frequency Analysis of Musical Instruments." SIAM Review, vol. 44, no. 3, 2002, pp. 457–76. JSTOR, <http://www.jstor.org/stable/4148384>. Accessed 18 Apr. 2026.
+
+Torchinsky, Alberto. "The Fourier Transform and the Wave Equation." The American Mathematical Monthly, vol. 118, no. 7, 2011, pp. 599–609. JSTOR, <https://doi.org/10.4169/amer.math.monthly.118.07.599>. Accessed 18 Apr. 2026.
+
+Muckenhoupt, Benjamin. "Weighted Norm Inequalities for the Fourier Transform." Transactions of the American Mathematical Society, vol. 276, no. 2, 1983, pp. 729–42. JSTOR, <https://doi.org/10.2307/1999080>. Accessed 18 Apr. 2026.
+
+Mackenzie, J. K. "Evaluation of a Fourier Transform." SIAM Review, vol. 9, no. 2, 1967, pp. 219–22. JSTOR, <http://www.jstor.org/stable/2027445>. Accessed 18 Apr. 2026.
+
+Herz, C. S. "Fourier Transforms Related to Convex Sets." Annals of Mathematics, vol. 75, no. 1, 1962, pp. 81–92. JSTOR, <https://doi.org/10.2307/1970421>. Accessed 18 Apr. 2026.
+
+Callender, Clifton. "Continuous Harmonic Spaces." Journal of Music Theory, vol. 51, no. 2, 2007, pp. 277–332. JSTOR, <http://www.jstor.org/stable/40283131>. Accessed 18 Apr. 2026.
+
+Morrison, Kent E. "Cosine Products, Fourier Transforms, and Random Sums." The American Mathematical Monthly, vol. 102, no. 8, 1995, pp. 716–24. JSTOR, <https://doi.org/10.2307/2974641>. Accessed 18 Apr. 2026.
+
+Lin, Xin, et al. "Mechanical Fourier Transform for Programmable Metamaterials." Proceedings of the National Academy of Sciences of the United States of America, vol. 120, no. 37, 2023, pp. 1–9. JSTOR, <https://www.jstor.org/stable/27265985>. Accessed 18 Apr. 2026.
+
+Bailey, David H., and Paul N. Swarztrauber. "The Fractional Fourier Transform and Applications." SIAM Review, vol. 33, no. 3, 1991, pp. 389–404. JSTOR, <http://www.jstor.org/stable/2031440>. Accessed 18 Apr. 2026.
+
+Bracewell, Ronald N. "The Fourier Transform." Scientific American, vol. 260, no. 6, 1989, pp. 86–95. JSTOR, <http://www.jstor.org/stable/24987290>. Accessed 18 Apr. 2026.
+
+Euler, Russell. "Laplace Transforms and Taylor Series." Pi Mu Epsilon Journal, vol. 10, no. 4, 1996, pp. 305–07. JSTOR, <http://www.jstor.org/stable/24345100>. Accessed 18 Apr. 2026.
+
+Widder, D. V. "A Generalization of Taylor's Series." Transactions of the American Mathematical Society, vol. 30, no. 1, 1928, pp. 126–54. JSTOR, <https://doi.org/10.2307/1989270>. Accessed 18 Apr. 2026.
+
+Rozema, Edward R. "Romberg Integration by Taylor Series." The American Mathematical Monthly, vol. 94, no. 3, 1987, pp. 284–88. JSTOR, <https://doi.org/10.2307/2323397>. Accessed 18 Apr. 2026.
+
+Meyerson, Mark D. "Every Power Series Is a Taylor Series." The American Mathematical Monthly, vol. 88, no. 1, 1981, pp. 51–52. JSTOR, <https://doi.org/10.2307/2320716>. Accessed 18 Apr. 2026.
+
+Spiegel, M. R. "Mean Value Theorems and Taylor Series." Mathematics Magazine, vol. 29, no. 5, 1956, pp. 263–66. JSTOR, <https://doi.org/10.2307/3029299>. Accessed 18 Apr. 2026.
+
+Erdős, Paul, et al. "Sets of Divergence of Taylor Series and of Trigonometric Series." Mathematica Scandinavica, vol. 2, no. 2, 1954, pp. 262–66. JSTOR, <http://www.jstor.org/stable/24489039>. Accessed 18 Apr. 2026.
+
+Eves, Howard. "Power(ful) Series." Great Moments in Mathematics (After 1650), 1st ed., vol. 7, Mathematical Association of America, 1983, pp. 40–51. JSTOR, <http://www.jstor.org/stable/10.4169/j.ctt6wpwqx.7>. Accessed 18 Apr. 2026.
+
+Duffin, R. J., and A. C. Schaeffer. "Power Series with Bounded Coefficients." American Journal of Mathematics, vol. 67, no. 1, 1945, pp. 141–54. JSTOR, <https://doi.org/10.2307/2371922>. Accessed 18 Apr. 2026.
+
+Baik, Jinho, et al. "Phase Transition of the Largest Eigenvalue for Nonnull Complex Sample Covariance Matrices." The Annals of Probability, vol. 33, no. 5, 2005, pp. 1643–97. JSTOR, <http://www.jstor.org/stable/3481698>. Accessed 18 Apr. 2026.
+
+Banner, Adrian. "Taylor and Power Series: How to Solve Problems." The Calculus Lifesaver: All the Tools You Need to Excel at Calculus, SCH-School edition, Princeton University Press, 2007, pp. 551–74. JSTOR, <http://www.jstor.org/stable/j.ctt7s1h6.30>. Accessed 18 Apr. 2026.
+
+Bryan, Kurt, and Tanya Leise. "The $25,000,000,000 Eigenvector: The Linear Algebra behind Google." SIAM Review, vol. 48, no. 3, 2006, pp. 569–81. JSTOR, <http://www.jstor.org/stable/20453840>. Accessed 18 Apr. 2026.
+
+Chu, Moody T. "Inverse Eigenvalue Problems." SIAM Review, vol. 40, no. 1, 1998, pp. 1–39. JSTOR, <http://www.jstor.org/stable/2652996>. Accessed 18 Apr. 2026.
+
+Diniz-Filho, José Alexandre Felizola, et al. "An Eigenvector Method for Estimating Phylogenetic Inertia." Evolution, vol. 52, no. 5, 1998, pp. 1247–62. JSTOR, <https://doi.org/10.2307/2411294>. Accessed 18 Apr. 2026.
+
+Jia, Peng, et al. "Opinion Dynamics and the Evolution of Social Power in Influence Networks." SIAM Review, vol. 57, no. 3, 2015, pp. 367–97. JSTOR, <http://www.jstor.org/stable/24778737>. Accessed 18 Apr. 2026.
+
+Langville, Amy N., and Carl D. Meyer. "A Survey of Eigenvector Methods for Web Information Retrieval." SIAM Review, vol. 47, no. 1, 2005, pp. 135–61. JSTOR, <http://www.jstor.org/stable/20453606>. Accessed 18 Apr. 2026.
+
+Lord, Nick. "Winning Ways for Your Mathematical Plays, Volume 2." Review of Winning Ways for Your Mathematical Plays, Volume 2, by Elwyn R. Berlekamp et al. The Mathematical Gazette, vol. 88, no. 512, 2004, pp. 414–15. JSTOR, <http://www.jstor.org/stable/3620944>. Accessed 18 Apr. 2026.
+
+Rubinstein, Ariel. "Game Theory: A Beautiful Mind." Economic Fables, 1st ed., Open Book Publishers, 2012, pp. 91–146. JSTOR, <http://www.jstor.org/stable/j.ctt5vjswm.5>. Accessed 18 Apr. 2026.
+
+Schonefeld, Steven. "Eigenpictures: Picturing the Eigenvector Problem." The College Mathematics Journal, vol. 26, no. 4, 1995, pp. 316–19. JSTOR, <https://doi.org/10.2307/2687037>. Accessed 18 Apr. 2026.
+
+Straffin, Philip D. "Linear Algebra in Geography: Eigenvectors of Networks." Mathematics Magazine, vol. 53, no. 5, 1980, pp. 269–76. JSTOR, <https://doi.org/10.2307/2689388>. Accessed 18 Apr. 2026.
+
+Tisseur, Françoise, and Karl Meerbergen. "The Quadratic Eigenvalue Problem." SIAM Review, vol. 43, no. 2, 2001, pp. 235–86. JSTOR, <http://www.jstor.org/stable/3649752>. Accessed 18 Apr. 2026.
+
+Stone, Randall W. "The Use and Abuse of Game Theory in International Relations: The Theory of Moves." The Journal of Conflict Resolution, vol. 45, no. 2, 2001, pp. 216–44. JSTOR, <http://www.jstor.org/stable/3176277>. Accessed 18 Apr. 2026.
+
+Binmore, Ken. "Game Theory." Rational Decisions, STU-Student edition, Princeton University Press, 2009, pp. 25–34. JSTOR, <http://www.jstor.org/stable/j.ctt7szmq.5>. Accessed 18 Apr. 2026.
+
+Resnik, Michael D. "Game Theory." Choices: An Introduction to Decision Theory, NED-New edition, University of Minnesota Press, 1987, pp. 121–76. JSTOR, <http://www.jstor.org/stable/10.5749/j.ctttshgd.9>. Accessed 18 Apr. 2026.
+
+van Benthem, Johan, et al. "Game Theory, Logic and Rational Choice." Discourses on Social Software, edited by Jan van Eijck and Rineke Verbrugge, Amsterdam University Press, 2009, pp. 123–34. JSTOR, <http://www.jstor.org/stable/j.ctt46n2rz.14>. Accessed 18 Apr. 2026.
+
+Cunningham, R. L. "Ethics and Game Theory: The Prisoner's Dilemma." Papers on Non-Market Decision Making, vol. 2, 1967, pp. 11–26. JSTOR, <http://www.jstor.org/stable/25066097>. Accessed 18 Apr. 2026.
+
+Székely, Gábor J., and Maria L. Rizzo. "The Uncertainty Principle of Game Theory." The American Mathematical Monthly, vol. 114, no. 8, 2007, pp. 688–702. JSTOR, <http://www.jstor.org/stable/27642304>. Accessed 18 Apr. 2026.
+
+Weil, Roman L. "Game Theory and Eigensystems." SIAM Review, vol. 10, no. 3, 1968, pp. 360–67. JSTOR, <http://www.jstor.org/stable/2027660>. Accessed 18 Apr. 2026.
+
+Fava, Megan. "What is... Game Theory?" Ohio State University Department of Mathematics, 2018, <https://math.osu.edu/sites/math.osu.edu/files/What_is_2018_Game_Theory.pdf>. Accessed 18 Apr. 2026.
+
+González-Díaz, Julio, et al. An Introductory Course on Mathematical Game Theory. American Mathematical Society, 2010.
+
+Mazalov, Vladimir. Mathematical Game Theory and Applications. Wiley, 2014.
+
+Strong, Elizabeth A., and Robert E. Strong. "Geodesic Earth: Models Help Students Understand the Size and Scale of the Earth." The Science Teacher, vol. 66, no. 2, 1999, pp. 43–45. JSTOR, <http://www.jstor.org/stable/24153490>. Accessed 18 Apr. 2026.
+
+Wood, T. E. "Vertex Latitudes on Ellipsoid Geodesics." SIAM Review, vol. 38, no. 4, 1996, pp. 637–44. JSTOR, <http://www.jstor.org/stable/2132936>. Accessed 18 Apr. 2026.
+
+Jamski, William D. "Spherical Geodesics." The Mathematics Teacher, vol. 74, no. 3, 1981, pp. 227–36. JSTOR, <http://www.jstor.org/stable/27962399>. Accessed 18 Apr. 2026.
+
+Jia, Hongkai. "Geodesics." Iowa State University, <https://faculty.sites.iastate.edu/jia/files/inline-files/geodesics.pdf>. Accessed 18 Apr. 2026.
+
+Rumble, David. "Differential Geometry: Chapter 6." Millersville University, <https://sites.millersville.edu/rumble/Math.457/chapter6.pdf>. Accessed 18 Apr. 2026.
+
+Bliss, Gilbert A. "Calculus of Variations." University of Edinburgh, <https://webhomes.maths.ed.ac.uk/~v1ranick/papers/bliss.pdf>. Accessed 18 Apr. 2026.
+
+Baek, Joseph. "Geodesics and Curvature." Stanford University, <https://cs.stanford.edu/people/jbaek/18.821.paper2.pdf>. Accessed 18 Apr. 2026.
+
+Villanueva, Jay. "Geodesics." Pearson, <https://www.pearson.com/content/dam/one-dot-com/one-dot-com/us/en/files/Jay%20Villanueva%20-%20geodesics9.pdf>. Accessed 18 Apr. 2026.
+
+Wheeler, Nicholas. "Geodesics on Surfaces: Paraboloid & Hexenhut." Reed College Physics, <https://www.reed.edu/physics/faculty/wheeler/documents/Miscellaneous%20Math/Differential%20Geometry/Geodesics%20on%20Surfaces/Paraboloid%20&%20Hexenhut%20Geodesics.pdf>. Accessed 18 Apr. 2026.
+
+Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https://prod-ms-be.lib.mcmaster.ca/server/api/core/bitstreams/5004a6a1-22f3-4e67-b94d-5567959e4d50/content>. Accessed 18 Apr. 2026.
