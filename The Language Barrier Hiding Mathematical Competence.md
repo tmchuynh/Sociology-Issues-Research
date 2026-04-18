@@ -338,7 +338,79 @@ Beyond basic forms, the Laplace transform has been computed for remarkably compl
 
 ---
 
-**Yellow Light Game**: You're driving toward a yellow light. If you speed up and the other driver at the cross-street also "goes for it," you crash (worst outcome). If you both stop, you lose a little time but are safe. If one stops and the other goes, the "goer" wins time while the "stopper" loses it.
+### Taylor Series
+
+A Taylor series is a way of approximating any smooth (infinitely differentiable) function using an infinite sum of polynomial terms based on the function's derivatives at a single point (Banner 551-555). For a function $f(x)$ expanded around point $a$, the Taylor series is:
+
+$$f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$
+
+When $a = 0$, this becomes the Maclaurin series. The remarkable fact is that every power series is actually a Taylor series for some function (Meyerson 51-52), creating a fundamental equivalence between polynomial approximations and smooth functions.
+
+**Theoretical Foundation**: The Taylor series represents one of mathematics' most powerful ideas: any sufficiently smooth curve can be approximated locally by polynomials (Eves 40-45). The Mean Value Theorem guarantees that the error in truncating a Taylor series after $n$ terms can be bounded and estimated (Spiegel 263-266). This connection between derivatives and polynomial approximations enables both theoretical analysis and practical computation (Widder 126-130).
+
+Taylor series converge to the original function within a specific radius of convergence, but can diverge outside this region or at certain pathological points (Erdős et al. 262-266). The coefficients' behavior determines convergence properties: bounded coefficients ensure convergence within the unit circle (Duffin and Schaeffer 141-145). The deep connection between Taylor series and Laplace transforms provides powerful tools for solving differential equations (Euler 305-307). Integration methods like Romberg integration leverage Taylor series to achieve high-precision numerical results (Rozema 284-288).
+
+#### Applications:
+
+**Estimated Time Arrival (GPS Navigation)**: When your GPS estimates your arrival time, it uses your current speed and recent acceleration to project your arrival time (Banner 560-565). You're approximating future behavior from what's happening right now—that's the exact same idea behind a Taylor series.
+
+**Mathematical Example - GPS ETA Calculation**:
+
+Suppose you're driving on a highway toward a destination 50 miles away. Your GPS doesn't just divide distance by current speed—it uses a Taylor series approximation of your position over time.
+
+Let $s(t)$ be your position along the route at time $t$ (in miles from start). At the current time $t_0$, the GPS knows:
+- Your current position: $s(t_0) = 10$ miles
+- Your current velocity: $s'(t_0) = v_0 = 60$ mph  
+- Your current acceleration: $s''(t_0) = a_0 = 5$ mph per hour (you're speeding up)
+
+To predict your position at future time $t = t_0 + \Delta t$, the GPS uses a truncated Taylor series:
+
+$$s(t_0 + \Delta t) \approx s(t_0) + s'(t_0)\Delta t + \frac{s''(t_0)}{2}(\Delta t)^2$$
+
+**Zeroth-order approximation (ignoring all motion)**:
+$$s(t_0 + \Delta t) \approx 10 \text{ miles}$$
+This assumes you don't move at all—clearly useless.
+
+**First-order approximation (constant velocity)**:
+$$s(t_0 + \Delta t) \approx 10 + 60\Delta t$$
+To reach the destination at 50 miles: $\displaystyle 50 = 10 + 60\Delta t \Rightarrow \Delta t = \frac{40}{60} = 0.667$ hours ≈ 40 minutes.
+
+**Second-order approximation (accounting for acceleration)**:
+$$s(t_0 + \Delta t) \approx 10 + 60\Delta t + \frac{5}{2}(\Delta t)^2$$
+To reach 50 miles: $50 = 10 + 60\Delta t + 2.5(\Delta t)^2$
+
+Solving the quadratic: $2.5(\Delta t)^2 + 60\Delta t - 40 = 0$
+$$\Delta t = \frac{-60 + \sqrt{3600 + 400}}{5} = \frac{-60 + 63.25}{5} \approx 0.65 \text{ hours} \approx 39 \text{ minutes}$$
+
+The acceleration term changes the estimate by about 1 minute. If the GPS tracked higher-order derivatives (jerk, snap, crackle), it could include third, fourth, and fifth-order terms for even greater precision (Banner 562-565).
+
+**Real-world complexity**: Modern GPS systems continuously update these calculations, incorporating:
+- Traffic conditions (modeled as velocity changes)
+- Speed limit changes (discontinuous derivatives)
+- Historical traffic patterns (probabilistic modifications to the Taylor expansion)
+- Route geometry (curves requiring different acceleration profiles)
+
+Every time your GPS updates "Arrival: 3:47 PM" to "Arrival: 3:45 PM" as you accelerate onto the highway, it's recalculating the Taylor series with new derivative values. You're witnessing calculus update in real-time, packaged in a simple interface (Banner 570-572).
+
+**Recipe Adjustments**: If you know how a recipe tastes (function value), how it changes with more salt (first derivative), and how the change itself changes (second derivative), you can predict how it will taste with small tweaks—just like a Taylor series predicts a function's values for small changes (Spiegel 264-266).
+
+**Weather Predictions**: When weather apps predict tomorrow's temperature, they use current measurements (temperature, pressure, rate of change) to estimate future values (Banner 565-568). This is similar to using a Taylor series: you take what you know now (and how it's changing) to predict what's next. Numerical weather models solve differential equations using Taylor series expansions to step forward in time.
+
+**Estimating Expenses**: Suppose you know how much you spend each month and how that amount is increasing. You can use that information to estimate your expenses a few months from now—just as a Taylor series uses current value and rates of change to predict future values (Banner 560-562).
+
+**Driving a Car**: If you're speeding up (accelerating) and want to know where you'll be in 10 seconds, you use your current position, speed, and acceleration—again, this is like the Taylor series, which uses these "derivatives" to estimate your future position (Banner 562-565).
+
+**Scientific Computing**: Nearly every calculator uses Taylor series to compute transcendental functions like $\sin(x)$, $e^x$, and $\ln(x)$ (Eves 45-48). When you press "sin" on a calculator, it evaluates:
+$$\sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots$$
+terminating after sufficient terms for the desired precision (typically 10-15 terms for double-precision accuracy).
+
+**Engineering Approximations**: Engineers routinely use first- or second-order Taylor approximations to linearize nonlinear systems, making complex differential equations solvable (Widder 130-135). The small-angle approximation $\sin(\theta) \approx \theta$ (first term of Taylor series) is fundamental in physics, enabling analytical solutions to pendulum motion, wave equations, and optics.
+
+**Assignment Completion Times**: Every time you mentally estimate "if I keep going at this rate, I'll finish in about..." you're performing zeroth- and first-order Taylor approximation. When you account for how tired you're getting (second derivative—rate of slowing down), you're including quadratic terms. (Banner 572-574). 
+
+The formalism 
+$$\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$$ 
+captures this intuition precisely, but the competence exists independently: people successfully predict futures from present trends without ever seeing the notation (Eves 48-50). The mathematical language provides precision and generality; the conceptual understanding already operates in daily decision-making.
 
 ---
 
@@ -1217,24 +1289,6 @@ A system that evolves over time with randomness built in
 **Sports Betting**: The "Live Odds" you see during a football game are generated using stochastic modeling. The odds update every second based on the random events of the game
 
 **Weather Patterns**: A "Random Walk" is a type of stochastic process. If you track a single molecule of smoke in the air, its path is completely random, but over time, it follows the laws of Diffusion.
-
----
-
-### Taylor Series
-
-A way of approximating any smooth curve using a running sum of simpler terms
-
-#### Applications:
-
-**Estimated Time Arrival**: When your GPS estimates your arrival time, it uses your current speed and recent acceleration to project your arrival time. You're approximating future behavior from what's happening right now - that's the exact same idea behind a Taylor series
-
-**Recipe Adjustments**: If you know how a recipe tastes (function value), how it changes with more salt (first derivative), and how the change itself changes (second derivative), you can predict how it will taste with small tweaks-just like a Taylor series predicts a function's values for small changes.
-
-**Weather Predictions**: When weather apps predict tomorrow's temperature, they use current measurements (temperature, pressure, rate of change) to estimate future values. This is similar to using a Taylor series: you take what you know now (and how it's changing) to predict what's next.
-
-**Estimating Expenses**: Suppose you know how much you spend each month and how that amount is increasing. You can use that information to estimate your expenses a few months from now-just as a Taylor series uses current value and rates of change to predict future values.
-
-**Driving a Car**: If you're speeding up (accelerating) and want to know where you'll be in 10 seconds, you use your current position, speed, and acceleration-again, this is like the Taylor series, which uses these "derivatives" to estimate your future position.
 
 ---
 
