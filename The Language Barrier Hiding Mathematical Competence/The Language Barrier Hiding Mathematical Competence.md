@@ -14,9 +14,7 @@ Students who struggle with mathematics should understand that these challenges a
 
 - Math anxiety significantly increases financial vulnerability in retail environments and contributes to broader wealth disparities. Individuals experiencing math anxiety report negative emotions when confronted with numerical information, which in turn triggers avoidance behaviors. As a result, they are less likely to compare prices, analyze interest rates, or evaluate investment options. Over time, such avoidance leads to suboptimal financial decisions and restricts opportunities for wealth accumulation (Peters, 2020).
 
-- 37% of respondents report that math anxiety impairs their financial decision-making, including activities such as budgeting, investing, and comparing loan terms (Prodigy Education).
-
-- 46% of Gen Z respondents state that math anxiety affects their financial decisions, including budgeting, understanding bills, investing, and assisting children with math homework (Prodigy Education).
+- 37% of respondents report that math anxiety impairs their financial decision-making, including activities such as budgeting, investing, and comparing loan terms. 46% of Gen Z respondents state that math anxiety affects their financial decisions, including budgeting, understanding bills, investing, and assisting children with math homework (Prodigy Education).
 
 - Adults with high levels of math anxiety are more likely to make costly financial errors, including misunderstanding interest rates, overlooking fine print on credit card offers, and avoiding financial products that require numerical evaluation (Lusardi and Tufano 340-345; 337; Ashcraft and Krause 245).
 
@@ -39,8 +37,6 @@ Students who struggle with mathematics should understand that these challenges a
 - In 2024, the median annual wage for STEM occupations was $103,580, more than double the median wage for non-STEM occupations at $48,000. STEM jobs are projected to grow by 8.1% from 2024 to 2034, nearly three times the growth rate of non-STEM occupations at 2.7%. Math anxiety functions as a direct economic barrier, excluding individuals from the fastest-growing and highest-paying employment sector (Bureau of Labor Statistics).
 
 - Up to 2 million STEM jobs in the United States may remain unfilled due to the skills gap. Math anxiety is a stronger predictor of STEM avoidance than mathematical ability and independently predicts lower rates of STEM career selection, even after accounting for performance (Ferdinand et al.).
-
-- 1 in 4 parents cannot assist their children with math homework, and one in ten report feeling anxious when asked to help, perpetuating the intergenerational cycle of math anxiety (Prodigy Education; Malanchini et al.).
 
 - Students with math anxiety often avoid math courses early, missing prerequisites for many careers and majors (Finlayson 109). This avoidance limits future opportunities and creates a cycle where reduced exposure increases both anxiety and skill gaps, leading to further avoidance. As a result, even related fields may seem inaccessible, worsening STEM workforce shortages.
 
@@ -187,6 +183,8 @@ Students who struggle with mathematics should understand that these challenges a
 - Malanchini et al. demonstrated in 2022 that math anxiety is transmitted from parent to child through both genetic and environmental pathways. Math-anxious parents engage in fewer home numeracy practices, model avoidance behavior, and communicate negative attitudes toward math - creating an environment in which children absorb anxiety before they ever encounter formal instruction (Malanchini et al.).
 
 - This finding has profound implications for the language-barrier thesis: if parents avoid math because of jargon-induced anxiety, their children never develop the informal mathematical vocabulary that would serve as a bridge to formal notation. The linguistic barrier becomes hereditary - not because math ability is absent, but because mathematical language is never modeled at home.
+
+- 1 in 4 parents cannot assist their children with math homework, and one in ten report feeling anxious when asked to help, perpetuating the intergenerational cycle of math anxiety (Prodigy Education; Malanchini et al.).
 
 #### Meta-Analytic Evidence: Consistent, Moderate, Negative Effects
 
