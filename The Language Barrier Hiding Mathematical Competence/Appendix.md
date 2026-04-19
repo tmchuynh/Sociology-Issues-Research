@@ -150,7 +150,7 @@ $$
 
 PageRank assumes a "random surfer" who follows links with probability $d \approx 0.85$ and jumps to a random page with probability $1-d$. The Google matrix:
 $$G = dH + \frac{1-d}{n}E$$
-where $E$ is the matrix of all ones, and $n=4$ pages. The PageRank vector $\pi$ satisfies 
+where $E$ is the matrix of all ones, and $n=4$ pages. The PageRank vector $\pi$ satisfies
 $G\pi = \pi$
 
 This is an eigenvector equation with eigenvalue $\lambda = 1$ (Bryan and Leise 572-575). The eigenvector components represent page importance:
@@ -174,9 +174,9 @@ where $u_i$ is player $i$'s utility function. It is foundational for predicting 
 
 **Payoff Matrices**: Used to visualize and calculate the results of simultaneous games (like the Prisoner's Dilemma) for each player based on their choices (Resnik 130-135). Matrix entries represent utilities $u_i(s_1, s_2)$ for each combination of strategies.
 
-**Utility Maximization**: Players assign numerical values (utility) to outcomes, acting to maximize their own expected utility (Binmore 26-28). The expected utility for mixed strategies is computed as 
+**Utility Maximization**: Players assign numerical values (utility) to outcomes, acting to maximize their own expected utility (Binmore 26-28). The expected utility for mixed strategies is computed as
 $$E[u_i] = \sum_{s \in S} p(s) \cdot u_i(s)$$
-where $p(s)$ is the probability of strategy profile $s$ 
+where $p(s)$ is the probability of strategy profile $s$
 
 ### Prisoner's Dilemma
 
@@ -258,7 +258,7 @@ The continuous Fourier Transform is defined as:
 
 $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} \,dt$$
 
-where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain representation (Berry 227-230). The inverse transform reconstructs the original signal: 
+where $f(t)$ is the time-domain signal and $F(\omega)$ is the frequency-domain representation (Berry 227-230). The inverse transform reconstructs the original signal:
 $$f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) e^{i\omega t} \,d\omega$$
 This bidirectional relationship—the Fourier Transform Identity Theorem—guarantees that information is perfectly preserved in both representations (Berry 230-232, 227).
 
@@ -462,7 +462,8 @@ Groups are considered the foundation of abstract algebra because they isolate th
    - _Commutators ( $aba^{-1}b^{-1}$ )_: Used to swap a few specific pieces while leaving the rest of the cube untouched.
    - _Conjugates ( $aba^{-1}$ )_: A "setup move" ( $a$ ), an operation ( $b$ ), and "undoing the setup" ($a^{-1}$).
 
-- **God's Number: Solving Rubik's Cube in 20 Moves**
+- **Solving Rubik's Cube in 20 Moves**
+
   **God's Number**—the maximum moves to solve any of the 43 quintillion states of a Rubik's Cube—is **20** (Half-Turn Metric). This represents the diameter of the Cayley graph of the Rubik's Cube group (Rokicki et al. 645). Proven in July 2010 by Tomas Rokicki, Morley Davidson, John Dethridge, and Herbert Kociemba using 35 CPU-years from Google, the proof combined mathematical group theory with massive computational search (Joyner 258; van Grol 10).
 
   **Lower Bound (n ≥ 20):** The "Superflip" position (all corners correct, all edges flipped) requires exactly 20 moves, proven by Michael Reid in 1995 (Rokicki et al. 647; Joyner 263).
@@ -681,7 +682,6 @@ To prove that two knots are different, merely observing them is insufficient; th
     <figcaption>Table of knots through eight crossings, and most nine crossing knots. Source: <a href="https://graphics.stanford.edu/courses/cs468-02-fall/projects/desanti.pdf">An Introduction to the Theory of Knots by Giovanni De Santi</a>.</figcaption>
 </figure>
 
-
 **Knot Invariants (Mathematical Fingerprints)**: A knot invariant is a number, polynomial, or algebraic structure that stays the same no matter how you twist or deform the knot (Adams 50-55). If two knots have different invariants, they must be different knots—though the converse isn't guaranteed, as some distinct knots can share the same invariant values (Sossinsky 40-45).
 
 - **Crossing Number**: The minimum number of times the string crosses over itself in any diagram of the knot (Adams 30-32). A trefoil has crossing number 3. An unknot has crossing number 0. Computing crossing numbers for complex knots is computationally difficult—the problem is NP-hard (De Santi 10-12).
@@ -747,7 +747,6 @@ Complex Knitting Patterns: More sophisticated stitch patterns create different t
 Knitting patterns can be understood through knot theory concepts like crossing number, primality (whether a pattern can be decomposed into simpler sub-patterns), and amphichirality (whether a pattern is identical to its mirror image) (Matsumoto and Grishanov 115-118). A knitter who "reads" their knitting to identify mistakes is performing topological pattern recognition: they've detected that the linking structure deviates from the intended configuration. When knitters say a pattern "flows" or "fights itself," they're describing whether the topology naturally produces the intended geometry or requires forcing loops into energetically unfavorable configurations (Grishanov et al. 18-20).
 
 ### DNA
-
 
 Human DNA is about 2 meters long but packed into a nucleus only 6 micrometers in diameter—roughly 300,000 times smaller. It's like fitting 40 km of thread into a tennis ball. During cell division, DNA must:
 
@@ -864,10 +863,9 @@ In the above graphical representation,
 | Prior Knowledge        | Not formally used in the calculation. | Explicitly combined with new data.                |
 | Goal                   | Find a single "best" point estimate.  | Find a full distribution of possible values.      |
 
-
 ## Differential Geometry (Geodesics)
 
-The mathematical framework, while expressed through Christoffel symbols and covariant derivatives, describes phenomena everyone experiences intuitively (Jamski 227; Bliss 1). At the heart of this study lies the concept of a geodesic—a remarkable curve that parallel-transports its own tangent vector. To put it simply, a geodesic represents the shortest path between two points on a curved surface, acting as a splendid generalization of the "straight line" in curved spaces (Liu 1; Villanueva 1). Imagine walking along a geodesic; if you continue straight ahead without veering left or right in relation to the surface, you are following this elegant path. 
+The mathematical framework, while expressed through Christoffel symbols and covariant derivatives, describes phenomena everyone experiences intuitively (Jamski 227; Bliss 1). At the heart of this study lies the concept of a geodesic—a remarkable curve that parallel-transports its own tangent vector. To put it simply, a geodesic represents the shortest path between two points on a curved surface, acting as a splendid generalization of the "straight line" in curved spaces (Liu 1; Villanueva 1). Imagine walking along a geodesic; if you continue straight ahead without veering left or right in relation to the surface, you are following this elegant path.
 
 On a flat plane, geodesics align with familiar straight lines, while on a sphere, like our beautiful Earth, they become segments of great circles whose centers coincide with that of the sphere (Jamski 228; Strong and Strong 43). This vibrant interplay of geometry and intuition enriches our understanding of the world around us!
 
@@ -945,6 +943,23 @@ In this model, the chance of each event depends only on the previous event. This
 - Transition Matrix ($P$): A square matrix where the entry $P_{ij}$ represents the probability of moving from state $i$ to state $j$. Each row must sum to 1.
 - Stationary Distribution ($\pi$): A long-term "steady state" where the probability of being in any given state remains constant even as transitions continue. Mathematically, it satisfies $\pi P = \pi$.
 
+## Diffeomorphism
+
+**The Three Requirements**
+
+For a function $f$ between two manifolds to be a diffeomorphism, it must satisfy three conditions:
+
+1. Bijective: It is a perfect 1-to-1 pairing; every point on the first shape maps to exactly one point on the second, and vice versa.
+2. Differentiable ($C^\infty$): The function is smooth. If you move along the first shape, the corresponding movement on the second shape changes smoothly, with no sudden jumps or sharp turns.
+3. Inverse is Differentiable: The "return trip" must also be smooth. This is the crucial part that distinguishes it from a standard smooth map.
+
+**Diffeomorphism vs. Homeomorphism**
+
+While they sound similar, the difference is about the "tools" you are allowed to use:
+
+- Homeomorphism (Topology): Cares about connectivity. As long as you don't tear the object, it's the same. (A square is homeomorphic to a circle).
+- Diffeomorphism (Differential Geometry): Cares about calculus. You need the transition to be smooth. (A square is not diffeomorphic to a circle because of the sharp corners).
+
 ## Ergodicity
 
 ### Russian Roulette
@@ -972,10 +987,9 @@ In an **ergodic** system, the average of a group at one point in time is the sam
 
 ### A Deck of Cards
 
-
 The number of ways to arrange a 52-card deck is $8.06 \times 10^{67}$.
 
-To understand why this number is so large and why a repeat is virtually impossible, we look at the _Fundamental Counting Principle_ (or rule of product) states that if there are $n$ ways to do one thing and $m$ ways to do another, there are $n \times m$ ways to do both. 
+To understand why this number is so large and why a repeat is virtually impossible, we look at the _Fundamental Counting Principle_ (or rule of product) states that if there are $n$ ways to do one thing and $m$ ways to do another, there are $n \times m$ ways to do both.
 
 The Fundamental Counting Principle calculates the total number of outcomes for multiple independent choices by multiplying the number of options for each decision, which is crucial for large-scale combinations where diagrams are impractical.
 
@@ -985,7 +999,6 @@ The Fundamental Counting Principle calculates the total number of outcomes for m
 - Independent Events: The formula works best when choices are independent, meaning the selection in one step does not affect the number of options in another.
 - Formula: Total Outcomes = $M_1 \times M_2 \times M_3 \times \dots \times M_n$.
 - Application: Used extensively in probability and combinatorics to determine total outcomes, such as combinations of food, outfits, or password possibilities
-
 
 To calculate the number of ways to arrange a 52-card deck, we follow the given steps:
 
@@ -1086,23 +1099,6 @@ Initiated by Kenkichi Iwasawa in the 1950s, it connects these algebraic objects 
 - Main Conjecture: Proved by Barry Mazur and Andrew Wiles in 1984, this conjecture bridges algebraic objects and analytic functions, stating that the characteristic ideal of an Iwasawa module is generated by a $p$-adic $L$-function.
 - Iwasawa Main Conjectures: Generalizations of the main conjecture exist for elliptic curves and higher-dimensional varieties, linking Selmer groups to $p$-adic $L$-functions, as highlighted in studies on link to Springer Book on Iwasawa Theory 2012 and research on Elliptic Curves and Iwasawa's µ = 0 Conjecture.
 
-## Diffeomorphism
-
-**The Three Requirements**
-
-For a function $f$ between two manifolds to be a diffeomorphism, it must satisfy three conditions:
-
-1. Bijective: It is a perfect 1-to-1 pairing; every point on the first shape maps to exactly one point on the second, and vice versa.
-2. Differentiable ($C^\infty$): The function is smooth. If you move along the first shape, the corresponding movement on the second shape changes smoothly, with no sudden jumps or sharp turns.
-3. Inverse is Differentiable: The "return trip" must also be smooth. This is the crucial part that distinguishes it from a standard smooth map.
-
-**Diffeomorphism vs. Homeomorphism**
-
-While they sound similar, the difference is about the "tools" you are allowed to use:
-
-- Homeomorphism (Topology): Cares about connectivity. As long as you don't tear the object, it's the same. (A square is homeomorphic to a circle).
-- Diffeomorphism (Differential Geometry): Cares about calculus. You need the transition to be smooth. (A square is not diffeomorphic to a circle because of the sharp corners).
-
 ## Graph Theory
 
 In mathematics, a "graph" is not a plot or chart; rather, it is a collection of points, known as vertices or nodes, connected by lines called edges. Graph theory examines how these points are linked, how one can navigate through networks, and what patterns or structures may arise. It represents the mathematics of connections and networks and is applicable in many aspects of daily life and technology, including social media, transportation, biology, and project management. By utilizing graph theory, we can better understand and optimize the various webs of relationships that connect the world.
@@ -1190,16 +1186,16 @@ Key concepts in combinatorics include factorials, graph theory, and the principl
 The Twelvefold Way is a systematic classification of 12 basic counting problems in combinatorics. It’s like a "cheat sheet" for figuring out how to count the number of ways to put $n$ items into $k$ boxes.
 The 12 variations depend on three simple questions:
 
-   1. Are the items distinct (labeled) or identical?
-   2. Are the boxes distinct (labeled) or identical?
-   3. Are there restrictions on the boxes? (Can they be empty? Must they have at least one item? Or exactly one?)
+1.  Are the items distinct (labeled) or identical?
+2.  Are the boxes distinct (labeled) or identical?
+3.  Are there restrictions on the boxes? (Can they be empty? Must they have at least one item? Or exactly one?)
 
-| Items ($n$) | Boxes ($k$) | Any number per box | $\ge 1$ per box (Surjective) | $\le 1$ per box (Injective) |
-|---|---|---|---|---|
-| Distinct | Distinct | $k^n$ | $k! \cdot S(n, k)$ | $P(k, n)$ |
-| Identical | Distinct | $\displaystyle \binom{n+k-1}{k-1}$ | $\displaystyle \binom{n-1}{k-1}$ | $\displaystyle \binom{k}{n}$ |
-| Distinct | Identical | Bell Numbers (summed) | Stirling ($\displaystyle S_{n,k}$) | $1$ if $n \le k$ |
-| Identical | Identical | Partitions $\displaystyle p_k(n+k)$ | Partitions $\displaystyle p_k(n)$ | $1$ if $n \le k$ |
+| Items ($n$) | Boxes ($k$) | Any number per box                  | $\ge 1$ per box (Surjective)       | $\le 1$ per box (Injective)  |
+| ----------- | ----------- | ----------------------------------- | ---------------------------------- | ---------------------------- |
+| Distinct    | Distinct    | $k^n$                               | $k! \cdot S(n, k)$                 | $P(k, n)$                    |
+| Identical   | Distinct    | $\displaystyle \binom{n+k-1}{k-1}$  | $\displaystyle \binom{n-1}{k-1}$   | $\displaystyle \binom{k}{n}$ |
+| Distinct    | Identical   | Bell Numbers (summed)               | Stirling ($\displaystyle S_{n,k}$) | $1$ if $n \le k$             |
+| Identical   | Identical   | Partitions $\displaystyle p_k(n+k)$ | Partitions $\displaystyle p_k(n)$  | $1$ if $n \le k$             |
 
 Instead of memorizing 12 different formulas, you just identify your scenario:
 
@@ -1253,7 +1249,6 @@ Instead of memorizing 12 different formulas, you just identify your scenario:
 
 ### Lottery Odds
 
-
 1. Standard Jackpot Formula:
 
    For a lottery where you choose $k$ numbers from a pool of $n$, the total number of possible combinations is calculated using the Binomial Coefficient (often called "$n$ choose $k$"):
@@ -1297,13 +1292,14 @@ Instead of memorizing 12 different formulas, you just identify your scenario:
 | **An Average Person Winning an Olympic Medal** (Lifetime) | $\sim 662, 000$                    |
 | **Being Killed by a Vending Machine** (Annually)          | $\sim 112,000,000$                 |
 
-
 ## Dirichlet's Box Principle (The Pigeonhole Principle)
 
-Also known as Dirichlet's box principle or Dirichlet's drawer principle, named after German mathematician Peter Gustav Lejeune Dirichlet (1805-1859). Despite its simplicity, the pigeonhole principle is a fundamental tool in combinatorics and is closely related to Ramsey Theory—both guarantee that certain patterns must appear when a structure is large enough
+Also known as Dirichlet's box principle or Dirichlet's drawer principle, named after German mathematician Peter Gustav Lejeune Dirichlet (1805-1859), who formalized it in 1834, sometimes referring to it as the Schubfachprinzip ("drawer principle"). Despite its simplicity, the pigeonhole principle is a fundamental tool in combinatorics and is closely related to Ramsey Theory—both guarantee that certain patterns must appear when a structure is large enough. The principle guarantees that a situation exists (e.g., at least two boxes share an item), but it does not specify which box contains the items or which items they are.
 
 **The Basic Principle**: If you try to put 11 pigeons into 10 pigeonholes, at least one pigeonhole must contain at least 2 pigeons. More generally, if you have $n$ pigeons and $m$ holes where $n > m$, at least one hole must contain at least $\lceil \frac{n}{m} \rceil$ pigeons (the ceiling function rounds up to the nearest integer).
 
 **The Strong Pigeonhole Principle**: If $n$ items are distributed among $m$ containers, then at least one container must hold at least $\lceil \frac{n}{m} \rceil$ items. For example, if you distribute 100 items into 7 containers, at least one container must hold at least $\lceil \frac{100}{7} \rceil = 15$ items.
 
 The pigeonhole principle proves that coincidences and patterns are sometimes unavoidable mathematical necessities rather than unlikely events. It's a tool for proving existence without construction—you can prove something must exist without finding or identifying it.
+
+The principle proves that a collision exists, but it does not tell you which container holds the items. The principle assumes all items are placed into the containers, but real-world scenarios might involve complexities where items don't fit, acting as "blockages" in a container.
