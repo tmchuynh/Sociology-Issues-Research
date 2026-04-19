@@ -1187,6 +1187,26 @@ Key concepts in combinatorics include factorials, graph theory, and the principl
 - Generating Functions: Using power series to solve counting problems.
 - Inclusion-Exclusion Principle: A technique to compute the size of the union of multiple sets.
 
+The Twelvefold Way is a systematic classification of 12 basic counting problems in combinatorics. It’s like a "cheat sheet" for figuring out how to count the number of ways to put $n$ items into $k$ boxes.
+The 12 variations depend on three simple questions:
+
+   1. Are the items distinct (labeled) or identical?
+   2. Are the boxes distinct (labeled) or identical?
+   3. Are there restrictions on the boxes? (Can they be empty? Must they have at least one item? Or exactly one?)
+
+| Items ($n$) | Boxes ($k$) | Any number per box | $\ge 1$ per box (Surjective) | $\le 1$ per box (Injective) |
+|---|---|---|---|---|
+| Distinct | Distinct | $k^n$ | $k! \cdot S(n, k)$ | $P(k, n)$ |
+| Identical | Distinct | $\displaystyle \binom{n+k-1}{k-1}$ | $\displaystyle \binom{n-1}{k-1}$ | $\displaystyle \binom{k}{n}$ |
+| Distinct | Identical | Bell Numbers (summed) | Stirling ($\displaystyle S_{n,k}$) | $1$ if $n \le k$ |
+| Identical | Identical | Partitions $\displaystyle p_k(n+k)$ | Partitions $\displaystyle p_k(n)$ | $1$ if $n \le k$ |
+
+Instead of memorizing 12 different formulas, you just identify your scenario:
+
+- Distinct items into Distinct boxes ($k^n$): Like assigning $n$ different jobs to $k$ different employees.
+- Distinct items into Identical boxes (Stirling Numbers): Like grouping $n$ different students into $k$ unnamed study groups.
+- Identical items into Identical boxes (Partitions): Like putting $n$ plain coins into $k$ identical piggy banks. This uses the Partition Function, another famous number sequence.
+
 ### Password Creation
 
 1.  Basic (Lowercase only, min 6 characters)
