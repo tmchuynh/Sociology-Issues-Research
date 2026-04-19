@@ -50,7 +50,7 @@ The Hales-Jewett theorem guarantees that for any number of players and board siz
 The theorem proves that if you are playing an $n$-in-a-row game with $c$ players, there is a dimension $H$ so large that a draw is mathematically impossible. In standard 2D $3 \times 3$ Tic-Tac-Toe, a draw is common — the Hales-Jewett number hasn't been reached. There is enough "room" to place $X$'s and $O$'s in a way that blocks every possible line. But if you move that same $3 \times 3$ grid into a high enough dimension (a "hypercube"), one player must eventually complete a line.
 - If you play $3$-in-a-row on a hypercube of high enough dimension, the board becomes so "dense" with potential lines that no matter where you move, you will eventually complete a line or be forced to let your opponent complete one.
 - The "order" (a winning line) is mathematically forced by the size of the board. 
-- The number of winning lines for $n^d$ (dimension $d$) tic-tac-toe is given by $\frac{(n+2)^d - n^d}{2}$.
+- The number of winning lines for $n^d$ (dimension $d$) tic-tac-toe is given by $\displaystyle \frac{(n+2)^d - n^d}{2}$.
 
 While the theorem proves a winner exists, it doesn't tell you how to win. It only proves that the game cannot end in a "Cat's Game" (draw) once the dimensions are high enough. For a $3 \times 3$ board, the dimension required to guarantee a winner is actually quite low (it's proven that 3D $3 \times 3 \times 3$ cannot end in a draw), but for larger boards, the required dimension is unimaginably huge.
 
@@ -107,7 +107,7 @@ While the theorem proves these numbers exist, they grow incredibly fast. For jus
 The "Van der Waerden number" $W(r, k)$ tells you the minimum length of numbers ($N$) needed to guarantee a monochromatic progression of length $k$ using $r$ colors.
 
 - For 2 colors and a 3-term progression, the number is 9.
-- If you color the numbers 1 through 8, you can avoid a 3-term progression. For example: R R B B R R B B.
+- If you color the numbers 1 through 8, you can avoid a 3-term progression. For example: $R~ R~ B~ B~ R~ R~ B~ B$.
 - However, as soon as you add the 9th number, you cannot avoid a progression. If you color 9 Red, you might complete $3, 6, 9$. If you color it Blue, you might complete $1, 5, 9$.
 
 ## Green-Tao Theorem
@@ -155,14 +155,15 @@ Classic Examples:
 
 - **Finite Sequence**: There are exactly 88 narcissistic numbers in base 10.
 - **Upper Bound**: It has been proven that no narcissistic number can have more than 60 digits. This is because for $n > 60$, the sum of the digits ($n \times 9^n$) will always be smaller than the smallest $n$-digit number ($10^{n-1}$).
-- **Largest Number**: The largest base-10 narcissistic number has 39 digits: $115,132,219,018,763,992,565,095,597,973,971,522,401$.
+- **Largest Number**: The largest base-10 narcissistic number has 39 digits: 
+    $$115,132,219,018,763,992,565,095,597,973,971,522,401$$
 - **Mathematical Interest**: While popular in recreational mathematics and programming exercises, famous mathematician G.H. Hardy once dismissed them as "odd facts" that hold little appeal for professional mathematicians.
 
 **Common Narcissistic Numbers (Base 10):**
 
-- **3 Digits**: 153, 370, 371, 407
-- **4 Digits**: 1634, 8208, 9474
-- **5 Digits**: 54748, 92727, 93084
+- **3 Digits**: $153, 370, 371, 407$
+- **4 Digits**: $1634, 8208, 9474$
+- **5 Digits**: $54748, 92727, 93084$
 
 #### Base Changes
 
@@ -171,7 +172,7 @@ Narcissistic numbers exist in every base, but the specific numbers that qualify 
 ##### How it Changes
 
 - Binary (Base 2): Only 0 and 1 are narcissistic. Because every other number is a sum of $1^n$, it quickly becomes impossible for the sum to "catch up" to the value of the binary string.
-- Base 3 (Ternary): Besides the single digits, 17 is narcissistic in base 3. In ternary, 17 is written as $122_3$.
+- Base 3 (Ternary): Besides the single digits, $17$ is narcissistic in base 3. In ternary, $17$ is written as $122_3$.
 - Calculation: $1^3 + 2^3 + 2^3 = 1 + 8 + 8 = 17$.
 - Base 4 (Quaternary): An example is 35, which is written as $203_4$.
 - Calculation: $2^3 + 0^3 + 3^3 = 8 + 0 + 27 = 35$.
@@ -182,11 +183,11 @@ As the base increases, the density and maximum possible size of these numbers ch
 
 | Base | Representative Narcissistic Numbers (Decimal Value)                |
 | ---- | ------------------------------------------------------------------ |
-| 2    | 0, 1                                                               |
-| 3    | 0, 1, 2, 5 ($12_3$), 8 ($22_3$), 17 ($122_3$)                      |
-| 4    | 0, 1, 2, 3, 28 ($130_4$), 29 ($131_4$), 35 ($203_4$), 43 ($223_4$) |
-| 10   | 0-9, 153, 370, 371, 407, 1634, 8208, 9474, ...                     |
-| 16   | 0-F, 156 ($126_{16}$), 1014 ($3F6_{16}$), 1541 ($605_{16}$)        |
+| $2$    | $0$, $1$                                                               |
+| $3$    | $0$, $1$, $2$, $5$ ($12_3$), $8$ ($22_3$), $17$ ($122_3$)                      |
+| $4$    | $0$, $1$, $2$, $3$, $28$ ($130_4$), $29$ ($131_4$), $35$ ($203_4$), $43$ ($223_4$) |
+| $10$   | $0$-$9$, $153$, $370$, $371$, $407$, $1634$, $8208$, $9474$, ...                     |
+| $16$   | $0$-$\text{F}$, $156$ ($126_{16}$), $1014$ ($3\text{F}6_{16}$), $1541$ ($605_{16}$)        |
 
 ##### Why Bases Matter
 
@@ -242,9 +243,9 @@ While 1 is a Kaprekar number in every base, other values change as the base incr
 
 | Base    | Kaprekar Numbers (Shown in Decimal Value) | Examples in Base Representation                                |
 | ------- | ----------------------------------------- | -------------------------------------------------------------- |
-| Base-10 | 1, 9, 45, 55, 99, 297, 703, ...           | $45^2 = 2025 \rightarrow 20+25 = 45$                           |
-| Base-12 | 1, 11, 66, 78, 143, ...                   | $B_{12}^2 = A1_{12} \rightarrow A + 1 = B_{12}$ (Decimal $11$) |
-| Base-16 | 1, 6, 15, 85, 171, 205, 255, ...          | $F_{16}^2 = E1_{16} \rightarrow E + 1 = F_{16}$ (Decimal $15$) |
+| Base-10 | $1, 9, 45, 55, 99, 297, 703,\dots$          | $45^2 = 2025 \rightarrow 20+25 = 45$                           |
+| Base-12 | $1, 11, 66, 78, 143,\dots$                   | $B_{12}^2 = A1_{12} \rightarrow A + 1 = B_{12}$ (Decimal $11$) |
+| Base-16 | $1, 6, 15, 85, 171, 205, 255,\dots$          | $F_{16}^2 = E1_{16} \rightarrow E + 1 = F_{16}$ (Decimal $15$) |
 
 **Key Differences**
 
@@ -312,12 +313,14 @@ There is a construction of Bell numbers that is analogous to Pascal’s triangle
 3. Each subsequent number in a row is the sum of the number to its left and the number above-left of it.
 4. The Bell numbers appear as both the first and last numbers of each row (depending on how you align it).
 
-   1
-   1 2
-   2 3 5
-   5 7 10 15
-   15 20 27 37 52
-   ...
+```
+1
+1 2
+2 3 5
+5 7 10 15
+15 20 27 37 52
+...
+```
 
 For any row $k$, the number that starts the row is $Bk-1$. So the first digit of row 1 is $B1 -1 = B(0)$, the first digit of row 4 is $B(3)$, and the first digit of row 55 will be $B(54)$.
 The numbers in the first column are the Bell numbers
@@ -347,11 +350,12 @@ The second kind (often denoted as $S(n, k)$ or $\left\{ \begin{smallmatrix} n \\
 - **Combinatorial Meaning**: If you have 3 distinct friends and want to put them into 2 groups, $S(3, 2) = 3$.
 - **Recurrence Relation**: To find the next number, you use the previous row:
   $$S(n, k) = k \cdot S(n-1, k) + S(n-1, k-1)$$
-- **Relationship to Bell Numbers**: The sum of an entire row of Stirling numbers of the second kind is the corresponding Bell number ($B_n = \sum_{k=0}^n S(n, k)$).
+- **Relationship to Bell Numbers**: The sum of an entire row of Stirling numbers of the second kind is the corresponding Bell number:
+    $$\displaystyle B_n = \sum_{k=0}^n S(n, k)$$
 
 #### Stirling Numbers of the First Kind
 
-The first kind (denoted as $s(n, k)$ or $\left$) counts the number of ways to arrange $n$ distinct elements into exactly $k$ disjoint cycles.
+The first kind (denoted as $s(n, k)$ or $\left[ \begin{smallmatrix} n \\ k \end{smallmatrix} \right]$) counts the number of ways to arrange $n$ distinct elements into exactly $k$ disjoint cycles.
 
 - **Combinatorial Meaning**: Imagine sitting $n$ people around $k$ identical circular tables so that no table is empty. Because order around a circle matters (but rotation doesn't), these numbers are generally larger than the second kind.
 - **Recurrence Relation**:
