@@ -281,3 +281,57 @@ The first few values of $C_n$ are:
   <img src="../images/Catalan_Numbers_8_Sides.png" alt="Illustration of the number of ways a polygon with 8 sides can be cut">
   <figcaption>The number of ways a polygon with n+2 sides can be cut into n triangles. Source: <a href="https://mathshistory.st-andrews.ac.uk/Extras/Catalan/#polygon">MacTutor</a>.</figcaption>
 </figure>
+
+#### Classic Combinatorial 
+
+- **Dyck Paths**: The number of monotonic lattice paths from $(0,0)$ to $(n,n)$ that never cross the diagonal.
+- **Polygon Triangulation**: The number of ways to divide a convex polygon with $n+2$ sides into $n$ triangles using non-intersecting diagonals.
+- **Correct Parentheses**: The number of ways to correctly pair $n$ sets of open and closed parentheses (e.g., for $n=3$, ((())), (()()), (())(), ()(()), ()()()).
+- **Binary Trees**: The number of distinct rooted binary trees with $n$ internal nodes.
+- **Hands Across a Table**: The number of ways $2n$ people sitting around a circular table can shake hands without crossing arms.
+
+### Bell Numbers
+
+The Bell number, denoted as $B_n$, is a sequence that counts the number of ways to partition a set of $n$ labeled elements into any number of non-empty, non-overlapping subsets. In simpler terms, Bell numbers indicate how many different ways you can group a collection of distinct objects into "buckets."
+
+#### The Sequence
+
+The first few Bell numbers (starting from $B_0$) are:
+$1, 1, 2, 5, 15, 52, 203, 877, 4140, 21147, 115975, \dots$
+
+There isn't a simple formula that can give us $B_n$, but we can find Bell’s numbers in the Bell Triangle or use the following recursive equation to define them:
+
+$$B_{n+1} = \sum_{k=0}^{n} \binom{n}{k} B_k$$
+
+#### Bell Triangle
+
+There is a construction of Bell numbers that is analogous to Pascal’s triangle. Charles Sanders Peirce discovered what is now known as Bell’s triangle fifty years before Eric Temple Bell identified the Bell numbers. Bell's triangle is a simple right triangle that allows us to find all of the Bell numbers in its left-hand column. A popular method for calculating these numbers manually involves building Bell’s triangle (also referred to as Aitken's array). This method operates similarly to Pascal’s triangle but uses different addition rules.
+
+1. Start with 1 on the first row.
+2. Start the next row by copying the last number of the previous row.
+3. Each subsequent number in a row is the sum of the number to its left and the number above-left of it.
+4. The Bell numbers appear as both the first and last numbers of each row (depending on how you align it).
+
+   1
+   1 2
+   2 3 5
+   5 7 10 15
+   15 20 27 37 52
+   ...
+
+For any row $k$, the number that starts the row is $Bk-1$. So the first digit of row 1 is $B1 -1 = B(0)$, the first digit of row 4 is $B(3)$, and the first digit of row 55 will be $B(54)$.
+The numbers in the first column are the Bell numbers
+
+#### Practical Example ($B_3 = 5$)
+
+If you have three distinct items, say $\{A, B, C\}$, there are exactly 5 ways to group them:
+
+1.  **One group**: $\{A, B, C\}$
+2.  **Three ways to have a pair and a single**: $\{A, B\}, \{C\}$ OR $\{A, C\}, \{B\}$ OR $\{B, C\}, \{A\}$
+3.  **Three separate groups**: $\{A\}, \{B\}, \{C\}$
+
+#### Fun Applications
+
+- **Rhyme Schemes**: $B_n$ is the number of possible rhyme schemes for an $n$-line poem. For a 4-line stanza, there are 15 schemes (like AAAA, ABAB, or ABCA).
+- **Prime Factorization**: For "square-free" numbers (products of distinct primes like $30 = 2 \times 3 \times 5$), the number of ways to factor them is the corresponding Bell number ($B_3 = 5$).
+- **Computer Science**: Used in data clustering and analyzing search or sorting algorithms where items are grouped into sets.
