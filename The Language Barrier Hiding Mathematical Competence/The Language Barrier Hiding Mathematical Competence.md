@@ -1314,93 +1314,45 @@ Optimization is the process of finding the best solution to a problem, typically
 
 #### Teach the Language Explicitly
 
-Mathematical vocabulary and notation should be taught as a language, using deliberate scaffolding, practice, and patience similar to learning a foreign language (Sfard 95).
+Mathematical vocabulary and notation ought to be taught in a manner analogous to language acquisition, employing deliberate scaffolding, consistent practice, and patience, similar to the learning of a foreign language (Sfard 95). It is advisable to commence the introduction of concepts using plain language and real-world examples before progressively incorporating formal notation. This methodology proves to be more effective than the expectation that students will absorb notation implicitly (Finlayson 112).
 
-Introduce concepts using plain language and real-world examples before gradually adding formal notation, rather than expecting students to absorb notation implicitly (Finlayson 112). When mathematics is introduced in ways that feel disconnected from real-life applications, lack visual support, or are delivered without adapting to students' backgrounds, anxiety is more likely to arise. By clarifying which elements of presentation and framing contribute most to anxiety, researchers and educators can more effectively target interventions.
+When mathematics is presented in ways that appear disjointed from real-life applications, lack visual support, or fail to consider the diverse backgrounds of students, anxiety levels are likely to rise. By identifying the presentation elements and framing techniques that contribute most significantly to anxiety, researchers and educators can target interventions more effectively.
 
-Teachers should provide tools and supports to help students acquire and use mathematical language confidently. Example scaffolding tools include vocabulary journals for recording new terms and analogies, sentence frames that guide students in explaining mathematical ideas in their own words, and translation exercises that ask students to restate formal notation or definitions in everyday language. These concrete supports help make mathematical language accessible and reduce intimidation. Sample templates teachers can adapt directly for the classroom can look like:
+Educators should model comprehensive analyses of complex symbols, provide word banks for problem-solving, and motivate students to develop glossaries that connect symbols and terms to familiar examples. Such strategies may facilitate students' fluency in mathematical language and alleviate the intimidation associated with new vocabulary.
 
-**Sample Math Vocabulary Journal Entry:**
+Furthermore, introducing examples of authentic mathematical debates or ambiguous problems can stimulate discussions regarding the criteria that render an argument convincing or sufficient. For instance, educators may present two different proofs for the same theorem—one formal and the other intuitive—and encourage students to evaluate the reasoning behind each. By explicitly acknowledging that even experts occasionally debate the validity of arguments, educators can assist students in comprehending that mathematics is a dynamic and evolving discipline. This perspective promotes questioning, interpretation, and refinement of arguments, which are intrinsic to the field.
 
-Term: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_
-
-Definition (in your own words): \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_
-
-Example sentence: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_
-
-Real-life analogy or visual: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_
-
-Symbol(s) used: \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_
-
-Reflection: Where have you seen/used this before? \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_
-
-**Sample Sentence Frames:**
-
-"The term \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_- means \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_. For example, \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_."
-
-"I can use \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_- to solve this problem because \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_."
-
-"In my own words, \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_means \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_."
-
-"An everyday example of \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_- is \_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_**\_."
-
-**Sample Translation Exercise Prompt:** "Restate the following equation or definition in everyday language. Provide a real-world example that shows what it means."
-
-These templates can be copied or adapted for immediate use, giving students consistent structures for engaging with new mathematical language.
-
-Teachers can model step-by-step analysis of complex symbols, provide word banks for problem solving, and encourage students to build glossaries linking symbols and terms to familiar examples. These strategies help students become fluent in mathematical language and reduce intimidation from new vocabulary.
-
-Introduce examples of genuine mathematical disagreements or ambiguous problems, and invite students to discuss what makes an argument convincing or sufficient. For instance, teachers might present two different proofs for the same theorem—one formal and one intuitive—and ask students to evaluate the reasoning in each. By explicitly acknowledging that even experts sometimes debate the validity of arguments, educators can help students see that mathematics is a lively, evolving discipline, and that questioning, interpreting, and refining arguments is central to the field. This approach can demystify mathematics and help students feel more connected to the process of mathematical thinking.
-
-Research indicates that effective interventions include introducing new concepts through plain language before formal notation, integrating visual representations and real-world contexts, and explicitly teaching mathematical vocabulary as part of literacy. Meta-analyses support approaches that combine cognitive support with emotion regulation strategies and gradual exposure to formal notation, showing that these methods reduce math anxiety and improve performance. Incorporating active learning and connecting concepts to students' experiences have also been shown to increase engagement and equitable access.
+This pedagogical approach serves to demystify mathematics and fosters a stronger connection between students and the mathematical thought process. Research indicates that effective interventions involve introducing new concepts through plain language prior to formal notation, integrating visual representations and real-world contexts, and explicitly teaching mathematical vocabulary as a component of literacy. Meta-analyses support methods that synergize cognitive support with emotion regulation strategies and gradual exposure to formal notation, demonstrating that these approaches can reduce mathematics anxiety and enhance performance. Additionally, incorporating active learning and linking concepts to the experiences of students has been shown to increase engagement and ensure equitable access to mathematical education.
 
 #### Redesign Curricula Around Conceptual Bridges
 
-Curricula should explicitly connect intuitive, everyday reasoning to formal mathematical representation, showing students that the concepts they use informally are the same as those behind formal terms (Castillo et al.).
+Effective curricula must establish a clear connection between intuitive, everyday reasoning and formal mathematical representations. This pedagogical approach empowers students to recognize that the informal concepts they frequently employ serve as the foundation for more sophisticated mathematical expressions (Castillo et al.). Educators have an obligation to utilize jargon as a convenient shorthand for those with prior experience while consciously avoiding it as a barrier to entry for novices (Pimm 76). Clear communication is paramount in mathematics education; therefore, introducing concepts through relatable real-world analogies prior to presenting their formal definitions is essential for enhancing comprehension.
 
-Jargon should be a shorthand for those familiar with it, not a barrier for newcomers (Pimm 76). Communicators should take responsibility for clarity. If a mathematical concept can be explained with a real-world analogy, it should be introduced that way before presenting the formal definition.
+Moreover, implementing engaging teaching strategies, such as active learning, gamification, and collaborative problem-solving, is crucial for mitigating the intimidation often associated with mathematical notation, as emphasized by Castillo et al.'s systematic review. Strong and Strong assert that employing physical models—such as strings stretched across globe surfaces to illustrate geodesics—considerably deepens students' understanding of concepts related to Earth's scale and size, transcending mere equations (43-45). Such hands-on experiences enable students who may encounter difficulties with formal calculus to effectively grasp and predict geodesic paths, thereby reinforcing the importance of conceptual understanding over symbolic fluency.
 
-Active learning, gamification, and collaborative problem-solving reduce intimidation related to notation, as documented by Castillo et al.'s systematic review. Interventions should include emotional regulation strategies such as mindfulness, reframing, and anxiety-reduction techniques, alongside content instruction, since the barrier is both emotional and linguistic (Weir).
-
-- Guided body scans, where students sit quietly and notice areas of tension, can help bring awareness to stress and reset focus.
-- Mindful counting or describing classroom objects can ground students in the present moment.
-- Simple reframing exercises include having students write down a negative math thought and rewrite it as a positive or neutral statement, or sharing brief stories about overcoming learning difficulties.
-- Even one or two minutes of these structured activities can help reduce anxiety and prepare students emotionally for mathematical thinking.
-- Activities like journaling about challenges, guided breathing, and sharing coping strategies in small groups can normalize anxiety and build self-awareness, making emotional support a regular part of math instruction.
-
-Strong and Strong demonstrate that physical models of geodesics—such as string stretched on globe surfaces—help students grasp the size and scale of Earth far more effectively than equations alone (43-45). Students who struggle with the formal calculus of variations can still understand and predict geodesic paths through hands-on manipulation, again illustrating the separation between conceptual understanding and symbolic fluency.
-
-70% of Americans believe math education should focus more on real-world applications, further confirming that the public itself recognizes the disconnect between formal math instruction and the intuitive mathematical reasoning they already use (SWNS). Normalize confusion with mathematical language. Make it clear that difficulty with notation is common, expected, and not a reflection of intelligence (Al-Naim and Mefi 880).
+Furthermore, a survey indicates that 70% of Americans believe that mathematics education should prioritize real-world applications, highlighting a significant gap between formal mathematics instruction and the intuitive reasoning that many individuals already possess (SWNS). It is imperative to normalize any confusion surrounding mathematical language and to communicate that difficulties with notation are common and do not reflect a lack of intelligence (Al-Naim and Mefi 880).
 
 ### Students
 
-While teachers and institutions are essential in addressing the language barrier in mathematics, students also have agency. By actively applying strategies to connect informal understanding with mathematical language, students can help shift prevailing narratives.
+Although teachers and educational institutions play a crucial role in navigating the language barrier that often arises in mathematics, it is important to recognize that students also possess agency in this area. By taking initiative and employing various strategies, students can actively bridge their informal understanding of mathematical concepts with the formal language used in the subject. This can involve using everyday language to articulate their thought processes, participating in collaborative discussions with peers, or utilizing visual aids and manipulatives to enhance comprehension. By doing so, students not only strengthen their own learning but also contribute to changing the prevailing narratives about language in mathematics, allowing for a more inclusive and accessible approach to the subject.
 
 #### Change the Cultural Narrative
 
-- Stop using the phrase "I am not a math person." Adopt a mindset that recognizes mathematical ability is shaped by experience, language, and opportunity, not innate talent. Research shows that the real barriers are linguistic and emotional, not cognitive (Tobias 68). When you face a challenge, remember it is a normal part of learning a new language, not a sign of inability.
-
-- Challenge gendered and racialized narratives about who "belongs" in mathematics. Recognize that these are social constructs that can be changed. Support peers who question their place in math, and seek out role models and stories that reflect diversity in mathematical achievement (Prodigy Education).
+Stop saying, "I am not a math person." Embrace the mindset that mathematical ability is shaped by experience, language, and opportunity, rather than being tied to innate talent. Research shows that the main barriers to learning math are linguistic and emotional, not cognitive (Tobias 68). When you face a challenge, view it as a natural part of learning a new language, not a reflection of your abilities. Challenge the gendered and racial narratives that dictate who “belongs” in mathematics, recognizing them as social constructs that can change. Support your peers who doubt their place in math, and seek out diverse role models whose achievements celebrate the beauty of mathematics (Prodigy Education).
 
 #### Demand Clarity from Mathematicians and Educators - and Be Active in Your Own Education
 
-- When learning new concepts, ask for explanations in plain language and real-world terms. Request analogies or everyday examples to clarify abstract ideas. If a term or notation is confusing, treat it like an unfamiliar word in a foreign language - ask for a translation or use context to understand it.
+When learning new concepts, ask for explanations in plain language and real-world terms. Request analogies or everyday examples to clarify abstract ideas. If a term or notation confuses you, treat it like an unfamiliar word in a foreign language: seek a translation or rely on context to understand it. Teach new concepts to a peer using your own words to reinforce your understanding and pinpoint where language or notation may pose real obstacles. Use analogies from your own experiences to reframe abstract ideas and share them in class or study groups. Encourage others to do the same and foster a culture that values personal connections to math.
 
-- Teach new concepts to a peer in your own words. This reinforces your understanding and helps identify where language or notation may be the real obstacle.
-
-- Use analogies from your experiences to reframe abstract ideas, and share them in class or study groups. Encourage others to do the same to build a culture that values personal connections to math.
-
-- Join or form study groups focused on translating formal problems into everyday scenarios before addressing them symbolically. Practice restating formal mathematical problems in plain language as a group.
-
-- Maintain a personal "math vocabulary" notebook. For each new symbol or term, record its definition and a concrete example or analogy from your life. Review and update it regularly to build fluency.
-
-- These steps empower students to take ownership of learning mathematical language, transforming confusion into curiosity and encouraging active engagement.
+Consider joining or forming study groups that focus on translating formal problems into everyday scenarios before addressing them symbolically. Practice rephrasing formal mathematical problems in plain language as a group. Additionally, maintain a personal "math vocabulary" notebook. For each new symbol or term, record its definition along with a concrete example or analogy from your life. Review and update this notebook regularly to build fluency. These steps will empower you to take ownership of learning mathematical language, transforming confusion into curiosity and encouraging active engagement.
 
 ---
 
 ## The Bottom Line
 
-The evidence is consistent and robust: from Sheila Tobias's foundational work in 1978 to recent peer-reviewed studies, and from neuroimaging of math-anxious individuals to research on Brazilian street children, the findings converge. Most individuals who perceive themselves as "bad at math" do not lack mathematical ability; rather, they lack fluency in the language of mathematics. Everyday activities such as reading a clock, planning an outfit, navigating social networks, understanding flight paths, or recognizing the similarity between a donut and a coffee mug all demonstrate engagement with mathematical concepts. The distinction lies in vocabulary, not in conceptual understanding (D'Ambrosio 44; Nunes et al. 28). Language barriers can be addressed, whereas cognitive deficits present greater challenges. Effective teaching strategies exist for language acquisition, vocabulary scaffolding, and bridging informal and formal mathematical understanding. The central issue is whether institutions will shift from viewing math anxiety as a deficit in ability to recognizing it as a consequence of exclusion by jargon. The high prevalence of math anxiety reflects shortcomings in instructional approaches rather than individual failure. Recognizing existing mathematical competence is the first step toward building confidence and overcoming future challenges.
+The evidence is clear and compelling: from Sheila Tobias's foundational work in 1978 to recent peer-reviewed studies, and from neuroimaging of math-anxious individuals to research on Brazilian street children, the findings align. Most people who consider themselves "bad at math" do not actually lack mathematical ability; rather, they lack fluency in the language of mathematics. Everyday activities—such as reading a clock, planning an outfit, navigating social networks, understanding flight paths, or recognizing the similarity between a donut and a coffee mug—demonstrate engagement with mathematical concepts. The key distinction lies in vocabulary, not in conceptual understanding (D'Ambrosio 44; Nunes et al. 28). 
+
+While language barriers can be addressed, cognitive deficits present greater challenges. Effective teaching strategies are available for language acquisition, vocabulary scaffolding, and bridging informal and formal mathematical understanding. The central issue is whether institutions will move away from viewing math anxiety as a deficit in ability and towards recognizing it as a result of exclusion due to jargon. The high prevalence of math anxiety is more indicative of shortcomings in instructional approaches than of individual failure. Acknowledging existing mathematical competence is the first step toward building confidence and overcoming future challenges.
 
 **As an educator**, you play a vital role in addressing this issue. Before your next lesson or syllabus update, review how you use mathematical language in your classroom and materials. Consider introducing terms with real-world examples and clarifying jargon before students encounter it. Aim to make one intentional change in your presentation, such as sharing an analogy, clarifying terminology, or encouraging students to identify unclear language. These actions help make mathematics accessible to all students.
 
@@ -1436,6 +1388,8 @@ To continue building your confidence, seek out resources that present mathematic
 
 "Computer Algorithms for Solving Rubik's Cube." Cubing History, <https://www.cubinghistory.com/3x3/3x3ComputerAlgorithms>. Accessed 11 Apr. 2026.
 
+"Bell’S Numbers and the Bell Triangle." Statistics How To, www.statisticshowto.com/bells-numbers-bell-triangle/. Accessed 18 Apr. 2026.
+
 "God's Number Is 20." Cube20.org, <https://www.cube20.org>. Accessed 11 Apr. 2026.
 
 "God's Number." Ruwix, <https://ruwix.com/the-rubiks-cube/gods-number/>. Accessed 17 Apr. 2026.
@@ -1445,6 +1399,8 @@ To continue building your confidence, seek out resources that present mathematic
 "Kociemba's Two-Phase Algorithm." IIT Kanpur Computer Science, <https://cse.iitk.ac.in/users/cs365/2015/_submissions/anurag/report.pdf>. Accessed 17 Apr. 2026.
 
 "Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents." Cognitive Therapy and Research, vol. 45, no. 5, 2021, pp. 1001-1011. <https://doi.org/10.1007/s10608-023-10390-9>
+
+"Mr. Bell and Bell Numbers." John D. Cook Consulting, 16 Apr. 2025, www.johndcook.com/blog/2025/04/16/bell-numbers-2/#:~:text=For%20example%2C%20the%20nth%20Bell,Related%20posts. Accessed 18 Apr. 2026.
 
 "The secret language of peers: How peer behaviours signal mindset and influence classroom experiences." Psychology of Education Review, 2024. <https://doi.org/10.1080/02667363.2024.12590930>
 
@@ -1629,6 +1585,9 @@ Grishanov, Sergei, et al. "Topological Approach to Knitted Fabrics." arXiv, 2024
 Grobman, Steve. "Quantum Computing's Cyber-Threat to National Security." PRISM, vol. 9, no. 1, 2020, pp. 52–67. JSTOR, <https://www.jstor.org/stable/26940159>. Accessed 11 Apr. 2026.
 
 Guggenheimer, H. "Systems of Linear Differential Equations by Laplace Transform." The College Mathematics Journal, vol. 23, no. 3, 1992, pp. 196–202. JSTOR, <https://doi.org/10.2307/2686296>. Accessed 16 Apr. 2026.
+
+Guichard, D. Combinatorics and Graph Theory. Retrieved from <https://www.whitman.edu/mathematics/cgt_online/book/section01.04.html> on February 4, 2018
+Weisstein, Eric W. “Bell Triangle.” From MathWorld–A Wolfram Web Resource. <http://mathworld.wolfram.com/BellTriangle.html>
 
 Halsted, George Bruce. "Gauss and the Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 11, 1900, pp. 247–52. JSTOR, <https://doi.org/10.2307/2968396>. Accessed 16 Apr. 2026.
 
