@@ -131,6 +131,67 @@ While the theorem proves these sequences exist for any length, finding actual se
 - Current Record: As of September 2019, the longest known arithmetic progression of primes has a length of 27.
 
 ## Different Types of Numbers
+
+### Narcissistic Numbers
+
+A narcissistic number (also known as an Armstrong number or a plus perfect number) is an $n$-digit integer that is exactly equal to the sum of its own digits each raised to the $n$-th power. They are essentially "full of themselves," returning to their original value after this specific mathematical operation.
+
+#### How They Work
+
+To determine if a number is narcissistic, follow these steps:
+
+1.  Count the digits in the number ($n$).
+2.  Raise each digit to the $n$-th power.
+3.  Sum these results. If the total equals the original number, it is narcissistic.
+
+Classic Examples:
+
+- **Single digits (0–9)**: All are narcissistic because any digit $d$ raised to the first power ($d^1$) is simply $d$.
+- **153 (3 digits)**: $1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153$.
+- **370 (3 digits)**: $3^3 + 7^3 + 0^3 = 27 + 343 + 0 = 370$.
+- **1634 (4 digits)**: $1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634$.
+
+#### Key Facts and Limitations
+
+- **Finite Sequence**: There are exactly 88 narcissistic numbers in base 10.
+- **Upper Bound**: It has been proven that no narcissistic number can have more than 60 digits. This is because for $n > 60$, the sum of the digits ($n \times 9^n$) will always be smaller than the smallest $n$-digit number ($10^{n-1}$).
+- **Largest Number**: The largest base-10 narcissistic number has 39 digits: $115,132,219,018,763,992,565,095,597,973,971,522,401$.
+- **Mathematical Interest**: While popular in recreational mathematics and programming exercises, famous mathematician G.H. Hardy once dismissed them as "odd facts" that hold little appeal for professional mathematicians.
+
+**Common Narcissistic Numbers (Base 10):**
+
+- **3 Digits**: 153, 370, 371, 407
+- **4 Digits**: 1634, 8208, 9474
+- **5 Digits**: 54748, 92727, 93084
+
+#### Base Changes
+
+Narcissistic numbers exist in every base, but the specific numbers that qualify change because the digit values and the power (the number of digits) are tied to the base system.
+
+##### How it Changes
+
+- Binary (Base 2): Only 0 and 1 are narcissistic. Because every other number is a sum of $1^n$, it quickly becomes impossible for the sum to "catch up" to the value of the binary string.
+- Base 3 (Ternary): Besides the single digits, 17 is narcissistic in base 3. In ternary, 17 is written as $122_3$.
+- Calculation: $1^3 + 2^3 + 2^3 = 1 + 8 + 8 = 17$.
+- Base 4 (Quaternary): An example is 35, which is written as $203_4$.
+- Calculation: $2^3 + 0^3 + 3^3 = 8 + 0 + 27 = 35$.
+
+##### Comparison of Bases
+
+As the base increases, the density and maximum possible size of these numbers change.
+
+| Base | Representative Narcissistic Numbers (Decimal Value)                |
+| ---- | ------------------------------------------------------------------ |
+| 2    | 0, 1                                                               |
+| 3    | 0, 1, 2, 5 ($12_3$), 8 ($22_3$), 17 ($122_3$)                      |
+| 4    | 0, 1, 2, 3, 28 ($130_4$), 29 ($131_4$), 35 ($203_4$), 43 ($223_4$) |
+| 10   | 0-9, 153, 370, 371, 407, 1634, 8208, 9474, ...                     |
+| 16   | 0-F, 156 ($126_{16}$), 1014 ($3F6_{16}$), 1541 ($605_{16}$)        |
+
+##### Why Bases Matter
+
+In any base $b$, a number with $k$ digits can be at most $k \cdot (b-1)^k$. As $k$ grows, the value of the number ($b^{k-1}$) eventually grows much faster than this sum. This means every base has a finite number of narcissistic numbers. For example, while base 10 has exactly 88, a larger base like hexadecimal (base 16) has many more, but still a limited total.
+
 ### Kaprekar numbers
 
 A Kaprekar number is a natural number with a specific "split-square" property: when you square the number, you can split the result into two parts that, when added together, return the original number. For example, $45^2 = 2025$, and $20 + 25 = 45$. They are named after the Indian recreational mathematician D.R. Kaprekar, who first described them in 1980.
