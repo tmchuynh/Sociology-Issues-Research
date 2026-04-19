@@ -131,6 +131,66 @@ While the theorem proves these sequences exist for any length, finding actual se
 - Current Record: As of September 2019, the longest known arithmetic progression of primes has a length of 27.
 
 ## Different Types of Numbers
+### Kaprekar numbers
+
+A Kaprekar number is a natural number with a specific "split-square" property: when you square the number, you can split the result into two parts that, when added together, return the original number. For example, $45^2 = 2025$, and $20 + 25 = 45$. They are named after the Indian recreational mathematician D.R. Kaprekar, who first described them in 1980.
+
+A $k$-digit number $n$ is a Kaprekar number if $n^2$ can be split into a right part of $k$ digits and a left part such that their sum is $n$.
+
+Some numbers can have a leading zero in the right part, such as $99^2 = 9801 \rightarrow 98 + 01 = 99$.
+
+Formally, a $n$-Kaprekar number $k \geq 1$ (for $n = 1, 2, \dots$ ) satisfies the pair of equations:
+
+$$k=q+r, \qquad k^2 = q \times 10^n + r$$
+
+where $q \geq 1$ and $0 \leq r \le 10^n$
+
+#### How to Identify a Kaprekar Number
+
+To check if a number $k$ with $n$ digits is a Kaprekar number:
+
+1.  Square the number: Calculate $k^2$.
+2.  Split the square: Divide $k^2$ into two parts ($q$ and $r$), where the right part ($r$) has exactly $n$ digits.
+3.  Sum the parts: Add $q + r$. If the sum equals $k$, it is a Kaprekar number.
+
+**Example**:
+
+- $9$: $9^2 = 81 \rightarrow 8 + 1 = 9$
+- $45$: $45^2 = 2025 \rightarrow 20 + 25 = 45$
+- $297$: $297^2 = 88209 \rightarrow 88 + 209 = 297$
+- $703$: $703^2 = 494209 \rightarrow 494 + 209 = 703$
+- $4879$: $4879^2 = 23804641 \rightarrow 238 + 4641 = 4879$
+- $538461$: $538461^2 = 289940248521 \rightarrow 289940 + 248521 = 538461$
+
+**First few Kaprekar numbers (Base 10)**:
+$1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879\dots$
+
+#### Common Properties
+
+- **Pairs to Powers of 10**: If an $n$-digit number $k$ is a Kaprekar number, then $10^n - k$ is often also a Kaprekar number (e.g., $45 + 55 = 100$).
+- **Nines Pattern**: All numbers consisting only of the digit 9 (like 9, 99, 999) are Kaprekar numbers.
+- **Non-Zeros**: By convention, the right part ($r$) of the split cannot be zero, which excludes powers of 10 like 10 or 100 from being Kaprekar numbers.
+
+#### Kaprekar's Constant (A Common Confusion)
+
+While related to the same mathematician, the Kaprekar number is different from Kaprekar's Constant (6174), which relates to a routine of rearranging and subtracting digits of 4-digit numbers. Kaprekar's Constant is the "fixed point" you reach when you repeatedly subtract the smallest arrangement of a 4-digit number's digits from its largest arrangement (e.g., $8532 - 2358 = 6174$).
+
+#### Comparison of Kaprekar Numbers by Base
+
+While 1 is a Kaprekar number in every base, other values change as the base increases.
+
+| Base    | Kaprekar Numbers (Shown in Decimal Value) | Examples in Base Representation                                |
+| ------- | ----------------------------------------- | -------------------------------------------------------------- |
+| Base-10 | 1, 9, 45, 55, 99, 297, 703, ...           | $45^2 = 2025 \rightarrow 20+25 = 45$                           |
+| Base-12 | 1, 11, 66, 78, 143, ...                   | $B_{12}^2 = A1_{12} \rightarrow A + 1 = B_{12}$ (Decimal $11$) |
+| Base-16 | 1, 6, 15, 85, 171, 205, 255, ...          | $F_{16}^2 = E1_{16} \rightarrow E + 1 = F_{16}$ (Decimal $15$) |
+
+**Key Differences**
+
+- The "Nines" Rule: In any base $b$, the value $b-1$ is always a Kaprekar number (e.g., 9 in base-10, B in base-12, and F in base-16).
+- Number Density: Some bases have many more Kaprekar numbers than others within the same range. For instance, there are more Kaprekar numbers below 500 in base-16 than in base-12.
+- Unitary Divisors: Mathematically, $n$-digit Kaprekar numbers in base $b$ correspond to the unitary divisors of $b^n - 1$, which naturally vary as the base changes.
+
 ### Catalan numbers
 
 The Catalan numbers: $1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845, \dots$, named after Eugéne Charles Catalan (1814--1894), arise in a number of problems in combinatorics.
