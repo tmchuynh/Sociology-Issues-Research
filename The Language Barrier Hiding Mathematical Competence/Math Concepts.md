@@ -109,3 +109,24 @@ The "Van der Waerden number" $W(r, k)$ tells you the minimum length of numbers (
 - For 2 colors and a 3-term progression, the number is 9.
 - If you color the numbers 1 through 8, you can avoid a 3-term progression. For example: R R B B R R B B.
 - However, as soon as you add the 9th number, you cannot avoid a progression. If you color 9 Red, you might complete $3, 6, 9$. If you color it Blue, you might complete $1, 5, 9$.
+
+## Green-Tao Theorem
+
+The Green-Tao Theorem states that the set of prime numbers contains arbitrarily long arithmetic progressions.  
+In simpler terms, it means you can find sequences of prime numbers that are evenly spaced (like $5, 11, 17, 23, 29$, where each number is exactly $6$ apart) and that these sequences can be as long as you want.
+
+**Key Aspects of the Theorem**
+
+- Arbitrary Length: For any number $k$, there exists a sequence of $k$ prime numbers in an arithmetic progression.
+- The Challenge of Primes: Most similar theorems (like Szemerédi's theorem) require a set of numbers to be "thick" or "dense" within the integers. Because prime numbers become extremely rare as they get larger, they have a "density" of zero, making this incredibly difficult to prove.
+- Transference Principle: Ben Green and Terry Tao (the “Mozart of Math”) (who was awarded the Fields Medal in 2006 for this and other work) proved it by showing that primes, while rare, behave like a "dense" subset of a larger "pseudorandom" set of numbers.
+- Infinitude: The theorem doesn't just say one such sequence exists for each length; it implies there are infinitely many such progressions for any given length.
+
+**Record-Breaking Examples**
+
+While the theorem proves these sequences exist for any length, finding actual sequences manually is computationally difficult because the common differences become massive.
+
+- Length 5: $5, 11, 17, 23, 29$ (difference of $6$).
+- Length 10: $199, 409, 619, 829, 1039, 1249, 1459, 1669, 1879, 2089$ (difference of $210$).
+- Current Record: As of September 2019, the longest known arithmetic progression of primes has a length of 27.
+
