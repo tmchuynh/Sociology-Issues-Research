@@ -335,3 +335,38 @@ If you have three distinct items, say $\{A, B, C\}$, there are exactly 5 ways to
 - **Rhyme Schemes**: $B_n$ is the number of possible rhyme schemes for an $n$-line poem. For a 4-line stanza, there are 15 schemes (like AAAA, ABAB, or ABCA).
 - **Prime Factorization**: For "square-free" numbers (products of distinct primes like $30 = 2 \times 3 \times 5$), the number of ways to factor them is the corresponding Bell number ($B_3 = 5$).
 - **Computer Science**: Used in data clustering and analyzing search or sorting algorithms where items are grouped into sets.
+
+### Stirling numbers
+
+Stirling numbers are mathematical sequences used to count ways to group or arrange sets. They come in two distinct types: the first kind, which focuses on circular arrangements (cycles), and the second kind, which focuses on grouping items into subsets.
+
+#### Stirling Numbers of the Second Kind
+
+The second kind (often denoted as $S(n, k)$ or $\left\{ \begin{smallmatrix} n \\ k \end{smallmatrix} \right\}$) counts the number of ways to partition a set of $n$ distinct elements into exactly $k$ non-empty, unlabeled subsets.
+
+- **Combinatorial Meaning**: If you have 3 distinct friends and want to put them into 2 groups, $S(3, 2) = 3$.
+- **Recurrence Relation**: To find the next number, you use the previous row:
+  $$S(n, k) = k \cdot S(n-1, k) + S(n-1, k-1)$$
+- **Relationship to Bell Numbers**: The sum of an entire row of Stirling numbers of the second kind is the corresponding Bell number ($B_n = \sum_{k=0}^n S(n, k)$).
+
+#### Stirling Numbers of the First Kind
+
+The first kind (denoted as $s(n, k)$ or $\left$) counts the number of ways to arrange $n$ distinct elements into exactly $k$ disjoint cycles.
+
+- **Combinatorial Meaning**: Imagine sitting $n$ people around $k$ identical circular tables so that no table is empty. Because order around a circle matters (but rotation doesn't), these numbers are generally larger than the second kind.
+- **Recurrence Relation**:
+  $$c(n, k) = (n-1) \cdot c(n-1, k) + c(n-1, k-1)$$
+- **Signed vs. Unsigned**: In pure algebra, these are often "signed" (negative or positive), but in counting, we typically use the unsigned version ($c(n, k)$), which is always positive.
+
+#### Comparison Table ($n=4$)
+
+| $k$ | 2nd Kind $S(4, k)$ (Subsets) | 1st Kind $c(4, k)$ (Cycles) |
+| --- | ---------------------------- | --------------------------- |
+| 1   | 1 (one big group)            | 6 (one big circle)          |
+| 2   | 7 (ways to make 2 groups)    | 11 (ways to make 2 circles) |
+| 3   | 6 (ways to make 3 groups)    | 6 (ways to make 3 circles)  |
+| 4   | 1 (all separate)             | 1 (all separate)            |
+
+#### Key Mathematical Use
+
+Stirling numbers act as a bridge between different types of polynomials. They allow mathematicians to convert "falling factorials" (like $x(x-1)(x-2)$) into standard powers (like $x^3$) and vice versa. Because of this, the two types of Stirling numbers are actually inverses of each other when written as matrices.
