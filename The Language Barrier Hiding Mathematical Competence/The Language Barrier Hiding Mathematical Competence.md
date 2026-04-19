@@ -66,7 +66,7 @@ Students who struggle with mathematics should understand that these challenges a
 
 ### Physical, Psychological, and Physiological Harm
 
-- The phrase "I am not a math person" has become a culturally accepted identity label, reinforced by prevailing social norms, gender expectations, and classroom experiences (Weir). 
+- The phrase "I am not a math person" has become a culturally accepted identity label, reinforced by prevailing social norms, gender expectations, and classroom experiences (Weir).
 
 - Hersh and John-Steiner explore the emotional aspects of engaging with mathematics, highlighting that feelings toward the subject—such as love, hate, anxiety, and confidence—are learned rather than innate. These feelings are influenced by the social context and the quality of instruction (Hersh and John-Steiner). Schwartz investigated whether mathematical competence is an inherent trait and concluded that it is not. Instead, mathematical ability develops through experience, instruction, and practice. This finding is crucial: if competence is learned rather than innate, then difficulties in mathematics indicate insufficient learning environments (including language barriers) rather than fixed cognitive limitations (Schwartz 230-237).
 
@@ -78,13 +78,12 @@ Students who struggle with mathematics should understand that these challenges a
 
 - In a landmark 2012 study, Lyons and Beilock used fMRI scans to demonstrate that for highly math-anxious individuals, the anticipation of performing mathematics activates the brain's pain network, the same regions associated with physical pain. The mathematical tasks themselves did not activate these regions; rather, the fear of mathematical language and symbols did (Lyons and Beilock). This finding indicates that the physiological response is triggered by the presentation of mathematics—specifically, symbols, jargon, and formalism—rather than by the underlying reasoning. The body responds to the language, not the logic.
 
-- In their 2019 review, Carey et al. synthesized decades of research into a unified framework for understanding math anxiety. They identified three interconnected channels through which math anxiety operates: cognitive, affective, and motivational. 
-
+- In their 2019 review, Carey et al. synthesized decades of research into a unified framework for understanding math anxiety. They identified three interconnected channels through which math anxiety operates: cognitive, affective, and motivational.
   1. **Cognitive**: This channel involves working memory impairment when processing mathematical notation.
   2. **Affective**: This aspect relates to the emotional distress triggered by math-related situations.
   3. **Motivational**: This includes the avoidance of math courses, careers, and related tasks.
 
-    Importantly, the authors discovered that these channels are not independent; they create a self-reinforcing cycle where each channel amplifies the effects of the others. This multi-channel model helps explain why math anxiety is so persistent and why purely cognitive interventions—such as additional tutoring or more drills—often fail. These interventions typically address only the cognitive aspect while neglecting the affective and motivational channels, which are heavily influenced by language and presentation (Carey et al.).
+  Importantly, the authors discovered that these channels are not independent; they create a self-reinforcing cycle where each channel amplifies the effects of the others. This multi-channel model helps explain why math anxiety is so persistent and why purely cognitive interventions—such as additional tutoring or more drills—often fail. These interventions typically address only the cognitive aspect while neglecting the affective and motivational channels, which are heavily influenced by language and presentation (Carey et al.).
 
 - Souviney's early work on cognitive competence and mathematical development established that children develop mathematical reasoning naturally through everyday experiences, but formal mathematical language must be explicitly taught. The disconnect between informal competence and formal performance is not a deficit - it is a translation gap (Souviney 218-222).
 
@@ -102,7 +101,7 @@ Students who struggle with mathematics should understand that these challenges a
 
 - Millions of people who claim to be "bad at math" successfully navigate topological problems daily—tying shoes, braiding hair, wrapping gifts, untangling jewelry, securing loads with rope, knitting, crocheting, and countless other activities that require sophisticated topological competence (Matsumoto and Grishanov 120-122). The disconnect between this demonstrated competence and mathematical self-concept exemplifies how linguistic barriers to formal mathematics obscure genuine mathematical ability operating in embodied, spatial, and tactile domains (Sossinsky 210-215).
 
-- Parents negotiating bedtime with children, shoppers timing purchases for sales, employees deciding how hard to work when monitoring is imperfect—all demonstrate intuitive understanding of strategic equilibria, dominant strategies, and repeated game dynamics (Rubinstein 130-140). 
+- Parents negotiating bedtime with children, shoppers timing purchases for sales, employees deciding how hard to work when monitoring is imperfect—all demonstrate intuitive understanding of strategic equilibria, dominant strategies, and repeated game dynamics (Rubinstein 130-140).
 
 - People navigate topological concepts constantly—realizing that untangling headphones requires understanding how the cord is knotted—all without invoking Euler characteristics or homeomorphisms. A person untangling jewelry chains demonstrates sophisticated topological reasoning (knot theory): they visualize how loops connect, identify where chains are genuinely knotted versus merely tangled, and perform specific manipulations to reduce topological complexity. This is expert-level topology applied in real-time, lacking only the formal vocabulary to describe what's being done. The mathematical competence exists; the technical language that would let them communicate with professional topologists does not.
 
@@ -158,7 +157,7 @@ Students who struggle with mathematics should understand that these challenges a
 
 #### Intergenerational Transmission of Math Anxiety
 
-- Malanchini et al. demonstrated in 2022 that math anxiety is transmitted from parent to child through both genetic and environmental pathways. Math-anxious parents engage in fewer home numeracy practices, model avoidance behavior, and communicate negative attitudes toward math - creating an environment in which children absorb anxiety before they ever encounter formal instruction (Malanchini et al.). 
+- Malanchini et al. demonstrated in 2022 that math anxiety is transmitted from parent to child through both genetic and environmental pathways. Math-anxious parents engage in fewer home numeracy practices, model avoidance behavior, and communicate negative attitudes toward math - creating an environment in which children absorb anxiety before they ever encounter formal instruction (Malanchini et al.).
 
 - Math anxiety is intergenerational: Malanchini et al. found that parents' math anxiety is significantly associated with their children's, transmitted through both genetic and environmental pathways - including avoidance behaviors, negative messaging about math, and reduced home numeracy practices (Malanchini et al.).
 
@@ -275,7 +274,9 @@ An integral in mathematics represents the accumulation of quantities, such as th
 
 ### Laplace Transform
 
-The Laplace transform is an integral transform that converts a function of time $f(t)$ into a complex frequency domain function $F(s)$, simplifying differential equations into algebraic ones (Widder 419; Campbell and Haberman 245). The notation may be intimidating, but the conceptual act of transforming a hard problem in one domain into an easier problem in another domain is something people do intuitively across countless contexts. The mathematical language barriers obscure the conceptual competence already present. 
+The Laplace transform is an integral transform that converts a function of time $f(t)$ into a complex frequency domain function $F(s)$, simplifying differential equations into algebraic ones (Widder 419; Campbell and Haberman 245). The notation may be intimidating, but the conceptual act of transforming a hard problem in one domain into an easier problem in another domain is something people do intuitively across countless contexts. The mathematical language barriers obscure the conceptual competence already present.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -299,11 +300,13 @@ The Laplace transform is an integral transform that converts a function of time 
 
 ### Taylor Series
 
-A Taylor series is a way of approximating any smooth (infinitely differentiable) function using an infinite sum of polynomial terms based on the function's derivatives at a single point (Banner 551-555). 
+A Taylor series is a way of approximating any smooth (infinitely differentiable) function using an infinite sum of polynomial terms based on the function's derivatives at a single point (Banner 551-555).
+
+> See Appendix for more information.
 
 #### Applications:
 
-**Estimated Time Arrival (GPS Navigation)**: When your GPS estimates your arrival time, it uses your current speed and recent acceleration to project your arrival time (Banner 560-565). You're approximating future behavior from what's happening right now—that's the exact same idea behind a Taylor series.
+**Estimated Time Arrival (GPS Navigation)**: When your GPS estimates your arrival time, it uses your current speed and recent acceleration to project your arrival time (Banner 560-565). You're approximating future behavior from what's happening right now—that's the exact same idea behind a Taylor series. (See Appendix for the mathematics behind this)
 
 **Recipe Adjustments**: If you know how a recipe tastes (function value), how it changes with more salt (first derivative), and how the change itself changes (second derivative), you can predict how it will taste with small tweaks—just like a Taylor series predicts a function's values for small changes (Spiegel 264-266).
 
@@ -369,9 +372,11 @@ captures this intuition precisely, but the competence exists independently: peop
 
 ### Eigenvalue / Eigenvector
 
-An eigenvector is a direction that does not change when a transformation is applied—it just gets stretched or compressed (Schonefeld 316-318). The eigenvalue is how much it stretches. 
+An eigenvector is a direction that does not change when a transformation is applied—it just gets stretched or compressed (Schonefeld 316-318). The eigenvalue is how much it stretches.
 
 While computing eigenvectors requires linear algebra sophistication, _recognizing_ eigenvector structure is something people do naturally when identifying the "main" pattern, the "most important" person, or the "resonant" frequency—mathematical competence hiding in plain sight (Chu 35-39).
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -384,9 +389,9 @@ Eigenvectors:
 - Side-to-side/Up-and-down: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
 - Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1.
 
-**Musical Instruments (Resonance)**: When you pluck a guitar string, it vibrates in specific patterns called "harmonics."
+**Musical Instruments (Resonance)**: When you pluck a guitar string, it vibrates in specific patterns called "harmonics." (See Appendix for the mathematics behind this)
 
-**Google's Original PageRank Algorithm**: The system that decides which web pages appear first in search results is fundamentally an eigenvector computation (Bryan and Leise 569-575). The "most important" page is the dominant eigenvector of the web's link graph (Brin and Page 109).
+**Google's Original PageRank Algorithm**: The system that decides which web pages appear first in search results is fundamentally an eigenvector computation (Bryan and Leise 569-575). The "most important" page is the dominant eigenvector of the web's link graph (Brin and Page 109). (See Appendix for the mathematics behind this)
 
 **Web-scale computation**: For the real web with billions of pages, computing the dominant eigenvector requires iterative methods (power iteration, Arnoldi iteration) that exploit sparsity (Langville and Meyer 150-160). Google updates PageRank periodically, recalculating the eigenvector as the web's link structure evolves—the largest eigenvalue problem solved regularly in practice (Bryan and Leise 575-580).
 
@@ -412,7 +417,7 @@ _Eigenvalues_: The importance of each feature. A high eigenvalue means that spec
 
 ### Game Theory
 
-Every time you decide whether to speak up in a meeting based on whether others will, choose a lane in traffic based on what other drivers might do, or hold the door wondering if the person will reciprocate next time, you're performing game-theoretic reasoning (van Benthem et al. 132-134). 
+Every time you decide whether to speak up in a meeting based on whether others will, choose a lane in traffic based on what other drivers might do, or hold the door wondering if the person will reciprocate next time, you're performing game-theoretic reasoning (van Benthem et al. 132-134).
 
 **Strategic Interdependence**: Players' outcomes are interconnected; a player must consider the choices of others to achieve their best result (van Benthem et al. 123-126).
 
@@ -423,9 +428,11 @@ Every time you decide whether to speak up in a meeting based on whether others w
 - Classical Game Theory: Focuses on games with continuous strategies and often utilizes calculus (Resnik 140-150).
 - Combinatorial Game Theory: Deals with games like chess or Go, which are often analyzed using discrete mathematics (van Benthem et al. 127-130).
 
+> See Appendix for more information.
+
 #### Applications:
 
-**Prisoner's Dilemma**: A classic scenario showing why two completely rational individuals might not cooperate, even if it appears in their best interest to do so (Cunningham 11-15).
+**Prisoner's Dilemma**: A classic scenario showing why two completely rational individuals might not cooperate, even if it appears in their best interest to do so (Cunningham 11-15). (See Appendix for the mathematics behind this)
 
 **Economic Competition**: Firms set prices to maximize profits while anticipating competitor responses (Binmore 32-34). Bertrand competition models predict that firms will undercut each other to marginal cost, even though collusion would be more profitable—another prisoner's dilemma (Resnik 145-150).
 
@@ -435,7 +442,7 @@ Every time you decide whether to speak up in a meeting based on whether others w
 
 **Four-Way Stop Dilemma**: Ever been at a four-way stop where everyone is waiting for someone else to move? You're stuck in a "stable" state where no one gains anything by changing their strategy alone. That's high-level economics and math in a suburban intersection—a Nash equilibrium with multiple possible outcomes (Binmore 30-32).
 
-**Helping a Coworker**: You use this logic every time you decide whether to help a coworker with a project—you're weighing your effort (cost) against the shared success (reward).
+**Helping a Coworker**: You use this logic every time you decide whether to help a coworker with a project—you're weighing your effort (cost) against the shared success (reward). (See Appendix for the mathematics behind this)
 
 **Last Slice of Pizza**: There is one slice of pizza left at a party. Everyone wants it, but no one wants to look greedy. If one person "volunteers" to take it, they get the food but a small social cost (being the "greedy" one). If no one takes it, the pizza goes to waste. You are constantly calculating if your hunger is worth the potential social judgment—weighing utilities in a social coordination game (Rubinstein 95-100).
 
@@ -473,7 +480,9 @@ A heuristic is a practical "rule of thumb," mental shortcut, or experimental met
 
 ### Fourier Transform
 
-The Fourier Transform is a mathematical tool that takes a complex signal or pattern (such as a sound wave, image, or data series) and decomposes it into a sum of simple waves (sines and cosines) of different frequencies (Bracewell 86-88). In other words, it's like discovering what "notes" make up a complicated song, or what "colors" make up a complicated image. 
+The Fourier Transform is a mathematical tool that takes a complex signal or pattern (such as a sound wave, image, or data series) and decomposes it into a sum of simple waves (sines and cosines) of different frequencies (Bracewell 86-88). In other words, it's like discovering what "notes" make up a complicated song, or what "colors" make up a complicated image.
+
+> See Appendix for more information.
 
 Every time you recognize a voice on the phone, identify an instrument in a song, or notice that bass travels through walls better than treble, you're demonstrating intuitive understanding of frequency decomposition—the core concept of the Fourier Transform (Alm and Walker 475-476). You know that complex sounds can be broken into simpler components, that different frequencies behave differently, and that the "same information" can be represented in time or frequency domains. Musicians develop profound intuition about harmonic relationships without ever seeing $e^{-i\omega t}$ (Callender 315-325). Audio engineers adjust parametric equalizers by ear, manipulating frequency-domain representations through tactile interfaces (Alm and Walker 473-475). The mathematical formalism captures and generalizes this intuitive knowledge, but the competence precedes and exists independently of the notation.
 
@@ -483,7 +492,7 @@ Every time you recognize a voice on the phone, identify an instrument in a song,
 
 - **Timbre/Sound Quality**: The unique sound (timbre) of an instrument is defined by its fundamental frequency (the base note) and its overtones, which the Fourier Transform can identify (Alm and Walker 471-476). Music theorists use harmonic spaces—mathematical structures built on Fourier analysis—to understand chord progressions and tonal relationships (Callender 277-290).
 - **Pitch Detection**: Algorithms use the Fast Fourier Transform (FFT) to convert digital audio signals from the time domain (amplitude over time) to the frequency domain to determine which notes are being played (Bailey and Swarztrauber 389-395).
-- **Piano Chords**: When a chord is played, it produces a composite sound wave made of multiple notes, overtones, and harmonics. A Fourier Transform analyzes this complex wave, generating a spectrum that displays individual frequencies as peaks (Alm and Walker 457-465).
+- **Piano Chords**: When a chord is played, it produces a composite sound wave made of multiple notes, overtones, and harmonics. A Fourier Transform analyzes this complex wave, generating a spectrum that displays individual frequencies as peaks (Alm and Walker 457-465). (See Appendix for the mathematics behind this)
 
 **Signal Processing**: The Fourier Transform converts a function (such as a sound wave) from the time domain to the frequency domain, revealing the frequencies present and their amplitudes (Bracewell 88-90). The Fast Fourier Transform (FFT) algorithm, developed in the 1960s, made this computation efficient enough for real-time applications, revolutionizing digital signal processing (Bailey and Swarztrauber 390-392).
 
@@ -509,7 +518,9 @@ Every time you recognize a voice on the phone, identify an instrument in a song,
 
 ### Euclidean Geometry
 
-Euclidean geometry is the study of flat surfaces, points, lines, angles, and shapes. 
+Euclidean geometry is the study of flat surfaces, points, lines, angles, and shapes.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -525,13 +536,15 @@ Euclidean geometry is the study of flat surfaces, points, lines, angles, and sha
 
 **Carpenter's Pythagorean Theorem**: A carpenter who checks that a corner is square by measuring 3 feet along one edge, 4 feet along the other, and confirming the diagonal is 5 feet is using the Pythagorean theorem—whether or not they know its name. Framing a roof requires calculating angles, slopes, and load distribution. Cutting crown molding requires understanding compound miters—angles formed by two planes. These are problems in Euclidean geometry and trigonometry, performed daily by tradespeople who would never describe their work in those terms.
 
-**Origami as Euclidean Construction**: When you fold paper to create origami, you're performing Euclidean constructions through a different medium (Geretschläger 357-360). Every fold creates a line, and the intersections of folds create points—the same fundamental elements as compass-and-straightedge constructions. 
+**Origami as Euclidean Construction**: When you fold paper to create origami, you're performing Euclidean constructions through a different medium (Geretschläger 357-360). Every fold creates a line, and the intersections of folds create points—the same fundamental elements as compass-and-straightedge constructions. (See Appendix for the mathematics behind this)
 
 ---
 
 ### Non-Euclidean Geometry
 
 While Euclidean geometry assumes a flat, two-dimensional plane, non-Euclidean geometry addresses the reality of curved spaces in physics and geography (Bussey 445).
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -565,9 +578,11 @@ You do this every time you estimate a tip, guess how long a drive will take, or 
 
 ### Genus
 
-Genus is a topological invariant that counts the number of "holes" in a surface. 
+Genus is a topological invariant that counts the number of "holes" in a surface.
 
 Most people intuitively understand topological equivalence without the formalism. You recognize that a bowl is fundamentally different from a mug with a handle precisely because of that one hole—one has genus 0, the other genus 1. You understand that no amount of reshaping will turn one into the other without breaking or gluing. This is topological thinking: recognizing structural invariants that persist through transformation (Weeks 3-8).
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -593,7 +608,9 @@ Most people intuitively understand topological equivalence without the formalism
 
 ### Number Theory
 
-Number theory is the branch of pure mathematics devoted to the study of integers and their properties—divisibility, prime factorization, congruences, and the solutions to equations involving whole numbers (Hardy and Wright 1-5). 
+Number theory is the branch of pure mathematics devoted to the study of integers and their properties—divisibility, prime factorization, congruences, and the solutions to equations involving whole numbers (Hardy and Wright 1-5).
+
+> See Appendix for more information.
 
 At its core, number theory investigates fundamental questions about integers: Which numbers are prime? How can we factor a given integer into primes? What patterns emerge in the distribution of primes? When does a Diophantine equation (an equation requiring integer solutions) have solutions? (Hardy and Wright 1-10). These questions, simple to state yet often extraordinarily difficult to answer, have occupied mathematicians for millennia.
 
@@ -607,11 +624,11 @@ At its core, number theory investigates fundamental questions about integers: Wh
 
 **Prime Numbers and Security**: Prime numbers, the backbone of number theory, secure every online transaction you make (Lefton 54; Petras 689). Your credit card encryption relies on the difficulty of factoring large prime numbers—number theory protects your bank account every day (Rivest et al. 120; Boyer and Moore 181). What makes this remarkable is that the mathematical principles date back millennia, yet their application to modern cryptography emerged only in the 1970s (Luciano and Prichett 2-3).
 
-**Online Shopping (RSA Encryption)**: Every time you enter your credit card on a website, your computer uses Number Theory (Zimmermann 110). 
+**Online Shopping (RSA Encryption)**: Every time you enter your credit card on a website, your computer uses Number Theory (Zimmermann 110). (See Appendix for the mathematics behind this)
 
 **Barcodes and ISBNs**: The last digit on a barcode or a book's ISBN is a Check Digit. It is calculated using a specific number theory formula to ensure that if a scanner misreads a number, the "math" won't add up, and the system will flag an error (Sinkov and Feil 25-30).
 
-**Elliptic Curve Encryption**: Every time you visit an "https" website or use a messaging app, your device uses Elliptic-Curve Diffie-Hellman (a form of number theory) to agree on a secret key with the server (Zimmermann 112-113; DeArmond 1). You are using prime numbers to build a "digital wall" around your private data.
+**Elliptic Curve Encryption**: Every time you visit an "https" website or use a messaging app, your device uses Elliptic-Curve Diffie-Hellman (a form of number theory) to agree on a secret key with the server (Zimmermann 112-113; DeArmond 1). You are using prime numbers to build a "digital wall" around your private data. (See Appendix for more information)
 
 **The Privacy Dimension**: The mathematics of cryptography isn't just about security—it's fundamentally about privacy and individual rights (Froomkin 709-712; Feldman and Haber 197-200). When you use encryption, you're exercising number theory to protect your constitutional right to private communication (Froomkin 715-720). The "always-on" digital era makes this mathematical protection more crucial than ever: every text message, medical record, and financial transaction depends on the computational hardness of certain number-theoretic problems (Feldman and Haber 205-210; Petras 690-695).
 
@@ -625,11 +642,13 @@ At its core, number theory investigates fundamental questions about integers: Wh
 
 Group Theory asks: "What is the internal structure of this group?" It studies the group's elements and their abstract relationships (like subsets and internal symmetries).
 
+> See Appendix for more information.
+
 In simple terms: A "group" in abstract algebra is a set of actions you can perform and reverse, following specific rules: every action has an opposite, combining actions produces another valid action, and there is a "do nothing" action.
 
 #### Applications:
 
-**RCS E2EE (End-to-End Encryption) Messaging***: Both TLS and E2EE systems in Google Messages and Apple's ecosystems rely on the mathematics of group theory called The Discrete Logarithm Problem in the context of elliptic curves, specifically through Elliptic Curve Cryptography (ECC)
+**RCS E2EE (End-to-End Encryption) Messaging**: Both TLS and E2EE systems in Google Messages and Apple's ecosystems rely on the mathematics of group theory called The Discrete Logarithm Problem in the context of elliptic curves, specifically through Elliptic Curve Cryptography (ECC)
 
 - Google Messages: Uses the Signal Protocol. This protocol relies on the X3DH (Extended Triple Diffie-Hellman) key agreement, which performs math on "points" in a group to create a shared secret key.
 - Apple (iMessage & Beta RCS): Apple's iMessage recently upgraded to PQ3, a "Level 3" security protocol that combines classical Elliptic Curve algorithms (group theory) with post-quantum math to protect against future supercomputers.
@@ -641,13 +660,15 @@ In simple terms: A "group" in abstract algebra is a set of actions you can perfo
 
 **Symmetry in Nature and Design**: The symmetry of a snowflake, the repeating pattern of wallpaper, and the rotational symmetry of a car wheel are all described by group theory.
 
-**Rubik's Cube Moves**: Every sequence of moves on a Rubik's Cube—and the fact that each move can be undone—is group theory in your hands. Speedcubers are, without necessarily knowing it, navigating a group with 43 quintillion elements (Turner and Gold 617; Milewski and Frohardt 397). The Rubik's Cube group is a concrete manifestation of abstract algebra, where the formal language of group theory describes something you can literally hold and manipulate (Hecker and Banerji 211).
+**Rubik's Cube Moves**: Every sequence of moves on a Rubik's Cube—and the fact that each move can be undone—is group theory in your hands. Speedcubers are, without necessarily knowing it, navigating a group with 43 quintillion elements (Turner and Gold 617; Milewski and Frohardt 397). The Rubik's Cube group is a concrete manifestation of abstract algebra, where the formal language of group theory describes something you can literally hold and manipulate (Hecker and Banerji 211). (See Appendix for the mathematics behind this)
 
 ---
 
 ### Representation Theory
 
-Representation theory studies how abstract mathematical structures—like groups and symmetries—can be expressed as concrete operations, often through matrices or transformations. This translation makes complex ideas easier to visualize and manipulate. Representation Theory asks: "How can this group act on something else?" 
+Representation theory studies how abstract mathematical structures—like groups and symmetries—can be expressed as concrete operations, often through matrices or transformations. This translation makes complex ideas easier to visualize and manipulate. Representation Theory asks: "How can this group act on something else?"
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -657,7 +678,7 @@ Representation theory studies how abstract mathematical structures—like groups
 
 - **Rotation Invariance**: Face recognition systems use representation theory to ensure that whether you tilt your head or hold your phone sideways, the software still identifies you. It represents these "rotations" as matrices, allowing the AI to treat a tilted face as mathematically equivalent to a straight one.
 
-- **Image Compression**: Advanced algorithms (like those used in modern video streaming) use transforms based on representation theory to store visual data more compactly without losing quality. 
+- **Image Compression**: Advanced algorithms (like those used in modern video streaming) use transforms based on representation theory to store visual data more compactly without losing quality.
 
 **Symmetries in Nature and Art**: For example, the ways in which a snowflake can be rotated or reflected while maintaining its appearance form a symmetry group. Representation theory enables us to "act out" these symmetries through concrete operations, such as flipping or rotating an image on a computer.
 
@@ -675,12 +696,13 @@ Representation theory studies how abstract mathematical structures—like groups
 
 **Stereo Design**: It is even used in the engineering of high-end audio systems to ensure sound is balanced perfectly across multiple speakers based on the room's symmetry
 
-
 ---
 
 ### Galois Theory
 
-At its core, Galois Theory intertwines the realms of algebra, focusing on polynomials and equations, with the study of symmetry found in group theory. 
+At its core, Galois Theory intertwines the realms of algebra, focusing on polynomials and equations, with the study of symmetry found in group theory.
+
+> See Appendix for more information.
 
 **Permutations and Solvability**: Galois Theory proved that certain polynomial equations can't be solved with a simple formula (like the Quadratic Formula) because their "symmetry group" is too complex.
 
@@ -716,6 +738,8 @@ The mathematical sophistication underlying Sudoku—involving group operations, 
 
 Real analysis uses the "epsilon-delta" definition to express limits rigorously - the idea that you can get as close as you want to a target value.
 
+> See Appendix for more information.
+
 #### Applications:
 
 **Your thermostat**: you want the room at $72^\circ F$, and no matter how precise your comfort demand - within half a degree, a tenth of a degree, a hundredth - you can always adjust the dial to meet that window. That precision "challenge and response" game is an epsilon-delta game.
@@ -728,21 +752,23 @@ Real analysis uses the "epsilon-delta" definition to express limits rigorously -
 
 **Zooming In on a Picture**: As you zoom in on a digital image, you see pixels, but in the real world, surfaces are continuous. Real analysis helps describe that ideal of infinite detail-no matter how far you zoom in, there's always more in between.
 
-**Smooth Driving**: If you want your car ride to be gentle, you want the speed and acceleration to change smoothly-not suddenly. Real analysis provides the tools for understanding what "smooth change" means (continuity and differentiability). The mathematics behind a smooth ride is epsilon-delta analysis in action.
+**Smooth Driving**: If you want your car ride to be gentle, you want the speed and acceleration to change smoothly-not suddenly. Real analysis provides the tools for understanding what "smooth change" means (continuity and differentiability). The mathematics behind a smooth ride is epsilon-delta analysis in action. (See Appendix for the mathematics behind this)
 
 ---
 
 ### Knot Theory
 
-Every time you untangle a necklace by identifying which loops need to pass through which others, you're solving a knot theory problem (Adams 5-10). When you thread a belt through pants loops and recognize it will "lock" if crossed incorrectly, you're reasoning about topological constraints. Knitters who diagnose a mistake three rows back by recognizing the loop structure "looks wrong" are performing topological pattern matching (Grishanov et al. 20-22). Gardeners who train vines onto trellises understand intuitively which wrapping patterns will hold versus slip. Parents who childproof cabinets by wrapping handles together are creating temporary topological locks (Sossinsky 5-8). Even the simple act of tying shoelaces involves choosing a specific knot topology (usually a reef knot or granny knot) based on implicit understanding that certain configurations hold better than others. 
+Every time you untangle a necklace by identifying which loops need to pass through which others, you're solving a knot theory problem (Adams 5-10). When you thread a belt through pants loops and recognize it will "lock" if crossed incorrectly, you're reasoning about topological constraints. Knitters who diagnose a mistake three rows back by recognizing the loop structure "looks wrong" are performing topological pattern matching (Grishanov et al. 20-22). Gardeners who train vines onto trellises understand intuitively which wrapping patterns will hold versus slip. Parents who childproof cabinets by wrapping handles together are creating temporary topological locks (Sossinsky 5-8). Even the simple act of tying shoelaces involves choosing a specific knot topology (usually a reef knot or granny knot) based on implicit understanding that certain configurations hold better than others.
 
-When you pull a single thread to unravel a seam, you're exploiting topological properties of the thread's path. When you recognize that a twisted phone cord needs specific unwinding motions, you're computing about writhe. When you avoid knotting extension cords by coiling them properly, you're applying spontaneous knotting probability principles (Peterson 266). The mathematical formalism—ambient isotopy classes, Reidemeister moves, linking numbers $Lk = Tw + Wr$, polynomial invariants—provides precision and predictive power, but topological reasoning operates constantly in daily life (Adams 230-235). 
+> See Appendix for more information.
+
+When you pull a single thread to unravel a seam, you're exploiting topological properties of the thread's path. When you recognize that a twisted phone cord needs specific unwinding motions, you're computing about writhe. When you avoid knotting extension cords by coiling them properly, you're applying spontaneous knotting probability principles (Peterson 266). The mathematical formalism—ambient isotopy classes, Reidemeister moves, linking numbers $Lk = Tw + Wr$, polynomial invariants—provides precision and predictive power, but topological reasoning operates constantly in daily life (Adams 230-235).
 
 #### Applications:
 
-**Headphone Tangles**: It feels like a prank, but "spontaneous knotting" is a mathematical certainty (Adams 200-205). If a string is long enough and agitated (like in your pocket), it will form a knot. Researchers use Jones Polynomials and other knot theory tools to study why certain cords tangle more than others.
+**Headphone Tangles**: It feels like a prank, but "spontaneous knotting" is a mathematical certainty (Adams 200-205). If a string is long enough and agitated (like in your pocket), it will form a knot. Researchers use Jones Polynomials and other knot theory tools to study why certain cords tangle more than others. (See Appendix for the mathematics behind this)
 
-**Knitting**: Knitting can be analyzed as a series of topological manipulations creating interlocked loop structures (Grishanov et al. 1-3). A single knit stitch is a local operation of pulling a loop through another loop. 
+**Knitting**: Knitting can be analyzed as a series of topological manipulations creating interlocked loop structures (Grishanov et al. 1-3). A single knit stitch is a local operation of pulling a loop through another loop. (See Appendix for the mathematics behind this)
 
 **Drug Design (Chemotherapy)**: Many cancer drugs are "Topoisomerase inhibitors" (McVie 1145; Wang 106). Since cancer cells divide rapidly, they need topoisomerases to untangle their DNA constantly. By "breaking" the math of the cell's untangling process, the drug causes the cancer cell's DNA to become a tangled mess, preventing it from replicating. This therapeutic strategy exploits the fact that cancer cells, with their accelerated replication rates, are more vulnerable to topoisomerase disruption than normal cells (McVie 1146).
 
@@ -752,13 +778,15 @@ When you pull a single thread to unravel a seam, you're exploiting topological p
 
 **Molecular Knots**: Chemists have synthesized molecular knots—single molecules whose structure is topologically knotted (Adams 225-230). These molecules cannot be untangled without breaking chemical bonds, just as topological knots cannot be untangled without cutting. The trefoil knot has been synthesized as a closed molecular loop, confirming that chemistry can instantiate pure topology. These molecular knots have potential applications in materials science and drug delivery, where topological constraints create unique properties (Sossinsky 190-195).
 
-**DNA**: Your DNA is essentially a very long, thin string that constantly gets tangled and "knotted" as it replicates (Wang 94; Osheroff and Wang 232). Your body uses enzymes called topoisomerases to "snip" and untangle these biological knots—effectively performing high-level topology every second to keep you alive. The mathematics of DNA untangling is knot theory in its most literal biological application. These enzymes are "enzymes that change the shape of DNA" without altering its chemical sequence (Austin and Fisher 147), solving computational problems in topology that would require sophisticated algorithms if done artificially.
+**DNA**: Your DNA is essentially a very long, thin string that constantly gets tangled and "knotted" as it replicates (Wang 94; Osheroff and Wang 232). Your body uses enzymes called topoisomerases to "snip" and untangle these biological knots—effectively performing high-level topology every second to keep you alive. The mathematics of DNA untangling is knot theory in its most literal biological application. These enzymes are "enzymes that change the shape of DNA" without altering its chemical sequence (Austin and Fisher 147), solving computational problems in topology that would require sophisticated algorithms if done artificially. (See Appendix for the mathematics behind this)
 
 ---
 
 ### Clifford Algebras (Quaternions $\implies$ High-Dimensional Algebra)
 
 While we think in 3D, computer programs, like the video games you play or the augmented reality (AR) filters on your phone, often use 4D quaternions to calculate how objects rotate smoothly without glitching.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -776,7 +804,9 @@ While we think in 3D, computer programs, like the video games you play or the au
 
 ### Bayesian Inference
 
-This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head. Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available. 
+This is just the math of "changing your mind based on new evidence." If you think it's going to rain, but then you see a patch of blue sky, you subconsciously update your probability. That's a complex statistical theorem happening in your head. Bayesian inference is a method of statistical reasoning where you update your belief in a hypothesis as new evidence or data becomes available.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -800,9 +830,11 @@ This is just the math of "changing your mind based on new evidence." If you thin
 
 ### Differential Geometry (Geodesics)
 
-Differential geometry studies how curved surfaces bend and what "straight lines" look like on them. 
+Differential geometry studies how curved surfaces bend and what "straight lines" look like on them.
 
 In short, a curve is a geodesic if it is locally "straight" on the surface, ensuring the acceleration has no component tangent to the surface (Baek 2; Rumble 106). While the formal differential equations appear forbidding, the underlying concept—finding the shortest natural path on a curved surface—is something navigators, hikers, and even animals understand without symbolic notation.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -892,11 +924,13 @@ Chaos theory studies systems that are highly sensitive to initial conditions, me
 
 Despite the mathematical sophistication, everyone reasons stochastically in daily life. When you leave extra time for a commute "in case traffic is bad," you're accounting for the stochastic nature of travel time. When you bring an umbrella because there's a 30% chance of rain, you're making decisions under uncertainty. When you check multiple times whether your alarm is set, you're responding to low-probability events with high consequences—basic risk assessment from a stochastic perspective (Kahneman and Tversky 1124-1131). The formal mathematics codifies what people already understand intuitively: the world contains genuine randomness, and optimal decisions require thinking probabilistically about uncertain futures.
 
+> See Appendix for more information.
+
 #### Applications:
 
 **The Stock Market and Financial Modeling**: Stock prices are the canonical example of stochastic processes in popular consciousness (Black and Scholes 637-641). The "efficient market hypothesis" posits that stock price changes are essentially random walks because all available information is already incorporated into current prices—past movements don't predict future movements (Fama 383-417). This means technical analysis ("chartism") shouldn't work, though its persistence suggests either market inefficiency or human pattern-seeking overreach. Options and derivatives pricing requires sophisticated stochastic modeling: the Black-Scholes model treats stock prices as geometric Brownian motion and derives the "fair price" for an option by solving a partial differential equation from stochastic calculus (Black and Scholes 640-650). Every transaction in trillion-dollar derivatives markets relies on this mathematics, yet traders speak of "volatility" and "drift" without necessarily invoking Itô's lemma or the Wiener process—demonstrating, once again, that practical competence can exist without formal language fluency.
 
-**Queueing Theory and Wait Times**: When you stand in line at Starbucks or wait on hold for customer service, you're experiencing a queueing system—a stochastic process where arrivals and service times are both random (Gross and Harris 1-10). 
+**Queueing Theory and Wait Times**: When you stand in line at Starbucks or wait on hold for customer service, you're experiencing a queueing system—a stochastic process where arrivals and service times are both random (Gross and Harris 1-10). (See Appendix for the mathematics behind this)
 
 **Sports Analytics and Live Betting**: The "live odds" displayed during sports games update continuously based on the current score, time remaining, and game situation (Kovalchik 1-8). These odds are generated by stochastic models that simulate thousands of possible game trajectories given the current state. A basketball team leading by 10 points with 2 minutes remaining might have an 95% win probability, computed by modeling the remaining time as a stochastic process (Poisson-distributed scoring events) and determining what fraction of simulations result in victory (Stern 1-5). As each basket is scored or minute passes, the model updates—Bayesian updating applied to a stochastic process. Bettors who understand that a 70% win probability means the underdog wins 3 times out of 10 demonstrate probabilistic sophistication, even if they've never seen the equations generating those percentages.
 
@@ -914,7 +948,9 @@ Despite the mathematical sophistication, everyone reasons stochastically in dail
 
 ### Markov Chains (The "Memoryless" Process)
 
-A Markov chain is a mathematical model that describes how sequences of random events change.  In short, what comes next is only based on the present state, not the path that got us here. 
+A Markov chain is a mathematical model that describes how sequences of random events change. In short, what comes next is only based on the present state, not the path that got us here.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -971,6 +1007,8 @@ The best way to visualize a manifold is to think of an ant crawling on a giant s
 A diffeomorphism is a special kind of function between two manifolds (like a sphere and a bowl) that is not only a perfect 1-to-1 match but is also "smooth" in both directions.
 In simpler terms, if a homeomorphism allows you to stretch and bend a shape (like turning a donut into a coffee mug), a diffeomorphism ensures you do it so smoothly that you never create a sharp crease or a "kink."
 
+> See Appendix for more information.
+
 #### Applications:
 
 **Modeling Clay**: If you mold a ball of clay into a donut shape (a torus) without ripping or gluing, and you can smoothly reshape it back, the process is a diffeomorphism (though a ball and a donut are not diffeomorphic, but a coffee mug and a donut are!).
@@ -983,12 +1021,13 @@ In simpler terms, if a homeomorphism allows you to stretch and bend a shape (lik
 
 **Animation Morphing**: In computer animation, "morphing" one shape into another smoothly and back again is a visual example.
 
-
 ---
 
 ### Ergodicity
 
 Ergodicity is a mathematical property that states the time average of a system—essentially, the average behavior of a single point over an extended period—is equal to its ensemble average, which represents the average behavior of all possible states at a single moment. This means that an ergodic system is "well-mixed," indicating that it cannot be separated into smaller, independent parts. In simpler terms, an ergodic system eventually explores every possible state it can reach, spending a duration of time in each region proportional to the size of that region. Therefore, when we compare the average behavior over time to the average behavior across all possibilities at a single moment, they will be the same in an ergodic system.
+
+> See Appendix for more information.
 
 Ergodicity is defined by the equality of two different ways of looking at data:
 
@@ -1007,13 +1046,13 @@ Ergodicity is defined by the equality of two different ways of looking at data:
 
 **The Coin Flip (Ergodic)**: If 100 people flip a coin once, about 50 will get heads. If one person flips a coin 100 times, they will also get heads about 50 times. Because the "group average" and "individual average" match, coin flipping is ergodic
 
-**Russian Roulette (Non-Ergodic)**: If 6 people play Russian Roulette once, 5 of them win $1 million. The "group average" is a positive $833,333. However, if you play 6 times in a row, you are mathematically certain to die. Your "time average" (death) does not match the "group average" (wealth), rendering the system non-ergodic.
+**Russian Roulette (Non-Ergodic)**: If 6 people play Russian Roulette once, 5 of them win $1 million. The "group average" is a positive $833,333. However, if you play 6 times in a row, you are mathematically certain to die. Your "time average" (death) does not match the "group average" (wealth), rendering the system non-ergodic. (See Appendix for the mathematics behind this)
 
 **The Stock Market (Non-Ergodic)**: A market might grow by 10% "on average." But if you go bankrupt (hit an "absorption barrier") during a crash, you cannot benefit from the later growth. Your individual "time average" is ruined, even if the "group average" continues to rise.
 
 **Emergency Funds**: Keeping a pile of cash for an emergency is a "non-optimal" strategy in terms of expected value (the money earns no interest). However, it is an ergodicity strategy because it prevents you from "hitting zero" and being kicked out of the game entirely
 
-**A Deck of Cards**: Shuffling a deck of cards enough times eventually gives you the same statistical picture as having every possible arrangement laid out at once.
+**A Deck of Cards**: Shuffling a deck of cards enough times eventually gives you the same statistical picture as having every possible arrangement laid out at once. (See Appendix for the mathematics behind this)
 
 ---
 
@@ -1035,7 +1074,9 @@ Measure theory is a branch of mathematical analysis that generalizes intuitive c
 
 ### Cardinality of the Continuum
 
-The cardinality of the continuum represents the "size" of the set of all real numbers ($\mathbb{R}$). 
+The cardinality of the continuum represents the "size" of the set of all real numbers ($\mathbb{R}$).
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -1096,7 +1137,9 @@ Ring theory is a branch of abstract algebra that studies rings—algebraic struc
 
 ### Iwasawa Theory
 
-Iwasawa theory is a branch of algebraic [number theory](#number-theory) that studies arithmetic objects, such as ideal class groups and Selmer groups of elliptic curves, as they grow along infinite towers of number fields, typically $\mathbb{Z}_p$-extensions. 
+Iwasawa theory is a branch of algebraic [number theory](#number-theory) that studies arithmetic objects, such as ideal class groups and Selmer groups of elliptic curves, as they grow along infinite towers of number fields, typically $\mathbb{Z}_p$-extensions.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -1167,7 +1210,7 @@ Topology is a branch of mathematics that studies the properties of shapes and sp
 
 ### Graph Theory
 
-Graph theory is the study of networks of connections. 
+Graph theory is the study of networks of connections.
 
 **Directed Acyclic Graph (DAG)**
 
@@ -1175,11 +1218,13 @@ Graph theory is the study of networks of connections.
 - Directed Edges ( $E$ ): An edge from task $A$ to task $B$ ( $A \to B$ ) represents a precedence constraint, meaning $A$ must be finished before $B$ starts.
 - Acyclic Property: The graph must be acyclic (no loops). If a cycle exists (e.g., $A \to B \to C \to A$), the project is mathematically impossible to complete because each task is waiting on itself.
 
+> See Appendix for more information.
+
 #### Applications:
 
 **Social Networks**: Each person is a node, and a friendship or "follow" is an edge. Graph theory helps analyze how people are connected, how information spreads, or who is most "central" in a group.
 
-**Project Planning (Workflow)**: Tasks are nodes; dependencies ("do A before B") are edges. This helps schedule or optimize large projects.
+**Project Planning (Workflow)**: Tasks are nodes; dependencies ("do A before B") are edges. This helps schedule or optimize large projects. (See Appendix for the mathematics behind this)
 
 **Internet and Webpages**: Each webpage is a node; hyperlinks are edges. Search engines use graph theory to rank and find pages.
 
@@ -1203,7 +1248,9 @@ Graph theory is the study of networks of connections.
 
 ### Combinatorics
 
-Combinatorics is a branch of mathematics that focuses on counting, arranging, and configuring finite or discrete structures. It explores techniques for counting permutations and combinations to determine the number of ways objects can be arranged or selected. 
+Combinatorics is a branch of mathematics that focuses on counting, arranging, and configuring finite or discrete structures. It explores techniques for counting permutations and combinations to determine the number of ways objects can be arranged or selected.
+
+> See Appendix for more information.
 
 #### Applications:
 
@@ -1215,9 +1262,9 @@ Every time you think **"how many possible ways could this play out?"** you are a
 
 **Seating Arrangements**: Planning a seating arrangement at a dinner party - how many ways can 8 guests sit around a table? - is a permutation problem.
 
-**Password Creation**: When you create a password, combinatorics tells you how many possible combinations there are with letters, numbers, and symbols. A password with 8 characters chosen from 62 possible characters (uppercase, lowercase, digits) involves $62^8 \approx 218$ trillion combinations. Password security is combinatorics.
+**Password Creation**: When you create a password, combinatorics tells you how many possible combinations there are with letters, numbers, and symbols. A password with 8 characters chosen from 62 possible characters (uppercase, lowercase, digits) involves $62^8 \approx 218$ trillion combinations. Password security is combinatorics. (See Appendix for the mathematics behind this)
 
-**Lottery Odds**: The math behind "What are my chances of winning the lottery?" is combinatorics, the study of how many possible ticket combinations exist.
+**Lottery Odds**: The math behind "What are my chances of winning the lottery?" is combinatorics, the study of how many possible ticket combinations exist. (See Appendix for the mathematics behind this)
 
 ---
 
@@ -1243,7 +1290,9 @@ Set theory is a fundamental branch of mathematics that studies collections of di
 
 ### Dirichlet's Box Principle (The Pigeonhole Principle)
 
-This concept is one of the simplest yet most powerful ideas in mathematics. When you have more items than containers, at least one container must hold more than one item. Formally, if you have $n$ items placed into $m$ containers, and $n > m$, then at least one container must contain more than one item.This is one of the simplest yet most powerful ideas in mathematics. If you have more items than containers, at least one container must hold more than one item. Formally: if $n$ items are placed into $m$ containers, and $n > m$, then at least one container must contain more than one item. 
+This concept is one of the simplest yet most powerful ideas in mathematics. When you have more items than containers, at least one container must hold more than one item. Formally, if you have $n$ items placed into $m$ containers, and $n > m$, then at least one container must contain more than one item.This is one of the simplest yet most powerful ideas in mathematics. If you have more items than containers, at least one container must hold more than one item.
+
+> See Appendix for more information.
 
 <figure>
   <img src="../images/Pigeonhole_Principle.png" alt="Illustration of the Pigeonhole Principle showing pigeons distributed among pigeonholes">
@@ -1350,7 +1399,7 @@ Consider joining or forming study groups that focus on translating formal proble
 
 ## The Bottom Line
 
-The evidence is clear and compelling: from Sheila Tobias's foundational work in 1978 to recent peer-reviewed studies, and from neuroimaging of math-anxious individuals to research on Brazilian street children, the findings align. Most people who consider themselves "bad at math" do not actually lack mathematical ability; rather, they lack fluency in the language of mathematics. Everyday activities—such as reading a clock, planning an outfit, navigating social networks, understanding flight paths, or recognizing the similarity between a donut and a coffee mug—demonstrate engagement with mathematical concepts. The key distinction lies in vocabulary, not in conceptual understanding (D'Ambrosio 44; Nunes et al. 28). 
+The evidence is clear and compelling: from Sheila Tobias's foundational work in 1978 to recent peer-reviewed studies, and from neuroimaging of math-anxious individuals to research on Brazilian street children, the findings align. Most people who consider themselves "bad at math" do not actually lack mathematical ability; rather, they lack fluency in the language of mathematics. Everyday activities—such as reading a clock, planning an outfit, navigating social networks, understanding flight paths, or recognizing the similarity between a donut and a coffee mug—demonstrate engagement with mathematical concepts. The key distinction lies in vocabulary, not in conceptual understanding (D'Ambrosio 44; Nunes et al. 28).
 
 While language barriers can be addressed, cognitive deficits present greater challenges. Effective teaching strategies are available for language acquisition, vocabulary scaffolding, and bridging informal and formal mathematical understanding. The central issue is whether institutions will move away from viewing math anxiety as a deficit in ability and towards recognizing it as a result of exclusion due to jargon. The high prevalence of math anxiety is more indicative of shortcomings in instructional approaches than of individual failure. Acknowledging existing mathematical competence is the first step toward building confidence and overcoming future challenges.
 
