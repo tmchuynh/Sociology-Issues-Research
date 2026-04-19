@@ -130,3 +130,33 @@ While the theorem proves these sequences exist for any length, finding actual se
 - Length 10: $199, 409, 619, 829, 1039, 1249, 1459, 1669, 1879, 2089$ (difference of $210$).
 - Current Record: As of September 2019, the longest known arithmetic progression of primes has a length of 27.
 
+## Different Types of Numbers
+### Catalan numbers
+
+The Catalan numbers: $1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440, 9694845, \dots$, named after Eugéne Charles Catalan (1814--1894), arise in a number of problems in combinatorics.
+
+Catalan numbers are a sequence of natural numbers ($1, 1, 2, 5, 14, 42, \dots$) that appear in numerous counting problems in combinatorics. Named after the Belgian mathematician Eugène Charles Catalan, these numbers typically represent the number of ways to arrange or divide objects into recursive structures, such as trees, paths, or polygons. Among other applications, Catalan numbers describe
+
+- **Polygons:** the number of ways a polygon with $n+2$ sides can be cut into $n$ triangles.
+- **Parentheses:** the number of ways in which parentheses can be placed in a sequence of numbers to be multiplied, two at a time.
+- **Trees:** the number of rooted, trivalent trees with $n+1$ nodes.
+- **Paths:** the number of paths of length $2n$ through an $n \times n$ grid that do not rise above the main diagonal,
+- **Stairs:** the number of ways to decompose a staircase-shaped figure with $n$ steps into $n$ rectangles.
+
+#### Formula and Calculation
+
+The $n$-th Catalan number, denoted as $C_n$, is most commonly defined by the formula:
+$$C_n = \frac{1}{n+1} \binom{2n}{n} = \frac{(2n)!}{(n+1)!n!}$$
+
+The sequence can also be calculated using a recurrence relation, where each new number is the sum of products of previous ones:
+$$C_{n+1} = \sum_{i=0}^{n} C_i C_{n-i}$$
+The first few values of $C_n$ are:
+
+| $n$   | $0$ | $1$ | $2$ | $3$ | $4$  | $5$  | $6$   | $7$   | $8$   | $9$   |
+| ----- | --- | --- | --- | --- | ---- | ---- | ----- | ----- | ----- | ----- |
+| $C_n$ | $1$ | $1$ | $2$ | $5$ | $14$ | $42$ | $132$ | $429$ | $132$ | $429$ |
+
+<figure>
+  <img src="../images/Catalan_Numbers_8_Sides.png" alt="Illustration of the number of ways a polygon with 8 sides can be cut">
+  <figcaption>The number of ways a polygon with n+2 sides can be cut into n triangles. Source: <a href="https://mathshistory.st-andrews.ac.uk/Extras/Catalan/#polygon">MacTutor</a>.</figcaption>
+</figure>
