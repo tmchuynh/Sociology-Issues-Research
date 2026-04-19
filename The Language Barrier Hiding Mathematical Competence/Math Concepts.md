@@ -45,7 +45,7 @@ The Hales-Jewett Theorem is often described as the "heart" of Ramsey Theory beca
 
 The most intuitive way to understand it is through a high-dimensional game of Tic-Tac-Toe:
 
-The Hales-Jewett theorem guarantees that for any number of players and board size, there is a dimension $H$ where an $n \times n \times \dots \times n$ ($H$-dimensional) tic-tac-toe game cannot end in a draw. It ensures a "monochromatic combinatorial line" (a complete row) is inevitable, , regardless of how the cells are marked, as long as it's played in sufficient dimensions, meaning one player must win, making the game non-trivial in high dimensions. [1, 2, 3, 4, 5]  
+The Hales-Jewett theorem guarantees that for any number of players and board size, there is a dimension $H$ where an $n \times n \times \dots \times n$ ($H$-dimensional) tic-tac-toe game cannot end in a draw. It ensures a "monochromatic combinatorial line" (a complete row) is inevitable, , regardless of how the cells are marked, as long as it's played in sufficient dimensions, meaning one player must win, making the game non-trivial in high dimensions. 
 
 The theorem proves that if you are playing an $n$-in-a-row game with $c$ players, there is a dimension $H$ so large that a draw is mathematically impossible. In standard 2D $3 \times 3$ Tic-Tac-Toe, a draw is common — the Hales-Jewett number hasn't been reached. There is enough "room" to place $X$'s and $O$'s in a way that blocks every possible line. But if you move that same $3 \times 3$ grid into a high enough dimension (a "hypercube"), one player must eventually complete a line.
 - If you play $3$-in-a-row on a hypercube of high enough dimension, the board becomes so "dense" with potential lines that no matter where you move, you will eventually complete a line or be forced to let your opponent complete one.
@@ -88,3 +88,24 @@ To guarantee a convex quadrilateral, you only need 5 points. You can visualize t
 - Case 2: If the rubber band only touches 3 points (forming a triangle) with 2 points inside, the line connecting the 2 internal points will always have 2 of the triangle's vertices on one side. Those 4 points together form the convex quadrilateral.
 
 This theorem is a geometric version of the idea that complete disorder is impossible. Just as the Theorem on Friends and Strangers guarantees a "clique" of friends in a large enough group, the Happy Ending Problem guarantees a "clique" of convexity in a large enough set of points.
+
+### Van der Waerden’s Theorem
+
+Van der Waerden's Theorem states that if you take a long enough sequence of integers and color them with a finite number of colors, you are guaranteed to find an arithmetic progression (a sequence of "equally spaced" numbers) where all numbers share the same color.  
+It is often described as proving that "complete disorder is impossible," because no matter how hard you try to mix the colors to avoid a pattern, a pattern will eventually emerge if the list of numbers is long enough.
+
+**Key Concepts**
+
+- Coloring: Imagine assigning each number in a list (like $1, 2, 3, \dots, N$) a color, such as Red or Blue.
+- Arithmetic Progression (AP): This is a sequence where the difference between any two consecutive terms is constant (e.g., $3, 6, 9$ has a difference of 3).
+- Monochromatic: This means all terms in the progression have the same color.
+
+While the theorem proves these numbers exist, they grow incredibly fast. For just 2 colors and a 6-term progression, you already need a sequence of 1,132 numbers. For 2 colors and a 10-term progression, the number is so large that we do not even know what it is yet—only that it exists.
+
+**A Concrete Example: $W(2, 3) = 9$**
+
+The "Van der Waerden number" $W(r, k)$ tells you the minimum length of numbers ($N$) needed to guarantee a monochromatic progression of length $k$ using $r$ colors.
+
+- For 2 colors and a 3-term progression, the number is 9.
+- If you color the numbers 1 through 8, you can avoid a 3-term progression. For example: R R B B R R B B.
+- However, as soon as you add the 9th number, you cannot avoid a progression. If you color 9 Red, you might complete $3, 6, 9$. If you color it Blue, you might complete $1, 5, 9$.
