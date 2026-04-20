@@ -1,3 +1,5 @@
+[[TOC]]
+
 ## Ramsey Theory
 
 The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns — that "complete disorder is impossible", if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear — the "order in chaos."
@@ -45,16 +47,18 @@ The Hales-Jewett Theorem is often described as the "heart" of Ramsey Theory beca
 
 The most intuitive way to understand it is through a high-dimensional game of Tic-Tac-Toe:
 
-The Hales-Jewett theorem guarantees that for any number of players and board size, there is a dimension $H$ where an $n \times n \times \dots \times n$ ($H$-dimensional) tic-tac-toe game cannot end in a draw. It ensures a "monochromatic combinatorial line" (a complete row) is inevitable, , regardless of how the cells are marked, as long as it's played in sufficient dimensions, meaning one player must win, making the game non-trivial in high dimensions. 
+The Hales-Jewett theorem guarantees that for any number of players and board size, there is a dimension $H$ where an $n \times n \times \dots \times n$ ($H$-dimensional) tic-tac-toe game cannot end in a draw. It ensures a "monochromatic combinatorial line" (a complete row) is inevitable, , regardless of how the cells are marked, as long as it's played in sufficient dimensions, meaning one player must win, making the game non-trivial in high dimensions.
 
 The theorem proves that if you are playing an $n$-in-a-row game with $c$ players, there is a dimension $H$ so large that a draw is mathematically impossible. In standard 2D $3 \times 3$ Tic-Tac-Toe, a draw is common — the Hales-Jewett number hasn't been reached. There is enough "room" to place $X$'s and $O$'s in a way that blocks every possible line. But if you move that same $3 \times 3$ grid into a high enough dimension (a "hypercube"), one player must eventually complete a line.
+
 - If you play $3$-in-a-row on a hypercube of high enough dimension, the board becomes so "dense" with potential lines that no matter where you move, you will eventually complete a line or be forced to let your opponent complete one.
-- The "order" (a winning line) is mathematically forced by the size of the board. 
+- The "order" (a winning line) is mathematically forced by the size of the board.
 - The number of winning lines for $n^d$ (dimension $d$) tic-tac-toe is given by $\displaystyle \frac{(n+2)^d - n^d}{2}$.
 
 While the theorem proves a winner exists, it doesn't tell you how to win. It only proves that the game cannot end in a "Cat's Game" (draw) once the dimensions are high enough. For a $3 \times 3$ board, the dimension required to guarantee a winner is actually quite low (it's proven that 3D $3 \times 3 \times 3$ cannot end in a draw), but for larger boards, the required dimension is unimaginably huge.
 
 The Strategy-Stealing Argument: Because Hales-Jewett guarantees that a line must exist and Tic-Tac-Toe is a "perfect information" game (no hidden moves), mathematicians use the Strategy-Stealing Argument to prove who should win
+
 - In any dimension where a draw is impossible, the first player (X) must have a winning strategy.
 - The Logic: If the second player had a winning strategy, the first player could "steal" it by making a random move first and then following that strategy. Since having an extra piece on the board can never be a disadvantage in Tic-Tac-Toe, the first player would always win.
 
@@ -130,6 +134,75 @@ While the theorem proves these sequences exist for any length, finding actual se
 - Length 10: $199, 409, 619, 829, 1039, 1249, 1459, 1669, 1879, 2089$ (difference of $210$).
 - Current Record: As of September 2019, the longest known arithmetic progression of primes has a length of 27.
 
+## Gomory's Theorem
+
+Gomory's Theorem states that if any two squares of opposite colors are removed from an $8 \times 8$ chessboard, the remaining 62 squares can always be perfectly covered by 31 dominoes, as seen in the [Wolfram Demonstrations Project for Gemory's Theorem](https://demonstrations.wolfram.com/GomorysTheorem/). The method of proof is much more far-reaching: the same is true for any rectangular domain in the square grid that has even number of cells. While it is easy to prove that tiling is impossible if the removed squares are the same color (due to color imbalance), Gomory's Theorem provides the positive guarantee for the opposite case.
+
+### Hamiltonian Path Proof
+
+The most common proof for this theorem uses a Hamiltonian cycle—a single closed path that visits every square on the board exactly once.
+
+1. **The Path**: Imagine a path that snakes through the entire board, starting at one square and eventually returning to it after visiting all 64 squares.
+2. **The Break**: When you remove two squares of opposite colors, you essentially "break" this 64-square loop into two separate segments.
+3. **Even Lengths**: Because the squares in the loop strictly alternate colors (White-Black-White-Black), the distance between a white square and a black square along the path is always an odd number of steps.
+4. **Tiling**: Removing these two squares leaves two segments, each containing an even number of squares. Any path with an even number of squares can be easily tiled by placing dominoes end-to-end along it.
+
+A Hamiltonian path visits every vertex in a graph exactly once. Proving a graph has a Hamiltonian path often involves showing it satisfies specific edge density conditions (e.g., Ore's theorem: $d(u)+d(v) \ge n-1$) or finding a constructive path. The problem is known to be NP-complete, typically proved via reduction from 3SAT to show it is NP-hard.
+
+**Key Theorems & Proof Techniques**
+
+- **Ore's Theorem Variation**: If a simple graph $G$ with $n$ vertices satisfies $d(v) + d(w) \ge n-1$ for all non-adjacent vertex pairs $v, w$, then $G$ has a Hamiltonian path.
+- **Tournament Graphs**: Every tournament graph (a directed graph where every pair of vertices has exactly one directed edge between them) has at least one Hamiltonian path, proven by induction on the number of vertices.
+- **Necessary Condition (Component Method)**: If a graph $G$ has a Hamiltonian path, then for any non-empty proper subset of vertices $S \subset V(G)$, the number of connected components in $G - S$ is at most $|S| + 1$.
+
+**Proving NP-Completeness (HAMPATH)**
+
+To prove the Hamiltonian Path Problem (HPP) is NP-complete, we show it is in NP and that it is NP-hard.
+
+1. **In NP**: Given a path, one can verify in polynomial time $O(n)$ if it visits every vertex exactly once.
+2. **NP-Hard (Reduction from 3SAT):**
+   - Construct a graph where, for a 3-CNF formula with $k$ clauses and $l$ variables, a "gadget" (a series of nodes) is created for each variable.
+   - Add nodes and edges representing clauses that force any path visiting all nodes to correspond to a satisfying assignment of the 3SAT formula.
+   - A path exists if and only if the 3SAT formula is satisfiable.
+
+**Zero-Knowledge Proof**
+
+In cryptography, a prover can demonstrate knowledge of a Hamiltonian path for a graph $G$ to a verifier without revealing the path itself. The prover commits to a graph $G'$ that is a random permutation of $G$, reveals the permutation for some edges to prove isomorphism, and eventually reveals the path on $G'$.
+
+### Hamiltonian Cycle
+
+A Hamiltonian cycle (or Hamiltonian circuit) is a closed loop in a graph that visits every vertex exactly once and returns to the starting vertex. A graph that contains such a cycle is called a Hamiltonian graph.
+
+**Key Characteristics**
+
+- Vertex Coverage: Unlike an Eulerian circuit which must visit every edge exactly once, a Hamiltonian cycle focuses exclusively on visiting every vertex once.
+- Relationship to Path: A Hamiltonian path visits every vertex once but does not need to return to the start. Every Hamiltonian cycle is a Hamiltonian path, but the reverse is only true if the path's endpoints are connected by an edge.
+- Computational Complexity: Determining if a general graph contains a Hamiltonian cycle is an NP-complete problem. While a proposed cycle can be verified quickly, finding one in large, complex graphs is computationally difficult.
+
+<figure>
+  <img src="../images/Hamiltonian cycle.png" alt="Hamiltonian Path">
+  <figcaption>Hamiltonian Path. Source: <a href="https://www.geeksforgeeks.org/dsa/proof-that-hamiltonian-cycle-is-np-complete/">"Proof that Hamiltonian Cycle is NP-Complete," GeeksForGeeks</a>.</figcaption>
+</figure>
+
+**Conditions for Existence**
+
+Since finding these cycles is hard, mathematicians use several theorems to identify them:
+
+- Dirac’s Theorem: A simple graph with $n$ vertices ($n \geq 3$) has a Hamiltonian cycle if every vertex has a degree of at least $n/2$.
+- Ore’s Theorem: A simple graph with $n$ vertices ($n \geq 3$) is Hamiltonian if, for every pair of non-adjacent vertices, the sum of their degrees is at least $n$.
+- Bondy–Chvátal Theorem: A graph is Hamiltonian if and only if its closure is Hamiltonian.
+
+**Common Examples & Applications**
+
+- Platonic Solids: The graphs formed by the edges and vertices of all Platonic solids (like a cube or dodecahedron) are Hamiltonian.
+- Traveling Salesperson Problem (TSP): The Hamiltonian cycle problem is a special case of TSP where all edge weights are considered equal.
+- Logistics & Computing: These cycles are used in network design, genome mapping, and planning efficient delivery routes (e.g., school bus paths).
+
+**Related Concepts**
+
+It is important to distinguish this from Gomory's Cutting Plane Method (or "Gomory Cuts"), which is a famous algorithm in integer programming used to find integer solutions to linear problems by "cutting" away non-integer parts of a solution space. While both were developed by mathematician Ralph E. Gomory, they apply to very different fields.  
+Would you like to see an example of a Hamiltonian path that can be used to visualize this tiling?
+
 ## Different Types of Numbers
 
 ### Narcissistic Numbers
@@ -155,8 +228,8 @@ Classic Examples:
 
 - **Finite Sequence**: There are exactly 88 narcissistic numbers in base 10.
 - **Upper Bound**: It has been proven that no narcissistic number can have more than 60 digits. This is because for $n > 60$, the sum of the digits ($n \times 9^n$) will always be smaller than the smallest $n$-digit number ($10^{n-1}$).
-- **Largest Number**: The largest base-10 narcissistic number has 39 digits: 
-    $$115,132,219,018,763,992,565,095,597,973,971,522,401$$
+- **Largest Number**: The largest base-10 narcissistic number has 39 digits:
+  $$115,132,219,018,763,992,565,095,597,973,971,522,401$$
 - **Mathematical Interest**: While popular in recreational mathematics and programming exercises, famous mathematician G.H. Hardy once dismissed them as "odd facts" that hold little appeal for professional mathematicians.
 
 **Common Narcissistic Numbers (Base 10):**
@@ -181,13 +254,13 @@ Narcissistic numbers exist in every base, but the specific numbers that qualify 
 
 As the base increases, the density and maximum possible size of these numbers change.
 
-| Base | Representative Narcissistic Numbers (Decimal Value)                |
-| ---- | ------------------------------------------------------------------ |
-| $2$    | $0$, $1$                                                               |
-| $3$    | $0$, $1$, $2$, $5$ ($12_3$), $8$ ($22_3$), $17$ ($122_3$)                      |
-| $4$    | $0$, $1$, $2$, $3$, $28$ ($130_4$), $29$ ($131_4$), $35$ ($203_4$), $43$ ($223_4$) |
-| $10$   | $0$-$9$, $153$, $370$, $371$, $407$, $1634$, $8208$, $9474$, ...                     |
-| $16$   | $0$-$\text{F}$, $156$ ($126_{16}$), $1014$ ($3\text{F}6_{16}$), $1541$ ($605_{16}$)        |
+| Base | Representative Narcissistic Numbers (Decimal Value)                                 |
+| ---- | ----------------------------------------------------------------------------------- |
+| $2$  | $0$, $1$                                                                            |
+| $3$  | $0$, $1$, $2$, $5$ ($12_3$), $8$ ($22_3$), $17$ ($122_3$)                           |
+| $4$  | $0$, $1$, $2$, $3$, $28$ ($130_4$), $29$ ($131_4$), $35$ ($203_4$), $43$ ($223_4$)  |
+| $10$ | $0$-$9$, $153$, $370$, $371$, $407$, $1634$, $8208$, $9474$, ...                    |
+| $16$ | $0$-$\text{F}$, $156$ ($126_{16}$), $1014$ ($3\text{F}6_{16}$), $1541$ ($605_{16}$) |
 
 ##### Why Bases Matter
 
@@ -243,9 +316,9 @@ While 1 is a Kaprekar number in every base, other values change as the base incr
 
 | Base    | Kaprekar Numbers (Shown in Decimal Value) | Examples in Base Representation                                |
 | ------- | ----------------------------------------- | -------------------------------------------------------------- |
-| Base-10 | $1, 9, 45, 55, 99, 297, 703,\dots$          | $45^2 = 2025 \rightarrow 20+25 = 45$                           |
-| Base-12 | $1, 11, 66, 78, 143,\dots$                   | $B_{12}^2 = A1_{12} \rightarrow A + 1 = B_{12}$ (Decimal $11$) |
-| Base-16 | $1, 6, 15, 85, 171, 205, 255,\dots$          | $F_{16}^2 = E1_{16} \rightarrow E + 1 = F_{16}$ (Decimal $15$) |
+| Base-10 | $1, 9, 45, 55, 99, 297, 703,\dots$        | $45^2 = 2025 \rightarrow 20+25 = 45$                           |
+| Base-12 | $1, 11, 66, 78, 143,\dots$                | $B_{12}^2 = A1_{12} \rightarrow A + 1 = B_{12}$ (Decimal $11$) |
+| Base-16 | $1, 6, 15, 85, 171, 205, 255,\dots$       | $F_{16}^2 = E1_{16} \rightarrow E + 1 = F_{16}$ (Decimal $15$) |
 
 **Key Differences**
 
@@ -283,7 +356,7 @@ The first few values of $C_n$ are:
   <figcaption>The number of ways a polygon with n+2 sides can be cut into n triangles. Source: <a href="https://mathshistory.st-andrews.ac.uk/Extras/Catalan/#polygon">MacTutor</a>.</figcaption>
 </figure>
 
-#### Classic Combinatorial 
+#### Classic Combinatorial
 
 - **Dyck Paths**: The number of monotonic lattice paths from $(0,0)$ to $(n,n)$ that never cross the diagonal.
 - **Polygon Triangulation**: The number of ways to divide a convex polygon with $n+2$ sides into $n$ triangles using non-intersecting diagonals.
@@ -351,7 +424,7 @@ The second kind (often denoted as $S(n, k)$ or $\left\{ \begin{smallmatrix} n \\
 - **Recurrence Relation**: To find the next number, you use the previous row:
   $$S(n, k) = k \cdot S(n-1, k) + S(n-1, k-1)$$
 - **Relationship to Bell Numbers**: The sum of an entire row of Stirling numbers of the second kind is the corresponding Bell number:
-    $$\displaystyle B_n = \sum_{k=0}^n S(n, k)$$
+  $$\displaystyle B_n = \sum_{k=0}^n S(n, k)$$
 
 #### Stirling Numbers of the First Kind
 
