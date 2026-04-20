@@ -304,6 +304,28 @@ Cunningham, S., et al. "Violent Video Games and Violent Crime." _Southern Econom
 
 DeCamp, W. "Who Plays Violent Video Games? An Exploratory Analysis of Predictors of Playing Violent Games." _Personality and Individual Differences_, vol. 117, 2017, pp. 260-266, doi:10.1016/j.paid.2017.06.027.
 
+Devilly, Grant J., et al. "Personality and Frustration Predict Aggression and Anger Following Violent Media." _Psychology, Crime & Law_, 2021, doi:10.1080/1068316X.2021.1999949.
+
+DiGioia, Amanda. "The Nightmare of Reality: Video Games as Eastern European Cultural Export and Catharsis to Trauma." _Contemporary Slavic Horror Across Media_, Manchester UP, 2025, doi:10.7765/9781526172785.00010.
+
+Dill, Karen E., et al. "Violence, Sex, Race, and Age in Popular Video Games: A Content Analysis." _Featuring Females: Feminist Analyses of Media_, edited by Ellen Cole and Jessica Henderson Daniel, American Psychological Association, 2005, pp. 115-130, doi:10.1037/11213-008.
+
+Ding, K., and H. Li. "Digital Addiction Intervention for Children and Adolescents: A Scoping Review." _International Journal of Environmental Research and Public Health_, vol. 20, no. 6, 2023, p. 4777, doi:10.3390/ijerph20064777.
+
+Dowsett, A., and M. Jackson. "The Effect of Violence and Competition Within Video Games on Aggression." _Computers in Human Behavior_, vol. 99, 2019, pp. 22-27, doi:10.1016/j.chb.2019.05.002.
+
+"Effect of Video Games on Work and Study Attitudes of Grade Four Pupils in Three Schools." Academia.edu, https://www.academia.edu/download/121653567/Effect_of_Video_Games_on_Work_and_Study_Attitudes_of_Grade_Four_Pupils_in_Three_Schools_.pdf.
+
+Ferguson, Christopher J. "Violent Video Games, Sexist Video Games, and the Law: Why Can't We Find Effects?" _Annual Review of Law and Social Science_, vol. 14, no. 1, 2018, pp. 411-426, doi:10.1146/annurev-lawsocsci-101317-031036.
+
+Ferguson, Christopher J., and John C. K. Wang. "Aggressive Video Games Are Not a Risk Factor for Future Aggression in Youth: A Longitudinal Study." _Journal of Youth and Adolescence_, vol. 48, no. 1, 2019, pp. 1439-1451, doi:10.1007/s10964-019-01069-0.
+
+Ferguson, Christopher J., and C. K. John Wang. "Aggressive Video Games Are Not a Risk Factor for Mental Health Problems in Youth: A Longitudinal Study." _Cyberpsychology, Behavior, and Social Networking_, vol. 24, no. 1, 2021, pp. 70-73, doi:10.1089/cyber.2020.0027.
+
+Ferguson, Christopher J., et al. "Reexamining the Findings of the American Psychological Association's 2015 Task Force on Violent Media: A Meta-Analysis." _Perspectives on Psychological Science_, vol. 15, no. 6, 2020, pp. 1-21, doi:10.1177/1745691620927666.
+
+Foster, H. "How Do Video Games Normalize Violence? A Qualitative Content Analysis of Popular Video Games." Master's thesis, Northern Arizona University, 2016.
+
 Anderson, Craig A., and Brad J. Bushman. "Media Violence and the General Aggression Model." _Journal of Social Issues_, vol. 74, no. 2, 2018, pp. 386-413, doi:10.1111/josi.12275.
 
 Anderson, Craig A., et al. "Violent Video Game Effects on Aggression, Empathy, and Prosocial Behavior in Eastern and Western Countries: A Meta-Analytic Review." _Psychological Bulletin_, vol. 136, no. 2, 2010, pp. 151-173, doi:10.1037/a0018251.
