@@ -197,7 +197,9 @@ Longitudinal research by Ferguson and Wang found that aggressive video games wer
 
 These findings suggest that individual differences and contextual factors play crucial moderating roles. Using a risk and resilience framework, Gentile and Bushman argue that violent video games may be one of many risk factors, with effects depending on the presence of protective factors and individual vulnerabilities (138). Historical research on excitation transfer theory suggests that arousal from one activity can transfer to subsequent behaviors, complicating the attribution of aggression specifically to game content (Zillmann et al. 247).
 
-#### Rebuttal 
+#### Rebuttal
+
+However, while personality factors and frustration tolerance do moderate gaming effects, dismissing content as irrelevant contradicts substantial neuroimaging and meta-analytic evidence. The American Psychological Association's 2015 Task Force on Violent Media conducted a comprehensive review concluding that violent video game use is associated with increased aggressive outcomes ("APA Task Force"). Longitudinal studies by Greitemeyer found evidence of "contagious impact," where playing violent video games predicted increased aggression over time ("The Contagious Impact" 635). Moreover, a comprehensive meta-analysis reviewing 25 years of research concluded that violent game exposure is associated with increased aggression (Bushman and Huesmann 47). Content-specific research demonstrates that the amount of blood depicted in violent games intensifies aggressive responses, hostility, and arousal (Barlett et al. 539), and profanity in violent video games increases hostile expectations, aggressive thoughts, and negative feelings beyond violence alone (Ivory and Kaestle 224). Laboratory and real-life studies have documented that video games can influence aggressive thoughts, feelings, and behavior (Anderson and Dill 772). Experimental research examining reward and punishment mechanics found that both conditions increased aggressive affect, cognition, and behavior, suggesting that game mechanics amplify violence effects (Carnagey and Anderson 882). The interactivity of video games distinguishes them from passive media—unlike movies or TV, video games require players to actively perform violent acts, which serves as a "virtual rehearsal" for real-life aggression (Anderson and Bushman 388). While individual differences matter, the evidence suggests that violent content itself remains a significant risk factor that cannot be dismissed as merely correlational with pre-existing traits. 
 
 ### Stress-Relief and Positive Mental Health Outcomes
 
@@ -205,7 +207,9 @@ Some research suggests video games can serve as a stress-relief mechanism for pl
 
 However, research on frustration and game choice challenges simple catharsis models: studies found that frustration actually diminishes the inclination to play violent video games, suggesting players seek solace rather than catharsis (Seetahul and Greitemeyer 589). A study on gaming and mental health found significant links between video game play and flourishing mental health, challenging assumptions that gaming is universally harmful (Jones et al. 260). <mark>Researchers at UNSW explain that "violent video games usually provide players with a sense of control and agency, and allow them to build mastery over time," suggesting that these games may fulfill important psychological needs</mark> ("Why Do We Like"). Harvard Health notes that while concerns about violent content are valid, the effects are complex and context-dependent, with some players using games as healthy coping mechanisms ("Violent Video Games and Young People"). Research exploring whether violent gaming provides stimulation or catharsis found evidence supporting both mechanisms, depending on player characteristics and gaming context (Lee et al. 41).
 
-#### Rebuttal 
+#### Rebuttal
+
+While players may perceive a sense of control and mastery, this psychological benefit must be weighed against documented neurological and behavioral harms. The "sense of control" argument overlooks that many games utilize reward systems that reinforce violent actions as an effective way to solve problems or achieve goals, potentially creating maladaptive problem-solving patterns. Excessive gaming can create a feedback loop similar to addiction, where players develop cravings, leading to irritability, anxiety, and low motivation when not playing—the very opposite of healthy stress relief. Violent video games can lead to dopamine imbalance by constantly flooding the brain's pleasure center, causing desensitization and lower baseline production, ultimately reducing motivation for everyday tasks and increasing impulsivity and emotional instability. Fast-paced, competitive gameplay can trigger a "fight or flight" response, and excessive use can lead to the brain being revved up in a constant state of hyperarousal, which can manifest as difficulties with paying attention, managing emotions, controlling impulses, decreased immune function, irritability, depression, and unstable blood sugar levels. Research has identified relationships between online game addiction and personality traits including narcissism, aggression, and reduced self-control (Kim et al. 212). Individuals with social anxiety may use violent video games as a temporary escape from social interaction, leading to increased isolation, loneliness, and ultimately worse anxiety (Marino et al. 617). The "mastery" players develop may come at the cost of long-term well-being, as a national study found that approximately 8.5% of youth ages 8 to 18 meet criteria for pathological video game use (Gentile 594), with the WHO officially recognizing gaming disorder characterized by impaired control, increasing priority given to gaming, and continuation despite negative consequences. 
 
 ### Cultural Context and Diverse Gaming Narratives
 
@@ -215,19 +219,25 @@ The phrase "games without tears, wars without frontiers" captures how war games 
 
 Analysis of violence in advertising contexts reveals broader patterns in how violent imagery is used across media forms (Jones et al. 11). Legal analysis of amicus facts in Supreme Court cases highlights how scientific evidence is presented and sometimes misrepresented in high-stakes policy debates (Larsen 1757). Constitutional scholarship examining what the First Amendment protects provides frameworks for understanding free speech limits regarding violent content (Fish 203). Critical scholarship on video games and the engaged citizen examines the ambiguity of digital play in fostering civic participation (Hoofd 138). Scholarly work examining pornography and violent video games together explores how networked digital media transform access to controversial content (David 61). These scholarly perspectives suggest that dismissing all violent content ignores the artistic, educational, and therapeutic potential of gaming as a medium. The video game industry has grown to surpass movies and North American sports combined, making it a major cultural force that warrants serious scholarly attention (Witkowski).
 
-#### Rebuttal 
+#### Rebuttal
+
+While some games may serve educational or cultural purposes, these examples represent a small fraction of the gaming market and do not negate the documented harms of mainstream violent games. The cultural significance argument conflates the gaming industry's economic power with its social benefit. Research has identified gaming environments as potential "misogyny incubators" where everyday sexism can be channeled into violent extremism, with gaming communities facilitating radicalization processes that transform casual sexist attitudes into more extreme ideologies and potentially violent behaviors (Miller-Idriss 136). Studies examining identity fusion and extremism in gaming culture reveal how strong group identification within gaming communities can contribute to radicalization processes (Kowert et al.). Research on extremists' use of gaming platforms documents how these spaces are exploited for recruitment, normalization of extreme ideologies, and community building (Schlegel). Analysis of jihadi propaganda in electronic entertainment shows how terrorist organizations have adapted video game motifs and mechanics to spread their messages (Lakomy 383). The toxic online environments common in competitive gaming communities can exacerbate mental health challenges, particularly for vulnerable youth, with online harassment leading to long-term psychological consequences including anxiety, depression, and reduced self-esteem (Amjad et al. 1). A systematic review on violence, hate speech, and discrimination in video games provides comprehensive analysis of how problematic content pervades gaming environments (Moreno-López and Argüello-Gutiérrez). While games theoretically could serve positive cultural functions, the reality is that much of the industry profits from designs that exploit psychological vulnerabilities, normalize violence, and create toxic social environments—cultural significance does not override public health concerns. 
 
 ### Cognitive and Therapeutic Benefits
 
 Despite concerns about violent content, research has identified numerous benefits of video game play. <mark>A comprehensive review by Granic, Lobel, and Engels documented benefits including enhanced cognitive skills, motivation, emotion regulation, and social functioning (66)</mark>. Video games can enhance psychomotor skills and cognitive abilities; analysis of gameplay shows measurable improvements in spatial reasoning, problem-solving, and hand-eye coordination (Kazimoglu and Bacon 110495). Research examining video games and their effects on cognition has documented improvements in attention, memory, and executive functioning across various game types ("Video Games and Cognition"). Medical research highlights that gaming's cognitive benefits depend on the type of game, amount of play, and individual differences, with moderate engagement potentially offering positive outcomes ("Game Plan"). Active video games have been shown to promote physical activity in children and youth, offering potential health benefits (Biddiss and Irwin 664). Research assessing a pilot video's effect on physical activity and heart health for young children demonstrates that interactive media can promote healthy behaviors when designed appropriately (Levin et al. 10). Educational research on practicality in virtuality examining student meaning in video game education found that games can provide authentic learning experiences when integrated thoughtfully into curricula (Barko and Sadler 124). Studies on transformations in perception and participation through digital games document how gaming reshapes cognitive processes and social engagement (van de Vall 110). Educational computer games can positively affect students' attitudes toward mathematics and learning, demonstrating pedagogical applications (Çankaya and Karamete 145). An intercultural perspective on video game impact reveals that effects vary significantly across cultural contexts, with some cultures integrating gaming more successfully into healthy lifestyles (Shliakhovchuk and Muñoz García 40). Qualitative research on clinicians' perspectives has explored the utility of video games in psychotherapy with children and adolescents, suggesting therapeutic applications when used appropriately (Alder). <mark>Research on recreational awareness demonstrates that structured recreational programs can prevent digital game addiction associated with social exclusion in adolescents (Akçakese and Demirel 1).</mark> Studies examining frequency versus enjoyment of gaming activities suggest that how much players enjoy games matters more than how much time they spend playing (Adachi and Willoughby, "It's Not How Much You Play" 137). Gaming has become a widespread phenomenon, with statistics showing that 70.4% of internet users play games on smartphones globally, making it a major cultural and social activity (Clement).
 
-#### Rebuttal 
+#### Rebuttal
+
+Crucially, the cognitive benefits research cited predominantly examines non-violent or educational games, not the violent shooter games at the center of this debate. The positive effects documented by Granic, Lobel, and Engels do not apply uniformly across all game types, and citing general gaming benefits to defend violent games commits a logical fallacy. Violent video games cause measurable neurological harm: after just one week of violent game play, players showed less activation in the left inferior frontal lobe during emotional tasks and less activation in the anterior cingulate cortex during cognitive tasks—changes in brain regions responsible for emotional control and executive function. Long-term exposure is associated with decreased gray matter volume and changes in brain white matter structure ("Violent Video Games Alter Brain Function"). Fast-paced violent games can decrease activity in the prefrontal cortex responsible for impulse control, emotion regulation, and executive function ("This Is Your Brain on Violent Video Games"). Long-term exposure to gaming violence is associated with reduced empathy and prosocial behaviors, with recent neurocognitive research finding that even acute violent videogame exposure impacts neurocognitive markers of empathic concern (Ritchie et al.). Using facial electromyography, researchers documented both physiological and affective desensitization to violent video games (Read). Experimental research on young boys' academic and behavioral functioning found that receiving a video game system was associated with decreased academic performance and increased behavior problems (Weis and Cerankosky 463). While structured recreational programs may prevent addiction, they represent an intervention needed precisely because gaming poses addiction risks—8.5% of youth ages 8 to 18 meet criteria for pathological video game use (Gentile 594). The need for prevention programs underscores rather than refutes the concerns about gaming harms. The cognitive benefits argument selectively highlights potential positives while ignoring the substantial evidence of neurological, behavioral, and developmental damage caused specifically by violent gaming content. 
 
 ### Safe Outlet for Aggression and Understanding Player Motivations
 
 Some researchers suggest a "cathartic effect," where virtual mayhem provides a safe environment for players to release aggressive impulses or explore fears around death and violence without real-world consequences. Research exploring factors predicting enjoyment of violent video games found that players are often drawn to these games for reasons including competence-building, social connection, and narrative engagement rather than simply violence itself (Riddle et al. 36). <mark>Studies examining the appeal of video games that let players be all they can be found that games allowing expression of ideal self-characteristics are particularly engaging, suggesting identity exploration motivations (Przybylski et al. 69)</mark>. Ethnographic research on videogame play through the eyes of devoted gamers reveals the depth of commitment and meaning-making that dedicated players invest in gaming experiences (Khanolkar and McLean 961). Cultural studies research on playing out identities and emotions documents how gaming provides spaces for identity experimentation and emotional expression (Jansz 267). Research on the allure of the forbidden examining breaking taboos, frustration, and attraction to violent video games found that parental restrictions and social taboos can actually increase the appeal of violent content, particularly among adolescents (Whitaker et al. 507). Understanding why players choose violent games reveals complex motivations beyond simple aggression.
 
-#### Rebuttal 
+#### Rebuttal
+
+While players may be motivated by identity exploration, the concerning question is what identities are being explored and reinforced through violent gameplay. Exposure to violent content can lead to "moral disengagement," where players start to justify or ignore the ethical implications of harmful actions. Content analysis research has identified specific mechanisms through which violent video games communicate violence and facilitate moral disengagement, including justification of violence, dehumanization of victims, and distortion of consequences (Hartmann et al. 1). Research has identified a mechanism by which violent video games increase aggressive behavior: denying humanness to others, where gaming reduces perceptions of target individuals' humanness and increases aggressive responses (Greitemeyer and McLatchie 659). In virtual worlds, violent actions lack the legal or social repercussions found in reality, leading to a disconnect from real-world morality. Studies have found that violent video game exposure is associated with cyberbullying perpetration, with trait aggression and moral identity serving as moderating factors (Teng et al. 1). Effects of pathological gaming on aggressive behavior have been documented, with problematic gaming patterns associated with increased aggression (Lemmens et al. 38). Research examining violent video gaming alongside adverse childhood experiences found complex relationships with fear conditioning, pain-related empathy, pain perception, and pain tolerance, suggesting that gaming effects may interact with trauma histories (Penzkofer). The "ideal self" that violent games allow players to express may be one characterized by aggression, dominance, and moral disengagement—hardly a healthy identity to develop. Studies exploring the impact of gaming addiction and aggression levels in young adults document dose-response relationships between violent gaming and aggression (Agarwal and Kumar). The hostile expectation bias—viewing the world through "blood-red tinted glasses"—has been identified as a mediating mechanism linking violent game exposure to aggression (Hasan et al., "Viewing the World" 953). While players' motivations may be complex, the outcome remains concerning: repeatedly engaging in virtual violence may lower natural psychological barriers against acting out aggressively in real life, with effects observed across both Eastern and Western cultures (Anderson et al., "Violent Video Game Effects" 151). Identity exploration through violent gaming shapes identity in problematic directions. 
 
 ## Possible Alternatives/Solutions
 
@@ -255,380 +265,382 @@ Teaching critical media literacy skills can help young people understand the dis
 
 ## Works Cited
 
-Adachi, P. J., and T. Willoughby. "The Effect of Video Game Competition and Violence on Aggressive Behavior: Which Characteristic Has the Greatest Influence?" _Psychology of Violence_, vol. 1, no. 4, 2011, p. 259, doi:10.1037/a0024908.
+Adachi, P. J., and T. Willoughby. "The Effect of Video Game Competition and Violence on Aggressive Behavior: Which Characteristic Has the Greatest Influence?" _Psychology of Violence_, vol. 1, no. 4, 2011, p. 259, <doi:10.1037/a0024908>.
 
-"It's Not How Much You Play, but How Much You Enjoy the Game: The Longitudinal Associations Between Adolescents' Self-Esteem and the Frequency Versus Enjoyment of Involvement in Sports." _Journal of Youth and Adolescence_, vol. 43, 2014, pp. 137-145, doi:10.1007/s10964-013-9988-3.
+"It's Not How Much You Play, but How Much You Enjoy the Game: The Longitudinal Associations Between Adolescents' Self-Esteem and the Frequency Versus Enjoyment of Involvement in Sports." _Journal of Youth and Adolescence_, vol. 43, 2014, pp. 137-145, <doi:10.1007/s10964-013-9988-3>.
 
-Adachi, P. J. C., and T. Willoughby. "Demolishing the Competition: The Longitudinal Link Between Competitive Video Games, Competitive Gambling, and Aggression." _Journal of Youth and Adolescence_, vol. 42, no. 7, 2013, pp. 1090-1104, doi:10.1007/s10964-013-9952-2.
+Adachi, P. J. C., and T. Willoughby. "Demolishing the Competition: The Longitudinal Link Between Competitive Video Games, Competitive Gambling, and Aggression." _Journal of Youth and Adolescence_, vol. 42, no. 7, 2013, pp. 1090-1104, <doi:10.1007/s10964-013-9952-2>.
 
-Agarwal, Pranshi, and Rita Kumar. "Explore The Impact of Gaming Addiction and Aggression Levels in Young Adults Playing Violent Video Games." _International Journal of Indian Psychology_, vol. 13, no. 2, 2025, doi:10.25215/1302.354.
+Agarwal, Pranshi, and Rita Kumar. "Explore The Impact of Gaming Addiction and Aggression Levels in Young Adults Playing Violent Video Games." _International Journal of Indian Psychology_, vol. 13, no. 2, 2025, <doi:10.25215/1302.354>.
 
-Abbas, Q., et al. "Psychological Effects of Violence Shown in Media Content on Children: A Study of Parents' Perception." _Media and Communication Review_, vol. 5, no. 1, Apr. 2025, pp. 34-55, doi:10.32350/mcr.51.03.
+Abbas, Q., et al. "Psychological Effects of Violence Shown in Media Content on Children: A Study of Parents' Perception." _Media and Communication Review_, vol. 5, no. 1, Apr. 2025, pp. 34-55, <doi:10.32350/mcr.51.03>.
 
-Akçakese, A., and M. Demirel. "Recreational Awareness Prevents Digital Game Addiction Associated with Social Exclusion in Adolescents." _World Leisure Journal_, 2024, pp. 1-20, doi:10.1080/16078055.2024.2337911.
+Akçakese, A., and M. Demirel. "Recreational Awareness Prevents Digital Game Addiction Associated with Social Exclusion in Adolescents." _World Leisure Journal_, 2024, pp. 1-20, <doi:10.1080/16078055.2024.2337911>.
 
-Akel, M., et al. "Association of Violent Video Gaming with Mental Health Among Male Teenagers in Lebanon." _Vulnerable Children and Youth Studies_, vol. 18, no. 1, 2023, pp. 76-86, doi:10.1080/17450128.2022.2160884.
+Akel, M., et al. "Association of Violent Video Gaming with Mental Health Among Male Teenagers in Lebanon." _Vulnerable Children and Youth Studies_, vol. 18, no. 1, 2023, pp. 76-86, <doi:10.1080/17450128.2022.2160884>.
 
 Alder, Tyler D. _The Utility of Video Games in Psychotherapy With Children and Adolescents: A Qualitative Study of Clinicians' Perspectives_. ProQuest Dissertations & Theses, Alliant International University, 2025.
 
-Alhantoushi, M., and S. Alabdullateef. "Internet Addiction Among Secondary School Students in Riyadh City, Its Prevalence, Correlates and Relation to Depression: A Questionnaire Survey." _International Journal of Medical Science and Public Health_, vol. 3, no. 1, 2014, doi:10.5455/ijmsph.2013.130920131.
+Alhantoushi, M., and S. Alabdullateef. "Internet Addiction Among Secondary School Students in Riyadh City, Its Prevalence, Correlates and Relation to Depression: A Questionnaire Survey." _International Journal of Medical Science and Public Health_, vol. 3, no. 1, 2014, <doi:10.5455/ijmsph.2013.130920131>.
 
 Allen, R., and K. Stroken. "Games Without Tears, Wars Without Frontiers." _War, Technology, Anthropology_, Berghahn, 2011, pp. 83-93.
 
-Alshehri, A. G., and A. M. A. S. Mohamed. "The Relationship Between Electronic Gaming and Health, Social Relationships, and Physical Activity Among Males in Saudi Arabia." _American Journal of Men's Health_, vol. 13, no. 4, 2019, doi:10.1177/1557988319873512.
+Alshehri, A. G., and A. M. A. S. Mohamed. "The Relationship Between Electronic Gaming and Health, Social Relationships, and Physical Activity Among Males in Saudi Arabia." _American Journal of Men's Health_, vol. 13, no. 4, 2019, <doi:10.1177/1557988319873512>.
 
 Amjad, Maleeha, et al. "Exploring the Long-Term Psychological Consequences of Cybervictimization Among University Youth in Lahore." _Advance Social Science Archive Journal_, vol. 4, no. 02, 2025.
 
-Anders, Kelly. "Marketing and Policy Considerations for Violent Video Games." _Journal of Public Policy & Marketing_, vol. 18, no. 2, 1999, pp. 270-273, http://www.jstor.org/stable/30000547.
+Anders, Kelly. "Marketing and Policy Considerations for Violent Video Games." _Journal of Public Policy & Marketing_, vol. 18, no. 2, 1999, pp. 270-273, <http://www.jstor.org/stable/30000547>.
 
-"Pathways to Crime: How Exposure to Violence Shapes Criminal Behavior." _Advance Social Science Archive Journal_, vol. 3, no. 02, May 2025, pp. 704-711, https://www.assajournal.com/index.php/36/article/view/370.
+"Pathways to Crime: How Exposure to Violence Shapes Criminal Behavior." _Advance Social Science Archive Journal_, vol. 3, no. 02, May 2025, pp. 704-711, <https://www.assajournal.com/index.php/36/article/view/370>.
 
-Anderson, C. A., et al. "Violent Video Games: Specific Effects of Violent Content on Aggressive Thoughts and Behavior." _Advances in Experimental Social Psychology_, vol. 36, Elsevier Academic Press, 2004, pp. 199-249, doi:10.1016/S0065-2601(04)36004-1.
+Anderson, C. A., et al. "Violent Video Games: Specific Effects of Violent Content on Aggressive Thoughts and Behavior." _Advances in Experimental Social Psychology_, vol. 36, Elsevier Academic Press, 2004, pp. 199-249, <doi:10.1016/S0065-2601(04)36004-1>.
 
-Anderson, Craig A. "An Update on the Effects of Playing Violent Video Games." _Journal of Adolescence_, vol. 27, no. 1, 2004, pp. 113-122, doi:10.1016/j.adolescence.2003.10.009.
+Anderson, Craig A. "An Update on the Effects of Playing Violent Video Games." _Journal of Adolescence_, vol. 27, no. 1, 2004, pp. 113-122, <doi:10.1016/j.adolescence.2003.10.009>.
 
-Anderson, Craig A., and Brad J. Bushman. "Media Violence and the General Aggression Model." _Journal of Social Issues_, vol. 74, no. 2, 2018, pp. 386-413, doi:10.1111/josi.12275.
+Anderson, Craig A., and Brad J. Bushman. "Media Violence and the General Aggression Model." _Journal of Social Issues_, vol. 74, no. 2, 2018, pp. 386-413, <doi:10.1111/josi.12275>.
 
-Anderson, Craig A., and C. R. Murphy. "Violent Video Games and Aggressive Behavior in Young Women." _Aggressive Behavior: Official Journal of the International Society for Research on Aggression_, vol. 29, no. 5, 2003, pp. 423-429, doi:10.1002/ab.10042.
+Anderson, Craig A., and C. R. Murphy. "Violent Video Games and Aggressive Behavior in Young Women." _Aggressive Behavior: Official Journal of the International Society for Research on Aggression_, vol. 29, no. 5, 2003, pp. 423-429, <doi:10.1002/ab.10042>.
 
-Anderson, Craig A., et al. "Violent Video Game Effects on Aggression, Empathy, and Prosocial Behavior in Eastern and Western Countries: A Meta-Analytic Review." _Psychological Bulletin_, vol. 136, no. 2, 2010, pp. 151-173, doi:10.1037/a0018251.
+Anderson, Craig A., et al. "Violent Video Game Effects on Aggression, Empathy, and Prosocial Behavior in Eastern and Western Countries: A Meta-Analytic Review." _Psychological Bulletin_, vol. 136, no. 2, 2010, pp. 151-173, <doi:10.1037/a0018251>.
 
 Anderson, C. A., et al. _Violent Video Game Effects on Children and Adolescents: Theory, Research, and Public Policy_. Oxford UP, 2007.
 
-Andersson, A., and P. E. Milam. "Violent Video Games: Content, Attitudes, and Norms." _Ethics and Information Technology_, vol. 25, no. 52, 2023, doi:10.1007/s10676-023-09726-6.
+Andersson, A., and P. E. Milam. "Violent Video Games: Content, Attitudes, and Norms." _Ethics and Information Technology_, vol. 25, no. 52, 2023, <doi:10.1007/s10676-023-09726-6>.
 
-Anderson, Craig A., and K. E. Dill. "Video Games and Aggressive Thoughts, Feelings, and Behavior in the Laboratory and in Life." _Journal of Personality and Social Psychology_, vol. 78, no. 4, 2000, pp. 772-790, doi:10.1037/0022-3514.78.4.772.
+Anderson, Craig A., and K. E. Dill. "Video Games and Aggressive Thoughts, Feelings, and Behavior in the Laboratory and in Life." _Journal of Personality and Social Psychology_, vol. 78, no. 4, 2000, pp. 772-790, <doi:10.1037/0022-3514.78.4.772>.
 
-"APA Reaffirms Position on Violent Video Games and Violent Behavior." _American Psychological Association_, 3 Mar. 2020, https://www.apa.org/news/press/releases/2020/03/violent-video-games-behavior.
+"APA Reaffirms Position on Violent Video Games and Violent Behavior." _American Psychological Association_, 3 Mar. 2020, <https://www.apa.org/news/press/releases/2020/03/violent-video-games-behavior>.
 
-"APA Task Force on Violent Media: Technical Report on the Review of the Violent Video Game Literature." _American Psychological Association_, 2015, https://www.apa.org/pi/families/review-video-games.pdf.
+"APA Task Force on Violent Media: Technical Report on the Review of the Violent Video Game Literature." _American Psychological Association_, 2015, <https://www.apa.org/pi/families/review-video-games.pdf>.
 
-"Are Video Games and Screens Another Addiction." _Mayo Clinic Health System_, https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/are-video-games-and-screens-another-addiction.
+"Are Video Games and Screens Another Addiction." _Mayo Clinic Health System_, <https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/are-video-games-and-screens-another-addiction>.
 
-Astre, K. "Shooters or Sports: What's the Most Popular Gaming Genre?" GWI, 7 Mar. 2023, https://blog.gwi.com/marketing/most-popular-gaming-genre/.
+Astre, K. "Shooters or Sports: What's the Most Popular Gaming Genre?" GWI, 7 Mar. 2023, <https://blog.gwi.com/marketing/most-popular-gaming-genre/>.
 
 Awan, Husnain Hameed, et al. "Understanding Cyber Victimization: Risk Patterns Among University Students in Pakistan." _Advance Social Science Archive Journal_, vol. 5, no. 01, 2026.
 
-Barko, Timothy, and Troy D. Sadler. "Practicality in Virtuality: Finding Student Meaning in Video Game Education." _Journal of Science Education and Technology_, vol. 22, no. 2, 2013, pp. 124-132, http://www.jstor.org/stable/23442282.
+Barko, Timothy, and Troy D. Sadler. "Practicality in Virtuality: Finding Student Meaning in Video Game Education." _Journal of Science Education and Technology_, vol. 22, no. 2, 2013, pp. 124-132, <http://www.jstor.org/stable/23442282>.
 
-Barlett, C. P., et al. "The Effect of the Amount of Blood in a Violent Video Game on Aggression, Hostility, and Arousal." _Journal of Experimental Social Psychology_, vol. 44, no. 3, 2008, pp. 539-546, doi:10.1016/j.jesp.2007.10.003.
+Barlett, C. P., et al. "The Effect of the Amount of Blood in a Violent Video Game on Aggression, Hostility, and Arousal." _Journal of Experimental Social Psychology_, vol. 44, no. 3, 2008, pp. 539-546, <doi:10.1016/j.jesp.2007.10.003>.
 
-Bartholow, B. D., et al. "Chronic Violent Video Game Exposure and Desensitization to Violence: Behavioral Patterns and Neurofunctioning in Young Adults." _Journal of Experimental Social Psychology_, vol. 43, no. 2, 2006, pp. 301-308, doi:10.1016/j.jesp.2005.08.006.
+Bartholow, B. D., et al. "Chronic Violent Video Game Exposure and Desensitization to Violence: Behavioral Patterns and Neurofunctioning in Young Adults." _Journal of Experimental Social Psychology_, vol. 43, no. 2, 2006, pp. 301-308, <doi:10.1016/j.jesp.2005.08.006>.
 
-"Correlates and Consequences of Exposure to Video Game Violence: Hostile Personality, Empathy, and Aggressive Behavior." _Personality and Social Psychology Bulletin_, vol. 31, no. 11, 2005, pp. 1573-1586, doi:10.1177/0146167205277205.
+"Correlates and Consequences of Exposure to Video Game Violence: Hostile Personality, Empathy, and Aggressive Behavior." _Personality and Social Psychology Bulletin_, vol. 31, no. 11, 2005, pp. 1573-1586, <doi:10.1177/0146167205277205>.
 
-Batmaz, H., and E. Çelik. "Examining the Online Game Addiction Level in Terms of Sensation Seeking and Loneliness in University Students." _Addicta: The Turkish Journal on Addictions_, vol. 8, no. 2, 2021, pp. 126-131, doi:10.5152/ADDICTA.2021.21017.
+Batmaz, H., and E. Çelik. "Examining the Online Game Addiction Level in Terms of Sensation Seeking and Loneliness in University Students." _Addicta: The Turkish Journal on Addictions_, vol. 8, no. 2, 2021, pp. 126-131, <doi:10.5152/ADDICTA.2021.21017>.
 
-Becker-Olsen, Karen L., and Patricia A. Norberg. "CAUTION, ANIMATED VIOLENCE: Assessing the Efficacy of Violent Video Game Ratings." _Journal of Advertising_, vol. 39, no. 4, 2010, pp. 83-94, http://www.jstor.org/stable/25780661.
+Becker-Olsen, Karen L., and Patricia A. Norberg. "CAUTION, ANIMATED VIOLENCE: Assessing the Efficacy of Violent Video Game Ratings." _Journal of Advertising_, vol. 39, no. 4, 2010, pp. 83-94, <http://www.jstor.org/stable/25780661>.
 
-Biddiss, E., and J. Irwin. "Active Video Games to Promote Physical Activity in Children and Youth." _Archives of Pediatrics & Adolescent Medicine_, vol. 164, no. 7, 2010, pp. 664-672, doi:10.1001/archpediatrics.2010.104.
+Biddiss, E., and J. Irwin. "Active Video Games to Promote Physical Activity in Children and Youth." _Archives of Pediatrics & Adolescent Medicine_, vol. 164, no. 7, 2010, pp. 664-672, <doi:10.1001/archpediatrics.2010.104>.
 
-Blain-Arcaro, C., and T. Vaillancourt. "Longitudinal Associations Between Depression and Aggression in Children and Adolescents." _Journal of Abnormal Child Psychology_, vol. 45, no. 1, 2017, pp. 959-970, doi:10.1007/s10802-016-0204-2.
+Blain-Arcaro, C., and T. Vaillancourt. "Longitudinal Associations Between Depression and Aggression in Children and Adolescents." _Journal of Abnormal Child Psychology_, vol. 45, no. 1, 2017, pp. 959-970, <doi:10.1007/s10802-016-0204-2>.
 
-Bluemke, M., et al. "The Influence of Violent and Nonviolent Computer Games on Implicit Measures of Aggressiveness." _Aggressive Behavior_, vol. 36, no. 1, 2010, pp. 1-13, doi:10.1002/ab.20329.
+Bluemke, M., et al. "The Influence of Violent and Nonviolent Computer Games on Implicit Measures of Aggressiveness." _Aggressive Behavior_, vol. 36, no. 1, 2010, pp. 1-13, <doi:10.1002/ab.20329>.
 
-Brockmyer, Jeanne Funk. "Desensitization and Violent Video Games: Mechanisms and Evidence." _Child and Adolescent Psychiatric Clinics_, vol. 31, no. 1, 2022, pp. 121-132, doi:10.1016/j.chc.2021.06.005.
+Brockmyer, Jeanne Funk. "Desensitization and Violent Video Games: Mechanisms and Evidence." _Child and Adolescent Psychiatric Clinics_, vol. 31, no. 1, 2022, pp. 121-132, <doi:10.1016/j.chc.2021.06.005>.
 
-Borrego-Ruiz, A., and J. J. Borrego. "Adolescent Aggression: A Narrative Review on the Potential Impact of Violent Video Games." _Psychology International_, vol. 7, no. 1, 2025, p. 12, doi:10.3390/psycholint7010012.
+Borrego-Ruiz, A., and J. J. Borrego. "Adolescent Aggression: A Narrative Review on the Potential Impact of Violent Video Games." _Psychology International_, vol. 7, no. 1, 2025, p. 12, <doi:10.3390/psycholint7010012>.
 
-Bushman, B. J., and L. R. Huesmann. "Twenty-Five Years of Research on Violence in Digital Games and Aggression Revisited." _European Psychologist_, vol. 19, no. 1, 2014, pp. 47-55, doi:10.1027/1016-9040/a000164.
+Bushman, B. J., and L. R. Huesmann. "Twenty-Five Years of Research on Violence in Digital Games and Aggression Revisited." _European Psychologist_, vol. 19, no. 1, 2014, pp. 47-55, <doi:10.1027/1016-9040/a000164>.
 
-Burkhardt, J., and W. Lenhard. "A Meta-Analysis on the Longitudinal, Age-Dependent Effects of Violent Video Games on Aggression." _Media Psychology_, vol. 25, no. 3, 2022, pp. 499-512, doi:10.1080/15213269.2021.1980729.
+Burkhardt, J., and W. Lenhard. "A Meta-Analysis on the Longitudinal, Age-Dependent Effects of Violent Video Games on Aggression." _Media Psychology_, vol. 25, no. 3, 2022, pp. 499-512, <doi:10.1080/15213269.2021.1980729>.
 
-Çankaya, S., and A. Karamete. "The Effects of Educational Computer Games on Students' Attitudes Towards Mathematics Course and Educational Computer Games." _Procedia - Social and Behavioral Sciences_, vol. 1, no. 1, 2009, pp. 145-149, doi:10.1016/j.sbspro.2009.01.027.
+Çankaya, S., and A. Karamete. "The Effects of Educational Computer Games on Students' Attitudes Towards Mathematics Course and Educational Computer Games." _Procedia - Social and Behavioral Sciences_, vol. 1, no. 1, 2009, pp. 145-149, <doi:10.1016/j.sbspro.2009.01.027>.
 
-Card, Noel A., et al. "Direct and Indirect Aggression During Childhood and Adolescence: A Meta-Analytic Review of Gender Differences, Intercorrelations, and Relations to Maladjustment." _Child Development_, vol. 79, no. 5, 2008, pp. 1185-1229, doi:10.1111/j.1467-8624.2008.01184.x.
+Card, Noel A., et al. "Direct and Indirect Aggression During Childhood and Adolescence: A Meta-Analytic Review of Gender Differences, Intercorrelations, and Relations to Maladjustment." _Child Development_, vol. 79, no. 5, 2008, pp. 1185-1229, <doi:10.1111/j.1467-8624.2008.01184.x>.
 
-Carpita, Barbara, et al. "Biochemical Correlates of Video Game Use: From Physiology to Pathology. A Narrative Review." _Life_, vol. 11, no. 8, 2021, p. 775, doi:10.3390/life11080775.
+Carpita, Barbara, et al. "Biochemical Correlates of Video Game Use: From Physiology to Pathology. A Narrative Review." _Life_, vol. 11, no. 8, 2021, p. 775, <doi:10.3390/life11080775>.
 
-Carnagey, N., et al. "The Effect of Video Game Violence on Physiological Desensitization to Real-Life Violence." _Journal of Experimental Social Psychology_, vol. 43, 2007, pp. 489-496, doi:10.1016/j.jesp.2006.05.003.
+Carnagey, N., et al. "The Effect of Video Game Violence on Physiological Desensitization to Real-Life Violence." _Journal of Experimental Social Psychology_, vol. 43, 2007, pp. 489-496, <doi:10.1016/j.jesp.2006.05.003>.
 
-Carnagey, Nicholas L., and Craig A. Anderson. "The Effects of Reward and Punishment in Violent Video Games on Aggressive Affect, Cognition, and Behavior." _Psychological Science_, vol. 16, no. 11, 2005, pp. 882-889, http://www.jstor.org/stable/40064334.
+Carnagey, Nicholas L., and Craig A. Anderson. "The Effects of Reward and Punishment in Violent Video Games on Aggressive Affect, Cognition, and Behavior." _Psychological Science_, vol. 16, no. 11, 2005, pp. 882-889, <http://www.jstor.org/stable/40064334>.
 
-Carnagey, Nicholas L., et al. "Media Violence and Social Neuroscience: New Questions and New Opportunities." _Current Directions in Psychological Science_, vol. 16, no. 4, 2007, pp. 178-182, http://www.jstor.org/stable/20183192.
+Carnagey, Nicholas L., et al. "Media Violence and Social Neuroscience: New Questions and New Opportunities." _Current Directions in Psychological Science_, vol. 16, no. 4, 2007, pp. 178-182, <http://www.jstor.org/stable/20183192>.
 
-Clement, J. "Share of Internet Users Worldwide Playing Games on Selected Devices as of 4th Quarter 2023." Statista, 29 May 2024, https://www.statista.com/statistics/533047/leading-devices-play-games/.
+Clement, J. "Share of Internet Users Worldwide Playing Games on Selected Devices as of 4th Quarter 2023." Statista, 29 May 2024, <https://www.statista.com/statistics/533047/leading-devices-play-games/>.
 
-Collier, Joel E., et al. "Exposure of Violent Video Games to Children and Public Policy Implications." _Journal of Public Policy & Marketing_, vol. 27, no. 1, 2008, pp. 107-112, http://www.jstor.org/stable/25651584.
+Collier, Joel E., et al. "Exposure of Violent Video Games to Children and Public Policy Implications." _Journal of Public Policy & Marketing_, vol. 27, no. 1, 2008, pp. 107-112, <http://www.jstor.org/stable/25651584>.
 
-Collier, Kathryn M., et al. "Does Parental Mediation of Media Influence Child Outcomes? A Meta-Analysis on Media Time, Aggression, Substance Use, and Sexual Behavior." _Developmental Psychology_, vol. 52, no. 5, 2016, pp. 798-812, doi:10.1037/dev0000108.
+Collier, Kathryn M., et al. "Does Parental Mediation of Media Influence Child Outcomes? A Meta-Analysis on Media Time, Aggression, Substance Use, and Sexual Behavior." _Developmental Psychology_, vol. 52, no. 5, 2016, pp. 798-812, <doi:10.1037/dev0000108>.
 
-Copenhaver, A., et al. "Is Violent Video Game Playing Related to Trait Aggression or Depression Among Law Enforcement Officers." _Trends in Psychology_, vol. 33, 2025, pp. 434-448, doi:10.1007/s43076-023-00282-y.
+Copenhaver, A., et al. "Is Violent Video Game Playing Related to Trait Aggression or Depression Among Law Enforcement Officers." _Trends in Psychology_, vol. 33, 2025, pp. 434-448, <doi:10.1007/s43076-023-00282-y>.
 
-Coyne, Sarah M., et al. "Pathological Video Game Symptoms from Adolescence to Emerging Adulthood: A 6-Year Longitudinal Study of Trajectories, Predictors, and Outcomes." _Developmental Psychology_, vol. 56, no. 7, 2020, pp. 1385-1396, doi:10.1037/dev0000939.
+Coyne, Sarah M., et al. "Pathological Video Game Symptoms from Adolescence to Emerging Adulthood: A 6-Year Longitudinal Study of Trajectories, Predictors, and Outcomes." _Developmental Psychology_, vol. 56, no. 7, 2020, pp. 1385-1396, <doi:10.1037/dev0000939>.
 
-Coyne, S. M., and L. Stockdale. "Growing Up with Grand Theft Auto: A 10-Year Study of Longitudinal Growth of Violent Video Game Play in Adolescents." _Cyberpsychology Behavior and Social Networking_, vol. 24, no. 1, 2021, pp. 11-16, doi:10.1089/cyber.2020.0049.
+Coyne, S. M., and L. Stockdale. "Growing Up with Grand Theft Auto: A 10-Year Study of Longitudinal Growth of Violent Video Game Play in Adolescents." _Cyberpsychology Behavior and Social Networking_, vol. 24, no. 1, 2021, pp. 11-16, <doi:10.1089/cyber.2020.0049>.
 
-Cuadrado, Alfonso, and Antonio José Planells. "The Mechanics of Evil: The Ludic Imaginary and the Archetypes of Horror in the Representation of Victims, Law Enforcement and Serial Killers in Until Dawn, Heavy Rain and Ravenous Devils." _Catalan Journal of Communication & Cultural Studies_, vol. 17, 2025, pp. 229-245, doi:10.1386/cjcs_00122_1.
+Cuadrado, Alfonso, and Antonio José Planells. "The Mechanics of Evil: The Ludic Imaginary and the Archetypes of Horror in the Representation of Victims, Law Enforcement and Serial Killers in Until Dawn, Heavy Rain and Ravenous Devils." _Catalan Journal of Communication & Cultural Studies_, vol. 17, 2025, pp. 229-245, <doi:10.1386/cjcs_00122_1>.
 
 Cullen, P., and E. Reichborn-Kjennerud. "What Is Hybrid Warfare." _Norwegian Institute of International Affairs_, 2016, p. 4.
 
-Cunningham, S., et al. "Violent Video Games and Violent Crime." _Southern Economic Journal_, vol. 82, no. 4, 2016, pp. 1247-1265, doi:10.1002/soej.12139.
+Cunningham, S., et al. "Violent Video Games and Violent Crime." _Southern Economic Journal_, vol. 82, no. 4, 2016, pp. 1247-1265, <doi:10.1002/soej.12139>.
 
-Dahan, S., et al. "Anxiety, Post‐Traumatic Symptoms, Media‐Induced Secondary Trauma, Post‐Traumatic Growth, and Resilience Among Mental Health Workers During the Israel‐Hamas War." _Stress and Health_, vol. 40, no. 5, 2024, doi:10.1002/smi.3459.
+Dahan, S., et al. "Anxiety, Post‐Traumatic Symptoms, Media‐Induced Secondary Trauma, Post‐Traumatic Growth, and Resilience Among Mental Health Workers During the Israel‐Hamas War." _Stress and Health_, vol. 40, no. 5, 2024, <doi:10.1002/smi.3459>.
 
-Dauber, C. E., et al. "Call of Duty: Jihad – How the Video Game Motif Has Migrated Downstream from Islamic State Propaganda Videos." _Perspectives on Terrorism_, vol. 13, no. 3, 2019, pp. 17-31, https://www.jstor.org/stable/26681906.
+Dauber, C. E., et al. "Call of Duty: Jihad – How the Video Game Motif Has Migrated Downstream from Islamic State Propaganda Videos." _Perspectives on Terrorism_, vol. 13, no. 3, 2019, pp. 17-31, <https://www.jstor.org/stable/26681906>.
 
-David, Matthew. "Pornography and Violent Video Games." _Networked Crime: Does the Digital Make the Difference?_, 1st ed., Bristol UP, 2023, pp. 61-81, https://doi.org/10.2307/jj.4953556.9.
+David, Matthew. "Pornography and Violent Video Games." _Networked Crime: Does the Digital Make the Difference?_, 1st ed., Bristol UP, 2023, pp. 61-81, <https://doi.org/10.2307/jj.4953556.9>.
 
-DeCamp, W. "Who Plays Violent Video Games? An Exploratory Analysis of Predictors of Playing Violent Games." _Personality and Individual Differences_, vol. 117, 2017, pp. 260-266, doi:10.1016/j.paid.2017.06.027.
+DeCamp, W. "Who Plays Violent Video Games? An Exploratory Analysis of Predictors of Playing Violent Games." _Personality and Individual Differences_, vol. 117, 2017, pp. 260-266, <doi:10.1016/j.paid.2017.06.027>.
 
-Derby, John. "Violent Video Games and the Military: Recruitment, Training, and Treating Mental Disability." _Art Education_, vol. 67, no. 3, 2014, pp. 19-25, http://www.jstor.org/stable/24766087.
+Derby, John. "Violent Video Games and the Military: Recruitment, Training, and Treating Mental Disability." _Art Education_, vol. 67, no. 3, 2014, pp. 19-25, <http://www.jstor.org/stable/24766087>.
 
-Devilly, Grant J., et al. "Personality and Frustration Predict Aggression and Anger Following Violent Media." _Psychology, Crime & Law_, 2021, doi:10.1080/1068316X.2021.1999949.
+Devilly, Grant J., et al. "Personality and Frustration Predict Aggression and Anger Following Violent Media." _Psychology, Crime & Law_, 2021, <doi:10.1080/1068316X.2021.1999949>.
 
-Díaz-Faes, D., et al. "Dual-Harm in Mass Shooters: The Long-Term Effects of NSSI and Suicide Attempt on Violent Behavior Severity." _Forensic Science International: Mind and Law_, vol. 6, 2025, p. 100143, doi:10.1016/j.fsiml.2024.100143.
+Díaz-Faes, D., et al. "Dual-Harm in Mass Shooters: The Long-Term Effects of NSSI and Suicide Attempt on Violent Behavior Severity." _Forensic Science International: Mind and Law_, vol. 6, 2025, p. 100143, <doi:10.1016/j.fsiml.2024.100143>.
 
-DiGioia, Amanda. "The Nightmare of Reality: Video Games as Eastern European Cultural Export and Catharsis to Trauma." _Contemporary Slavic Horror Across Media_, Manchester UP, 2025, doi:10.7765/9781526172785.00010.
+DiGioia, Amanda. "The Nightmare of Reality: Video Games as Eastern European Cultural Export and Catharsis to Trauma." _Contemporary Slavic Horror Across Media_, Manchester UP, 2025, <doi:10.7765/9781526172785.00010>.
 
-Dill, Karen E., et al. "Violence, Sex, Race, and Age in Popular Video Games: A Content Analysis." _Featuring Females: Feminist Analyses of Media_, edited by Ellen Cole and Jessica Henderson Daniel, American Psychological Association, 2005, pp. 115-130, doi:10.1037/11213-008.
+Dill, Karen E., et al. "Violence, Sex, Race, and Age in Popular Video Games: A Content Analysis." _Featuring Females: Feminist Analyses of Media_, edited by Ellen Cole and Jessica Henderson Daniel, American Psychological Association, 2005, pp. 115-130, <doi:10.1037/11213-008>.
 
-Ding, K., and H. Li. "Digital Addiction Intervention for Children and Adolescents: A Scoping Review." _International Journal of Environmental Research and Public Health_, vol. 20, no. 6, 2023, p. 4777, doi:10.3390/ijerph20064777.
+Ding, K., and H. Li. "Digital Addiction Intervention for Children and Adolescents: A Scoping Review." _International Journal of Environmental Research and Public Health_, vol. 20, no. 6, 2023, p. 4777, <doi:10.3390/ijerph20064777>.
 
-Dowsett, A., and M. Jackson. "The Effect of Violence and Competition Within Video Games on Aggression." _Computers in Human Behavior_, vol. 99, 2019, pp. 22-27, doi:10.1016/j.chb.2019.05.002.
+Dowsett, A., and M. Jackson. "The Effect of Violence and Competition Within Video Games on Aggression." _Computers in Human Behavior_, vol. 99, 2019, pp. 22-27, <doi:10.1016/j.chb.2019.05.002>.
 
-Dubow, E. F., et al. "Gun Violence Contagion: A Social-Cognitive Perspective." _American Behavioral Scientist_, vol. 69, no. 1, 2025, pp. 17-49, doi:10.1177/00027642241307296.
+Dubow, E. F., et al. "Gun Violence Contagion: A Social-Cognitive Perspective." _American Behavioral Scientist_, vol. 69, no. 1, 2025, pp. 17-49, <doi:10.1177/00027642241307296>.
 
-Elliott, Luther, et al. "More than Just a Game? Combat-Themed Gaming Among Recent Veterans with Posttraumatic Stress Disorder." _Games for Health Journal_, vol. 4, no. 4, 2015, pp. 271-277, doi:10.1089/g4h.2014.0104.
+Elliott, Luther, et al. "More than Just a Game? Combat-Themed Gaming Among Recent Veterans with Posttraumatic Stress Disorder." _Games for Health Journal_, vol. 4, no. 4, 2015, pp. 271-277, <doi:10.1089/g4h.2014.0104>.
 
-Ellis, John. "Computer Games and Aggressive Behavior: A Review of the Literature." _Educational Technology_, vol. 30, no. 2, 1990, pp. 37-40, http://www.jstor.org/stable/44425832.
+Ellis, John. "Computer Games and Aggressive Behavior: A Review of the Literature." _Educational Technology_, vol. 30, no. 2, 1990, pp. 37-40, <http://www.jstor.org/stable/44425832>.
 
-"Effect of Video Games on Work and Study Attitudes of Grade Four Pupils in Three Schools." Academia.edu, https://www.academia.edu/download/121653567/Effect_of_Video_Games_on_Work_and_Study_Attitudes_of_Grade_Four_Pupils_in_Three_Schools_.pdf.
+"Effect of Video Games on Work and Study Attitudes of Grade Four Pupils in Three Schools." Academia.edu, <https://www.academia.edu/download/121653567/Effect_of_Video_Games_on_Work_and_Study_Attitudes_of_Grade_Four_Pupils_in_Three_Schools_.pdf>.
 
-Ferguson, Christopher J. "Violent Video Games, Sexist Video Games, and the Law: Why Can't We Find Effects?" _Annual Review of Law and Social Science_, vol. 14, no. 1, 2018, pp. 411-426, doi:10.1146/annurev-lawsocsci-101317-031036.
+Ferguson, Christopher J. "Violent Video Games, Sexist Video Games, and the Law: Why Can't We Find Effects?" _Annual Review of Law and Social Science_, vol. 14, no. 1, 2018, pp. 411-426, <doi:10.1146/annurev-lawsocsci-101317-031036>.
 
-Ferguson, Christopher J., and John C. K. Wang. "Aggressive Video Games Are Not a Risk Factor for Future Aggression in Youth: A Longitudinal Study." _Journal of Youth and Adolescence_, vol. 48, no. 1, 2019, pp. 1439-1451, doi:10.1007/s10964-019-01069-0.
+Ferguson, Christopher J., and John C. K. Wang. "Aggressive Video Games Are Not a Risk Factor for Future Aggression in Youth: A Longitudinal Study." _Journal of Youth and Adolescence_, vol. 48, no. 1, 2019, pp. 1439-1451, <doi:10.1007/s10964-019-01069-0>.
 
-Ferguson, Christopher J., and C. K. John Wang. "Aggressive Video Games Are Not a Risk Factor for Mental Health Problems in Youth: A Longitudinal Study." _Cyberpsychology, Behavior, and Social Networking_, vol. 24, no. 1, 2021, pp. 70-73, doi:10.1089/cyber.2020.0027.
+Ferguson, Christopher J., and C. K. John Wang. "Aggressive Video Games Are Not a Risk Factor for Mental Health Problems in Youth: A Longitudinal Study." _Cyberpsychology, Behavior, and Social Networking_, vol. 24, no. 1, 2021, pp. 70-73, <doi:10.1089/cyber.2020.0027>.
 
-Ferguson, Christopher J., et al. "Reexamining the Findings of the American Psychological Association's 2015 Task Force on Violent Media: A Meta-Analysis." _Perspectives on Psychological Science_, vol. 15, no. 6, 2020, pp. 1-21, doi:10.1177/1745691620927666.
+Ferguson, Christopher J., et al. "Reexamining the Findings of the American Psychological Association's 2015 Task Force on Violent Media: A Meta-Analysis." _Perspectives on Psychological Science_, vol. 15, no. 6, 2020, pp. 1-21, <doi:10.1177/1745691620927666>.
 
-Ferguson, Christopher J. "Violent Video Games, Mass Shootings, and the Supreme Court: Lessons for the Legal Community in the Wake of Recent Free Speech Cases and Mass Shootings." _New Criminal Law Review: An International and Interdisciplinary Journal_, vol. 17, no. 4, 2014, pp. 553-586, https://doi.org/10.1525/nclr.2014.17.4.553.
+Ferguson, Christopher J. "Violent Video Games, Mass Shootings, and the Supreme Court: Lessons for the Legal Community in the Wake of Recent Free Speech Cases and Mass Shootings." _New Criminal Law Review: An International and Interdisciplinary Journal_, vol. 17, no. 4, 2014, pp. 553-586, <https://doi.org/10.1525/nclr.2014.17.4.553>.
 
-Figgou, L., and V. Pavlopoulos. "Social Psychology: Research Methods." _International Encyclopedia of the Social & Behavioral Sciences_, 2nd ed., Elsevier, 2015, pp. 544-552, doi:10.1016/B978-0-08-097086-8.24095-6.
+Figgou, L., and V. Pavlopoulos. "Social Psychology: Research Methods." _International Encyclopedia of the Social & Behavioral Sciences_, 2nd ed., Elsevier, 2015, pp. 544-552, <doi:10.1016/B978-0-08-097086-8.24095-6>.
 
-Fonseka, W.Y.S., et al. "The Impact of Video Game Addiction on Aggressive Behaviour Among Tertiary Students in Sri Lanka." _Discover Education_, vol. 5, no. 145, 2026, doi:10.1007/s44217-025-01088-z.
+Fonseka, W.Y.S., et al. "The Impact of Video Game Addiction on Aggressive Behaviour Among Tertiary Students in Sri Lanka." _Discover Education_, vol. 5, no. 145, 2026, <doi:10.1007/s44217-025-01088-z.>
 
 Foster, H. "How Do Video Games Normalize Violence? A Qualitative Content Analysis of Popular Video Games." Master's thesis, Northern Arizona University, 2016.
 
-Foust, J. "Video Games Are the New Contested Space for Public Policy." _Brookings_, 25 Mar. 2021, https://www.brookings.edu/techstream/video-games-are-the-new-contested-space-for-public-policy/.
+Foust, J. "Video Games Are the New Contested Space for Public Policy." _Brookings_, 25 Mar. 2021, <https://www.brookings.edu/techstream/video-games-are-the-new-contested-space-for-public-policy/>.
 
-Fish, Stanley. "What Does the First Amendment Protect?" _Think Again: Contrarian Reflections on Life, Culture, Politics, Religion, Law, and Education_, Princeton UP, 2015, pp. 203-206, https://doi.org/10.2307/j.ctvc77ks9.55.
+Fish, Stanley. "What Does the First Amendment Protect?" _Think Again: Contrarian Reflections on Life, Culture, Politics, Religion, Law, and Education_, Princeton UP, 2015, pp. 203-206, <https://doi.org/10.2307/j.ctvc77ks9.55>.
 
-"Game Plan." _Harvard Medical School_, https://hms.harvard.edu/news/game-plan.
+"Game Plan." _Harvard Medical School_, <https://hms.harvard.edu/news/game-plan>.
 
-"Gaming Disorder." _World Health Organization_, https://www.who.int/standards/classifications/frequently-asked-questions/gaming-disorder.
+"Gaming Disorder." _World Health Organization_, <https://www.who.int/standards/classifications/frequently-asked-questions/gaming-disorder>.
 
-Gentile, Douglas. "Pathological Video-Game Use among Youth Ages 8 to 18: A National Study." _Psychological Science_, vol. 20, no. 5, 2009, pp. 594-602, doi:10.1111/j.1467-9280.2009.02340.x.
+Gentile, Douglas. "Pathological Video-Game Use among Youth Ages 8 to 18: A National Study." _Psychological Science_, vol. 20, no. 5, 2009, pp. 594-602, <doi:10.1111/j.1467-9280.2009.02340.x>.
 
-Gentile, Douglas A., and Brad J. Bushman. "Reassessing Media Violence Effects Using a Risk and Resilience Approach to Understanding Aggression." _Psychology of Popular Media Culture_, vol. 1, no. 13, 2012, pp. 138-151, doi:10.1037/a0028481.
+Gentile, Douglas A., and Brad J. Bushman. "Reassessing Media Violence Effects Using a Risk and Resilience Approach to Understanding Aggression." _Psychology of Popular Media Culture_, vol. 1, no. 13, 2012, pp. 138-151, <doi:10.1037/a0028481>.
 
-Girard, L., et al. "Development of Aggression Subtypes from Childhood to Adolescence: A Group-Based Multi-Trajectory Modelling Perspective." _Journal of Abnormal Child Psychology_, vol. 47, no. 1, 2019, pp. 825-838, doi:10.1007/s10802-018-0488-5.
+Girard, L., et al. "Development of Aggression Subtypes from Childhood to Adolescence: A Group-Based Multi-Trajectory Modelling Perspective." _Journal of Abnormal Child Psychology_, vol. 47, no. 1, 2019, pp. 825-838, <doi:10.1007/s10802-018-0488-5>.
 
-Granic, I., et al. "The Benefits of Playing Video Games." _American Psychologist_, vol. 69, no. 1, 2014, pp. 66-78, doi:10.1037/a0034857.
+Granic, I., et al. "The Benefits of Playing Video Games." _American Psychologist_, vol. 69, no. 1, 2014, pp. 66-78, <doi:10.1037/a0034857>.
 
-Greitemeyer, Tobias. "The Contagious Impact of Playing Violent Video Games on Aggression: Longitudinal Evidence." _Aggressive Behavior_, vol. 45, no. 6, 2019, pp. 635-642, doi:10.1002/ab.21857.
+Greitemeyer, Tobias. "The Contagious Impact of Playing Violent Video Games on Aggression: Longitudinal Evidence." _Aggressive Behavior_, vol. 45, no. 6, 2019, pp. 635-642, <doi:10.1002/ab.21857>.
 
-"The Spreading Impact of Playing Violent Video Games on Aggression." _Computers in Human Behavior_, vol. 80, 2018, pp. 216-219, doi:10.1016/j.chb.2017.11.022.
-Greitemeyer, Tobias, and Neil McLatchie. "Denying Humanness to Others: A Newly Discovered Mechanism by Which Violent Video Games Increase Aggressive Behavior." _Psychological Science_, vol. 22, no. 5, 2011, pp. 659-665, http://www.jstor.org/stable/25835431.
-Griffiths, Mark. "Violent Video Games and Aggression: A Review of the Literature." _Aggression and Violent Behavior_, vol. 4, no. 2, 1999, pp. 203-212, doi:10.1016/S1359-1789(97)00055-4.
+"The Spreading Impact of Playing Violent Video Games on Aggression." _Computers in Human Behavior_, vol. 80, 2018, pp. 216-219, <doi:10.1016/j.chb.2017.11.022>.
 
-Grimes, T., et al. "A Qualitative Longitudinal Meta-Analysis of 25 Years of Research on Violent Video Games and Aggressive Behavior." _The Psychology of Popular Media Culture_, vol. 7, no. 4, 2018, pp. 536-549, doi:10.1037/ppm0000152.
+Greitemeyer, Tobias, and Neil McLatchie. "Denying Humanness to Others: A Newly Discovered Mechanism by Which Violent Video Games Increase Aggressive Behavior." _Psychological Science_, vol. 22, no. 5, 2011, pp. 659-665, <http://www.jstor.org/stable/25835431>.
 
-Griffiths, M. D. "Diagnosis and Management of Video Game Addiction." _New Directions in Addiction Treatment and Prevention_, vol. 12, 2008, pp. 27-41, http://irep.ntu.ac.uk/id/eprint/23070.
+Griffiths, Mark. "Violent Video Games and Aggression: A Review of the Literature." _Aggression and Violent Behavior_, vol. 4, no. 2, 1999, pp. 203-212, <doi:10.1016/S1359-1789(97)00055-4>.
 
-Hall, Ryan C. W., et al. "A Plea for Caution: Violent Video Games, the Supreme Court, and the Role of Science." _Mayo Clinic Proceedings_, vol. 86, no. 4, 2011, pp. 315-321, doi:10.4065/mcp.2010.0762.
+Grimes, T., et al. "A Qualitative Longitudinal Meta-Analysis of 25 Years of Research on Violent Video Games and Aggressive Behavior." _The Psychology of Popular Media Culture_, vol. 7, no. 4, 2018, pp. 536-549, <doi:10.1037/ppm0000152>.
 
-Henning, Alexandra, et al. "Do Stereotypic Images in Video Games Affect Attitudes and Behavior? Adolescent Perspectives." _Children, Youth and Environments_, vol. 19, no. 1, 2009, pp. 170-196, http://www.jstor.org/stable/10.7721/chilyoutenvi.19.1.0170.
+Griffiths, M. D. "Diagnosis and Management of Video Game Addiction." _New Directions in Addiction Treatment and Prevention_, vol. 12, 2008, pp. 27-41, <http://irep.ntu.ac.uk/id/eprint/23070>.
 
-Hartmann, Tilo, et al. "How Violent Video Games Communicate Violence: A Literature Review and Content Analysis of Moral Disengagement Factors." _Communication Monographs_, vol. 81, no. 3, 2014, pp. 1-24, doi:10.1080/03637751.2014.922206.
+Hall, Ryan C. W., et al. "A Plea for Caution: Violent Video Games, the Supreme Court, and the Role of Science." _Mayo Clinic Proceedings_, vol. 86, no. 4, 2011, pp. 315-321, <doi:10.4065/mcp.2010.0762>.
 
-Hasan, Y., et al. "The More You Play, the More Aggressive You Become: A Long-Term Experimental Study of Cumulative Violent Video Game Effects on Hostile Expectations and Aggressive Behavior." _Journal of Experimental Social Psychology_, vol. 49, no. 2, 2013, pp. 224-227, doi:10.1016/j.jesp.2012.10.016.
+Henning, Alexandra, et al. "Do Stereotypic Images in Video Games Affect Attitudes and Behavior? Adolescent Perspectives." _Children, Youth and Environments_, vol. 19, no. 1, 2009, pp. 170-196, <http://www.jstor.org/stable/10.7721/chilyoutenvi.19.1.0170>.
 
-"Viewing the World Through 'Blood-Red Tinted Glasses': The Hostile Expectancies of Habitual Players of Violent Video Games." _Journal of Experimental Social Psychology_, vol. 48, no. 4, 2012, pp. 953-956, doi:10.1016/j.jesp.2011.12.019.
+Hartmann, Tilo, et al. "How Violent Video Games Communicate Violence: A Literature Review and Content Analysis of Moral Disengagement Factors." _Communication Monographs_, vol. 81, no. 3, 2014, pp. 1-24, <doi:10.1080/03637751.2014.922206>.
 
-Hess, A. "'You Don't Play, You Volunteer': Narrative Public Memory Construction in Medal of Honor: Rising Sun." _Critical Studies in Media Communication_, vol. 24, no. 4, 2007, pp. 339-356, doi:10.1080/07393180701567729.
+Hasan, Y., et al. "The More You Play, the More Aggressive You Become: A Long-Term Experimental Study of Cumulative Violent Video Game Effects on Hostile Expectations and Aggressive Behavior." _Journal of Experimental Social Psychology_, vol. 49, no. 2, 2013, pp. 224-227, <doi:10.1016/j.jesp.2012.10.016>.
 
-Huesmann, L. Rowell, and Nancy G. Guerra. "Children's Normative Beliefs about Aggression and Aggressive Behavior." _Journal of Personality and Social Psychology_, vol. 72, no. 2, 1997, pp. 408-419, doi:10.1037/0022-3514.72.2.408.
+"Viewing the World Through 'Blood-Red Tinted Glasses': The Hostile Expectancies of Habitual Players of Violent Video Games." _Journal of Experimental Social Psychology_, vol. 48, no. 4, 2012, pp. 953-956, <doi:10.1016/j.jesp.2011.12.019>.
 
-Huesmann, L. R., and L. D. Kirwil. "Why Observing Violence Increases the Risk of Violent Behavior in the Observer." _The Cambridge Handbook of Violent Behavior and Aggression_, edited by D. J. Flannery et al., Cambridge UP, 2007, pp. 545-570, doi:10.1017/CBO9780511816840.029.
+Hess, A. "'You Don't Play, You Volunteer': Narrative Public Memory Construction in Medal of Honor: Rising Sun." _Critical Studies in Media Communication_, vol. 24, no. 4, 2007, pp. 339-356, <doi:10.1080/07393180701567729>.
 
-Hoofd, Ingrid. "Video Games and the Engaged Citizen: On the Ambiguity of Digital Play." _The Playful Citizen: Civic Engagement in a Mediatized Culture_, edited by René Glas et al., vol. 1, Amsterdam UP, 2019, pp. 138-156, http://www.jstor.org/stable/j.ctvcmxpds.10.
+Huesmann, L. Rowell, and Nancy G. Guerra. "Children's Normative Beliefs about Aggression and Aggressive Behavior." _Journal of Personality and Social Psychology_, vol. 72, no. 2, 1997, pp. 408-419, <doi:10.1037/0022-3514.72.2.408>.
 
-"Internet Gaming." _American Psychiatric Association_, https://www.psychiatry.org/patients-families/internet-gaming.
+Huesmann, L. R., and L. D. Kirwil. "Why Observing Violence Increases the Risk of Violent Behavior in the Observer." _The Cambridge Handbook of Violent Behavior and Aggression_, edited by D. J. Flannery et al., Cambridge UP, 2007, pp. 545-570, <doi:10.1017/CBO9780511816840.029>.
 
-Ivory, James D., and Christine E. Kaestle. "The Effects of Profanity in Violent Video Games on Players' Hostile Expectations, Aggressive Thoughts and Feelings, and Other Responses." _Journal of Broadcasting & Electronic Media_, vol. 57, no. 2, 2013, pp. 224-241, doi:10.1080/08838151.2013.787080.
+Hoofd, Ingrid. "Video Games and the Engaged Citizen: On the Ambiguity of Digital Play." _The Playful Citizen: Civic Engagement in a Mediatized Culture_, edited by René Glas et al., vol. 1, Amsterdam UP, 2019, pp. 138-156, <http://www.jstor.org/stable/j.ctvcmxpds.10>.
 
-Jansz, Jeroen. "Playing out Identities and Emotions." _Playful Identities: The Ludification of Digital Media Cultures_, edited by Valerie Frissen et al., Amsterdam UP, 2015, pp. 267-280, http://www.jstor.org/stable/j.ctt14brqd4.19.
+"Internet Gaming." _American Psychiatric Association_, <https://www.psychiatry.org/patients-families/internet-gaming>.
 
-Jiow, H. J., et al. "Not Yet Game Over: A Reappraisal of Video Game Addiction." _The Journal of the Canadian Game Studies Association_, vol. 12, no. 19, 2019, pp. 1-17, doi:10.7202/1058317ar.
+Ivory, James D., and Christine E. Kaestle. "The Effects of Profanity in Violent Video Games on Players' Hostile Expectations, Aggressive Thoughts and Feelings, and Other Responses." _Journal of Broadcasting & Electronic Media_, vol. 57, no. 2, 2013, pp. 224-241, <doi:10.1080/08838151.2013.787080>.
 
-Jones, Christian M., et al. "Gaming Well: Links Between Videogames and Flourishing Mental Health." _Frontiers in Psychology_, vol. 5, 2014, p. 260, doi:10.3389/fpsyg.2014.00260.
+Jansz, Jeroen. "Playing out Identities and Emotions." _Playful Identities: The Ludification of Digital Media Cultures_, edited by Valerie Frissen et al., Amsterdam UP, 2015, pp. 267-280, <http://www.jstor.org/stable/j.ctt14brqd4.19>.
 
-Jones, Tim, et al. "VIOLENCE IN ADVERTISING: A Multilayered Content Analysis." _Journal of Advertising_, vol. 39, no. 4, 2010, pp. 11-36, http://www.jstor.org/stable/25780657.
+Jiow, H. J., et al. "Not Yet Game Over: A Reappraisal of Video Game Addiction." _The Journal of the Canadian Game Studies Association_, vol. 12, no. 19, 2019, pp. 1-17, <doi:10.7202/1058317ar>.
 
-Kazimoglu, C., and L. Bacon. "An Analysis of a Video Game on Cognitive Abilities: A Study to Enhance Psychomotor Skills via Game-Play." _IEEE Access: Practical Innovations, Open Solutions_, vol. 8, 2020, pp. 110495-110510, doi:10.1109/ACCESS.2020.3001751.
+Jones, Christian M., et al. "Gaming Well: Links Between Videogames and Flourishing Mental Health." _Frontiers in Psychology_, vol. 5, 2014, p. 260, <doi:10.3389/fpsyg.2014.00260>.
 
-Kim, E. J., et al. "The Relationship Between Online Game Addiction and Aggression, Self-Control and Narcissistic Personality Traits." _European Psychiatry_, vol. 23, no. 3, 2008, pp. 212-218, doi:10.1016/j.eurpsy.2007.10.010.
+Jones, Tim, et al. "VIOLENCE IN ADVERTISING: A Multilayered Content Analysis." _Journal of Advertising_, vol. 39, no. 4, 2010, pp. 11-36, <http://www.jstor.org/stable/25780657>.
 
-Khanolkar, Preeti R., and Paul D. McLean. "100-Percenting It: Videogame Play Through the Eyes of Devoted Gamers." _Sociological Forum_, vol. 27, no. 4, 2012, pp. 961-985, http://www.jstor.org/stable/23362160.
+Kazimoglu, C., and L. Bacon. "An Analysis of a Video Game on Cognitive Abilities: A Study to Enhance Psychomotor Skills via Game-Play." _IEEE Access: Practical Innovations, Open Solutions_, vol. 8, 2020, pp. 110495-110510, <doi:10.1109/ACCESS.2020.3001751>.
+
+Kim, E. J., et al. "The Relationship Between Online Game Addiction and Aggression, Self-Control and Narcissistic Personality Traits." _European Psychiatry_, vol. 23, no. 3, 2008, pp. 212-218, <doi:10.1016/j.eurpsy.2007.10.010>.
+
+Khanolkar, Preeti R., and Paul D. McLean. "100-Percenting It: Videogame Play Through the Eyes of Devoted Gamers." _Sociological Forum_, vol. 27, no. 4, 2012, pp. 961-985, <http://www.jstor.org/stable/23362160>.
 
 Kowert, R., et al. "Not Just a Game: Identity Fusion and Extremism in Gaming Culture." _Frontiers in Communication_, vol. 7, 2022, doi:10.3389/fcomm.2022.1007128.
 
-Lakomy, M. "Let's Play a Video Game: Jihadi Propaganda in the World of Electronic Entertainment." _Studies in Conflict & Terrorism_, vol. 42, no. 4, 2019, pp. 383-406, doi:10.1080/1057610X.2017.1385903.
+Lakomy, M. "Let's Play a Video Game: Jihadi Propaganda in the World of Electronic Entertainment." _Studies in Conflict & Terrorism_, vol. 42, no. 4, 2019, pp. 383-406, <doi:10.1080/1057610X.2017.1385903>.
 
-Lacko, David, et al. "Gaming Together, Feeling Better—Or Feeling Worse? How Social Video Gaming Impacts Loneliness and Depressive Mood Differently for Boys and Girls." _Computers in Human Behavior_, vol. 172, 2025, p. 108752, doi:10.1016/j.chb.2025.108752.
+Lacko, David, et al. "Gaming Together, Feeling Better—Or Feeling Worse? How Social Video Gaming Impacts Loneliness and Depressive Mood Differently for Boys and Girls." _Computers in Human Behavior_, vol. 172, 2025, p. 108752, <doi:10.1016/j.chb.2025.108752>.
 
-Lamphere-Englund, G., and L. Bunmathong. "State of Play Report: Reviewing the Literature on Gaming & Extremism." _Extremism and Gaming Research Network_, 2021, doi:10.1080/1057610X.2020.1866740.
+Lamphere-Englund, G., and L. Bunmathong. "State of Play Report: Reviewing the Literature on Gaming & Extremism." _Extremism and Gaming Research Network_, 2021, <doi:10.1080/1057610X.2020.1866740>.
 
-Larsen, Allison Orr. "THE TROUBLE WITH AMICUS FACTS." _Virginia Law Review_, vol. 100, no. 8, 2014, pp. 1757-1818, http://www.jstor.org/stable/24363221.
+Larsen, Allison Orr. "THE TROUBLE WITH AMICUS FACTS." _Virginia Law Review_, vol. 100, no. 8, 2014, pp. 1757-1818, <http://www.jstor.org/stable/24363221>.
 
-Lee, S., et al. "Violent Video Games May Stimulate but Not Catharsis Aggression: Evidence From Functional Magnetic Resonance Imaging." _Journal of Behavioral Addictions_, vol. 10, no. 3, 2021, pp. 701-710, doi:10.1556/2006.2021.00055.
+Lee, S., et al. "Violent Video Games May Stimulate but Not Catharsis Aggression: Evidence From Functional Magnetic Resonance Imaging." _Journal of Behavioral Addictions_, vol. 10, no. 3, 2021, pp. 701-710, <doi:10.1556/2006.2021.00055>.
 
-Lemmens, J. S., et al. "Psychosocial Causes and Consequences of Pathological Gaming." _Computers in Human Behavior_, vol. 27, no. 1, 2011, pp. 144-152, doi:10.1016/j.chb.2010.07.015.
+Lemmens, J. S., et al. "Psychosocial Causes and Consequences of Pathological Gaming." _Computers in Human Behavior_, vol. 27, no. 1, 2011, pp. 144-152, <doi:10.1016/j.chb.2010.07.015>.
 
-Levin, Sarah, et al. "Assessment of a Pilot Video's Effect on Physical Activity and Heart Health for Young Children." _Family and Community Health_, vol. 25, no. 3, 2002, pp. 10-17, http://www.jstor.org/stable/44954063.
+Levin, Sarah, et al. "Assessment of a Pilot Video's Effect on Physical Activity and Heart Health for Young Children." _Family and Community Health_, vol. 25, no. 3, 2002, pp. 10-17, <http://www.jstor.org/stable/44954063>.
 
-Li, Y., et al. "Aggressive Motivation Mediates the Influence of Prosocial Video Game Play on Young Children's Aggressive Behavior." _Frontiers in Psychology_, vol. 16, 2025, p. 1526493, doi:10.3389/fpsyg.2025.1526493.
+Li, Y., et al. "Aggressive Motivation Mediates the Influence of Prosocial Video Game Play on Young Children's Aggressive Behavior." _Frontiers in Psychology_, vol. 16, 2025, p. 1526493, <doi:10.3389/fpsyg.2025.1526493>.
 
-Lieberman, J. D., et al. "Effects of Humor and Need for Cognition on Dissonance, Attitude, and Behavior." _Personality and Social Psychology Bulletin_, vol. 25, no. 11, 1999, pp. 1413-1423, doi:10.1177/0146167299259009.
+Lieberman, J. D., et al. "Effects of Humor and Need for Cognition on Dissonance, Attitude, and Behavior." _Personality and Social Psychology Bulletin_, vol. 25, no. 11, 1999, pp. 1413-1423, <doi:10.1177/0146167299259009>.
 
-Littman, Rebecca, and Elizabeth Levy Paluck. "The Cycle of Violence: Understanding Individual Participation in Collective Violence." _Political Psychology_, vol. 36, no. S1, 2015, pp. 79-99, http://www.jstor.org/stable/43783845.
+Littman, Rebecca, and Elizabeth Levy Paluck. "The Cycle of Violence: Understanding Individual Participation in Collective Violence." _Political Psychology_, vol. 36, no. S1, 2015, pp. 79-99, <http://www.jstor.org/stable/43783845>.
 
-Maldonado, R. _Frustration with Video Games Predicts Increased Aggression_. Honors thesis, University of Wisconsin-Stout, 2016, https://minds.wisconsin.edu/bitstream/handle/1793/75540/Maldonado_Thesis.pdf?sequence=2.
+Maldonado, R. _Frustration with Video Games Predicts Increased Aggression_. Honors thesis, University of Wisconsin-Stout, 2016, <https://minds.wisconsin.edu/bitstream/handle/1793/75540/Maldonado_Thesis.pdf?sequence=2>.
 
 Madigan, J. _Getting Gamers: The Psychology of Video Games and Their Impact on the People Who Play Them_. Rowman & Littlefield, 2016.
 
-Marino, Claudia, et al. "Social Anxiety and Internet Gaming Disorder: The Role of Motives and Metacognitions." _Journal of Behavioral Addictions_, vol. 9, no. 3, 2020, pp. 617-628, doi:10.1556/2006.2020.00044.
+Marino, Claudia, et al. "Social Anxiety and Internet Gaming Disorder: The Role of Motives and Metacognitions." _Journal of Behavioral Addictions_, vol. 9, no. 3, 2020, pp. 617-628, <doi:10.1556/2006.2020.00044>.
 
-Marshall, B., et al. "Internet Gaming Disorder (IGD) in Children: Clinical Treatment Insights." _Annals of Case Reports_, vol. 7, no. 2, 2022, p. 816, doi:10.29011/2574-7754.100816.
+Marshall, B., et al. "Internet Gaming Disorder (IGD) in Children: Clinical Treatment Insights." _Annals of Case Reports_, vol. 7, no. 2, 2022, p. 816, <doi:10.29011/2574-7754.100816>.
 
-Miller-Idriss, C. "Online Ecosystems of Hate: How Gaming Spaces and Far Right Organizing Spaces Have Become Intertwined." _The American Academy of Political and Social Science_, vol. 719, no. 1, 2025, pp. 136-155, doi:10.1177/00027162241298074.
+Miller-Idriss, C. "Online Ecosystems of Hate: How Gaming Spaces and Far Right Organizing Spaces Have Become Intertwined." _The American Academy of Political and Social Science_, vol. 719, no. 1, 2025, pp. 136-155, <doi:10.1177/00027162241298074>.
 
-Mohammadi, B., et al. "Structural Brain Changes in Young Males Addicted to Video-Gaming." _Brain and Cognition_, vol. 139, 2020, pp. 1-9, doi:10.1016/j.bandc.2020.105518.
+Mohammadi, B., et al. "Structural Brain Changes in Young Males Addicted to Video-Gaming." _Brain and Cognition_, vol. 139, 2020, pp. 1-9, <doi:10.1016/j.bandc.2020.105518>.
 
-Moreno-López, Roberto, and Catalina Argüello-Gutiérrez. "Violence, Hate Speech, and Discrimination in Video Games: A Systematic Review." _Social Inclusion_, vol. 13, 2025, doi:10.17645/si.9498.
+Moreno-López, Roberto, and Catalina Argüello-Gutiérrez. "Violence, Hate Speech, and Discrimination in Video Games: A Systematic Review." _Social Inclusion_, vol. 13, 2025, <doi:10.17645/si.9498>.
 
-Murugan, Yogesh, et al. "Associations Between Cognitive Disengagement Syndrome, Internet Addiction, and Internet Gaming Disorder among Medical Students - A Cross-Sectional Study." _Industrial Psychiatry Journal_, vol. 33, suppl. 1, 2024, pp. S210-S214, doi:10.4103/ipj.ipj_325_23.
+Murugan, Yogesh, et al. "Associations Between Cognitive Disengagement Syndrome, Internet Addiction, and Internet Gaming Disorder among Medical Students - A Cross-Sectional Study." _Industrial Psychiatry Journal_, vol. 33, suppl. 1, 2024, pp. S210-S214, <doi:10.4103/ipj.ipj_325_23>.
 
-Muhammad, Hayat, et al. "Moral Disengagement and Suicidal Ideation: Leading to Peace and War Attitude." _Journal of Social Signs Review_, vol. 3, no. 3, Mar. 2025, pp. 127-136, https://socialsignsreivew.com/index.php/12/article/view/140.
+Muhammad, Hayat, et al. "Moral Disengagement and Suicidal Ideation: Leading to Peace and War Attitude." _Journal of Social Signs Review_, vol. 3, no. 3, Mar. 2025, pp. 127-136, <https://socialsignsreivew.com/index.php/12/article/view/140>.
 
-Nasri, W. O. L. A., et al. "The Effect of Exposure to Violent Video Games on Students' Aggressive Tendencies." _Bulletin of Counseling and Psychotherapy_, vol. 7, no. 3, Nov. 2025, doi:10.51214/002025071612000.
+Nasri, W. O. L. A., et al. "The Effect of Exposure to Violent Video Games on Students' Aggressive Tendencies." _Bulletin of Counseling and Psychotherapy_, vol. 7, no. 3, Nov. 2025, <doi:10.51214/002025071612000>.
 
 Nieborg, D. B. "America's Army: More than a Game." _Transforming Knowledge into Action through Gaming and Simulation_, edited by T. Eberle and C. Kriz, SAGSAGA, 2004.
 
-Öze, Y. E., and F. Esengöl. "The Relationship Between Violent Video Games and Aggression in the Context of Frustration-Aggression Theory." _Online Journal of Communication and Media Technologies_, vol. 14, no. 2, 2024, p. e202425, doi:10.30935/ojcmt/14549.
+Öze, Y. E., and F. Esengöl. "The Relationship Between Violent Video Games and Aggression in the Context of Frustration-Aggression Theory." _Online Journal of Communication and Media Technologies_, vol. 14, no. 2, 2024, p. e202425, <doi:10.30935/ojcmt/14549>.
 
-Ottosen, R. "Targeting the Audience: Video Games as War Propaganda in Entertainment and News." _Bodhi An Interdisciplinary Journal_, vol. 2, no. 1, 2008, pp. 14-41, doi:10.3126/bodhi.v2i1.2862.
+Ottosen, R. "Targeting the Audience: Video Games as War Propaganda in Entertainment and News." _Bodhi An Interdisciplinary Journal_, vol. 2, no. 1, 2008, pp. 14-41, <doi:10.3126/bodhi.v2i1.2862>.
 
 Pamment, J., et al. "Malign Foreign Interference and Information Influence on Video Game Platforms: Understanding the Adversarial Playbook." Report 3/2023, Swedish Psychological Defence Agency, 2023.
 
 Partridge, S. L. "The Incorrigible Social Meaning of Video Game Imagery." _Ethics and Information Technology_, vol. 13, no. 4, 2011, pp. 303-312.
 
-Penzkofer, Maximilian Josef. _The Impact of Violent Video Gaming and Adverse Childhood Experiences on Fear Conditioning, Pain-Related Empathy, Pain Perception and Pain Tolerance_. Dissertation, Heidelberg University, 2025, doi:10.11588/heidok.00036280.
+Penzkofer, Maximilian Josef. _The Impact of Violent Video Gaming and Adverse Childhood Experiences on Fear Conditioning, Pain-Related Empathy, Pain Perception and Pain Tolerance_. Dissertation, Heidelberg University, 2025, <doi:10.11588/heidok.00036280>.
 
 Pantoliano, Carolina. "Playing Doomsday: Video Games and the Politics of Nuclear Weapons." _Review of International Studies_, vol. 51, no. 4, 2025, pp. 686-706.
 
-Przybylski, Andrew K. "Violent Video Games Found Not to Be Associated with Adolescent Aggression." _University of Oxford_, 13 Feb. 2019, https://www.ox.ac.uk/news/2019-02-13-violent-video-games-found-not-be-associated-adolescent-aggression.
+Przybylski, Andrew K. "Violent Video Games Found Not to Be Associated with Adolescent Aggression." _University of Oxford_, 13 Feb. 2019, <https://www.ox.ac.uk/news/2019-02-13-violent-video-games-found-not-be-associated-adolescent-aggression>.
 
-Przybylski, Andrew K., et al. "The Ideal Self at Play: The Appeal of Video Games That Let You Be All You Can Be." _Psychological Science_, vol. 23, no. 1, 2012, pp. 69-76, http://www.jstor.org/stable/41416995.
+Przybylski, Andrew K., et al. "The Ideal Self at Play: The Appeal of Video Games That Let You Be All You Can Be." _Psychological Science_, vol. 23, no. 1, 2012, pp. 69-76, <http://www.jstor.org/stable/41416995>.
 
-"Psychology Faculty Publishes Study Clarifying Link Between Violent Video Games and Aggression." _Fielding Graduate University_, https://www.fielding.edu/fielding-psychology-faculty-publishes-study-clarifying-link-between-violent-video-games-and-aggression/.
+"Psychology Faculty Publishes Study Clarifying Link Between Violent Video Games and Aggression." _Fielding Graduate University_, <https://www.fielding.edu/fielding-psychology-faculty-publishes-study-clarifying-link-between-violent-video-games-and-aggression/>.
 
-Read, G. L. "Detection of Physiological and Affective Desensitization to Violent Video Games Using Facial Electromyography." Appalachian State University, 14 Feb. 2014, doi:10.71889/5fylantbak.29860280.v1.
+Read, G. L. "Detection of Physiological and Affective Desensitization to Violent Video Games Using Facial Electromyography." Appalachian State University, 14 Feb. 2014, <doi:10.71889/5fylantbak.29860280.v1>.
 
-Ritchie, Mary B., et al. "The Impact of Acute Violent Videogame Exposure on Neurocognitive Markers of Empathic Concern." _Social Cognitive and Affective Neuroscience_, vol. 19, no. 1, 2024, p. nsae031, doi:10.1093/scan/nsae031.
+Ritchie, Mary B., et al. "The Impact of Acute Violent Videogame Exposure on Neurocognitive Markers of Empathic Concern." _Social Cognitive and Affective Neuroscience_, vol. 19, no. 1, 2024, p. nsae031, <doi:10.1093/scan/nsae031>.
 
-Riddle, K., et al. "It Lets Me Fight the Bad Guys: An Exploration Into the Factors Predicting Enjoyment of Violent Video Games." _Communication Studies_, vol. 70, no. 1, 2019, pp. 36-58, doi:10.1080/10510974.2018.1438490.
+Riddle, K., et al. "It Lets Me Fight the Bad Guys: An Exploration Into the Factors Predicting Enjoyment of Violent Video Games." _Communication Studies_, vol. 70, no. 1, 2019, pp. 36-58, <doi:10.1080/10510974.2018.1438490>.
 
-Rowles, Samuel. "'How Can I Make This Real Life?': Realism, Politics, and Simulational Rhetoric in Video Games." All Graduate Reports and Creative Projects, Fall 2023 to Present, Utah State University, 2025, https://digitalcommons.usu.edu/gradreports2023/92.
+Rowles, Samuel. "'How Can I Make This Real Life?': Realism, Politics, and Simulational Rhetoric in Video Games." All Graduate Reports and Creative Projects, Fall 2023 to Present, Utah State University, 2025, <https://digitalcommons.usu.edu/gradreports2023/92>.
 
-Saleem, K., et al. "The Role of Video Games in Modern Hybrid Warfare Strategies: A Review." _Journal of Regional Studies Review_, vol. 4, no. 3, 2025, pp. 89-100, doi:10.62843/jrsr/2025.4c123.
+Saleem, K., et al. "The Role of Video Games in Modern Hybrid Warfare Strategies: A Review." _Journal of Regional Studies Review_, vol. 4, no. 3, 2025, pp. 89-100, <doi:10.62843/jrsr/2025.4c123>.
 
-Schlegel, L. "Extremists' Use of Gaming (Adjacent) Platforms." Radicalisation Awareness Network & European Commission, Publications Office of the European Union, 2021, https://home-affairs.ec.europa.eu/system/files/2021-08/ran_extremists_use_gaming_platforms_082021_en.pdf.
+Schlegel, L. "Extremists' Use of Gaming (Adjacent) Platforms." Radicalisation Awareness Network & European Commission, Publications Office of the European Union, 2021, <https://home-affairs.ec.europa.eu/system/files/2021-08/ran_extremists_use_gaming_platforms_082021_en.pdf>.
 
-"The Gamification of Violent Extremism & Lessons for P/CVE." Radicalisation Awareness Network, 2021, https://home-affairs.ec.europa.eu/networks/radicalisation-awareness-network-ran/publications/gamification-violent-extremism-lessons-pcve-2021_en.
+"The Gamification of Violent Extremism & Lessons for P/CVE." Radicalisation Awareness Network, 2021, <https://home-affairs.ec.europa.eu/networks/radicalisation-awareness-network-ran/publications/gamification-violent-extremism-lessons-pcve-2021_en>.
 
-Seetahul, Y., and T. Greitemeyer. "Seeking Solace, Not Catharsis: Frustration Diminishes the Inclination to Play Violent Video Games." _Psychology of Violence_, vol. 15, no. 5, 2025, pp. 589-610, doi:10.1037/vio0000578.
+Seetahul, Y., and T. Greitemeyer. "Seeking Solace, Not Catharsis: Frustration Diminishes the Inclination to Play Violent Video Games." _Psychology of Violence_, vol. 15, no. 5, 2025, pp. 589-610, <doi:10.1037/vio0000578>.
 
 Sestir, M. A., and B. D. Bartholow. "Violent and Nonviolent Video Games Produce Opposing Effects on Aggressive and Prosocial Outcomes." _Journal of Experimental Psychology_, vol. 46, no. 6, 2010, pp. 934-942.
 
-Sheese, Brad E., and William G. Graziano. "Deciding to Defect: The Effects of Video-Game Violence on Cooperative Behavior." _Psychological Science_, vol. 16, no. 5, 2005, pp. 354-357, http://www.jstor.org/stable/40064229.
+Sheese, Brad E., and William G. Graziano. "Deciding to Defect: The Effects of Video-Game Violence on Cooperative Behavior." _Psychological Science_, vol. 16, no. 5, 2005, pp. 354-357, <http://www.jstor.org/stable/40064229>.
 
-Shao, R., and Y. Wang. "The Relation of Violent Video Game to Adolescent Aggression: An Examination of Moderated Mediation Effect." _Frontiers in Psychology_, vol. 10, 2019, p. 384, doi:10.3389/fpsyg.2019.00384.
+Shao, R., and Y. Wang. "The Relation of Violent Video Game to Adolescent Aggression: An Examination of Moderated Mediation Effect." _Frontiers in Psychology_, vol. 10, 2019, p. 384, <doi:10.3389/fpsyg.2019.00384>.
 
-Shliakhovchuk, E., and A. Muñoz García. "Intercultural Perspective on Impact of Video Games on Players: Insights from a Systematic Review of Recent Literature." _Educational Sciences: Theory and Practice_, vol. 20, no. 1, 2020, pp. 40-58, doi:10.12738/jestp.2020.1.004.
+Shliakhovchuk, E., and A. Muñoz García. "Intercultural Perspective on Impact of Video Games on Players: Insights from a Systematic Review of Recent Literature." _Educational Sciences: Theory and Practice_, vol. 20, no. 1, 2020, pp. 40-58, <doi:10.12738/jestp.2020.1.004>.
 
-Sicart, Miguel. "Moral Dilemmas in Computer Games." _Design Issues_, vol. 29, no. 3, 2013, pp. 28-37, http://www.jstor.org/stable/24267087.
+Sicart, Miguel. "Moral Dilemmas in Computer Games." _Design Issues_, vol. 29, no. 3, 2013, pp. 28-37, <http://www.jstor.org/stable/24267087>.
 
-Surette, R. "Cause or Catalyst: The Interaction of Real World and Media Crime Models." _American Journal of Criminal Justice_, vol. 38, 2013, pp. 392-409, doi:10.1007/s12103-012-9177-z.
+Surette, R. "Cause or Catalyst: The Interaction of Real World and Media Crime Models." _American Journal of Criminal Justice_, vol. 38, 2013, pp. 392-409, <doi:10.1007/s12103-012-9177-z>.
 
-"State Regulation of Violent Video Games." _Berkeley Technology Law Journal_, vol. 21, no. 1, 2006, pp. 560-561, http://www.jstor.org/stable/24119575.
+"State Regulation of Violent Video Games." _Berkeley Technology Law Journal_, vol. 21, no. 1, 2006, pp. 560-561, <http://www.jstor.org/stable/24119575>.
 
-Teng, Z., et al. "Violent Video Game Exposure and (Cyber) Bullying Perpetration Among Chinese Youth: The Moderating Role of Trait Aggression and Moral Identity." _Computers in Human Behavior_, vol. 104, 2020, pp. 1-10, doi:10.1016/j.chb.2019.106193.
+Teng, Z., et al. "Violent Video Game Exposure and (Cyber) Bullying Perpetration Among Chinese Youth: The Moderating Role of Trait Aggression and Moral Identity." _Computers in Human Behavior_, vol. 104, 2020, pp. 1-10, <doi:10.1016/j.chb.2019.106193>.
 
-"This Is Your Brain on Violent Video Games." _Mizzou Weekly_, University of Missouri, https://mizzouweekly.missouri.edu/archive/2011/32-31/this-is-your-brain-on-violent-video-games/index.php.html.
+"This Is Your Brain on Violent Video Games." _Mizzou Weekly_, University of Missouri, <https://mizzouweekly.missouri.edu/archive/2011/32-31/this-is-your-brain-on-violent-video-games/index.php.html>.
 
-Thompson, J. K. "How Do the Media and Influencers Shape Body Image and What Can Be Done to Reduce Indirect Collective Exposure to Trauma?" _Body Image_, vol. 27, 2018, pp. 219-224, doi:10.1016/j.bodyim.2018.10.001.
+Thompson, J. K. "How Do the Media and Influencers Shape Body Image and What Can Be Done to Reduce Indirect Collective Exposure to Trauma?" _Body Image_, vol. 27, 2018, pp. 219-224, <doi:10.1016/j.bodyim.2018.10.001>.
 
-Toppo, Greg. "How Violent Video Games Really Affect Kids." _Scientific American Mind_, vol. 26, no. 4, 2015, pp. 40-45, https://www.jstor.org/stable/24946323.
+Toppo, Greg. "How Violent Video Games Really Affect Kids." _Scientific American Mind_, vol. 26, no. 4, 2015, pp. 40-45, <https://www.jstor.org/stable/24946323>.
 
-Tortolero, Susan R., et al. "Daily Violent Video Game Playing and Depression in Preadolescent Youth." _Cyberpsychology, Behavior and Social Networking_, vol. 17, no. 9, 2014, pp. 609-615, doi:10.1089/cyber.2014.0091.
+Tortolero, Susan R., et al. "Daily Violent Video Game Playing and Depression in Preadolescent Youth." _Cyberpsychology, Behavior and Social Networking_, vol. 17, no. 9, 2014, pp. 609-615, <doi:10.1089/cyber.2014.0091>.
 
 U.S. Department of Health and Human Services. _Youth Violence: A Report of the Surgeon General_. Rockville, MD: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, National Center for Injury Prevention and Control; Substance Abuse and Mental Health Services Administration, Center for Mental Health Services; and National Institutes of Health, National Institute of Mental Health, 2001.
 
-van de Vall, Renée. "Transformations in Perception and Participation: Digital Games." _Contemporary Culture: New Directions in Art and Humanities Research_, edited by Judith Thissen et al., Amsterdam UP, 2013, pp. 110-127, http://www.jstor.org/stable/j.ctt6wp6n0.11.
+van de Vall, Renée. "Transformations in Perception and Participation: Digital Games." _Contemporary Culture: New Directions in Art and Humanities Research_, edited by Judith Thissen et al., Amsterdam UP, 2013, pp. 110-127, <http://www.jstor.org/stable/j.ctt6wp6n0.11>.
 
-"Video Game Addiction." _Cleveland Clinic_, https://my.clevelandclinic.org/health/diseases/23124-video-game-addiction.
+"Video Game Addiction." _Cleveland Clinic_, <https://my.clevelandclinic.org/health/diseases/23124-video-game-addiction>.
 
-"Video Games and Cognition." _National Institutes of Health_, 14 June 2022, https://www.nih.gov/news-events/nih-research-matters/video-games-cognition.
+"Video Games and Cognition." _National Institutes of Health_, 14 June 2022, <https://www.nih.gov/news-events/nih-research-matters/video-games-cognition>.
 
-"Video Games Debate." _Britannica ProCon_, https://www.britannica.com/procon/video-games-debate.
+"Video Games Debate." _Britannica ProCon_, <https://www.britannica.com/procon/video-games-debate>.
 
-"Violent Video Games Alter Brain Function in Young Men." _IU School of Medicine_, Indiana University, https://medicine.iu.edu/news/2011/12/violent-video-games-alter-brain-function-in-young-men.
+"Violent Video Games Alter Brain Function in Young Men." _IU School of Medicine_, Indiana University, <https://medicine.iu.edu/news/2011/12/violent-video-games-alter-brain-function-in-young-men>.
 
-"Violent Video Games." _The Science Teacher_, vol. 74, no. 1, 2007, pp. 12-14, http://www.jstor.org/stable/24140390.
+"Violent Video Games." _The Science Teacher_, vol. 74, no. 1, 2007, pp. 12-14, <http://www.jstor.org/stable/24140390>.
 
-"Violent Video Games and Young People." _Harvard Health_, https://www.health.harvard.edu/newsletter_article/violent-video-games-and-young-people.
+"Violent Video Games and Young People." _Harvard Health_, <https://www.health.harvard.edu/newsletter_article/violent-video-games-and-young-people>.
 
-Wang, Q., et al. "Research Progress and Debates on Gaming Disorder." _General Psychiatry_, vol. 32, no. 3, 2019, doi:10.1136/gpsych-2019-100071.
+Wang, Q., et al. "Research Progress and Debates on Gaming Disorder." _General Psychiatry_, vol. 32, no. 3, 2019, <doi:10.1136/gpsych-2019-100071>.
 
-Wagener, G. L., and A. Melzer. "Playing Violent Video Games and Stress Responses: The Role of Dark Tetrad Traits." _Acta Psychologica_, vol. 254, 2025, p. 104552, doi:10.1016/j.actpsy.2025.104552.
+Wagener, G. L., and A. Melzer. "Playing Violent Video Games and Stress Responses: The Role of Dark Tetrad Traits." _Acta Psychologica_, vol. 254, 2025, p. 104552, <doi:10.1016/j.actpsy.2025.104552>.
 
 Waddington, D. I. "Locating the Wrongness in Ultra-Violent Video Games." _Ethics and Information Technology_, vol. 9, no. 2, 2007, pp. 121-128.
 
-Wagener, Gary L., et al. "A Plague(d) Tale: Are Violent Video Games Effective in Reducing Stress Levels?" _International Journal of Psychophysiology_, vol. 209, 2025, p. 112518, doi:10.1016/j.ijpsycho.2025.112518.
+Wagener, Gary L., et al. "A Plague(d) Tale: Are Violent Video Games Effective in Reducing Stress Levels?" _International Journal of Psychophysiology_, vol. 209, 2025, p. 112518, <doi:10.1016/j.ijpsycho.2025.112518>.
 
-Wajid, Sidra, et al. "The Effect of Video Game Violence on Aggressive Behavior Among Students." _Journal of Social Signs Review_, vol. 3, no. 11, Nov. 2025, pp. 43-50, https://socialsignsreivew.com/index.php/12/article/view/417.
+Wajid, Sidra, et al. "The Effect of Video Game Violence on Aggressive Behavior Among Students." _Journal of Social Signs Review_, vol. 3, no. 11, Nov. 2025, pp. 43-50, <https://socialsignsreivew.com/index.php/12/article/view/417>.
 
-Ward, Michael R. "Video Games and Adolescent Fighting." _The Journal of Law & Economics_, vol. 53, no. 3, 2010, pp. 611-628, https://doi.org/10.1086/605509.
+Ward, Michael R. "Video Games and Adolescent Fighting." _The Journal of Law & Economics_, vol. 53, no. 3, 2010, pp. 611-628, <https://doi.org/10.1086/605509>.
 
-Wang, Q., et al. "Research Progress and Debates on Gaming Disorder." _General Psychiatry_, vol. 32, no. 3, 2019, doi:10.1136/gpsych-2019-100071.
+Wang, Q., et al. "Research Progress and Debates on Gaming Disorder." _General Psychiatry_, vol. 32, no. 3, 2019, <doi:10.1136/gpsych-2019-100071>.
 
-Wei, Mingchen, et al. "Violent Video Game Exposure and Problem Behaviors among Children and Adolescents: The Mediating Role of Deviant Peer Affiliation for Gender and Grade Differences." _International Journal of Environmental Research and Public Health_, vol. 19, no. 22, 2022, p. 15400, doi:10.3390/ijerph192215400.
+Wei, Mingchen, et al. "Violent Video Game Exposure and Problem Behaviors among Children and Adolescents: The Mediating Role of Deviant Peer Affiliation for Gender and Grade Differences." _International Journal of Environmental Research and Public Health_, vol. 19, no. 22, 2022, p. 15400, <doi:10.3390/ijerph192215400>.
 
-Weis, Robert, and Brittany C. Cerankosky. "Effects of Video-Game Ownership on Young Boys' Academic and Behavioral Functioning: A Randomized, Controlled Study." _Psychological Science_, vol. 21, no. 4, 2010, pp. 463-470, http://www.jstor.org/stable/41062231.
+Weis, Robert, and Brittany C. Cerankosky. "Effects of Video-Game Ownership on Young Boys' Academic and Behavioral Functioning: A Randomized, Controlled Study." _Psychological Science_, vol. 21, no. 4, 2010, pp. 463-470, <http://www.jstor.org/stable/41062231>.
 
-"Why Do We Like to Play Violent Video Games?" _UNSW Newsroom_, Aug. 2022, https://www.unsw.edu.au/newsroom/news/2022/08/why-do-we-like-to-play-violent-video-games-.
+"Why Do We Like to Play Violent Video Games?" _UNSW Newsroom_, Aug. 2022, <https://www.unsw.edu.au/newsroom/news/2022/08/why-do-we-like-to-play-violent-video-games->.
 
-Whitaker, Jodi L., et al. "The Allure of the Forbidden: Breaking Taboos, Frustration, and Attraction to Violent Video Games." _Psychological Science_, vol. 24, no. 4, 2013, pp. 507-513, http://www.jstor.org/stable/23409254.
+Whitaker, Jodi L., et al. "The Allure of the Forbidden: Breaking Taboos, Frustration, and Attraction to Violent Video Games." _Psychological Science_, vol. 24, no. 4, 2013, pp. 507-513, <http://www.jstor.org/stable/23409254>.
 
-Williams, D., et al. "Behind the Avatar: The Patterns, Practices, and Functions of Role Playing in MMOs." _Games and Culture_, vol. 6, no. 2, 2011, pp. 171-200, doi:10.1177/1555412010364983.
+Williams, D., et al. "Behind the Avatar: The Patterns, Practices, and Functions of Role Playing in MMOs." _Games and Culture_, vol. 6, no. 2, 2011, pp. 171-200, <doi:10.1177/1555412010364983>.
 
-Wilson, Barbara J. "Media and Children's Aggression, Fear, and Altruism." _The Future of Children_, vol. 18, no. 1, 2008, pp. 87-118, http://www.jstor.org/stable/20053121.
+Wilson, Barbara J. "Media and Children's Aggression, Fear, and Altruism." _The Future of Children_, vol. 18, no. 1, 2008, pp. 87-118, <http://www.jstor.org/stable/20053121>.
 
 Witkowski, W. "Videogames Are a Bigger Industry Than Movies and North American Sports Combined, Thanks to the Pandemic, 2020." _MarketWatch_, 2021.
 
-Wu, Chia-rong. "Save the Children: Youth Narratives and Historical Learning in Three Taiwanese Horror Video Games." _International Journal of Taiwan Studies_, 2025, doi:10.1163/24688800-20251390.
+Wu, Chia-rong. "Save the Children: Youth Narratives and Historical Learning in Three Taiwanese Horror Video Games." _International Journal of Taiwan Studies_, 2025, <doi:10.1163/24688800-20251390>.
 
-Xu, Y., et al. "Playing Violent Shooting Games in Virtual Reality Can Strengthen Positive Attitudes Toward Guns in Individuals With Low Narcissistic Rivalry." _Psychology of Popular Media_, 2025, doi:10.1037/ppm0000531.
+Xu, Y., et al. "Playing Violent Shooting Games in Virtual Reality Can Strengthen Positive Attitudes Toward Guns in Individuals With Low Narcissistic Rivalry." _Psychology of Popular Media_, 2025, <doi:10.1037/ppm0000531>.
 
-Yang, X., et al. "Relations Between Violent Video Game Experiences and Prosocial Behavior: The Mediating Role of Respiratory Sinus Arrhythmia Reduction." _Journal of Media Psychology: Theories, Methods, and Applications_, vol. 37, no. 4, 2025, pp. 233-244, doi:10.1027/1864-1105/a000439.
+Yang, X., et al. "Relations Between Violent Video Game Experiences and Prosocial Behavior: The Mediating Role of Respiratory Sinus Arrhythmia Reduction." _Journal of Media Psychology: Theories, Methods, and Applications_, vol. 37, no. 4, 2025, pp. 233-244, <doi:10.1027/1864-1105/a000439>.
 
-Yao, Mengyun, et al. "Violent Video Games Exposure and Aggression: The Role of Moral Disengagement, Anger, Hostility, and Disinhibition." _Aggressive Behavior_, vol. 45, no. 6, 2019, pp. 662-670, doi:10.1002/ab.21860.
+Yao, Mengyun, et al. "Violent Video Games Exposure and Aggression: The Role of Moral Disengagement, Anger, Hostility, and Disinhibition." _Aggressive Behavior_, vol. 45, no. 6, 2019, pp. 662-670, <doi:10.1002/ab.21860>.
 
-Younas, S., and F. U. Haq. "Deep Learning-Based Investigation of Violent Video Game Effects on Aggressive Behavior and Cognition." _IEEE Access_, vol. 13, 2025, pp. 51746-51756, doi:10.1109/ACCESS.2025.3523736.
+Younas, S., and F. U. Haq. "Deep Learning-Based Investigation of Violent Video Game Effects on Aggressive Behavior and Cognition." _IEEE Access_, vol. 13, 2025, pp. 51746-51756, <doi:10.1109/ACCESS.2025.3523736>.
 
-Zhang, Y., et al. "Poor Sleep, Sensation-Seeking, and Screen Usage: A Prospective Analysis in Adolescents." _World Journal of Pediatrics_, vol. 21, 2025, pp. 63-71, doi:10.1007/s12519-024-00813-8.
+Zhang, Y., et al. "Poor Sleep, Sensation-Seeking, and Screen Usage: A Prospective Analysis in Adolescents." _World Journal of Pediatrics_, vol. 21, 2025, pp. 63-71, <doi:10.1007/s12519-024-00813-8>.
 
-Zillmann, D., et al. "Excitation Transfer from Physical Exercise to Subsequent Aggressive Behavior." _Journal of Experimental Social Psychology_, vol. 8, no. 3, 1972, pp. 247-259, doi:10.1016/S0022-1031(72)80005-2.
+Zillmann, D., et al. "Excitation Transfer from Physical Exercise to Subsequent Aggressive Behavior." _Journal of Experimental Social Psychology_, vol. 8, no. 3, 1972, pp. 247-259, <doi:10.1016/S0022-1031(72)80005-2>.
