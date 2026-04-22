@@ -605,62 +605,148 @@ The next time someone asks "How hard are you working?"—the better question mig
 
 ## References
 
-Agarwal, Pooja K., and Henry L. Roediger. "Lessons for Learning: How Cognitive Psychology Informs Classroom Practice." *The Phi Delta Kappan*, vol. 100, no. 4, 2018, pp. 8–12. JSTOR, https://www.jstor.org/stable/26552478. Accessed 10 Apr. 2026.
+Adamczyk, Piotr D., and Brian P. Bailey. "If Not Now, When? The Effects of Interruption at Different Moments within Task Execution." _Proceedings of CHI'04_, 2004, pp. 271–78.
 
-Amer, Shaimaa A. A. M., et al. "Occupational Burnout and Productivity Loss: A Cross-Sectional Study Among Academic University Staff." *Frontiers in Public Health*, vol. 10, 2022, article 861674. https://doi.org/10.3389/fpubh.2022.861674. Accessed 10 Apr. 2026.
+Agarwal, Pooja K., and Henry L. Roediger. "Lessons for Learning: How Cognitive Psychology Informs Classroom Practice." _The Phi Delta Kappan_, vol. 100, no. 4, 2018, pp. 8–12. JSTOR, https://www.jstor.org/stable/26552478. Accessed 10 Apr. 2026.
 
-Bellezza, Silvia, Neeru Paharia, and Anat Keinan. "Conspicuous Consumption of Time: When Busyness and Lack of Leisure Time Become a Status Symbol." *Journal of Consumer Research*, vol. 44, no. 1, 2017, pp. 118–138. https://doi.org/10.1093/jcr/ucw076. Accessed 10 Apr. 2026.
+Amer, Shaimaa A. A. M., et al. "Occupational Burnout and Productivity Loss: A Cross-Sectional Study Among Academic University Staff." _Frontiers in Public Health_, vol. 10, 2022, article 861674. https://doi.org/10.3389/fpubh.2022.861674. Accessed 10 Apr. 2026.
 
-Brint, Steven, and Charles T. Clotfelter. "U.S. Higher Education Effectiveness." *RSF: The Russell Sage Foundation Journal of the Social Sciences*, vol. 2, no. 1, 2016, pp. 2–37. JSTOR, https://doi.org/10.7758/rsf.2016.2.1.01. Accessed 10 Apr. 2026.
+Badre, David. "The Tao of Multitasking." _On Task: How Our Brain Gets Things Done_, Princeton University Press, 2020, pp. 130–56. JSTOR, https://doi.org/10.2307/j.ctv11hprj1.8. Accessed 22 Apr. 2026.
 
-Chambers, Robert G. "Stochastic Productivity Measurement." *Journal of Productivity Analysis*, vol. 30, no. 2, 2008, pp. 107–20. JSTOR, http://www.jstor.org/stable/41770358. Accessed 10 Apr. 2026.
+Bargh, John A. "Goal ≠ Intent: Goal-Directed Thought and Behavior Are Often Unintentional." _Psychological Inquiry_, vol. 1, no. 3, 1990, pp. 248–51. JSTOR, http://www.jstor.org/stable/1449760. Accessed 22 Apr. 2026.
 
-Choi, Hwan-Hee, et al. "Effects of the Physical Environment on Cognitive Load and Learning: Towards a New Model of Cognitive Load." *Educational Psychology Review*, vol. 26, no. 2, 2014, pp. 225–44. JSTOR, http://www.jstor.org/stable/43549793. Accessed 10 Apr. 2026.
+Baumeister, Roy F., et al. "Ego Depletion: Is the Active Self a Limited Resource?" _Journal of Personality and Social Psychology_, vol. 74, no. 5, 1998, pp. 1252–65. https://doi.org/10.1037/0022-3514.74.5.1252. Accessed 21 Apr. 2026.
 
-Costa, Crist H. "Productivity Efforts in Education." *Public Productivity Review*, vol. 2, no. 5, 1977, pp. 63–76. JSTOR, https://doi.org/10.2307/3379847. Accessed 10 Apr. 2026.
+Bellezza, Silvia, Neeru Paharia, and Anat Keinan. "Conspicuous Consumption of Time: When Busyness and Lack of Leisure Time Become a Status Symbol." _Journal of Consumer Research_, vol. 44, no. 1, 2017, pp. 118–138. https://doi.org/10.1093/jcr/ucw076. Accessed 10 Apr. 2026.
 
-Crozier, W. Ray. "The Psychology of Education: Achievements and Challenges." *Oxford Review of Education*, vol. 35, no. 5, 2009, pp. 587–600. JSTOR, http://www.jstor.org/stable/27784587. Accessed 10 Apr. 2026.
+Bommier, Antoine, and Stéphane Zuber. "The Pareto Principle of Optimal Inequality." _International Economic Review_, vol. 53, no. 2, 2012, pp. 593–607. JSTOR, http://www.jstor.org/stable/23251600. Accessed 21 Apr. 2026.
 
-De Langhe, Bart, and Stefano Puntoni. "Productivity Metrics and Consumers' Misunderstanding of Time Savings." *Journal of Marketing Research*, vol. 53, no. 3, 2016, pp. 396–406. JSTOR, http://www.jstor.org/stable/44134850. Accessed 10 Apr. 2026.
+Brint, Steven, and Charles T. Clotfelter. "U.S. Higher Education Effectiveness." _RSF: The Russell Sage Foundation Journal of the Social Sciences_, vol. 2, no. 1, 2016, pp. 2–37. JSTOR, https://doi.org/10.7758/rsf.2016.2.1.01. Accessed 10 Apr. 2026.
 
-Dunlosky, John, et al. "Improving Students' Learning With Effective Learning Techniques: Promising Directions from Cognitive and Educational Psychology." *Psychological Science in the Public Interest*, vol. 14, no. 1, 2013, pp. 4–58. https://doi.org/10.1177/1529100612453266. Accessed 10 Apr. 2026.
+Buehler, Roger, Dale Griffin, and Michael Ross. "Exploring the 'Planning Fallacy': Why People Underestimate Their Task Completion Times." _Journal of Personality and Social Psychology_, vol. 67, no. 3, 1994, pp. 366–81. https://doi.org/10.1037/0022-3514.67.3.366. Accessed 21 Apr. 2026.
 
-Elsbach, Kimberly D., and Andrew B. Hargadon. "Enhancing Creativity through 'Mindless' Work: A Framework of Workday Design." *Organization Science*, vol. 17, no. 4, 2006, pp. 470–83. JSTOR, http://www.jstor.org/stable/25146050. Accessed 10 Apr. 2026.
+Cato, Susumu. "Weak Independence and the Pareto Principle." _Social Choice and Welfare_, vol. 47, no. 2, 2016, pp. 295–314. JSTOR, http://www.jstor.org/stable/24779341. Accessed 21 Apr. 2026.
 
-Fischler, Ira. "Learning Theory Meets Learning Objects: A Cognitive Science Perspective." *Educational Technology*, vol. 46, no. 1, 2006, pp. 22–25. JSTOR, http://www.jstor.org/stable/44429264. Accessed 10 Apr. 2026.
+Carr, Nicholas. "The Juggler's Brain." _The Phi Delta Kappan_, vol. 92, no. 4, 2010, pp. 8–14. JSTOR, http://www.jstor.org/stable/27922479. Accessed 22 Apr. 2026.
 
-Gudivada, Venkat N. "Cognitive Analytics Driven Personalized Learning." *Educational Technology*, vol. 57, no. 1, 2017, pp. 23–31. JSTOR, http://www.jstor.org/stable/44430537. Accessed 10 Apr. 2026.
+Chambers, Robert G. "Stochastic Productivity Measurement." _Journal of Productivity Analysis_, vol. 30, no. 2, 2008, pp. 107–20. JSTOR, http://www.jstor.org/stable/41770358. Accessed 10 Apr. 2026.
 
-Hanushek, Eric A., and Elizabeth Ettema. "Defining Productivity in Education: Issues and Illustrations." *The American Economist*, vol. 62, no. 2, 2017, pp. 165–83. JSTOR, https://www.jstor.org/stable/26754413. Accessed 10 Apr. 2026.
+Choi, Hwan-Hee, et al. "Effects of the Physical Environment on Cognitive Load and Learning: Towards a New Model of Cognitive Load." _Educational Psychology Review_, vol. 26, no. 2, 2014, pp. 225–44. JSTOR, http://www.jstor.org/stable/43549793. Accessed 10 Apr. 2026.
 
-Haynes, Michael. *Productivity*. Agenda Publishing, 2020. JSTOR, https://doi.org/10.2307/j.ctv103xdcd. Accessed 10 Apr. 2026.
+Clark, James M., and Allan Paivio. "Dual Coding Theory and Education." _Educational Psychology Review_, vol. 3, no. 3, 1991, pp. 149–210. https://doi.org/10.1007/BF01320076. Accessed 21 Apr. 2026.
 
-Holzer, Marc, and David Tatge. "Educating and Training for Productivity." *Public Productivity Review*, vol. 2, no. 4, 1977, pp. 3–9. JSTOR, https://doi.org/10.2307/3380345. Accessed 10 Apr. 2026.
+Costa, Crist H. "Productivity Efforts in Education." _Public Productivity Review_, vol. 2, no. 5, 1977, pp. 63–76. JSTOR, https://doi.org/10.2307/3379847. Accessed 10 Apr. 2026.
 
-Kelly, J. Terence. "Technology and Productivity in a Community College." *Public Productivity Review*, vol. 2, no. 5, 1977, pp. 27–31. JSTOR, https://doi.org/10.2307/3379841. Accessed 10 Apr. 2026.
+Crawford, Rachelle. "The Unhurried Life." _How to Be Busy: Unhurried Living Even When Your Calendar Is Chaotic_, Augsburg Fortress, 2025, pp. 25–38. JSTOR, https://doi.org/10.2307/jj.17681842.5. Accessed 21 Apr. 2026.
 
-Kuh, George D., and Shouping Hu. "Learning Productivity at Research Universities." *The Journal of Higher Education*, vol. 72, no. 1, 2001, pp. 1–28. JSTOR, https://doi.org/10.2307/2649131. Accessed 10 Apr. 2026.
+Crozier, W. Ray. "The Psychology of Education: Achievements and Challenges." _Oxford Review of Education_, vol. 35, no. 5, 2009, pp. 587–600. JSTOR, http://www.jstor.org/stable/27784587. Accessed 10 Apr. 2026.
 
-Lee, Yuan-Hsuan, et al. "Revisit the Effect of Teaching and Learning with Technology." *Journal of Educational Technology & Society*, vol. 16, no. 1, 2013, pp. 133–46. JSTOR, http://www.jstor.org/stable/jeductechsoci.16.1.133. Accessed 10 Apr. 2026.
+Czerwinski, Mary, Edward Cutrell, and Eric Horvitz. "Instant Messaging: Effects of Relevance and Timing." _Proceedings of HCI'00_, British Computer Society, 2000, pp. 71–76.
 
-Liew, Tze Wei, and Su-Mae Tan. "The Effects of Positive and Negative Mood on Cognition and Motivation in Multimedia Learning Environment." *Journal of Educational Technology & Society*, vol. 19, no. 2, 2016, pp. 104–15. JSTOR, http://www.jstor.org/stable/jeductechsoci.19.2.104. Accessed 10 Apr. 2026.
+Czerwinski, Mary, Eric Horvitz, and Susan Wilhite. "A Diary Study of Task Switching and Interruptions." _Proceedings of CHI'04_, 2004, pp. 175–82.
 
-Lupu, Ioana, and Joonas Rokka. "Feeling in Control: Optimal Busyness and the Temporality of Organizational Controls." *Organization Science*, vol. 33, no. 4, 2022, pp. 1396–1422. https://doi.org/10.1287/orsc.2021.1486. Accessed 10 Apr. 2026.
+Gollwitzer, Peter M. "Implementation Intentions: Strong Effects of Simple Plans." _American Psychologist_, vol. 54, no. 7, 1999, pp. 493–503. https://doi.org/10.1037/0003-066X.54.7.493. Accessed 21 Apr. 2026.
 
-Maslach, Christina, and Susan E. Jackson. "Burnout: A Review of Theory and Measurement." *Consulting Psychology Journal: Practice and Research*, vol. 36, no. 2, 1984, pp. 191–202. https://doi.org/10.1037/0736-9735.36.2.191. Accessed 10 Apr. 2026.
+Gonzalez, Victor M., and Gloria Mark. "Constant, Constant, Multi-tasking Craziness: Managing Multiple Working Spheres." _Proceedings of CHI '04_, 2004, pp. 113–20.
 
-Roediger, Henry L., III, and Jeffrey D. Karpicke. "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention." *Psychological Science*, vol. 17, no. 3, 2006, pp. 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x. Accessed 10 Apr. 2026.
+Gopher, Daniel, Leah Armony, and Yaakov Greenspan. "Switching Tasks and Attention Policies." _Journal of Experimental Psychology: General_, vol. 129, 2000, pp. 308–29.
 
-Royuela, Vicente, and Jordi Suriñach. "Quality of Work and Aggregate Productivity." *Social Indicators Research*, vol. 113, no. 1, 2013, pp. 37–66. JSTOR, http://www.jstor.org/stable/24719401. Accessed 10 Apr. 2026.
+Granger, Larry. "Productivity Strategy and Productive Behavior." _Public Productivity Review_, vol. 5, no. 3, 1981, pp. 264–66. JSTOR, https://doi.org/10.2307/3380298. Accessed 22 Apr. 2026.
 
-Shirey, Maria R., and Lisle Hites. "Orchestrating Energy for Shifting Busyness to Strategic Work." *The Journal of Nursing Administration*, vol. 45, no. 3, 2015, pp. 124–27. JSTOR, https://www.jstor.org/stable/26813241. Accessed 10 Apr. 2026.
+Gutierrez, Genaro J., and Panagiotis Kouvelis. "Parkinson's Law and Its Implications for Project Management." _Management Science_, vol. 37, no. 8, 1991, pp. 990–1001. JSTOR, http://www.jstor.org/stable/2632560. Accessed 21 Apr. 2026.
 
-Shuell, Thomas J. "Cognitive Conceptions of Learning." *Review of Educational Research*, vol. 56, no. 4, 1986, pp. 411–36. JSTOR, https://doi.org/10.2307/1170340. Accessed 10 Apr. 2026.
+Haslerud, George M. "Retrieval." _Transfer, Memory, and Creativity: After-Learning as Perceptual Process_, NED-New edition, University of Minnesota Press, 1972, pp. 31–45. JSTOR, http://www.jstor.org/stable/10.5749/j.ctttt9rw.7. Accessed 22 Apr. 2026.
 
-Sonnentag, Sabine. "Psychological Detachment From Work During Leisure Time: The Benefits of Mentally Disengaging From Work." *Current Directions in Psychological Science*, vol. 21, no. 2, 2012, pp. 114–18. JSTOR, http://www.jstor.org/stable/23213103. Accessed 10 Apr. 2026.
+Hudson, James M., et al. "'I'd Be Overwhelmed, but It's Just One More Thing to Do': Availability and Interruption in Research Management." _Proceedings of CHI 2002_, 2002, pp. 97–104.
 
-Syverson, Chad. "What Determines Productivity?" *Journal of Economic Literature*, vol. 49, no. 2, 2011, pp. 326–65. JSTOR, http://www.jstor.org/stable/23071619. Accessed 10 Apr. 2026.
+De Langhe, Bart, and Stefano Puntoni. "Productivity Metrics and Consumers' Misunderstanding of Time Savings." _Journal of Marketing Research_, vol. 53, no. 3, 2016, pp. 396–406. JSTOR, http://www.jstor.org/stable/44134850. Accessed 10 Apr. 2026.
 
-Todd, Jennifer. "Social Transformation, Collective Categories, and Identity Change." *Theory and Society*, vol. 34, no. 4, 2005, pp. 429–63. JSTOR, http://www.jstor.org/stable/4501731. Accessed 10 Apr. 2026.
+Dunlosky, John, et al. "Improving Students' Learning With Effective Learning Techniques: Promising Directions from Cognitive and Educational Psychology." _Psychological Science in the Public Interest_, vol. 14, no. 1, 2013, pp. 4–58. https://doi.org/10.1177/1529100612453266. Accessed 10 Apr. 2026.
 
-Yang, Tzu-Chi, et al. "Development of an Adaptive Learning System with Multiple Perspectives Based on Students' Learning Styles and Cognitive Styles." *Journal of Educational Technology & Society*, vol. 16, no. 4, 2013, pp. 185–200. JSTOR, http://www.jstor.org/stable/jeductechsoci.16.4.185. Accessed 10 Apr. 2026.
+Elsbach, Kimberly D., and Andrew B. Hargadon. "Enhancing Creativity through 'Mindless' Work: A Framework of Workday Design." _Organization Science_, vol. 17, no. 4, 2006, pp. 470–83. JSTOR, http://www.jstor.org/stable/25146050. Accessed 10 Apr. 2026.
+
+Edwards, Denny. "The 80/20 Rule." _Defense Transportation Journal_, vol. 67, no. 5, 2011, pp. 59–59. JSTOR, http://www.jstor.org/stable/44123402. Accessed 22 Apr. 2026.
+
+Farley, Frank H., and Wallace L. Mealiea. "Motivation and the Recall of Completed and Incompleted Achievement Items." _The Journal of Educational Research_, vol. 66, no. 7, 1973, pp. 302–06. JSTOR, http://www.jstor.org/stable/27536449. Accessed 22 Apr. 2026.
+
+Fischler, Ira. "Learning Theory Meets Learning Objects: A Cognitive Science Perspective." _Educational Technology_, vol. 46, no. 1, 2006, pp. 22–25. JSTOR, http://www.jstor.org/stable/44429264. Accessed 10 Apr. 2026.
+
+Gudivada, Venkat N. "Cognitive Analytics Driven Personalized Learning." _Educational Technology_, vol. 57, no. 1, 2017, pp. 23–31. JSTOR, http://www.jstor.org/stable/44430537. Accessed 10 Apr. 2026.
+
+Hanushek, Eric A., and Elizabeth Ettema. "Defining Productivity in Education: Issues and Illustrations." _The American Economist_, vol. 62, no. 2, 2017, pp. 165–83. JSTOR, https://www.jstor.org/stable/26754413. Accessed 10 Apr. 2026.
+
+Haynes, Michael. _Productivity_. Agenda Publishing, 2020. JSTOR, https://doi.org/10.2307/j.ctv103xdcd. Accessed 10 Apr. 2026.
+
+Holzer, Marc, and David Tatge. "Educating and Training for Productivity." _Public Productivity Review_, vol. 2, no. 4, 1977, pp. 3–9. JSTOR, https://doi.org/10.2307/3380345. Accessed 10 Apr. 2026.
+
+Jacobs, Barry J., and Julia L. Mayer. "Taking Care of Yourself, Too." _The AARP Caregiver Answer Book_, Guilford Press, 2025, pp. 35–54. JSTOR, http://www.jstor.org/stable/10.1521/jj.41114959.8. Accessed 21 Apr. 2026.
+
+Judson, Arnold S. "Productivity Strategy and Business Strategy: Two Sides of the Same Coin." _Interfaces_, vol. 14, no. 1, 1984, pp. 103–15. JSTOR, http://www.jstor.org/stable/25060524. Accessed 22 Apr. 2026.
+
+Kelly, J. Terence. "Technology and Productivity in a Community College." _Public Productivity Review_, vol. 2, no. 5, 1977, pp. 27–31. JSTOR, https://doi.org/10.2307/3379841. Accessed 10 Apr. 2026.
+
+Kennedy, R. E. "Profiting by Parkinson's Law." _Financial Analysts Journal_, vol. 17, no. 3, 1961, pp. 43–47. JSTOR, http://www.jstor.org/stable/4469193. Accessed 21 Apr. 2026.
+
+Khedmatinejad, H., and S. Asadi. "Time Management and Decision-Making for Reading in Public Library Clients Based on the Eisenhower Matrix." _Digital and Smart Libraries Research_, vol. 8, no. 1, 2021, pp. 63–72. https://doi.org/10.30473/mrs.2022.61568.1491. Accessed 21 Apr. 2026.
+
+Kornell, Nate, and Robert A. Bjork. "Learning Concepts and Categories: Is Spacing the 'Enemy of Induction'?" _Psychological Science_, vol. 19, no. 6, 2008, pp. 585–92. https://doi.org/10.1111/j.1467-9280.2008.02088.x. Accessed 21 Apr. 2026.
+
+Kory-Westlund, Jacqueline M. "Managing Projects and Managing Time." _Grad School Life: Surviving and Thriving Beyond Coursework and Research_, Columbia University Press, 2024, pp. 143–63. JSTOR, http://www.jstor.org/stable/10.7312/kory20784.13. Accessed 21 Apr. 2026.
+
+Krakowski, Martin. "PERT and Parkinson's Law." _Interfaces_, vol. 5, no. 1, 1974, pp. 35–40. JSTOR, http://www.jstor.org/stable/25059133. Accessed 21 Apr. 2026.
+
+Kuh, George D., and Shouping Hu. "Learning Productivity at Research Universities." _The Journal of Higher Education_, vol. 72, no. 1, 2001, pp. 1–28. JSTOR, https://doi.org/10.2307/2649131. Accessed 10 Apr. 2026.
+
+Lee, Yuan-Hsuan, et al. "Revisit the Effect of Teaching and Learning with Technology." _Journal of Educational Technology & Society_, vol. 16, no. 1, 2013, pp. 133–46. JSTOR, http://www.jstor.org/stable/jeductechsoci.16.1.133. Accessed 10 Apr. 2026.
+
+Liew, Tze Wei, and Su-Mae Tan. "The Effects of Positive and Negative Mood on Cognition and Motivation in Multimedia Learning Environment." _Journal of Educational Technology & Society_, vol. 19, no. 2, 2016, pp. 104–15. JSTOR, http://www.jstor.org/stable/jeductechsoci.19.2.104. Accessed 10 Apr. 2026.
+
+Liu, Wendy, and John Deighton. "Focusing on Desirability: The Effect of Decision Interruption and Suspension on Preferences." _Journal of Consumer Research_, vol. 35, no. 4, 2008, pp. 640–52. JSTOR, https://doi.org/10.1086/592126. Accessed 22 Apr. 2026.
+
+Lupu, Ioana, and Joonas Rokka. "Feeling in Control: Optimal Busyness and the Temporality of Organizational Controls." _Organization Science_, vol. 33, no. 4, 2022, pp. 1396–1422. https://doi.org/10.1287/orsc.2021.1486. Accessed 10 Apr. 2026.
+
+Mark, Gloria, Victor Gonzalez, and Justin Harris. "No Task Left Behind? Examining the Nature of Fragmented Work." _Proceedings of CHI'05_, 2005, pp. 113–20.
+
+Maslach, Christina, and Susan E. Jackson. "Burnout: A Review of Theory and Measurement." _Consulting Psychology Journal: Practice and Research_, vol. 36, no. 2, 1984, pp. 191–202. https://doi.org/10.1037/0736-9735.36.2.191. Accessed 10 Apr. 2026.
+
+Meyer, David E., and David E. Kieras. "A Computational Theory of Executive Cognitive Processes and Multiple-Task Performance: Part 1. Basic Mechanisms." _Psychological Review_, vol. 104, 1997, pp. 3–65.
+
+Monroe, Andrew E., et al. "Perceptions of Intentionality for Goal-Related Action: Behavioral Description Matters." _PLOS ONE_, vol. 10, no. 3, 17 Mar. 2015, e0119841. https://doi.org/10.1371/journal.pone.0119841. Accessed 22 Apr. 2026.
+
+Peters, Lawrence H., et al. "The Relationship between Time Pressure and Performance: A Field Test of Parkinson's Law." _Journal of Occupational Behaviour_, vol. 5, no. 4, 1984, pp. 293–99. JSTOR, http://www.jstor.org/stable/3000155. Accessed 21 Apr. 2026.
+
+Postrel, Steven. "Multitasking Teams with Variable Complementarity: Challenges for Capability Management." _The Academy of Management Review_, vol. 34, no. 2, 2009, pp. 273–96. JSTOR, http://www.jstor.org/stable/27760002. Accessed 22 Apr. 2026.
+
+Prevatt, Frances, and Abigail Levrini. "Specific Strategies for ADHD Coaching." _ADHD Coaching: A Guide for Mental Health Professionals_, American Psychological Association, 2015, pp. 83–108. JSTOR, http://www.jstor.org/stable/j.ctv1chrx6z.9. Accessed 21 Apr. 2026.
+
+Roediger, Henry L., III, and Jeffrey D. Karpicke. "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention." _Psychological Science_, vol. 17, no. 3, 2006, pp. 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x. Accessed 10 Apr. 2026.
+
+Royuela, Vicente, and Jordi Suriñach. "Quality of Work and Aggregate Productivity." _Social Indicators Research_, vol. 113, no. 1, 2013, pp. 37–66. JSTOR, http://www.jstor.org/stable/24719401. Accessed 10 Apr. 2026.
+
+Rusli, S. N. Binti, R. B. Abu Bakar, and S. S. Binti Abdul Hamid. "An Improvement of Interactive Prioritization Technique for Requirements Interdependency in Prioritization Process." _2023 IEEE 8th International Conference on Software Engineering and Computer Systems (ICSECS)_, Penang, Malaysia, 2023, pp. 320–25. https://doi.org/10.1109/ICSECS58457.2023.10256396. Accessed 22 Apr. 2026.
+
+Schultz, Wolfram. "Predictive Reward Signal of Dopamine Neurons." _Journal of Neurophysiology_, vol. 80, no. 1, 1998, pp. 1–27. https://doi.org/10.1152/jn.1998.80.1.1. Accessed 21 Apr. 2026.
+
+Shirey, Maria R., and Lisle Hites. "Orchestrating Energy for Shifting Busyness to Strategic Work." _The Journal of Nursing Administration_, vol. 45, no. 3, 2015, pp. 124–27. JSTOR, https://www.jstor.org/stable/26813241. Accessed 10 Apr. 2026.
+
+Shuell, Thomas J. "Cognitive Conceptions of Learning." _Review of Educational Research_, vol. 56, no. 4, 1986, pp. 411–36. JSTOR, https://doi.org/10.2307/1170340. Accessed 10 Apr. 2026.
+
+Sonnentag, Sabine. "Psychological Detachment From Work During Leisure Time: The Benefits of Mentally Disengaging From Work." _Current Directions in Psychological Science_, vol. 21, no. 2, 2012, pp. 114–18. JSTOR, http://www.jstor.org/stable/23213103. Accessed 10 Apr. 2026.
+
+Sung, Nakjung, and Seungho Choi. "The Sung Diagram: Revitalizing the Eisenhower Matrix." _Advances in Human Factors, Business Management and Leadership_, edited by Jussi Ilari Kantola et al., Springer, 2020, pp. 689–96. https://doi.org/10.1007/978-3-030-54249-8_43. Accessed 22 Apr. 2026.
+
+Syverson, Chad. "What Determines Productivity?" _Journal of Economic Literature_, vol. 49, no. 2, 2011, pp. 326–65. JSTOR, http://www.jstor.org/stable/23071619. Accessed 10 Apr. 2026.
+
+Todd, Jennifer. "Social Transformation, Collective Categories, and Identity Change." _Theory and Society_, vol. 34, no. 4, 2005, pp. 429–63. JSTOR, http://www.jstor.org/stable/4501731. Accessed 10 Apr. 2026.
+
+Touré-Tillery, Maferima, and Ayelet Fishbach. "The Course of Motivation." _Journal of Consumer Psychology_, vol. 21, no. 4, 2011, pp. 414–23. JSTOR, http://www.jstor.org/stable/23049312. Accessed 22 Apr. 2026.
+
+Tymchenko, Oksana, and Olha Krasiuk. "Implementing Time Management to Increase the Effectiveness of Personnel Development." _Repository of Kharkiv National University of Economics_, 2023. http://repository.hneu.edu.ua/handle/123456789/34785. Accessed 22 Apr. 2026.
+
+Umeda, Satoshi, et al. "Prospective Memory Mediated by Interoceptive Accuracy: A Psychophysiological Approach." _Philosophical Transactions: Biological Sciences_, vol. 371, no. 1708, 2016, pp. 1–8. JSTOR, http://www.jstor.org/stable/26120759. Accessed 22 Apr. 2026.
+
+Wilkinson, Leland. "Revising the Pareto Chart." _The American Statistician_, vol. 60, no. 4, 2006, pp. 332–34. JSTOR, http://www.jstor.org/stable/27643812. Accessed 22 Apr. 2026.
+
+Williams, T. M. "What Are PERT Estimates?" _The Journal of the Operational Research Society_, vol. 46, no. 12, 1995, pp. 1498–504. JSTOR, https://doi.org/10.2307/2584068. Accessed 21 Apr. 2026.
+
+Yang, Tzu-Chi, et al. "Development of an Adaptive Learning System with Multiple Perspectives Based on Students' Learning Styles and Cognitive Styles." _Journal of Educational Technology & Society_, vol. 16, no. 4, 2013, pp. 185–200. JSTOR, http://www.jstor.org/stable/jeductechsoci.16.4.185. Accessed 10 Apr. 2026.
