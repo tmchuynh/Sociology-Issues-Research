@@ -408,6 +408,12 @@ Next, identify three shorter tasks that you've been postponing. These could be s
 Additionally, incorporate three maintenance activities into your daily plan. These are essential tasks that help keep your life organized and running smoothly—think of them as the 'housekeeping' of your day. This may include paying bills, updating your calendar, or doing a quick cleanup of your living or work area.
 
 By following this structured approach, you not only optimize your energy levels but also minimize decision fatigue, allowing you to concentrate your mental resources on what matters most. This balanced method ensures you make consistent strides toward your aspirations while also managing the everyday responsibilities of life effectively.
+
+### Interleaving (Mixing Tasks)
+
+Instead of dedicating an entire five-hour block to a single type of task or area of study, consider adopting a strategy that involves mixing related but distinct types of work or topics. While it might initially feel slower and more cumbersome—possibly leading you to perceive yourself as "less productive" in the moment—there is substantial research indicating that this technique, known as interleaving, can significantly enhance your long-term retention of information and improve your capacity to apply knowledge in various contexts. Kornell and Bjork's experimental research confirmed that interleaved practice—despite subjectively feeling less productive than blocked study in the moment—produces significantly better long-term retention and transfer of learning, because the continuous switching forces the brain to actively retrieve and discriminate between different concepts rather than passively processing familiar material (Kornell and Bjork 585-92).
+
+For instance, if you are in the process of learning two new skills, it might be beneficial to spend 45 minutes focused on Skill A before transitioning to Skill B for the next 45 minutes. This approach contrasts sharply with the traditional method of allocating a full four hours to Skill A on one day and another four hours to Skill B on a subsequent day. By interleaving your practice, you not only maintain engagement and prevent fatigue but also create opportunities for your brain to form connections between different skills, ultimately leading to a deeper understanding and greater proficiency in both areas.
 ### The "Done" List (Anti-To-Do List)
 
 Instead of simply maintaining a to-do list, keep a running log of what you actually accomplished. This helps avoid the "False Sense of Accomplishment" trap. When you look back at your day and see “answered 50 emails” compared to “wrote 2 pages of the thesis,” it gives you a clearer picture of whether you were genuinely productive or just busy.
@@ -443,6 +449,24 @@ The Sung Diagram evaluates tasks across three binary dimensions, represented as 
 3. **Fit**: The forgotten dimension that distinguishes the Sung Diagram from the Eisenhower Matrix. Fit answers whether the agent (person, company, or group) is the right one to perform the task, based on two components:
    - **Capability**: Is the agent the most capable to accomplish this task? Does the task require training or practice that the agent possesses? Does the agent lack the ability to delegate to someone more qualified?
    - **Ipseity (Sense of Self)**: Does completing this task contribute to the agent's sense of self, values, mission statement, or goals? Does it align with what Covey calls a "Big Hairy Audacious Goal"?
+
+**The Seven Regions and Outcomes**
+
+After evaluating a task across all three dimensions, it falls into one of seven regions (tasks that are not urgent, important, nor fit fall into an eighth "Delete" region). The framework operates on two overarching principles: (1) If a task is not fit, delegate it; (2) Tasks that are urgent must be re-evaluated for importance and fitness, while tasks that are fit but not important should be critically evaluated.
+
+- **Do Now** (Urgent + Important + Fit): Tasks that must be done immediately by the agent. Consistent application of the Sung Diagram limits how many tasks appear here simultaneously. _Example_: A pre-med student studying for tomorrow's microbiology exam—urgent, important, and fit since no one else can study for them.
+
+- **Delegate Now** (Urgent + Important + Not Fit): Tasks requiring immediate action but better suited for someone else. Before delegating, ensure the task is fit for the delegate. _Example_: Christine needs to pack for a move in two days, but she has resources to hire movers. The Eisenhower Matrix would suggest she pack immediately, but the Sung Diagram correctly identifies this should be delegated to professionals.
+
+- **Do Next** (Urgent + Fit + Not Important): Tasks the agent must complete soon, but importance should be re-evaluated first. If re-evaluation reveals the task isn't truly fit, delete it instead. _Example_: Responding to phone notifications may feel urgent and fit, but if they're not important, they should be reconsidered or eliminated.
+
+- **Delegate Next** (Urgent + Not Important + Not Fit): Tasks requiring quick action but neither important nor suitable for the agent. First assess: do you know the right person? If not, delete the task. _Example_: A researcher asked to review a paper only tangentially related to their field—urgent but neither important nor fit for them. They can decline or assign to a graduate student as a learning experience.
+
+- **Schedule** (Important + Fit + Not Urgent): Tasks aligned with long-term goals that need dedicated time blocks. This is the region Covey emphasizes for meaningful progress. _Example_: A computer programmer whose life goal is writing a novel must block off time to work on it despite its lack of urgency.
+
+- **Plan** (Important + Not Fit + Not Urgent): Tasks requiring a strategy for accomplishment. First, identify who is best suited to complete this. If your current "Do Now" and "Do Next" lists are short and the task is simple, you might do it yourself; otherwise, delegate. _Example_: Booking travel for donor meetings when you have an assistant who knows your preferences and calendar—takes them minutes to plan.
+
+- **Delete** (Not Urgent + Not Important + Not Fit): Tasks that should be eliminated entirely. Time is limited, and some things must be let go. _Example_: A friend suggests riding a roller coaster at an amusement park, but you're afraid of heights and have no compelling reason to go.
 
 **How to Implement**
 
