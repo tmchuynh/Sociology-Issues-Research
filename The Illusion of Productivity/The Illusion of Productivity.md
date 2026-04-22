@@ -326,9 +326,30 @@ This framework distinguishes between tasks that require immediate attention (Urg
 #### The Sung Diagram
 
 The Sung Diagram represents a modern revitalization of the Eisenhower Matrix, addressing a critical limitation in the traditional framework: the question of _who_ should complete a task, not just _when_ it should be done. While the Eisenhower Matrix often suggests that urgent and important tasks should be done immediately, this advice can be misleading when the person lacks the proper skills or when the task doesn't align with their core responsibilities. The Sung Diagram introduces a third dimension—"Fit"—creating a more nuanced 7-region Venn diagram that helps avoid the "mere urgency effect" and reduces decision fatigue by clarifying not only what needs to be done, but who should do it (Sung and Choi).
+**How to Implement**
+
+1. **List all tasks** for the day or week
+2. **Evaluate each task** across the three dimensions:
+   - Is it important? (Will it have significant impact?)
+   - Is it urgent? (Does it require immediate attention with no blockers?)
+   - Is it fit? (Am I the most capable? Does it align with my core responsibilities and values?)
+3. **Assign the task** to one of the seven regions based on your answers
+4. **Execute in order**: Do Now → Delegate Now → Do Next → Delegate Next → Schedule → Plan → Delete
+5. **Re-evaluate urgency claims**: Before acting on "urgent" tasks, verify they're truly fit and important
+
+The Sung Diagram's key advantage over the Eisenhower Matrix is preventing the common mistake of assuming all urgent and important tasks must be done personally. By incorporating the Fit dimension, it helps individuals focus on tasks that genuinely require their unique capabilities and align with their core mission, while effectively delegating or eliminating everything else.
+
 ### Time-Blocking
 
 Time blocking is an incredibly effective productivity method that helps individuals manage their time more efficiently by dividing their day into dedicated blocks. Each block is assigned to a specific task or cluster of related tasks, creating a structured schedule that not only enhances focus but also minimizes distractions.
+
+- **Prioritize Tasks**: Identify high-priority tasks using methods like the Eisenhower Matrix before scheduling.
+- **Schedule Everything**: Allocate time for specific tasks, meetings, breaks, and routine activities (e.g., checking emails).
+- **Use a Calendar**: Utilize digital tools or paper planners to map out your day or week.
+- **Time Tracking**: Monitor the time spent on tasks to improve your future time estimates.
+### Requirement Prioritization (RP)
+
+Establishing priorities for requirements is crucial for effectively ranking features according to their business importance, associated risks, and feasibility to enhance return on investment (ROI) while managing limited resources. Employing methods such as MoSCoW (Must-have, Should-have, Could-have, Won't-have) allows teams to successfully accomplish this objective. By focusing on the most essential and impactful features first, we significantly mitigate project risks and align closely with stakeholder expectations.
 
 ---
 
