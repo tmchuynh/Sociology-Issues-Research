@@ -1,10 +1,19 @@
-[[TOC]]
+> **Note**: These mathematical concepts are not mentioned within the main text, but serve as a reference for readers who want to explore additional mathematical ideas that are related to the topics discussed.
 
-> Note: These mathematical concepts are not mentioned within the main text, but serve as a reference for readers who want to explore additional mathematical ideas that are related to the topics discussed.
+<!-- TOC -->
 
-> Ramsey Theory
->
-> The study of conditions under which order must inevitably appear in large enough structures, no matter how you arrange things. Ramsey Theory proves that complete disorder is impossible at scale; large enough systems always contain unavoidable patterns — that "complete disorder is impossible", if a structure (such as a graph or set of numbers) is sufficiently large, a specific, ordered sub-structure will inevitably appear — the "order in chaos."
+- [Ramsey Theory](#ramsey-theory)
+- [Hales-Jewett Theorem](#hales-jewett-theorem)
+- [Happy Ending Problem](#happy-ending-problem)
+- [Van der Waerden's Theorem](#van-der-waerdens-theorem)
+- [Gauss's Theorema Egregium](#gausss-theorema-egregium)
+- [Green-Tao Theorem](#green-tao-theorem)
+- [Lie Algebras — Infinitesimal Symmetry](#lie-algebras--infinitesimal-symmetry)
+- [Gomory's Theorem — When Counting Is Enough](#gomorys-theorem--when-counting-is-enough)
+- [Different Types of Numbers](#different-types-of-numbers)
+
+<!-- /TOC -->
+
 
 ## The Theorem on Friends and Strangers
 
