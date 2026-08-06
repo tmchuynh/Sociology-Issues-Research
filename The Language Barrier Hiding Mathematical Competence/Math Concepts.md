@@ -66,7 +66,49 @@ This explicit coloring is a certificate. It proves that $K_5$ _can_ be 2-colored
 
 > In the language of extremal graph theory, this is the unique - up to isomorphism - $(3,3;5)$-Ramsey graph. It's the only way to avoid the pattern on 5 vertices.
 
+#### Why Six People is The Minimum — Proof that $R(3,3) \le 6$
 
+Now we prove the second inequality: $R(3,3) \le 6$. This is the forcing argument. We must show that no matter how cleverly you try to extend the 5-cycle trick to 6 vertices, you will fail.
+
+##### The Setup
+
+Let $c$ be an arbitrary red/blue coloring of $K_6$. We know nothing about $c$ - it could be anything. Pick an arbitrary vertex and call it $A$. $A$ represents one person at the party.
+
+$A$ is connected to the other 5 vertices. Let's call that set $N(A) = \{B,C,D,E,F\}$. There are 5 edges from $A$ to $N(A)$.
+
+1. Pigeonhole Principle
+
+   Each of those 5 edges is red or blue. You have 5 objects in 2 boxes. By the Pigeonhole Principle, at least $\lceil 5/2 \rceil = 3$ edges must be in the same box.
+
+   Formally: Either $deg_{red}(A) \ge 3$ or $deg_{blue}(A) \ge 3$.
+
+   Without loss of generality, assume $A$ has at least 3 red neighbors. If the majority is blue, just swap the colors in the argument that follows. So let $B, C, D$ be three vertices such that $A-B$, $A-C$, $A-D$ are all red. We say $B,C,D$ are the red-neighborhood of $A$.
+
+2. Look Inside the Neighborhood
+
+   Forget $A$ and the other two vertices $E,F$ for a moment. Focus entirely on the $K_3$ formed by $B,C,D$. It has three edges: $B-C$, $C-D$, $B-D$. Each is red or blue.
+
+   There are only two logical possibilities:
+
+   **Case A: At least one edge among $B,C,D$ is red.**
+   Suppose $B-C$ is red. Then consider the triple $\{A,B,C\}$. We have $A-B$ red by choice of $B$, $A-C$ red by choice of $C$, and $B-C$ red by this case. All three edges are red. So $\{A,B,C\}$ is a red $K_3$. We have found 3 mutual friends, and we are done.
+
+   **Case B: No edge among $B,C,D$ is red.**
+   If no edge is red, then every edge must be blue. So $B-C$ is blue, $C-D$ is blue, and $B-D$ is blue. Then the triple $\{B,C,D\}$ itself is all blue. It is a blue $K_3$. We have found 3 mutual strangers, and we are done.
+
+In both cases, we found what we wanted.
+
+##### Why This Proves Minimality
+
+Notice we never used any special property of the coloring $c$. We only used that it has 6 vertices and is 2-colored. Therefore _every_ coloring of $K_6$ contains a monochromatic $K_3$.
+
+This means 6 is sufficient to force the property: $R(3,3) \le 6$.
+
+Combined with Section 1, which showed $R(3,3) > 5$, we have squeezed the number from both sides:
+
+$$5 < R(3,3) \le 6 \implies R(3,3)=6$$
+
+This simple argument is the seed of Ramsey Theory. The general upper bound $R(s,t) \le R(s-1,t) + R(s,t-1)$ is proved by exactly the same move: pick a vertex, split the rest into its red-neighbors and blue-neighbors, and apply induction.
 > **Proof sketch:**
 >
 > Pick one person, $A$. Among the other 5 people, $A$ must have at least 3 friends or at least 3 strangers (Pigeonhole Principle).
