@@ -109,6 +109,35 @@ Combined with Section 1, which showed $R(3,3) > 5$, we have squeezed the number 
 $$5 < R(3,3) \le 6 \implies R(3,3)=6$$
 
 This simple argument is the seed of Ramsey Theory. The general upper bound $R(s,t) \le R(s-1,t) + R(s,t-1)$ is proved by exactly the same move: pick a vertex, split the rest into its red-neighbors and blue-neighbors, and apply induction.
+
+#### Extension to Larger Groups
+
+The theorem scales up as groups grow larger, though the math becomes incredibly complex:
+
+##### Group of 18 — $R(4,4) = 18$: Where Computers Take Over
+
+You are guaranteed to find either four mutual friends or four mutual strangers.
+
+> **You need 18 people to guarantee 4 mutual friends OR 4 mutual strangers.**
+
+$R(4,4)$ is the first genuinely hard case. The bounds from the recursion only give:
+
+$$R(4,4) \le R(3,4) + R(4,3) = 9 + 9 = 18$$
+
+**$R(4,3) = R(3,4) = 9$:** In any group of 9 people, you are guaranteed to find either a group of 4 mutual friends or a group of 3 mutual strangers. The symmetry $R(4,3) = R(3,4)$ reflects the fact that the colors are interchangeable — swapping the labels "friend" and "stranger" does not change the math.
+
+<figure>
+    <img src="../images/r3_4.png" alt="Graph illustrating R(4,3) = R(3,4) = 9 with red and blue edges">
+    <figcaption>A party of 9 will always contain either a red trio of mutual friends or a blue quartet of mutual strangers (or vice versa). In this example, the quartet is highlighted. Source: Klop 5.</figcaption>
+</figure>
+
+**$R(4,4) = 18$:** To guarantee a group of four mutual friends _or_ four mutual strangers, you need 18 people. This is the first non-trivial case that required significant computational effort. Its exact value was not proven until 1992 by Brendan McKay and Stanisław Radziszowski [often cited via the later verification by Angeltveit and McKay].
+
+So we know 18 is enough. But is 17 enough? To prove $R(4,4) > 17$ you must exhibit a coloring of $K_{17}$ with _no_ monochromatic $K_4$ in either color. There are $2^{136}$ colorings of $K_{17}$. You can't check them all.
+
+It was not settled until 1992 when Brendan McKay and Stanisław Radziszowski used a sophisticated branch-and-bound search with heavy isomorph elimination and gluing of smaller counterexamples to prove that no such coloring of $K_{18}$ avoids a monochromatic $K_4$, but colorings of $K_{17}$ that do avoid it exist. In fact there are 2 such extremal colorings of $K_{17}$ up to isomorphism, and hundreds of millions if you count labelings.
+
+This was a milestone: the first Ramsey number whose proof was essentially computational.
 > **Proof sketch:**
 >
 > Pick one person, $A$. Among the other 5 people, $A$ must have at least 3 friends or at least 3 strangers (Pigeonhole Principle).
