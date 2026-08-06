@@ -507,7 +507,7 @@ In standard 2D $3 \times 3$ Tic-Tac-Toe, a draw is common. The Hales-Jewett numb
 
 - The "order" (a winning line) is mathematically forced by the size of the board.
 
-- The theorem is non-constructive: it proves a winner _must_ exist, but it doesn't tell you _how_ to win or where the line will be.
+- **The theorem is non-constructive**: it proves a winner _must_ exist, but it doesn't tell you _how_ to win or where the line will be.
 
 For a $3 \times 3$ board with 2 players, the threshold is low: it was proven that 3D $3 \times 3 \times 3$ Tic-Tac-Toe cannot end in a draw. For larger boards, the required dimension grows unimaginably fast.
 
@@ -584,7 +584,7 @@ This formula holds for all known cases: $2^{3-2}+1 = 3$, $2^{4-2}+1 = 5$, $2^{5-
 
 Erdős and Szekeres proved the upper bound $N(n) \le \binom{2n-4}{n-2} + 1$ in 1935. In 2016, Andrew Suk made a major breakthrough, proving $N(n) \le 2^{n + O(\sqrt{n \log n})}$, showing the conjectured exponential growth is essentially correct. The lower bound $N(n) \ge 2^{n-2}+1$ was shown by Erdős and Szekeres themselves by constructing point sets with $2^{n-2}$ points containing no convex $n$-gon.
 
-### How the Proof Works for $n=4$
+### How the Proof Works for
 
 The case $N(4)=5$ is the only one you can visualize completely. It uses the concept of a **convex hull** — imagine stretching a rubber band around all the points and letting it snap tight. The points the rubber band touches form the hull.
 
@@ -620,7 +620,7 @@ No matter how cleverly you try to mix the colors to avoid a pattern, if your lis
 
 - **Van der Waerden Number $W(r,k)$:** The least $N$ that forces the pattern. It is the Ramsey number for arithmetic progressions. By definition, there exists at least one coloring of $\{1,\dots,W(r,k)-1\}$ with $r$ colors containing _no_ monochromatic $k$-term AP, but no such coloring exists for $W(r,k)$.
 
-### A Concrete Example: $W(2,3) = 9$
+### A Concrete Example:
 
 The smallest non-trivial van der Waerden number is $W(2,3)=9$. It says: with 2 colors, you need 9 consecutive integers to force a monochromatic 3-term progression.
 
@@ -678,9 +678,9 @@ For a surface in $\mathbb{R}^3$, at each point there are two principal curvature
 
 $$K = \kappa_1 \cdot \kappa_2$$
 
-- Plane / Cylinder: $K = 0 \cdot 0 = 0$ and $K = (1/R)\cdot0 =0$ — flat in at least one direction.
-- Sphere of radius $R$: $\kappa_1=\kappa_2=1/R$, so $K=1/R^2 >0$ — positively curved.
-- Saddle / Pseudosphere: $\kappa_1 = -\kappa_2$, so $K <0$ — negatively curved.
+- **Plane / Cylinder**: $K = 0 \cdot 0 = 0$ and $K = (1/R)\cdot0 =0$ — flat in at least one direction.
+- **Sphere of radius $R$**: $\kappa_1=\kappa_2=1/R$, so $K=1/R^2 >0$ — positively curved.
+- **Saddle / Pseudosphere**: $\kappa_1 = -\kappa_2$, so $K <0$ — negatively curved.
 
 The definition using $\kappa_1, \kappa_2$ uses the second fundamental form — how the normal vector changes in 3D. Gauss proved this product can be computed without the normal.
 
@@ -707,10 +707,10 @@ $$I = ds^2 = E\,du^2 + 2F\,du\,dv + G\,dv^2$$
 
 where $E=\langle r_u,r_u\rangle$, $F=\langle r_u,r_v\rangle$, $G=\langle r_v,r_v\rangle$. $I$ tells you:
 
-- length of any curve on the surface: $\int \sqrt{E(u')^2+2F u'v'+G(v')^2}\,dt$
-- angle between two curves: $\cos\theta = \dfrac{F}{\sqrt{EG}}$ in orthogonal coordinates
-- area: $\iint \sqrt{EG-F^2}\,du\,dv$
-- geodesics: the "straight lines" of the surface — locally shortest paths — defined via Christoffel symbols $\Gamma^k_{ij}$ which are built from $E,F,G$ alone
+- **length of any curve on the surface**: $\int \sqrt{E(u')^2+2F u'v'+G(v')^2}\,dt$
+- **angle between two curves**: $\cos\theta = \dfrac{F}{\sqrt{EG}}$ in orthogonal coordinates
+- **area**: $\iint \sqrt{EG-F^2}\,du\,dv$
+- **geodesics**: the "straight lines" of the surface — locally shortest paths — defined via Christoffel symbols $\Gamma^k_{ij}$ which are built from $E,F,G$ alone
 - parallel transport, covariant derivative, and holonomy — all intrinsic
 
 An ant on a cylinder measures the same distances, angles, and geodesics as an ant on a flat plane. If you cut the cylinder and unroll it, lengths are preserved. To the ant, the cylinder _is_ flat.
@@ -773,8 +773,8 @@ This is formalized as: $K$ is a **bending invariant**. Mean curvature $H$ is not
 
 This is the most famous corollary.
 
-- Plane: $K \equiv 0$
-- Sphere of radius $R$: $K \equiv 1/R^2 > 0$
+- **Plane**: $K \equiv 0$
+- **Sphere of radius $R$**: $K \equiv 1/R^2 > 0$
 
 If there were a perfect map — a local isometry from a patch of sphere to plane preserving all distances — then $K$ would have to be preserved by Theorema Egregium. Since $0 \neq 1/R^2$, no such map exists.
 
@@ -838,7 +838,7 @@ Try it: peel an orange in one piece and press flat — it rips at edges. The tea
 This is why:
 
 - You cannot gift-wrap a basketball smoothly with flat wrapping paper — you get wrinkles. Wrinkles are local stretch/compression to accommodate $K$.
-- Manufacturing: Forming a car body panel from flat steel that is doubly curved ($K\neq0$) requires stretching in a press, not just bending.
+- **Manufacturing**: Forming a car body panel from flat steel that is doubly curved ($K\neq0$) requires stretching in a press, not just bending.
 - Maps must distort — as in (2).
 
 In one line: Cylinders are extrinsic illusions — they look curved but are intrinsically flat. Spheres are intrinsically curved — no illusion, any inhabitant can prove it without leaving the surface, simply by measuring circles and triangles.
@@ -1090,9 +1090,9 @@ Gomory's Theorem is classic result in tiling theory that gives positive guarante
 
 > **Gomory's Theorem (1973, sometimes Gomory-Baum 1973, also called "Mutilated Chessboard Theorem" complement): If any two squares of opposite colors are removed from an $8\times8$ chessboard, the remaining 62 squares can always be perfectly covered by 31 dominoes.**
 
-The name: Ralph E. Gomory proved generalization in context of polyomino tiling. Popularized by Golomb, Martin Gardner. Note opposite of famous mutilated chessboard *impossibility* puzzle — remove opposite corners same color → impossible — Gomory gives converse possibility: opposite colors → always possible.
+The name: Ralph E. Gomory proved generalization in context of polyomino tiling. Popularized by Golomb, Martin Gardner. Note opposite of famous mutilated chessboard _impossibility_ puzzle — remove opposite corners same color → impossible — Gomory gives converse possibility: opposite colors → always possible.
 
-The result far more general than chessboards: any rectangular domain in square grid with even number of cells that is simply connected remains tileable by dominoes after removing one white and one black square? Actually need stronger: any *even* region with no holes? Precise generalization: For any $m\times n$ board where at least one of $m,n$ even so board tileable, and any two squares of opposite color removed, remaining board has domino tiling. More generally, any *balanced* region in $\mathbb{Z}^2$ that is simply connected? Actually theorem extends to any board where every row and column has even number of squares removed? The standard sharp generalization: Any rectangular board $2n\times2n$? Let's state: Any finite region of square lattice that is *simply connected* and has equal black-white count and every "cut" separates? No.
+The result far more general than chessboards: any rectangular domain in square grid with even number of cells that is simply connected remains tileable by dominoes after removing one white and one black square? Actually need stronger: any _even_ region with no holes? Precise generalization: For any $m\times n$ board where at least one of $m,n$ even so board tileable, and any two squares of opposite color removed, remaining board has domino tiling. More generally, any _balanced_ region in $\mathbb{Z}^2$ that is simply connected? Actually theorem extends to any board where every row and column has even number of squares removed? The standard sharp generalization: Any rectangular board $2n\times2n$? Let's state: Any finite region of square lattice that is _simply connected_ and has equal black-white count and every "cut" separates? No.
 
 Clean generalization: **Any rectangular board $m\times n$ with $mn$ even**, removal of one white and one black square leaves domino-tileable region. Proof uses Hamiltonian cycle. Also extends to any region that has a Hamiltonian cycle covering all cells — e.g., $m,n$ at least one even ensures existence of snake cycle. For non-rectangular regions with holes, statement false — need additional topological condition — e.g., region shaped like figure-8 may have opposite colors removal non-tileable.
 
@@ -1118,7 +1118,7 @@ Thus algorithm: find Hamiltonian cycle, cut at removed squares, tile each segmen
 
 **Why this is non-trivial:**
 
-Counting argument gives necessity of opposite colors, but sufficiency fails for many regions — e.g., consider board shaped like 3x3 minus center — 8 squares — balanced 4-4, has Hamiltonian cycle? Actually 3x3 minus center has cycle length 8 and any opposite removal tileable? Some shapes fail. Need rectangular or Hamiltonian condition. So Gomory's theorem identifies class where local counting invariant is *complete* invariant — only obstruction.
+Counting argument gives necessity of opposite colors, but sufficiency fails for many regions — e.g., consider board shaped like 3x3 minus center — 8 squares — balanced 4-4, has Hamiltonian cycle? Actually 3x3 minus center has cycle length 8 and any opposite removal tileable? Some shapes fail. Need rectangular or Hamiltonian condition. So Gomory's theorem identifies class where local counting invariant is _complete_ invariant — only obstruction.
 
 This links to deeper theory: Domino tilings correspond to perfect matchings in bipartite graph — grid graph. Hall's Marriage Theorem gives condition for existence. For bipartite graph with bipartition $W,B$, perfect matching exists after removing $w\in W, b\in B$ iff for all $S\subseteq W$, $|N(S)|\ge|S|$ still holds. Gomory's Hamiltonian argument proves Hall condition automatically for rectangles when opposite colors removed — because cycle provides 2-regular spanning subgraph guaranteeing expansion.
 
@@ -1177,13 +1177,13 @@ A narcissistic number — also known as an Armstrong number, a plus perfect numb
 
 To test a number in base 10:
 
-1.  Count the digits: $n = \text{number of digits}$.
+1. **Count the digits**: $n = \text{number of digits}$.
 
-2.  Raise each digit $d_i$ to the $n$-th power.
+2. Raise each digit $d_i$ to the $n$-th power.
 
-3.  Sum the results: $S = \sum d_i^n$.
+3. **Sum the results**: $S = \sum d_i^n$.
 
-4.  If $S$ equals the original number, it is narcissistic.
+4. If $S$ equals the original number, it is narcissistic.
 
 **Classic Examples:**
 
@@ -1306,19 +1306,19 @@ To test a number $k$:
 
 **Worked Examples:**
 
-- $9$: $n=1$, $9^2=81$, $q=8, r=1$, $8+1=9$ ✓
+- **$9$**: $n=1$, $9^2=81$, $q=8, r=1$, $8+1=9$
 
-- $45$: $n=2$, $45^2=2025$, $q=20, r=25$, $20+25=45$ ✓
+- **$45$**: $n=2$, $45^2=2025$, $q=20, r=25$, $20+25=45$
 
-- $55$: $55^2=3025$, $30+25=55$ ✓ — note the complement pair with 45.
+- **$55$**: $55^2=3025$, $30+25=55$ — note the complement pair with 45.
 
-- $99$: $99^2=9801$, $98+01=99$. Leading zeros in $r$ are allowed, interpreted as $1$.
+- **$99$**: $99^2=9801$, $98+01=99$. Leading zeros in $r$ are allowed, interpreted as $1$.
 
-- $297$: $n=3$, $297^2=88209$, $88+209=297$ ✓
+- **$297$**: $n=3$, $297^2=88209$, $88+209=297$
 
-- $703$: $703^2=494209$, $494+209=703$ ✓
+- **$703$**: $703^2=494209$, $494+209=703$
 
-- $2223$: $2223^2=4941729$, $494+1729=2223$ ✓
+- **$2223$**: $2223^2=4941729$, $494+1729=2223$
 
 **First few Kaprekar numbers (base 10):**
 $$1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879, 4950, 5050, 5292, 7272, 7777, 9999, 17344, 22222, 77778, 82656, 95121, 99999, \dots$$
@@ -1549,9 +1549,9 @@ $$S(n,k) = k \cdot S(n-1,k) + S(n-1,k-1)$$
 
 _Proof idea:_ Consider element $n$. Either:
 
-1.  It joins one of the $k$ existing blocks formed by the other $n-1$ elements: $k \cdot S(n-1,k)$ ways, or
+1. **It joins one of the $k$ existing blocks formed by the other $n-1$ elements**: $k \cdot S(n-1,k)$ ways, or
 
-2.  It forms a new singleton block by itself: $S(n-1,k-1)$ ways.
+2. **It forms a new singleton block by itself**: $S(n-1,k-1)$ ways.
 
 **Explicit Formula (Inclusion-Exclusion):**
 $$S(n,k) = \dfrac{1}{k!} \sum_{j=0}^{k} (-1)^{k-j} \binom{k}{j} j^n$$
@@ -1580,9 +1580,9 @@ $$c(n,k) = (n-1) \cdot c(n-1,k) + c(n-1,k-1)$$
 
 _Proof idea:_ Consider element $n$. Either:
 
-1.  It is inserted into an existing cycle of the $n-1$ other elements. A cycle with $m$ elements has $m$ insertion points, so across all cycles there are $n-1$ places to insert $n$: $(n-1) c(n-1,k)$ ways, or
+1. **It is inserted into an existing cycle of the $n-1$ other elements. A cycle with $m$ elements has $m$ insertion points, so across all cycles there are $n-1$ places to insert $n$**: $(n-1) c(n-1,k)$ ways, or
 
-2.  It forms a new 1-cycle by itself: $c(n-1,k-1)$ ways.
+2. **It forms a new 1-cycle by itself**: $c(n-1,k-1)$ ways.
 
 Notice the difference from the second kind: $k$ vs. $(n-1)$.
 
@@ -1701,21 +1701,21 @@ The term Harshad was coined by the Indian recreational mathematician D. R. Kapre
 
 #### How to Check
 
-1.  Sum the decimal digits: $s(n)$.
+1. **Sum the decimal digits**: $s(n)$.
 
-2.  Divide: is $n \mod s(n) = 0$?
+2. **Divide**: is $n \mod s(n) = 0$?
 
 **Examples:**
 
-- $18$: $s=1+8=9$, $\dfrac{18}{9}=2$ ✓ Harshad
+- **$18$**: $s=1+8=9$, $\dfrac{18}{9}=2$ Harshad
 
-- $21$: $s=2+1=3$, $\dfrac{21}{3}=7$ ✓ Harshad
+- **$21$**: $s=2+1=3$, $\dfrac{21}{3}=7$ Harshad
 
-- $1729$ — the Hardy-Ramanujan taxicab number: $s=1+7+2+9=19$, $\dfrac{1729}{19}=91$ ✓ Harshad
+- **$1729$ — the Hardy-Ramanujan taxicab number**: $s=1+7+2+9=19$, $\dfrac{1729}{19}=91$ Harshad
 
-- $19$: $s=1+9=10$, $19 \mod 10 =9$ ✗ not Harshad
+- **$19$**: $s=1+9=10$, $19 \mod 10 =9$ not Harshad
 
-- $100$: $s=1$, $100\mod1=0$ ✓ — any power of 10 is Harshad
+- **$100$**: $s=1$, $100\mod1=0$ — any power of 10 is Harshad
 
 **Sequence (base 10):** All $1-10$ are Harshad, then
 $$12, 18, 20, 21, 24, 27, 30, 36, 40, 42, 45, 48, 50, 54, 60, 63, 70, 72, 80, 81, 84, 100, 102, 108, 110, 111, 112, \dots$$
@@ -1813,9 +1813,9 @@ Even after FLT, the link remains: Wieferich primes are obstructions to the "firs
 **4. Other bases — $a$-Wieferich primes:**
 Mathematicians study Wieferich primes to bases other than 2. Definition is same: $a^{p-1}\equiv1 \mod p^2$, $p \nmid a$.
 
-- Base 3: $11, 1006003$ — only two known below $10^{15}$, plus huge ones like $...$
-- Base 5: $2, 20771, 40487, 53471161, ...$ — $2$ is trivially Wieferich base 5 because $5^{1}\equiv1\mod4$? Wait $2$ base 5: $5^{1}=5\equiv1\mod4$? $2^2=4$ divides $5^{1}-1=4$, yes.
-- Base 10: $3, 487$ — called repunit Wieferich because $10^{p-1}\equiv1\mod p^2$ means $p^2$ divides repunit $999...9$.
+- **Base 3**: $11, 1006003$ — only two known below $10^{15}$, plus huge ones like $...$
+- **Base 5**: $2, 20771, 40487, 53471161, ...$ — $2$ is trivially Wieferich base 5 because $5^{1}\equiv1\mod4$? Wait $2$ base 5: $5^{1}=5\equiv1\mod4$? $2^2=4$ divides $5^{1}-1=4$, yes.
+- **Base 10**: $3, 487$ — called repunit Wieferich because $10^{p-1}\equiv1\mod p^2$ means $p^2$ divides repunit $999...9$.
 - Base $a$ and prime $p=a$ is excluded because $p\mid a$.
 
 For each base, the set is conjectured infinite but appears sparse. Base 2 is most studied because of FLT and Mersenne numbers.
@@ -1873,18 +1873,18 @@ Only three Wilson primes are known despite extensive search:
 **1. $p=5$**
 $$4! = 24$$
 $$(4!+1)/5^2 = 25/25 =1$$
-So $5^2 \mid 25$ ✓, $W(5)=5$.
+So $5^2 \mid 25$ , $W(5)=5$.
 
 **2. $p=13$**
 $$12! = 479001600$$
 $$12!+1 = 479001601$$
 $$479001601 / 13^2 = 479001601 /169 = 2834329$$
-Integer ✓, so $13$ is Wilson. $W(13)=2834329 \equiv 0 \mod 13$? $2834329/13=218025.3$? Actually $2834329 = 13 \times 218025 + 4$ — wait, check definition: The standard check is $W(13) \mod 13 =0$ must hold. Compute $W(13)=36846277$, $36846277/13=2834329$, which is divisible? No, for Wilson we need $W(p)/p$ integer. Let's do clean: $(12!+1)/13 = 36846277$. Then $36846277 \mod 13 =0$, so $13^2$ divides $12!+1$. ✓
+Integer , so $13$ is Wilson. $W(13)=2834329 \equiv 0 \mod 13$? $2834329/13=218025.3$? Actually $2834329 = 13 \times 218025 + 4$ — wait, check definition: The standard check is $W(13) \mod 13 =0$ must hold. Compute $W(13)=36846277$, $36846277/13=2834329$, which is divisible? No, for Wilson we need $W(p)/p$ integer. Let's do clean: $(12!+1)/13 = 36846277$. Then $36846277 \mod 13 =0$, so $13^2$ divides $12!+1$.
 
 **3. $p=563$**
 $562!$ has $1300+$ digits — far too large to write out. But using modular arithmetic, we can compute $562! \mod 563^2$ without computing $562!$ itself by multiplying modulo $563^2$ at each step:
 $$1\cdot2 \mod 316969 \to \dots \to 562 \mod 316969$$
-The result is $316968 \equiv -1 \mod 316969$, so $563^2 \mid 562!+1$ ✓
+The result is $316968 \equiv -1 \mod 316969$, so $563^2 \mid 562!+1$
 
 #### Facts and Mysteries
 
@@ -1971,13 +1971,13 @@ _Why (3) is the key:_ If $a^{n-1}\equiv1 \mod n$, then $a^{n-1}\equiv1 \mod p$ f
 **Examples using the criterion:**
 
 **Check $561$:** $561=3\cdot11\cdot17$, square-free, 3 primes.
-$3-1=2 \mid 560$, $11-1=10 \mid 560$, $17-1=16 \mid 560$ because $560/16=35$ ✓ — so Carmichael.
+$3-1=2 \mid 560$, $11-1=10 \mid 560$, $17-1=16 \mid 560$ because $560/16=35$ — so Carmichael.
 
 **Why $341=11\cdot31$ is _not_ Carmichael:** $341$ is square-free, but $31-1=30 \nmid 340$. So it fails (3). Indeed, $341$ is pseudoprime to base $2$ but not to base $3$: $3^{340} \equiv 56 \not\equiv 1 \mod 341$. So testing base $3$ catches it.
 
-**Check $1105$:** $1105=5\cdot13\cdot17$, $4\mid1104$, $12\mid1104$ ($1104/12=92$), $16\mid1104$ ($1104/16=69$) ✓ Carmichael.
+**Check $1105$:** $1105=5\cdot13\cdot17$, $4\mid1104$, $12\mid1104$ ($1104/12=92$), $16\mid1104$ ($1104/16=69$) Carmichael.
 
-**Check $1729$:** $1729=7\cdot13\cdot19$, $6\mid1728$, $12\mid1728$ ($1728/12=144$), $18\mid1728$ ($1728/18=96$) ✓ Carmichael.
+**Check $1729$:** $1729=7\cdot13\cdot19$, $6\mid1728$, $12\mid1728$ ($1728/12=144$), $18\mid1728$ ($1728/18=96$) Carmichael.
 
 This criterion makes it easy to construct Carmichael numbers: Find a set of primes where $L=\text{lcm}(p_i-1)$ divides $(\prod p_i)-1$. Chernick gave a famous parametric family in 1939: If $(6k+1)(12k+1)(18k+1)$ are all prime, then their product is Carmichael. For $k=1$, we get $7\cdot13\cdot19=1729$. For $k=6$, $37\cdot73\cdot109=294409$ is Carmichael.
 
@@ -1988,13 +1988,13 @@ This criterion makes it easy to construct Carmichael numbers: Find a set of prim
 - **Three or More Primes:** Minimal case is 3 primes. There is no Carmichael number with exactly 2 primes. Carmichael numbers with $k$ prime factors exist for every $k\ge3$.
 - **Infinitude:** Conjectured for decades, proved by Alford, Granville, and Pomerance in 1994 in a landmark paper. They proved there are infinitely many Carmichael numbers, and at least $X^{2/7}$ up to $X$ for large $X$. The current best lower bound is $X^{0.333...}$ due to Harman. So infinite, but very sparse.
 - **Rarity:**
-  - $\le 10^3$: $1 (561)$
-  - $\le 10^6$: $43$
-  - $\le 10^9$: $646$
-  - $\le 10^{12}$: $8241$
-  - $\le 10^{15}$: $105,212$
-  - $\le 10^{18}$: $1,401,644$
-  - $\le 10^{21}$: $20,138,200$
+  - **$\le 10^3$**: $1 (561)$
+  - **$\le 10^6$**: $43$
+  - **$\le 10^9$**: $646$
+  - **$\le 10^{12}$**: $8241$
+  - **$\le 10^{15}$**: $105,212$
+  - **$\le 10^{18}$**: $1,401,644$
+  - **$\le 10^{21}$**: $20,138,200$
     Compare to primes: $\pi(10^{21})\approx 2\times10^{19}$. So about 1 in $10^{12}$ numbers up to $10^{21}$ is Carmichael.
 - **Carmichael function $\lambda(n)$:** Let $\lambda(n)$ be the exponent of $(\mathbb{Z}/n\mathbb{Z})^\times$ — the smallest $m$ such that $a^m\equiv1 \mod n$ for all $a$ coprime to $n$. For $n=\prod p_i$ square-free odd, $\lambda(n)=\text{lcm}(p_i-1)$. Then $n$ is Carmichael iff $\lambda(n)\mid n-1$. This is the group-theoretic restatement of Korselt.
 - **Cryptographic Importance:** They break naive Fermat primality tests. If you test primality by picking random $a$ and checking $a^{n-1}\equiv1\mod n$, a Carmichael number fools you with probability 1 — every $a$ passes.
