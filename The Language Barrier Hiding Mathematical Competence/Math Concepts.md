@@ -138,6 +138,75 @@ So we know 18 is enough. But is 17 enough? To prove $R(4,4) > 17$ you must exhib
 It was not settled until 1992 when Brendan McKay and Stanisław Radziszowski used a sophisticated branch-and-bound search with heavy isomorph elimination and gluing of smaller counterexamples to prove that no such coloring of $K_{18}$ avoids a monochromatic $K_4$, but colorings of $K_{17}$ that do avoid it exist. In fact there are 2 such extremal colorings of $K_{17}$ up to isomorphism, and hundreds of millions if you count labelings.
 
 This was a milestone: the first Ramsey number whose proof was essentially computational.
+
+##### Group of 43–49 — $R(5,5)$: The Frontier
+
+This is where our knowledge collapses. The exact number is still unknown. We only know it lies somewhere in this range.
+
+Despite the theorem proving these numbers exist, we still do not know $R(5,5)$. It is currently bounded as:
+
+> $$43 \le R(5,5) \le 48$$
+
+This means we know a counterexample exists for 42 people (an arrangement with no 5 mutual friends or strangers), and we know that at 48 people the pattern is unavoidable. Whether the true tipping point is 43, 44, 45, 46, 47, or 48 remains unknown. As Paul Erdős famously joked, if aliens demanded $R(5,5)$, we should try to compute it, but if they demanded $R(6,6)$, we should try to defeat the aliens instead.
+
+What that means in plain language:
+
+- **Lower bound 43:** Geoff Exoo and others have constructed explicit bicolorings of $K_{42}$ with no red $K_5$ and no blue $K_5$. In 2018 a construction using simulated annealing pushed this from 42 to 43. So 42 is _not_ enough to force the pattern.
+- **Upper bound 48:** In 2017, Vigleik Angeltveit and McKay showed computationally that any coloring of $K_{48}$ _must_ contain a monochromatic $K_5$. The previous upper bound was 49. The proof requires checking an enormous search tree pruned by SAT solvers and custom theory.
+
+So the true answer is somewhere in that window of 6 numbers. Each step narrowing it requires an exponential increase in compute.
+
+Why is it so hard? $K_{43}$ has 903 edges. There are $2^{903}$ possible colorings - far more than atoms in the universe. You can't brute force. You need deep combinatorial insights to prune the search.
+
+**The Cosmic Risk (Erdős' Perspective)**
+
+The famous mathematician Paul Erdős famously illustrated this immense difficulty with a thought experiment. This is the source of Paul Erdős's famous quote:
+
+> "Suppose aliens invade the earth and threaten to obliterate it in a year's time unless we can find the value of $R(5,5)$. We could marshal the world's best minds and fastest computers and within a year we could probably calculate the value. If the aliens demanded $R(6,6)$, however, we would have no choice but to launch a preemptive attack."
+
+In simple terms, Erdős was saying that $R(5,5)$ is hard but solvable with enough effort, while $R(6,6)$ is so far beyond our current capabilities that it is effectively impossible to compute.
+
+##### Group of 102 — $R(6,6)$
+
+The exact number is also unknown, but it is known to be at least 102.
+
+#### Why Calculating Larger Friend/Stranger Numbers Is Hard
+
+For scale:
+
+| Number   | Value / Bounds | What it takes to prove |
+| -------- | -------------- | ---------------------- |
+| $R(3,3)$ | **6**          | Paper and pencil       |
+| $R(3,4)$ | **9**          | Casework               |
+| $R(3,5)$ | **14**         | Small computer         |
+| $R(4,4)$ | **18**         | 1990s workstation      |
+| $R(4,5)$ | **25**         | Modern cluster         |
+| $R(5,5)$ | **43-48**      | Open since 1930        |
+| $R(6,6)$ | **102-160**    | We have almost no idea |
+
+Calculating larger friend and stranger numbers (Ramsey numbers) is difficult because the number of possible configurations grows exponentially, creating a search space too vast for even the world's most powerful supercomputers to check. The growth is roughly exponential. We know $2^{n/2} \le R(n,n) \le 4^n$ up to subexponential factors. That gap - between $\sqrt{2}^n$ and $4^n$ - has barely shrunk since Erdős proved it in 1947. Klop's point with "astonishingly fast" is literal: to guarantee a party of 10 mutual friends or strangers, you'd need somewhere between 40 and 30,000 people, and we can't tell you which.
+
+1. Exponential Combinatorial Explosion
+
+   To find a Ramsey number like $R(5,5)$, mathematicians must check every possible way to color the links (edges) between a set of people (vertices).
+   - For $R(5,5)$, we must test a graph of roughly 43 to 49 people.
+   - A graph with 45 people has 990 unique links connecting them.
+   - Since each link can be either a "friend" or a "stranger" (2 choices), there are $2^{990}$ possible configurations to check.
+   - $2^{990}$ is a number with nearly 300 digits—far greater than the total number of atoms in the observable universe (which is only about $10^{80}$).
+
+2. Strict "No Pattern" Requirement
+
+   To prove a Ramsey number, you cannot just find one messy graph.
+   - You must prove that every single one of those trillions of configurations contains the target group (e.g., 5 mutual friends or 5 mutual strangers).
+   - If even a single configuration out of $2^{990}$ manages to avoid making a group of 5, that size is disqualified.
+   - Finding that one exception—or proving it doesn't exist—is like looking for a needle in a cosmic haystack.
+
+3. Limitations of Advanced Mathematics
+
+   Pure mathematics lacks the tools to bypass this brute-force counting for large numbers.
+   - **No General Formula**: There is no known algebraic formula to calculate $R(r,s)$ directly.
+   - **Weak Theoretical Bounds**: The mathematical formulas we do have only give massive, vague windows (e.g., "the answer is somewhere between 43 and 49").
+   - **Clever Tricks Fail**: While mathematicians use symmetry and advanced algebra to eliminate millions of possibilities at once, the remaining pool is still far too massive to compute.
 > **Proof sketch:**
 >
 > Pick one person, $A$. Among the other 5 people, $A$ must have at least 3 friends or at least 3 strangers (Pigeonhole Principle).
