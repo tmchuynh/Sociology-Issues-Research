@@ -680,33 +680,82 @@ Paint the integers red/blue however cleverly you want to break up equally-spaced
 
 It is the Ramsey number for the integer line. The party version: $W(r,k)$ is the number of houses on a street you must paint with $r$ colors before $k$ equally-spaced houses of one color become unavoidable.
 
-**Case 2: The hull has 4 points.** Then those 4 hull points form a convex quadrilateral, and we are done.
+### The First Non-Trivial Case: Why $W(2,3)=9$
 
-**Case 3: The hull has 3 points.** This is the interesting case. The hull is a triangle, with 2 points inside it. Draw a straight line through those 2 interior points. This line extends to infinity and divides the plane into two half-planes. Since the triangle has 3 vertices, by the Pigeonhole Principle at least 2 of those vertices must lie on the same side of the line.
+This is the only van der Waerden number you can verify by hand, and it contains the whole idea.
 
-Those 2 outer vertices plus the 2 interior points always form a convex quadrilateral. The interior line cannot cut through it, and no point is inside the triangle formed by the other three.
+**Part A: Why 8 is not enough — $W(2,3) > 8$**
 
-This simple case analysis illustrates the core Ramsey-type argument: by classifying disorder into a small number of types (hull size), you can show that each type inevitably contains order.
+We can color $1..8$ to avoid a monochromatic 3-term AP:
 
-The theorem is a perfect geometric mirror of Ramsey's principle: you cannot place points randomly enough for long. Order — in this case, convexity — is forced to emerge.
+$$1:R,\;2:R,\;3:B,\;4:B,\;5:R,\;6:R,\;7:B,\;8:B \quad = \quad RRBBRRBB$$
 
-## Van der Waerden's Theorem
+Reds are at $\{1,2,5,6\}$. Any 3-term AP among these? Check $1,2,3$ fails, $1,3,5$ fails because 3 is Blue, $1,5,9$ is out of range, $2,4,6$ fails because 4 is Blue. Same for Blues $\{3,4,7,8\}$. No monochromatic $a,a+d,a+2d$.
 
-Van der Waerden's Theorem is the archetypal statement that "complete disorder is impossible." Where Ramsey's Theorem finds cliques in graphs and the Happy Ending Problem finds convex polygons in point sets, van der Waerden finds regular patterns in colorings of numbers.
+So 8 can avoid. The pattern is blocks of size 2: avoid by never creating a long run.
 
-> **Van der Waerden's Theorem (1927): For any finite number of colors $r$ and any desired length $k$, there exists a minimum number $W(r,k)$ such that if you color the integers $\{1, 2, \dots, N\}$ with $r$ colors for any $N \ge W(r,k)$, you are guaranteed to find a monochromatic arithmetic progression of length $k$.**
+**Part B: Why 9 forces it — $W(2,3) \le 9$**
 
-No matter how cleverly you try to mix the colors to avoid a pattern, if your list is long enough, a monochromatic equally-spaced pattern is forced to appear.
+Extend any valid 8-coloring to 9. The forcing rule is simple:
 
-### Key Concepts
+> If $a$ and $b$ have the same color and you want to avoid a 3-term AP, then $2b-a$ must be the opposite color. Otherwise $a,b,2b-a$ is monochromatic.
 
-- **Coloring:** Imagine assigning each integer in a list $1, 2, 3, \dots, N$ a color. With $r=2$ colors, this could be Red and Blue. A coloring is just a function $c: \{1,\dots,N\} \to \{1,\dots,r\}$.
+Try to color 9 in our example:
 
-- **Arithmetic Progression (AP):** A sequence where the difference between consecutive terms is constant. We write a $k$-term AP as $a, a+d, a+2d, \dots, a+(k-1)d$ where $a$ is the start and $d>0$ is the common difference. Examples: $3, 6, 9$ ($a=3, d=3$) or $4, 11, 18, 25$ ($a=4, d=7$).
+- If 9 = Red: Then $1,5,9$ with $d=4$ is $1:R,5:R,9:R$ — all Red. You lose.
+- If 9 = Blue: Then $7,8,9$ with $d=1$ is $7:B,8:B,9:B$ — all Blue. You lose.
 
-- **Monochromatic:** All $k$ terms in the progression share the same color.
+That kills this specific coloring, but you need to kill _all_ possible 8-colorings. A complete case analysis shows every maximal avoiding coloring of $1..8$ ends in $...BB$ or $...RR$, and adding a 9th point completes $a,a+d,a+2d$ of the opposite color, like $3,5,7$ or $1,5,9$.
 
-- **Van der Waerden Number $W(r,k)$:** The least $N$ that forces the pattern. It is the Ramsey number for arithmetic progressions. By definition, there exists at least one coloring of $\{1,\dots,W(r,k)-1\}$ with $r$ colors containing _no_ monochromatic $k$-term AP, but no such coloring exists for $W(r,k)$.
+At $N=9$ you run out of room to satisfy all the forced opposite-color constraints simultaneously. Hence $W(2,3)=9$.
+
+This local-to-global forcing — local constraints $2b-a \neq color(a)$ propagating and colliding — is exactly how van der Waerden's general proof works.
+
+### How Fast Do They Grow? Faster Than Ramsey Numbers
+
+$W(r,k)$ exists, but the numbers explode faster than $R(n,m)$.
+
+| $W(r,k)$  |   Value   | What it means                                                                                                              |
+| :-------- | :-------: | :------------------------------------------------------------------------------------------------------------------------- |
+| $W(2,3)$  |   **9**   | 1..8 can avoid 3-AP, 1..9 cannot. Trivial by hand.                                                                         |
+| $W(3,3)$  |  **27**   | 3 colors, 3-term AP. Classic.                                                                                              |
+| $W(4,3)$  |  **76**   |                                                                                                                            |
+| $W(2,4)$  |  **35**   | Proved by Chvátal (1970) by search                                                                                         |
+| $W(2,5)$  |  **178**  | Chvátal (1970). Means $2^{177}$ colorings had to be ruled out conceptually.                                                |
+| $W(3,4)$  |  **293**  |                                                                                                                            |
+| $W(2,6)$  | **1,132** | Kouril & Paul (2008). Required SAT solvers and months of CPU. You _can_ 2-color 1..1131 with no 6-AP, but 1132 forces one. |
+| $W(2,7)$  | **3,703** | Current best, from 2008 SAT search                                                                                         |
+| $W(2,10)$ |  Unknown  | Lower bound $>10,000$. Upper bound is a tower.                                                                             |
+
+$W(2,6)=1,132$ is instructive: there are $2^{1,132}$ colorings. You cannot brute force. Proofs use branch-and-bound with symmetry breaking, just like for $R(4,4)=18$.
+
+### History and Bounds: From Ackermann to Fields Medal
+
+Van der Waerden proved the theorem in 1927 answering a conjecture of Baudet and Schur. His proof was double induction and gave an upper bound that was not primitive recursive — a tower of exponentials whose height grows with $k$. For 60 years bounds were Ackermann-type.
+
+**Modern view 1: Hales-Jewett implies van der Waerden.**
+
+Today we don't teach van der Waerden's original proof. We derive it from Hales-Jewett.
+
+Take alphabet $A = \{0,1,\dots,k-1\}$. A word of length $H$ is a point in $A^H$. Interpret the word as a number in base $k$ (or a more clever base). A combinatorial line — e.g., $x2x$ generates $\{121,222,323\}$ — becomes an arithmetic progression $a, a+d, a+2d$ under this interpretation, because replacing $x$ adds the same $d$ each time.
+
+Hales-Jewett says for $H = HJ(k,c)$ large enough, any $c$-coloring of $A^H$ yields a monochromatic combinatorial line. Map back to integers and you get a monochromatic $k$-AP. So:
+
+> Order in words forces order in numbers.
+
+This shows van der Waerden is a special case of a purely combinatorial principle with no numbers in it.
+
+**Modern view 2: Gowers' quantitative bound.**
+
+In 2001, Timothy Gowers used Fourier analysis and a new proof of Szemerédi's theorem to give the first reasonable upper bound:
+
+$$W(k,2) \le 2^{2^{2^{k+9}}}}}$$
+
+A tower of 5 exponentials. Still astronomically huge, but it was the first bound that is elementary recursive — not Ackermann. For this work connecting Fourier analysis to Ramsey theory, Gowers received the Fields Medal in 1998.
+
+Lower bounds are exponential, not tower. Berlekamp proved $W(p+1,2) \ge p \cdot 2^p$ for prime $p$ using algebraic constructions.
+
+So the true growth of $W(k,2)$ is between exponential and tower — one of the largest gaps in combinatorics. We don't even know if it's closer to the bottom or the top.
 
 ### A Concrete Example:
 
