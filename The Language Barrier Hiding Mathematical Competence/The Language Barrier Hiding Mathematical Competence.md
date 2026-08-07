@@ -2982,23 +2982,29 @@ Optimization is the process of finding the best solution to a problem, typically
 
 Administrators and policymakers play a critical role in creating sustainable, system-level solutions to math anxiety. Acknowledging the barriers educators face is essential for designing realistic interventions that support both teachers and students.
 
-#### 1\. Identify Students in Need Through Systematic Screening
+#### Identify Students in Need Through Systematic Screening
 
-As a first step, schools should integrate screening for math anxiety into regular processes. Educators can use short, validated questionnaires such as the Mathematics Anxiety Rating Scale (MARS) or the Math Anxiety Questionnaire to identify students who may need additional support. Administrators can support this by allocating time in the school schedule for screening and intervention.
+Schools should incorporate math anxiety screening into routine assessments. Students may complete a brief, anonymous questionnaire at the beginning of the academic year or during assessment periods to rate their anxiety in various mathematical contexts. This process typically requires 10 to 15 minutes and can be administered in class or online. (Ganley et al., 2021, pp. 346-362) Validated instruments, such as the Mathematics Anxiety Rating Scale (MARS) and the Math Anxiety Questionnaire, are effective for identifying students who require additional support. These tools have demonstrated reliability and predictive validity for academic outcomes across diverse populations, as evidenced by large-scale studies and meta-analyses (Hembree, 1990; Dowker et al., 2016). Citing these studies underscores the empirical foundation for utilizing these instruments.
 
-#### 2\. Invest in Professional Development and Teacher Support
+Self-report screening tools acknowledge that math anxiety is a subjective experience that may not be externally observable. These instruments rely on individuals' ability to assess and communicate their emotions using structured questionnaires. While certain philosophical perspectives regard self-report as the most accurate means of capturing internal states, others question its reliability relative to observable behaviors and note the limitations of language in expressing complex emotions. Additionally, self-report measures may be influenced by social desirability bias, limited self-awareness, or cultural differences in expressing anxiety. (Mathematics anxiety: Effects of age, gender and culture, 2023)
 
-To address math anxiety effectively, administrators should implement comprehensive professional development programs that equip teachers to recognize and mitigate anxiety in the classroom. This should include:
+These instruments typically assess the presence and intensity of anxiety rather than its underlying causes or broader context. Supplementary methods, including teacher or peer observations, interviews, and physiological monitoring during mathematical tasks, can yield additional insights. Integrating self-report data with behavioral and physiological measures provides a more comprehensive understanding of math anxiety. (Demedts et al., 2023) Despite inherent limitations, self-report screening remains prevalent due to its efficiency and scalability. (Caviola et al., 2022) Schools should utilize initial screening results to initiate discussions and inform further investigation, rather than as definitive diagnoses.
+
+Administrators should allocate time for screening and intervention. After screening, educators must review results confidentially and determine appropriate next steps for students with high anxiety. These may include referrals to counselors, targeted classroom support, or family meetings to discuss strategies. Clear communication about resources and regular progress monitoring ensure interventions remain effective and supportive.
+
+#### Invest in Professional Development and Teacher Support
+
+Administrators should provide comprehensive professional development to help teachers recognize and address math anxiety in the classroom. This should include:
 
 - Workshops on effective communication of mathematical concepts and differentiated instruction
 - Training in culturally responsive teaching practices and recognizing intersectional challenges
 - Access to resources for ongoing implementation
 
-Securing funding for this training and protecting time for it during the school day are key administrative actions.
+Securing funding and allocating time for professional development are essential administrative responsibilities. In resource-constrained contexts, schools may adopt cost-effective or phased strategies, such as peer-led workshops and online modules offered by organizations including the National Council of Teachers of Mathematics (NCTM), Edutopia, or Harvard's Online Teaching & Learning portal. Resource-sharing platforms also supply free or affordable lesson plans. (Boudreau, 2019) Research indicates that targeted professional development reduces math anxiety and enhances student outcomes (e.g., Bicer et al., 2021; Swars et al., 2021). Incremental improvements can yield significant benefits, illustrating that progress is achievable even with constrained funding. (Bernard et al., 2019)
 
-#### 3\. Implement Evidence-Based and Holistic Interventions
+#### Implement Evidence-Based and Holistic Interventions
 
-Schools should adopt interventions that address the cognitive, emotional, and motivational dimensions of math anxiety to break the cycle of anxiety.
+Schools should implement interventions that address the cognitive, emotional, and motivational aspects of math anxiety. Psychological frameworks, such as Bandura’s self-efficacy theory and Dweck’s mindset theory, show that students’ beliefs about their abilities influence their engagement and performance. (Dweck’s Social-Cognitive Model of Achievement Motivation in Science, 2023, pp. 1-15) The cognitive dimension involves students' thoughts and reasoning about math, the emotional dimension includes feelings like fear or tension, and the motivational dimension covers interest and persistence. Recognizing these distinct but interconnected factors highlights the complexity of math anxiety and the need for comprehensive solutions.
 
 Evidence-based programs include:
 
@@ -3007,35 +3013,35 @@ Evidence-based programs include:
 - Peer mentoring programs, including pairing students with mentors who have successfully managed their own math anxiety and connecting female students with role models in STEM
 - Cognitive behavioral interventions and targeted counseling with supportive feedback and incremental successes to build self-efficacy
 
-Recent research emphasizes that holistic strategies combining these approaches are more effective than addressing a single dimension alone.
+Recent research shows that holistic strategies addressing cognitive, emotional, and motivational factors together are more effective than single-focus interventions. Meta-analyses by Ramirez et al. (2018) and Foley et al. (2017) confirm that integrated approaches lead to greater and longer-lasting reductions in math anxiety across diverse populations.
 
-To translate these into wide-reaching impact, policymakers can take specific steps such as piloting math anxiety intervention programs in public schools, allocating dedicated funding, and developing national guidelines that encourage schools to integrate mental health support within STEM curricula.
+Policymakers can expand impact by piloting math anxiety interventions in public schools, allocating dedicated funding, and developing national guidelines that integrate mental health support into STEM curricula.
 
-#### 4\. Create Clearer and More Inclusive Guidelines for Teaching Methodology and Notation
+#### Create Clearer and More Inclusive Guidelines for Teaching Methodology and Notation
 
-Confusing or inconsistent notation can increase cognitive load and anxiety. While there is no single regulatory body for all mathematical notation, administrators can support community-based reform:
+Confusing or inconsistent mathematical notation increases cognitive load and contributes to anxiety. Mathematical notation serves as a language for conveying complex ideas and influences the dissemination of knowledge. Clarity and consistency in notation are critical for student comprehension. Cross-cultural differences, such as variations in decimal separators or symbol usage, may impede understanding and collaboration. (Pratama & Yelken, 2024) Efforts to standardize notation encounter practical and cultural obstacles, as conventions frequently develop independently. (Widom & Schlimm, 2012) Although no single regulatory authority oversees all notation, administrators can facilitate community-driven reforms: (Nguyen, 2024)
 
-- Encourage departments or professional societies to agree on standardized symbols where feasible, drawing on recommendations from organizations like the American Mathematical Society (AMS) and initiatives like OpenMath, which aim to standardize notation to reduce ambiguity.
+- Encourage departments or professional societies to agree on standardized symbols where feasible, drawing on recommendations from organizations such as the American Mathematical Society (AMS) and initiatives such as OpenMath, which aim to standardize notation to reduce ambiguity.
 - Draw from established frameworks such as Universal Design for Learning (UDL), which recommends providing multiple representations and flexible access to symbolic information.
 - Support working groups that include mathematicians, cognitive scientists, and educators to review curricular notation systems and propose revisions.
 
-#### 5\. Implement Inclusive Policies and Practices to Promote Equity
+#### Implement Inclusive Policies and Practices to Promote Equity
 
 To address intersectional barriers and promote a more diverse and skilled STEM workforce:
 
 - Ensure equitable access to advanced coursework and academic support by removing barriers to enrollment and providing tutoring and mentorship.
-- Recruit and highlight diverse role models in math, such as inviting guest speakers and showcasing faculty from underrepresented backgrounds.
+- Recruit and highlight diverse role models in math by inviting guest speakers and showcasing faculty from underrepresented backgrounds.
 - Review resource allocation to reduce disparities and foster partnerships with community organizations to expand learning opportunities.
 
-#### 6\. Address Subtle Cultural Messages
+#### Address Subtle Cultural Messages
 
-Administrators should be aware that subtle but persistent messages about who fits the definition of a "mathematician" impact student engagement, sense of belonging, and long-term achievement. It is essential to actively promote inclusive practices and challenge limiting stereotypes within school culture.
+Administrators should recognize that subtle, persistent messages regarding who qualifies as a “mathematician” influence student engagement, sense of belonging, and long-term achievement. Actively promoting inclusive practices and challenging restrictive stereotypes within school culture is essential. Students play a significant role in reshaping these cultural narratives. Schools can support student-led initiatives such as establishing math clubs that celebrate diversity, organizing campaigns or assemblies to address and dispel stereotypes, and involving students in planning events that highlight the achievements of diverse mathematicians. Empowering students to lead inclusivity efforts broadens definitions of success in mathematics and fosters a more welcoming environment for all individuals interested in STEM.
 
 ### Teachers
 
-#### 1\. Teach Mathematical Language Explicitly — Like a Foreign Language
+#### Teach Mathematical Language Explicitly — Like a Foreign Language
 
-Mathematical vocabulary and notation should be taught through deliberate scaffolding, consistent practice, and patience, similar to foreign language acquisition (Sfard 95). Students should not be expected to absorb notation implicitly (Finlayson 112).
+Mathematical vocabulary and notation should be introduced through deliberate scaffolding, consistent practice, and sustained support, analogous to learning a foreign language (Sfard 95). Scholars, including Wittgenstein and Sfard, assert that mathematics constitutes a language with distinct symbols and rules, and that comprehension relies on learning how concepts are articulated and communicated. Viewing mathematics as a language underscores the significance of discourse, social interaction, and repeated exposure in developing fluency. Students should not be expected to acquire notation implicitly (Finlayson 112).
 
 Effective strategies include:
 
@@ -3044,70 +3050,82 @@ Effective strategies include:
 - **Use notation as shorthand, not a barrier**: Educators have an obligation to use jargon as a convenient shorthand for those with prior experience while consciously avoiding it as a barrier for novices (Pimm 76).
 - **Normalize confusion**: Explicitly communicate that difficulty with notation is common and does not reflect a lack of intelligence (Al-Naim and Mefi 880).
 
-This approach demystifies mathematics. Meta-analyses support methods that synergize cognitive support with emotion regulation and gradual exposure to formal notation, showing they reduce anxiety and enhance performance.
+This instructional approach demystifies mathematics. Meta-analyses support strategies that combine cognitive support, emotion regulation, and gradual introduction to formal notation, demonstrating that such methods reduce anxiety and improve performance.
 
-#### 2\. Redesign Curricula Around Conceptual Bridges
+#### Redesign Curricula Around Conceptual Bridges
 
-Effective curricula must clearly connect intuitive reasoning to formal mathematical representations, showing students that the informal concepts they already use are the foundation for sophisticated expressions.
+Effective curricula should clearly link intuitive reasoning to formal mathematical representations, demonstrating that students' informal concepts form the basis for advanced expressions.
 
 To do this:
 
-- **Integrate visual and physical models**: When mathematics is presented as disjointed from real-life, lacking visual support, or ignoring students' diverse backgrounds, anxiety rises. Use relatable real-world analogies prior to formal definitions. Strong and Strong show that physical models — such as strings stretched across globe surfaces to illustrate geodesics — considerably deepen understanding beyond equations alone (43-45).
+- **Integrate visual and physical models**: When mathematics is presented as disconnected from real life, lacks visual support, or ignores students’ diverse backgrounds, anxiety rises. Use relatable real-world analogies before formal definitions. For example, concepts such as addition and subtraction can be linked to everyday budgeting when deciding how much money is left after spending or saving. Fractions can be introduced through cooking or sharing food, such as dividing a pizza among friends. Measuring the time it takes to walk somewhere, comparing prices in a store, or organizing objects by size all serve as simple analogies for mathematical principles. For older students, real-world and visual analogies remain just as important. To illustrate the concept of linear functions in secondary math, teachers can use examples such as comparing cell phone plans with a fixed monthly fee plus a charge per minute, allowing students to graph cost versus usage and see the meaning of slope and intercept. In algebra, solving systems of equations can be connected to determining where two roads cross or figuring out the temperature at which Celsius and Fahrenheit readings are equal, helping students relate abstract ideas to concrete scenarios. For calculus, the idea of the derivative as rate of change can be introduced visually with speedometers or motion graphs, and the integral as the total accumulation can be modeled by filling a tank with water and recording the rising water level over time. Strong and Strong show that physical models, such as strings stretched across the surfaces of globes to illustrate geodesics, considerably deepen understanding beyond equations alone (43-45).
 - **Use engaging, active strategies**: Implement active learning, gamification, and collaborative problem-solving to mitigate intimidation associated with notation (Castillo et al.). A survey showing 70% of Americans believe math education should prioritize real-world applications highlights the gap between formal instruction and intuitive reasoning (SWNS).
 - **Embrace mathematical debate**: Introduce authentic debates or ambiguous problems to show mathematics as a dynamic, evolving discipline. For example, present two different proofs for the same theorem — one formal and one intuitive — and have students evaluate the reasoning. Acknowledging that even experts debate validity promotes questioning, interpretation, and refinement.
 
-#### 3\. Approach Notation as a Language to Build Fluency
+#### Approach Notation as a Language to Build Fluency
 
 This pedagogical stance fosters a stronger connection between students and the mathematical thought process. Research indicates effective interventions should:
 
-1.  Introduce new concepts through plain language before formal notation
-2.  Integrate visual representations and real-world contexts
-3.  Explicitly teach mathematical vocabulary as a component of literacy
-4.  Link concepts to students' lived experiences to increase engagement and ensure equitable access
+1. Introduce new concepts through plain language before formal notation.
+2. Integrate visual representations and real-world contexts.
+3. Explicitly teach mathematical vocabulary as a component of literacy.
+4. Link concepts to students’ lived experiences to increase engagement and ensure equitable access.
 
-#### 4\. Implement Inclusive and Supportive Classroom Practices
+#### Implement Inclusive and Supportive Classroom Practices
 
-Fostering positive math experiences reduces anxiety and builds belonging.
+Fostering positive math experiences reduces anxiety and builds a sense of belonging. (Codding et al., 2023)
 
 In the classroom:
 
-- Incorporate collaborative problem-solving and celebrate small achievements
-- Foster a culture that normalizes seeking help
-- Adopt diverse curricular materials that highlight mathematicians from underrepresented backgrounds
-- Use growth mindset language
-- Provide equitable access to advanced coursework and collaborative learning environments
+- Incorporate collaborative problem-solving and celebrate small achievements.
+- Foster a culture that normalizes seeking help.
+- Adopt diverse curricular materials that highlight mathematicians from underrepresented backgrounds.
+- Use growth mindset language.
+- Provide equitable access to advanced coursework and collaborative learning environments.
 
 At the systemic level:
 
-- Initiate school-wide programs that incorporate anxiety-reducing strategies into the curriculum
-- Encourage cross-grade collaboration and school-wide math events to promote positive experiences
-- Provide regular professional development focused on bias reduction, culturally responsive teaching, and supporting students with anxiety
+- Initiate school-wide programs that incorporate anxiety-reducing strategies into the curriculum.
+- Encourage cross-grade collaboration and school-wide math events to promote positive experiences.
+- Provide regular professional development focused on bias reduction, culturally responsive teaching, and supporting students with anxiety.
 
-> Note on implementation: These strategies may face obstacles such as time constraints, large class sizes, and limited professional development opportunities related to math anxiety. Recognizing these barriers is important for designing realistic and sustainable support.
+Implementation may encounter obstacles such as time constraints, large class sizes, and limited opportunities for professional development. Recognizing these barriers is essential for designing sustainable support systems. (al., 2014, pp. 401-412) Practical solutions include micro-interventions that require only a few minutes, incorporating anxiety-reducing routines into lessons, or utilizing brief reflective activities. (Codding et al., 2023) Research demonstrates that micro-interventions, such as short expressive writing or mindfulness exercises, can reduce math anxiety and enhance outcomes (Ramirez and Beilock, 2011; Dowker, Sarkar, and Looi, 2016). Teachers may collaborate to share resources, schedule brief check-ins, or distribute support activities. Schools can provide concise professional learning sessions or online modules to accommodate demanding schedules. Integrating support into daily routines and fostering peer collaboration enables educators to address math anxiety, even with limited resources. (Moliner & Alegre, 2020)
 
 ### Students
 
-Although teachers and educational institutions play a crucial role in navigating the language barrier that often arises in mathematics, it is important to recognize that students also possess agency in this area. By taking initiative and employing various strategies, students can actively bridge their informal understanding of mathematical concepts with the formal language used in the subject. This can involve using everyday language to articulate their thought processes, participating in collaborative discussions with peers, or utilizing visual aids and manipulatives to enhance comprehension. By doing so, students not only strengthen their own learning but also contribute to changing the prevailing narratives about language in mathematics, allowing for a more inclusive and accessible approach to the subject.
+While teachers and institutions are central to addressing language barriers in mathematics, students also possess agency. By taking initiative, such as articulating reasoning in everyday language, collaborating with peers, or employing visual aids, students can bridge the gap between informal understanding and formal mathematical language. These strategies not only enhance individual learning but also contribute to a more inclusive and accessible mathematical environment.
+
+For example, if a student comes across the problem: "Evaluate the expression 3x + 5 when x = 2," they can rephrase it in everyday language: "I need to find out what 3 times 2 plus 5 equals." Step by step, the student calculates 3 times 2 is 6, then adds 5 to get 11. By putting the problem into their own words and relating it to basic operations they already understand, students can boost their confidence and clarify the task. This simple strategy can be applied to more complex problems as well—first translate the symbols into familiar language, then work through the solution one part at a time.
 
 #### Change the Cultural Narrative
 
-Stop saying, "I am not a math person." Embrace the mindset that mathematical ability is shaped by experience, language, and opportunity, rather than being tied to innate talent. Research shows that the main barriers to learning math are linguistic and emotional, not cognitive (Tobias 68). When you face a challenge, view it as a natural part of learning a new language, not a reflection of your abilities. Challenge the gendered and racial narratives that dictate who “belongs” in mathematics, recognizing them as social constructs that can change. Support your peers who doubt their place in math, and seek out diverse role models whose achievements celebrate the beauty of mathematics (Prodigy Education).
+The notion that certain individuals are inherently “not math people” should be rejected. Mathematical ability is shaped by experience, language, and opportunity rather than by innate talent. Research indicates that linguistic and emotional barriers, rather than cognitive limitations, constitute the primary obstacles to learning mathematics (Tobias 68). Difficulties should be viewed as a natural aspect of acquiring a new language, rather than as evidence of inherent inability. It is crucial to challenge gendered and racial narratives regarding who “belongs” in mathematics, recognizing these as changeable social constructs. Supporting peers who question their place in mathematics and seeking diverse role models whose achievements reflect the discipline’s breadth can further promote inclusivity (Prodigy Education).
 
 #### Demand Clarity from Mathematicians and Educators - and Be Active in Your Own Education
 
-When learning new concepts, ask for explanations in plain language and real-world terms. Request analogies or everyday examples to clarify abstract ideas. If a term or notation confuses you, treat it like an unfamiliar word in a foreign language: seek a translation or rely on context to understand it. Teach new concepts to a peer using your own words to reinforce your understanding and pinpoint where language or notation may pose real obstacles. Use analogies from your own experiences to reframe abstract ideas and share them in class or study groups. Encourage others to do the same and foster a culture that values personal connections to math.
+When learning new concepts, students should ask for explanations in plain language and real-world terms. Requesting analogies or examples can clarify abstract ideas. If a term or notation is confusing, treat it as an unfamiliar word and seek a translation or use context to understand it. Teaching concepts to peers in everyday language reinforces understanding and highlights language barriers. Creating and sharing personal analogies in class or study groups further supports comprehension. Building a culture that values personal connections to mathematics is beneficial.
 
-Consider joining or forming study groups that focus on translating formal problems into everyday scenarios before addressing them symbolically. Practice rephrasing formal mathematical problems in plain language as a group. Additionally, maintain a personal "math vocabulary" notebook. For each new symbol or term, record its definition along with a concrete example or analogy from your life. Review and update this notebook regularly to build fluency. These steps will empower you to take ownership of learning mathematical language, transforming confusion into curiosity and encouraging active engagement. In addition to support from educators, students themselves can take several practical steps to manage math anxiety. Seeking help from classmates or forming study groups can foster a sense of community and normalize sharing struggles. Practicing a growth mindset by viewing challenges as opportunities to learn rather than as failures can help build confidence. Other self-driven strategies include setting small, achievable goals in math, celebrating progress, and utilizing resources such as tutoring or online exercises to strengthen skills. Highlighting these practical solutions provides STEM educators and students with actionable pathways to help overcome barriers and succeed.
+Join or form study groups that translate formal problems into everyday scenarios before addressing them symbolically. Keep a personal math vocabulary notebook, recording each new term or symbol with its definition and a real-life example. Regularly review and update this notebook to build fluency. These steps help you take ownership of your learning and foster active engagement. In addition to educator support, students can manage math anxiety by seeking help from peers, practicing a growth mindset, setting achievable goals, celebrating progress, and using resources like tutoring or online exercises. These practical strategies offer actionable pathways to overcome barriers and achieve success in STEM.
 
 ---
 
 ## The Bottom Line
 
-The evidence is clear and compelling: from Sheila Tobias's foundational work in 1978 to recent peer-reviewed studies, and from neuroimaging of math-anxious individuals to research on Brazilian street children, the findings align. Most people who consider themselves "bad at math" do not actually lack mathematical ability; rather, they lack fluency in the language of mathematics. Everyday activities—such as reading a clock, planning an outfit, navigating social networks, understanding flight paths, or recognizing the similarity between a donut and a coffee mug—demonstrate engagement with mathematical concepts. The key distinction lies in vocabulary, not in conceptual understanding (D'Ambrosio 44; Nunes et al. 28).
+The evidence is clear and compelling: from Sheila Tobias’s foundational work in 1978 to recent peer-reviewed studies, and from neuroimaging of math-anxious individuals to research on Brazilian street children, the findings align. Most people who consider themselves “bad at math” do not actually lack mathematical ability; rather, they lack fluency in the language of mathematics. Everyday activities such as reading a clock, planning an outfit, navigating social networks, understanding flight paths, or recognizing the similarity between a donut and a coffee mug demonstrate engagement with mathematical concepts. While there are alternative explanations for math anxiety, each offers helpful insight into the phenomenon. Cognitive accounts emphasize the role of working memory limitations, attentional control, and general anxiety disorders. For example, Ashcraft and Kirk (2001) found that students with high math anxiety exhibit reduced working memory capacity on timed math tasks, which impedes problem-solving. Research by Young, Wu, and Menon (2012) using fMRI techniques further indicates that mathematical anxiety can trigger the brain's threat response, consuming cognitive resources otherwise available for reasoning.
+
+On the other hand, cultural perspectives highlight the powerful influence of stereotypes, social expectations, and the prevalence of negative messaging about mathematics. Studies such as those by Steele and Aronson (1995) on stereotype threat, as well as Lubienski (2002) on classroom cultural dynamics, show that students who belong to groups stereotyped as less capable in mathematics are more likely to experience anxiety and underperform as a result. These cognitive and cultural accounts complement the linguistic explanation put forward here. The linguistic account is especially powerful in explaining how difficulties arise even when logical reasoning is intact. The key distinction lies in vocabulary, not in conceptual understanding (D’Ambrosio 44; Nunes et al. 28). This focus on language does not dismiss cognitive or cultural contributions, but highlights that improved fluency in mathematical language often leads to greater confidence and reduced anxiety, regardless of background.
 
 While language barriers can be addressed, cognitive deficits present greater challenges. Effective teaching strategies are available for language acquisition, vocabulary scaffolding, and bridging informal and formal mathematical understanding. The central issue is whether institutions will move away from viewing math anxiety as a deficit in ability and towards recognizing it as a result of exclusion due to jargon. The high prevalence of math anxiety is more indicative of shortcomings in instructional approaches than of individual failure. Acknowledging existing mathematical competence is the first step toward building confidence and overcoming future challenges.
 
-**As an educator**, you play a vital role in addressing this issue. Before your next lesson or syllabus update, review how you use mathematical language in your classroom and materials. Consider introducing terms with real-world examples and clarifying jargon before students encounter it. Aim to make one intentional change in your presentation, such as sharing an analogy, clarifying terminology, or encouraging students to identify unclear language. These actions help make mathematics accessible to all students.
+As an educator, you play a vital role in addressing this issue. Before your next lesson or syllabus update, review how you use mathematical language in your classroom and materials. Consider introducing terms with real-world examples and clarifying jargon before students encounter it. Aim to make one intentional change in your presentation, such as sharing an analogy, clarifying terminology, or encouraging students to identify unclear language. To help you get started, here are some sample teacher prompts you can use:
+
+- "Let’s look at this new term. Who can come up with a real-life example for it?"
+- "How would you explain this concept to a friend who has never heard of it before?"
+- "Can someone restate that definition in their own words?"
+- "Where have you seen something like this outside of math class?"
+- "If this symbol were a word in another language, how would you translate it?"
+
+These actions help make mathematics accessible to all students.
 
 **Quick-Start Checklist for Educators:**
 
@@ -3117,23 +3135,27 @@ Prepare clear definitions for new terms and add them to your materials with plai
 
 Ask students to restate a formal definition or new symbol in their own words during class discussion, or have them keep a vocabulary journal for new math terms.
 
-To deepen your practice, seek ongoing professional development and community. Explore texts like _Overcoming Math Anxiety_ by Sheila Tobias and _Thinking as Communicating_ by Anna Sfard for further insight. Join professional organizations or online communities to exchange ideas, share resources, and access learning opportunities. Engaging with these resources supports your growth and enhances your students' mathematical confidence and success.
+To deepen your practice, seek ongoing professional development and community. Explore texts like Overcoming Math Anxiety by Sheila Tobias and Thinking as Communicating by Anna Sfard for further insight. Join professional organizations or online communities to exchange ideas, share resources, and access learning opportunities. Engaging with these resources supports your growth and enhances your students’ mathematical confidence and success.
 
-**As a student**, you have more power over your mathematical journey than you may realize. The research is detailed: your struggles with math are far more likely to stem from its language than from its logic. You have already demonstrated mathematical reasoning in countless everyday situations - you were never told the formal names for what you were doing. That means the path forward is not about becoming a different kind of thinker; it is about building fluency in a language you have already been speaking your entire life informally. The next time you encounter a term or symbol that feels impenetrable, resist the impulse to conclude that you are "not a math person." Instead, treat it the way you would treat an unfamiliar word in any other language: ask what it means, find an analogy, write it down in your own words, and practice using it until it feels familiar. You are not starting from zero. You are translating from a language you already know into one you are still learning.
+Students possess significant agency in shaping their mathematical development. Research demonstrates that difficulties with mathematics are more often attributable to language barriers than to logical reasoning. Many individuals have already exhibited mathematical reasoning in everyday contexts, even if unaware of the formal terminology. (Bronkhorst et al., 2019) Progress in mathematics is therefore less about adopting a new mode of thinking and more about developing fluency in a language already used informally. When encountering unfamiliar terms or symbols, students should approach them as they would unfamiliar words in any language: inquire about their meanings, seek analogies, record definitions in their own words, and practice until they become familiar. This process is not starting from zero but rather translating an existing informal understanding into formal mathematical language.
 
 **Quick-Start Checklist for Students:**
 
 Start a math vocabulary notebook. Each time you encounter a new term or symbol, write down its formal definition, then rewrite it in your own words with a real-life example. Review it before each class or study session.
 
-When a concept feels confusing, ask yourself: "Do I not understand the idea, or do I not understand the notation?" If you can explain the concept using everyday language but struggle with the symbols, the barrier is linguistic - and that is fixable.
+When a concept feels confusing, ask yourself: “Do I not understand the idea, or do I not understand the notation?” If you can explain the concept using everyday language but struggle with the symbols, the barrier is linguistic - and that is fixable.
 
 Teach one concept you have learned to someone else - a friend, a family member, a study partner - using only plain language and real-world examples. If you can explain it without jargon, you understand it. The formal notation is just the shorthand you have not memorized yet.
 
-Before giving up on a problem, try restating it in everyday language. Replace symbols with words, replace abstractions with concrete scenarios. "Find the derivative" becomes "how fast is this changing right now?" "Evaluate the integral" becomes "What is the total if I add up all the tiny pieces?" Often, the problem becomes solvable the moment the language barrier is removed.
+Before giving up on a problem, try restating it in everyday language. Replace symbols with words, replace abstractions with concrete scenarios. “Find the derivative” becomes “how fast is this changing right now?” “Evaluate the integral” becomes “What is the total if I add up all the tiny pieces?” Often, the problem becomes solvable the moment the language barrier is removed.
 
-Replace "I'm not a math person" with "I'm still learning the language." This is not a feel-good platitude - it is what the research literally says. Math anxiety is a language barrier, not a cognitive limit. You have the ability. You are acquiring the vocabulary. Those are two very different challenges, and the second one has a proven solution: practice, exposure, and translation.
+Replace “I’m not a math person” with “I’m still learning the language.” This is not a feel-good platitude - it is what the research literally says. Math anxiety is a language barrier, not a cognitive limit. You have the ability. You are acquiring the vocabulary. Those are two very different challenges, and the second one has a proven solution: practice, exposure, and translation.
 
-To continue building your confidence, seek out resources that present mathematics in plain language. Books like _Overcoming Math Anxiety_ by Sheila Tobias and _Mathematics Elsewhere_ by Marcia Ascher can help reframe your relationship with the subject. Online platforms like Khan Academy, 3Blue1Brown, and Numberphile present mathematical ideas visually and conversationally, making formal concepts accessible without assuming prior fluency in notation. Study groups where members practice "translating" formal problems into everyday language before solving them can be especially effective - they build both mathematical and linguistic fluency simultaneously. Remember: every mathematician in history started exactly where you are now, facing unfamiliar symbols and learning, one term at a time, how to read them. The only difference between you and someone who is "good at math" is the number of terms they have translated so far. You are not behind. You are in progress.
+To continue building your confidence, seek out resources that present mathematics in plain language. Books like Overcoming Math Anxiety by Sheila Tobias and Mathematics Elsewhere by Marcia Ascher can help reframe your relationship with the subject. Online platforms like Khan Academy, 3Blue1Brown, and Numberphile present mathematical ideas visually and conversationally, making formal concepts accessible without assuming prior fluency in notation.
+
+Consider joining online or campus-based student communities where you can connect with peers and practice these strategies together. Platforms such as the Art of Problem Solving Community, Reddit’s r/learnmath, and Discord servers like Math Study Group offer spaces to ask questions, share resources, and work through problems collaboratively. Many universities also host math support centers, peer-tutoring groups, and clubs such as Math Circles or Women in STEM organizations, where students can discuss study strategies, learn together, and support one another in a welcoming environment.
+
+Study groups where members practice “translating” formal problems into everyday language before solving them can be especially effective - they build both mathematical and linguistic fluency simultaneously. Remember: every mathematician in history started exactly where you are now, facing unfamiliar symbols and learning, one term at a time, how to read them. The only difference between you and someone who is “good at math” is the number of terms they have translated so far. You are not behind. You are in progress.
 
 ---
 
