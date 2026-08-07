@@ -1578,100 +1578,68 @@ The explicit Brioschi formula computes the intrinsic Gaussian curvature $K$ pure
 
 This is why Gauss called it "remarkable" — he had defined $K$ using the embedding in space, then discovered the embedding was irrelevant.
 
-## Green-Tao Theorem
-
-The Green-Tao Theorem is the stunning culmination of the line from van der Waerden to Szemerédi: it finds perfect arithmetic order inside the most famous "random-like" set in mathematics — the primes.
-
-> **Green-Tao Theorem (2004): The set of prime numbers contains arbitrarily long arithmetic progressions. For every $k \ge 1$, there exists an arithmetic progression of $k$ primes.**
-
-In simpler terms, you can find sequences of primes that are evenly spaced and these sequences can be as long as you want. The theorem doesn't claim that _all_ primes are spaced evenly — they clearly aren't — but that no matter how large a $k$ you choose, somewhere far out in the integers, there is a $k$-term equally-spaced chain consisting entirely of primes.
-
-### Key Aspects of the Theorem
-
-**1. Arbitrary Length vs. Infinite Length**
-For any $k$, there exists _some_ $a$ and $d > 0$ such that all $k$ numbers are prime:
-$$a,\; a+d,\; a+2d,\; \dots,\; a+(k-1)d$$
-
-For $k=3$, an example is $3, 7, 11$ ($d=4$). For $k=5$, a classic example is:
-$$5,\; 11,\; 17,\; 23,\; 29 \quad (d=6)$$
-
-The theorem says this pattern continues forever. It does _not_ say there is an infinite AP of primes — that is impossible, since any infinite AP $a + nd$ with $d>0$ contains multiples of $a$, which are composite.
-
-**2. The Challenge of Primes: Density Zero**
-Most theorems about arithmetic progressions require density. Szemerédi's Theorem (1975) states: any set of integers with _positive upper density_ — meaning it occupies some positive fraction of the integers in the long run — contains arbitrarily long APs.
-
-Primes do not satisfy this. By the Prime Number Theorem, the number of primes up to $N$ is about $N / \log N$, so their density is $1 / \log N \to 0$ as $N \to \infty$. In the infinite limit, the primes occupy 0% of the integers. Szemerédi's Theorem cannot be applied directly.
-
-This is what made Green-Tao so difficult and so celebrated.
-
-**3. The Breakthrough: The Transference Principle**
-Ben Green and Terry Tao — often called the "Mozart of Math" and awarded the Fields Medal in 2006 partly for this work — proved it in 2004 by inventing what is now called the _transference principle_.
-
-The strategy:
-
-- **Step 1: Find a pseudorandom superset.** They constructed a larger set of "almost primes" — the almost primes or more precisely, a weighted set called the Selberg-sieved primes — that _is_ pseudorandom and has positive density. Primes are sparse, but they sit inside this larger, well-behaved, random-like envelope.
-
-- **Step 2: Prove a relative Szemerédi theorem.** They proved a deep generalization: Szemerédi's Theorem still holds _relative_ to a pseudorandom superset. If a set is dense inside a pseudorandom set, then it contains long APs.
-
-- **Step 3: Transfer.** They showed the primes, while sparse in the integers, are _dense_ inside their pseudorandom envelope (they occupy a positive fraction of it). Therefore, the relative theorem applies to them.
-
-In metaphor: you cannot prove there are long straight lines of trees in a desert, because trees are too sparse. But if you can show the desert contains a large, well-watered pseudorandom oasis that covers a positive fraction of the desert, and trees are dense _inside that oasis_, then the trees must contain long lines.
-
-**4. Infinitude**
-The theorem proves more than existence for each $k$. Because you can always look beyond any bound $N$ and find another $k$-AP, it implies there are infinitely many $k$-term prime arithmetic progressions for any fixed $k$. The set of 3-term prime APs is infinite, the set of 5-term prime APs is infinite, and so on.
-
-### Record-Breaking Examples
-
-While the theorem proves existence for any length, finding actual progressions is computationally brutal because the common difference $d$ must be divisible by all primorials up to $k$ — otherwise one term would be divisible by a small prime. Hence $d$ explodes.
-
-- **Length 5:** $5, 11, 17, 23, 29$ — $d=6 = 2 \cdot 3$
-
-- **Length 6:** $7, 37, 67, 97, 127, 157$ — $d=30 = 2 \cdot 3 \cdot 5$
-
-- **Length 10:** $199, 409, 619, 829, 1039, 1249, 1459, 1669, 1879, 2089$ — $d=210 = 2 \cdot 3 \cdot 5 \cdot 7$
-
-- **Length 25:** Found in 2008 by Chermoni and Wróblewski
-
-- **Current Record:** As of September 2019, the longest known AP of primes has length 27, found by Rob Gahan and PrimeGrid:
-
-  $$2245845\,8550\,833\,+\; n \times 4314\,27670\,143\,+\; 23\#$$
-  for $n=0$ to $26$, where $23\# = 2\cdot3\cdot5\cdot7\cdot11\cdot13\cdot17\cdot19\cdot23 = 223,092,870$. The progression has $d = 4314276143 \times 23\#$, a number with 18 digits.
-
-Green-Tao tells us that a length-27 progression is not an anomaly — there are progressions of length 100, length 1,000, and length $10^{100}$ waiting somewhere far beyond our computational reach. Order is inevitable, even inside the primes.
-
 ## Lie Algebras — Infinitesimal Symmetry
+
+Lie algebras, introduced by Sophus Lie in the 1870s to study continuous transformation groups and solve differential equations, are the linearization of symmetry. A Lie group like rotations is a curved manifold — hard to work globally. Its tangent space at the identity is a flat vector space — easy linear algebra — but it remembers non-commutativity via a bracket. Lie algebras allow nonlinear problems in geometry and physics — rotations, Lorentz boosts, gauge fields — to be reduced to linear algebra.
 
 Lie algebras, named after Sophus Lie (1842-1899) who studied continuous transformation groups to solve differential equations, are mathematical structures used to study continuous symmetries, often acting as linearized or infinitesimal version of Lie group. They allow complex nonlinear problems in geometry and physics — rotations, Lorentz boosts, gauge transformations — to be translated into simpler linear algebra. Lie theory is fundamental to modern particle physics where fundamental particles are seen as representations of Lie groups like $SU(3)$ color or $SU(2)$ weak isospin and to study of differential equations via symmetry reduction.
 
+> **Slogan:** Lie group = global, curved, nonlinear symmetry. Lie algebra = infinitesimal, flat, linear approximation at identity that still remembers curvature.
+
 Intuition: Lie group is curved manifold — e.g., circle $S^1$ of rotations — hard to work globally. Its tangent space at identity is flat vector space — line of angular velocities — easy linear algebra. Lie algebra is that flat approximation, but retains essential non-commutative structure via bracket.
 
-### Definition and Core Axioms:
+### Definition and Core Axioms
 
-A Lie algebra is vector space $\mathfrak{g}$ over field $F$ — usually $\mathbb{R}$ or $\mathbb{C}$ — equipped with binary operation $[\cdot,\cdot]:\mathfrak{g}\times\mathfrak{g}\to\mathfrak{g}$ called Lie bracket, measuring infinitesimal non-commutativity. Must satisfy three primary rules that make it "Lie-like" rather than arbitrary product:
+#### What Is a Lie Algebra?
 
-- **Bilinearity:** $[ax+by,z]=a+b$ and $[z,ax+by]=a+b$ — bracket linear in each argument, so respects vector space structure. Scaling and addition pass through. This ensures Lie algebra is algebraic object where linear combinations of brackets computable via basis brackets — structure constants $[e_i,e_j]=\sum_k c_{ij}^k e_k$ determine all. Without bilinearity, classification impossible.[x][z][y]
+A Lie algebra is a vector space $\mathfrak{g}$ over a field $F$, usually $\mathbb{R}$ or $\mathbb{C}$, equipped with a binary operation $[\cdot,\cdot]: \mathfrak{g}\times\mathfrak{g}\to\mathfrak{g}$ called Lie bracket, measuring infinitesimal non-commutativity.
 
-- **Alternating Property:** $=0$ for all $x\in\mathfrak{g}$ — implies anticommutativity: $=-$ — proof: $0=[x+y,x+y]=+++=+$. Means $x$ commutes with itself, but not generally others — non-abelian if some $[x,y]\neq0$. Alternating distinguishes Lie from associative algebra where $x^2$ generally non-zero. Geometrically, infinitesimal motion followed by same motion does nothing extra — commutator of flow with itself trivial.[x][y]
+#### The Three Axioms
 
-- **Jacobi Identity:** $[x,]+[y,]+[z,]=0$ — cyclic sum zero. This is not associativity — bracket not associative — $[[x,y],z]\neq[x,[y,z]]$ generally — but substitute for it that ensures consistency. Equivalent to $ad_x=[x,\cdot]$ being derivation: $[x,]=[,z]+[y,]$ — Leibniz rule. Ensures bracket consistent with infinitesimal group commutator — associativity of underlying group $g(hk)=(gh)k$ expanded to order $t^3$ yields Jacobi. Without Jacobi, exponentiation would not produce associative group.
+1. Bilinearity
 
-  Example failure: if define $=0$ except $[e_1,e_2]=e_3$, $[e_2,e_3]=e_1$, $[e_3,e_1]=0$ — Jacobi fails: $[e_1,[e_2,e_3]]+[e_2,[e_3,e_1]]+[e_3,[e_1,e_2]]=0+0+[e_3,e_3]=0$ actually holds here, need better counterexample — but many random tables fail. Jacobi is restrictive.[y][z][x]
+    $$[ax+by, z] = a[x,z] + b[y,z], \quad [z, ax+by] = a[z,x] + b[z,y]$$
 
-Unlike group axioms — closure, associativity, identity, inverse — which are global and nonlinear — multiplication table $n\times n$ — Lie algebra axioms linear, so can use linear algebra to classify. Bilinearity + finite dimension → bracket determined by $n^2(n-1)/2$ constants $c_{ij}^k$ antisymmetric $c_{ij}^k=-c_{ji}^k$ and satisfying quadratic Jacobi constraints $\sum_m c_{ij}^m c_{mk}^l + \text{cyc}=0$.
+    Scaling and addition pass through. Consequences:
 
-### The Lie Group Connection:
+    - Bracket determined by basis brackets: if $\{e_i\}$ basis, define structure constants $[e_i,e_j]=\sum_k c_{ij}^k e_k$. All brackets are linear combinations. Without bilinearity, classification impossible.
+    - Ensures $ad_x: y\mapsto[x,y]$ is linear map.
 
-For every Lie group — group that is also smooth manifold where multiplication and inverse smooth maps — e.g., $SO(3)$ rotations of 3D space — manifold dimension 3 — or $GL_n(\mathbb{R})$ invertible matrices — open subset of $\mathbb{R}^{n^2}$ — there is corresponding Lie algebra, defined as tangent space at identity $T_e G$ — velocity vectors of curves through identity.
+2. Alternating Property
 
-Think of Lie group as curved surface — like sphere — through identity point. Tangent plane at identity is flat vector space — easier. Lie bracket is extra structure on that plane remembering curvature of group multiplication.
+    $$[x,x]=0 \quad \forall x$$
 
-- **Infinitesimal Motion:** Lie algebra represents tiny motions near identity. Example: $SO(2)$ rotations $R_\theta=\begin{pmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{pmatrix}$, near $\theta=0$, $\theta$ small, Taylor: $R_\theta\approx I+\theta\begin{pmatrix}0&-1\\1&0\end{pmatrix}=I+\theta J$. Matrix $J=\begin{pmatrix}0&-1\\1&0\end{pmatrix}$ is generator — basis of $\mathfrak{so}_2$, dimension 1. Any small rotation is $I+\epsilon J$. So algebra element is angular velocity — $\theta$ is angle, $J$ is "rotate a bit" direction. For $SO(3)$, basis $J_x,J_y,J_z$ — infinitesimal rotations about axes — any angular velocity vector $\omega=(\omega_x,\omega_y,\omega_z)$ corresponds to $X=\omega_x J_x+\omega_y J_y+\omega_z J_z$.
+    Implies anticommutativity: $0=[x+y,x+y]=+++=+$, so
 
-- **Exponential Map:** You can recover group from algebra at least locally using exponential map $e^X=\sum_{n=0}^\infty X^n/n!$ — matrix exponential for matrix groups, more abstract via flows for general. For $\mathfrak{so}_2$, $\exp(\theta J)=\begin{pmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{pmatrix}=R_\theta$ — Rodrigues formula recovers rotation by $\theta$ — series $\exp$ gives trig functions. For $\mathfrak{so}_3$, $\exp$ gives rotation by axis-angle: if $X$ corresponds to $\theta\hat{u}$ where $\hat{u}$ unit axis, then $e^X$ = rotation around $\hat{u}$ by $\theta$ — Rodrigues' rotation formula $e^X = I+\sin\theta\,\hat{U}+(1-\cos\theta)\hat{U}^2$ where $\hat{U}$ skew matrix of $\hat{u}$. Not globally surjective always — $SL_2(\mathbb{R})$ has matrices not exponential of single element — but near identity diffeomorphism, and generates identity component. Inverse log map local.
+    $$[x][y]= -[x][y]$$
 
-- **Simplified Analysis:** Because Lie algebras are vector spaces with bilinear bracket, it is often easier to classify and study them than groups themselves. Classification of semisimple Lie algebras via Dynkin diagrams 1894 by Killing and Cartan is linear algebra problem — classify root systems — finite sets of vectors with crystallographic angles — while classification of Lie groups follows by adding global topological info — center, fundamental group. Bracket $$ measures failure of group commutativity to first order: $e^{tX}e^{tY}e^{-tX}e^{-tY}=I+t^2[X,Y]+O(t^3)$ — group commutator close to identity corresponds to Lie bracket — so abelian group $e^{tX}e^{tY}=e^{tY}e^{tX}$ iff $=0$. This formula shows why alternating and Jacobi arise — group commutator satisfies identities that survive to second order.
+    $x$ commutes with itself, but not necessarily with others. Non-abelian iff some $[x,y]\neq0$. This distinguishes Lie from associative algebras where $x^2\neq0$ generally. Geometrically: infinitesimal flow followed by same flow does nothing extra.
 
-  Lie's three theorems: (1) every finite-dim Lie algebra is Lie algebra of some local Lie group, (2) morphisms of simply connected Lie groups correspond to morphisms of algebras, (3) etc. So studying algebras captures local group structure.[X][Y]
+3. Jacobi Identity
+
+    $$[x,] + [y,] + [z,] = 0$$
+    
+    Cyclic sum zero. Not associativity — bracket is not associative — but replacement for it.
+
+    Equivalent form: $ad_x=[x,\cdot]$ is a derivation:
+
+    $$[x,] = [,z] + [y,]$$
+    
+  Leibniz rule. This comes from associativity of underlying group: expand $(e^{tX}e^{tY})e^{tZ}=e^{tX}(e^{tY}e^{tZ})$ to order $t^3$ and Jacobi appears.
+
+  If Jacobi fails, exponentiation does not produce an associative group. Example of failure: define a 3-dim space with basis $e_1,e_2,e_3$ and
+
+  $$[e_1,e_2]=e_1,\quad [e_2,e_3]=e_1,\quad [e_3,e_1]=e_2$$
+
+  with antisymmetry. Then
+
+  $$[e_1,[e_2,e_3]]+[e_2,[e_3,e_1]]+[e_3,[e_1,e_2]] = [e_1,e_1]+[e_2,e_2]+[e_3,e_1]=e_2\neq0,$$
+
+  so Jacobi fails and this is not a Lie algebra.
+
+  Finite-dimensional Lie algebra is determined by $n^2(n-1)/2$ independent constants $c_{ij}^k$ with $c_{ij}^k=-c_{ji}^k$ and $c_{ii}^k=0$, satisfying quadratic Jacobi constraints:
+
+  $$\sum_m \left(c_{ij}^m c_{mk}^l + c_{jk}^m c_{mi}^l + c_{ki}^m c_{mj}^l\right)=0 \quad \forall i,j,k,l$$
 
 ### Key Classifications — Periodic Table of Symmetry
 
