@@ -1443,6 +1443,26 @@ This is why:
 
 In one line: Cylinders are extrinsic illusions — they look curved but are intrinsically flat. Spheres are intrinsically curved — no illusion, any inhabitant can prove it without leaving the surface, simply by measuring circles and triangles.
 
+#### Map Making Limitation — No Perfect Map Exists
+
+This is the most famous corollary.
+
+- **Plane**: $K \equiv 0$
+- **Sphere of radius $R$**: $K \equiv 1/R^2 > 0$
+
+If there were a perfect map — a local isometry from a patch of sphere to plane preserving all distances — then $K$ would have to be preserved by Theorema Egregium. Since $0 \neq 1/R^2$, no such map exists.
+
+**Therefore any flat map of the Earth must distort something.** This is not an engineering limitation; it is a theorem of geometry.
+
+Different map projections choose what to sacrifice:
+
+- **Mercator (1569):** Conformal — preserves angles and local shapes, so $F=0$ and $E=G$ up to scale. Used for navigation because rhumb lines are straight. Distorts area massively — Greenland looks as large as Africa.
+- **Equal-area (e.g., Gall-Peters, Mollweide):** Preserves $\sqrt{EG-F^2}$, so area is correct, but distorts angles and shapes.
+- **Equidistant (e.g., azimuthal equidistant):** Preserves distances from one point, distorts elsewhere.
+- **Compromise (e.g., Winkel Tripel):** Used by National Geographic, distorts everything a little to minimize overall error.
+
+Gauss proved in 1827 what cartographers had felt for millennia: you cannot flatten the Earth without compromise.
+
 ### Relation to the First Fundamental Form
 
 The First Fundamental Form is the intrinsic metric:
