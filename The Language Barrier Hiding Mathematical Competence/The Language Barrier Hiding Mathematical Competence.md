@@ -96,7 +96,7 @@ Math anxiety discourages students from pursuing STEM careers and undermines self
 
 Math anxiety influences gendered career choices, with high-performing girls more likely to avoid math-intensive paths due to emotional responses rather than ability (Denervaud et al.). Math anxiety also negatively affects women’s test performance, classroom participation, and confidence, even when their achievements are comparable to those of boys. This highlights the need for targeted interventions to help students, particularly girls, overcome psychological barriers (Opesemowo et al., 2025). Persistent self-doubt leads many young women to avoid advanced mathematics coursework, limiting both immediate academic opportunities and future potential in STEM fields (Samuel et al., 2022, pp. 613-626).
 
-The intersection of math anxiety with race, ethnicity, and socioeconomic status further complicates the challenges students encounter. Women of color and those from low-income backgrounds encounter additional barriers, including stereotype threat, limited access to quality resources, and underrepresentation in advanced mathematics. Racial and ethnic minority students experience heightened math anxiety due to persistent stereotypes, resource disparities, and a lack of role models in advanced math classes (Steele 613; Ma 530). The absence of role models and limited access to effective instruction intensify anxiety and discourage participation. (Maloney et al., 2013, pp. 115-128) Negative stereotypes diminish students' sense of belonging, as societal biases erode confidence and impede mathematical success (“Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behavior in Adolescents” 1001-1011). Collectively, these factors increase anxiety and have enduring effects on engagement with mathematics.
+The intersection of math anxiety with race, ethnicity, and socioeconomic status further complicates the challenges students encounter. Women of color and those from low-income backgrounds encounter additional barriers, including stereotype threat, limited access to quality resources, and underrepresentation in advanced mathematics. Racial and ethnic minority students experience heightened math anxiety due to persistent stereotypes, resource disparities, and a lack of role models in advanced math classes (Steele 613; Ma 530). The absence of role models and limited access to effective instruction intensify anxiety and discourage participation. (Maloney et al., 2013, pp. 115-128) Negative stereotypes diminish students’ sense of belonging, as societal biases erode confidence and impede mathematical success (“Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behavior in Adolescents” 1001-1011). Collectively, these factors increase anxiety and have enduring effects on engagement with mathematics.
 
 Peer interactions significantly shape students’ self-perceptions and mathematical abilities, influencing their engagement with mathematical concepts. These interactions can enhance or undermine self-esteem and motivation, which is particularly important in a challenging subject. (Reciprocal relations between adolescents’ self-concepts of ability and achievement emotions in mathematics and literacy, 2021) Media portrayals of gender roles in mathematics reinforce stereotypes and shape students’ perceptions of their potential. For example, repeated depictions of men as math experts may lead girls to internalize beliefs of lesser capability. (Wille et al., 2018) The combined impact of these influences shapes academic choices and self-concept, highlighting the need to address disparities within the educational system (The Secret Language of Peers: How Peer Behaviors Signal Mindset and Influence Classroom Experiences, 2024). This evidence suggests that performance gaps are primarily driven by environmental and cultural factors rather than inherent ability.
 
@@ -349,7 +349,7 @@ Rosa and Orey emphasize that ethnomathematics includes these occupational forms 
 
 ### Indigenous Mathematical Practices
 
-Indigenous knowledge systems also contain rich mathematical reasoning in ecological observation, navigation, pattern-making, spatial organization, and resource management. Research on weaving Indigenous mathematics argues it is about "recognizing and valuing Indigenous knowledge in and through the act of doing as a means to challenge our sense of what we mean by mathematics" (Aikenhead, qtd. in UBC).
+Indigenous knowledge systems also contain rich mathematical reasoning in ecological observation, navigation, pattern-making, spatial organization, and resource management. Research on weaving Indigenous mathematics argues it is about “recognizing and valuing Indigenous knowledge in and through the act of doing as a means to challenge our sense of what we mean by mathematics” (Aikenhead, qtd. in UBC).
 
 A recent review on Indigenous mathematical knowledge argues that bringing these practices into contemporary education can strengthen equity and sustainability while affirming local ways of knowing (Ghosh and Banerjee). For example, a study of the T'nalak fabric of the T'boli people from Lake Sebu discusses the symmetries and weaving process of the sacred cloth, demonstrating complex transformational geometry (De Las Peñas and Tomenes 51). Research at Springer documents how crossing ethnographical, anthropological and ethnomathematical approaches helps highlight and formalize Indigenous mathematical knowledge (de Freitas). Ethnomathematics researchers have shown evidence of mathematical practices — counting, sorting, measuring, weighing, and ordering — performed by cultural groups in different ways than conventional mathematics taught in schools (Gerdes, qtd. in Nicol et al.).
 
@@ -758,9 +758,9 @@ While computing eigenvectors requires linear algebra sophistication, _recognizin
 
 **The Mirror Reflection**: The reflection itself maps every point on your body to a point in "mirror space".
 
-- Side-to-side/Up-and-down: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
+- **Side-to-side/Up-and-down**: If you move your hand left, your reflection moves left. The direction stays the same, so this is an eigenvector with an eigenvalue of 1.
 
-- Forward/Backward: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1.
+- **Forward/Backward**: If you point your finger directly at the mirror, the reflection points directly back at you. The direction has flipped 180 degrees. This is an eigenvector with an eigenvalue of -1.
 
 **Musical Instruments (Resonance)**: When you pluck a guitar string, it vibrates in specific patterns called "harmonics." (See Appendix for the mathematics behind this)
 
@@ -1394,10 +1394,10 @@ Group Theory asks: "What is the internal structure of this group?" It studies th
 
 In simple terms: A "group" in abstract algebra is a set $G$ of actions you can perform and reverse, following specific rules:
 
-1. Closure: If $a,b \in G$, then $a\cdot b \in G$
-2. Identity: $\exists e \in G$ such that $e\cdot a = a\cdot e = a$
-3. Inverse: $\forall a \in G$, $\exists a^{-1} \in G$ such that $a\cdot a^{-1} = e$
-4. Associativity: $(a\cdot b)\cdot c = a\cdot (b\cdot c)$
+1. **Closure**: If $a,b \in G$, then $a\cdot b \in G$
+2. **Identity**: $\exists e \in G$ such that $e\cdot a = a\cdot e = a$
+3. **Inverse**: $\forall a \in G$, $\exists a^{-1} \in G$ such that $a\cdot a^{-1} = e$
+4. **Associativity**: $(a\cdot b)\cdot c = a\cdot (b\cdot c)$
 
 A "do nothing" action exists, every action has an opposite, combining actions produces another valid action.
 
@@ -1405,9 +1405,9 @@ A "do nothing" action exists, every action has an opposite, combining actions pr
 
 **RCS E2EE (End-to-End Encryption) Messaging**: Both TLS and E2EE systems in Google Messages and Apple's ecosystems rely on the mathematics of group theory called The Discrete Logarithm Problem in the context of elliptic curves, specifically through Elliptic Curve Cryptography (ECC)
 
-- Google Messages: Uses the Signal Protocol. This protocol relies on the X3DH (Extended Triple Diffie-Hellman) key agreement, which performs math on "points" in a group to create a shared secret key.
-- Apple (iMessage & Beta RCS): Apple's iMessage recently upgraded to PQ3, a "Level 3" security protocol that combines classical Elliptic Curve algorithms (group theory) with post-quantum math to protect against future supercomputers.
-- TLS (Transport Layer Security): This is the standard "in-transit" encryption used by both apps when E2EE isn't active. It almost universally uses Elliptic Curve Diffie-Hellman (ECDHE) to secure the connection between your phone and the server
+- **Google Messages**: Uses the Signal Protocol. This protocol relies on the X3DH (Extended Triple Diffie-Hellman) key agreement, which performs math on "points" in a group to create a shared secret key.
+- **Apple (iMessage & Beta RCS)**: Apple's iMessage recently upgraded to PQ3, a "Level 3" security protocol that combines classical Elliptic Curve algorithms (group theory) with post-quantum math to protect against future supercomputers.
+- **TLS (Transport Layer Security)**: This is the standard "in-transit" encryption used by both apps when E2EE isn't active. It almost universally uses Elliptic Curve Diffie-Hellman (ECDHE) to secure the connection between your phone and the server
 
 > **Math Explained**:
 >
@@ -2793,9 +2793,9 @@ Graph theory is the study of networks of connections.
 
 **Directed Acyclic Graph (DAG)**
 
-- Nodes ( $V$ ): Represent individual tasks.
-- Directed Edges ( $E$ ): An edge from task $A$ to task $B$ ( $A \to B$ ) represents a precedence constraint, meaning $A$ must be finished before $B$ starts.
-- Acyclic Property: The graph must be acyclic (no loops). If a cycle exists (e.g., $A \to B \to C \to A$), the project is mathematically impossible to complete because each task is waiting on itself.
+- **Nodes ( $V$ )**: Represent individual tasks.
+- **Directed Edges ( $E$ )**: An edge from task $A$ to task $B$ ( $A \to B$ ) represents a precedence constraint, meaning $A$ must be finished before $B$ starts.
+- **Acyclic Property**: The graph must be acyclic (no loops). If a cycle exists (e.g., $A \to B \to C \to A$), the project is mathematically impossible to complete because each task is waiting on itself.
 
 > See Appendix for more information.
 
@@ -2999,10 +2999,10 @@ Mathematical vocabulary and notation should be taught through deliberate scaffol
 
 Effective strategies include:
 
-- Plain language first: Introduce concepts using plain language and real-world examples before progressively incorporating formal notation. This builds a conceptual bridge from intuitive, everyday reasoning to formal representation (Castillo et al.).
-- Make the language visible: Model comprehensive analyses of complex symbols, provide word banks for problem-solving, and have students develop glossaries that connect symbols and terms to familiar examples.
-- Use notation as shorthand, not a barrier: Educators have an obligation to use jargon as a convenient shorthand for those with prior experience while consciously avoiding it as a barrier for novices (Pimm 76).
-- Normalize confusion: Explicitly communicate that difficulty with notation is common and does not reflect a lack of intelligence (Al-Naim and Mefi 880).
+- **Plain language first**: Introduce concepts using plain language and real-world examples before progressively incorporating formal notation. This builds a conceptual bridge from intuitive, everyday reasoning to formal representation (Castillo et al.).
+- **Make the language visible**: Model comprehensive analyses of complex symbols, provide word banks for problem-solving, and have students develop glossaries that connect symbols and terms to familiar examples.
+- **Use notation as shorthand, not a barrier**: Educators have an obligation to use jargon as a convenient shorthand for those with prior experience while consciously avoiding it as a barrier for novices (Pimm 76).
+- **Normalize confusion**: Explicitly communicate that difficulty with notation is common and does not reflect a lack of intelligence (Al-Naim and Mefi 880).
 
 This approach demystifies mathematics. Meta-analyses support methods that synergize cognitive support with emotion regulation and gradual exposure to formal notation, showing they reduce anxiety and enhance performance.
 
@@ -3012,9 +3012,9 @@ Effective curricula must clearly connect intuitive reasoning to formal mathemati
 
 To do this:
 
-- Integrate visual and physical models: When mathematics is presented as disjointed from real-life, lacking visual support, or ignoring students' diverse backgrounds, anxiety rises. Use relatable real-world analogies prior to formal definitions. Strong and Strong show that physical models — such as strings stretched across globe surfaces to illustrate geodesics — considerably deepen understanding beyond equations alone (43-45).
-- Use engaging, active strategies: Implement active learning, gamification, and collaborative problem-solving to mitigate intimidation associated with notation (Castillo et al.). A survey showing 70% of Americans believe math education should prioritize real-world applications highlights the gap between formal instruction and intuitive reasoning (SWNS).
-- Embrace mathematical debate: Introduce authentic debates or ambiguous problems to show mathematics as a dynamic, evolving discipline. For example, present two different proofs for the same theorem — one formal and one intuitive — and have students evaluate the reasoning. Acknowledging that even experts debate validity promotes questioning, interpretation, and refinement.
+- **Integrate visual and physical models**: When mathematics is presented as disjointed from real-life, lacking visual support, or ignoring students' diverse backgrounds, anxiety rises. Use relatable real-world analogies prior to formal definitions. Strong and Strong show that physical models — such as strings stretched across globe surfaces to illustrate geodesics — considerably deepen understanding beyond equations alone (43-45).
+- **Use engaging, active strategies**: Implement active learning, gamification, and collaborative problem-solving to mitigate intimidation associated with notation (Castillo et al.). A survey showing 70% of Americans believe math education should prioritize real-world applications highlights the gap between formal instruction and intuitive reasoning (SWNS).
+- **Embrace mathematical debate**: Introduce authentic debates or ambiguous problems to show mathematics as a dynamic, evolving discipline. For example, present two different proofs for the same theorem — one formal and one intuitive — and have students evaluate the reasoning. Acknowledging that even experts debate validity promotes questioning, interpretation, and refinement.
 
 #### 3\. Approach Notation as a Language to Build Fluency
 
