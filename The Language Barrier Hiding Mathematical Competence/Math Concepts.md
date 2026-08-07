@@ -1484,6 +1484,36 @@ In modern Riemannian language, Gauss effectively expressed it as:
 $$K = -\dfrac{\langle R(\partial_u,\partial_v)\partial_v,\partial_u\rangle}{EG-F^2}$$
 where $R$ is the Riemann curvature tensor built from Christoffel symbols $\Gamma^k_{ij}$, which themselves are built from $E,F,G$. Gauss did this 90 years before Riemann.
 
+### Sketch of Gauss's Proof
+
+Gauss's original proof is computational tour de force. Modern sketch:
+
+Let surface $r(u,v)$. Then $I = r_u\cdot r_u du^2 + 2r_u\cdot r_v du dv + r_v\cdot r_v dv^2 = E du^2 +2F du dv+G dv^2$.
+
+Second fundamental form $II = L du^2+2M du dv+N dv^2$ where $L = r_{uu}\cdot N$, etc. Then $K = (LN-M^2)/(EG-F^2)$ — extrinsic.
+
+Gauss proved compatibility equations — Gauss-Codazzi — linking derivatives of $I$ and $II$. By differentiating $E,F,G$, he eliminated $L,M,N$ and got:
+
+$$K = \frac{1}{\sqrt{EG-F^2}} \left[ \frac{\partial}{\partial u}\left(\frac{\sqrt{EG-F^2}}{E}\Gamma^2_{11}\right) + ...\right]$$
+
+where $\Gamma$ are Christoffel symbols computed from $E,F,G$ alone. So $K$ depends only on $I$.
+
+In modern language: Riemann curvature tensor in 2D has one component $K$, and it can be computed from Levi-Civita connection of metric.
+
+### Why It Matters: Birth of Intrinsic Geometry
+
+Before 1827, surfaces were studied as subsets of $\mathbb{R}^3$. After Egregium, they can be studied abstractly:
+
+- **Riemann (1854):** Generalized to $n$-dimensional manifolds. $K$ becomes Riemann curvature tensor. Space can be curved intrinsically without ambient space — foundation for general relativity. Einstein's equation $G_{\mu\nu} = 8\pi T_{\mu\nu}$ says matter determines intrinsic curvature.
+
+- **Cartography:** Proved perfect map impossible. Any flat map of sphere must distort distances.
+
+- **Topology:** Gauss-Bonnet theorem $\int_S K dA = 2\pi\chi(S)$ links intrinsic curvature to topology. Curvature total is topological invariant. Sphere must have total curvature $4\pi$, torus $0$.
+
+- **Non-Euclidean geometry:** Showed $K<0$ surfaces model hyperbolic geometry intrinsically, with angle sum < $\pi$. Egregium guaranteed hyperbolic geometry is consistent without embedding.
+
+**Slogan:** Extrinsic bending you see is illusion; intrinsic curvature measured by angle defect is reality. A cylinder is flat, a sphere is not, and no bending without stretching can change that. That distinction — between what depends on how you sit in space vs what is inherent to the space — is the birth of modern geometry.
+
 ### Connection to Physics — General Relativity
 
 Einstein's General Relativity is the direct generalization of Theorema Egregium from 2D to 4D.
