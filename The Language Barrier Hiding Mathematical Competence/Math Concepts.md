@@ -1844,90 +1844,161 @@ Subalgebras: Hamiltonian vector fields preserve symplectic form — infinite-dim
 
 These examples show progression: from all matrices $\mathfrak{gl}_n$ to volume-preserving $\mathfrak{sl}_n$, to rotations $\mathfrak{so}_n$, to quantum $\mathfrak{su}_n$, to infinite-dimensional fields — each adds condition — trace zero, skew, Hermitian, divergence-free — corresponding to preserving geometric structure — volume, metric, complex inner product, volume form — illustrating Klein's Erlangen philosophy: geometry = group, infinitesimal geometry = Lie algebra.
 
-Here is an expanded and clarified version of your section:
-
 ## Gomory's Theorem — When Counting Is Enough
 
-Gomory's Theorem is classic result in tiling theory that gives positive guarantee where you might expect negative one — often first example of combinatorial invariant method.
+Gomory's theorem is the rare positive guarantee in tiling theory — where the obvious counting obstruction turns out to be the _only_ obstruction. Ralph E. Gomory proved generalization in context of polyomino tiling. Popularized by Golomb, Martin Gardner. Note opposite of famous mutilated chessboard _impossibility_ puzzle — remove opposite corners same color → impossible — Gomory gives converse possibility: opposite colors → always possible.
 
-> **Gomory's Theorem (1973, sometimes Gomory-Baum 1973, also called "Mutilated Chessboard Theorem" complement): If any two squares of opposite colors are removed from an $8\times8$ chessboard, the remaining 62 squares can always be perfectly covered by 31 dominoes.**
+> **Gomory's Theorem (Ralph E. Gomory, 1973; popularized by Solomon Golomb, Martin Gardner):** If any two squares of opposite colors are removed from an $8\times8$ chessboard, the remaining 62 squares can always be perfectly covered by 31 dominoes.
 
-The name: Ralph E. Gomory proved generalization in context of polyomino tiling. Popularized by Golomb, Martin Gardner. Note opposite of famous mutilated chessboard _impossibility_ puzzle — remove opposite corners same color → impossible — Gomory gives converse possibility: opposite colors → always possible.
+It is the complement of the famous _mutilated chessboard impossibility puzzle_.
 
-The result far more general than chessboards: any rectangular domain in square grid with even number of cells that is simply connected remains tileable by dominoes after removing one white and one black square? Actually need stronger: any _even_ region with no holes? Precise generalization: For any $m\times n$ board where at least one of $m,n$ even so board tileable, and any two squares of opposite color removed, remaining board has domino tiling. More generally, any _balanced_ region in $\mathbb{Z}^2$ that is simply connected? Actually theorem extends to any board where every row and column has even number of squares removed? The standard sharp generalization: Any rectangular board $2n\times2n$? Let's state: Any finite region of square lattice that is _simply connected_ and has equal black-white count and every "cut" separates? No.
+- **Impossibility:** Remove two squares of _same_ color (e.g., opposite corners) → 30 white + 32 black → 31 dominoes need 31+31 → impossible. Simple invariant.
+- **Possibility — Gomory:** Remove opposite colors → 31 white + 31 black → invariant satisfied → surprisingly, tiling _always_ exists.
 
-Clean generalization: **Any rectangular board $m\times n$ with $mn$ even**, removal of one white and one black square leaves domino-tileable region. Proof uses Hamiltonian cycle. Also extends to any region that has a Hamiltonian cycle covering all cells — e.g., $m,n$ at least one even ensures existence of snake cycle. For non-rectangular regions with holes, statement false — need additional topological condition — e.g., region shaped like figure-8 may have opposite colors removal non-tileable.
+### The Coloring Invariant — Why Same Color Fails
 
-The converse also easy: if you remove two squares of same color, tiling impossible — parity argument.
+This is the classic invariant method.
 
-**Why same color is impossible — Coloring invariant:**
+#### Setup
 
-A domino always covers one white and one black square — adjacency in bipartite graph changes color. $8\times8$ board has 32 white and 32 black squares — checkerboard coloring. Removing two white squares leaves 30 white and 32 black — 62 squares but color imbalance of 2. Since 31 dominoes would need to cover 31 white and 31 black squares — each contributes 1-1 — total covered white = black =31 — impossible. By simple counting argument — pigeonhole — tiling ruled out. This is classic invariant — color count — necessary condition.
+Checkerboard color $8\times8$ board: 32 white, 32 black. Adjacent squares opposite colors — bipartite. Domino $2\times1$ always covers one white + one black.
 
-Gomory's Theorem provides positive guarantee for opposite case, where counting does not rule out tiling — necessary condition $W=B=31$ satisfied, but is it sufficient? Surprisingly yes — unlike many tiling problems where balanced does not imply tileable — e.g., two same color removed balanced? Actually not balanced — but other regions balanced yet non-tileable — e.g., Aztec diamond with hole. For rectangles, balanced suffices.
+#### Necessity Proof
 
-### Hamiltonian Cycle Proof
+If remove two white squares: remaining $W=30, B=32$. Any set of 31 dominoes covers $31$ white and $31$ black — because each contributes 1-1. So $|W_{covered}|=|B_{covered}|=31$. Cannot equal $30\neq32$. Contradiction. Same for two black.
 
-**Proof idea — Constructive Hamiltonian snake:**
+So opposite colors is _necessary_ for tiling.
 
-Key: $8\times8$ board has Hamiltonian cycle — closed loop visiting each square exactly once moving orthogonally. For rectangular board with at least one even dimension, snake pattern: go right across top row, down one, left across second row, down one, etc., then up along first column to close — cycle length 64.
+Gomory's theorem says for rectangular boards, it is also _sufficient_.
 
-Cycle alternates colors $B,W,B,W...$ because orthogonal moves switch color — bipartite. Remove one white $w$ and one black $b$ — cycle broken into two paths — arcs between $w$ and $b$ along cycle — each path has even number of squares? Because endpoints opposite colors, distance along cycle between them odd? Let's check: cycle even length. Removing opposite colors splits cycle into two paths each with even number of vertices — because alternating, opposite colors removal leaves even-length intervals. Each even path can be tiled by dominoes along cycle — pair consecutive squares. So tiling exists, constructively.
+### Statement and Generalizations
 
-Formally: traverse cycle, list squares $c_0,c_1,\dots,c_{63},c_0$. Assume $w=c_i$, $b=c_j$, $i<j$, colors opposite so $j-i$ odd? Actually colors alternate, opposite colors means $j-i$ odd? If colors opposite, parity of index opposite. So path $c_{i+1}\dots c_{j-1}$ length $j-i-1$ even? If $j-i$ odd, then $j-i-1$ even, tileable. Other path $c_{j+1}\dots c_{i-1}$ wrapping around length $64-(j-i)-1 =63-(j-i)$ — if $j-i$ odd, this also even. So both even, domino tiling along cycle.
+#### The Sharp Generalization
 
-Thus algorithm: find Hamiltonian cycle, cut at removed squares, tile each segment.
+> **General Gomory:** For any $m\times n$ rectangular board with $mn$ even — at least one of $m,n$ even so board tileable — removal of one white and one black square leaves a domino-tileable region.
 
-**Why this is non-trivial:**
+Proof uses only existence of Hamiltonian cycle. Any rectangular grid with an even side has Hamiltonian cycle.
 
-Counting argument gives necessity of opposite colors, but sufficiency fails for many regions — e.g., consider board shaped like 3x3 minus center — 8 squares — balanced 4-4, has Hamiltonian cycle? Actually 3x3 minus center has cycle length 8 and any opposite removal tileable? Some shapes fail. Need rectangular or Hamiltonian condition. So Gomory's theorem identifies class where local counting invariant is _complete_ invariant — only obstruction.
+More generally:
 
-This links to deeper theory: Domino tilings correspond to perfect matchings in bipartite graph — grid graph. Hall's Marriage Theorem gives condition for existence. For bipartite graph with bipartition $W,B$, perfect matching exists after removing $w\in W, b\in B$ iff for all $S\subseteq W$, $|N(S)|\ge|S|$ still holds. Gomory's Hamiltonian argument proves Hall condition automatically for rectangles when opposite colors removed — because cycle provides 2-regular spanning subgraph guaranteeing expansion.
+**Theorem:** Any finite induced subgraph of $\mathbb{Z}^2$ that has a Hamiltonian cycle is _elementary_ — removal of one white and one black vertex leaves a perfectly matchable graph.
 
-Also connects to earlier Euler characteristic discussion: tiling existence relates to $\chi$? Not directly, but region's topology — simply connected with even cells — ensures existence of Hamiltonian cycle, which fails with holes — holes change genus.
+Rectangular boards are Hamiltonian. So theorem applies.
 
-**Pedagogical value:** Classic example of proof by invariant for impossibility, and constructive proof for possibility — teaches students both directions: to prove impossible, find invariant that differs; to prove possible, give algorithm. Pairs with earlier genus examples: sphere $\chi=2$, torus $0$ etc., all counting arguments that classify.
+#### When It Fails — Need for Topology
 
-The most elegant proof uses a Hamiltonian cycle — a single closed path that visits every square on the board exactly once and returns to the start. This proof works for any even board.
+For non-rectangular or non-simply-connected regions, opposite colors is not sufficient.
 
-**1. Construct the Cycle**
-Imagine a cycle that snakes through the entire board. For example, go left-to-right across the first row, down one, right-to-left across the second row, down one, and so on, then return up the left edge. You now have a loop of 64 squares in a fixed order where consecutive squares are adjacent on the board and colors strictly alternate: White-Black-White-Black...
+Example: Take $8\times8$ board, remove a central $2\times2$ block — donut region. Still 60 squares, 30+30 balanced, but remove two squares that disconnect? Or consider figure-8 shape: two large blocks connected by single bridge square. Remove bridge's neighbors of opposite colors? Actually removal may disconnect graph leaving component with imbalance.
 
-**2. The Break**
-When you remove two squares, you break this 64-square loop. Removing two vertices from a cycle always leaves either one path (if the removed squares were adjacent in the cycle) or two separate paths.
+Standard counterexample: Consider region shaped like:
 
-**3. Even Lengths**
-This is the key parity observation. Because colors alternate along the cycle, the distance along the cycle between any white square and any black square is odd.
+```
+XXX
+X X
+XXX
+```
 
-Think of the cycle as positions $0,1,2,\dots,63$ around a circle. Even positions are white, odd are black (or vice versa). Removing one even and one odd position splits the circle into two arcs. Each arc starts just after one removed square and ends just before the other. One arc will contain an even number of squares, and so will the other.
+$3\times3$ minus center: 8 squares, $4$ white $4$ black balanced, Hamiltonian cycle length 8 exists, actually tileable. Need more complex hole.
 
-Formally: If you travel clockwise from the white square to the black square you take an odd number of steps, so the number of squares _strictly between_ them on that arc is even. The same holds for the counter-clockwise arc. Both remaining segments have even length.
+Better counterexample: Take board with isthmus of width 1. If you remove squares on opposite sides of isthmus of opposite colors, remaining region may have component with imbalance.
 
-**4. Tiling**
-Any path graph with an even number of vertices can be perfectly tiled by dominoes placed end-to-end along the path. Since our two remaining segments each have even length and consist of adjacent squares on the board, we can tile each segment independently. Combining the two tilings gives a tiling of the entire 62-square board.
+So simply-connected is not enough — need 2-connected? For rectangles, Hamiltonicity guarantees Hall's condition.
 
-This argument requires no search — the Hamiltonian cycle provides an explicit, linear-time tiling algorithm.
+Connection to matching theory: Domino tilings = perfect matchings in bipartite grid graph $G=(W\cup B, E)$. After removing $w\in W, b\in B$, perfect matching exists iff Hall's condition: for all $S\subseteq W\setminus\{w\}$, $|N(S)|\ge|S|$. Gomory's Hamiltonian cycle gives a 2-regular spanning subgraph that forces expansion — because any interval of cycle has $|N|$ large.
 
-### What is a Hamiltonian Path / Cycle?
+### Proof — Hamiltonian Cycle Construction
 
-To clarify the tool used in the proof:
+#### Construct the Cycle
 
-- **Hamiltonian Path:** A path in a graph that visits every vertex exactly once. It does not need to return to the start.
+$8\times8$ board graph: vertices = squares, edges = orthogonal adjacency. This graph is Hamiltonian.
 
-- **Hamiltonian Cycle (Circuit):** A closed loop that visits every vertex exactly once and returns to the starting vertex. Every Hamiltonian cycle contains a Hamiltonian path, but the converse holds only if the path's endpoints are adjacent.
+Explicit snake:
 
-The chessboard graph — where vertices are squares and edges connect orthogonal neighbors — is Hamiltonian. In fact, all rectangular grid graphs with at least one even side have a Hamiltonian cycle, which is why Gomory's Theorem generalizes so easily.
+```
+Row 1: left to right
+Down one
+Row 2: right to left
+Down one
+Row 3: left to right...
+...
+Last column: up to start
+```
 
-<figure>
-  <img src="../images/Hamiltonian cycle.png" alt="Hamiltonian cycle on a grid">
-  <figcaption>A Hamiltonian cycle on a grid provides the alternating-color loop used in Gomory's proof. Source: "Proof that Hamiltonian Cycle is NP-Complete," GeeksForGeeks.</figcaption>
-</figure>
+You get closed loop $c_0,c_1,\dots,c_{63},c_0$ visiting each square exactly once, consecutive squares adjacent, colors alternate: $W,B,W,B,\dots$ because bipartite.
 
-**Note on Complexity:** In general graphs, determining whether a Hamiltonian path or cycle exists is NP-complete. Mathematicians therefore use sufficient conditions like Dirac's Theorem (if every vertex has degree $\ge n/2$ then the graph is Hamiltonian) or Ore's Theorem (if $d(u)+d(v) \ge n$ for every pair of non-adjacent vertices, then Hamiltonian). For grid graphs and tournament graphs, constructive proofs are easy, which is why the chessboard case is tractable.
+For $m\times n$ with $m$ even: similar snake works and closes along left edge.
 
-### Related but Different: Gomory Cuts
+#### The Break
 
-It is important to distinguish this tiling theorem from **Gomory's Cutting Plane Method** or "Gomory Cuts." Both were developed by mathematician Ralph E. Gomory, but they belong to different fields. Gomory Cuts are a famous algorithm in integer linear programming that finds integer solutions by iteratively "cutting" away non-integer parts of the feasible region. The chessboard theorem is about combinatorics and tiling, not optimization.
+Remove two vertices $w=c_i$ white and $b=c_j$ black, $i\neq j$. Cycle broken. Removing two vertices from a cycle leaves either:
+
+- one path if removed vertices adjacent in cycle — length 62, even
+- two paths otherwise — two disjoint intervals
+
+#### Even Lengths — Key Parity Observation
+
+Because colors alternate, even positions = white, odd = black (or vice versa). Opposite colors means $i$ and $j$ have opposite parity, so $j-i$ odd.
+
+Path $P_1 = c_{i+1}\dots c_{j-1}$ length $j-i-1$. If $j-i$ odd, $j-i-1$ even.
+
+Path $P_2 = c_{j+1}\dots c_{i-1}$ wrapping around, length $64-(j-i)-1 = 63-(j-i)$. If $j-i$ odd, $63-(j-i)$ even.
+
+So both remaining segments have even number of vertices.
+
+If $w$ and $b$ adjacent in cycle, $j-i=1$ or $63$, then one path empty length 0 even, other length 62 even.
+
+#### Tiling
+
+Any path graph with even number of vertices can be perfectly tiled by dominoes along path: pair $(c_{i+1},c_{i+2}), (c_{i+3},c_{i+4}),\dots$
+
+Since consecutive vertices in cycle are adjacent on board, each pair is a domino. Do for $P_1$ and $P_2$. Combine → tiling of 62-square board.
+
+This gives linear-time algorithm: find Hamiltonian cycle $O(mn)$, cut, tile.
+
+No search needed. Constructive proof = algorithm.
+
+### What Is Hamiltonian Path / Cycle?
+
+#### Definitions
+
+- **Hamiltonian Path:** Path visiting every vertex exactly once.
+- **Hamiltonian Cycle (Circuit):** Closed loop visiting every vertex exactly once and returning to start. Contains Hamiltonian path, but converse holds only if path endpoints adjacent.
+
+Chessboard graph is Hamiltonian. In fact, all rectangular grid graphs with at least one even side have Hamiltonian cycle, which is why generalization easy.
+
+#### Complexity Note
+
+In general graphs, deciding Hamiltonian cycle exists is NP-complete. Sufficient conditions:
+
+- **Dirac's Theorem:** If every vertex degree $\ge n/2$, then Hamiltonian.
+- **Ore's Theorem:** If $d(u)+d(v)\ge n$ for every non-adjacent pair $u,v$, then Hamiltonian.
+
+For grid graphs, constructive proof easy, so chessboard tractable. The existence of explicit snake is why Gomory's theorem is elementary despite Hamiltonian generally hard.
+
+### Pedagogical Value and Connections
+
+#### Invariant vs Construction
+
+Teaches two directions of existence proofs:
+
+- **To prove impossible:** Find invariant that differs — color count, $W\neq B$.
+- **To prove possible:** Give algorithm — Hamiltonian cycle pairing.
+
+Most tiling problems: balanced is necessary but not sufficient — e.g., Aztec diamond with hole, or region with bottleneck. Gomory identifies class where counting invariant is _complete_ — only obstruction.
+
+#### Links to Deeper Theory
+
+- **Perfect matchings:** Domino tilings = perfect matchings in bipartite graph. Gomory says $m\times n$ grid with $mn$ even is _elementary bipartite_ — removal of opposite color vertices preserves matchability.
+- **Pfaffian / Kasteleyn:** Number of domino tilings of $m\times n$ board given by product formula — exponential many. Gomory guarantees at least one.
+- **Topology:** Existence of Hamiltonian cycle relates to simple-connectedness and $\chi$. Holes increase genus, may destroy Hamiltonicity.
+- **Earlier Euler examples:** Sphere $\chi=2$, torus $0$ — counting arguments classify. Gomory is same spirit: global count controls tiling.
+
+### Distinction: Gomory Cuts
+
+Important not to confuse with **Gomory's Cutting Plane Method** or Gomory Cuts — also by Ralph E. Gomory, but in integer linear programming. Cuts iteratively remove fractional feasible points to find integer solutions. Chessboard theorem is combinatorics/polyomino tiling, not optimization. Same mathematician, different fields.
+
+In one sentence: Gomory's theorem shows that for rectangular boards, the trivial parity obstruction is the only obstruction — a Hamiltonian snake turns counting into construction.
 
 ## Different Types of Numbers
 
