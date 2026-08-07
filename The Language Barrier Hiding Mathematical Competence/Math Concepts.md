@@ -1049,6 +1049,19 @@ Behrend's construction is thus the compass: it tells us how far we _can_ hope to
 
 In Ramsey language: Behrend is the construction for $R_3$, like the 5-cycle is for $R(3,3)$. It is the maximal disorder that avoids order, and its size dictates how sophisticated your order-finding tool must be.
 
+## Gauss's Theorema Egregium — Curvature Without Outside
+
+Gauss's _Theorema Egregium_ — Latin for "Remarkable Theorem" — is the theorem that created differential geometry as an intrinsic science. Published by Carl Friedrich Gauss in 1827 in _Disquisitiones generales circa superficies curvas_, it states:
+
+> **Theorema Egregium:** The Gaussian curvature $K$ of a surface is invariant under local isometry. It can be determined entirely from measurements of angles and distances _within_ the surface. It does not change when the surface is bent without stretching. If $f: S \to S'$ is a local isometry between two regular surfaces — i.e., a diffeomorphism that preserves the First Fundamental Form, $I_p(v,w)=I'_{f(p)}(df_p(v),df_p(w))$ for all $p$ and all $v,w\in T_pS$, which equivalently means $f$ preserves lengths of all curves — then
+> $$K(p) = K'(f(p)).$$
+
+In simple terms, Gaussian curvature is invariant under local isometries. If two surfaces can be bent into each other without stretching, tearing, or squishing — an isometric deformation — they have identical $K$ at corresponding points.
+
+If you are a 2D being living inside the surface, with no eyes for 3D space, you can still measure $K$ with a ruler and protractor. You don't need to see the embedding.
+
+This is remarkable because the definition of $K$ looks completely extrinsic.
+
 **Consequences:**
 
 1.  **Plane $\not\cong$ Sphere:** $K_{\text{plane}}=0$, $K_{\text{sphere}}=1/R^2$. No local isometry exists. You cannot make a flat map without distortion. Any world map must distort.
