@@ -1034,8 +1034,9 @@ Intuition: If $A$ clusters modulo $q$, look at the densest residue class mod $q$
 Density increases by at least $\Omega(\delta^2)$ each step, so after $O(1/\delta)$ steps density would exceed 1 — impossible. Therefore the process must stop because we found a 3-AP.
 
 The $O(1/\delta)$ steps, each shrinking $N$ to about $\sqrt{N}$, yields $N$ must be at least exp(exp($O(1/\delta$))) to run that many steps, giving $r_3(N) \ll N / \log\log N$.
-- $k=5$ requires $d$ divisible by $6 = 2\cdot3$
+
 This **density increment strategy** — if no pattern, then denser on a substructure, iterate — is the template for Szemerédi, Gowers, and Green-Tao.
+
 ### How Large Can an AP-Free Set Be? The Bounds War
 
 Let $r_3(N)$ be max size of 3-AP-free subset of $$.[1][N]
@@ -1238,49 +1239,87 @@ This is remarkable because the definition of $K$ looks completely extrinsic.
 
 So the distinction is: Mean curvature $H$ tells you how the surface bends _in_ space — a cylinder has $H=1/2R$ and a plane has $H=0$. Gaussian curvature $K$ tells you whether the surface itself is intrinsically non-Euclidean — both cylinder and plane have $K=0$, so their internal geometry is Euclidean. A sphere has $K>0$, so its internal geometry is non-Euclidean no matter how you embed it.
 
-Here is an expanded and clarified version of your section:
+### What is Gaussian Curvature?
 
-### Key Concepts of the Theorem
+For a surface in $\mathbb{R}^3$, at each point there are two principal curvatures $\kappa_1, \kappa_2$ — the maximum and minimum bending in orthogonal directions. For example, on a cylinder of radius $R$, $\kappa_1 = 1/R$ around the tube, $\kappa_2 = 0$ along the length.
 
-#### Invariance under Bending — Why the Cylinder is Flat
+$$K = \kappa_1 \cdot \kappa_2$$
 
-The central physical intuition: **bending without stretching preserves $K$.**
+- **Plane / Cylinder**: $K = 0 \cdot 0 = 0$ and $K = (1/R)\cdot0 =0$ — flat in at least one direction.
+- **Sphere of radius $R$**: $\kappa_1=\kappa_2=1/R$, so $K=1/R^2 >0$ — positively curved.
+- **Saddle / Pseudosphere**: $\kappa_1 = -\kappa_2$, so $K <0$ — negatively curved.
 
-Take a rectangular sheet of paper. With coordinates $(u,v)$ on the paper, the intrinsic metric is $ds^2 = du^2 + dv^2$. Measure distance between two ink dots by laying a string on the paper.
+The Theorema Egregium is a statement about two fundamentally different ways to think about shape. Imagine you are an ant living _on_ a surface. What can you measure, and what requires a bird's-eye view from outside?
 
-Now roll it into a cylinder of radius $R$:
-$$r(u,v) = (R\cos(u/R), R\sin(u/R), v)$$
-Compute $E=\langle r_u,r_u\rangle=1$, $F=0$, $G=1$. So $ds^2 = du^2+dv^2$ _exactly the same_ as the flat sheet. The map $(u,v) \mapsto r(u,v)$ is a local isometry — it preserves $E,F,G$.
+### The Extrinsic View
 
-By Theorema Egregium, $K$ must be preserved. Since $K_{\text{plane}}=0$, then $K_{\text{cylinder}}=0$.
+Take a surface $S \subset \mathbb{R}^3$. At point $p$, take the unit normal $N(p)$. Intersect $S$ with planes containing $N(p)$. Each plane cuts a curve, which has curvature. As you rotate the plane around $N$, the curvature varies between a max and min.
 
-Yet extrinsically the cylinder looks curved: principal curvatures are $\kappa_1=1/R$ around, $\kappa_2=0$ along. The product $K=\kappa_1\kappa_2=0$. Bending created extrinsic curvature $\kappa_1$ but forced the other direction to stay straight to keep product zero.
+- $\kappa_1$ = maximum normal curvature
+- $\kappa_2$ = minimum normal curvature — orthogonal direction to $\kappa_1$.
 
-You _cannot_ bend a flat sheet into a sphere of radius $R$ without stretching, because that would require changing $K$ from $0$ to $1/R^2$. Any attempt forces stretching, which changes $E,F,G$ and is not an isometry. This is why a sphere is intrinsically different from a plane, while a cylinder is not.
+The definition using $\kappa_1, \kappa_2$ uses the second fundamental form — how the normal vector changes in 3D. Gauss proved this product can be computed without the normal.
 
-This is formalized as: $K$ is a **bending invariant**. Mean curvature $H$ is not. $H_{\text{plane}}=0$, $H_{\text{cylinder}}=1/(2R)$ — it changed under bending.
+These are **principal curvatures**. Then:
 
-#### Map Making Limitation — No Perfect Map Exists
+$$K = \kappa_1 \cdot \kappa_2$$
 
-This is the most famous corollary.
+- **Plane:** $\kappa_1=\kappa_2=0$, so $K=0$.
+- **Cylinder radius $R$:** Around tube $\kappa_1=1/R$, along length $\kappa_2=0$, so $K = (1/R)\cdot0 = 0$.
+- **Plane / Cylinder**: $K = 0 \cdot 0 = 0$ and $K = (1/R)\cdot0 =0$ — flat in at least one direction.
+- **Sphere radius $R$:** $\kappa_1=\kappa_2=1/R$, so $K=1/R^2 >0$ positively curved.
+- **Saddle / Pseudosphere $z=x^2-y^2$:** $\kappa_1 = 2, \kappa_2=-2$, so $K=-4 <0$ negatively curved.
 
-- **Plane**: $K \equiv 0$
-- **Sphere of radius $R$**: $K \equiv 1/R^2 > 0$
+Definition uses $N(p)$, second fundamental form $II$, how the surface bends _in_ $\mathbb{R}^3$. It seems to need outside.
 
-If there were a perfect map — a local isometry from a patch of sphere to plane preserving all distances — then $K$ would have to be preserved by Theorema Egregium. Since $0 \neq 1/R^2$, no such map exists.
+Extrinsic properties depend on how the surface sits in $\mathbb{R}^3$. They require information about the ambient space — specifically, the unit normal vector $\mathbf{N}$ that sticks out of the surface.
 
-**Therefore any flat map of the Earth must distort something.** This is not an engineering limitation; it is a theorem of geometry.
+- **The second fundamental form** $II = L\,du^2 + 2M\,du\,dv + N\,dv^2$ measures how the normal tips as you move. $L = \langle r_{uu}, \mathbf{N}\rangle$, $M = \langle r_{uv}, \mathbf{N}\rangle$, $N = \langle r_{vv}, \mathbf{N}\rangle$.
+- **Principal curvatures** $\kappa_1, \kappa_2$ — the maximum and minimum rates at which the surface bends away from its tangent plane in 3D. You find them by slicing the surface with planes containing $\mathbf{N}$.
+- **Mean curvature** $H = (\kappa_1+\kappa_2)/2$ — extrinsic. It tells you if the surface is locally like a soap film. Minimal surfaces have $H=0$ but can have $K\neq0$.
+- **Example:** A cylinder of radius $R$ looks curved from outside. $\kappa_1 = 1/R$ around the circumference, $\kappa_2 = 0$ along its axis. An outside observer says "it's curved."
 
-Different map projections choose what to sacrifice:
+If you bend a surface in space without stretching, extrinsic properties change. Roll paper into a cylinder: $\kappa_1$ goes from $0$ to $1/R$.
 
-- **Mercator (1569):** Conformal — preserves angles and local shapes, so $F=0$ and $E=G$ up to scale. Used for navigation because rhumb lines are straight. Distorts area massively — Greenland looks as large as Africa.
-- **Equal-area (e.g., Gall-Peters, Mollweide):** Preserves $\sqrt{EG-F^2}$, so area is correct, but distorts angles and shapes.
-- **Equidistant (e.g., azimuthal equidistant):** Preserves distances from one point, distorts elsewhere.
-- **Compromise (e.g., Winkel Tripel):** Used by National Geographic, distorts everything a little to minimize overall error.
+### Intrinsic Geometry — The View From Inside
 
-Gauss proved in 1827 what cartographers had felt for millennia: you cannot flatten the Earth without compromise.
+Intrinsic properties can be measured by a resident of the surface using only a ruler, protractor, and the ability to walk along the surface. No concept of "outside" or "normal" is needed.
 
-#### Intrinsic Measurement of $K$ — How a 2D Being Discovers Curvature
+A 2D being can measure:
+
+- **Distance:** Length of shortest path (geodesic) between points.
+- **Angle:** Angle between two geodesics.
+- **Area:** Area of geodesic triangles.
+
+These are encoded in the **first fundamental form**. No normal needed.
+
+$$I = ds^2 = E\,du^2 + 2F\,du\,dv + G\,dv^2$$
+
+where $E=\langle r_u,r_u\rangle$, $F=\langle r_u,r_v\rangle$, $G=\langle r_v,r_v\rangle$. $I$ tells you:
+
+- **length of any curve on the surface**: $\int \sqrt{E(u')^2+2F u'v'+G(v')^2}\,dt$
+- **angle between two curves**: $\cos\theta = \dfrac{F}{\sqrt{EG}}$ in orthogonal coordinates
+- **area**: $\iint \sqrt{EG-F^2}\,du\,dv$
+- **geodesics**: the "straight lines" of the surface — locally shortest paths — defined via Christoffel symbols $\Gamma^k_{ij}$ which are built from $E,F,G$ alone
+- parallel transport, covariant derivative, and holonomy — all intrinsic
+
+Gauss proved $K$ can be computed from $E,F,G$ and their derivatives alone.
+
+**Modern formula — Brioschi formula:** If $E,F,G$ are metric coefficients,
+
+$$K = \frac{1}{(EG-F^2)^2} \left( \text{det of derivatives of }E,F,G \right)$$
+
+In isothermal coordinates where $I = e^{2u}(dx^2+dy^2)$,
+
+$$K = -e^{-2u}\Delta u$$
+
+where $\Delta$ is Laplacian in $x,y$. No second fundamental form.
+
+What Gauss proved is shocking: Gaussian curvature $K = \kappa_1\kappa_2$, which is defined as a product of extrinsic quantities, is itself intrinsic.
+
+Consequence: If you have an isometry — a map preserving $E,F,G$, i.e., bending without stretching — $K$ is preserved.
+
+### Intrinsic Measurement of $K$ — How a 2D Being Discovers Curvature
 
 How would a resident of the surface, with no concept of 3D space, measure $K$? Gauss gave two intrinsic experiments.
 
