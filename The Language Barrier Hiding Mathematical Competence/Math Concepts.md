@@ -869,140 +869,91 @@ Density increases by at least $\Omega(\delta^2)$ each step, so after $O(1/\delta
 The $O(1/\delta)$ steps, each shrinking $N$ to about $\sqrt{N}$, yields $N$ must be at least exp(exp($O(1/\delta$))) to run that many steps, giving $r_3(N) \ll N / \log\log N$.
 - $k=5$ requires $d$ divisible by $6 = 2\cdot3$
 This **density increment strategy** — if no pattern, then denser on a substructure, iterate — is the template for Szemerédi, Gowers, and Green-Tao.
-- $k=10$ requires $d$ divisible by $210 = 2\cdot3\cdot5\cdot7$
-- $k=27$ requires $d$ divisible by $23\# = 223,092,870$
+### How Large Can an AP-Free Set Be? The Bounds War
 
-This is why computational records become astronomical so fast.
+Let $r_3(N)$ be max size of 3-AP-free subset of $$.[1][N]
 
-### The Central Difficulty: Density Zero
+**Lower bound — Behrend's construction (1946):** Before Roth, Behrend showed you can avoid 3-APs with a surprisingly large set. Take high-dimensional sphere: points in $\{0,\dots,m-1\}^d$ with same $L^2$ norm have no 3-term AP because a line intersecting a sphere in 3 points would force collinearity. Map to integers via base-$(2m)$ expansion. Optimizing $d \approx \sqrt{\log N}$ gives:
 
-Szemerédi's theorem needs density. If $A \subset \mathbb{N}$ has positive upper density
-$$\limsup_{N\to\infty} \dfrac{|A \cap [1,N]|}{N} > 0,$$
-then $A$ contains arbitrarily long APs. A set containing 1% of integers contains a 1000-term AP.
+$$r_3(N) \ge N \cdot \exp(-C\sqrt{\log N}) = \dfrac{N}{\exp(C\sqrt{\log N})}.$$
 
-Primes fail this completely. By the Prime Number Theorem, $\pi(N) \sim \dfrac{N}{\log N}$, so
-$$\text{density}(primes) \sim \dfrac{1}{\log N} \to 0.$$
+For $N=10^6$, this is still $\approx N / 50$, not tiny. So AP-free sets can be fairly dense — about $N^{1-o(1)}$.
 
-In the limit, primes occupy 0% of integers. A density-zero set can easily avoid APs — the powers of 2 do. So Szemerédi cannot be applied directly.
+Elkin (2008) improved constant: $r_3(N) \ge N \cdot \dfrac{\log^{1/4} N}{\exp(C\sqrt{\log N})}$.
 
-Green and Tao had to invent a way to make Szemerédi work at density zero.
+**Upper bounds — 70 years of pushing $\log\log$:**
 
-### The Breakthrough: The Transference Principle
+- Roth 1953: $r_3(N) \ll N / \log\log N$
+- Szemerédi & Heath-Brown: $N / (\log N)^c$
+- Bourgain 1999-2008: $N \cdot \dfrac{\sqrt{\log\log N}}{\sqrt{\log N}}$ and $N \cdot \dfrac{(\log\log N)^2}{(\log N)^{2/3}}$ — using refined Fourier restriction.
+- Sanders 2011: $N \cdot \dfrac{(\log\log N)^5}{\log N}$ — almost reaching $N/\log N$.
+- **Bloom & Sisask 2020 breakthrough:** $r_3(N) \ll N / (\log N)^{1+c}$ for some $c>0$.
 
-The 2004 proof is 50 pages, but its architecture is now a template called the **transference principle**. Tao describes it as the dense model theorem.
+Bloom-Sisask broke the $N/\log N$ barrier for the first time. Their proof uses _spectral boosting_ and almost-periodicity: large Fourier spectrum has additive structure, not just one large coefficient.
 
-**Step 1: Build a pseudorandom majorant — the Selberg envelope.**
+### Why Bloom-Sisask Matters: Erdős's $3,000 Conjecture
 
-Green and Tao construct a weight $\nu: [1,N] \to \mathbb{R}_{\ge 0}$, a truncated Selberg sieve / Goldston-Yıldırım majorant, with three properties:
+Erdős offered prizes for:
 
-1. **Majorizes primes:** $\nu(n) \ge c \cdot 1_{prime}(n)$ up to constants.
-2. **Pseudorandom:** $\nu$ looks like the constant function 1 in Gowers uniformity norms $U^{k-1}$. Its Fourier transform, its $k$-term correlations, its count of linear patterns all match random noise.
-3. **Mean 1:** $\mathbb{E}_{n\le N} \nu(n) = 1+o(1)$.
+> **Erdős Conjecture on APs:** If $A\subset\mathbb{N}$ satisfies $\sum_{a\in A} 1/a = \infty$, then $A$ contains $k$-term APs for every $k$.
 
-Think of $\nu$ as a soft, random-like cloud that fills a positive fraction of $$ and covers the primes. Primes are sparse, but they sit inside this well-behaved envelope.[1][N]
+Divergent reciprocal sum means $A$ is not too sparse. Primes satisfy it since $\sum 1/p = \infty$.
 
-To kill bias modulo small primes, they apply the $W$-trick: Let $W = \prod_{p \le w} p$ for slowly growing $w$, and work with numbers of form $Wn+1$. This removes the trivial obstruction that primes $>2$ are odd.
+- If $r_3(N) \approx N / \log\log N$, a set can be 3-AP-free and still have divergent reciprocal sum, because $\sum_{N} 1/(N/\log\log N)^{-1}$ diverges. So Roth's bound says nothing about Erdős.
+- If $r_3(N) \ll N / (\log N)^{1+c}$, then any 3-AP-free set $A$ has $\sum 1/a < \infty$ because $\sum N^{-1} (\log N)^{-1-c}$ converges.
 
-**Step 2: Prove a relative Szemerédi theorem.**
+Bloom and Sisask therefore proved:
 
-This is the technical heart. Gowers' Fourier-analytic proof of Szemerédi says: if a bounded function $f$ with $\mathbb{E}f \ge \delta$ has many $k$-APs unless its $U^{k-1}$ norm is large.
+> **The $k=3$ case of Erdős's conjecture is true.** Any set with divergent reciprocal sum contains a 3-term AP.
 
-Green-Tao prove a relative version:
+This is the first unconditional progress on Erdős's conjecture for any $k\ge3$. It is why $N/\log N$ was the psychological barrier — it's exactly the threshold where harmonic series switches from divergence to convergence.
 
-> **Relative Szemerédi:** If $\nu$ is sufficiently pseudorandom, and $0 \le f \le \nu$ with $\mathbb{E}f \ge \delta >0$, then $f$ contains $\ge c(\delta,k) N^2$ $k$-term APs.
+For $k\ge4$, Erdős's conjecture remains wide open. Even $k=4$ would require $r_4(N) \ll N/(\log N)^{1+c}$, which is far beyond current technology.
 
-This required two major ingredients:
+### From Roth to Szemerédi to Green-Tao
 
-- **Generalized von Neumann theorem:** If $f$ is Gowers-uniform ($U^{k-1}$ small), it contains the random number of APs.
-- **Transference of Gowers inverse theorem:** If $f$ is _not_ uniform, it correlates with a nilsequence. The structure theorem for functions bounded by $\nu$ transfers the inverse theorem from bounded functions to $\nu$-bounded functions.
+- **Roth ($k=3$)**: Fourier analysis + density increment. Needs one large Fourier coefficient.
+- **Szemerédi ($k\ge4$, 1975)**: Roth's Fourier method fails — 4-APs need quadratic Fourier analysis. Szemerédi used pure combinatorics and invented the **Regularity Lemma**. Vastly more complex.
+- **Gowers ($k\ge4$, 2001)**: Extended Roth's analytic approach by inventing **higher-order Fourier analysis** and Gowers uniformity norms $U^k$. A set with no 4-AP must correlate with a quadratic phase, not just linear. Won Fields Medal.
+- **Green-Tao (2004)**: Needed Gowers' $U^3$ norm and a relative version of it to handle primes.
 
-In plain language: If you live inside a random enough universe, and you occupy a positive fraction of that universe, you inherit the Ramsey property of dense sets.
+So Roth's theorem is the seed. Its method — if no pattern, then bias, then denser substructure, iterate — became the universal template for all density Ramsey theorems.
 
-**Step 3: Transfer primes into the envelope.**
+In Ramsey terms: $r_3(N)$ is the inverse of $W(2,3)$ in density form. $W(2,3)=9$ says 2-coloring forces a 3-AP. Roth says even one color class of positive density forces it. It is the bridge from pigeonhole coloring to analytic density, and without it, Szemerédi and Green-Tao would not exist.
 
-Finally, show primes are dense inside $\nu$. After $W$-tricking, the normalized prime indicator $\tilde{f}(n) = \dfrac{\phi(W)}{W} \log N \cdot 1_{prime}(Wn+1)$ satisfies $0 \le \tilde{f} \le \nu$ and $\mathbb{E}\tilde{f} \gg 1$.
+## Behrend's Construction — The Limit of How Far You Can Avoid Order
 
-So primes are a dense subset of a pseudorandom set. Apply relative Szemerédi → $k$-term APs.
+If Roth's theorem says "dense sets must contain a 3-term AP," Behrend's construction says "you can be _almost_ dense and still avoid one." It is the ultimate counterexample — the lower bound that sandwiches $r_3(N)$ and proves Roth's theorem cannot be improved too far.
 
-Metaphor Green and Tao use: You cannot prove there are long straight rows of trees in a desert — trees are too sparse. But if you prove the desert contains a huge pseudorandom oasis covering 1% of the desert, and trees occupy 10% of that oasis and the oasis itself is indistinguishable from random for counting lines, then trees must contain long lines.
+Let
+$$r_3(N) = \max\{|A|: A\subset\{1,\dots,N\},\, A\text{ contains no }a,a+d,a+2d\text{ with }d\neq0\}.$$
 
-This pattern — majorize sparse set by pseudorandom envelope, prove relative theorem, transfer — now finds APs in polynomial primes, Gaussian primes, and other sparse sets.
+- Roth gives upper bound: $r_3(N)$ cannot be too big, otherwise 3-AP forced.
+- Behrend gives lower bound: $r_3(N)$ can be at least this big while still AP-free.
 
-If you encode numbers in base-$k$, an arithmetic progression corresponds to a combinatorial line in high dimensions. Hales-Jewett's guarantee of a monochromatic combinatorial line therefore directly implies van der Waerden's guarantee of a monochromatic arithmetic progression.
+Together:
+$$N \cdot \exp(-C\sqrt{\log N}) \le r_3(N) \le \frac{N}{(\log N)^{1+c}}$$
 
-The theorem launched an entire field — arithmetic Ramsey theory — culminating in Szemerédi's Theorem (1975), which proved that any set of integers with positive density contains arbitrarily long APs, and the Green-Tao Theorem (2004), which proved the primes contain arbitrarily long arithmetic progressions.
+For 62 years Behrend's lower bound was unbeaten. It shattered the pre-1946 intuition that AP-free sets must be polynomially small.
 
-## Gauss's Theorema Egregium
+### The Intuition Before Behrend: Power-Law Conjecture
 
-Gauss's _Theorema Egregium_ — Latin for "Remarkable Theorem" — is the foundational theorem of differential geometry. Published by Carl Friedrich Gauss in 1827 in _Disquisitiones generales circa superficies curvas_, it states that the Gaussian curvature of a surface can be determined entirely by internal measurements of angles and distances on the surface itself. It is an intrinsic invariant — it does not change when the surface is bent without stretching.
+Erdős and Turán in the 1930s conjectured that any 3-AP-free set must be tiny, like $N^{0.9}$ or $N^{1-\epsilon}$ or even $N / (\log N)^C$ — a power-law saving over $N$.
 
-In modern language: If you are a 2-dimensional being living _inside_ the surface, with no concept of the 3-dimensional space outside, you can still measure $K$. You do not need to see how the surface is embedded in $\mathbb{R}^3$.
+Why they thought this: The easy greedy construction — take numbers with no digit 2 in base 3, the Stanley sequence — gives $N^{\log_2 3} \approx N^{0.63}$ and is 3-AP-free. That looks polynomial.
 
-This is remarkable because the definition of Gaussian curvature _appears_ to depend on the outside space.
+Behrend in 1946 destroyed this. He showed you can keep $N^{1-o(1)}$ numbers — $N$ divided by something growing slower than any $N^{\epsilon}$ — and still avoid 3-APs.
 
-### What is Gaussian Curvature?
+Compare as $N$ grows:
 
-For a surface in $\mathbb{R}^3$, at each point there are two principal curvatures $\kappa_1, \kappa_2$ — the maximum and minimum bending in orthogonal directions. For example, on a cylinder of radius $R$, $\kappa_1 = 1/R$ around the tube, $\kappa_2 = 0$ along the length.
+| $N$        | Power law guess $N^{0.9}$ | Behrend $N \cdot \exp(-\sqrt{\log N})$ | Density                                                    |
+| :--------- | :------------------------ | :------------------------------------- | :--------------------------------------------------------- |
+| $10^4$     | 3,981                     | ~1,800                                 | 18%                                                        |
+| $10^{10}$  | $10^9$                    | $3.1\times10^8$                        | 3.1%                                                       |
+| $10^{20}$  | $10^{18}$                 | $6.7\times10^{17}$                     | 6.7%                                                       |
+| $10^{100}$ | $10^{90}$                 | $3.8\times10^{95}$                     | $10^{-5}$ fraction, but $10^5$ times larger than $N^{0.9}$ |
 
-$$K = \kappa_1 \cdot \kappa_2$$
-
-- **Plane / Cylinder**: $K = 0 \cdot 0 = 0$ and $K = (1/R)\cdot0 =0$ — flat in at least one direction.
-- **Sphere of radius $R$**: $\kappa_1=\kappa_2=1/R$, so $K=1/R^2 >0$ — positively curved.
-- **Saddle / Pseudosphere**: $\kappa_1 = -\kappa_2$, so $K <0$ — negatively curved.
-
-The definition using $\kappa_1, \kappa_2$ uses the second fundamental form — how the normal vector changes in 3D. Gauss proved this product can be computed without the normal.
-
-### The Core Idea: Intrinsic vs. Extrinsic
-
-The Theorema Egregium is a statement about two fundamentally different ways to think about shape. Imagine you are an ant living _on_ a surface. What can you measure, and what requires a bird's-eye view from outside?
-
-#### Extrinsic Geometry — The View From Outside
-
-Extrinsic properties depend on how the surface sits in $\mathbb{R}^3$. They require information about the ambient space — specifically, the unit normal vector $\mathbf{N}$ that sticks out of the surface.
-
-- **The second fundamental form** $II = L\,du^2 + 2M\,du\,dv + N\,dv^2$ measures how the normal tips as you move. $L = \langle r_{uu}, \mathbf{N}\rangle$, $M = \langle r_{uv}, \mathbf{N}\rangle$, $N = \langle r_{vv}, \mathbf{N}\rangle$.
-- **Principal curvatures** $\kappa_1, \kappa_2$ — the maximum and minimum rates at which the surface bends away from its tangent plane in 3D. You find them by slicing the surface with planes containing $\mathbf{N}$.
-- **Mean curvature** $H = (\kappa_1+\kappa_2)/2$ — extrinsic. It tells you if the surface is locally like a soap film. Minimal surfaces have $H=0$ but can have $K\neq0$.
-- **Example:** A cylinder of radius $R$ looks curved from outside. $\kappa_1 = 1/R$ around the circumference, $\kappa_2 = 0$ along its axis. An outside observer says "it's curved."
-
-If you bend a surface in space without stretching, extrinsic properties change. Roll paper into a cylinder: $\kappa_1$ goes from $0$ to $1/R$.
-
-#### Intrinsic Geometry — The View From Inside
-
-Intrinsic properties can be measured by a resident of the surface using only a ruler, protractor, and the ability to walk along the surface. No concept of "outside" or "normal" is needed. They depend only on the First Fundamental Form:
-
-$$I = ds^2 = E\,du^2 + 2F\,du\,dv + G\,dv^2$$
-
-where $E=\langle r_u,r_u\rangle$, $F=\langle r_u,r_v\rangle$, $G=\langle r_v,r_v\rangle$. $I$ tells you:
-
-- **length of any curve on the surface**: $\int \sqrt{E(u')^2+2F u'v'+G(v')^2}\,dt$
-- **angle between two curves**: $\cos\theta = \dfrac{F}{\sqrt{EG}}$ in orthogonal coordinates
-- **area**: $\iint \sqrt{EG-F^2}\,du\,dv$
-- **geodesics**: the "straight lines" of the surface — locally shortest paths — defined via Christoffel symbols $\Gamma^k_{ij}$ which are built from $E,F,G$ alone
-- parallel transport, covariant derivative, and holonomy — all intrinsic
-
-An ant on a cylinder measures the same distances, angles, and geodesics as an ant on a flat plane. If you cut the cylinder and unroll it, lengths are preserved. To the ant, the cylinder _is_ flat.
-
-What Gauss proved is shocking: Gaussian curvature $K = \kappa_1\kappa_2$, which is defined as a product of extrinsic quantities, is itself intrinsic.
-
-#### Why This Is Surprising
-
-$K$ is defined extrinsically:
-$$K = \dfrac{LN-M^2}{EG-F^2}$$
-
-$L,M,N$ explicitly use $\mathbf{N}$, so $K$ appears to require outside information. $H = (EN+GL-2FM)/2(EG-F^2)$ also has this form, but $H$ _does_ change when you bend — it is genuinely extrinsic. So you would expect $K$ to change too.
-
-Gauss showed through massive algebraic manipulation of the Gauss equations that $LN-M^2$ can be rewritten purely in terms of $E,F,G$ and their derivatives up to second order. The $\mathbf{N}$ cancels.
-
-Modern phrasing: $K$ can be expressed via the Riemann tensor:
-$$K = \dfrac{\langle R(\partial_u,\partial_v)\partial_v,\partial_u\rangle}{EG-F^2}$$
-$R$ is built from $\Gamma$, $\Gamma$ from $E,F,G$. No embedding.
-
-#### Formal Statement
-
-**Theorema Egregium:** If $f: S \to S'$ is a local isometry between two regular surfaces — i.e., a diffeomorphism that preserves the First Fundamental Form, $I_p(v,w)=I'_{f(p)}(df_p(v),df_p(w))$ for all $p$ and all $v,w\in T_pS$, which equivalently means $f$ preserves lengths of all curves — then
-
-$$K(p) = K'(f(p))$$
+$\exp(-\sqrt{\log N})$ decays to $0$ slower than any $N^{-\epsilon} = \exp(-\epsilon\log N)$, because $\sqrt{\log N} \ll \epsilon \log N$. So Behrend sets are eventually _vastly_ larger than any power-law bound. Erdős-Turán power-law conjecture was false.
 
 In words: Gaussian curvature is invariant under local isometries. If two surfaces can be bent into each other without stretching, tearing, or squishing — an isometric deformation — they have identical $K$ at corresponding points.
 
