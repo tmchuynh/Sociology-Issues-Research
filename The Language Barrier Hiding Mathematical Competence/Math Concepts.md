@@ -955,7 +955,99 @@ Compare as $N$ grows:
 
 $\exp(-\sqrt{\log N})$ decays to $0$ slower than any $N^{-\epsilon} = \exp(-\epsilon\log N)$, because $\sqrt{\log N} \ll \epsilon \log N$. So Behrend sets are eventually _vastly_ larger than any power-law bound. Erdős-Turán power-law conjecture was false.
 
-In words: Gaussian curvature is invariant under local isometries. If two surfaces can be bent into each other without stretching, tearing, or squishing — an isometric deformation — they have identical $K$ at corresponding points.
+### The Construction: Spheres Have No 3-Term Lines
+
+Behrend's genius was to use geometry.
+
+**Key geometric fact:** A straight line can intersect a sphere in at most 2 points. If you have three distinct collinear points $x,y,z$ with $y$ midpoint of $x$ and $z$, they cannot all lie on the same sphere centered at origin, because then $\|x\|^2 = \|y\|^2 = \|z\|^2$ and $\|y\|^2 = \|(x+z)/2\|^2 < (\|x\|^2+\|z\|^2)/2$ by strict convexity of $L^2$ norm unless $x=z$.
+
+So a sphere is 3-AP-free.
+
+**Step 1: Grid in high dimensions.**
+
+Fix $d$ and $m$. Consider the grid
+$$G = \{0,1,\dots,m-1\}^d \subset \mathbb{Z}^d$$
+Size $|G| = m^d$.
+
+For $x\in G$, define $S(x) = \sum_{i=1}^d x_i^2 = \|x\|^2$, which ranges from $0$ to $d(m-1)^2$.
+
+There are only $d m^2$ possible values of $S$, but $m^d$ points. By pigeonhole, some radius $R$ contains many points:
+
+$$\exists R: |\{x\in G: \|x\|^2 = R\}| \ge \frac{m^d}{d m^2} = \frac{m^{d-2}}{d}$$
+
+This set $T_R$ lies on a sphere and thus has no 3-term AP in $\mathbb{Z}^d$ — because if $x+z=2y$, then $x,y,z$ collinear with $y$ midpoint, impossible on sphere.
+
+**Step 2: Map to integers without creating APs.**
+
+Encode $x = (x_1,\dots,x_d)$ as a base-$(2m)$ number:
+$$\phi(x) = \sum_{i=1}^d x_i (2m)^{i-1}$$
+
+Base $2m$ is larger than $2(m-1)$, so addition in $\mathbb{Z}^d$ has no carries when adding two such numbers: $\phi(x)+\phi(z) = 2\phi(y)$ iff $x+z=2y$ coordinate-wise. Since $T_R$ has no solution to $x+z=2y$ with $x\neq z$, $\phi(T_R)$ has no 3-term AP in integers.
+
+So $A = \phi(T_R) \subset [0, (2m)^d)$ is AP-free with size $\ge m^{d-2}/d$.
+
+**Step 3: Optimize $d$ and $m$.**
+
+We have $N \approx (2m)^d$. So $\log N \approx d\log(2m)$. We have $|A| \ge m^{d-2}/d = N \cdot \frac{(2m)^{-2}}{d} \cdot m^d / (2m)^d ...$ More careful: $m^{d-2}/d = (2m)^d \cdot \frac{1}{d(2m)^2 2^d}$? Let's optimize.
+
+Take $m = \exp(\sqrt{\log N})$? Standard optimization: choose $d \approx \sqrt{\log N}$ and $m \approx \exp(\sqrt{\log N})$. Then $(2m)^d = N$ and $m^{d-2}/d = N \cdot \exp(-O(\sqrt{\log N}))$.
+
+Precise bound Behrend proved:
+
+$$r_3(N) \ge N \cdot \exp(-C\sqrt{\log N})$$
+
+for some absolute constant $C$ (original $C=2\sqrt{2}+o(1)$).
+
+### Elkin's Tweak (2008) — The Thick Shell
+
+For 62 years no one beat Behrend. The problem: Behrend uses an _infinitely thin_ sphere — only points with _exactly_ $\|x\|^2=R$. Most points in the cube lie near but not exactly on that radius.
+
+Elkin's idea: Use a _thick_ spherical shell $R \le \|x\|^2 \le R+\delta$ — a doughnut layer. It contains far more points, about $\delta$ times more. But now a line _can_ intersect a thick shell in 3 points — you lose the sphere property.
+
+Elkin's innovation: Inside the thick shell, most triples that form a 3-AP are still rare. He used probabilistic method and careful counting: pick random subset of shell where you delete one point from each 3-AP inside shell. Since number of 3-APs in shell is much smaller than shell size when $\delta$ is small ($\approx \sqrt{d}$), you delete little.
+
+This salvages extra points. Result:
+
+$$r_3(N) \ge C_1 \frac{N \log^{1/4} N}{\exp(2\sqrt{2}\sqrt{\log N})}$$
+
+for $C_1>0$. Elkin gained a factor $\approx \sqrt{\log N} = (\log N)^{1/4}$? Actually $\log^{1/4} N$ extra. In his form:
+
+$$r_3(N) \ge \frac{N}{\exp(-C\sqrt{\log N})} \cdot \frac{\sqrt{\log N}}{2^{...}}$$
+
+Green & Wolf (2010) refined to $C=2\sqrt{2\log2}$ improvement.
+
+The improvement is tiny — $\sqrt{\log N}$ vs $\exp(\sqrt{\log N})$ — but conceptually huge: it showed Behrend was not optimal, and thick shells could be made to work.
+
+### Why It Defines the Boundary for Roth and Szemerédi
+
+Behrend tells us:
+
+> You cannot prove $r_3(N) \le N^{0.99}$. You cannot even prove $r_3(N) \le N / (\log N)^{100}$. Because Behrend sets of size $N / \exp(C\sqrt{\log N})$ are AP-free and larger than $N / (\log N)^{100}$ for large $N$.
+
+So Roth's theorem $r_3(N) \ll N / \log\log N$ was far from optimal, but Behrend shows you can never push it down to $N^{1-\epsilon}$. The true $r_3(N)$ lives in the strange intermediate regime $N^{1-o(1)}$.
+
+This is why Szemerédi's regularity lemma was necessary. If AP-free sets were small and structured like $N^{0.9}$, you could find APs by simple pigeonhole. Because Behrend showed they can be large, pseudorandom, and sphere-like — looking random but with hidden quadratic structure — Szemerédi needed a decomposition that separates _all_ large sets into structured + pseudorandom pieces. The regularity lemma is forced by Behrend-type examples.
+
+In Fourier terms: Behrend sets have _no_ large linear Fourier coefficient — they are $U^2$-uniform — but they _do_ have large $U^3$ quadratic bias (they live on a sphere). This is why Roth's linear Fourier analysis cannot prove $r_3(N) \ll N / \exp(\sqrt{\log N})$; you need quadratic Fourier analysis, which is exactly what Bloom-Sisask and higher-order methods do.
+
+### The Behrend-Roth Gap and Bloom-Sisask Closure
+
+For 70 years:
+
+- Lower: $N \exp(-C\sqrt{\log N})$
+- Upper: $N / \log\log N$, then $N \sqrt{\log\log N}/\sqrt{\log N}$, then $N (\log\log N)^5 / \log N$
+
+Massive gap: $\exp(\sqrt{\log N})$ vs $\log N$.
+
+Behrend says upper bound can never go below $N\exp(-C\sqrt{\log N})$. Roth says it must go to $0$.
+
+Bloom & Sisask (2020) closed half the gap: $r_3(N) \ll N / (\log N)^{1+c}$ with $c>0$. This is first time upper bound is $N / (\log N)^{1+c}$, i.e., smaller than $N/\log N$.
+
+Why $N/\log N$ is threshold? Because $\sum_{n\in A} 1/n$ diverges if $|A\cap[1,N]| \approx N/\log N$ (like primes). Bloom-Sisask implies any 3-AP-free set has convergent reciprocal sum — proving $k=3$ case of Erdős's conjecture.
+
+Behrend's construction is thus the compass: it tells us how far we _can_ hope to push. Until we match $N\exp(-C\sqrt{\log N})$, we haven't finished. The true $r_3(N)$ is conjectured to be closer to Behrend than to Roth — most experts believe $r_3(N) = N \exp(-\Theta(\sqrt{\log N}))$.
+
+In Ramsey language: Behrend is the construction for $R_3$, like the 5-cycle is for $R(3,3)$. It is the maximal disorder that avoids order, and its size dictates how sophisticated your order-finding tool must be.
 
 **Consequences:**
 
