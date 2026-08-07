@@ -741,6 +741,55 @@ Try to color 9 in our example:
 That kills this specific coloring, but you need to kill _all_ possible 8-colorings. A complete case analysis shows every maximal avoiding coloring of $1..8$ ends in $...BB$ or $...RR$, and adding a 9th point completes $a,a+d,a+2d$ of the opposite color, like $3,5,7$ or $1,5,9$.
 
 At $N=9$ you run out of room to satisfy all the forced opposite-color constraints simultaneously. Hence $W(2,3)=9$.
+
+This local-to-global forcing — local constraints $2b-a \neq color(a)$ propagating and colliding — is exactly how van der Waerden's general proof works.
+
+### How Fast Do They Grow? Faster Than Ramsey Numbers
+
+$W(r,k)$ exists, but the numbers explode faster than $R(n,m)$.
+
+| $W(r,k)$  |   Value   | What it means                                                                                                              |
+| :-------- | :-------: | :------------------------------------------------------------------------------------------------------------------------- |
+| $W(2,3)$  |   **9**   | 1..8 can avoid 3-AP, 1..9 cannot. Trivial by hand.                                                                         |
+| $W(3,3)$  |  **27**   | 3 colors, 3-term AP. Classic.                                                                                              |
+| $W(4,3)$  |  **76**   |                                                                                                                            |
+| $W(2,4)$  |  **35**   | Proved by Chvátal (1970) by search                                                                                         |
+| $W(2,5)$  |  **178**  | Chvátal (1970). Means $2^{177}$ colorings had to be ruled out conceptually.                                                |
+| $W(3,4)$  |  **293**  |                                                                                                                            |
+| $W(2,6)$  | **1,132** | Kouril & Paul (2008). Required SAT solvers and months of CPU. You _can_ 2-color 1..1131 with no 6-AP, but 1132 forces one. |
+| $W(2,7)$  | **3,703** | Current best, from 2008 SAT search                                                                                         |
+| $W(2,10)$ |  Unknown  | Lower bound $>10,000$. Upper bound is a tower.                                                                             |
+
+$W(2,6)=1,132$ is instructive: there are $2^{1,132}$ colorings. You cannot brute force. Proofs use branch-and-bound with symmetry breaking, just like for $R(4,4)=18$.
+
+### History and Bounds: From Ackermann to Fields Medal
+
+Van der Waerden proved the theorem in 1927 answering a conjecture of Baudet and Schur. His proof was double induction and gave an upper bound that was not primitive recursive — a tower of exponentials whose height grows with $k$. For 60 years bounds were Ackermann-type.
+
+**Modern view 1: Hales-Jewett implies van der Waerden.**
+
+Today we don't teach van der Waerden's original proof. We derive it from Hales-Jewett.
+
+Take alphabet $A = \{0,1,\dots,k-1\}$. A word of length $H$ is a point in $A^H$. Interpret the word as a number in base $k$ (or a more clever base). A combinatorial line — e.g., $x2x$ generates $\{121,222,323\}$ — becomes an arithmetic progression $a, a+d, a+2d$ under this interpretation, because replacing $x$ adds the same $d$ each time.
+
+Hales-Jewett says for $H = HJ(k,c)$ large enough, any $c$-coloring of $A^H$ yields a monochromatic combinatorial line. Map back to integers and you get a monochromatic $k$-AP. So:
+
+> Order in words forces order in numbers.
+
+This shows van der Waerden is a special case of a purely combinatorial principle with no numbers in it.
+
+**Modern view 2: Gowers' quantitative bound.**
+
+In 2001, Timothy Gowers used Fourier analysis and a new proof of Szemerédi's theorem to give the first reasonable upper bound:
+
+$$W(k,2) \le 2^{2^{2^{k+9}}}}}$$
+
+A tower of 5 exponentials. Still astronomically huge, but it was the first bound that is elementary recursive — not Ackermann. For this work connecting Fourier analysis to Ramsey theory, Gowers received the Fields Medal in 1998.
+
+Lower bounds are exponential, not tower. Berlekamp proved $W(p+1,2) \ge p \cdot 2^p$ for prime $p$ using algebraic constructions.
+
+So the true growth of $W(k,2)$ is between exponential and tower — one of the largest gaps in combinatorics. We don't even know if it's closer to the bottom or the top.
+
 ### Why It Matters: From Partition-Regularity to Primes
 
 Van der Waerden was the first to formalize:
