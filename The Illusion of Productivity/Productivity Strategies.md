@@ -6,16 +6,7 @@
 
 The intriguing psychological phenomenon of memory retention highlights how our brains often recall unfinished tasks more vividly than completed ones. This can create what some may term "mental clutter," which may feel overwhelming but also serves as an opportunity for growth. As our minds naturally strive to "complete" these tasks, we often find that returning to them the next day is easier, which helps us tackle the challenge of task initiation and combat procrastination.
 
-- **Memory Retention**: Our brains prioritize unfinished tasks, enhancing our recall.
-- **Cognitive Tension**: This tension can motivate us to achieve completion and clarity.
 
-Farley and Mealiea's research on motivation and the recall of completed and incomplete achievement items provides empirical support for this phenomenon, demonstrating that incomplete tasks create stronger memory traces and motivational tension than completed ones (Farley and Mealiea 302-06). This has important implications for productivity: while incomplete tasks may create cognitive tension that drives completion, they can also contribute to the sense of being overwhelmed by unfinished work. Touré-Tillery and Fishbach's work on the course of motivation reveals how progress toward goals influences subsequent motivation, with implications for how completing or leaving tasks unfinished affects ongoing productivity patterns (Touré-Tillery and Fishbach 414-23). Understanding these motivational dynamics helps explain why task completion strategies—like checking off small items—can feel productive even when they don't advance meaningful goals.
-
-### The procrastination factor
-
-As implied, Procrastination often stems from emotional rather than time management issues. Research shows that procrastination is frequently linked to anxiety about task performance or external stressing factors like tiredness or financial issues, rather than laziness.
-
-Thus, overcoming procrastination requires finding the underlying cause, and tackling it effectively. But, as everyone is different, that’s not always easy.
 
 ### Goal-Driven Intentionality
 
