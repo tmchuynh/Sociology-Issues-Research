@@ -3167,6 +3167,8 @@ Study groups where members practice “translating” formal problems into every
 
 "Computer Algorithms for Solving Rubik's Cube." Cubing History, <https://www.cubinghistory.com/3x3/3x3ComputerAlgorithms>. Accessed 11 Apr. 2026.
 
+"Dweck’s Social-Cognitive Model of Achievement Motivation in Science." Psychology in the Schools, vol. 60, no. 1, 2023, pp. 1-15. https://doi.org/10.1002/pits.22756
+
 "God's Number Is 20." Cube20.org, <https://www.cube20.org>. Accessed 11 Apr. 2026.
 
 "God's Number." Ruwix, <https://ruwix.com/the-rubiks-cube/gods-number/>. Accessed 17 Apr. 2026.
@@ -3180,6 +3182,8 @@ Study groups where members practice “translating” formal problems into every
 "Math Performance and Academic Anxiety Forms, from Sociodemographic to Cognitive Aspects: a Meta-analysis on 906,311 Participants." Educational Psychology Review, vol. 34, 2022. https://doi.org/10.1007/s10648-021-09618-5
 
 "Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents." Cognitive Therapy and Research, vol. 45, no. 5, 2021, pp. 1001-1011. <https://doi.org/10.1007/s10608-023-10390-9>
+
+"Mathematics anxiety: Effects of age, gender and culture." Psychology, vol. 14, 2023. https://doi.org/10.3389/fpsyg.2022.1020130
 
 "Mathematics education researchers’ practices in interdisciplinary collaborations: Embracing different ways of knowing." Mathematics Education Research Journal, vol. 34, 2022, pp. 1-19. https://doi.org/10.1007/s13394-024-00489-x
 
@@ -3220,6 +3224,8 @@ Ahmed, Wondimu. "Developmental trajectories of math anxiety during adolescence: 
 Akin, J. E., and J. Counts. "On Rational Approximation to the Inverse Laplace Transform." SIAM Journal on Applied Mathematics, vol. 17, no. 6, 1969, pp. 1035–40. JSTOR, <http://www.jstor.org/stable/2099182>. Accessed 16 Apr. 2026.
 
 Al-Naim, Fatima, and Wael Mefi. "A Meta-Analysis of the Effectiveness of Interventions to Reduce Math Anxiety." Cypriot Journal of Educational Sciences, vol. 18, no. 3, 2023, pp. 869-885. Accessed 12 Apr. 2026.
+
+al., Domitrovich et. "Clearing Hurdles: The Challenges of Implementation of Mental Health Evidence-Based Practices in Under-resourced Schools." Administration and Policy in Mental Health and Mental Health Services Research, vol. 41, no. 4, 2014, pp. 401-412. https://doi.org/10.1007/s10488-013-0508-0
 
 Alderson, Victor C. "Quaternions." Science, vol. 2, no. 48, 1895, pp. 735–36. JSTOR, <http://www.jstor.org/stable/1624054>. Accessed 17 Apr. 2026.
 
@@ -3285,6 +3291,8 @@ Beilock, Sian L. "Math Performance in Stressful Situations." Current Directions 
 
 Berkowitz, Talia, et al. "Math at Home Adds Up to Achievement in School." Science, vol. 350, no. 6257, 2015, pp. 196-98. Science, https://www.science.org/doi/10.1126/science.aac7427
 
+Bernard, Robert M., et al. "Twenty‐first century adaptive teaching and individualized learning operationalized as specific blends of student‐centered instructional events: A systematic review and meta‐analysis." Campbell Systematic Reviews, vol. 15, no. 12, 2019. https://doi.org/10.1002/cl2.1017
+
 Berry, Andrew C. "The Fourier Transform Identity Theorem." Annals of Mathematics, vol. 32, no. 2, 1931, pp. 227–32. JSTOR, <https://doi.org/10.2307/1968186>. Accessed 10 Apr. 2026.
 
 Binmore, Ken. "Game Theory." Rational Decisions, STU-Student edition, Princeton University Press, 2009, pp. 25–34. JSTOR, <http://www.jstor.org/stable/j.ctt7szmq.5>. Accessed 9 Apr. 2026.
@@ -3295,11 +3303,15 @@ Bliss, Gilbert A. "Calculus of Variations." University of Edinburgh, <https://we
 
 Borschbach, Markus, and Christiane Grelle. "Solving the Rubik's Cube Using Genetic Algorithms." Workshop on Bio-Inspired Algorithms for Continuous Parameter Optimization, 2010, <http://www.genetic-programming.org/hc2010/7-Borschbach/Borschbach-PPSN-Paper.pdf>. Accessed 8 Apr. 2026.
 
+Boudreau, Emily. "The Right Way to Lead Teacher Learning." Harvard Graduate School of Education, October 21, 2019. https://www.gse.harvard.edu/ideas/usable-knowledge/19/10/right-way-lead-teacher-learning
+
 Boyer, Robert S., and J. Strother Moore. "Proof Checking the RSA Public Key Encryption Algorithm." The American Mathematical Monthly, vol. 91, no. 3, 1984, pp. 181–89. JSTOR, <https://doi.org/10.2307/2322356>. Accessed 17 Apr. 2026.
 
 Bracewell, Ronald N. "The Fourier Transform." Scientific American, vol. 260, no. 6, 1989, pp. 86–95. JSTOR, <http://www.jstor.org/stable/24987290>. Accessed 18 Apr. 2026.
 
 Brin, Sergey, and Lawrence Page. "The Anatomy of a Large-Scale Hypertextual Web Search Engine." Computer Networks and ISDN Systems, vol. 30, no. 1-7, 1998, pp. 107-117.
+
+Bronkhorst, Hugo, et al. "Logical Reasoning in Formal and Everyday Reasoning Tasks." International Journal of Science and Mathematics Education, vol. 18, 2019. https://doi.org/10.1007/s10763-019-10039-8
 
 Bryan, Kurt, and Tanya Leise. "The $25,000,000,000 Eigenvector: The Linear Algebra behind Google." SIAM Review, vol. 48, no. 3, 2006, pp. 569–81. JSTOR, <http://www.jstor.org/stable/20453840>. Accessed 10 Apr. 2026.
 
@@ -3333,6 +3345,8 @@ Clark, Robert, et al. "Post-Quantum Cryptography: A Security Patch for the Inter
 
 Codding, R. S., Goodridge, A. E., Hill, E., Kromminga, K. R., Chehayeb, R., Volpe, R. J. & Scheman, N. (2023). Meta-analysis of skill-based and therapeutic interventions to address math anxiety. Journal of School Psychology 100, p. 101229. https://doi.org/10.1016/j.jsp.2023.101229
 
+Codding, Robin S, et al. "Meta-analysis of skill-based and therapeutic interventions to address math anxiety." Journal of School Psychology, vol. 100, 2023. https://doi.org/10.1016/j.jsp.2023.101229
+
 Cohen, L. D. & Korem, N. (2021). Math Anxiety Is Related to Math Difficulties and Composed of Emotion Regulation and Anxiety Predisposition: A Network Analysis Study. Brain Sci 11(12). https://doi.org/10.3390/brainsci11121609
 
 Cook, Sam, et al. "Sudoku: Just for Fun or Is It Mathematics?" Math Horizons, vol. 14, no. 3, 2007, pp. 13–15. JSTOR, <http://www.jstor.org/stable/25678670>. Accessed 8 Apr. 2026.
@@ -3360,7 +3374,10 @@ De Santi, Giovanni. "An Introduction to the Theory of Knots." Stanford Universit
 Deakin, Michael A. B. "Euler's Version of the Laplace Transform." The American Mathematical Monthly, vol. 87, no. 4, 1980, pp. 264–69. JSTOR, <https://doi.org/10.2307/2321558>. Accessed 10 Apr. 2026.
 
 DeArmond, Joel. Elliptic Curve Cryptography: Extensions of Subfield Curves in Characteristic 2. Documents. Pence Boyce, Olivet Nazarene University, 2017, Olivet Scholarship. ONU Digital Collections. JSTOR, <https://jstor.org/stable/community.37867867>. Accessed 17 Apr. 2026.
+
 Delahaye, Jean-Paul. "The Science behind SUDOKU." Scientific American, vol. 294, no. 6, 2006, pp. 80–87. JSTOR, <http://www.jstor.org/stable/26061494>. Accessed 17 Apr. 2026.
+
+Demedts, Febe, et al. "Measuring Math Anxiety Through Self-Reports and Physiological Data." Journal of Numerical Cognition, vol. 9, no. 3, 2023. https://doi.org/10.5964/jnc.9735
 
 Demedts, Febe, et al. "Unraveling the Role of Math Anxiety in Students' Math Performance." Frontiers in Psychology, vol. 13, 2022, article 979113, <doi:10.3389/fpsyg.2022.979113>. Accessed 12 Apr. 2026.
 
@@ -3435,6 +3452,8 @@ French, Robert. "Is Euclidean Geometry Analytic?" Philosophical Studies: An Inte
 Fromkin, A. Michael. "The Metaphor Is the Key: Cryptography, the Clipper Chip, and the Constitution." University of Pennsylvania Law Review, vol. 143, no. 3, 1995, pp. 709–897. JSTOR, <https://doi.org/10.2307/3312529>. Accessed 11 Apr. 2026.
 
 Gal, I., Grotlüschen, A., Tout, D. & Kaiser, G. (2020). Numeracy, adult education, and vulnerable adults: a critical view of a neglected field. ZDM – Mathematics Education 52. https://doi.org/10.1007/s11858-020-01155-9
+
+Ganley, Colleen M., et al. "The Effect of Brief Anxiety Interventions on Reported Anxiety and Math Test Performance." Journal of Numerical Cognition, vol. 7, no. 2, 2021, pp. 346-362. https://doi.org/10.5964/jnc.6065
 
 Gao, Wen-Biao. "Biquaternion Fourier Transform and Its Applications." Filomat, vol. 38, no. 28, 2024, pp. 9851–65. JSTOR, <https://www.jstor.org/stable/27387941>. Accessed 16 Apr. 2026.
 
@@ -3668,6 +3687,8 @@ MIT OpenCourseWare. "Laplace Transform: Basics." MIT 18.03SC Differential Equati
 
 Miyejav, Itgel. "Reconceptualizing ethnomathematical knowledge: A recursive framework of culture, practice, cognition, and mathematization." Ethnomathematics Journal, vol. 7, no. 1, 2026. https://doi.org/10.21831/ej.v7i1.96461
 
+Moliner, Lidón, and Francisco Alegre. "Peer Tutoring Effects on Students’ Mathematics Anxiety: A Middle School Experience." Frontiers in Psychology, vol. 11, 2020. https://doi.org/10.3389/fpsyg.2020.01610
+
 Morrison, Kent E. "Cosine Products, Fourier Transforms, and Random Sums." The American Mathematical Monthly, vol. 102, no. 8, 1995, pp. 716–24. JSTOR, <https://doi.org/10.2307/2974641>. Accessed 18 Apr. 2026.
 
 Moscoso, P. A., Castaldi, E., Arrighi, R., Primi, C., Caponi, C., Buonincontro, S., Bolognini, F. & Anobile, G. (2022). Mathematics and Numerosity but Not Visuo-Spatial Working Memory Correlate with Mathematical Anxiety in Adults. Brain Sciences 12(4). https://doi.org/10.3390/brainsci12040422
@@ -3691,6 +3712,8 @@ Nandi, A., Halder, T. & Das, T. (2024). Gender Stereotypes and Bias in School Ma
 Neuman, Keir C. "Evolutionary Twist on Topoisomerases: Conversion of Gyrase to Topoisomerase IV." Proceedings of the National Academy of Sciences of the United States of America, vol. 107, no. 52, 2010, pp. 22363–64. JSTOR, <http://www.jstor.org/stable/25770642>. Accessed 17 Apr. 2026.
 
 Ngu, B. H., Phan, H. P. & Kian, H. S. (2023). Instructional efficiency: The role of prior knowledge and cognitive load. Applied Cognitive Psychology 37(4), pp. 1051-1063. https://doi.org/10.1002/acp.4117
+
+Nguyen, Phi. "School mathematics as context: examining discourses about the subject in district policymaking." Educational Studies in Mathematics, vol. 117, 2024. https://doi.org/10.1007/s10649-024-10348-y
 
 Nicol, Cynthia, et al. "Indigenous Perspectives: Grounding Mathematics Education Through Land and Ancestors." Education Sciences, 2022. MDPI / DOAJ, https://www.mdpi.com/2227-7102/12/2/115
 
@@ -3923,6 +3946,8 @@ Widder, D. V. "A Generalization of Taylor's Series." Transactions of the America
 Widder, D. V. "A Symbolic Form of the Classical Complex Inversion Formula for a Laplace Transform." The American Mathematical Monthly, vol. 58, no. 3, 1951, pp. 179–81. JSTOR, <https://doi.org/10.2307/2306589>. Accessed 18 Apr. 2026.
 
 Widder, D. V. "What Is the Laplace Transform?" The American Mathematical Monthly, vol. 52, no. 8, 1945, pp. 419–25. JSTOR, <https://doi.org/10.2307/2305640>. Accessed 16 Apr. 2026.
+
+Widom, Theodore Reed, and Dirk Schlimm. "Methodological Reflections on Typologies for Numerical Notations." Science in Context, 2012. https://doi.org/10.1017/S0269889712000040
 
 Wille, E., Gaspard, H., Trautwein, U., Oschatz, K., Scheiter, K. & Nagengast, B. (2018). Gender Stereotypes in a Children's Television Program: Effects on Girls' and Boys' Stereotype Endorsement, Math Performance, Motivational Dispositions, and Attitudes. Frontiers in Psychology 9. https://doi.org/10.3389/fpsyg.2018.02435
 
