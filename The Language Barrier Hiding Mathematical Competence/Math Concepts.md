@@ -1641,6 +1641,85 @@ A Lie algebra is a vector space $\mathfrak{g}$ over a field $F$, usually $\mathb
 
   $$\sum_m \left(c_{ij}^m c_{mk}^l + c_{jk}^m c_{mi}^l + c_{ki}^m c_{mj}^l\right)=0 \quad \forall i,j,k,l$$
 
+### The Lie Group — Lie Algebra Connection
+
+For every Lie group — group that is also smooth manifold where multiplication and inverse smooth maps — e.g., $SO(3)$ rotations of 3D space — manifold dimension 3 — or $GL_n(\mathbb{R})$ invertible matrices — open subset of $\mathbb{R}^{n^2}$ — there is corresponding Lie algebra, defined as tangent space at identity $T_e G$ — velocity vectors of curves through identity.
+
+Think of Lie group as curved surface — like sphere — through identity point. Tangent plane at identity is flat vector space — easier. Lie bracket is extra structure on that plane remembering curvature of group multiplication.
+
+#### Tangent Space at Identity
+
+For every Lie group $G$ — group that is also smooth manifold with smooth multiplication and inverse, e.g., $SO(3)$ rotations, $GL_n(\mathbb{R})$ invertible matrices — there is Lie algebra $\mathfrak{g}=T_e G$, velocity vectors of curves through identity. Multiplication $m: G\times G\to G$ is smooth. 
+
+Think of $G$ as curved surface through $e$. $T_eG$ is flat tangent plane. 
+
+Examples:
+
+A Lie group $G$ is both group and manifold. 
+
+- $GL_n(\mathbb{R})$ = invertible $n\times n$ matrices, dimension $n^2$, open in $\mathbb{R}^{n^2}$
+- $SL_n$ = $\det=1$, dimension $n^2-1$
+- $SO(n)$ = $R^T R=I$, $\det=1$, dimension $n(n-1)/2$
+- $U(n)$ = $U^\dagger U=I$, dimension $n^2$, $SU(n)$ = $U(n)\cap SL_n(\mathbb{C})$, dimension $n^2-1$
+- Heisenberg group $H_1$ = $\begin{pmatrix}1&a&c\\0&1&b\\0&0&1\end{pmatrix}$, dimension 3 — non-abelian nilpotent.
+
+Working globally is hard: product is nonlinear. Idea: look near identity $e$. Take smooth curve $\gamma(t)$ with $\gamma(0)=e$, velocity $X=\gamma'(0)\in T_e G$. Space of all velocities is vector space $\mathfrak{g}=T_e G$, dimension = $\dim G$.
+
+Bracket arises from failure of commutativity at order $t^2$.
+
+Define for matrix groups $=XY-YX$. 
+
+#### Infinitesimal Motions and Generators
+
+**Example — $SO(2)$:** Rotations $R_\theta=\begin{pmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{pmatrix}$. Near $0$, Taylor: $R_\theta \approx I+\theta J$, where $J=\begin{pmatrix}0&-1\\1&0\end{pmatrix}$. $J$ is generator, basis of $\mathfrak{so}_2$, dimension 1. $\theta$ small angle, $J$ is "rotate a bit" direction.
+
+**Example — $SO(3)$:** Basis $J_x,J_y,J_z$ infinitesimal rotations about axes:
+
+$$J_x=\begin{pmatrix}0&0&0\\0&0&-1\\0&1&0\end{pmatrix},\; J_y=\begin{pmatrix}0&0&1\\0&0&0\\-1&0&0\end{pmatrix},\; J_z=\begin{pmatrix}0&-1&0\\1&0&0\\0&0&0\end{pmatrix}$$
+
+Any angular velocity $\omega=(\omega_x,\omega_y,\omega_z)$ corresponds to $X=\omega_x J_x+\omega_y J_y+\omega_z J_z\in\mathfrak{so}_3$. $X$ is skew-symmetric.
+
+#### Exponential Map
+
+Recover group locally from algebra via
+
+$$e^X = \sum_{n=0}^\infty \frac{X^n}{n!}$$
+
+For matrix groups, matrix exponential. For abstract, via flow.
+
+- For $\mathfrak{so}_2$: $\exp(\theta J)=R_\theta$ — Rodrigues formula gives trig functions from series.
+- For $\mathfrak{so}_3$: if $X=\theta\hat{u}\cdot\vec{J}$, then $e^X$ = rotation around unit axis $\hat{u}$ by $\theta$:
+  $$e^X = I + \sin\theta\,\hat{U} + (1-\cos\theta)\hat{U}^2$$
+  where $\hat{U}$ skew matrix of $\hat{u}$.
+
+Not globally surjective always — $SL_2(\mathbb{R})$ has matrices not exponential of single element — but near identity diffeomorphism, and generates identity component. Inverse is log.
+
+**Key formula — bracket measures non-commutativity to second order:**
+
+$$e^{tX}e^{tY}e^{-tX}e^{-tY}=I+t^2[X,Y]+O(t^3)$$
+
+So abelian group $e^{tX}e^{tY}=e^{tY}e^{tX}$ iff $=0$. Commutator in group close to identity corresponds to bracket.[X][Y]
+
+#### Baker-Campbell-Hausdorff Formula
+
+The full group multiplication in exponential coordinates is encoded in bracket:
+
+$$e^X e^Y = \exp\left( X+Y+\frac12[X,Y]+\frac1{12}[X,[X,Y]]-\frac1{12}[Y,[X,Y]]-\frac1{24}[Y,[X,[X,Y]]]+\cdots\right)$$
+
+Series in nested brackets only. So bracket determines local group law. If $=0$ $\forall X,Y$, then $e^X e^Y = e^{X+Y}$ and group locally abelian — like $\mathbb{R}^n$.[X][Y]
+
+Group commutator formula earlier is truncation:
+
+$$e^{tX}e^{tY}e^{-tX}e^{-tY}= \exp\left(t^2[X,Y]+O(t^3)\right)$$
+
+#### Lie's Three Theorems
+
+1. Every finite-dim real Lie algebra is Lie algebra of some local Lie group.
+2. Morphisms of simply connected Lie groups $\iff$ morphisms of Lie algebras.
+3. Closed subgroup theorem — etc.
+
+So studying algebras captures local group structure, and linear algebra suffices.
+
 ### Key Classifications — Periodic Table of Symmetry
 
 Lie algebras categorized by internal structure via ideals — subspaces $I\subseteq\mathfrak{g}$ where $[\mathfrak{g},I]\subseteq I$ — analogous to normal subgroups — quotient $\mathfrak{g}/I$ inherits bracket. Ideal means subalgebra stable under bracketing with anything — cannot be broken.
