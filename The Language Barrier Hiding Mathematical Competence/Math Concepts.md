@@ -1526,19 +1526,48 @@ Without Theorema Egregium, there is no General Relativity.
 
 ### The Brioschi Formula
 
-The Brioschi formula (proved by Francesco Brioschi in 1852 from Gauss's work) gives $K$ explicitly from $E,F,G$.
+The Brioschi formula provides a direct, intrinsic method to calculate the Gaussian curvature $K$ of a surface using only the coefficients of its first fundamental form $E$, $F$, and $G$, alongside their first and second partial derivatives. By expressing $K$ entirely within the coordinate chart without embedding coordinates, this formula serves as an explicit algebraic proof of Carl Friedrich Gauss's Theorema Egregium.
 
-For $ds^2 = E du^2 + 2F du dv + G dv^2$:
+#### The General Brioschi Formula
 
-$$K = \dfrac{1}{(EG - F^2)^2} \left[ \begin{vmatrix} -\tfrac{1}{2}E_{vv} + F_{uv} - \tfrac{1}{2}G_{uu} & \tfrac{1}{2}E_u & F_u - \tfrac{1}{2}E_v \\ F_v - \tfrac{1}{2}G_u & E & F \\ \tfrac{1}{2}G_v & F & G \end{vmatrix} - \begin{vmatrix} 0 & \tfrac{1}{2}E_v & \tfrac{1}{2}G_u \\ \tfrac{1}{2}E_v & E & F \\ \tfrac{1}{2}G_u & F & G \end{vmatrix} \right]$$
+For a surface parametrized by $\mathbf{x}(u,v)$ with the first fundamental form given by the metric line element $ds^2 = E \, du^2 + 2F \, du \, dv + G \, dv^2$, the Gaussian curvature $K$ is determined by the following ratio of determinants:
+$$K = \frac{1}{(EG - F^2)^2} \left[ \begin{vmatrix} -\frac{1}{2}E_{vv} + F_{uv} - \frac{1}{2}G_{uu} & \frac{1}{2}E_u & F_u - \frac{1}{2}E_v \\ F_v - \frac{1}{2}G_u & E & F \\ \frac{1}{2}G_v & F & G \end{vmatrix} - \begin{vmatrix} 0 & \frac{1}{2}E_v & \frac{1}{2}G_u \\ \frac{1}{2}E_v & E & F \\ \frac{1}{2}G_u & F & G \end{vmatrix} \right]$$
 
-**Key Components:**
+1. Identify Metric Coefficients
 
-- **Denominator:** $EG-F^2 = \det\begin{pmatrix}E&F\\F&G\end{pmatrix}$ is the square of the area element. It must be $>0$ for a regular surface.
-- **Subscripts:** $E_u = \partial E/\partial u$, $E_{vv}=\partial^2E/\partial v^2$, etc. — partial derivatives of the metric.
-- **Significance:** It is ugly, but its existence proves the theorem: $K$ is a rational function of $E,F,G$ and derivatives. No reference to outside space.
+   The terms $E$, $F$, and $G$ represent the components of the surface metric tensor $g_{ij}$, defined by the inner products of the tangent vectors:
+   $$E = \mathbf{x}_u \cdot \mathbf{x}_u, \quad F = \mathbf{x}_u \cdot \mathbf{x}_v, \quad G = \mathbf{x}_v \cdot \mathbf{x}_v$$
+   These coefficients measure distances, angles, and areas directly on the surface.
 
-For many practical parametrizations, $F=0$ and the formula simplifies dramatically.
+2. Compute Partial Derivatives
+
+   The subscripts denote partial differentiation with respect to the coordinate parameters $u$ and $v$:
+   - First-order derivatives: $E_u = \frac{\partial E}{\partial u}$, $E_v = \frac{\partial E}{\partial v}$, $F_u = \frac{\partial F}{\partial u}$, $F_v = \frac{\partial F}{\partial v}$, $G_u = \frac{\partial G}{\partial u}$, $G_v = \frac{\partial G}{\partial v}$
+   - Second-order derivatives: $E_{vv} = \frac{\partial^2 E}{\partial v^2}$, $F_{uv} = \frac{\partial^2 F}{\partial u \, \partial v}$, $G_{uu} = \frac{\partial^2 G}{\partial u^2}$
+
+   These variations capture how the local geometry and coordinate stretching change across the surface.
+
+3. Evaluate the Discriminant
+
+   The denominator term $EG - F^2$ matches the determinant of the metric tensor matrix:
+   $$\det(g) = \begin{vmatrix} E & F \\ F & G \end{vmatrix} = EG - F^2$$
+   For any regular, non-singular surface patch, this quantity represents the square of the area element ($dA = \sqrt{EG - F^2} \, du \, dv$) and must be strictly positive ($EG - F^2 > 0$).
+
+4. Simplify Orthogonal Coordinates
+
+   When the coordinate curves intersect at right angles everywhere on the surface, the metric becomes orthogonal, meaning $F = 0$. Substituting $F = 0$ and its derivatives into the general Brioschi formula reduces it to a cleaner, more practical form:
+   $$K = -\frac{1}{2\sqrt{EG}} \left[ \frac{\partial}{\partial u}\left(\frac{G_u}{\sqrt{EG}}\right) + \frac{\partial}{\partial v}\left(\frac{E_v}{\sqrt{EG}}\right) \right]$$
+   Alternatively, expanding the determinants with $F=0$ yields:
+   $$K = \frac{1}{4(EG)^2} \left[ E(E_v G_v + G_u^2) + G(E_u G_u + E_v^2) - 2EG(E_{vv} + G_{uu}) \right]$$
+
+#### Theoretical Significance
+
+The algebraic structure of the Brioschi formula explicitly eliminates any dependence on the second fundamental form coefficients ($e, f, g$ or $L, M, N$), which dictate how a surface bends into three-dimensional space. Because it relies exclusively on $E, F, G$ and their derivatives, it proves that creatures living entirely inside the surface could determine its global Gaussian curvature $K$ through localized distance measurements alone, without ever observing an external third dimension.
+
+#### Final Formula Summary
+
+The expanded formulation provides the exact tool needed to compute Gaussian curvature from a given surface metric.
+The explicit Brioschi formula computes the intrinsic Gaussian curvature $K$ purely from the first fundamental form coefficients $E$, $F$, and $G$ and their partial derivatives up to the second order, confirming that curvature is an intrinsic property of a surface.
 
 ### Real-World Examples
 
