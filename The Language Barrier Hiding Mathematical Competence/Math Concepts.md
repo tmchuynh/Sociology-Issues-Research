@@ -1349,6 +1349,76 @@ $$\alpha + \beta + \gamma = \pi + \iint_{\triangle} K\,dA \approx \pi + K(p)A$$
 
 So a 2D being can detect $K$ by surveying — exactly what Gauss attempted as a geodesist measuring large triangles in Hanover with theodolites to see if physical space was curved.
 
+#### How Can An Ant Measure $K$ Intrinsically?
+
+An ant on a cylinder measures the same distances, angles, and geodesics as an ant on a flat plane. If you cut the cylinder and unroll it, lengths are preserved. To the ant, the cylinder _is_ flat.
+
+Gauss gave intrinsic formulas. Three classic experiments:
+
+**1. Angle defect of geodesic triangle:**
+Take small geodesic triangle with area $A$. Then
+$$\alpha + \beta + \gamma = \pi + \int_{\triangle} K\, dA \approx \pi + K A$$
+for small triangle. So
+$$K \approx \frac{\text{angle sum} - \pi}{\text{area}}.$$
+
+- On plane/cylinder: sum = 180°, $K=0$.
+- On sphere radius $R$: spherical triangle with area $A$ has sum $= \pi + A/R^2$, so $K=1/R^2$.
+- On saddle: sum < 180°, $K<0$.
+
+This is how Gauss actually tried to measure curvature of Earth: he measured large triangle between mountain tops Hoher Hagen, Brocken, Inselberg.
+
+**2. Circumference defect:**
+Circle of geodesic radius $r$ has circumference
+$$C(r) = 2\pi r - \frac{\pi}{3} K r^3 + O(r^5).$$
+Measure $C(r)$ vs $r$, get $K$.
+
+**3. Gauss-Bonnet:** For region $D$,
+$$\int_D K\, dA + \int_{\partial D} k_g ds = 2\pi\chi(D)$$
+where $k_g$ is geodesic curvature of boundary. For geodesic triangle, $k_g=0$, gives angle defect.
+
+So ant can measure $K$ by drawing circles or triangles.
+
+### Why It Is Remarkable: Cylinder vs Sphere
+
+Take a sheet of paper. You can roll it into a cylinder without stretching. Distances on paper are preserved. $K$ of paper is $0$, $K$ of cylinder is $0$. Theorem says they must be same — and they are.
+
+You cannot bend paper into a sphere without stretching/crumpling. If you try, distances distort. Why? Because paper $K=0$ but sphere $K=1/R^2>0$. If you could isometrically bend, $K$ would have to stay $0$, contradiction. So:
+
+> **You cannot wrap a sphere with paper without distortion.** This is why maps of Earth are distorted.
+
+Similarly, you cannot bend a sphere into a saddle without stretching, because sign of $K$ would have to change.
+
+This is non-obvious: cylinder _looks_ curved extrinsically ($\kappa_1=1/R$), but intrinsically it's flat. An ant on cylinder thinks it's on flat plane — triangles sum to 180°, circles have circumference $2\pi r$.
+
+$K$ is defined extrinsically:
+$$K = \dfrac{LN-M^2}{EG-F^2}$$
+
+$L,M,N$ explicitly use $\mathbf{N}$, so $K$ appears to require outside information. $H = (EN+GL-2FM)/2(EG-F^2)$ also has this form, but $H$ _does_ change when you bend — it is genuinely extrinsic. So you would expect $K$ to change too.
+
+Gauss showed through massive algebraic manipulation of the Gauss equations that $LN-M^2$ can be rewritten purely in terms of $E,F,G$ and their derivatives up to second order. The $\mathbf{N}$ cancels.
+
+Modern phrasing: $K$ can be expressed via the Riemann tensor:
+$$K = \dfrac{\langle R(\partial_u,\partial_v)\partial_v,\partial_u\rangle}{EG-F^2}$$
+$R$ is built from $\Gamma$, $\Gamma$ from $E,F,G$. No embedding.
+
+#### Invariance under Bending — Why the Cylinder is Flat
+
+The central physical intuition: **bending without stretching preserves $K$.**
+
+Take a rectangular sheet of paper. With coordinates $(u,v)$ on the paper, the intrinsic metric is $ds^2 = du^2 + dv^2$. Measure distance between two ink dots by laying a string on the paper.
+
+Now roll it into a cylinder of radius $R$:
+$$r(u,v) = (R\cos(u/R), R\sin(u/R), v)$$
+Compute $E=\langle r_u,r_u\rangle=1$, $F=0$, $G=1$. So $ds^2 = du^2+dv^2$ _exactly the same_ as the flat sheet. The map $(u,v) \mapsto r(u,v)$ is a local isometry — it preserves $E,F,G$.
+
+By Theorema Egregium, $K$ must be preserved. Since $K_{\text{plane}}=0$, then $K_{\text{cylinder}}=0$.
+
+Yet extrinsically the cylinder looks curved: principal curvatures are $\kappa_1=1/R$ around, $\kappa_2=0$ along. The product $K=\kappa_1\kappa_2=0$. Bending created extrinsic curvature $\kappa_1$ but forced the other direction to stay straight to keep product zero.
+
+You _cannot_ bend a flat sheet into a sphere of radius $R$ without stretching, because that would require changing $K$ from $0$ to $1/R^2$. Any attempt forces stretching, which changes $E,F,G$ and is not an isometry. This is why a sphere is intrinsically different from a plane, while a cylinder is not.
+
+This is formalized as: $K$ is a **bending invariant**. Mean curvature $H$ is not. $H_{\text{plane}}=0$, $H_{\text{cylinder}}=1/(2R)$ — it changed under bending.
+
 #### The Paper and The Orange Peel — Two Paradigms
 
 **Paper and Cylinders — $K=0$ preserved:**
