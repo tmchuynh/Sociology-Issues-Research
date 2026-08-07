@@ -654,31 +654,31 @@ Therefore we have found 4 points in convex position.
 All possible disorders — hull size 3,4,5 — contain order. So $N(4) \le 5$. Combined with the 5-point example that shows you can avoid a convex pentagon, $N(4)=5$.
 
 This case analysis is a perfect mirror of the $R(3,3)=6$ proof: classify the possible types of disorder into a small number of buckets (degree of a vertex / size of convex hull), then show each bucket forces the desired structure.
-| :------------ | :-: | :-----: | :----------------------------------------------------------------------------------------------------- |
+
 The Happy Ending Problem teaches the central lesson of Ramsey Theory: randomness is shallow. You can be random for a while — up to $2^{n-2}$ points — but eventually convexity, like friendship, becomes mathematically unavoidable.
-| Quadrilateral |  4  |    5    | Klein's observation (1933) - proof below                                                               |
+
 ## Van der Waerden's Theorem — The Root of Arithmetic Ramsey Theory
 
 Where Ramsey's Theorem finds cliques in graphs and Erdős–Szekeres finds convex polygons in point sets, van der Waerden finds regular patterns in colorings of numbers. It is the oldest Ramsey-type theorem, and the archetypal statement that complete disorder is impossible.
-| Octagon       |  8  | Unknown | Conjectured 65                                                                                         |
+
 > **Van der Waerden's Theorem (1927):** For any finite number of colors $r$ and any desired length $k$, there exists a minimum number $W(r,k)$ such that for any $N \ge W(r,k)$, every $r$-coloring of $\{1,2,\dots,N\}$ contains a monochromatic arithmetic progression of length $k$.
 
 Paint the integers red/blue however cleverly you want to break up equally-spaced patterns. If you paint long enough, you lose — a long one-color progression is forced.
-### The Erdős–Szekeres Conjecture
 
-$$N(n) = 2^{n-2} + 1$$
+### Key Concepts
 
-This formula holds for all known cases: $2^{3-2}+1 = 3$, $2^{4-2}+1 = 5$, $2^{5-2}+1 = 9$, $2^{6-2}+1 = 17$. It predicts $N(7) = 33$ and $N(8) = 65$.
+**Coloring:** A function $c: \{1,\dots,N\} \to \{1,\dots,r\}$. For $r=2$, think Red/Blue.
 
-Erdős and Szekeres proved the upper bound $N(n) \le \binom{2n-4}{n-2} + 1$ in 1935. In 2016, Andrew Suk made a major breakthrough, proving $N(n) \le 2^{n + O(\sqrt{n \log n})}$, showing the conjectured exponential growth is essentially correct. The lower bound $N(n) \ge 2^{n-2}+1$ was shown by Erdős and Szekeres themselves by constructing point sets with $2^{n-2}$ points containing no convex $n$-gon.
+**Arithmetic Progression (AP):** $a, a+d, a+2d, \dots, a+(k-1)d$ with start $a$ and common difference $d>0$. E.g., $3,6,9$ is $a=3,d=3,k=3$; $4,11,18,25$ is $a=4,d=7,k=4$.
 
-### How the Proof Works for
+**Monochromatic:** All $k$ terms receive the same color.
 
-The case $N(4)=5$ is the only one you can visualize completely. It uses the concept of a **convex hull** — imagine stretching a rubber band around all the points and letting it snap tight. The points the rubber band touches form the hull.
+**Van der Waerden Number $W(r,k)$:** The _threshold_. It is the least $N$ that forces a monochromatic $k$-AP. By definition:
 
-Take any 5 points in general position. There are three possibilities for the hull:
+- There exists at least one $r$-coloring of $\{1,\dots,W(r,k)-1\}$ with _no_ monochromatic $k$-AP — a maximal avoiding coloring.
+- No such coloring exists for $\{1,\dots,W(r,k)\}$.
 
-**Case 1: The hull has 5 points.** Then those 5 points themselves form a convex pentagon, which certainly contains a convex quadrilateral — pick any 4.
+It is the Ramsey number for the integer line. The party version: $W(r,k)$ is the number of houses on a street you must paint with $r$ colors before $k$ equally-spaced houses of one color become unavoidable.
 
 **Case 2: The hull has 4 points.** Then those 4 hull points form a convex quadrilateral, and we are done.
 
