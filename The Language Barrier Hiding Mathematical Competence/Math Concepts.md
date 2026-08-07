@@ -781,57 +781,94 @@ Lower bounds are exponential, not tower. Berlekamp proved $W(p+1,2) \ge p \cdot 
 
 So the true growth of $W(k,2)$ is between exponential and tower — one of the largest gaps in combinatorics. We don't even know if it's closer to the bottom or the top.
 
-### A Concrete Example:
+### Records: What We Can Actually Find
 
-The smallest non-trivial van der Waerden number is $W(2,3)=9$. It says: with 2 colors, you need 9 consecutive integers to force a monochromatic 3-term progression.
+Green-Tao is purely existential. It gives no bound on where the first $k$-AP appears. Computationally, finding them is brutal because $d$ must be divisible by $k\#$.
 
-Why is $W(2,3) > 8$? Because we can color 1 through 8 to avoid it. One such maximal coloring is:
+- $k=6$: $7,37,67,97,127,157$ — $d=30$
+- $k=10$: $199,409,619,829,1039,1249,1459,1669,1879,2089$ — $d=210$
+- $k=22$: Found 2008 by Wróblewski
+- $k=25$: $6171054912832631 + n \cdot 366384 \cdot 23\#$ (Chermoni & Wróblewski, 2008)
+- $k=27$ — **Current record (2019):** Rob Gahan and PrimeGrid
 
-$$1:R,\; 2:R,\; 3:B,\; 4:B,\; 5:R,\; 6:R,\; 7:B,\; 8:B$$
-$$R\,R\,B\,B\,R\,R\,B\,B$$
+$$a_n = 2245848550833 + n \cdot 4314276143 \cdot 23\# \quad n=0..26$$
 
-Check: The red positions are $\{1,2,5,6\}$. No three are equally spaced. $1,2,3$ is not monochromatic, $1,3,5$ is not, $2,4,6$ mixes colors, etc. The same holds for blue $\{3,4,7,8\}$. No monochromatic $k=3$ AP exists.
+where $23\# = 223092870$, so $d = 4314276143 \times 23\# \approx 9.6 \times 10^{17}$. Each $a_n$ is prime. The 27 primes span $26d \approx 2.5\times10^{19}$.
 
-Why is $W(2,3) = 9$? Extend to 9 numbers. No matter what color you give 9, you create a progression:
-### Restatement of the Theorems
+We will never find a length-100 prime AP by brute force. Its $d$ would be divisible by $97\#$, a 36-digit number, and $a$ would be far beyond $10^{100}$. Green-Tao tells us it exists nonetheless.
 
-1. Van der Waerden's Theorem
-   For any positive integers r and k, there exists a grand number N such that if the set $\{1, 2, \dots, N\}$ is colored with r colors, then it contains a monochromatic arithmetic progression of length k.
+### Why It Is the Culmination
 
-2. Szemerédi's Theorem
-   Let A be a subset of the natural numbers $\mathbb{N}$. If
-   $$\limsup_{N \to \infty} \dfrac{\vert{}A \cap \{1, 2, \dots, N\}\vert{}}{N} > 0$$
-   then A contains an arithmetic progression of length k for every positive integer k.
+Van der Waerden says complete disorder in colorings is impossible.
+Szemerédi says complete disorder in dense sets is impossible.
+Green-Tao says complete disorder is impossible even in the primes — the set that was supposed to be the counterexample to order.
 
-## Green-Tao Theorem — Inevitable Order Inside the Primes
+It is the ultimate vindication of Ramsey philosophy:
 
-The Green-Tao Theorem is the final step in a century-long progression:
+> **Even the set that looks most random cannot escape perfect arithmetic order if you look far enough.**
 
-- **van der Waerden (1927):** Any finite coloring of $\mathbb{N}$ forces arbitrarily long monochromatic APs.
-- **Szemerédi (1975):** Any _dense_ subset of $\mathbb{N}$ forces arbitrarily long APs.
-- **Green-Tao (2004):** Even the primes — density zero, the most famous pseudorandom set in mathematics — forces arbitrarily long APs.
+The primes were long thought to be the enemy of patterns. Green-Tao shows they contain every finite pattern as an AP. The chaos is only local; globally, order is forced.
 
-> **Green-Tao Theorem (2004):** The set of prime numbers contains arbitrarily long arithmetic progressions. For every $k \ge 1$ there exist $a,d>0$ such that
-> $$a,\; a+d,\; a+2d,\; \dots,\; a+(k-1)d$$
-> are all prime.
+## Roth's Theorem — The First Density Theorem
 
-In words: you can find $k$ primes perfectly equally spaced, and you can make $k$ as large as you want. The primes look random locally, but globally they cannot avoid arithmetic structure.
+If van der Waerden says any _coloring_ of $\mathbb{N}$ forces a 3-term AP, Roth says you don't even need to color everything. A single set that occupies a positive fraction of integers already forces a 3-term AP.
 
-### What It Says — And What It Does Not
+It is the first time density, not partition, forces arithmetic order — the $k=3$ case of Szemerédi's theorem, and the analytic heart that later powers Green-Tao.
 
-**Arbitrary length, not infinite length.** For each $k$, there is some progression. For $k=3$: $3,7,11$ ($d=4$). For $k=5$: $5,11,17,23,29$ ($d=6$). The theorem says this continues forever: a progression of length 100, length 10,000, length $10^{100}$ exists somewhere.
+> **Roth's Theorem (1953):** Any subset of natural numbers with positive upper density contains a non-trivial 3-term arithmetic progression.
 
-It does _not_ say there is an infinite AP of primes. That is impossible: if $d>0$, the term $a + a\cdot d = a(1+d)$ is divisible by $a$ and composite for $a>1$.
+Proved by Klaus Roth — Fields Medal 1958 — it launched modern additive combinatorics.
 
-**Infinitude for fixed $k$.** In fact Green-Tao proves more than existence. For fixed $k$, there are infinitely many $k$-term prime APs, and the number up to $N$ is
-$$\sim C_k \dfrac{N^2}{(\log N)^k}$$
-for some $C_k > 0$. So there are infinitely many 3-term prime APs, infinitely many 5-term prime APs, etc.
+### Formal Statement
 
-**Why the common difference must explode.** If $k \ge 3$, $d$ must be even, otherwise you'd hit an even number. If $k \ge 4$, $d$ must be divisible by $3$, otherwise one of three consecutive terms mod 3 is $0 \bmod 3$. In general, to avoid a small prime $p < k$ dividing a term, $d$ must be divisible by all primes $< k$. So $d$ must be divisible by the primorial
-$$k\# = \prod_{p < k} p$$
+Let $A \subset \mathbb{N}$. Its upper density is
+$$\bar{d}(A) = \limsup_{N\to\infty} \dfrac{|A \cap [1,N]|}{N}.$$
 
+If $\bar{d}(A) = \delta >0$, then there exist $a,d$ with $d\neq 0$ and
+$$a,\; a+d,\; a+2d \in A.$$
+
+**Quantitative finite form:** Let $r_3(N)$ be the largest size of a subset of $\{1,\dots,N\}$ with _no_ 3-term AP. Roth proved:
+
+$$r_3(N) = O\left(\dfrac{N}{\log\log N}\right).$$
+
+Because $\dfrac{1}{\log\log N}\to 0$, any set of size $\delta N$ eventually exceeds $r_3(N)$ for large $N$. So density $\delta>0$ forces a 3-AP.
+
+Roth's bound was the first to go to $0$ as $N\to\infty$. The question since has been: how fast does $r_3(N)/N$ go to $0$?
+
+### Why It's Hard: The Naive Count Fails
+
+Count 3-APs by Fourier. Let $A\subset [1,N]$ with $|A|=\delta N$. The number of 3-term APs (including trivial $d=0$) is
+
+$$T_3(A) = \sum_{x,d} 1_A(x)1_A(x+d)1_A(x+2d) = N^2 \sum_{r} |\hat{1}_A(r)|^2 \hat{1}_A(-2r)$$
+
+If $A$ were random with density $\delta$, you'd expect $\approx \delta^3 N^2$ progressions. So you'd expect many. But a structured set could conspire to cancel. Roth's insight: if $A$ has _no_ 3-APs, its Fourier transform must be _large_ somewhere non-zero — revealing bias.
+
+### The Proof: Density Increment via Fourier
+
+Roth's proof introduced three ideas now standard in additive combinatorics:
+
+**Idea 1: Fourier bias.** Let $f = 1_A - \delta 1_{[1,N]}$ be the balanced function. If $A$ has no non-trivial 3-APs, then $T_3(A) \approx 0$, but the main term from $\delta$ contributes $\delta^3 N^2$. So some Fourier coefficient must be large to cancel it:
+
+$$\exists r\neq 0:\; |\hat{f}(r)| \gg \delta^2.$$
+
+Large Fourier coefficient means $A$ correlates with a linear phase $e^{2\pi i r x / N}$. I.e., $A$ is not uniform — it prefers some residue classes mod something, or is denser on intervals where the phase is near 1.
+
+**Idea 2: From bias to density increment.** A large Fourier coefficient implies $A$ is significantly denser on some long arithmetic progression $P \subset [1,N]$ of length $N' \approx N^{1/2}$ or $\sqrt{N}$. Precisely:
+
+> There exists arithmetic progression $P$ with $|P| \ge N^{c}$ such that
+> $$\dfrac{|A\cap P|}{|P|} \ge \delta + c' \delta^2$$
+
+for absolute constants $c,c'>0$. You gain $\Omega(\delta^2)$ density by restricting to $P$.
+
+Intuition: If $A$ clusters modulo $q$, look at the densest residue class mod $q$. It has higher density.
+
+**Idea 3: Iterate to contradiction.** Now repeat. Set $A_1 = A \cap P$, rescaled to $[1,N']$. It has density $\delta_1 \ge \delta + c'\delta^2$ and still no 3-AP (if $A$ had none, its subset has none). Apply again: get $P_2$, density $\delta_2 \ge \delta_1 + c'\delta_1^2$, etc.
+
+Density increases by at least $\Omega(\delta^2)$ each step, so after $O(1/\delta)$ steps density would exceed 1 — impossible. Therefore the process must stop because we found a 3-AP.
+
+The $O(1/\delta)$ steps, each shrinking $N$ to about $\sqrt{N}$, yields $N$ must be at least exp(exp($O(1/\delta$))) to run that many steps, giving $r_3(N) \ll N / \log\log N$.
 - $k=5$ requires $d$ divisible by $6 = 2\cdot3$
-- $k=6$ requires $d$ divisible by $30 = 2\cdot3\cdot5$
+This **density increment strategy** — if no pattern, then denser on a substructure, iterate — is the template for Szemerédi, Gowers, and Green-Tao.
 - $k=10$ requires $d$ divisible by $210 = 2\cdot3\cdot5\cdot7$
 - $k=27$ requires $d$ divisible by $23\# = 223,092,870$
 
