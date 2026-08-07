@@ -846,13 +846,13 @@ While computing eigenvectors requires linear algebra sophistication, _recognizin
 
 **Facial Recognition (Eigenfaces)**: Computers see faces not as people, but as huge grids of numbers (pixels).
 
-- _The Transformation_: An algorithm analyzing a database of thousands of faces computes the covariance matrix $C = \dfrac{1}{N}\displaystyle\sum_{i=1}^{N} (\mathbf{x}_i - \mu)(\mathbf{x}_i - \mu)^T$ of pixel values across all images.
+- **_The Transformation_**: An algorithm analyzing a database of thousands of faces computes the covariance matrix $C = \dfrac{1}{N}\displaystyle\sum_{i=1}^{N} (\mathbf{x}_i - \mu)(\mathbf{x}_i - \mu)^T$ of pixel values across all images.
 
-- _Eigenvectors_: These are called "Eigenfaces" — ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). Each face can be expressed as a weighted sum of these eigenvectors (Baik et al. 1650-1660).
+- **_Eigenvectors_**: These are called "Eigenfaces" — ghostly, abstract face-like patterns that represent the most important features (like the width of a nose or the height of a forehead). Each face can be expressed as a weighted sum of these eigenvectors (Baik et al. 1650-1660).
 
 $$face \approx \mu + w_1\mathbf{e}_1 + w_2\mathbf{e}_2 + \cdots + w_k\mathbf{e}_k$$
 
-- _Eigenvalues_: The importance of each feature. A high eigenvalue means that specific "feature" varies significantly across faces and is useful for telling two people apart. Low-eigenvalue components represent noise and can be discarded (Baik et al. 1660-1670).
+- **_Eigenvalues_**: The importance of each feature. A high eigenvalue means that specific "feature" varies significantly across faces and is useful for telling two people apart. Low-eigenvalue components represent noise and can be discarded (Baik et al. 1660-1670).
 
 **Geographic Networks**: Transportation networks, river systems, and migration patterns can be analyzed using eigenvector centrality, identifying the most "central" or influential locations based on connectivity (Straffin 269-272). The dominant eigenvector of an adjacency matrix reveals which cities or nodes are most important to the network's structure (Straffin 272-276).
 
@@ -3153,9 +3153,17 @@ To continue building your confidence, seek out resources that present mathematic
 
 "Kociemba's Two-Phase Algorithm." IIT Kanpur Computer Science, <https://cse.iitk.ac.in/users/cs365/2015/_submissions/anurag/report.pdf>. Accessed 17 Apr. 2026.
 
+"Math Performance and Academic Anxiety Forms, from Sociodemographic to Cognitive Aspects: a Meta-analysis on 906,311 Participants." Educational Psychology Review, vol. 34, 2021. https://doi.org/10.1007/s10648-021-09618-5
+
+"Math Performance and Academic Anxiety Forms, from Sociodemographic to Cognitive Aspects: a Meta-analysis on 906,311 Participants." Educational Psychology Review, vol. 34, 2022. https://doi.org/10.1007/s10648-021-09618-5
+
 "Math-Failure Associations, Attentional Biases, and Avoidance Bias: The Relationship with Math Anxiety and Behaviour in Adolescents." Cognitive Therapy and Research, vol. 45, no. 5, 2021, pp. 1001-1011. <https://doi.org/10.1007/s10608-023-10390-9>
 
+"Mathematics education researchers’ practices in interdisciplinary collaborations: Embracing different ways of knowing." Mathematics Education Research Journal, vol. 34, 2022, pp. 1-19. https://doi.org/10.1007/s13394-024-00489-x
+
 "Mr. Bell and Bell Numbers." John D. Cook Consulting, 16 Apr. 2025, www.johndcook.com/blog/2025/04/16/bell-numbers-2/#:~:text=For%20example%2C%20the%20nth%20Bell,Related%20posts. Accessed 18 Apr. 2026.
+
+"Reasoned Decision Making Without Math? Adaptability and Robustness in Response to Surprise." Journal of Risk Research, vol. 22, no. 7, 2019, pp. 869-883. https://doi.org/10.1080/13669877.2018.1490190
 
 "Self-Regulation and Mathematics Anxiety: The Conditional Mediating Role of Mathematical Language Self-Efficacy and Implications for Inclusive Education." MDPI, vol. 6, no. 3, 2026. https://doi.org/10.3390/educsci6030039
 
@@ -3164,6 +3172,8 @@ To continue building your confidence, seek out resources that present mathematic
 "Thistlethwaite's Algorithm." University of Illinois, <https://new.math.uiuc.edu/math198/MA198-2016/lkulbis2/public_html/tmethod.html>. Accessed 17 Apr. 2026.
 
 "Topology and Knitting." Rutgers University Mathematics, <https://sites.math.rutgers.edu/~rlg131/topology_and_knitting.pdf>. Accessed 18 Apr. 2026.
+
+"What Makes an Analogy Effective for Students’ Learning of Mathematics? Conceptualising Analogy Effectiveness for Teaching Mathematics." Canadian Journal of Science, 2026. https://doi.org/10.1007/s42330-026-00502-4
 
 "Why Mathematicians Study Knots." Quanta Magazine, 31 Oct. 2022, <https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/>. Accessed 18 Apr. 2026.
 
@@ -3183,6 +3193,8 @@ Adams, Colin C. The Knot Book: An Elementary Introduction to the Mathematical Th
 
 Adkins, William A., and Mark G. Davidson. "Putzer's Algorithm for e^At via the Laplace Transform." Mathematics Magazine, vol. 83, no. 4, 2010, pp. 267–75. JSTOR, <https://doi.org/10.4169/002557010x521796>. Accessed 16 Apr. 2026.
 
+Ahmed, Wondimu. "Developmental trajectories of math anxiety during adolescence: Associations with STEM career choice." Journal of Adolescence, vol. 67, no. 1, 2018, pp. 158-166. https://doi.org/10.1016/j.adolescence.2018.06.010
+
 Akin, J. E., and J. Counts. "On Rational Approximation to the Inverse Laplace Transform." SIAM Journal on Applied Mathematics, vol. 17, no. 6, 1969, pp. 1035–40. JSTOR, <http://www.jstor.org/stable/2099182>. Accessed 16 Apr. 2026.
 
 Al-Naim, Fatima, and Wael Mefi. "A Meta-Analysis of the Effectiveness of Interventions to Reduce Math Anxiety." Cypriot Journal of Educational Sciences, vol. 18, no. 3, 2023, pp. 869-885. Accessed 12 Apr. 2026.
@@ -3192,6 +3204,10 @@ Alderson, Victor C. "Quaternions." Science, vol. 2, no. 48, 1895, pp. 735–36. 
 Allendoerfer, Carl B. "The Dilemma in Geometry." The Mathematics Teacher, vol. 62, no. 3, 1969, pp. 165–69. JSTOR, <http://www.jstor.org/stable/27958094>. Accessed 16 Apr. 2026.
 
 Alm, Jeremy F., and James S. Walker. "Time-Frequency Analysis of Musical Instruments." SIAM Review, vol. 44, no. 3, 2002, pp. 457–76. JSTOR, <http://www.jstor.org/stable/4148384>. Accessed 14 Apr. 2026.
+
+Amalric, Marie, and Stanislas Dehaene. "Origins of the brain networks for advanced mathematics in expert mathematicians." Proceedings of the National Academy of Sciences of the United States of America, vol. 113, no. 18, 2016, pp. 4909-4917. https://doi.org/10.1073/pnas.1601740113
+
+Andersen, Peter, et al. "Math Anxiety Effects on Consumer Purchase Decisions: The Role of Framing." Marketing Letters, vol. 35, 2024. https://doi.org/10.1007/s11002-024-09732-8
 
 Arcos, Carlos, et al. "Mini-Sudokus and Groups." Mathematics Magazine, vol. 83, no. 2, 2010, pp. 111–22. JSTOR, <https://doi.org/10.4169/002557010x482871>. Accessed 17 Apr. 2026.
 
@@ -3204,6 +3220,12 @@ Ashcraft, Mark H., and Elizabeth P. Kirk. "The Relationships Among Working Memor
 Ashcraft, Mark H., and Jeremy A. Krause. "Working Memory, Math Performance, and Math Anxiety." Psychonomic Bulletin & Review, vol. 14, no. 2, Apr. 2007, pp. 243-48. PubMed, https://pubmed.ncbi.nlm.nih.gov/17640924/
 
 Atagi, N., DeWolf, M., Stigler, J. W. & Johnson, S. P. (2016). The Role of Visual Representations in College Students’ Understanding of Mathematical Notation. Journal of Experimental Psychology: Applied 22(3). https://doi.org/10.1037/xap0000090
+
+Atagi, Natsuki, et al. "The Role of Visual Representations in College Students’ Understanding of Mathematical Notation." Journal of Experimental Psychology: Applied, vol. 22, no. 3, 2016. https://doi.org/10.1037/xap0000090
+
+Atagi, Natsuki, et al. "The Role of Visual Representations in College Students’ Understanding of Mathematical Notation." Journal of Experimental Psychology: Applied, vol. 22, no. 3, 2016. https://doi.org/10.1037/xap0000090
+
+Auckly, D.. "Folklore, the Borromean Rings, the Icosahedron, and Three Dimensions." Mathematics Magazine, vol. 93, no. 5, 2020, pp. 330-342. https://doi.org/10.1080/0025570X.2020.1823766
 
 Austin, C. A., and L. M. Fisher. "DNA Topoisomerases: Enzymes That Change the Shape of DNA." Science Progress (1933- ), vol. 74, no. 2 (294), 1990, pp. 147–61. JSTOR, <http://www.jstor.org/stable/43423883>. Accessed 18 Apr. 2026.
 
@@ -3218,6 +3240,8 @@ Bailey, David H., and Paul N. Swarztrauber. "The Fractional Fourier Transform an
 Banchoff, Thomas. "Non-Euclidean Geometry." Brown University, <https://www.math.brown.edu/tbanchof/Beyond3d/chapter9/section03.html>. Accessed 18 Apr. 2026.
 
 Banerjee, Abhijit V., et al. "Children's Arithmetic Skills Do Not Transfer Between Applied and Academic Mathematics." Nature, vol. 626, 2024, pp. 1-8. Nature, https://www.nature.com/articles/s41586-023-07002-y
+
+Banerjee, Priyant, and Arshad Bhat. "Mathematics in Everyday Life: Exploring Practical Applications and Real-World Impact." Digital Repository of the University of New Mexico, 2025. https://digitalrepository.unm.edu/nsc_research/118/
 
 Banner, Adrian. "Taylor and Power Series: How to Solve Problems." The Calculus Lifesaver: All the Tools You Need to Excel at Calculus, SCH-School edition, Princeton University Press, 2007, pp. 551–74. JSTOR, <http://www.jstor.org/stable/j.ctt7s1h6.30>. Accessed 14 Apr. 2026.
 
@@ -3273,6 +3297,8 @@ Castillo, Darwin, et al. "Didactic Strategies for Conceptual Understanding and M
 
 Caviola, S., Carey, E., Mammarella, I. C. & Szucs, D. (2017). Stress, Time Pressure, Strategy Selection and Math Anxiety in Mathematics: A Review of the Literature. Frontiers in Psychology 8. https://doi.org/10.3389/fpsyg.2017.01488
 
+Caviola, Sara, et al. "Math Performance and Academic Anxiety Forms, from Sociodemographic to Cognitive Aspects: a Meta-analysis on 906,311 Participants." Educational Psychology Review, vol. 34, 2021. https://doi.org/10.1007/s10648-021-09618-5
+
 Champoux, James J. "Type IA DNA Topoisomerases: Strictly One Step at a Time." Proceedings of the National Academy of Sciences of the United States of America, vol. 99, no. 19, 2002, pp. 11998–2000. JSTOR, <http://www.jstor.org/stable/3073156>. Accessed 17 Apr. 2026.
 
 Chiatante, D., et al. "Nuclear DNA Topoisomerases in Pisum Sativum L." Journal of Experimental Botany, vol. 44, no. 263, 1993, pp. 1045–51. JSTOR, <http://www.jstor.org/stable/23693460>. Accessed 17 Apr. 2026.
@@ -3288,6 +3314,8 @@ Codding, R. S., Goodridge, A. E., Hill, E., Kromminga, K. R., Chehayeb, R., Volp
 Cohen, L. D. & Korem, N. (2021). Math Anxiety Is Related to Math Difficulties and Composed of Emotion Regulation and Anxiety Predisposition: A Network Analysis Study. Brain Sci 11(12). https://doi.org/10.3390/brainsci11121609
 
 Cook, Sam, et al. "Sudoku: Just for Fun or Is It Mathematics?" Math Horizons, vol. 14, no. 3, 2007, pp. 13–15. JSTOR, <http://www.jstor.org/stable/25678670>. Accessed 8 Apr. 2026.
+
+Croom, Sholei, and Chaz Firestone. "Tangled Physics: Knots Strain Intuitive Physical Reasoning." Open Mind, vol. 8, 2024. https://doi.org/10.1162/opmi_a_00159
 
 CSDT. "Weaving and Geometry." Center for Culturally Sustaining Design and Technology, https://www.csdt.org/weaving-geometry
 
@@ -3310,7 +3338,6 @@ De Santi, Giovanni. "An Introduction to the Theory of Knots." Stanford Universit
 Deakin, Michael A. B. "Euler's Version of the Laplace Transform." The American Mathematical Monthly, vol. 87, no. 4, 1980, pp. 264–69. JSTOR, <https://doi.org/10.2307/2321558>. Accessed 10 Apr. 2026.
 
 DeArmond, Joel. Elliptic Curve Cryptography: Extensions of Subfield Curves in Characteristic 2. Documents. Pence Boyce, Olivet Nazarene University, 2017, Olivet Scholarship. ONU Digital Collections. JSTOR, <https://jstor.org/stable/community.37867867>. Accessed 17 Apr. 2026.
-
 Delahaye, Jean-Paul. "The Science behind SUDOKU." Scientific American, vol. 294, no. 6, 2006, pp. 80–87. JSTOR, <http://www.jstor.org/stable/26061494>. Accessed 17 Apr. 2026.
 
 Demedts, Febe, et al. "Unraveling the Role of Math Anxiety in Students' Math Performance." Frontiers in Psychology, vol. 13, 2022, article 979113, <doi:10.3389/fpsyg.2022.979113>. Accessed 12 Apr. 2026.
@@ -3335,10 +3362,17 @@ Dixit, Atul. "The Laplace Transform of the Psi Function." Proceedings of the Ame
 
 Duffin, R. J., and A. C. Schaeffer. "Power Series with Bounded Coefficients." American Journal of Mathematics, vol. 67, no. 1, 1945, pp. 141–54. JSTOR, <https://doi.org/10.2307/2371922>. Accessed 14 Apr. 2026.
 
+Díaz, Fernando Ricardo González, et al. "A quaternionic approach to teaching 3D rotations and the resolution of gimbal lock." arXiv:2511.04452, 2025. https://doi.org/10.48550/arXiv.2511.04452
+
 EBSCO. "Quilting and Mathematics." Research Starters: Mathematics, https://www.ebsco.com/research-starters/mathematics/quilting-and-mathematics
 
 Efthimiou, Costas J. "Trigonometric Series via Laplace Transforms." Mathematics Magazine, vol. 79, no. 5, 2006, pp. 376–79. JSTOR, <https://doi.org/10.2307/27642975>. Accessed 16 Apr. 2026.
+
 Eglash, Ron. African Fractals: Modern Computing and Indigenous Design. Rutgers UP, 1999.
+
+Eidlin-Levy, Hili, et al. "Math anxiety affects career choices during development." International Journal of STEM Education, vol. 10, 2023. https://doi.org/10.1186/s40594-023-00441-8
+
+Eidlin-Levy, Hili, et al. "Math anxiety affects career choices during development." International Journal of STEM Education, vol. 10, 2023. https://doi.org/10.1186/s40594-023-00441-8
 
 Einstein, Albert. The Essential Einstein: Public Writings. Edited by Diana Kormos Buchwald and Tilman Sauer, Princeton University Press, 2025. JSTOR, <https://doi.org/10.2307/jj.27710924>. Accessed 11 Apr. 2026.
 
@@ -3398,6 +3432,8 @@ Gladwin, Thomas. East Is a Big Bird: Navigation and Logic on Puluwat Atoll. Harv
 
 Gold, Bonnie, and Roger A. Simons, editors. Proof and Other Dilemmas. 1st ed., Mathematical Association of America, 2008. JSTOR, http://www.jstor.org/stable/10.4169/j.ctt13x0n9d. Accessed 15 Apr. 2026.
 
+Gonzales-Martinez, Tracy, and Patricia Sanchez. "Accessible Mathematics Are Conceptual Mathematics." American Consortium for Equity in Education, December 31, 2020. https://ace-ed.org/accessible-mathematics-are-conceptual-mathematics/
+
 González-Díaz, Julio, et al. An Introductory Course on Mathematical Game Theory. American Mathematical Society, 2010.
 
 González-Gómez, B., Colomé, À. & Núñez-Peña, M. I. (2023). Math anxiety and attention: Biased orienting to math symbols or less efficient attentional control?. Current Psychology 43. https://doi.org/10.1007/s12144-023-04828-2
@@ -3419,6 +3455,10 @@ Grobman, Steve. "Quantum Computing's Cyber-Threat to National Security." PRISM, 
 Guggenheimer, H. "Systems of Linear Differential Equations by Laplace Transform." The College Mathematics Journal, vol. 23, no. 3, 1992, pp. 196–202. JSTOR, <https://doi.org/10.2307/2686296>. Accessed 16 Apr. 2026.
 
 Guichard, D. Combinatorics and Graph Theory. Retrieved from <https://www.whitman.edu/mathematics/cgt_online/book/section01.04.html> on February 4, 2018
+
+Guo, Lin. "The delayed, durable effect of expressive writing on depression, anxiety and stress: A meta‐analytic review of studies with long‐term follow‐ups." British Journal of Clinical Psychology, 2022. https://doi.org/10.1111/bjc.12408
+
+Göbel, Silke M., et al. "Language affects symbolic arithmetic in children: The case of number word inversion." Journal of Experimental Child Psychology, vol. 119, 2014, pp. 17-25. https://doi.org/10.1016/j.jecp.2013.10.001
 
 Halsted, George Bruce. "Gauss and the Non-Euclidean Geometry." The American Mathematical Monthly, vol. 7, no. 11, 1900, pp. 247–52. JSTOR, <https://doi.org/10.2307/2968396>. Accessed 16 Apr. 2026.
 
@@ -3530,6 +3570,8 @@ Leyva, Luis A., and Nicole Joseph M.. "Intersectionality as a lens for linguisti
 
 Lin, Xin, et al. "Mechanical Fourier Transform for Programmable Metamaterials." Proceedings of the National Academy of Sciences of the United States of America, vol. 120, no. 37, 2023, pp. 1–9. JSTOR, <https://www.jstor.org/stable/27265985>. Accessed 10 Apr. 2026.
 
+Lin, Xin, et al. "Supporting Mathematics Vocabulary Development for Students With Learning Difficulties: An Instructional Routine." Learning Disability Quarterly, vol. 48, no. 2, 2025, pp. 123-135. https://doi.org/10.1177/10534512251337394
+
 Lindgren, William. "Mathematical Sudoku." Math Horizons, vol. 15, no. 2, 2007, pp. 21–21. JSTOR, <http://www.jstor.org/stable/25678721>. Accessed 17 Apr. 2026.
 
 Liu, Dongkai. "Geodesics in Differential Geometry." McMaster University, <https://prod-ms-be.lib.mcmaster.ca/server/api/core/bitstreams/5004a6a1-22f3-4e67-b94d-5567959e4d50/content>. Accessed 8 Apr. 2026.
@@ -3601,6 +3643,8 @@ Millroy, Wendy L. "An Ethnographic Study of the Mathematical Ideas of a Group of
 Millroy, Wendy L. "Exploring the Nature of Street Mathematics." Street Mathematics and School Mathematicsby Terezinha Nunes et al. Journal for Research in Mathematics Education, vol. 25, no. 3, 1994, pp. 304–09. JSTOR, <https://doi.org/10.2307/749340>. Accessed 15 Apr. 2026.
 
 MIT OpenCourseWare. "Laplace Transform: Basics." MIT 18.03SC Differential Equations, Fall 2011, <https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/pages/unit-iii-fourier-series-and-laplace-transform/laplace-transform-basics/>. Accessed 16 Apr. 2026.
+
+Miyejav, Itgel. "Reconceptualizing ethnomathematical knowledge: A recursive framework of culture, practice, cognition, and mathematization." Ethnomathematics Journal, vol. 7, no. 1, 2026. https://doi.org/10.21831/ej.v7i1.96461
 
 Morrison, Kent E. "Cosine Products, Fourier Transforms, and Random Sums." The American Mathematical Monthly, vol. 102, no. 8, 1995, pp. 716–24. JSTOR, <https://doi.org/10.2307/2974641>. Accessed 18 Apr. 2026.
 
@@ -3692,6 +3736,8 @@ Rada, Emily, and Anne M. Lucietto. "Math Anxiety - A Literature Review on Confou
 
 Radišić, Jelena, et al. "Math Anxiety—Contributing School and Individual Level Factors." European Journal of Psychology of Education, vol. 30, no. 1, 2015, pp. 1–20. JSTOR, <http://www.jstor.org/stable/43551168>. Accessed 12 Apr. 2026.
 
+Raeburn, Paul, and Kevin Zollman. "Game Theory for Parents." Scientific American, 2016. https://doi.org/10.1038/scientificamerican0316-68
+
 Reid, Thomas. Thomas Reid on Mathematics and Natural Philosophy. Edited by Paul Wood, Edinburgh University Press, 2017. JSTOR, <http://www.jstor.org/stable/10.3366/j.ctt1pwt34w>. Accessed 16 Apr. 2026.
 
 Resnik, Michael D. "Game Theory." Choices: An Introduction to Decision Theory, NED-New edition, University of Minnesota Press, 1987, pp. 121–76. JSTOR, <http://www.jstor.org/stable/10.5749/j.ctttshgd.9>. Accessed 9 Apr. 2026.
@@ -3702,11 +3748,15 @@ Rivest, Ronald L., Adi Shamir, and Leonard Adleman. "A Method for Obtaining Digi
 
 Roberts, Gareth Ffowc. Count Us In: How to Make Maths Real for All of Us. 1st ed., University of Wales Press, 2016. JSTOR, <https://doi.org/10.2307/jj.14491657>. Accessed 15 Apr. 2026.
 
+Robertson, Sally-Ann, and Mellony Graven. "Language as an including or excluding factor in mathematics teaching and learning." Mathematics Education Research Journal, vol. 32, 2020. https://doi.org/10.1007/s13394-019-00302-0
+
 Rokicki, Tomas, et al. "The Diameter of the Rubik's Cube Group Is Twenty." SIAM Review, vol. 56, no. 4, 2014, pp. 645–70. JSTOR, <http://www.jstor.org/stable/24244333>. Accessed 8 Apr. 2026.
 
 Rokicki, Tomas. "Towards God's Number for Rubik's Cube in the Quarter-Turn Metric." The College Mathematics Journal, vol. 45, no. 4, 2014, p. 242. JSTOR, <https://doi.org/10.4169/college.math.j.45.4.242>. Accessed 11 Apr. 2026.
 
 Rolfsen, Dale. Knots and Links. Mathematics Lecture Series, Publish or Perish, 1976, <https://people.math.harvard.edu/~opie/Rolfsen.pdf>. Accessed 18 Apr. 2026.
+
+Rolison, Jonathan, et al. "Understanding Health Risk Comprehension: The Role of Math Anxiety, Subjective Numeracy, and Objective Numeracy." Medical Decision Making, vol. 40, no. 2, 2020, pp. 222-234. https://doi.org/10.1177/0272989X20904725
 
 Root, R. G. & Bhala, S. (2020). Effects of Quantitative Literacy on Healthcare Decision-Making: An Aural Context. Numeracy 13(1). https://doi.org/10.5038/1936-4660.13.1.3
 
@@ -3822,6 +3872,8 @@ van Grol, Rik. "The Quest for God's Number." Math Horizons, vol. 18, no. 2, 2010
 
 Varma, R. S. "A Generalisation of Laplace's Transform." Current Science, vol. 16, no. 1, 1947, pp. 17–18. JSTOR, <http://www.jstor.org/stable/24211320>. Accessed 18 Apr. 2026.
 
+Verschaffel, Ariane M. M., et al. "What makes mathematical word problem solving challenging? Exploring the roles of word problem characteristics, text comprehension, and arithmetic skills." ZDM – Mathematics Education, vol. 51, no. 6, 2019. https://doi.org/10.1007/s11858-019-01118-9
+
 Villanueva, Jay. "Geodesics." Pearson, <https://www.pearson.com/content/dam/one-dot-com/one-dot-com/us/en/files/Jay%20Villanueva%20-%20geodesics9.pdf>. Accessed 14 Apr. 2026.
 
 Vithal, Renuka, and Ole Skovsmose. "The End of Innocence: A Critique of 'Ethnomathematics'." Educational Studies in Mathematics, vol. 34, no. 2, 1997, pp. 131-157. https://doi.org/10.1023/A:1002971922833
@@ -3841,6 +3893,8 @@ Weisstein, Eric W. “Bell Triangle.” From MathWorld–A Wolfram Web Resource.
 Weisstein, Eric W.. "Genus -- from Wolfram MathWorld." MathWorld, 2026. https://mathworld.wolfram.com/Genus.html Accessed August 1, 2026
 
 Wheeler, Nicholas. "Geodesics on Surfaces: Paraboloid & Hexenhut." Reed College Physics, <https://www.reed.edu/physics/faculty/wheeler/documents/Miscellaneous%20Math/Differential%20Geometry/Geodesics%20on%20Surfaces/Paraboloid%20&%20Hexenhut%20Geodesics.pdf>. Accessed 8 Apr. 2026.
+
+White, Tobin. "Encrypted objects and decryption processes: problem-solving with functions in a learning environment based on cryptography." Educational Studies in Mathematics, vol. 72, 2009. https://doi.org/10.1007/s10649-008-9180-y
 
 Widder, D. V. "A Generalization of Taylor's Series." Transactions of the American Mathematical Society, vol. 30, no. 1, 1928, pp. 126–54. JSTOR, <https://doi.org/10.2307/1989270>. Accessed 18 Apr. 2026.
 
