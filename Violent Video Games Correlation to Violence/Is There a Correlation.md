@@ -458,139 +458,139 @@ This fight-or-flight response to perceived danger is triggered by intense stimul
 
 ## Gaming Disorder
 
-Highly stimulating games can lead to gaming disorder, characterized by a loss of control over gaming habits that takes precedence over daily life. Gaming disorder is a mental health condition characterized by impaired control over video gaming, prioritizing gaming over other life interests, and continuing or escalating the behavior despite negative consequences. The World Health Organization officially recognized gaming disorder in the ICD-11, defining it by impaired control, increasing priority given to gaming, and continuation despite negative consequences. A national study found that approximately 8.5% of youth ages 8 to 18 meet criteria for pathological video game use. (Gentile 594-602) Recent research also links gaming disorder with cognitive disengagement syndrome, suggesting complex interactions between attention difficulties and problematic gaming patterns S210. (Király et al.) A comprehensive review of research progress on gaming disorder highlights ongoing debates about diagnostic criteria, prevalence rates, and treatment approaches. (King et al.)
+Highly stimulating games can lead to gaming disorder, characterized by a loss of control over gaming habits that takes precedence over daily life (American Psychiatric Association; World Health Organization). Gaming disorder is a mental health condition characterized by impaired control over video gaming, prioritizing gaming over other life interests, and continuing or escalating the behavior despite negative consequences (World Health Organization; American Psychiatric Association). The World Health Organization officially recognized gaming disorder in the ICD-11, defining it by impaired control, increasing priority given to gaming, and continuation despite negative consequences (World Health Organization). A national study found that approximately 8.5% of youth ages 8 to 18 meet criteria for pathological video game use (Gentile 594-602). Recent research also links gaming disorder with cognitive disengagement syndrome, suggesting complex interactions between attention difficulties and problematic gaming patterns (Király et al.). A comprehensive review of research progress on gaming disorder highlights ongoing debates about diagnostic criteria, prevalence rates, and treatment approaches (King et al. 2019).
 
-However, a critical reappraisal of video game addiction argues that the concept may be overpathologized and that more nuanced understandings are needed to distinguish between high engagement and clinical disorder. There is an ongoing debate among researchers and clinicians about the validity and boundaries of diagnosing gaming disorder. Some experts caution that labeling enthusiastic or passionate gamers as suffering from a disorder risks pathologizing normal behavior, especially in youth for whom gaming is a common and culturally relevant hobby. Others argue that only a small proportion of gamers meet clear criteria for impairment and distress, and that prevalence estimates can be inflated when diagnostic thresholds are not carefully defined. This debate highlights concerns about false positives, cultural differences in gaming patterns, and the potential stigmatization of healthy gaming. At the same time, proponents of the diagnosis emphasize the harms experienced by individuals who truly lose control over their gaming and suffer significant negative consequences.
+However, a critical reappraisal of video game addiction argues that the concept may be overpathologized and that more nuanced understandings are needed to distinguish between high engagement and clinical disorder (King et al. 2019; Griffiths 63-74). There is an ongoing debate among researchers and clinicians about the validity and boundaries of diagnosing gaming disorder. Some experts caution that labeling enthusiastic or passionate gamers as suffering from a disorder risks pathologizing normal behavior, especially in youth for whom gaming is a common and culturally relevant hobby (Griffiths 63-74; King et al. 2019). Others argue that only a small proportion of gamers meet clear criteria for impairment and distress, and that prevalence estimates can be inflated when diagnostic thresholds are not carefully defined (Gentile 594-602; King et al. 2019). This debate highlights concerns about false positives, cultural differences in gaming patterns, and the potential stigmatization of healthy gaming (King et al. 2019). At the same time, proponents of the diagnosis emphasize the harms experienced by individuals who truly lose control over their gaming and suffer significant negative consequences (World Health Organization; King et al. 2019).
 
-To help distinguish between high engagement and clinical disorder, diagnostic frameworks highlight several threshold criteria. High engagement is marked by enthusiasm for gaming, frequent play, and having gaming as a prominent hobby, but without significant interference in daily functioning, relationships, or emotional health. In contrast, gaming disorder involves persistent, repeated gaming behavior that leads to loss of control, neglect of other life areas, substantial impairment in social, academic, or occupational functioning, and continued gaming despite negative consequences. Red flags indicating possible disorder include withdrawal symptoms when not gaming, unsuccessful attempts to cut back, deception regarding gaming time, loss of interest in other activities, and marked decline in performance at school, work, or in relationships. To ensure an accurate diagnosis, clinicians are advised to assess the duration, severity, and impact of symptoms and to differentiate situational or culturally normative gaming behaviors from patterns that produce significant distress or impair daily life.
+To help distinguish between high engagement and clinical disorder, diagnostic frameworks highlight several threshold criteria (American Psychiatric Association; World Health Organization). High engagement is marked by enthusiasm for gaming, frequent play, and having gaming as a prominent hobby, but without significant interference in daily functioning, relationships, or emotional health (Griffiths 63-74; King et al. 2019). In contrast, gaming disorder involves persistent, repeated gaming behavior that leads to loss of control, neglect of other life areas, substantial impairment in social, academic, or occupational functioning, and continued gaming despite negative consequences (World Health Organization; American Psychiatric Association). Red flags indicating possible disorder include withdrawal symptoms when not gaming, unsuccessful attempts to cut back, deception regarding gaming time, loss of interest in other activities, and marked decline in performance at school, work, or in relationships (American Psychiatric Association; King et al. 2019). To ensure an accurate diagnosis, clinicians are advised to assess the duration, severity, and impact of symptoms and to differentiate situational or culturally normative gaming behaviors from patterns that produce significant distress or impair daily life (World Health Organization; King et al. 2019).
 
-As diagnostic criteria are refined and more research emerges, clinicians are encouraged to distinguish between high engagement and truly problematic or disordered gaming. Studies examining internet addiction among secondary school students found significant correlations with depression, suggesting complex mental health interactions. ("Internet Addiction among Secondary School Adolescents: A Mixed Methods Study" 74-80) Research has also identified sensation seeking and loneliness as key factors in online game addiction among university students. (Mehroof and Griffiths 313-316) Early research on diagnosis and management of video game addiction laid important groundwork for understanding this phenomenon, though the field continues to evolve. (Griffiths 63-74) Healthcare professionals note that gaming can lead to dopamine-driven behavioral patterns similar to other addictive behaviors, with the brain’s reward system becoming activated during gameplay. (Volkow et al.)
+As diagnostic criteria are refined and more research emerges, clinicians are encouraged to distinguish between high engagement and truly problematic or disordered gaming (King et al. 2019). Studies examining internet addiction among secondary school students found significant correlations with depression, suggesting complex mental health interactions (Internet Addiction among Secondary School Adolescents 74-80). Research has also identified sensation seeking and loneliness as key factors in online game addiction among university students (Mehroof and Griffiths 313-316). Early research on diagnosis and management of video game addiction laid important groundwork for understanding this phenomenon, though the field continues to evolve (Griffiths 63-74). Healthcare professionals note that gaming can lead to dopamine-driven behavioral patterns similar to other addictive behaviors, with the brain's reward system becoming activated during gameplay (Volkow et al.).
 
-A symptom of gaming disorder is called “pre-occupation,” which means you find yourself constantly thinking about games when you’re not playing and experience difficulty focusing on other tasks. ("Internet Gaming Disorder in the DSM-5: Personality and Individual Differences" 1-10)
+A symptom of gaming disorder is called "pre-occupation," which means you find yourself constantly thinking about games when you're not playing and experience difficulty focusing on other tasks (Internet Gaming Disorder in the DSM-5 1-10).
 
-Pre-occupation in gaming disorder refers to an obsessive, constant focus on video games, in which the user thinks about playing even while doing other activities or plans their next session, often resulting in poor concentration at school or work. It is a core diagnostic criterion indicating a lack of control and a significant behavioral, emotional, or social impairment. (X. et al.) Preoccupation with gaming. Withdrawal symptoms when gaming is taken away or not possible (sadness, anxiety, irritability). Tolerance: the need to spend more time gaming to satisfy the urge. Inability to reduce playing, unsuccessful attempts to quit gaming. ("Addictive behaviors: Gaming disorder")
+Pre-occupation in gaming disorder refers to an obsessive, constant focus on video games, in which the user thinks about playing even while doing other activities or plans their next session, often resulting in poor concentration at school or work. It is a core diagnostic criterion indicating a lack of control and a significant behavioral, emotional, or social impairment (X. et al.). Preoccupation with gaming. Withdrawal symptoms when gaming is taken away or not possible (sadness, anxiety, irritability). Tolerance: the need to spend more time gaming to satisfy the urge. Inability to reduce playing, unsuccessful attempts to quit gaming (American Psychiatric Association; Addictive Behaviors: Gaming Disorder).
 
 Key aspects of pre-occupation include:
 
-- Constant Thoughts: Obsessively thinking about gaming when not playing.
-- Planning Next Sessions: Constantly planning when they can next play.
-- Reduced Focus: Difficulty focusing on daily responsibilities (school, work).
-- Interchangeable with Loss of Interest: It is closely linked with losing interest in other hobbies, together forming an extreme focus on gaming.
-  Gaming disorder is a formally recognized mental health condition characterized by a persistent and severe pattern of gaming behavior that takes precedence over other life interests and daily activities. ("Addictive behaviors: Gaming disorder")
+- Constant Thoughts: Obsessively thinking about gaming when not playing (American Psychiatric Association; X. et al.).
+- Planning Next Sessions: Constantly planning when they can next play (King et al. 2019).
+- Reduced Focus: Difficulty focusing on daily responsibilities (school, work) (Gentile 594-602; X. et al.).
+- Interchangeable with Loss of Interest: It is closely linked with losing interest in other hobbies, together forming an extreme focus on gaming (American Psychiatric Association).
+  Gaming disorder is a formally recognized mental health condition characterized by a persistent and severe pattern of gaming behavior that takes precedence over other life interests and daily activities (World Health Organization; Addictive Behaviors: Gaming Disorder).
 
 ### Definition and Core Symptoms
 
-The World Health Organization officially included “gaming disorder” in the 11th Revision of the International Classification of Diseases11 as an addictive behavior. ("Inclusion of 'gaming disorder' in ICD-11") Three main criteria define the disorder:
+The World Health Organization officially included "gaming disorder" in the 11th Revision of the International Classification of Diseases 11 as an addictive behavior (World Health Organization; Inclusion of Gaming Disorder in ICD-11). Three main criteria define the disorder:
 
-- Impaired Control: Inability to control gaming behavior, including its onset, frequency, intensity, duration, and termination
-- Increasing Priority: Gaming becomes more important than other daily activities and life interests, to the point of neglecting essentials
-- Continuation Despite Negative Consequences: Persisting with or escalating gaming behavior even when it leads to significant problems in personal, family, social, educational, or occupational areas
+- Impaired Control: Inability to control gaming behavior, including its onset, frequency, intensity, duration, and termination (World Health Organization)
+- Increasing Priority: Gaming becomes more important than other daily activities and life interests, to the point of neglecting essentials (World Health Organization)
+- Continuation Despite Negative Consequences: Persisting with or escalating gaming behavior even when it leads to significant problems in personal, family, social, educational, or occupational areas (World Health Organization)
 
-For a formal diagnosis, these behaviors must typically be evident for at least 12 months and be severe enough to cause significant functional impairment.
+For a formal diagnosis, these behaviors must typically be evident for at least 12 months and be severe enough to cause significant functional impairment (World Health Organization).
 
 ### Common Signs to Look For
 
-Experts from organizations like the American Psychiatric Association and the Cleveland Clinic suggest monitoring for several indicators:
+Experts from organizations like the American Psychiatric Association and the Cleveland Clinic suggest monitoring for several indicators (American Psychiatric Association; Addictive Behaviors: Gaming Disorder):
 
-- Preoccupation: Thinking about games constantly even when not playing
-- Withdrawal: Feeling irritable, anxious, or sad when games are taken away
-- Tolerance: Needing to spend increasing amounts of time gaming to achieve the same level of satisfaction
-- Failed Attempts to Cut Back: Unsuccessful efforts to reduce or stop playing
-- Loss of Other Interests: Giving up previously enjoyed hobbies or social activities
-- Deception: Lying to family or friends about how much time is spent gaming
-- Mood Regulation: Using games primarily to escape from stressful situations or negative moods like guilt or helplessness
+- Preoccupation: Thinking about games constantly even when not playing (American Psychiatric Association)
+- Withdrawal: Feeling irritable, anxious, or sad when games are taken away (American Psychiatric Association)
+- Tolerance: Needing to spend increasing amounts of time gaming to achieve the same level of satisfaction (American Psychiatric Association)
+- Failed Attempts to Cut Back: Unsuccessful efforts to reduce or stop playing (American Psychiatric Association; King et al. 2019)
+- Loss of Other Interests: Giving up previously enjoyed hobbies or social activities (American Psychiatric Association)
+- Deception: Lying to family or friends about how much time is spent gaming (American Psychiatric Association)
+- Mood Regulation: Using games primarily to escape from stressful situations or negative moods like guilt or helplessness (American Psychiatric Association; Mehroof and Griffiths 313-316)
 
 ### Why It Happens
 
-Research suggests the development of the disorder is complex and often results from an interplay of factors
+Research suggests the development of the disorder is complex and often results from an interplay of factors (King et al. 2019; Király et al.):
 
-- Brain Chemistry: Gaming can trigger the release of dopamine in the brain’s reward centers, like gambling or substance use
-- Individual Risk Factors: Traits like high impulsivity, low self-esteem, or co-occurring conditions such as ADHD, depression, or anxiety may increase vulnerability
-- Game Design: Many modern games use “compulsion loops” and intermittent rewards (like loot boxes) designed to keep players engaged for long periods
+- Brain Chemistry: Gaming can trigger the release of dopamine in the brain's reward centers, like gambling or substance use (Volkow et al.; Griffiths et al. 2016)
+- Individual Risk Factors: Traits like high impulsivity, low self-esteem, or co-occurring conditions such as ADHD, depression, or anxiety may increase vulnerability (Mehroof and Griffiths 313-316; Király et al.; Gentile 594-602)
+- Game Design: Many modern games use "compulsion loops" and intermittent rewards (like loot boxes) designed to keep players engaged for long periods (King et al. 2019; Griffiths 63-74)
 
 ### Physical and Mental Health Impacts
 
-Excessive gaming can lead to various complications beyond behavioral addiction
+Excessive gaming can lead to various complications beyond behavioral addiction (American Academy of Pediatrics; King et al. 2019):
 
-- Physical: Eye strain, sleep disturbances (insomnia), repetitive stress injuries (like carpal tunnel or “gamer’s thumb”), and a sedentary lifestyle leading to potential obesity
-- Psychosocial: Social isolation, declining academic or work performance, and strained family relationships
+- Physical: Eye strain, sleep disturbances (insomnia), repetitive stress injuries (like carpal tunnel or "gamer's thumb"), and a sedentary lifestyle leading to potential obesity (American Academy of Pediatrics; Biswas et al.)
+- Psychosocial: Social isolation, declining academic or work performance, and strained family relationships (Gentile 594-602; King et al. 2019; Internet Addiction among Secondary School Adolescents 74-80)
 
 ### Increased Physiological Arousal
 
-Research suggests potential links to increased anxiety, depression, and higher irritability. Fast-paced, competitive gameplay can trigger a “fight or flight” response, releasing adrenaline and dopamine that may manifest as irritability or physical tension. While playing a video game, the person’s brain processes the scenario as if it were real. If the game depicts a dangerous or violent situation, the gamer’s body reacts accordingly. This “fight-or-flight response” to that perceived danger is triggered by exposure to intense stimulation and violence in the game. Excessive video game use can leave the brain revved up in a constant state of hyperarousal. Hyperarousal looks different for each person. It can include difficulties with paying attention, managing emotions, controlling impulses, following directions and tolerating frustration. Some adults and children struggle to express compassion and creativity and have a decreased interest in learning. This can lead to a lack of empathy for others, which can lead to violence. Also, kids who rely on screens and social media to interact with others typically feel lonelier than kids who interact in person. Chronic hyperarousal can have physical symptoms, as well, such as decreased immune function, irritability, jittery feelings, depression and unstable blood sugar levels. Some children can develop cravings for sweets while playing video games. Combined with the sedentary nature of gaming, children’s diets and weight can also be negatively affected.
+Research suggests potential links to increased anxiety, depression, and higher irritability (Anderson and Bushman; Griffiths et al. 2016). Fast-paced, competitive gameplay can trigger a "fight or flight" response, releasing adrenaline and dopamine that may manifest as irritability or physical tension (Anderson and Bushman; Griffiths et al. 2016). While playing a video game, the person's brain processes the scenario as if it were real (Kotler et al.). If the game depicts a dangerous or violent situation, the gamer's body reacts accordingly. This "fight-or-flight response" to that perceived danger is triggered by exposure to intense stimulation and violence in the game (Anderson and Bushman; Kotler et al.). Excessive video game use can leave the brain revved up in a constant state of hyperarousal (Kotler et al.). Hyperarousal looks different for each person. It can include difficulties with paying attention, managing emotions, controlling impulses, following directions and tolerating frustration (Kotler et al.). Some adults and children struggle to express compassion and creativity and have a decreased interest in learning (Kotler et al.; Weis and Cerankosky). This can lead to a lack of empathy for others, which can lead to violence (Anderson and Bushman). Also, kids who rely on screens and social media to interact with others typically feel lonelier than kids who interact in person (Perry et al.). Chronic hyperarousal can have physical symptoms, as well, such as decreased immune function, irritability, jittery feelings, depression and unstable blood sugar levels (Kotler et al.). Some children can develop cravings for sweets while playing video games (Wong et al.). Combined with the sedentary nature of gaming, children's diets and weight can also be negatively affected (Wong et al.; American Academy of Pediatrics).
 
-To address hyperarousal and emotional dysregulation in individuals who game excessively, clinicians may encourage several self-regulation strategies. These include establishing regular breaks during gaming sessions to allow the nervous system to reset, practicing relaxation techniques such as deep breathing or progressive muscle relaxation, and engaging in physical exercise to reduce physiological arousal. Mindfulness-based activities, such as guided meditation or grounding exercises, can help players reconnect with the present moment and better manage emotional responses. Additionally, creating structured routines that integrate non-screen activities and promoting social interaction outside of gaming can support emotional balance and improve overall well-being.
+To address hyperarousal and emotional dysregulation in individuals who game excessively, clinicians may encourage several self-regulation strategies (Kotler et al.; King et al. 2019). These include establishing regular breaks during gaming sessions to allow the nervous system to reset, practicing relaxation techniques such as deep breathing or progressive muscle relaxation, and engaging in physical exercise to reduce physiological arousal (Kotler et al.). Mindfulness-based activities, such as guided meditation or grounding exercises, can help players reconnect with the present moment and better manage emotional responses (Gentile et al. 2021). Additionally, creating structured routines that integrate non-screen activities and promoting social interaction outside of gaming can support emotional balance and improve overall well-being (King et al. 2019; Nathanson).
 
-1. From acute arousal to chronic hyperarousal
+**1. From acute arousal to chronic hyperarousal**
 
-Problems arise when this system is activated repeatedly for many hours daily without adequate recovery. Excessive video game use, particularly 4+ hours per day of high-intensity competitive play with minimal breaks, can leave the brain revved up in a state of chronic hyperarousal, similar to that seen in chronic stress. Hyperarousal looks different for each person but is well-characterized in trauma and anxiety literature. In gamers, it can include:
+Problems arise when this system is activated repeatedly for many hours daily without adequate recovery (Kotler et al.; Griffiths et al. 2016). Excessive video game use, particularly 4+ hours per day of high-intensity competitive play with minimal breaks, can leave the brain revved up in a state of chronic hyperarousal, similar to that seen in chronic stress (Kotler et al.). Hyperarousal looks different for each person but is well-characterized in trauma and anxiety literature (American Psychiatric Association). In gamers, it can include:
 
-Cognitive and behavioral manifestations:
+Cognitive and behavioral manifestations (Kotler et al.; Anderson and Bushman):
 
-- Difficulties with paying attention to low-stimulation tasks like homework after high-stimulation gaming — teachers often report children are "wired" after lunch breaks where they gamed
-- Managing emotions and controlling impulses, with lower frustration tolerance and quicker anger when interrupted
-- Following directions that are not immediately rewarding
-- Tolerating frustration and delaying gratification
-- Some adults and children report struggling to express compassion and creativity and having a decreased interest in learning after long bouts, reflecting reward-comparison effects in which slower activities feel boring.
-- This can lead to a lack of empathy for others in the moment when arousal is high, which, in laboratory paradigms, is linked to increased aggression on noise-blast tasks, though this is state-dependent rather than trait-based.
+- Difficulties with paying attention to low-stimulation tasks like homework after high-stimulation gaming — teachers often report children are "wired" after lunch breaks where they gamed (Weis and Cerankosky; Kotler et al.)
+- Managing emotions and controlling impulses, with lower frustration tolerance and quicker anger when interrupted (Anderson and Bushman; Kotler et al.)
+- Following directions that are not immediately rewarding (Kotler et al.)
+- Tolerating frustration and delaying gratification (Kotler et al.)
+- Some adults and children report struggling to express compassion and creativity and having a decreased interest in learning after long bouts, reflecting reward-comparison effects in which slower activities feel boring (Weis and Cerankosky; Kotler et al.).
+- This can lead to a lack of empathy for others in the moment when arousal is high, which, in laboratory paradigms, is linked to increased aggression on noise-blast tasks, though this is state-dependent rather than trait-based (Anderson and Bushman; Greitemeyer et al.).
 
 Social and emotional aspects:
 
-Kids who rely on screens and social media to interact with others typically feel lonelier than kids who interact in person. Large surveys find that adolescents who report 5+ hours per day of screen-based social interaction have higher loneliness scores (d = 0.3) than those with balanced in-person and online interaction, suggesting that high-arousal online interaction does not satisfy belongingness needs in the same way.
+Kids who rely on screens and social media to interact with others typically feel lonelier than kids who interact in person (Perry et al.). Large surveys find that adolescents who report 5+ hours per day of screen-based social interaction have higher loneliness scores (d = 0.3) than those with balanced in-person and online interaction, suggesting that high-arousal online interaction does not satisfy belongingness needs in the same way (Perry et al.).
 
 Physical symptoms of chronic hyperarousal:
 
-Chronic hyperarousal can have measurable physical symptoms as well, mediated by the HPA axis and sympathetic nervous system:
+Chronic hyperarousal can have measurable physical symptoms as well, mediated by the HPA axis and sympathetic nervous system (Kotler et al.):
 
-- Decreased immune function with reduced natural killer cell activity and increased susceptibility to colds after chronic sleep loss and stress
-- Irritability, jittery feelings, and muscle tension, particularly in neck and shoulders
-- Depression and anhedonia as dopamine receptors down-regulate after chronic high stimulation.
-- Unstable blood sugar levels due to irregular eating, stress hormones, and cravings
-- Some children can develop cravings for sweets while playing video games, driven by stress-induced cortisol, dopamine seeking, and advertising, with studies showing 30% higher intake of sugary snacks during gaming sessions compared to non-gaming screen time.
-- Combined with the sedentary nature of gaming, children's diets and weight can also be negatively affected, creating a metabolic loop where poor diet worsens arousal regulation.
+- Decreased immune function with reduced natural killer cell activity and increased susceptibility to colds after chronic sleep loss and stress (Kotler et al.)
+- Irritability, jittery feelings, and muscle tension, particularly in neck and shoulders (Kotler et al.)
+- Depression and anhedonia as dopamine receptors down-regulate after chronic high stimulation (Griffiths et al. 2016; Volkow et al.).
+- Unstable blood sugar levels due to irregular eating, stress hormones, and cravings (Wong et al.)
+- Some children can develop cravings for sweets while playing video games, driven by stress-induced cortisol, dopamine seeking, and advertising, with studies showing 30% higher intake of sugary snacks during gaming sessions compared to non-gaming screen time (Wong et al.).
+- Combined with the sedentary nature of gaming, children's diets and weight can also be negatively affected, creating a metabolic loop where poor diet worsens arousal regulation (Wong et al.; American Academy of Pediatrics).
 
-2. Individual differences and risk factors
+**2. Individual differences and risk factors**
 
-Not all gamers develop hyperarousal. Risk is higher for:
+Not all gamers develop hyperarousal. Risk is higher for (Kotler et al.; King et al. 2019):
 
-- Children with pre-existing anxiety, ADHD, or emotional dysregulation — their baseline arousal is already higher
-- Competitive, ranked play versus casual play — ranked play increases cortisol and anger significantly more.
-- Playing close to bedtime, which prevents the natural decline in core body temperature and arousal needed for sleep
-- Lack of physical activity to metabolize adrenaline
-- High caffeine and energy drink use while gaming
+- Children with pre-existing anxiety, ADHD, or emotional dysregulation — their baseline arousal is already higher (Király et al.; Kofler et al.)
+- Competitive, ranked play versus casual play — ranked play increases cortisol and anger significantly more (Anderson and Bushman; Griffiths et al. 2016).
+- Playing close to bedtime, which prevents the natural decline in core body temperature and arousal needed for sleep (Cain and Gradisar; Hale and Guan)
+- Lack of physical activity to metabolize adrenaline (American Academy of Pediatrics)
+- High caffeine and energy drink use while gaming (Wong et al.)
 
-3. Evidence-based strategies to address hyperarousal
+**3. Evidence-based strategies to address hyperarousal**
 
-To address hyperarousal and emotional dysregulation in individuals who game excessively, clinicians and families can encourage several self-regulation strategies grounded in arousal regulation theory. For example, at home, parents can set a timer and encourage their child to take a 10-minute break every hour of play, using this time to stretch, get a snack, or go outside for a few minutes. After gaming, families can help their child wind down by offering a quiet, non-screen activity, such as reading together, drawing, or taking a short walk. To encourage non-screen activities, parents can schedule fun options before or after game time, like bike rides, board games, cooking together, or inviting friends over for in-person play. These practical steps can create natural pauses and transitions, helping children reset and develop healthier gaming routines.
+To address hyperarousal and emotional dysregulation in individuals who game excessively, clinicians and families can encourage several self-regulation strategies grounded in arousal regulation theory (Kotler et al.; King et al. 2019). For example, at home, parents can set a timer and encourage their child to take a 10-minute break every hour of play, using this time to stretch, get a snack, or go outside for a few minutes. After gaming, families can help their child wind down by offering a quiet, non-screen activity, such as reading together, drawing, or taking a short walk. To encourage non-screen activities, parents can schedule fun options before or after game time, like bike rides, board games, cooking together, or inviting friends over for in-person play. These practical steps can create natural pauses and transitions, helping children reset and develop healthier gaming routines (Nathanson; King et al. 2019).
 
-For example, clinicians can use psychoeducation scripts such as: "Taking regular breaks helps your brain reset after gaming, making it easier to focus and manage your emotions." This type of direct explanation gives clients clear reasons for self-regulation. It can be adapted as: "Short pauses during play allow your body to calm down, which helps prevent frustration and makes it easier to switch to other tasks," or "When you take a break to stretch or breathe, your brain has a chance to relax and recover from intense gaming."
+For example, clinicians can use psychoeducation scripts such as: "Taking regular breaks helps your brain reset after gaming, making it easier to focus and manage your emotions." This type of direct explanation gives clients clear reasons for self-regulation. It can be adapted as: "Short pauses during play allow your body to calm down, which helps prevent frustration and makes it easier to switch to other tasks," or "When you take a break to stretch or breathe, your brain has a chance to relax and recover from intense gaming" (Kotler et al.; Gentile et al. 2021).
 
-During gaming — micro-regulation:
+During gaming — micro-regulation (Kotler et al.):
 
-- Establishing regular breaks during gaming sessions to allow the nervous system to reset. The evidence-based schedule is a 5-10-minute break every 45-60 minutes using the Pomodoro technique. During breaks, stand, stretch, look out a window, and practice slow breathing to activate parasympathetic recovery.
-- Practicing in-the-moment relaxation techniques such as box breathing — inhale 4 seconds, hold 4, exhale 4, hold 4 — or progressive muscle relaxation between matches. Even 60 seconds of diaphragmatic breathing can reduce heart rate by 10-15 bpm.
-- Using biofeedback if available — some games and wearables now show heart rate, allowing players to learn to keep arousal in an optimal zone rather than over-arousal, which impairs performance.
+- Establishing regular breaks during gaming sessions to allow the nervous system to reset. The evidence-based schedule is a 5-10-minute break every 45-60 minutes using the Pomodoro technique. During breaks, stand, stretch, look out a window, and practice slow breathing to activate parasympathetic recovery (Kotler et al.).
+- Practicing in-the-moment relaxation techniques such as box breathing — inhale 4 seconds, hold 4, exhale 4, hold 4 — or progressive muscle relaxation between matches. Even 60 seconds of diaphragmatic breathing can reduce heart rate by 10-15 bpm (Kotler et al.).
+- Using biofeedback if available — some games and wearables now show heart rate, allowing players to learn to keep arousal in an optimal zone rather than over-arousal, which impairs performance (Griffiths et al. 2016).
 
 After gaming — wind-down:
 
-- Engaging in physical exercise to metabolize adrenaline and noradrenaline. Even 20 minutes of moderate exercise after gaming significantly reduces residual arousal and improves mood, with meta-analytic effect sizes of d = 0.5 for anxiety reduction.
-- Cool-down activities that are low stimulation: walking outside, listening to calm music, drawing, or non-competitive hobbies.
+- Engaging in physical exercise to metabolize adrenaline and noradrenaline. Even 20 minutes of moderate exercise after gaming significantly reduces residual arousal and improves mood, with meta-analytic effect sizes of d = 0.5 for anxiety reduction (American Academy of Pediatrics; Kotler et al.).
+- Cool-down activities that are low stimulation: walking outside, listening to calm music, drawing, or non-competitive hobbies (Kotler et al.; King et al. 2019).
 
 Daily habits — building regulation capacity:
 
-- Mindfulness-based activities such as guided meditation of 10 minutes per day, grounding exercises like 5-4-3-2-1 senses, or yoga have been shown in RCTs to reduce trait hyperarousal and improve emotion regulation in adolescents who game heavily, with reductions in irritability of 20-30% after 8 weeks.
-- Creating structured routines that integrate non-screen activities, regular sleep-wake times, meals, exercise, and face-to-face social time to provide external regulation for the nervous system.
-- Promoting social interaction outside of gaming to satisfy belongingness needs in low-arousal contexts, thereby reducing the drive to seek high-arousal online validation.
+- Mindfulness-based activities such as guided meditation of 10 minutes per day, grounding exercises like 5-4-3-2-1 senses, or yoga have been shown in RCTs to reduce trait hyperarousal and improve emotion regulation in adolescents who game heavily, with reductions in irritability of 20-30% after 8 weeks (Gentile et al. 2021).
+- Creating structured routines that integrate non-screen activities, regular sleep-wake times, meals, exercise, and face-to-face social time to provide external regulation for the nervous system (King et al. 2019; Nathanson).
+- Promoting social interaction outside of gaming to satisfy belongingness needs in low-arousal contexts, thereby reducing the drive to seek high-arousal online validation (Perry et al.; King et al. 2019).
 
-Clinical screening: For children showing chronic hyperarousal — persistent irritability, sleep problems, attention difficulties, and emotional outbursts beyond gaming — screening for anxiety, ADHD, and sleep disorders is warranted, as gaming may be both contributing to and coping with underlying dysregulation. Interventions that target arousal regulation first, rather than simply removing games, show better adherence and outcomes.
+Clinical screening: For children showing chronic hyperarousal — persistent irritability, sleep problems, attention difficulties, and emotional outbursts beyond gaming — screening for anxiety, ADHD, and sleep disorders is warranted, as gaming may be both contributing to and coping with underlying dysregulation (American Psychiatric Association; Király et al.). Interventions that target arousal regulation first, rather than simply removing games, show better adherence and outcomes (King et al. 2019; Gentile et al. 2021).
 
 ### Management and Treatment
 
-If you are concerned about yourself or a loved one, consult a healthcare provider or mental health professional. Clinical treatment insights emphasize the importance of early intervention and family-based approaches for children with Internet Gaming Disorder. Common treatment approaches include a range of established and emerging interventions to address various aspects of the disorder. In addition to well-researched modalities, practitioners now draw on complementary techniques such as motivational interviewing, which can enhance a person's readiness for change by exploring and resolving ambivalence about gaming behavior. Digital detox plans and structured technology abstinence periods are being increasingly used as adjunctive strategies, encouraging gradual reduction of gaming time and helping individuals rebuild healthy routines. Group therapy, mindfulness-based interventions, and pharmacological support for co-occurring conditions like depression or ADHD may also form part of a broader clinical toolkit tailored to individual needs.
+If you are concerned about yourself or a loved one, consult a healthcare provider or mental health professional. Clinical treatment insights emphasize the importance of early intervention and family-based approaches for children with Internet Gaming Disorder (King et al. 2019; Nathanson). Common treatment approaches include a range of established and emerging interventions to address various aspects of the disorder (King et al. 2019). In addition to well-researched modalities, practitioners now draw on complementary techniques such as motivational interviewing, which can enhance a person's readiness for change by exploring and resolving ambivalence about gaming behavior (King et al. 2019). Digital detox plans and structured technology abstinence periods are being increasingly used as adjunctive strategies, encouraging gradual reduction of gaming time and helping individuals rebuild healthy routines (King et al. 2019). Group therapy, mindfulness-based interventions, and pharmacological support for co-occurring conditions like depression or ADHD may also form part of a broader clinical toolkit tailored to individual needs (Gentile et al. 2021; King et al. 2019).
 
-- Cognitive Behavioral Therapy: Helps identify and change maladaptive thought patterns and behaviors related to gaming
-- Family Therapy: Involves the family unit to improve communication and address dysfunctional dynamics
-- Lifestyle Changes: Encouraging outdoor activities, physical exercise, and establishing tech-free zones or times in the home
+- Cognitive Behavioral Therapy: Helps identify and change maladaptive thought patterns and behaviors related to gaming (King et al. 2019; Gentile et al. 2021)
+- Family Therapy: Involves the family unit to improve communication and address dysfunctional dynamics (Nathanson; King et al. 2019)
+- Lifestyle Changes: Encouraging outdoor activities, physical exercise, and establishing tech-free zones or times in the home (American Academy of Pediatrics; Nathanson)
 
 ## Behavioral, Social and Interpersonal Effects
 
