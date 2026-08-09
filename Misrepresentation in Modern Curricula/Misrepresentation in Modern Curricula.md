@@ -251,7 +251,7 @@ Literature and media by and about diverse individuals should be central, require
 
 ### Systemic Reforms Necessary for Effective Implementation
 
-Sustained, job-embedded training and resources are essential for teachers to implement culturally responsive pedagogy. Isolated workshops are insufficient. Effective professional development should include weekly Professional Learning Communities (PLCs) where teachers review student work, plan culturally relevant lessons, and reflect on instructional practices. Instructional coaching should involve regular classroom observations, targeted feedback on strategies like promoting student voice and integrating diverse perspectives, and support for professional growth objectives. Collaborative lesson studies help ensure content remains accessible and affirming for all students. High-quality curriculum materials should offer curated online resource libraries featuring diverse authors and perspectives, along with sample lesson plans vetted for cultural relevance . Professional learning must be integrated into the school day through scheduled release time or staff development blocks, not added to teachers' existing workloads. At the policy level, states and districts should require ongoing, job-embedded professional development in culturally responsive teaching as prerequisites for educator licensure and recertification. State education agencies can allocate dedicated funding or grants for PLCs, coaching, and lesson study cycles, with additional incentives for high-need schools. Policymakers should ensure collective bargaining agreements and school improvement plans guarantee release time for collaborative professional learning. States and districts should also establish oversight mechanisms to monitor progress, set standards for vetting curriculum resources, and offer incentives like stipends or recognition for teachers who lead or participate in transformative professional development. Administrative leaders must model ongoing learning, prioritize equity-focused teaching, and allocate resources and time for staff development (Gay; Ladson-Billings, "Toward a Theory"; Hobbs, Digital and Media Literacy).
+Sustained, job-embedded training and resources are essential for teachers to implement culturally responsive pedagogy. Isolated workshops are insufficient. Effective professional development should include weekly Professional Learning Communities (PLCs) where teachers review student work, plan culturally relevant lessons, and reflect on instructional practices. Instructional coaching should involve regular classroom observations, targeted feedback on strategies like promoting student voice and integrating diverse perspectives, and support for professional growth objectives. Collaborative lesson studies help ensure content remains accessible and affirming for all students. High-quality curriculum materials should offer curated online resource libraries featuring diverse authors and perspectives, along with sample lesson plans vetted for cultural relevance . Professional learning must be integrated into the school day through scheduled release time or staff development blocks, not added to teachers' existing workloads. At the policy level, states and districts should require ongoing, job-embedded professional development in culturally responsive teaching as prerequisites for educator licensure and recertification. State education agencies can allocate dedicated funding or grants for PLCs, coaching, and lesson study cycles, with additional incentives for high-need schools. Policymakers should ensure collective bargaining agreements and school improvement plans guarantee release time for collaborative professional learning. States and districts should also establish oversight mechanisms to monitor progress, set standards for vetting curriculum resources, and offer incentives like stipends or recognition for teachers who lead or participate in transformative professional development. Administrative leaders must model ongoing learning, prioritize equity-focused teaching, and allocate resources and time for staff development (Gay; Ladson-Billings, "Toward a Theory").
 
 Curriculum frameworks and standards should integrate culturally inclusive content from elementary through high school. State content standards must require culturally inclusive material across subjects and allocate funding for curriculum development and materials (Sleeter; Dee and Penner). Empirical research shows that culturally relevant curricula enhance student engagement and achievement, especially among historically marginalized groups. Integrating ethnic studies and culturally responsive materials can improve attendance, critical thinking, and graduation outcomes (Dee and Penner).`r`n`r`nPolicymakers should facilitate implementation by adopting a phased approach to curriculum and assessment reforms. Pilot programs in selected districts can test and refine new standards and materials, generating feedback before broader adoption. Stakeholder engagement should include educators, families, students, and community organizations to ensure comprehensive input and support. Policymakers must establish clear legislative timelines with defined milestones for curriculum revision, professional development, and assessment updates. They should also allocate targeted funding for these transitions. Transparent evaluation and iterative processes are essential to ensure reforms are effective and sustainable.
 
@@ -295,7 +295,7 @@ Organizations advocating for 'parental rights' have contested curricula and targ
 
 These developments have fostered an environment characterized by fear, censorship, and a retreat from progressive educational practices, discouraging educators from engaging students in substantive discussions about identity, justice, and history (PEN America, "Banned in the USA: The Growing Movement"; Friedman and Johnson). This chilling effect extends beyond the classroom, influencing libraries, extracurricular programs, and student-led diversity initiatives. Some students report feeling silenced or marginalized when their identities or histories are omitted from curricula, which can lead to decreased engagement and well-being. This shift undermines academic freedom and weakens public education's capacity to prepare students for democratic participation and social responsibility.
 
-Proponents of book bans and anti-CRT legislation contend that these measures safeguard children from age-inappropriate content, prevent political or ideological influence, and uphold parental authority in education. Some individuals express concern that discussions of race, gender, or sexuality may generate division or conflict with personal, religious, or cultural values. These apprehensions are occasionally fueled by misinformation or fears regarding diminished control over children's upbringing. Political actors may capitalize on these anxieties to garner support, resulting in polarized debate and diminishing opportunities for mutual understanding and collaboration between schools and families.
+Proponents of book bans and anti-CRT legislation contend that these measures safeguard children from age-inappropriate content, prevent political or ideological influence, and uphold parental authority in education. Some individuals express concern that discussions of race, gender, or sexuality may generate division or conflict with personal, religious, or cultural values. These apprehensions are occasionally fueled by fears regarding diminished control over children's upbringing. Political actors may capitalize on these anxieties to garner support, resulting in polarized debate and diminishing opportunities for mutual understanding and collaboration between schools and families.
 
 In response, certain educators and policymakers have encouraged dialogue and transparency in curriculum decision-making. Some districts have established parent advisory committees or convened community forums to discuss curriculum changes and address questions directly. Others have implemented opt-out policies or provided advance notice regarding instructional materials to accommodate diverse perspectives while upholding educational objectives. Although these initiatives may not resolve all disagreements, they can foster trust, clarify intentions, and emphasize shared values such as respect, inclusion, and academic rigor. These collaborative strategies demonstrate the potential to bridge divides and address concerns without undermining inclusive education.
 
@@ -319,9 +319,9 @@ The current wave of student activism is significant and unprecedented in both sc
 
 Educators play a vital role in supporting and empowering students, even within restrictive environments. By facilitating open and respectful discussions on complex topics, ensuring the representation of diverse viewpoints, and establishing classroom norms that honor students' voices and identities, teachers promote critical thinking, civic engagement, and a sense of belonging. Effective educators actively seek student input in shaping classroom content, demonstrating that students' experiences and perspectives are valued. To minimize risk while supporting students, teachers can anonymize discussions by focusing on hypothetical scenarios or historical case studies, utilize district-approved curriculum frameworks as a basis for deeper exploration, and document lessons and communications in accordance with school policies. When feasible, educators should discreetly connect students with advocacy resources, local organizations, or community events, always prioritizing student privacy and safety. Encouraging students to research, discuss, and debate real-world issues as part of assignments fosters autonomy without contravening school policies.  By acknowledging and safely and constructively guiding student activism, teachers help students develop confidence in their capacity to contribute to a more just society and prepare them for lifelong civic participation.
 
-This issue is critical not only for students, but for the health of democracy, the pursuit of justice, and the stability of society as a whole. In an era characterized by the climate crisis, democratic backsliding, rising authoritarianism, pandemics, rapid technological change, economic inequality, and social movements for justice, students require a robust understanding of history and power structures. These global and national challenges highlight the necessity for education systems that empower students not simply to learn facts, but to interrogate the status quo, question assumptions, and envision alternatives to unjust systems. They must also develop advanced skills to navigate complex issues, assess and synthesize information from multiple sources, resist manipulation and misinformation, and think critically and creatively. The ability to engage with diverse perspectives and interrogate sources is fundamental for responsible citizenship in a pluralistic society—and for defending against polarization, propaganda, and anti-democratic tendencies.
+This issue is critical not only for students, but for the health of democracy, the pursuit of justice, and the stability of society as a whole. In an era characterized by the climate crisis, democratic backsliding, rising authoritarianism, pandemics, rapid technological change, economic inequality, and social movements for justice, students require a robust understanding of history and power structures. These global and national challenges highlight the necessity for education systems that empower students not simply to learn facts, but to interrogate the status quo, question assumptions, and envision alternatives to unjust systems. They must also develop advanced skills to navigate complex issues, assess and synthesize information from multiple sources, think critically and creatively. The ability to engage with diverse perspectives and interrogate sources is fundamental for responsible citizenship in a pluralistic society—and for defending against polarization, propaganda, and anti-democratic tendencies.
 
-Teachers reflect this importance in daily decisions, such as selecting texts, balancing open discussion with necessary restrictions, addressing students' questions about injustice and current events, and creating supportive learning environments. These choices are not merely pedagogical; they are deeply ethical and political, as they shape the contours of students' worldviews and sense of agency. Decisions such as including works by queer or BIPOC authors, teaching climate science without censorship, or fostering discussion about power systems significantly influence students' sense of belonging, critical engagement, and civic readiness. Moreover, the presence or absence of inclusive education shapes students' future participation in democracy, their resilience against misinformation, and their capacity for empathy and cross-cultural understanding. Without reflective representation and analytical skills, both students and society remain vulnerable to manipulation, division, and crisis (Vosoughi et al.; Benkler et al.; Mihailidis; Gay; Freire). In this context, the stakes of inclusive education are nothing less than the future of democratic society itself.
+Teachers reflect this importance in daily decisions, such as selecting texts, balancing open discussion with necessary restrictions, addressing students' questions about injustice and current events, and creating supportive learning environments. These choices are not merely pedagogical; they are deeply ethical and political, as they shape the contours of students' worldviews and sense of agency. Decisions such as including works by queer or BIPOC authors, teaching climate science without censorship, or fostering discussion about power systems significantly influence students' sense of belonging, critical engagement, and civic readiness. Moreover, the presence or absence of inclusive education shapes students' future participation in democracy, their resilience, and their capacity for empathy and cross-cultural understanding. Without reflective representation and analytical skills, both students and society remain vulnerable to manipulation, division, and crisis (Vosoughi et al.; Benkler et al.; Mihailidis; Gay; Freire). In this context, the stakes of inclusive education are nothing less than the future of democratic society itself.
 
 To address these urgent challenges, policymakers must take clear and specific action grounded in research and best practices. They should strengthen and enforce protections for educators' academic freedom, enabling teachers to present diverse viewpoints and accurate history without fear of repercussions or political interference. Legislation must also safeguard students' access to books and learning materials that reflect a broad range of identities and experiences, while prohibiting politically motivated book bans and curricular censorship. In addition, policies should mandate the inclusion of historically underrepresented narratives and ensure that curricula are regularly reviewed for bias and accuracy.
 
@@ -335,318 +335,598 @@ Teaching truth and tools—culturally responsive, culturally sustaining e
 
 ## References
 
+
+
 Alim, H. Samy, et al., editors. *Raciolinguistics: How Language Shapes Our Ideas About Race.* Oxford University Press, 2016.
+
+
 
 Bialik, Kristen, et al. "6 facts about English learners in U.S. public schools." Pew Research Center, October 24, 2018. https://www.pewresearch.org/short-reads/2018/10/25/6-facts-about-english-language-learners-in-u-s-public-schools/
 
+
+
 Schaeffer, Katherine. "Key facts about public school teachers in the U.S.." Pew Research Center, September 23, 2024. https://www.pewresearch.org/short-reads/2024/09/24/key-facts-about-public-school-teachers-in-the-u-s/
+
+
 
 Abacioglu, Ceren S., et al. "Effects of multicultural education on student engagement in low- and high-concentration classrooms: the mediating role of student relationships." Learning Environments Research, vol. 26, 2023. https://doi.org/10.1007/s10984-023-09462-0
 
+
+
 Plachowski, Tara J.. "Reflections of Preservice Teachers of Color: Implications for the Teacher Demographic Diversity Gap." Educ. Sci. 2019, 2019. https://doi.org/10.3390/educsci9020144
+
+
 
 Patton, James M., et al. "Recruiting and Retaining Culturally and Linguistically Diverse Teachers in Special Education: Models for Successful Personnel Preparation." Teacher Education and Special Education, vol. 26, no. 4, 2003, pp. 355-372. https://doi.org/10.1177/088840640302600405
 
+
+
 Sobel, Donna M., et al. "Deepening culturally responsive understandings within a teacher preparation program: It's a process." Urban Education, vol. 43, no. 5, 2008, pp. 545-573. https://doi.org/10.1177/0042085908316042
+
+
 
 "Teaching Quality." IDRA. https://www.idra.org/support/teaching-quality/ Accessed August 8, 2026
 
+
+
 Staff, Pasadena City College Faculty and. "Pedagogical Advancement Through Collaboration of Teachers and Students (PACTS)." Pasadena City College, 2023. https://pasadena.edu/faculty-and-staff/pd/pacts.php Accessed August 8, 2026
+
+
 
 "Inclusive Teaching." UCLA Teaching &amp; Learning Center, 2025. https://teaching.ucla.edu/resources/teaching-guides/inclusive-teaching/ Accessed August 8, 2026
 
+
+
 "Teacher Quality Partnership Program (84.336S)." U.S. Department of Education, 2026. https://www.ed.gov/grants-and-programs/teacher-preparation-grants/teacher-quality-partnership-program-84336s Accessed August 8, 2026
+
+
 
 Kuenzi, Jeffrey J.. "K-12 Teacher Recruitment and Retention Policies in the Higher Education Act: In Brief." https://www.congress.gov/crs-products/product/pdf/R/R45914/4
 
+
+
 Lohwasser, Karin, et al. "“Protected Teaching Spaces”: Opportunities and Constraints When Teaching for the edTPA." Educational Researcher, vol. 46, no. 1, 2024. https://doi.org/10.3102/01623737231162112
+
+
 
 Shafer, Leah. "How to Sustain Faculty Diversity." Harvard Graduate School of Education, 2017. https://www.gse.harvard.edu/ideas/usable-knowledge/17/08/how-sustain-faculty-diversity Accessed August 8, 2026
 
+
+
 Comstock, Meghan, et al. "A Culturally Responsive Disposition: How Professional Learning and Teachers’ Beliefs About and Self-Efficacy for Culturally Responsive Teaching Relate to Instruction." Journal of Teacher Education, vol. 74, no. 1, 2023, pp. 3-16. https://doi.org/10.1177/23328584221140092
+
+
 
 "Examining the impact of culturally responsive teaching and identity affirmation on student outcomes: A mixed-methods study in diverse educational settings." International Journal of Educational Development, vol. 117, 2025. https://doi.org/10.1016/j.ijedudev.2025.103376
 
+
+
 Shirrell, Matthew, et al. "The Effects of Student–Teacher Ethnoracial Matching on Exclusionary Discipline for Asian American, Black, and Latinx Students: Evidence From New York City." Educational Researcher, vol. 53, no. 5, 2024, pp. 295-305. https://doi.org/10.3102/01623737231175461
+
+
 
 IV, H. Richard Milner. "Disrupting deficit notions of difference: Counter-narratives of teachers and community in urban education." Teaching and Teacher Education, vol. 24, no. 6, 2008, pp. 1573-1598. https://doi.org/10.1016/j.tate.2008.02.011
 
+
+
 Comstock, Meghan, et al. "A Culturally Responsive Disposition: How Professional Learning and Teachers’ Beliefs About and Self-Efficacy for Culturally Responsive Teaching Relate to Instruction." SAGE Open, vol. 13, no. 1, 2023. https://doi.org/10.1177/23328584221140092
+
+
 
 Siegel, Larry J.. Making Sense of Criminal Justice: Policies &amp; Practices. Oxford University Press, 2017. https://www.oxford.com/academic/product/making-sense-of-criminal-justice-9780190679385
 
+
+
 O’Donnell, Kaeli, et al. "The Effects of Online Anti-Bias Training on Educators’ Multicultural Competence." Contemporary School Psychology, vol. 29, 2024. https://doi.org/10.1007/s40688-024-00510-x
+
+
 
 Cochran-Smith, Marilyn, and Emilie Reagan. "Beyond “best practices”: Centering equity in teacher preparation evaluation." Education Policy Analysis Archives, vol. 30, 2022. https://doi.org/10.14507/epaa.30.7040
 
+
+
 Bastian, Kevin C., et al. "Placed for Success: Which Teachers Benefit from High-Quality Student Teaching Placements?." Journal of Teacher Education, vol. 36, no. 7, 2022, pp. 1-15. https://doi.org/10.1177/0895904820951126
+
+
 
 Madhani, Naureen, et al. "Teacher Residencies as an Approach to Teacher Diversity." Issues in Teacher Education, vol. 32, no. 2, 2023, pp. 7-22. https://cprl.law.columbia.edu/content/teacher-residencies-approach-teacher-diversity-0
 
+
+
 Nevarez, Carlos, et al. "Benefits of Teacher Diversity: Leading for Transformative Change." Journal of School Administration Research and Development, vol. 41, 2019, pp. 24-34. https://doi.org/10.32674/jsard.v4i1.1940
+
+
 
 Office, U.S. Government Accountability. "K-12 Education: Research on Effectiveness of Professional Development Is Mixed, but Teachers Find Collaborative Learning Most Useful." GAO-26-107874, March 26, 2026. https://www.gao.gov/products/gao-26-107874
 
+
+
 Nevarez, Carlos, et al. "Benefits of Teacher Diversity: Leading for Transformative Change." Journal of School Administration Research and Development, vol. 41, 2019, pp. 24-34. https://doi.org/10.32674/jsard.v4i1.1940
+
+
 
 Lerner, Richard M., et al. Handbook of Adolescent Psychology (2nd Ed.). John Wiley & Sons, 2004. https://studylib.net/doc/28408000/hand-book-of-adolscents
 
+
+
 Boat, Ashley A., et al. "Student‐teacher developmental relationships: A mechanism through which culturally responsive school environments promote positive outcomes for students of color." Psychology in the Schools, vol. 62, no. 2, 2025. https://doi.org/10.1002/pits.23340
+
+
 
 Brady, Shannon T., et al. "The affirmed (White) teacher in a cross-race context." Social Psychology of Education, vol. 27, 2024. https://doi.org/10.1007/s11218-023-09812-z
 
+
+
 Xu, Shirley H., et al. "(Dis)connection at Work: Racial Isolation, Teachers’ Job Experiences, and Teacher Turnover." American Educational Research Journal, vol. 61, no. 6, 2024. https://doi.org/10.3102/00028312241278597
+
+
 
 Kwok, Andrew, et al. "Exploring a Teacher Residency as a Recruitment and Retention Strategy for High-Need Districts." American Educational Research Journal, vol. 61, no. 3, 2024. https://doi.org/10.1177/00220574231196558
 
+
+
 "The impact of a field immersion program on pre-service teachers’ attitudes toward teaching in culturally diverse classrooms." Teaching and Teacher Education, vol. 23, no. 5, 2007, pp. 653-663. https://doi.org/10.1016/j.tate.2007.02.007
+
+
 
 Moss, Phelton C., and Ashley White L.. "Lead or Leave? Reimagining Leadership Opportunities to Retain Teachers of Color." The Urban Review, vol. 58, 2025. https://doi.org/10.1007/s11256-025-00785-1
 
+
+
 Comstock, Meghan, et al. "A Culturally Responsive Disposition: How Professional Learning and Teachers’ Beliefs About and Self-Efficacy for Culturally Responsive Teaching Relate to Instruction." AERA Open, vol. 9, 2023. https://doi.org/10.1177/23328584221140092
+
+
 
 Wisniewski, Robin. "Culturally Responsive Teaching for Student Equitable Achievement (CuRTSEA): A Professional Development Program." IES, R305A210146, June 30, 2021. https://ies.ed.gov/use-work/awards/culturally-responsive-teaching-student-equitable-achievement-curtsea-professional-development
 
+
+
 Nevarez, Carlos, et al. "Benefits of Teacher Diversity: Leading for Transformative Change." Journal of School Administration Research and Development, vol. 41, 2019, pp. 24-34. https://doi.org/10.32674/jsard.v4i1.1940
+
+
 
 Lorenz, G. (2021). Subtle discrimination: do stereotypes among teachers trigger bias in their expectations and widen ethnic achievement gaps?. Social Psychology of Education 24. https://doi.org/10.1007/s11218-021-09615-0
 
+
+
 (2023). Cultural Responsiveness Rubric. Western Carolina University. https://www.wcu.edu/_files/academic-enrichment/Cultural.pdf
+
+
 
 Trainor, A. A. & Bal, A. (2012). Development and Preliminary Analysis of a Rubric for Culturally Responsive Research. The Journal of Special Education 47(4), pp. 203-216. https://doi.org/10.1177/0022466912436397
 
+
+
 Yilmaz, M., Buchanan, M. B. & Martin, J. (2023). Disrupting majoritarian narratives in high stakes testing: A critical race theory analysis of assessment. Equity in Education & Society 2(1). https://doi.org/10.1177/27526461221141903
+
+
 
 Allen, A., Hancock, S. D., Starker-Glass, T. & Lewis, C. W. (2017). Mapping Culturally Relevant Pedagogy into Teacher Education Programs: A Critical Framework. Journal of Teacher Education 119(1). https://doi.org/10.1177/016146811711900107
 
+
+
 Franco, M. P., Bottiani, J. H. & Bradshaw, C. P. (2024). Assessing Teachers’ Culturally Responsive Classroom Practice in PK–12 Schools: A Systematic Review of Teacher-, Student-, and Observer-Report Measures. Educational Researcher. https://doi.org/10.3102/00346543231208720
+
+
 
 Zimmerman, R. H., Maker, C. J. & Alfaiz, F. (2020). Culturally Responsive Assessment of Life Science Skills and Abilities: Development, Field Testing, Implementation, and Results. Journal of Advanced Academics 31(3), pp. 233-256. https://doi.org/10.1177/1932202X20923981
 
+
+
 "Books most targeted for bans in 2023 centered on race, LGBTQ themes." Axios, April 8, 2024. https://www.axios.com/2024/04/09/book-bans-2023-most-challenged-list
+
+
 
 Hawkins, Alicia. "Lawmakers introduced 563 anti–Critical Race Theory measures in 2021 and 2022." UCLA Law, April 5, 2023. https://law.ucla.edu/news/lawmakers-introduced-563-anti-critical-race-theory-measures-2021-and-2022
 
+
+
 An Introduction to "Trouble In Censorville: The Far Right's Assault on Public Education and the Teachers Who Are Fighting Back". Disobedience Press, 2024. https://www.researchgate.net/reader/full/384228243
+
+
 
 "New Jersey Revised Statutes Section 18A:35-4.36a - Curriculum to contain instruction on diversity and inclusion.." https://law.justia.com/codes/new-jersey/2024/title-18a/section-18a-35-4-36a/
 
+
+
 Staff, SLJ. "PEN America Reports Nearly 200 Percent Rise in Book Bans Last School Year; Launches Searchable Database." School Library Journal, October 31, 2024. https://www.slj.com/story/PEN-America-Reports-nearly-200-Percent-Rise-Book-Bans-Last-School-Year-Launches-Searchable-Database
 
+
+
 Bonilla, Sade, et al. "Ethnic studies increases longer-run academic engagement and attainment." Proceedings of the National Academy of Sciences, vol. 118, no. 37, 2021. https://doi.org/10.1073/pnas.2026386118
+
+
 
 Donath, Johanna L., et al. "Does Professional Development Effectively Support the Implementation of Inclusive Education? A Meta-Analysis." Educational Psychology Review, vol. 35, 2023. https://doi.org/10.1007/s10648-023-09752-2
 
+
+
 Policy, Center for Evaluation and Education. "Censorship of Critical Perspectives in American Schools." https://www.cpr.indiana.edu/ceep/education-policy/policy-briefs/2024/censorship-of-critical-perspectives-in-american-schools.html
 
-"Media Literacy Law in Illinois." NPR Illinois, July 8, 2021. https://www.nprillinois.org/2021-07-14/media-literacy-requirement-animal-products-ban-among-latest-53-bills-signed-by-pritzker
+
+
+
 
 "Standards for Permissible Electronic Devices and Software Applications." Texas Education Agency, November 29, 2023. https://tea.texas.gov/taa-letters/standards-permissible-electronic-devices-and-software-applications
 
+
+
 "New Jersey Revised Statutes Section 18A:7F-4.4 (2023) - New Jersey Student Learning Standards, information literacy; definition.." https://law.justia.com/codes/new-jersey/2023/title-18a/section-18a-7f-4-4/
+
+
 
 "Culturally Responsive-Sustaining Education Framework." New York State Education Department, 2019. https://www.nysed.gov/file/culturally-responsive-sustaining-cr-s-framework Accessed August 8, 2026
 
+
+
 "Ethnic Studies Model Curriculum." California Department of Education, 2021. https://www.cde.ca.gov/ci/cr/cf/esmc.asp Accessed August 8, 2026
+
+
 
 Bonner, Patricia J., et al. "Voices From Urban Classrooms: Teachers’ Perceptions on Instructing Diverse Students and Using Culturally Responsive Teaching." Urban Education, vol. 50, no. 8, 2018, pp. 1-16. https://doi.org/10.1177/0013124517713820
 
+
+
 Bardach, L., Röhl, S., Oczlon, S., Schumacher, A., Lüftenegger, M., Lavelle-Hill, R., Schwarzenthal, M. & Zitzmann, S. (2024). Cultural Diversity Climate in School: A Meta-Analytic Review of Its Relationships With Intergroup, Academic, and Socioemotional Outcomes. Psychological Bulletin, pp. 1397-1439. https://doi.org/10.1037/bul0000454
 
-(2026). Digital Literacy Skills: The Library Media Specialist. University of West Alabama. https://online.uwa.edu/news/library-media-specialist-digital-literacy/
+
+
+
 
 Athanases, Steven Z.. "Diverse Learners, Diverse Texts: Exploring Identity and Difference through Literary Encounters." Research in the Teaching of English, vol. 30, no. 2, 1998, pp. 213-238. https://doi.org/10.1080/10862969809547999
 
+
+
 Kayumova, Shakhnoza. "Equity and justice in science education: Toward a pluriverse of multiple identities and onto-epistemologies." Science Education, vol. 106, no. 6, 2022, pp. 1008-1026. https://doi.org/10.1002/sce.21750
+
+
 
 Age, Terungwa James. "Ayatutu as a Framework for Mathematics Education: Integrating Indigenous Philosophy with Cooperative Learning Approaches." Knowledge2025, 2025. https://doi.org/10.3390/knowledge5020011
 
+
+
 Rutten, Logan, et al. "Leaning Into Difficult Topics: Inquiry Communities as Teacher Professional Learning for Turbulent Times." Journal of Teacher Education, vol. 75, no. 3, 2024. https://doi.org/10.1177/00224871241231543
+
+
 
 Hoskins, Sally G., et al. "CREATE Two-Year/Four-Year Faculty Workshops: A Focus on Practice, Reflection, and Novel Curricular Design Leads to Diverse Gains for Faculty at Two-Year and Four-Year Institutions." CBE—Life Sciences Education, vol. 17, no. 1, 2018. https://doi.org/10.1187/cbe.17-07-0150
 
+
+
 Suleiman, Ahmad D., et al. "Factors Impacting Faculty Adoption of Project-Based Learning in Computing Education: a Survey." arXiv:2507.18039, 2025. https://doi.org/10.48550/arXiv.2507.18039
+
+
 
 Ladson-Billings, Gloria. "From the Achievement Gap to the Education Debt: Understanding Achievement in U.S. Schools." Educational Researcher, vol. 35, no. 7, 2006, pp. 3-12. https://doi.org/10.3102/0013189X035007003
 
+
+
 "Civic Literacy Initiative." Appalachian State University. https://cel.appstate.edu/civic-literacy/civic-literacy-initiative/ Accessed August 8, 2026
+
+
 
 "The Trevor Project National Survey Results 2019." https://www.thetrevorproject.org/wp-content/uploads/2021/08/The-Trevor-Project-National-Survey-Results-2019.pdf
 
+
+
 Staff, Time. "A Restriction on Payday Lenders Was Just Delayed. Democrats Want to Know Why." Time, March 7, 2019. https://time.com/5547033/cfpb-payday-lending-rule/
+
+
 
 Bonilla, Sade, et al. "Ethnic studies increases longer-run academic engagement and attainment." Proceedings of the National Academy of Sciences, vol. 118, no. 37, 2021. https://doi.org/10.1073/pnas.2026386118
 
-McGrew, Sarah, and Joel Breakstone. "Civic Online Reasoning Across the Curriculum: Developing and Testing the Efficacy of Digital Literacy Lessons." SAGE Open, 2023. https://doi.org/10.1177/23328584231176451
+
+
+
 
 Das, Rajeeb, et al. "A Quasiexperimental Analysis of First-Year Seminar Outcomes at a Large University." Journal of College Student Development, 2021. https://doi.org/10.1177/15210251211038591
 
+
+
 Toch, Eran, et al. "Personalization and privacy: a survey of privacy risks and remedies in personalization-based systems." User Modeling and User-Adapted Interaction, vol. 22, 2012. https://doi.org/10.1007/s11257-011-9110-z
+
+
 
 Milli, Smitha, et al. "Engagement, user satisfaction, and the amplification of divisive content on social media." Proceedings of the National Academy of Sciences, vol. 4, no. 3, 2025. https://doi.org/10.1093/pnasnexus/pgaf062
 
+
+
 Lu, Shuning, et al. "Asymmetric Consumptive News Feed Curation? Examining How Perceived News Feed Performance Influences Boosting and Limiting Curation on Facebook." SAGE Open, vol. 14, no. 4, 2024. https://doi.org/10.1177/20563051241306382
+
+
 
 Haroon, Muhammad, et al. "Auditing YouTube's recommendation system for ideologically congenial, extreme, and problematic recommendations." Proceedings of the National Academy of Sciences, vol. 120, no. 50, 2023. https://doi.org/10.1073/pnas.2213020120
 
-Gambín, Ángel Fernández, et al. "Deepfakes: current and future trends." Artificial Intelligence Review, vol. 57, 2024. https://doi.org/10.1007/s10462-023-10679-x
+
+
+
 
 Haroon, Muhammad, et al. "Auditing YouTube's recommendation system for ideologically congenial, extreme, and problematic recommendations." Proceedings of the National Academy of Sciences, 2023. https://doi.org/10.1073/pnas.2213020120
 
+
+
 Nanni, Anastasia, et al. "From influence to infamy: Responses to company-influencer transgressions." Journal of the Academy of Marketing Science, vol. 54, 2026. https://doi.org/10.1007/s11747-026-01155-3
+
+
 
 Giuffredi-Kähr, Andrea, et al. "Sponsorship Disclosure of Influencers – A Curse or a Blessing?." Journal of Advertising, vol. 57, no. 1, 2022. https://doi.org/10.1177/10949968221075686
 
+
+
 Mardona, Rebecca, et al. "When parasocial relationships turn sour: social media influencers, eroded and exploitative intimacies, and anti-fan communities." Journal of Marketing Management, vol. 39, no. 1112, 2023, pp. 1132-1162. https://doi.org/10.1080/0267257X.2022.2149609
 
-Gambín, Ángel Fernández, et al. "Deepfakes: current and future trends." Artificial Intelligence Review, vol. 57, 2024. https://doi.org/10.1007/s10462-023-10679-x
+
+
+
 
 Solorio, Thamar, et al. "Sockpuppet Detection in Wikipedia: A Corpus of Real-World Deceptive Writing for Linking Identities." arXiv preprint arXiv:1310.6772, 2013. https://doi.org/10.48550/arXiv.1310.6772
 
+
+
 Bellutta, Daniele, and Kathleen Carley M. "Investigating coordinated account creation using burst detection and network analysis." Computational and Mathematical Organization Theory, vol. 29, no. 1, 2023, p. 20. https://doi.org/10.1007/s10588-023-09302-5
 
-Simchon, Almog, et al. "The persuasive effects of political microtargeting in the age of generative artificial intelligence." PNAS Nexus, vol. 3, no. 2, 2024. https://doi.org/10.1093/pnasnexus/pgae035
+
+
+
 
 Johnston, Lloyd D., et al. "Monitoring the Future: A Continuing Study of American Youth (12th-Grade Survey), 2010." https://doi.org/10.3886/ICPSR30985.v1
 
-Beckett, Lois. "Everything We Know About What Data Brokers Know About You." ProPublica, June 12, 2014. https://www.propublica.org/article/everything-we-know-about-what-data-brokers-know-about-you
+
+
+
 
 "Which Curriculum Audit Is Best for Your School?." ASCD, 2019. https://www.ascd.org/el/articles/which-curriculum-audit-is-best-for-your-school Accessed August 8, 2026
 
+
+
 Jaramillo, Diana M. Barrero. "Achievement as white settler property: How the discourse of achievement gaps reproduces settler colonial constructions of race." Education Policy Analysis Archives, vol. 31, 2023. https://doi.org/10.14507/epaa.31.7131
+
+
 
 Olivera-Aguilar, Margarita, et al. "Aiding Culturally Responsive Assessment in Schools in a Globalising World." Educational Assessment, 2020. https://doi.org/10.1007/s11092-020-09316-w
 
+
+
 Barksdale-Ladd, Mary Alice, and Karen Thomas F.. "What’s at Stake in High-Stakes Testing: Teachers and Parents Speak Out." Journal of Teacher Education, vol. 51, no. 5, 2000, pp. 384-397. https://doi.org/10.1177/0022487100051005006
+
+
 
 Schaeffer, Katherine. "Key facts about public school teachers in the U.S.." Pew Research Center, September 23, 2024. https://www.pewresearch.org/short-reads/2024/09/24/key-facts-about-public-school-teachers-in-the-u-s/
 
+
+
 Office, U.S. Government Accountability. "K-12 Education: Discipline Disparities for Black Students, Boys, and Students with Disabilities." https://www.gao.gov/products/gao-18-258
+
+
 
 al., Anyon et. "Restorative Interventions and School Discipline Sanctions in a Large Urban School District." Journal of Positive Behavior Interventions, vol. 16, no. 3, 2014, pp. 128-142. https://doi.org/10.1177/1098300714526250
 
+
+
 Tan, Tiffany S., et al. "Teacher Turnover in the United States: Who Moves, Who Leaves, and Why." https://learningpolicyinstitute.org/product/teacher-turnover-united-states-report
+
+
 
 Drake, Graham, et al. "Teacher Prep Review: Program Diversity and Admissions, 2021." https://www.nctq.org/research-insights/teacher-prep-review-program-diversity-and-admissions-2021/
 
+
+
 Riehl, Carolyn J.. "The Principal's Role in Creating Inclusive Schools for Diverse Students: A Review of Normative, Empirical, and Critical Literature on the Practice of Educational Administration." Educational Administration Quarterly, vol. 45, no. 1, 2009, pp. 3-34. https://doi.org/10.1177/0022057409189001-213
+
+
 
 Vaughn, Margaret, et al. "Challenging Scripted Curricula With Adaptive Teaching." Educational Researcher, vol. 51, no. 3, 2021. https://doi.org/10.3102/0013189X211065752
 
+
+
 Mathews, Hannah Morris, et al. "Relationships between Organizational Factors and Teachers’ Knowledge and Use of Culturally Relevant Education." Journal of Teacher Education, vol. 125, no. 9, 2023. https://doi.org/10.1177/01614681231216522
+
+
 
 Kelly, James P., and Roger Aden C.. "Perpetuating the past: U.S. high school history textbooks and systemic racism." Journal of Applied Communication Research, vol. 50, no. 3, 2022, pp. 236-252. https://doi.org/10.1080/00909882.2022.2083416
 Ill
 "Spineless Shelves: Two Years of Book Banning." https://pen.org/report/spineless-shelves/
 
+
+
 Comstock, Meghan, et al. "A Culturally Responsive Disposition: How Professional Learning and Teachers’ Beliefs About and Self-Efficacy for Culturally Responsive Teaching Relate to Instruction." Journal of Teacher Education, vol. 74, no. 1, 2023, pp. 3-17. https://doi.org/10.1177/23328584221140092
+
+
 
 "Average amount of their own money that public and private K–12 school teachers spent on classroom supplies without reimbursement; percentage who spent any of their own money on classroom supplies without reimbursement during the 2019–20 school year; and among those teachers, average amount spent and percentage distribution by amount spent, by school type; and by selected school and teacher characteristics: 2020–21." National Center for Education Statistics, 2021. https://nces.ed.gov/surveys/ntps/estable/table/ntps/ntps2021_6801_t12ns Accessed August 8, 2026
 
+
+
 Zimmerman, Robert H., et al. "Culturally Responsive Assessment of Life Science Skills and Abilities: Development, Field Testing, Implementation, and Results." Journal of Advanced Academics, vol. 31, no. 3, 2020. https://doi.org/10.1177/1932202X20923981
+
+
 
 Pillen, Heath, et al. "Critical Consciousness Development: A Systematic Review of Empirical Studies." Health Promotion International, vol. 35, no. 6, 2020, pp. 1519-1530. https://doi.org/10.1093/heapro/daz125
 
+
+
 Cohen-Vogel, Lora. "Civic Education and the Paradox of Political Participation." Peabody Journal of Education, vol. 94, no. 1, 2019, pp. 1-3. https://doi.org/10.1080/0161956X.2019.1553583
+
+
 
 "Native American Studies Model Curriculum Introduction." We Are California, 2025. https://camodelcurricula.ucdavis.edu/native-american-studies/native-american-studies-model-curriculum-introduction Accessed August 8, 2026
 
+
+
 "Curriculum Audits – Equity and Excellence in Maine Schools." University of Southern Maine. https://usm.maine.edu/equity-excellence-maine-schools/curriculum-audits/ Accessed August 8, 2026
+
+
 
 Leonardi, Bethy, et al. "The promise of inclusive curriculum policy: Examining theories of change that drive implementation." Education Policy Analysis Archives, vol. 34, 2026. https://doi.org/10.14507/epaa.34.9383
 
+
+
 Office, U.S. Government Accountability. "Discretionary Grants: Education Needs to Improve Its Oversight of Grants Monitoring." https://www.gao.gov/products/gao-17-266
+
+
 
 Understanding Higher Education: Alternative Perspectives. Chapter 5, 2019. https://www.researchgate.net/publication/353287652_Understanding_Higher_Education_Alternative_Perspectives
 
+
+
 Grote, Kandice S., et al. "Bilingual advantages in executive functioning: Evidence from a low-income sample." Journal of Experimental Child Psychology, vol. 208, 2021. https://doi.org/10.1177/01427237211024220
+
+
 
 Gonzalez, Norma, et al. "Funds of Knowledge for Teaching in Latino Households." Anthropology &amp; Education Quarterly, vol. 29, no. 4, 1995, pp. 435-453. https://doi.org/10.1177/0042085995029004005
 
+
+
 "AB 101: California’s Ethnic Studies Graduation Requirement." LegalClarity, 2026. https://legalclarity.org/ab-101-californias-ethnic-studies-graduation-requirement/ Accessed August 8, 2026
+
+
 
 Baker-Bell, April. *Linguistic Justice: Black Language, Literacy, Identity, and Pedagogy.* Routledge, 2020.
 
-Benkler, Yochai, et al. *Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics.* Oxford University Press, 2018.
+
+
+
 
 Breakstone, Joel, et al. "Students' Civic Online Reasoning: A National Portrait." *Educational Researcher*, vol. 50, no. 8, 2021, pp. 505–515, doi.org/10.3102/0013189X211017495.
 
+
+
 Brown, Keffrelyn D., and Anthony L. Brown. "Silenced Memories: An Examination of the Sociocultural Knowledge on Race and Racial Violence in Official School Curriculum." *Equity & Excellence in Education*, vol. 43, no. 2, 2010, pp. 139–154, doi.org/10.1080/10665681003719590.
+
+
 
 Cabrera, Nolan L., et al. "Missing the (Student Achievement) Forest for All the (Political) Trees: Empiricism and the Mexican American Studies Controversy in Tucson." *American Educational Research Journal*, vol. 51, no. 6, 2014, pp. 1084–1118, doi.org/10.3102/0002831214553705.
 
+
+
 Cadwalladr, Carole, and Emma Graham-Harrison. "Revealed: 50 Million Facebook Profiles Harvested for Cambridge Analytica in Major Data Breach." *The Guardian*, 17 Mar. 2018, [www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election](http://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election).
+
+
 
 Carter, Prudence L., and Kevin G. Welner, editors. *Closing the Opportunity Gap: What America Must Do to Give Every Child an Even Chance.* Oxford University Press, 2013.
 
+
+
 Cherng, Hua-Yu Sebastian, and Peter F. Halpin. "The Importance of Minority Representation: How Scholarship Affects Attitudes Toward Minority Instructors." *Sociology of Education*, vol. 89, no. 3, 2016, pp. 175–193.
+
+
 
 Chesney, Robert, and Danielle Citron. "Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security." *California Law Review*, vol. 107, 2019, pp. 1753–1820.
 
+
+
 Darling-Hammond, Linda. *The Flat World and Education: How America's Commitment to Equity Will Determine Our Future.* Teachers College Press, 2010.
+
+
 
 Dee, Thomas S., and Emily K. Penner. "The Causal Effects of Cultural Relevance: Evidence from an Ethnic Studies Curriculum." *American Educational Research Journal*, vol. 54, no. 1, 2017, pp. 127–166, doi.org/10.3102/0002831216677002.
 
+
+
 Delpit, Lisa. *Other People's Children: Cultural Conflict in the Classroom.* The New Press, 2006.
+
+
 
 Freire, Paulo. *Pedagogy of the Oppressed.* 30th Anniversary ed., Continuum, 2000.
 
+
+
 Friedman, Jonathan, and Nadine Farid Johnson. "Banned in the USA: State Laws Supercharge Book Suppression in Schools." *PEN America*, 2023, pen.org/report/banned-in-the-usa-state-laws-supercharge-book-suppression-in-schools/.
+
+
 
 Gay, Geneva. *Culturally Responsive Teaching: Theory, Research, and Practice.* 3rd ed., Teachers College Press, 2018.
 
+
+
 Gershenson, Seth, et al. "Who Believes in Me? The Effect of Student-Teacher Demographic Match on Teacher Expectations." *Economics of Education Review*, vol. 52, 2016, pp. 209–224, doi.org/10.1016/j.econedurev.2016.03.002.
+
+
 
 Giroux, Henry A. *On Critical Pedagogy.* 2nd ed., Bloomsbury Academic, 2020.
 
+
+
 González, Norma, et al. *Funds of Knowledge: Theorizing Practices in Households, Communities, and Classrooms.* Routledge, 2005.
 
-Hobbs, Renee. *Digital and Media Literacy: Connecting Culture and Classroom.* Corwin, 2011.
+
+
+
 
 Hobbs, Renee. *Mind Over Media: Propaganda Education for a Digital Age.* W.W. Norton, 2020.
 
+
+
 hooks, bell. *Teaching to Transgress: Education as the Practice of Freedom.* Routledge, 1994.
+
+
 
 Ladson-Billings, Gloria. "From the Achievement Gap to the Education Debt: Understanding Achievement in U.S. Schools." *Educational Researcher*, vol. 35, no. 7, 2006, pp. 3–12, doi.org/10.3102/0013189X035007003.
 
+
+
 Ladson-Billings, Gloria. *The Dreamkeepers: Successful Teachers of African American Children.* 2nd ed., Jossey-Bass, 2009.
+
+
 
 Ladson-Billings, Gloria. "Toward a Theory of Culturally Relevant Pedagogy." *American Educational Research Journal*, vol. 32, no. 3, 1995, pp. 465–491, doi.org/10.3102/00028312032003465.
 
+
+
 Loewen, James W. *Lies My Teacher Told Me: Everything Your American History Textbook Got Wrong.* 2nd ed., The New Press, 2007.
 
-Mihailidis, Paul. *Civic Media Literacies: Re-Imagining Human Connection in an Age of Digital Abundance.* Routledge, 2018.
+
+
+
 
 Moll, Luis C., et al. "Funds of Knowledge for Teaching: Using a Qualitative Approach to Connect Homes and Classrooms." *Theory Into Practice*, vol. 31, no. 2, 1992, pp. 132–141, doi.org/10.1080/00405849209543534.
 
-Noble, Safiya Umoja. *Algorithms of Oppression: How Search Engines Reinforce Racism.* NYU Press, 2018.
+
+
+
 
 O'Neil, Cathy. *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy.* Crown, 2016.
 
+
+
 Okonofua, Jason A., and Jennifer L. Eberhardt. "Two Strikes: Race and the Disciplining of Young Students." *Psychological Science*, vol. 26, no. 5, 2015, pp. 617–624, doi.org/10.1177/0956797615570365.
 
-Pariser, Eli. *The Filter Bubble: How the New Personalized Web Is Changing What We Read and How We Think.* Penguin, 2011.
+
+
+
 
 Paris, Django. "Culturally Sustaining Pedagogy: A Needed Change in Stance, Terminology, and Practice." *Educational Researcher*, vol. 41, no. 3, 2012, pp. 93–97, doi.org/10.3102/0013189X12441244.
 
+
+
 Paris, Django, and H. Samy Alim, editors. *Culturally Sustaining Pedagogies: Teaching and Learning for Justice in a Changing World.* Teachers College Press, 2017.
+
+
 
 PEN America. "Banned in the USA: The Growing Movement to Censor Books in Schools." *PEN America*, 2022, pen.org/banned-in-the-usa/.
 
+
+
 Skiba, Russell J., et al. "The Color of Discipline: Sources of Racial and Gender Disproportionality in School Punishment." *The Urban Review*, vol. 34, no. 4, 2002, pp. 317–342, doi.org/10.1023/A:1021320817372.
+
+
 
 Sleeter, Christine E. "The Academic and Social Value of Ethnic Studies: A Research Review." *National Education Association*, 2011, [www.nea.org/resource-library/academic-and-social-value-ethnic-studies-research-review](http://www.nea.org/resource-library/academic-and-social-value-ethnic-studies-research-review).
 
+
+
 Tufekci, Zeynep. "YouTube, the Great Radicalizer." *The New York Times*, 10 Mar. 2018, [www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-radical.html](http://www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-radical.html).
 
-Vosoughi, Soroush, et al. "The Spread of True and False News Online." *Science*, vol. 359, no. 6380, 2018, pp. 1146–1151, doi.org/10.1126/science.aap9559.
 
-Wardle, Claire, and Hossein Derakhshan. "Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking." *Council of Europe*, 2017, rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c.
+
+
+
+
 
 Wineburg, Sam. *Why Learn History (When It's Already on Your Phone).* University of Chicago Press, 2018.
 
-Wineburg, Sam, et al. "Evaluating Information: The Cornerstone of Civic Online Reasoning." *Stanford History Education Group*, 2016, stacks.stanford.edu/file/druid:fv751yt5934/SHEG%20Evaluating%20Information%20Online.pdf.
+
+
+
 
 Zinn, Howard. *A People's History of the United States.* Harper Perennial, 2015.
-
-Zuboff, Shoshana. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power.* PublicAffairs, 2019.

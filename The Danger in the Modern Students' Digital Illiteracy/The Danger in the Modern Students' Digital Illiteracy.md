@@ -94,3 +94,37 @@ The misinformation crisis poses significant threats to public health, safety, de
 Economic opportunity and future-ready skills require critical thinking, not rote memorization. Jobs of the future require analysis and synthesis of information from multiple sources, creativity and problem-solving in novel situations, collaboration across difference, and metacognition (thinking about thinking). Culturally responsive, critically engaged education develops these skills; standardized, test-driven, Eurocentric education does not (Darling-Hammond; Hobbs, Digital and Media Literacy). Instead of relying solely on standardized tests, alternative assessments like performance-based tasks, portfolio assessments, and project-based learning offer richer measures of students' analytical abilities, creativity, and collaboration. For example, students might work in teams to research a community issue and present recommendations to local leaders, conduct science investigations and document each stage in a portfolio, or create multimedia projects synthesizing multiple perspectives on historical events. In some classrooms, students build models, design experiments, or write policy briefs requiring both independent analysis and group collaboration. Studies show students assessed through performance-based tasks demonstrate deeper understanding, higher engagement, and stronger knowledge retention than those evaluated solely by standardized exams (Darling-Hammond et al., 2017). Research from the Learning Policy Institute found schools using portfolio assessments saw increased graduation rates and greater college readiness, especially among students from historically marginalized groups. Curricula emphasizing inquiry, real-world problem solving, and student-led projects foster future-ready capacities and create more equitable, engaging learning environments. These models support a shift from rote learning to genuine intellectual empowerment and better reflect the complex skills demanded by today's world.
 
 Young people deserve both roots and wings: Cultural roots providing understanding of where they come from, pride in heritage, connection to community, and sense of identity and belonging, AND intellectual wings providing tools to navigate where they're going—critical thinking, information literacy, agency, and capacity to shape the future. Denying either is educational malpractice and injustice (Paris and Alim; Freire; Mihailidis).
+
+## References
+
+"Media Literacy Law in Illinois." NPR Illinois, July 8, 2021. https://www.nprillinois.org/2021-07-14/media-literacy-requirement-animal-products-ban-among-latest-53-bills-signed-by-pritzker
+
+(2026). Digital Literacy Skills: The Library Media Specialist. University of West Alabama. https://online.uwa.edu/news/library-media-specialist-digital-literacy/
+
+McGrew, Sarah, and Joel Breakstone. "Civic Online Reasoning Across the Curriculum: Developing and Testing the Efficacy of Digital Literacy Lessons." SAGE Open, 2023. https://doi.org/10.1177/23328584231176451
+
+Gambín, Ángel Fernández, et al. "Deepfakes: current and future trends." Artificial Intelligence Review, vol. 57, 2024. https://doi.org/10.1007/s10462-023-10679-x
+
+Gambín, Ángel Fernández, et al. "Deepfakes: current and future trends." Artificial Intelligence Review, vol. 57, 2024. https://doi.org/10.1007/s10462-023-10679-x
+
+Simchon, Almog, et al. "The persuasive effects of political microtargeting in the age of generative artificial intelligence." PNAS Nexus, vol. 3, no. 2, 2024. https://doi.org/10.1093/pnasnexus/pgae035
+
+Beckett, Lois. "Everything We Know About What Data Brokers Know About You." ProPublica, June 12, 2014. https://www.propublica.org/article/everything-we-know-about-what-data-brokers-know-about-you
+
+Benkler, Yochai, et al. *Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics.* Oxford University Press, 2018.
+
+Hobbs, Renee. *Digital and Media Literacy: Connecting Culture and Classroom.* Corwin, 2011.
+
+Mihailidis, Paul. *Civic Media Literacies: Re-Imagining Human Connection in an Age of Digital Abundance.* Routledge, 2018.
+
+Noble, Safiya Umoja. *Algorithms of Oppression: How Search Engines Reinforce Racism.* NYU Press, 2018.
+
+Pariser, Eli. *The Filter Bubble: How the New Personalized Web Is Changing What We Read and How We Think.* Penguin, 2011.
+
+Vosoughi, Soroush, et al. "The Spread of True and False News Online." *Science*, vol. 359, no. 6380, 2018, pp. 1146–1151, doi.org/10.1126/science.aap9559.
+
+Wardle, Claire, and Hossein Derakhshan. "Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking." *Council of Europe*, 2017, rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c.
+
+Wineburg, Sam, et al. "Evaluating Information: The Cornerstone of Civic Online Reasoning." *Stanford History Education Group*, 2016, stacks.stanford.edu/file/druid:fv751yt5934/SHEG%20Evaluating%20Information%20Online.pdf.
+
+Zuboff, Shoshana. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power.* PublicAffairs, 2019.
