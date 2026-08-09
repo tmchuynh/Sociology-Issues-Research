@@ -552,7 +552,7 @@ Rock-Paper-Scissors equilibrium: each player plays (1/3,1/3). Expected payoff 0.
 
 **Indifference principle:** In mixed equilibrium, player randomizes to make opponent indifferent among strategies in support. This gives linear equations to solve.
 
-Here is an expanded and clarified version of your section:
+
 
 ### Mathematical Techniques
 
@@ -685,7 +685,7 @@ In all cases, mathematics turns "what will others do?" into fixed-point, optimiz
 
 Game theory is the mathematics of $u_i(s_i, s_{-i})$ — your payoff depends on others' choices. Nash equilibrium is the point where expectations are consistent and no one regrets their choice given others' choices — the natural rest point of strategic reasoning.
 
-Here is an expanded and clarified version of your section:
+
 
 ### Prisoner's Dilemma
 
@@ -1585,7 +1585,7 @@ Superflip demonstrates how complex mathematical objects can be described in plai
 
 **Pedagogical Value:** Milewski and Frohardt emphasize that using Rubik's Cube to teach group theory makes abstract algebra concrete and accessible, demonstrating that "students can see and feel the algebraic structure" (397). The cube transforms symbols like $G_i$ and cosets from intimidating jargon into tangible manipulation — student performing $R U R' U'$ feels non-commutativity, commutator, inverse, and identity $R^4=e$ in hands before formalism.
 
-Here is an expanded and clarified version of your section, with an example:
+and clarified version of your section, with an example:
 
 ## Representation Theory — Making Symmetry Linear
 
@@ -2518,7 +2518,7 @@ While they sound similar, difference is about "tools" allowed — regularity:
 
 In short: Homeomorphism says you can deform without tearing — topology. Diffeomorphism says you can deform without tearing _and_ without creasing — smooth geometry. Square vs circle: topologically same, but as embedded shapes with sharp corners, not smoothly same via inclusion — need smoothing to become diffeomorphic — captures intuition that calculus cares about corners while topology does not.
 
-Here is an expanded section on ergodicity, written to fit your existing manuscript style:
+section on ergodicity, written to fit your existing manuscript style:
 
 ## Ergodicity — When Time Average Equals Space Average
 
@@ -2696,7 +2696,7 @@ Even in impossible scenario, we covered only $0.00000000000000000000000000000000
 
 This illustrates difference between ergodicity — existence of limit — and mixing time — rate of convergence. Deck shuffling ergodic, Russian Roulette non-ergodic due to absorbing state — both illustrate why time vs ensemble matters.
 
-Here is an expanded and clarified version:
+and clarified version:
 
 ## Cardinality of the Continuum — When Infinity Gets Bigger
 
@@ -3102,7 +3102,7 @@ Graph theory thus unifies tiling puzzles, stochastic processes, and ergodicity: 
 
 In short: graph is abstraction of relation — $G=(V,E)$ — study of how local adjacency determines global structure — existence of Euler trails, Hamiltonian cycles, colorings, matchings — tools to model any system of connections, from Königsberg bridges to Facebook friendships to chessboard dominoes.
 
-Here is an expanded and clarified version:
+and clarified version:
 
 ## Combinatorics — Art of Counting
 
@@ -3249,7 +3249,7 @@ This framework unifies permutations $\binom{n}{n}n!=n!$ — distinct into distin
 
 Thus combinatorics provides language to count everything from deck shuffles $52!$ to domino tilings to set partitions — foundation for probability — $\text{Probability}= \dfrac{\text{favorable count}}{\text{total count}}$ when uniform — and for complexity analysis — algorithms enumeration.
 
-Here is an expanded and clarified version, explicitly linked to combinatorics:
+and clarified version, explicitly linked to combinatorics:
 
 #### Password Creation — Combinatorics in Action
 
