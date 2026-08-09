@@ -5,9 +5,8 @@
 Unequal access to technology and reliable internet creates profound barriers to learning, especially for low-income students, rural communities, and underserved schools. This "digital divide" encompasses far more than simply owning a device—it includes access to reliable high-speed connectivity, digital literacy skills, technical support when things go wrong, the quality and sophistication of educational technology available, and the capacity to use technology for creation and innovation rather than just consumption. In an educational landscape increasingly dependent on digital tools, platforms, and resources, the digital divide has become one of the most significant drivers of educational inequality, determining not just who can complete homework assignments but who can access advanced coursework, participate in remote learning, develop 21st-century skills, and ultimately compete for college admission and career opportunities in a digital economy.
 
 
-## Why It Matters
 
-### Access Barriers: The Foundation of Inequality
+## Access Barriers: The Foundation of Inequality
 
 - Students without devices or internet struggle to complete homework, access online learning platforms, and participate in remote/hybrid education. What seems like a simple assignment—"research this topic online and submit via Google Classroom"—becomes an insurmountable barrier for students without home internet or devices.
 
@@ -25,7 +24,7 @@ Unequal access to technology and reliable internet creates profound barriers to 
 
 - Hotspots and temporary solutions were inadequate. Schools scrambled to distribute devices and hotspots, but many didn't work in rural areas with no cell service, ran out of data, or couldn't support bandwidth needs. Some families received devices but no training on how to use them or troubleshoot problems.
 
-### School and Institutional Inequities: Separate and Unequal
+## School and Institutional Inequities: Separate and Unequal
 
 - Schools in low-income areas often lack funding for updated technology, software, and tech support. While wealthy districts provide students with personal devices (often iPads or Chromebooks for every student), high-speed networks, interactive whiteboards, 3D printers, coding labs, and dedicated IT staff, underfunded schools struggle with outdated computers, broken equipment, and no technical assistance when things go wrong.
 
@@ -47,7 +46,7 @@ Unequal access to technology and reliable internet creates profound barriers to 
 
 - Maintenance and replacement cycles are inequitable. Wealthy districts budget for regular device refresh cycles; poor districts keep devices until they're broken beyond repair, then scramble for funding, meaning students often work with obsolete technology.
 
-### Widening Achievement Gaps: Technology as Amplifier of Inequality
+## Widening Achievement Gaps: Technology as Amplifier of Inequality
 
 - The shift to digital learning during and after the pandemic has widened achievement gaps. Students who already had resources at home—devices, internet, quiet workspaces, parent support—thrived or maintained progress. Those without fell further behind, particularly in math and reading. NAEP scores show the largest drops in decades, with the sharpest declines among low-income students and students of color. (The Nation's Report Card Shows Declines in Reading, Some Progress in 4th Grade Math, 2025)
 
@@ -63,7 +62,7 @@ Unequal access to technology and reliable internet creates profound barriers to 
 
 - The "digital use divide" emerges even among students with access. Wealthy students use technology for creation, coding, research, and production—developing sophisticated digital skills. Poor students, even when they have devices, often use them primarily for consumption (watching videos, social media), basic skills practice, or remedial work—the "drill and kill" that doesn't build higher-order thinking.
 
-### Higher Education Challenges: The Divide Doesn't End at Graduation
+## Higher Education Challenges: The Divide Doesn't End at Graduation
 
 - College students from disadvantaged backgrounds may lack the tech skills or resources to succeed in digitally-driven coursework. Assignments assume students have laptops, reliable internet, word processing skills, spreadsheet competency, presentation software proficiency, and familiarity with learning management systems (Canvas, Blackboard, Moodle, etc.). Students arriving without these skills face steep learning curves while trying to manage college-level content.
 
@@ -103,7 +102,7 @@ These gaps put students behind from day one, requiring them to simultaneously le
 
 - The COVID-19 shift to online learning was particularly devastating for low-income college students, many of whom left campus (losing library, WiFi, computer lab access) and tried to complete coursework from homes with inadequate technology, shared devices, crowded spaces, and employment demands. Dropout rates increased significantly.
 
-### Long-Term Consequences: The Ripple Effects
+## Long-Term Consequences: The Ripple Effects
 
 - Career readiness suffers. Most jobs now require digital skills—from basic computer literacy to specialized software. Administrative jobs need Office suite proficiency. Healthcare jobs use electronic health records. Retail and service jobs use scheduling, inventory, and POS systems. Trades use CAD software and digital diagnostic tools. Students without technology access in school are less prepared for the workforce, limiting employment opportunities and earning potential.
 
@@ -121,7 +120,7 @@ These gaps put students behind from day one, requiring them to simultaneously le
 
 - The psychological toll of visible inequality is significant. When students see peers with the latest devices, completing sophisticated projects, accessing opportunities they cannot—it reinforces messages about their worth and potential. The technology gap becomes internalized as personal inadequacy rather than systemic injustice.
 
-### Intersecting Inequalities: Who Bears the Burden?
+## Intersecting Inequalities: Who Bears the Burden?
 
 - Race and ethnicity: Black, Latino, and Indigenous students are disproportionately affected by the digital divide due to historic underinvestment in their communities. Redlining, discriminatory housing policies, and systematic disinvestment have created infrastructure gaps. Broadband providers have deliberately avoided low-income communities and communities of color, viewing them as unprofitable. (Broadband Affordability: Assessing the Cost of Broadband for Low-and-Moderate Income Communities in Cities, n.d.) The digital divide is thus inseparable from systemic racism.
 
@@ -139,7 +138,7 @@ These gaps put students behind from day one, requiring them to simultaneously le
 
 - Incarcerated youth and juvenile justice-involved students have minimal to no technology access in facilities, emerging further behind peers and unable to complete digital coursework or college applications.
 
-### The Infrastructure Crisis: Beyond Individual Access
+## The Infrastructure Crisis: Beyond Individual Access
 
 - Broadband infrastructure gaps are a public policy failure. Unlike roads, electricity, and telephone service (which were understood as public goods requiring universal access), broadband has been treated as a private market commodity. The result is profitable areas get service; unprofitable areas don't.
 
@@ -151,7 +150,7 @@ These gaps put students behind from day one, requiring them to simultaneously le
 
 - The solution requires treating broadband as a public utility and public good, with universal service obligations similar to electricity and water—but political will is lacking.
 
-### What's Needed: Comprehensive Solutions
+## What's Needed: Comprehensive Solutions
 
 Infrastructure Investment:
 

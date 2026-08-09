@@ -2,7 +2,7 @@
 
 ## The Principles
 
-### The Zeigarnik Effect — Why Unfinished Tasks Haunt You
+## The Zeigarnik Effect — Why Unfinished Tasks Haunt You
 
 Unanswered emails are often remembered more vividly than those already addressed. This effect is just as strong outside school as it is within it. For example, at work, many people notice that they keep thinking about the client presentation they still need to finish or a half-done report waiting for edits, even when they're technically off the clock. At home, it's common to keep mentally replaying the grocery shopping you haven't completed or the closet that still needs organizing. Creative projects, such as an unfinished painting or a draft novel set aside, can linger in the background of your thoughts for weeks.
 
@@ -14,7 +14,7 @@ In 1927, Soviet psychologist Bluma Zeigarnik observed that servers in a Vienna r
 
 > **Zeigarnik Effect:** The brain preferentially retains and intrusively recalls unfinished tasks over finished ones.
 
-#### Why It Happens
+### Why It Happens
 
 Memory Retention — Open Loops Stay Active
 
@@ -29,19 +29,19 @@ This is why Zeigarnik is double-edged:
 - A positive aspect of the Zeigarnik Effect is its facilitation of task resumption. Leaving a sentence half-written, for example, provides a clear starting point for subsequent work. Ernest Hemingway famously employed this technique, stopping mid-sentence to ease the process of restarting. Maintaining an open loop can help overcome the initial resistance to beginning a task, which is often the most significant barrier to productivity. (Monk et al. 299-313)
 - Conversely, an excessive number of open loops can result in overwhelming cognitive load. Each unfinished task, whether an email, assignment, or idea, competes for cognitive resources and contributes to persistent mental interference. This dynamic explains why extensive to-do lists may feel exhausting even before any action is initiated. (Uhlig et al. 575-598)
 
-#### The Productivity Connection
+### The Productivity Connection
 
 Touré-Tillery and Fishbach’s research on motivation shows that progress influences subsequent motivation. Motivation increases as you approach completion (the goal-gradient effect). An unfinished task near completion is highly motivating, while one at the beginning can be demotivating because it highlights the remaining effort. (Touré-Tillery and Fishbach 414-23)
 
 This dynamic explains two common productivity traps:
 
-##### Why Checking off Small Tasks Feels So Productive
+#### Why Checking off Small Tasks Feels So Productive
 
 Closing a loop, even a minor one such as organizing a desk, alleviates cognitive tension and yields a modest sense of reward. The brain experiences relief from reducing open loops, irrespective of their significance. Consequently, individuals may be inclined to complete numerous small, low-value tasks rather than focusing on a single, high-value task. (Weber et al.)
 
 This is the same dopamine mechanism discussed earlier (Schultz 1-27), but Zeigarnik adds a memory component: an unfinished major task remains active and uncomfortable. In contrast, completed small tasks quickly fade from memory, creating the illusion of a clean slate.
 
-##### Why Strategic Incompletion Can Be a Tool
+#### Why Strategic Incompletion Can Be a Tool
 
 The Zeigarnik Effect can be leveraged intentionally:
 
@@ -72,7 +72,7 @@ Here is a simple, step-by-step way to create a worry list with next actions:
 5. If a task is vague or large, break it down into the smallest possible actionable step for tomorrow.
 6. When finished, scan the list and decide which tasks can be dealt with later or delegated, and which need your focus soon. Let the rest go for now, knowing they are captured on paper, not swirling in your mind.
 
-#### When Zeigarnik Hurts — From Helpful Tension to Rumination
+### When Zeigarnik Hurts — From Helpful Tension to Rumination
 
 If incomplete tasks are excessively numerous, insufficiently defined, or perceived as threatening, the resulting tension may lead to rumination rather than motivation. For example, “Write dissertation” constitutes a project rather than a discrete task, lacking clear closure and therefore remaining active indefinitely, which depletes working memory. (Uhlig et al. 575-598)
 
@@ -87,13 +87,13 @@ In summary, the human brain is predisposed to retain awareness of unfinished tas
 
 Leverage the motivational potential of incompletion, rather than allowing it to become a source of cognitive overload.
 
-### The Procrastination Factor
+## The Procrastination Factor
 
 Procrastination should not be equated with laziness. If it were, individuals would engage in no activity at all. Instead, procrastination often manifests as cleaning, reorganizing, or consuming productivity-related content, yet these actions frequently result in increased dissatisfaction. Procrastination constitutes active avoidance, driven primarily by emotional factors rather than logical reasoning.
 
 > A central finding from two decades of research is that procrastination is fundamentally an issue of emotion regulation, rather than a problem of time management. (Kühnel et al.)
 
-#### Why We Really Procrastinate
+### Why We Really Procrastinate
 
 Individuals often procrastinate to improve their mood in the short term, sacrificing long-term goals. When evaluating a task, people consider not only time requirements but also their immediate emotional responses. (Sirois 115-127)
 
@@ -113,7 +113,7 @@ This explains why research consistently links procrastination not to laziness bu
 
 Ultimately, procrastination is fundamentally an issue of emotional regulation rather than time management. The avoidance is directed not at the work itself, but at the uncomfortable emotions associated with it.
 
-#### The Procrastination — Productivity Illusion Loop
+### The Procrastination — Productivity Illusion Loop
 
 Procrastination and productivity theater feed each other:
 
@@ -125,11 +125,11 @@ Procrastination and productivity theater feed each other:
 
 During periods of procrastination, individuals frequently engage in numerous activities while neglecting the most important task. This dynamic accounts for the experience of both exhaustion and guilt that often accompanies prolonged busyness. (Tice and Baumeister 454-460)
 
-#### How to Break It — Find the Cause, Not Just Add Discipline
+### How to Break It — Find the Cause, Not Just Add Discipline
 
 Because individuals differ, addressing procrastination requires a diagnostic approach rather than relying on generic motivational advice.
 
-##### Name the emotion, not the task.
+#### Name the emotion, not the task.
 
 Instead of focusing only on the task, identify the emotions associated with it. For example, anxiety may stem from fear of judgment, boredom from perceived meaninglessness, overwhelm from uncertainty about where to begin, or resentment from lack of autonomy. Each emotional response requires a specific intervention.
 
@@ -140,7 +140,7 @@ Instead of focusing only on the task, identify the emotions associated with it. 
 
   Simple, quick recovery options include taking a 10-minute walk outside, having a healthy snack such as fruit or nuts, or taking a brief power nap. Even a few stretches or stepping away from your workspace for five minutes can help restore focus and energy. A large body of research demonstrates that planned rest and recovery significantly improve attention, memory, and overall cognitive performance. For example, a meta-analysis by Doran, Yao, and Palmer (2011) finds that short restorative breaks measurably enhance task accuracy and reduce mental fatigue, while Kinnunen et al. (2015) show that sleep and relaxation practices improve long-term learning and resilience. By recognizing that setbacks and fatigue are a normal part of the process, you make it easier to show yourself compassion and stay consistent over time. Jacobs and Mayer 35-54.
 
-##### Use self-compassion as a tool, not an excuse.
+#### Use self-compassion as a tool, not an excuse.
 
 Sirois’s research: self-compassion — Sirois’s research shows that self-compassion—acknowledging procrastination without harsh judgment—reduces future procrastination. Self-criticism increases avoidance. For example: “I’m procrastinating because this feels hard and I’m tired. That’s understandable. What is the smallest next step I can take?” Compassion reduces emotional threat and makes it easier to approach the task. This is not indulgence; it is emotional regulation. avoidance
 
@@ -149,7 +149,7 @@ Sirois’s research: self-compassion — Sirois’s research shows that self-com
 - If-then planning (Gollwitzer): For example, “If it is 9am and I feel the urge to check email, then I will open my paper document first.” This approach pre-decides your response to emotional triggers, bypassing in-the-moment negotiation.
 - Externalize open loops: As with the Zeigarnik strategy, write a worry list with next actions. Planning to finish tasks reduces intrusive thoughts (Masicampo and Baumeister).
 
-##### Separate identity from outcome
+#### Separate identity from outcome
 
 Perfectionists procrastinate because they equate task performance with self-worth. If a paper is not brilliant, they feel they are not brilliant. Reframe the task as an experiment to produce data, not a measure of personal value. Focus on process goals, such as “write for 90 minutes,” rather than outcome goals like “write a brilliant paper.” Process goals are controllable and less threatening.
 
@@ -157,7 +157,7 @@ Overcoming procrastination does not necessitate increased discipline, but rather
 
 When tempted to engage in low-priority tasks instead of starting a significant project, pause and identify the underlying emotion you are avoiding. Naming the emotion and engaging in a brief period of meaningful work can disrupt the avoidance cycle. Avoidance leads to stagnation, while confronting the emotion enhances productivity.
 
-### Goal-Driven Intentionality
+## Goal-Driven Intentionality
 
 Productive work is characterized by alignment with long-term, specific goals, whereas busy work consists of a reactive cycle of completing to-do lists without substantive progress.
 
@@ -165,7 +165,7 @@ It is a common misconception that a to-do list accurately reflects daily priorit
 
 A to-do list without a clear goal hierarchy is not an effective plan; it becomes an inventory of anxieties. When all tasks seem equally important, prioritization is lost, and focus shifts to the easiest, most visible, or most urgent tasks instead of the most valuable ones.
 
-#### Intentional vs. Reactive Work
+### Intentional vs. Reactive Work
 
 Reactive work is driven by external triggers such as notifications, emails, others’ requests, or a vague sense of obligation. It asks, “What is most urgent right now?” and is managed through inboxes and to-do lists. It feels productive because it is fast, responsive, and socially rewarded.
 
@@ -178,7 +178,7 @@ Example:
 
 Busy work is a reactive cycle where tasks are continuously added and completed without strategic direction. This approach lacks alignment with long-term objectives and provides only short-term relief through dopamine release, Zeigarnik tension reduction, and social approval. (Westbrook and Braver)
 
-#### Why Intentionality Is Hard — The Unconscious Goal Problem
+### Why Intentionality Is Hard — The Unconscious Goal Problem
 
 The relationship between goals and intentionality is more complex than it may seem.
 
@@ -196,11 +196,11 @@ The language we use to describe our behavior shapes how intentional it feels, ev
 
 Recognizing the distinction between genuinely intentional, goal-directed behavior and reactive activity that merely appears purposeful is essential for overcoming this illusion. (Taatgen 43-61)
 
-#### Three Levels of Goals
+### Three Levels of Goals
 
 Most to-do lists collapse all levels into one flat list, which is why they fail.
 
-##### Outcome Goals — The North Star (3-12 months)
+#### Outcome Goals — The North Star (3-12 months)
 
 Long-term, specific, meaningful results you want to create. Not tasks, but capabilities or creations.
 
@@ -210,7 +210,7 @@ Long-term, specific, meaningful results you want to create. Not tasks, but capab
 
 Outcome goals answer: Where am I actually trying to go?
 
-##### Process Goals — The Daily Leverage (Today)
+#### Process Goals — The Daily Leverage (Today)
 
 Behaviors that, if repeated, produce outcome goals. They are controllable, actionable, outcome-linked.
 
@@ -220,7 +220,7 @@ Behaviors that, if repeated, produce outcome goals. They are controllable, actio
 
 Process goals answer: What specific action today has highest leverage toward North Star?
 
-##### Anti-Goals — What You Will Not Do
+#### Anti-Goals — What You Will Not Do
 
 Highly productive individuals maintain an explicit list of activities they will not do to protect intentionality. This practice counters reactive drift.
 
@@ -228,21 +228,21 @@ Examples: “I will not check email before 11am,” “I will not rewrite notes 
 
 Anti-goals answer: What busy work will I actively prevent?
 
-#### Practical Shift: From List to Intentional System
+### Practical Shift: From List to Intentional System
 
-##### Start with North Star review — 5 minutes in the morning
+#### Start with North Star review — 5 minutes in the morning
 
 Before opening to-do list, write at top of page: “My most important outcome this quarter is **\*\***\_\_\_\_**\*\***." Then: "One action today that most moves that forward is **\*\***\_\_**\*\***.” Do that before email.
 
-##### Rank by impact, not urgency — Eisenhower + leverage
+#### Rank by impact, not urgency — Eisenhower + leverage
 
 Urgent/Important matrix is classic, but add leverage question: Of important tasks, which has highest long-term impact per hour? Do that first. Most to-do lists are sorted by urgency and ease, which guarantees a reactive day.
 
-##### Convert tasks to outcome-linked actions
+#### Convert tasks to outcome-linked actions
 
 Instead of “Read article,” write “Read article and extract 3 arguments I can use in paper.” Instead of “Email professor,” write “Email professor to get feedback on thesis statement so I can start draft.” Adding a “so that” clause forces intentionality — links the task to the goal.
 
-##### Audit unconscious goals weekly
+#### Audit unconscious goals weekly
 
 Friday 10-minute review: Look at where time actually went. Ask:
 
@@ -256,11 +256,11 @@ Intentionality does not require perfect goals, but rather the explicit articulat
 
 This form of self-inquiry can effectively disrupt the reactive cycle.
 
-### The Pareto Principle (80/20 Rule) — The Vital Few vs. The Trivial Many
+## The Pareto Principle (80/20 Rule) — The Vital Few vs. The Trivial Many
 
 The Pareto Principle is often quoted as folk wisdom — “80% of results come from 20% of efforts” — but its theoretical foundations run much deeper than a catchy ratio. It is a mathematical signature of how the world actually works. (Jones 29-46)
 
-#### Beyond Folk Wisdom
+### Beyond Folk Wisdom
 
 Italian economist Vilfredo Pareto first noticed it in 1896: 80% of land in Italy owned by 20% of the population. Since then, the same pattern has been found everywhere: 80% of wealth from 20% of investments, 80% of complaints from 20% of customers, 80% of bugs from 20% of code, 80% of learning from 20% of concepts.
 
@@ -272,7 +272,7 @@ Edwards’s practical analysis of 80/20 in defense transportation and Wilkinson�
 
 Together, they affirm that the intuition behind 80/20 reflects a genuine, measurable pattern across domains. Productivity improvement requires strategic focus on high-leverage activities, not diffuse effort. (Guzzo et al. 275-291)
 
-#### Productivity vs. Busy Through Pareto Lens
+### Productivity vs. Busy Through Pareto Lens
 
 Busy means spending time on the 80% of low-value, urgent, visible tasks:
 
@@ -294,7 +294,7 @@ This 20% is often uncomfortable, ambiguous and high-failure-risk — exactly why
 
 Productive individuals do not necessarily accomplish more tasks; rather, they identify and focus on the vital few activities that yield significant results and demonstrate the discipline to leave less impactful tasks undone or complete them with minimal effort. (MSc)
 
-#### How to Find Your 20%
+### How to Find Your 20%
 
 The principle is useless without method to identify vital few.
 
@@ -335,7 +335,7 @@ Examples:
 - Employee: Stop attending 5 status meetings. Send a 3-bullet async update. Spend the 3 hours saved on deep work that actually moves the project forward.
 - Creator: Stop consuming 10 articles about how to write. Write 1 article poorly.
 
-#### Why We Resist Pareto
+### Why We Resist Pareto
 
 Even when we know 80/20, we resist because:
 
@@ -347,7 +347,7 @@ Overcoming requires redefining what “productive day” means: not many tasks d
 
 > The essential principle is not to increase overall activity, but to reduce engagement in low-impact tasks and concentrate efforts on the select activities that significantly influence outcomes. (Rusou et al. 586-599)
 
-### Parkinson's Law — Work Expands to Fill the Time You Give It
+## Parkinson's Law — Work Expands to Fill the Time You Give It
 
 > "Work expands so as to fill the time available for its completion."
 
@@ -357,7 +357,7 @@ If you allocate an entire day for a task that only requires two hours, it will t
 
 Parkinson’s Law explains why an eight-hour library session often yields less output than a two-hour focused sprint. The extended time frame permits task expansion, whereas a shorter deadline enforces necessary constraints. (Latham and Locke 524-526)
 
-#### The Evidence
+### The Evidence
 
 Peters et al. field study: Found a significant link between time pressure and performance. Tasks expand or contract based on imposed time constraints. Moderate time pressure improved performance; the absence of pressure led to elongation, over-processing, and delays. Under too much pressure, performance dropped, but under too little, work bloated (Peters et al. 293-99).
 
@@ -371,7 +371,7 @@ Kennedy — strategic advantage: Understanding Parkinson’s Law offers strategi
 
 Together: temporal boundaries significantly influence efficiency. Time is not a neutral container — it shapes behavior inside it.
 
-#### How Parkinson's Law Creates Productivity Theater
+### How Parkinson's Law Creates Productivity Theater
 
 Parkinson’s Law is the engine of the busy vs. productive dilemma. (Aronson and Landy 258-275)
 
@@ -397,7 +397,7 @@ Why expansion happens — 3 mechanisms:
 
 All three feel productive — you are working — but produce little additional outcome.
 
-#### How to Use Parkinson's Law For You, Not Against You
+### How to Use Parkinson's Law For You, Not Against You
 
 Law is not a curse; it is a tool. If work expands to fill time, then shrinking time shrinks work to essential.
 
@@ -442,7 +442,7 @@ For personal use: share the deadline with someone. “I will send you the draft 
 
 > Parkinson’s Law does not advocate for perpetual haste; instead, it underscores that time allocation is a deliberate design decision. Allowing unlimited time for important work often leads to inefficiency and a lack of closure. Conversely, imposing finite, protected, and moderately challenging time constraints fosters focus on essential elements, thereby facilitating meaningful learning and tangible results. (Latham and Locke)
 
-### Biological Prime Time — Work With Your Biology, Not Against It
+## Biological Prime Time — Work With Your Biology, Not Against It
 
 Your biological prime time is exactly what it sounds like: your personal best window in a day to get work done. It’s not motivational advice. It’s chronobiology. ("Diurnal variation in variables related to cognitive performance: a systematic review")
 
@@ -454,7 +454,7 @@ Productivity theater disregards these biological realities. It presumes that foc
 
 Biological prime time is the practice of aligning task demands with biological capacity.
 
-#### The Science Behind It
+### The Science Behind It
 
 - Circadian peak in cognition: Core body temperature, cortisol, and alertness peak late morning for most people, dip early afternoon — post-lunch dip is biological, not lunch — then second smaller peak early evening. Working memory, logical reasoning, and focus track this curve.
 - Ultradian rhythm: Within the day, you cycle 90-120 minutes of high alertness to ~20 minutes lower alertness — Nathaniel Kleitman’s BRAC — Basic Rest-Activity Cycle. Push through the trough, and you get effort without return — classic busy trap. Respect the trough with a break, and you restore capacity for the next peak.
@@ -462,7 +462,7 @@ Biological prime time is the practice of aligning task demands with biological c
 
 This is why energy management outperforms time management — Prevatt and Levrini 83-108; Kory-Westlund 143-63. Time is finite and external; energy is renewable and internal but fluctuating. Matching task to energy yields disproportionate results.
 
-#### How to Find Your Prime Time
+### How to Find Your Prime Time
 
 You cannot guess. You must track.
 
@@ -490,7 +490,7 @@ Most people find one primary prime — often in the morning — and one secondar
 
 This is your constant. External factors shift it ±1, but shape remains.
 
-#### How to Schedule Around Prime Time
+### How to Schedule Around Prime Time
 
 Once you know pattern, redesign day with intention — Elsbach and Hargadon 470-83.
 
@@ -536,7 +536,7 @@ While prime time is constant, you can raise the whole curve:
 
 Think: sleep, food, movement and light are levers that raise the floor and ceiling, but the prime window remains the best place for the best work.
 
-#### Tip in Practice
+### Tip in Practice
 
 > **Map your energy for 14 days. Then re-block calendar:**
 >
@@ -560,13 +560,13 @@ Effective business management requires selecting optimal strategies for success.
 
 For young professionals, the business analogy extends further. Managing multiple client projects resembles overseeing parallel workstreams, each demanding individual attention while benefiting from a centralized system for prioritization and deadlines. Daily or weekly team meetings function similarly to business operations reviews, providing opportunities to align on deliverables, address obstacles, and ensure accountability. Balancing these workstreams involves setting clear objectives for each project, utilizing tools to track task status, and conducting regular check-ins with colleagues. For example, a marketing associate may allocate dedicated time for focused work on a client proposal prior to team meetings, while an analyst might batch administrative tasks during a designated period each afternoon to minimize context switching. Adopting a business leader’s approach—emphasizing strategic priorities, effective delegation, and structured review routines—enables young professionals to reduce overwhelm, uphold high standards, and achieve key outcomes more efficiently.
 
-### The Zen to Done (ZTD) System — Simplicity as Strategy
+## The Zen to Done (ZTD) System — Simplicity as Strategy
 
 Zen to Done (ZTD), developed by Leo Babauta, addresses a prevalent challenge among individuals seeking productivity. Although Getting Things Done (GTD) by David Allen is effective, its complexity can lead to excessive focus on system management at the expense of completing meaningful work.
 
 ZTD streamlines GTD by prioritizing action over extensive planning. Its core philosophy centers on minimalism, habit formation, and the prioritization of implementation. Instead of attempting comprehensive change simultaneously, ZTD recommends adopting ten core habits sequentially, focusing on each for two to three weeks until they become routine.
 
-#### Core Habits of ZTD
+### Core Habits of ZTD
 
 **Collect — Capture everything immediately**
 
@@ -644,7 +644,7 @@ Routines reduce decision fatigue, as Baumeister notes, and facilitate the transf
 
 The final habit, though foundational, is to select work that aligns with personal interests. Motivation driven by passion is more sustainable than discipline alone. When work reflects individual values, meaningful progress is more likely than mere activity. This shift supports an identity transformation from being a 'hard worker' to an individual who creates meaningful work.
 
-#### ZTD vs. GTD
+### ZTD vs. GTD
 
 | GTD                               | ZTD                                 |
 | --------------------------------- | ----------------------------------- |
@@ -656,7 +656,7 @@ The final habit, though foundational, is to select work that aligns with persona
 
 GTD may be overwhelming for some users. ZTD addresses this challenge by emphasizing daily, actionable habits rather than extensive list management. While GTD offers a comprehensive framework, ZTD provides a streamlined system that is more likely to be applied consistently. Comparative research in productivity studies and controlled classroom settings has shown that students and professionals often experience higher adherence rates and reduced stress when implementing simplified systems such as ZTD or the Ivy Lee Method, compared with the more involved GTD approach. (Häfner et al., 2014, pp. 403-416) For example, a 2020 university study comparing GTD and ZTD in undergraduate project management courses found that participants using ZTD reported greater satisfaction with their organizational process, completed more assignments on time, and were less likely to abandon the system after four weeks. (Long et al., 2019, pp. 1999-2016) Similarly, pilot programs in workplace settings have demonstrated that the Ivy Lee Method helps teams focus on high-priority tasks and reduce overwhelm, making it an effective intervention in contexts with high task volume and decision fatigue. (Raroque, 2026) These comparative findings help instructors and professionals evaluate which system may yield the greatest practical benefits in specific environments.
 
-#### Implementation Tips — Start Slow, Stay Simple
+### Implementation Tips — Start Slow, Stay Simple
 
 **Start slow: One habit at a time**
 Adopting all ten habits simultaneously is discouraged, as it may result in unproductive activity. Initiating change with a single habit at a time is both recommended and sufficient for meaningful progress. There is no necessity to master every habit at once; a gradual approach proves more effective and sustainable. For young professionals, beginning with the 'Plan' habit—identifying Big Rocks and daily Most Important Tasks (MITs)—is often most impactful. Early-career professionals frequently encounter competing deadlines, shifting priorities, and information overload; thus, clarifying and focusing on top outcomes each day provides essential structure and reduces stress. Once planning becomes routine, incorporating the 'Collect' habit (capturing all tasks and ideas as they arise) can help manage increased complexity as responsibilities expand. Babauta recommends the following sequence for adopting the ten core ZTD habits:
@@ -692,7 +692,7 @@ A central principle of ZTD is the daily identification of top priorities, which 
 
 The system is described as 'zen' not because of calmness, but because it eliminates all nonessential work, focusing exclusively on what is essential.
 
-### Automate Repetitive Tasks — Buy Back Your Brain
+## Automate Repetitive Tasks — Buy Back Your Brain
 
 Performing repetitive tasks is often tedious and unnecessarily time-consuming. If the same task is performed in the same manner in each cycle, such as sending similar emails, formatting reports, backing up files, or scheduling, there is a high likelihood that an automation tool can execute these tasks more efficiently and with fewer errors. For example, many young professionals can save significant time by automating common workplace activities like meeting scheduling (using tools that allow invitees to pick an available slot and automatically send calendar invites), tracking expenses (with automated receipt capture and pre-filled reimbursement forms), or sending onboarding emails to new team members (using email templates or workflow automation tools that deliver a sequence of welcome information automatically). These automations free up resources for more valuable work and ensure routine processes happen reliably without manual oversight.
 
@@ -700,7 +700,7 @@ This approach is not indicative of laziness; rather, it reflects the application
 
 Automation reduces stress and, more importantly, preserves optimal working hours for high-value tasks such as deep work, learning, and creative activities that cannot be automated.
 
-#### The Rule: If You Do It Twice The Same Way, Automate It Third Time
+### The Rule: If You Do It Twice The Same Way, Automate It Third Time
 
 Ask: "Have I done this exact sequence before? Will I do it again?" If yes twice, automate.
 
@@ -745,7 +745,7 @@ If your repetitive tasks involve managing schedules, preparing business reports,
 
 Streamline workflow and track billable hours with automation features — principle, not just product.
 
-#### How to Implement Automation Without Creating More Work
+### How to Implement Automation Without Creating More Work
 
 Automation can become its own productivity theater if you spend 10 hours automating a 1-hour task. Use the 2x rule: Only automate a process if future time savings will repay the time you invest in setting up the automation at least twice. Best practice is to start by tracking repetitive tasks for a week, calculate the potential hours saved, then prioritize automation for those with the highest return. Common automation pitfalls include spending too much effort on automating rarely used or one-off tasks, over-customizing automation setups to the point that they become difficult to fix or update, or automating steps that still require frequent manual corrections. Others include neglecting to test systems thoroughly, which leads to errors that take more time to fix, or creating automations that are so complex they end up confusing or disrupting your workflow. Warning signs that you may be over-automating include investing a lot of time in automating infrequent or low-impact tasks, constantly tweaking automation systems beyond basic functionality, or automating steps that still require frequent manual corrections. A good rule of thumb: If a task takes more time to automate than you will save within a month or two of regular use, consider whether it is better left manual or kept as-is until your needs change.
 
@@ -774,7 +774,7 @@ You don’t need to code:
 **Keep human in loop for judgment**
 Automate execution rather than decision-making. For example, effective automation includes daily file backups, whereas indiscriminate auto-replies to all professional emails are inadvisable. Automation should be reserved for repetitive, rule-based steps, while human judgment should be applied to tasks requiring goal alignment, creativity, or empathy.
 
-#### The Mindset Shift
+### The Mindset Shift
 
 Automation is not a form of avoidance; rather, it involves recognizing the distinction between tasks that require unique human judgment and those that do not. While a busy individual may attempt to demonstrate value by performing all tasks manually, a productive individual ensures that important work is completed reliably, whether personally or through systems they have established.
 
@@ -787,7 +787,7 @@ Ask weekly: What did I do this week that a simple rule or tool could do next wee
 
 > Automation should not be used to avoid work, but rather to conserve time and energy for the most significant tasks.
 
-### Delegate Effectively — You Don't Have to Do Everything Yourself
+## Delegate Effectively — You Don't Have to Do Everything Yourself
 
 Today’s business culture celebrates independent achievement and personal bests. Hustle culture says: do more, be self-made, never need help. It’s expected you’ll beat personal records and strive for self-improvement.
 
@@ -795,14 +795,14 @@ However, most substantial projects—such as research papers, product launches, 
 
 Delegation involves intentionally assigning portions of the shared workload to others, rather than indiscriminately offloading tasks.
 
-#### What Delegation Actually Is — And Isn't
+### What Delegation Actually Is — And Isn't
 
 - Is: Transferring ownership of a task with a clear outcome, deadline, and resources, to a person whose skills or current capacity better fit it.
 - Isn’t: Asking someone to do your busy work because you don’t want to, without context, then blaming when it fails.
 
 Leaders must delegate to distribute assignments. Team members can also delegate laterally: asking for help, suggesting co-working, trading tasks so each person works in specialty — comparative advantage.
 
-#### When to Delegate — Beyond Eisenhower
+### When to Delegate — Beyond Eisenhower
 
 A classic tool is the Eisenhower Matrix: Urgent/Important.
 
@@ -820,7 +820,7 @@ Ask:
 3. Is someone else faster/better/happier doing it? If yes, delegate.
 4. Am I doing it because of guilt or identity — “good student does own work”? Re-examine.
 
-#### If You Don't Have Someone to Delegate To — Three Real Options
+### If You Don't Have Someone to Delegate To — Three Real Options
 
 **Hire help — Fractional, not full-time**
 
@@ -859,7 +859,7 @@ We covered automation in the previous section, but through a delegation lens:
 
 Guideline: If software can complete 80% of a task effectively, it should be utilized for that portion, reserving the final 20% for human refinement where judgment is essential.
 
-#### How to Delegate Well — So It Doesn't Boomerang
+### How to Delegate Well — So It Doesn't Boomerang
 
 Bad delegation creates more work than it saves. Good delegation follows 5 steps:
 
@@ -878,7 +878,7 @@ Delegated work will often achieve approximately 80% of the standard one might pe
 **Give credit, take responsibility**
 Credit the delegatee for success; absorb the failure as a learning opportunity for a clearer brief next time. This builds trust and willingness to take ownership.
 
-#### Mindset Reframe
+### Mindset Reframe
 
 Delegation does not signify an inability to perform all tasks; rather, it acknowledges that attempting to do everything independently is both mathematically inefficient and biologically unsustainable.
 
@@ -890,7 +890,7 @@ Weekly audit: Look at tasks you did last week. Circle ones someone else or somet
 
 The objective is not to increase workload, but to ensure that the appropriate entity completes essential tasks at the optimal energy level.
 
-### Ivy Lee Method — 6 Tasks That Built a Steel Empire
+## Ivy Lee Method — 6 Tasks That Built a Steel Empire
 
 Developed in 1918 by productivity consultant Ivy Lee for Charles Schwab and his team at Bethlehem Steel. Story: Schwab told Lee, “Show me a way to get more done.” Lee said, “Give me 15 minutes with each executive.” Method so effective Schwab paid Lee $25,000 — equivalent to ~$400,000 today — after 3 months. (Hessen, 1972, pp. 339-360)
 
@@ -900,7 +900,7 @@ The Ivy Lee Method: Write down six, and only six, important tasks to complete th
 
 No application or complex system is required; the method involves listing only six tasks.
 
-#### Core Rules
+### Core Rules
 
 **End-of-Day Planning — Capture tomorrow tonight**
 
@@ -949,7 +949,7 @@ There should be no sense of guilt associated with unfinished tasks; incompletion
 
 Carry-over prevents the list from becoming a graveyard of shame — unlike a typical to-do list, where unfinished items accumulate infinitely and create chronic Zeigarnik overwhelm.
 
-#### Why It Is Effective — Science Behind Simplicity
+### Why It Is Effective — Science Behind Simplicity
 
 **Simple — No tool friction**
 
@@ -974,7 +974,7 @@ The method encourages completion of one task before initiating another. For many
 - Counters Parkinson: Six tasks with clear order prevent expansion — you cannot expand #1 infinitely because #2-6 wait.
 - Manages Zeigarnik: Only six open loops, not 30. Brain can handle six. At night, writing six tomorrow closes today’s loops — Masicampo and Baumeister — you made a plan so that mind can rest. (Masicampo & Baumeister, 2011, pp. 667-683)
 
-#### How to Implement — Modern Ivy Lee
+### How to Implement — Modern Ivy Lee
 
 **Evening — 10 minutes before shutdown:**
 
@@ -1002,13 +1002,13 @@ In a world celebrating independent achievement and more, a method from 1918 that
 
 To begin, write down the six most important tasks for the following day each evening. Select and rank these tasks by true importance, and place the list in a visible location for the morning. This initial step often suffices to demonstrate the method’s effectiveness. It is common to encounter difficulty when first narrowing down or ranking tasks; adjustment to the process may require several days. If challenges arise, consider modifying the approach by listing fewer than six tasks, re-ranking them in the morning, or briefly noting each task's significance. Continued experimentation and persistence through early challenges are essential for realizing lasting benefits.
 
-### Choosing Between ZTD and Ivy Lee: Which Method Fits Your Work Style?
+## Choosing Between ZTD and Ivy Lee: Which Method Fits Your Work Style?
 
 Both Zen to Done (ZTD) and the Ivy Lee Method are powerful, but each supports different needs and preferences. If you thrive on structure, want to build long-term productive habits, or need a simple yet comprehensive framework for managing multiple projects and responsibilities, ZTD may be the better choice. It suits students balancing classes and activities, professionals managing multiple workstreams, and anyone seeking a systematic daily and weekly routine. In contrast, the Ivy Lee Method is ideal when you face an overwhelming list, need clarity fast, or want to focus your energy on just a handful of truly important tasks. It works well for people who crave simplicity, want to cut through busywork, or are experiencing decision fatigue. Consider starting with the Ivy Lee Method if you are seeking instant focus and prioritization, or try ZTD if you are ready to build lasting habits for managing a steady workload. Remember, you can experiment with both and even combine elements—using ZTD to guide your overall routine while relying on the Ivy Lee Method for daily prioritization during especially hectic weeks.
 
 For educators and instructors, both methods offer practical options for integration into classroom activities or self-management assignments. For example, instructors could introduce the Ivy Lee Method by having students write down and prioritize their top six tasks for a week of coursework, then reflect on how this affected their productivity and stress. Alternatively, ZTD could be used as a semester-long framework in which students establish a routine of identifying their Most Important Tasks at the start of each day, follow a weekly review process, and maintain a simple, trusted system for tracking assignments and project progress. Group projects could adopt ZTD's project and review habits, while individual reflections or journals could document the impact of these methods on workflow. Providing class time to practice these approaches or encouraging students to share strategies with peers can bridge the gap between theory and practice, helping students develop effective lifelong productivity habits.
 
-### The Seinfeld Method (Don't Break the Chain) — Visual Motivation That Actually Works
+## The Seinfeld Method (Don't Break the Chain) — Visual Motivation That Actually Works
 
 Mark a prominent 'X' on your calendar each day you complete a specific habit to promote daily consistency.
 
@@ -1018,7 +1018,7 @@ To maintain accountability, Seinfeld used a bright red marker to mark an 'X' on 
 
 Recommendation: Each day, complete at least one task related to your craft, regardless of its simplicity or duration, and record your achievement. For students, this could look like solving one practice problem, reviewing a single flashcard, or writing one sentence for a paper. For early-career professionals or young professionals, this might involve preparing three bullet points for an upcoming meeting, scheduling a follow-up with a colleague, or spending five minutes exploring a new tool your team uses (for example, watching a short tutorial on project management software or learning a new Excel formula). Other examples include drafting one slide for a presentation, outlining talking points for a client call, or updating a LinkedIn profile. For professionals more generally, it might mean sending one networking email, updating one slide, or reading a relevant article. For creatives, it could be sketching for five minutes, recording a quick idea, or brainstorming a single concept. The key is to choose a step so small you can always do it, and to mark your daily achievement so progress is visible.
 
-#### The Psychological Basis for the Superiority of Short, Consistent Practice over Extended Sessions
+### The Psychological Basis for the Superiority of Short, Consistent Practice over Extended Sessions
 
 Although the Seinfeld method may seem simple, it leverages four key psychological mechanisms often overlooked by other productivity systems:
 
@@ -1050,7 +1050,7 @@ The distinction between busyness and productivity is exacerbated when progress i
 
 Marking a prominent red 'X' elicits a dopamine response similar to checking off a to-do item (Schultz). Still, it is associated with a high-leverage habit, such as daily engagement with one's craft, rather than low-value tasks. This approach provides intrinsic reward without the superficiality of mere busyness.
 
-#### How To Do It Right — Common Mistakes
+### How To Do It Right — Common Mistakes
 
 **Mistake 1: Making chain too ambitious**
 A goal such as "Write 1000 words daily" is often unsustainable and leads to guilt when the chain is broken. The rule is: your chain task must be small enough to complete even on your worst day, whether you are sick, tired, or busy.
@@ -1075,7 +1075,7 @@ A digital checkbox does not provide the same impact as a large red X on a wall c
 
 If you prefer digital tools, use a calendar that visually displays your chain, such as a heatmap like GitHub contributions or an app like Streaks. Some of the most popular and beginner-friendly habit-tracking apps include Streaks (iOS), Habitica (which gamifies your habits with RPG elements), and Loop Habit Tracker (Android). (Team) These apps make it easy to track daily habits, visualize your streaks, and set reminders so you never miss a day. Choose one that fits your platform and personal style so you can get started quickly. Ensure the widget is visible on your home screen. However, be aware that digital tools come with pitfalls: notifications, easy access to distractions, or lack of visual impact can reduce their motivational power. To maintain momentum, turn off unnecessary notifications, keep the app prominent on your device, and set daily reminders to check in. Some people also find it useful to pair digital tracking with a tangible cue, like a sticky note or setting aside a dedicated moment each day to mark progress. Hence, your chain stays top of mind and less likely to fade into the background.
 
-#### Practical Implementation — Your Version
+### Practical Implementation — Your Version
 
 **Step 1: Choose craft — One thing**
 What is one high-leverage daily action that, if done daily for 60 days, would change trajectory? To make the right choice, ask yourself: Which single action will get me closest to my biggest academic, career, or skill goal? If you are unsure, jot down your top three possibilities and quickly rank them by: 1) how much direct impact they have on your results, 2) how likely you are actually to complete it every day, and 3) whether progress in this area compounds over time. Choose the one that scores highest across these points.
@@ -1106,7 +1106,7 @@ Look at chain. Notice:
 
 This reflection converts habit to learning — self-regulated learning — not just repetition.
 
-#### Why This Beats To-Do Lists For Mastery
+### Why This Beats To-Do Lists For Mastery
 
 To-do lists optimize for completion — many tasks done. Seinfeld optimizes for consistency — one important habit repeated until mastery.
 
@@ -1119,13 +1119,13 @@ Practice makes perfect not because of hours logged one day, but because of never
 
 After 30 days, you won’t have just 30 jokes, problems, or paragraphs. You’ll have the identity of the person who shows up daily — and that identity is what makes productive work feel less like discipline and more like who you are.
 
-### Agile Results — From Big Dreams to Daily Wins
+## Agile Results — From Big Dreams to Daily Wins
 
 The Agile Results method, created by J.D. Meier at Microsoft, aims to align your daily to-dos with your big dreams. It’s a simplified, personalized version of the Agile Methodology used for software project management, adapted for one person: you. In Agile, a 'sprint' is a short burst of focused work (usually one to two weeks) aimed at completing a set of clear goals. A 'stand-up' is a brief check-in meeting to review progress and next steps. A 'retrospective' is a short reflection at the end of each sprint to look at what went well, what was challenging, and how to improve next time. Agile Results takes these core ideas and applies them in a student-friendly way for personal progress.
 
 Core insight of Agile: plans change, but the system for adapting should not. Instead of a yearly plan that collapses in February, you work in short cycles with constant review, so you are always on the path to your long-term goal every day — even when the path shifts.
 
-#### The Framework: Rule of 3
+### The Framework: Rule of 3
 
 Agile Results has one memorable rule: For every time horizon, identify 3 outcomes.
 
@@ -1142,7 +1142,7 @@ For every long-term goal, identify three outcomes you want to see in the next ye
 
 Each level nests: Day 3 → Week 3 → Month 3 → Year 3. If your daily 3 don’t connect to weekly 3, you are busy, not productive. That link check is what prevents productivity theater.
 
-#### How It Works Daily — The Three Pillars
+### How It Works Daily — The Three Pillars
 
 Meier structures the day around three practices:
 
@@ -1160,7 +1160,7 @@ Friday 20 minutes: Review progress — Did I achieve weekly 3? Where did I get s
 
 At the end of each time period, review progress and adjust as needed. This loop — Plan → Do → Review → Adjust — is the heart of Agile. You don’t follow plan unthinkingly; you use results to improve plan.
 
-#### Why Agile Results Fixes Common Productivity Traps
+### Why Agile Results Fixes Common Productivity Traps
 
 **Solves "To-Do Without Compass" Problem**
 
@@ -1182,7 +1182,7 @@ Life disrupts rigid plans. Agile expects disruption. If the week goes sideways �
 
 You naturally put the hardest of the 3 daily outcomes into the prime-time window and the easier into the troughs. (Elsbach and Hargadon 470-483) Because you have only 3, you can match energy to outcomes rather than scatter it across 20 tasks.
 
-#### Practical Implementation — Start Today
+### Practical Implementation — Start Today
 
 **Step 1: Define Yearly 3 — 30 minutes, once**
 Take sheet, write: “In next 12 months, if I could only achieve 3 outcomes, what would make year great?” Be specific, outcome-based, measurable.
@@ -1213,7 +1213,7 @@ Today, May 6: [Outcome 1, 2, 3] — #1 = most leverage
 - Evening: Did I achieve 3? If not, why? What did I learn? Carry over?
 - Friday: Did weekly 3 happen? What pattern caused success/failure? What to change? Adjust next week’s 3 accordingly.
 
-#### Tip — The Agile Mindset
+### Tip — The Agile Mindset
 
 Agile Results is not about doing Agile perfectly. It’s a mindset shift:
 
@@ -1233,7 +1233,7 @@ It works because it combines the best of other systems:
 
 At the end of each time period, review progress and adjust as needed. That sentence is the whole method: Dream big, act in threes, reflect often, adapt always.
 
-### The "Power Hour" Method — One Hour That Changes Everything
+## The "Power Hour" Method — One Hour That Changes Everything
 
 The idea of a “Power Hour” comes from Adrienne Herbert’s book, Power Hour: How to Focus on Your Goals and Create a Life You Love and asks you to devote an hour a day to working hard on your biggest task — or the thing you care about most.
 
@@ -1243,7 +1243,7 @@ Other times, it might be a personal project or passion you want to carve out tim
 
 The trick is committing — truly committing — to taking that hour every day, upending your schedule if necessary.
 
-#### Why One Hour Works When Eight Hours Don't
+### Why One Hour Works When Eight Hours Don't
 
 Power Hour solves three problems that create busy vs productive illusion:
 
@@ -1271,7 +1271,7 @@ Seinfeld Method parallel: joke didn’t have to be funny. Power Hour task doesn�
 
 After 30 days of Power Hours, you have 30 hours of deep work on the thing that matters most — which is 30 hours more than most people get in a year of “someday I’ll find time.”
 
-#### What Counts as Power Hour?
+### What Counts as Power Hour?
 
 Herbert's rule: Hour must be:
 
@@ -1286,7 +1286,7 @@ Examples:
 - Passion Power Hour: “6-7 am: Write 500 words of personal statement / Build portfolio project / Practice coding problems”
 - Improvement Power Hour: “5:30-6:30 am: Apply to 2 jobs with tailored cover letters, no distractions”
 
-#### How to Actually Commit — Upending Schedule If Necessary
+### How to Actually Commit — Upending Schedule If Necessary
 
 Herbert’s phrase “upending your schedule if necessary” is key. Most people try to fit Power Hour into leftover time. Leftovers are never enough. You must put Power Hour first, then build the rest of the day around it.
 
@@ -1321,7 +1321,7 @@ Combine with Seinfeld: A big wall calendar with a red X for each day you complet
 
 Evening review 2 minutes: What did the hour produce? Not how good, but that it happened. Progress compounds.
 
-#### Why It Makes You Happier, Not Just More Productive
+### Why It Makes You Happier, Not Just More Productive
 
 Herbert’s second part is often missed: Power Hour is not just about output; it's about enhancing life, making you feel happier and more productive.
 
@@ -1335,7 +1335,7 @@ One hour, truly committed, every day, upends not just schedule but trajectory. B
 
 Give it first hour, not last.
 
-### Kanban System — Make Your Work Visible
+## Kanban System — Make Your Work Visible
 
 Using a visual board — like Trello, a physical whiteboard, or a wall with sticky notes — to move tasks through stages: To Do, Doing, and Done. Personal Kanban is based on the Kanban project management technique from the Toyota Production System — Taiichi Ohno, 1940s — to manage flow, not just inventory.
 
@@ -1345,7 +1345,7 @@ This method is ideal for visual learners who need to see progress — because in
 
 It also helps you focus on one task at a time, as you can only have a limited number of tasks in the Doing column — WIP limit. This prevents you from spreading yourself too thin and allows you to give full attention to the task at hand. By using a Kanban system, you can increase productivity and reduce stress by providing a clear visual representation of tasks and progress.
 
-#### Why Visual Matters — Science
+### Why Visual Matters — Science
 
 **Externalizes Zeigarnik Loops**
 
@@ -1363,7 +1363,7 @@ Toyota’s insight: limiting Work In Progress (WIP) increases throughput. Counte
 
 A card in Doing with no deadline expands. Kanban with daily review forces you to confront: “This card has been in Doing 4 days. Why?” That visibility triggers action — break the task into smaller parts, delegate, or finish.
 
-#### How to Build Personal Kanban — Minimal Viable Board
+### How to Build Personal Kanban — Minimal Viable Board
 
 You need not complex software. The best board is the one you see daily.
 
@@ -1402,7 +1402,7 @@ Waiting: "Waiting for lab data from partner"
 Done: "Submitted reflection," "Finished Ch 4 summary from memory"
 ```
 
-#### Kanban + Other Methods — Integration
+### Kanban + Other Methods — Integration
 
 Kanban is not replacement; it is visual container for other methods:
 
@@ -1413,7 +1413,7 @@ Kanban is not replacement; it is visual container for other methods:
 - Seinfeld: Done column IS your chain — visual proof of consistency. After a week, count Done cards — tangible progress, not just hours logged.
 - Biological Prime Time: Schedule the hardest Doing card for the prime window — mark with a star. Easy Doing cards for the trough.
 
-#### Why It Reduces Stress and Increases Productivity
+### Why It Reduces Stress and Increases Productivity
 
 Stress in productivity often comes from invisibility: invisible progress, invisible bottlenecks, invisible priorities — the brain must hold everything.
 
@@ -1429,7 +1429,7 @@ Visibility + WIP limit = focus. Focus + moving cards = progress. Progress visibl
 
 Try it on wall for one week. You will feel difference between list that grows and board that flows.
 
-### The Commitment Inventory — For Those Who Do It All and Are Burning Out
+## The Commitment Inventory — For Those Who Do It All and Are Burning Out
 
 For those who have tried every productivity method — GTD, Kanban, Ivy Lee, Time Blocking — but still can’t focus attention, Mark Forster’s Commitment Inventory might be just right for you. If you feel overwhelmed by too many simultaneous commitments or find that other methods only help you organize but not reduce your overload, the Commitment Inventory is designed to help you step back and reevaluate what you say yes to. As a rule of thumb: if you mainly need help organizing and tracking tasks, try Kanban or Agile Results first; if you need to cut down your commitments and regain control of your time, Commitment Inventory is often the reset you need. You can also combine these methods: after using Commitment Inventory to identify and reduce your overload, switch back to Kanban or Agile Results to organize and execute your refined list of commitments. For example, do a Commitment Inventory at the start of each semester or hectic season, then use Kanban to manage your prioritized tasks day to day. If your commitments start to creep up again and you feel overwhelmed, pause to reassess with a fresh inventory before returning to your preferred workflow. In this way, Commitment Inventory acts as a periodic reset, while Kanban and Agile Results support your daily execution and focus.
 
@@ -1441,13 +1441,13 @@ This method is ideal for those constantly juggling multiple tasks and commitment
 
 If you’re someone who has a hard time saying no, this method can help identify which commitments are most important and which can be delegated, eliminated, or renegotiated. It allows you to focus on tasks that will have the greatest impact on goals and priorities, while also ensuring time for relaxation.
 
-#### The Core Problem It Solves — Commitment Overload
+### The Core Problem It Solves — Commitment Overload
 
 Most productivity advice says “prioritize to-do list.” But when you are a yes person, the problem is not a list — it’s life. Your commitments exceed 100% of the available time. You cannot fit a 120% workload into a 100% day — math fails. You need inventory, not just a list.
 
 Forster’s insight: You don’t have a time management problem. You have a commitment management problem. Until you see total commitments visually — as 140% of your time — you will keep believing you can squeeze it all with a better method. Inventory forces confrontation.
 
-#### 6 Steps To Making A Commitment Inventory
+### 6 Steps To Making A Commitment Inventory
 
 **List — Write down complete list of how you spend time**
 
@@ -1555,7 +1555,7 @@ Example day with bursts:
 
 You focus on one task at a time and work in bursts, you can increase productivity and reduce stress.
 
-#### Why It Works For Yes People
+### Why It Works For Yes People
 
 - Forces quantitative reality check: You cannot argue with 168 hours. Pie chart shows overcommitment visually — more powerful than feeling “busy.” You must confront: saying yes to X means saying no to Y, even if you didn’t say it aloud.
 - Makes saying no easier: Instead of vague guilt — “I should help” — you can say, “I did a commitment inventory — I am at 105% — I cannot take this on well right now without dropping an important commitment.” Data, not excuse.
@@ -1576,7 +1576,7 @@ You don't need better to-do system. You need smaller, truer commitment portfolio
 
 Take control of your time and increase your productivity — not by doing more, but by committing to less, on purpose.
 
-### Pomodoro Technique — 25 Minutes That Beat 3 Hours
+## Pomodoro Technique — 25 Minutes That Beat 3 Hours
 
 Working in 25-minute, high-focus intervals followed by 5-minute breaks is a simple way to maintain energy and prevent burnout. It allows you to work in short, focused bursts, which can help you stay on task and avoid distractions. The Pomodoro Technique is a time management method designed to help you increase your productivity and reduce stress. When used with a group, such as a study group or team, Pomodoro sessions keep everyone focused on the same task, reduce side conversations and provide a defined break at the same time. This not only helps the group maintain collective energy but also reduces group fatigue, making it easier for everyone to stay engaged and support each other's progress.
 
@@ -1596,7 +1596,7 @@ For those who work heads-down for hours on end to complete a project without a b
 
 Created by Francesco Cirillo in the late 1980s — named after the tomato-shaped kitchen timer — pomodoro, in Italian, solves exactly what modern work creates: endless, unstructured work sessions that feel productive but lead to exhaustion.
 
-#### How It Works — The Rules
+### How It Works — The Rules
 
 **The core loop:**
 
@@ -1610,7 +1610,7 @@ It is important to note that breaks are just as important as work sprints, as th
 
 > **Tip: Set a 25-minute timer and focus on one task, seeing how much you can get done before you take a 5-minute breather.**
 
-#### Why 25-5 Works — The Biology
+### Why 25-5 Works — The Biology
 
 **Fits Ultradian Rhythm**
 
@@ -1636,7 +1636,7 @@ Hours spent heads-down feel productive but often include 60% micro-distractions.
 
 Kanban + Pomodoro integration: Each Done card can show pomodoros spent — tangible evidence of effort invested in important outcomes, not just time passed.
 
-#### Common Mistakes — Don't Break The Pomodoro
+### Common Mistakes — Don't Break The Pomodoro
 
 **Mistake 1: Ignoring breaks — "I'm in flow, skip break"**
 
@@ -1656,7 +1656,7 @@ Scrolling Instagram, answering texts, checking email during a 5-min break is not
 
 Doing pomodoro on 3 tasks interleaved — 5 min on essay, 10 min on email, 10 min on homework in same 25 — defeats single-tasking. One pomodoro = one task.
 
-#### How To Implement Today — Minimal Setup
+### How To Implement Today — Minimal Setup
 
 No app needed: a kitchen timer, a phone timer in airplane mode, or a simple tomato timer website all work. If you want an app, popular timer apps like Focus Keeper, Forest, or Pomodone can help you get started right away. For group Pomodoros, try using a shared timer that everyone can see or hear—such as a physical timer in the middle of the table, a web-based timer projected for all, or even designating one person to announce the start and end of each session. This keeps the group in sync and makes transitions smoother.
 
@@ -1677,7 +1677,7 @@ Today, try 4 pomodoros only — 2 hours total:
 
 Done. 100 minutes of deep work beats 4 hours of heads-down work with micro-switching. Track how you feel after: energy, focus, stress, compared to your usual routine. If you're working as a group, set up a simple shared document or spreadsheet to log each completed Pomodoro cycle. This lets everyone see the group's progress, builds accountability, and makes it easier to celebrate milestones together.
 
-#### Why It Reduces Burnout
+### Why It Reduces Burnout
 
 Burnout not just from too much work, but from unbroken, low-control work with no visible completion. Pomodoro gives:
 
@@ -1689,7 +1689,7 @@ For those who work heads down for hours on end without a break, this one is for 
 
 Set timer. One task. 25 minutes. Then breathe.
 
-### The "Eat the Frog" Method — Do the Hardest Thing First
+## The "Eat the Frog" Method — Do the Hardest Thing First
 
 This method was popularized as core principle in Brian Tracy's best-selling book, _Eat That Frog!_, which opens with a quote attributed to Mark Twain: "Eat a live frog first thing in the morning and nothing worse will happen to you the rest of the day." Tracy uses this as foundational metaphor for entire productivity system.
 
@@ -1701,7 +1701,7 @@ Historical misattribution aside, metaphor stuck because it is visceral: frog is 
 
 **The strategy:** Complete your most difficult and impactful task first thing in morning. Identify your most important task for day — the one you're most likely to procrastinate on — and complete it first. If you tackle most challenging task early, you feel sense of accomplishment and momentum that can carry you through rest of tasks. By completing task you are most likely to put off, you reduce stress and increase productivity for rest of day.
 
-#### What Is Your Frog?
+### What Is Your Frog?
 
 Your frog is not just any hard task. It has three criteria:
 
@@ -1718,7 +1718,7 @@ Procrastination research — Pychyl, Sirois, Steel — shows procrastination is 
 **Requires willpower and cognitive energy**
 Your willpower and cognitive energy are at peak early in day. By eating frog, or tackling task you're most likely to put off, you eliminate mental burden of that task and prevent it from overshadowing day. This often leads you to fill rest of day with busy distractions if you don't. Because you've already completed most challenging task, you can approach rest of day with sense of accomplishment and focus. It also allows you to tackle smaller tasks with greater efficiency, as you have already expended your willpower and cognitive energy on the most important task. By completing the task that requires the most effort and focus first, you can set a positive tone for the rest of the day and increase overall productivity.
 
-#### Why First Thing In Morning Works — Science
+### Why First Thing In Morning Works — Science
 
 **Biological Prime Time + Ego Depletion**
 
@@ -1743,7 +1743,7 @@ Once you've eaten frog, two psychological shifts:
 
 - **Reduces decision fatigue:** You begin day with clear priority instead of wasting energy deciding what to tackle first. No "What should I do?" loop at 9am. Decision made night before — Ivy Lee style — and executed immediately. You save prime decisions for execution, not selection.
 
-#### How To Eat Frog Without Choking — Implementation
+### How To Eat Frog Without Choking — Implementation
 
 **Night Before — Identify Frog — 5 minutes:**
 At close of workday — Ivy Lee end-of-day planning — ask:
@@ -1769,7 +1769,7 @@ Once completed hardest task, you can dedicate rest of day to smaller tasks witho
 
 Focusing on just one task can significantly boost productivity. After frog, do MIT #2 and #3, then busy work in low-energy trough — email batch, organizing — ZTD low-energy list.
 
-#### It Is Not About Neglecting Other Tasks
+### It Is Not About Neglecting Other Tasks
 
 It is important to note that Eat the Frog method is not about avoiding or neglecting other tasks. Instead, it is about prioritizing and focusing on most important task first, which can lead to increased productivity and reduced stress throughout day. By completing most challenging task early, you approach rest of day with sense of accomplishment and focus, allowing you to tackle smaller tasks with greater efficiency.
 
@@ -1783,7 +1783,7 @@ Productive person says: "I'll warm up by eating frog. Everything else is warm-do
 
 That feeling — relief + momentum + pride — is why method survived from Chamfort's toad in 1790s to Tracy's frog today. The toad hasn't changed. Human avoidance hasn't either.
 
-### The Results Planning Method — RPM: Results, Purpose, Massive Action
+## The Results Planning Method — RPM: Results, Purpose, Massive Action
 
 This technique comes from famed motivational speaker Tony Robbins, who designed it to be motivational, fast, and efficient. Not only does acronym stand for Rapid Planning Method — RPM — but it can also serve as guide to what your day should look like: Results-oriented, purpose-driven, and built around a "massive action plan."
 
@@ -1799,7 +1799,7 @@ These questions are designed to help you focus on goals and purpose, and to crea
 
 By doing this, you connect more to mission and get more energized about getting to work right away on answer to third question, rather than spending bunch of time deliberating about what you should or shouldn't be doing with time. This method ideal for those who want to start day with clear sense of purpose and direction, and who want to ensure actions aligned with long-term goals. By focusing on results, purpose, and action, you can increase productivity and achieve goals more effectively.
 
-#### Why RPM Fixes To-Do List Failure
+### Why RPM Fixes To-Do List Failure
 
 Most to-do lists fail for three reasons — and RPM was built to solve each:
 
@@ -1830,7 +1830,7 @@ Many people plan endlessly — productivity theater of perfect Notion system —
 
 Not 20 steps. Just next moves that create momentum.
 
-#### The Three Questions — Expanded Implementation
+### The Three Questions — Expanded Implementation
 
 **Q1: What do I want? — Result — Be specific and measurable**
 
@@ -1899,7 +1899,7 @@ Example MAP for methods draft result:
 
 MAP is flexible — Agile — if obstacle appears, you adjust actions but result and purpose stay. That keeps you on path even when plan changes.
 
-#### Daily RPM Ritual — 10 Minutes That Replaces Hour of Deliberating
+### Daily RPM Ritual — 10 Minutes That Replaces Hour of Deliberating
 
 Robbins designed RPM to be fast — Rapid.
 
@@ -1925,7 +1925,7 @@ This weekly RPM becomes your Monday Vision — aligns daily to-dos with big drea
 - Did purpose hold? Did I feel energized?
 - What in MAP worked? What to adjust tomorrow?
 
-#### Why RPM Works For Purpose-Driven People Who Still Procrastinate
+### Why RPM Works For Purpose-Driven People Who Still Procrastinate
 
 - **Solves decision fatigue:** Instead of 30-task to-do creating paralysis, you have 3 results with clear why and next step — you know exactly where to start — Ivy Lee benefit.
 - **Makes motivation internal:** Traditional planning relies on discipline. RPM relies on purpose — emotion — which is renewable. You don't need to force yourself to eat frog; purpose makes frog meaningful.
@@ -1942,7 +1942,7 @@ Try tomorrow: Don't write to-do. Write RPM:
 
 Do that first step before anything else. Notice difference between starting day with list of shoulds vs starting with result you want, purpose you feel, and action you can take right now.
 
-### 10 Goals Method — Program Your Subconscious Daily
+## 10 Goals Method — Program Your Subconscious Daily
 
 The 10 Goals Method, introduced by Brian Tracy, is an inspiring daily practice that encourages you to write down ten goals in present tense for at least a month, typically in dedicated notebook. This technique is thoughtfully designed to engage subconscious mind, enhancing focus and shifting mindset toward achievement of specific, actionable results. By activating Reticular Activating System — RAS — it empowers you to concentrate on meeting goals with confidence.
 
@@ -1952,7 +1952,7 @@ Tracy emphasizes that daily ritual effectively programs subconscious. As you ref
 
 It's essential to recognize that these goals are long-term aspirations — targets that may require year or more to realize. They are not intended to be simple daily to-do list. Goals can span various areas, including financial aspirations, personal development, health and fitness, or professional accomplishments. You may choose to jot down ten, twelve, or even fifteen goals; vital aspect is to cultivate habit of writing each day. Embrace this journey!
 
-#### Why Writing Same Goals Every Morning Works — Neuroscience of RAS and Priming
+### Why Writing Same Goals Every Morning Works — Neuroscience of RAS and Priming
 
 **Reticular Activating System — Your Brain's Filter**
 
@@ -1964,7 +1964,7 @@ Tracy's daily rewriting without looking at yesterday's list is intentional: forc
 
 This is also Zeigarnik management: writing 10 long-term goals as present-tense closed statements paradoxically creates open loops that subconscious wants to close during day — Bargh's unconscious goal pursuit.
 
-#### The Importance of How You Phrase Your Goals — Rules That Matter
+### The Importance of How You Phrase Your Goals — Rules That Matter
 
 - **Begin every goal with "I."** This approach clearly indicates to subconscious who is responsible. Not "Company promotes me" — external locus. "I earn promotion to..." — internal locus, self-efficacy — Bandura. Ownership increases agency.
 
@@ -1974,7 +1974,7 @@ This is also Zeigarnik management: writing 10 long-term goals as present-tense c
 
 Tracy emphasizes writing goals first thing morning allows brain to spend rest of day identifying opportunities. However, writing alone is not enough; you must also take action. Review goals daily, ideally morning, then take at least one action toward achieving them.
 
-#### Tracy's 12-Step System — From Wish to Plan — Expanded
+### Tracy's 12-Step System — From Wish to Plan — Expanded
 
 From list of ten goals, ask yourself: "Which one goal would have greatest positive impact on my life right now?" Focus entirely on that one goal. This is Pareto — one goal that makes others easier. Then apply 12 steps to that one:
 
@@ -2014,7 +2014,7 @@ Imagine goal as already achieved. Repeat visualization often until image firmly 
 **Persistence and Commitment — Non-negotiable promise**
 Support all previous steps with unwavering determination. Make promise to yourself that you will not quit. By staying persistent and refusing to give up, you will ultimately reach goal. Persistence = Seinfeld rule: never break chain twice. Commitment = Power Hour rule: truly committing, upending schedule if necessary.
 
-#### Daily Practice — 15 Minutes That Compounds
+### Daily Practice — 15 Minutes That Compounds
 
 **Morning — First thing, before phone — 10 min:**
 
@@ -2035,7 +2035,7 @@ These steps are designed to help clarify goals, create plan of action, and stay 
 
 > 10 Goals Method is not daily to-do list — it's daily programming. To-do asks "What must I do today?" 10 Goals asks "Who am I becoming this year, and does today serve that?" Write it daily, present tense, fresh from memory, and your RAS, identity, and actions begin to align — not because writing is magic, but because daily retrieval + specificity + deadline + purpose + immediate action rewires what your brain notices and what you believe possible.
 
-### The Rule of 3 — Three Wins That Beat Thirty Tasks
+## The Rule of 3 — Three Wins That Beat Thirty Tasks
 
 Instead of drowning in lengthy to-do lists that can lead to frustration and overwhelm, consider adopting more streamlined approach by identifying just three key tasks you aim to accomplish before day ends.
 
@@ -2043,7 +2043,7 @@ Many people find it challenging to accurately gauge how much they can realistica
 
 This approach particularly effective for those who struggle with procrastination or have tendency to overcommit — yes people. By limiting focus to three tasks, you can prioritize effectively and avoid stress of overwhelming to-do list. It also allows flexibility, as you can adjust priorities based on day's events while still maintaining clear sense of direction. You can also use this method in conjunction with other productivity techniques, such as time blocking or Pomodoro Technique, to further enhance focus and efficiency. By breaking day into manageable chunks and focusing on limited number of tasks, you can increase productivity and reduce stress.
 
-#### Why Three? The Science Behind The Number
+### Why Three? The Science Behind The Number
 
 **Beats Planning Fallacy — Realistic Capacity, Not Optimistic Fantasy**
 
@@ -2059,7 +2059,7 @@ Human working memory holds ~4 chunks. To-do list of 20 exceeds capacity → over
 
 If you can only do 3, you must ask: which 3 of my 20 possible tasks produce 80% of impact? This is Ivy Lee ranking + Agile Results yearly nesting in simplest form. You must confront difference between urgent — email — and important — portfolio. Three-task limit is forcing function for intentionality — Bargh — you can't hide behind busy.
 
-#### How To Do Rule of 3 Right — Not Just Another To-Do
+### How To Do Rule of 3 Right — Not Just Another To-Do
 
 **Morning — 5 Minutes — Define 3 Outcomes, Not 3 Tasks**
 
@@ -2099,7 +2099,7 @@ You can adjust priorities based on day's events while still maintaining clear se
 - Which took longer than estimated? — Update base rate for future — beats Planning Fallacy over time.
 - What to carry? — Unfinished becomes tomorrow's candidate, re-ranked.
 
-#### Why It Works For Procrastinators and Overcommitters
+### Why It Works For Procrastinators and Overcommitters
 
 Procrastinators avoid because task feels huge. Three small outcomes feel doable — reduces threat — Pychyl, Sirois. Start #1 for 5 minutes — often Zeigarnik pulls you forward.
 
@@ -2109,7 +2109,7 @@ Overcommitters — Commitment Inventory yes people — say yes to 15 things. Rul
 
 **Start tomorrow:** Tonight, before shutdown, write 3 outcomes for tomorrow on sticky. Not 10. 3. Rank. Define done for each. Tomorrow morning, start #1 before email, Pomodoro it, cross off. Watch how finishing 3 feels better than half-finishing 10 — and how stress drops when list is small enough to hold in mind and real enough to actually finish.
 
-### The 3-3-3 Method — Deep Work, Quick Wins, and Life Maintenance in One Day
+## The 3-3-3 Method — Deep Work, Quick Wins, and Life Maintenance in One Day
 
 Creating structured daily plan can significantly enhance productivity and overall well-being. 3-3-3 method — popularized by Oliver Burkeman and later refined by creators like Alex Lieberman — gives you simple container for day that balances big dreams and everyday responsibilities, without requiring complex system.
 
@@ -2121,7 +2121,7 @@ Creating structured daily plan can significantly enhance productivity and overal
 
 By following structured approach, you not only optimize energy levels but also minimize decision fatigue, allowing you to concentrate mental resources on what matters most. Balanced method ensures you make consistent strides toward aspirations while also managing everyday responsibilities effectively.
 
-#### Why 3-3-3 Works — Biology and Psychology
+### Why 3-3-3 Works — Biology and Psychology
 
 This method is essentially three productivity principles stacked into one day template:
 
@@ -2164,7 +2164,7 @@ Why explicit maintenance?
 
 Examples: 1) 10-min kitchen reset, 2) Update calendar + review tomorrow's 3-3-3, 3) Lay out clothes / prep bag — reduces morning decision fatigue — Baumeister.
 
-#### How To Plan 3-3-3 — 10 Minutes Evening Before
+### How To Plan 3-3-3 — 10 Minutes Evening Before
 
 **Night before — Ivy Lee shutdown:**
 
@@ -2185,7 +2185,7 @@ MAINT 3 [4:30-5:30pm]: ☐ Calendar update + tomorrow plan ☐ Kitchen 10-min �
 
 Total focused commitments: ~5-6 hours. Not 10-hour fantasy — realistic, beats Planning Fallacy — Buehler et al. — leaves buffer — 15% white space — for emergencies, rest.
 
-#### Integration With Other Methods — System of Systems
+### Integration With Other Methods — System of Systems
 
 3-3-3 is not new method to replace others — it's daily template that houses them:
 
@@ -2198,7 +2198,7 @@ Total focused commitments: ~5-6 hours. Not 10-hour fantasy — realistic, beats 
 
 By following structured approach, you not only optimize energy levels but also minimize decision fatigue, allowing you to concentrate mental resources on what matters most. You don't deliberate all day what to do next — template decided night before. You just execute block you are in.
 
-#### Why Balanced Method Prevents Burnout
+### Why Balanced Method Prevents Burnout
 
 Many deep-work-only methods create guilt about life admin. Many productivity methods create guilt about not doing deep work. 3-3-3 gives permission to do both, in right order, with boundaries.
 
@@ -2208,7 +2208,7 @@ Many deep-work-only methods create guilt about life admin. Many productivity met
 
 You make consistent strides toward aspirations while managing everyday responsibilities effectively — not by doing it all, but by giving each type of work its own protected 3.
 
-### The 1-3-5 Rule — 9 Tasks, Balanced By Energy
+## The 1-3-5 Rule — 9 Tasks, Balanced By Energy
 
 Balances workload with 1 big, 3 medium, and 5 small tasks. By categorizing tasks based on size and complexity, you can prioritize effectively and ensure you are dedicating appropriate time and energy to each task. This method helps prevent overwhelm by breaking workload into manageable chunks, allowing you to focus on what is most important while still making progress on smaller tasks.
 
@@ -2216,7 +2216,7 @@ The 1-3-5 Rule particularly useful for those who struggle with time management o
 
 It's essentially Rule of 3 expanded for people who need to see _everything_ but still need hierarchy — bridging lengthy to-do list and minimal 3-task list.
 
-#### Why 1-3-5 Counters Planning Fallacy Better Than Flat List
+### Why 1-3-5 Counters Planning Fallacy Better Than Flat List
 
 Flat to-do list treats all tasks equal — "Write thesis" same visual weight as "Buy milk." Brain can't prioritize, so defaults to easy small tasks — productivity theater — or freezes.
 
@@ -2232,7 +2232,7 @@ When selecting tasks for day, important to be realistic about what you can accom
 
 **Why size-based?** Matches biological prime time — Elsbach and Hargadon. Big task needs prime time, medium needs good energy, small fits trough. Without sizing, you attempt big task at 4pm depleted and fail.
 
-#### How To Select Your 1-3-5 — Definitions That Prevent Fake Sizing
+### How To Select Your 1-3-5 — Definitions That Prevent Fake Sizing
 
 Biggest mistake: labeling everything big, or making small tasks medium to feel important. Use time + cognitive definitions:
 
@@ -2272,7 +2272,7 @@ Examples: "Pay electricity bill," "Organize desktop downloads," "Reply to group 
 
 Schedule: Late afternoon trough — 4-5pm — or scattered as breaks between medium — maintenance activities — like 3-3-3 maint. Batch them — 60 min block for all 5 — don't interleave with big task.
 
-#### Daily Template — 1-3-5 In Practice
+### Daily Template — 1-3-5 In Practice
 
 **Evening before — 10 min — Ivy Lee shutdown:**
 
@@ -2311,7 +2311,7 @@ Total time: ~3h big + 3h medium + 1h small = 7h realistic work — not 12h fanta
 - Pomodoro: Big = 4 pomos, Medium = 1-2 each, Small = 1 pomo for 2-3 smalls.
 - Review evening: What took longer than estimated? Update sizing data for future — you learn true capacity.
 
-#### Why It Maintains Accomplishment and Motivation
+### Why It Maintains Accomplishment and Motivation
 
 Approach helps maintain sense of accomplishment and motivation throughout day, as you can see tangible progress being made on both large and small tasks — not just busy hours.
 
@@ -2321,7 +2321,7 @@ Approach helps maintain sense of accomplishment and motivation throughout day, a
 
 Done column at end shows 9 completed outcomes — Kanban visual — vs flat list where 9 tasks of equal size feels random. You see balance: deep work + progress + maintenance — exactly what 3-3-3 aims for but with more granularity.
 
-#### When To Use 1-3-5 vs Rule of 3 vs 3-3-3
+### When To Use 1-3-5 vs Rule of 3 vs 3-3-3
 
 - **Rule of 3:** Overwhelmed, burned out, recovering from overcommitment. Need minimal. 3 outcomes only.
 - **1-3-5:** Need to see full workload — including small maintenance — to avoid anxiety that small things forgotten, but still need hierarchy. Ideal for students juggling classes, job, life admin — you have big thesis, medium homework, small errands — need all visible.
@@ -2335,7 +2335,7 @@ You can combine: 1 Big = 3-hour deep, 3 Medium = 3 shorts, 5 Small = 3 maintenan
 
 Start tomorrow with honest sizing: How long did similar big task take last time? Use that, not hope. Choose 1-3-5 tonight, block calendar, and watch how manageable chunks prevent overwhelm while ensuring most important work still moves.
 
-### The 2-Minute Rule — Clear Mental RAM Before It Overflows
+## The 2-Minute Rule — Clear Mental RAM Before It Overflows
 
 The concept, originally introduced by David Allen in his productivity book _Getting Things Done_ — GTD — emphasizes important principle for managing tasks efficiently: if particular task can be completed in less than two minutes, it's best to tackle it right away rather than postponing it.
 
@@ -2343,7 +2343,7 @@ Reasoning behind approach is quite practical. When we choose to defer small task
 
 By addressing minor tasks immediately, we not only complete them swiftly but also reduce accumulation of what Allen refers to as "shallow work." This proactive approach prevents small tasks from snowballing into daunting list of unfinished commitments, which can lead to increased feelings of busyness and overwhelm later on. Consequently, embracing strategy can enhance overall productivity and create clearer, more focused mental space for more significant projects.
 
-#### Why 2 Minutes Is Magic Number — Cognitive Science
+### Why 2 Minutes Is Magic Number — Cognitive Science
 
 **Cost of Tracking > Cost of Doing**
 
@@ -2368,7 +2368,7 @@ Shallow work — Allen's term for low-cognitive, logistical tasks — email repl
 
 Procrastination is emotion regulation — avoiding tiny discomfort — Pychyl. Even 2-minute tasks trigger micro-avoidance: "I'll reply later." Later never comes, task becomes bigger in mind than reality. Rule removes decision: if <2 min, you do — no deliberation, no negotiation. Saves decision fatigue — Baumeister — and builds automaticity — Bargh — habit of starting.
 
-#### What Counts as 2-Minute? — Realistic Calibration
+### What Counts as 2-Minute? — Realistic Calibration
 
 Allen's 2 minutes is metaphor for "trivially quick" — not literal stopwatch. For most, true threshold is 2-5 minutes. Test:
 
@@ -2394,7 +2394,7 @@ Examples that do NOT qualify — common mistake:
 - "Write report" you think is 2 min but actually 30 — capture and size honestly — beats Planning Fallacy — Buehler
 - Anything that requires someone else — delegate, not 2-min
 
-#### How To Use Without Becoming Reactive — Critical Guardrails
+### How To Use Without Becoming Reactive — Critical Guardrails
 
 Biggest danger: people use 2-minute rule as excuse to be reactive — doing endless 2-minute shallow tasks in prime time instead of deep frog. You clear 30 small tasks, feel productive, but big important project untouched — productivity theater.
 
@@ -2420,7 +2420,7 @@ Example: During lecture, you think "Reply to mom." Don't do now — capture to l
 
 Each 2-minute task moved directly to Done — visual win — dopamine — Schultz. If you notice you have >10 small tasks pending, your system clogged — schedule 5 Small block — 1-3-5 Rule — to clear.
 
-#### Integration With Other Methods — System View
+### Integration With Other Methods — System View
 
 - **GTD + Kanban:** To Do column holds tasks >2 min. Processing inbox: <2 min → do → Done. >2 min → To Do with size label.
 - **Rule of 3 / 1-3-5 / 3-3-3:** 5 Small tasks = natural home for 2-minute tasks that you batched. Rule says if you have 20 small tasks, don't do all — pick 5 today, rest backlog — prevents overcommit.
@@ -2429,7 +2429,7 @@ Each 2-minute task moved directly to Done — visual win — dopamine — Schult
 - **Seinfeld:** Chain of days where inbox cleared using 2-min rule builds identity: "I am person who doesn't let small things pile."
 - **Biological Prime Time:** Do 2-min tasks in trough — low energy — 3-5pm — not prime.
 
-#### Practice Today — Mental RAM Cleanup
+### Practice Today — Mental RAM Cleanup
 
 Try 15-minute drill:
 
@@ -2443,7 +2443,7 @@ Most people close 10-15 loops in 15 min and report clearer, more focused mental 
 
 > 2-Minute Rule is not about being busy with small tasks. It's about refusing to pay rent in mental RAM for something you can evict in 90 seconds. Do it now, close loop, protect space for big work that actually moves life forward.
 
-### The 10-Minute Rule — Just Do It, Before It Becomes 10 Tasks
+## The 10-Minute Rule — Just Do It, Before It Becomes 10 Tasks
 
 Of all techniques on list, this might be one I use — or adapt — most often. Essentially, when there's small, mundane, or tedious task that doesn't excite you, but won't take more than 10 minutes to do, you just do it. Just do it. That's it. It sounds easy, but it's not, since these are also tasks you're more likely to put off and ignore, like answering emails or doing dishes. Fighting against impulse, committing to just doing these things when you think of them, and then getting them done is hard at first, but becomes habit over time — and it's one with lot of benefits. I do this when cleaning apartment. Instead of laboring over cleaning checklist or structured plan — which helpful for lot of people — I just take on task when I notice it needs to be done. Then, not only does it simply get done, which is point, but I feel sense of motivation and contentment. Since started doing this, home has never been cleaner, even though not following strict guidelines besides "just do it."
 
@@ -2451,7 +2451,7 @@ Because task that takes less than 10 minutes is often small, low-effort task, it
 
 Think of 10-Minute Rule as big sibling of 2-Minute Rule — same principle — clear mental RAM quickly — but with different threshold and different psychology.
 
-#### Why 2-Minute Isn't Enough — Where 10-Minute Wins
+### Why 2-Minute Isn't Enough — Where 10-Minute Wins
 
 **2-Minute Rule handles trivial — 10-Minute handles tedious.**
 
@@ -2463,7 +2463,7 @@ You tell yourself: "I'll do dishes later, when I have more time/energy." Later y
 
 10-Minute Rule interrupts that cycle at perception: When you notice task needs to be done — dishes in sink, crumbs on counter, email sitting — you don't schedule, you act — within next 60 seconds. No checklist, no structured plan. Notice → do.
 
-#### Why "Just Do It When You Notice" Is So Powerful — Science
+### Why "Just Do It When You Notice" Is So Powerful — Science
 
 **Exploits Noticing as Trigger — Implementation Intentions**
 
@@ -2485,7 +2485,7 @@ Commitment Inventory shows Maintenance category — chores, admin, life — ofte
 
 Doing when noticed keeps Maintenance at steady state: 10 min here, 10 min there, integrated into day in trough moments — not accumulated debt. Home stays clean, inbox manageable, because you never let small mess become big project.
 
-#### How To Practice — Without Becoming Reactive
+### How To Practice — Without Becoming Reactive
 
 Same danger as 2-Minute Rule: if you do 10-min tasks during prime deep work, you sabotage frog. So need guardrails.
 
@@ -2510,7 +2510,7 @@ If task takes >10 min when you start — e.g., you thought organizing closet 10 
 - **Time-box:** Set timer 10 min, do what you can, stop — progress over perfection — 80% clean enough — prevents perfectionism from turning 10-min task into project.
 - **Convert to medium task:** If truly needs more, capture as Medium in 1-3-5 and schedule — don't let it hijack current moment.
 
-#### Integration — Where 10-Minute Rule Lives in System
+### Integration — Where 10-Minute Rule Lives in System
 
 - **+ 2-Minute Rule:** Process inbox: <2 min → do now. 2-10 min → batch in 10-min rule block. >10 min → To Do / Medium.
 - **+ 1-3-5 Rule:** 5 Small tasks are natural home for 10-min tasks you noticed but deferred from deep block. You already have slot for them 4-5pm.
@@ -2518,7 +2518,7 @@ If task takes >10 min when you start — e.g., you thought organizing closet 10 
 - **+ Seinfeld:** Each 10-min completion is X on maintenance chain. After week, home cleaner, sense of accomplishment daily — small wins compound — Bandura self-efficacy.
 - **+ Commitment Inventory:** If you notice same 10-min task constantly — dishes every day — ask: can system fix it? Smaller plates? Dishwasher rule "wash immediately"? Rule + system = sustainable.
 
-#### Try It This Week — Notice → Do Experiment
+### Try It This Week — Notice → Do Experiment
 
 You don't need checklist. You need rule taped where you see it:
 
@@ -2532,7 +2532,7 @@ Most people report what you reported: home never been cleaner, mind clearer, not
 
 > 2-Minute Rule clears mental RAM of trivial. 10-Minute Rule clears physical and mental space of tedious before it becomes overwhelming. Both foster sense of accomplishment and progress not by doing more, but by refusing to let small things become big by waiting.
 
-### Getting Things Done — GTD — Mind Like Water
+## Getting Things Done — GTD — Mind Like Water
 
 A five-step process — Collect, Process, Organize, Plan/Do, Review — aimed at clearing mind of tasks and organizing them into actionable steps. Introduced by David Allen in 2001, GTD is not to-do list; it's complete system for managing commitments that has survived because it solves core problem other methods ignore: feeling overwhelmed not because you have too much to do, but because you haven't decided what to do about everything you hold in head.
 
@@ -2540,7 +2540,7 @@ Method particularly effective for those who struggle with feeling overwhelmed by
 
 Allen's mantra: Mind is for having ideas, not holding them. Your brain is terrible filing cabinet, excellent idea generator. GTD gets everything out of head into trusted system you review, so brain can stop nagging.
 
-#### The Five Steps — Expanded and Corrected — Allen's Actual Names
+### The Five Steps — Expanded and Corrected — Allen's Actual Names
 
 You listed Collect, Process, Plan, Do, Review — close. Allen's official five are: **Collect, Process, Organize, Do, Review** — sometimes listed as Capture, Clarify, Organize, Reflect, Engage. Planning is part of Organize/Do. Use correct flow for clarity:
 
@@ -2654,7 +2654,7 @@ Weekly Review is why GTD reduces stress long-term. Without review, open loops ac
 
 These categories designed to help manage workload more effectively and ensure you are making progress on most important tasks. By following GTD method, you can increase productivity, reduce stress, and achieve goals more efficiently.
 
-#### Why GTD Works For Overwhelmed — Beyond To-Do List
+### Why GTD Works For Overwhelmed — Beyond To-Do List
 
 - **Externalizes all commitments:** Unlike Rule of 3 which hides complexity, GTD captures all 100+ commitments first — validates yes person's reality — then organizes, so nothing forgotten. Overwhelm reduces not by doing less initially, but by seeing all in trusted place — you can then choose Pareto vital few intentionally.
 - **Forces next action clarity:** "Thesis" on to-do causes avoidance — too vague — procrastination as emotion regulation. "Open doc and type title" has no resistance. GTD's insistence on next physical action reduces activation energy — smallest step that starts motion.
@@ -2663,7 +2663,7 @@ These categories designed to help manage workload more effectively and ensure yo
 
 > GTD is not productivity method you do instead of Pomodoro, Rule of 3, Eat the Frog. It's operating system that holds those methods. Collect everything → Process with 2-min rule → Organize into energy contexts → Do by picking frog / Rule of 3 using Pomodoro → Review daily and weekly. Build trusted system once, then you have clearer, more focused mental space for significant projects — because brain finally trusts something other than itself to remember.
 
-### Implementation Intentions — The "If-Then" Plan That Automates Willpower
+## Implementation Intentions — The "If-Then" Plan That Automates Willpower
 
 This is valuable psychological tool designed to enhance productivity by effectively managing distractions that may arise during work.
 
@@ -2673,7 +2673,7 @@ For instance, if you often find yourself tempted to check email while focusing o
 
 This proactive approach automates reactions to distractions, thereby significantly diminishing "decision fatigue" that many experience. Gollwitzer's landmark research on implementation intentions demonstrated that forming specific if-then plans dramatically increases goal attainment compared to simply setting goal intentions alone, because they delegate behavioral control to situational cues and eliminate need for effortful deliberation in moment — Gollwitzer 493-503. Decision fatigue often leads individuals to gravitate toward less productive, low-value tasks when they start to feel overwhelmed or tired. Baumeister et al.'s research on ego depletion provides underlying mechanism: capacity for self-regulation operates as finite resource that becomes depleted through repeated acts of choice and self-control, leaving individuals increasingly vulnerable to impulsive, low-effort responses — Baumeister et al. 1252-65. By predefining response to distractions, you create mental pathway that encourages you to stay committed to primary task without additional mental burden of deciding how to react in moment. Strategy not only boosts focus but also enhances overall productivity.
 
-#### Why Goal Intentions Fail — And If-Then Succeeds
+### Why Goal Intentions Fail — And If-Then Succeeds
 
 Most productivity advice stops at goal intention: "I intend to focus on report," "I will not check email." Gollwitzer showed goal intentions have weak link to behavior — correlation ~.30. You intend, but when distraction hits — email ping, urge to snack, thought "I'm stuck" — you must in moment decide what to do. That decision costs self-regulation — Baumeister — which is depleted. When tired, you choose low-effort: check phone.
 
@@ -2681,7 +2681,7 @@ Implementation intention solves by pre-deciding. It delegates behavioral control
 
 Think of it as programming: If condition X detected, then execute Y. You install program when fresh in morning; it runs automatically when depleted afternoon.
 
-#### The Formula — How To Write Effective If-Then
+### The Formula — How To Write Effective If-Then
 
 Effective if-then has two parts both specific:
 
@@ -2709,7 +2709,7 @@ Do 5-min audit: What pulled you away yesterday? List 3. Those are your Ifs.
 2.  **Easy to start — 10-30 seconds:** Then must be doable even depleted. "Take one deep breath and redirect attention back to report, reminding myself of goals" — good — breath is 5 sec, reminder is 5 sec. Then action to restart task: "Write one sentence."
 3.  **Links to purpose:** Reminding yourself of goals — as example does — reconnects to RPM purpose — why, not just what — emotional fuel, not just discipline.
 
-#### Examples — Library You Can Steal
+### Examples — Library You Can Steal
 
 For report writing — Pomodoro + deep work:
 
@@ -2736,7 +2736,7 @@ For social media — prime time protection:
 - "If I pick up phone during Pomodoro, then I will immediately put it face down in other room and take 3 breaths, then return to task."
 - "If I open Instagram without intention, then I will close app, open notes app, and write one sentence about what I actually want right now."
 
-#### Why It Diminishes Decision Fatigue — Ego Depletion Mechanism
+### Why It Diminishes Decision Fatigue — Ego Depletion Mechanism
 
 Decision fatigue leads individuals to gravitate toward less productive, low-value tasks when overwhelmed or tired. Baumeister et al. provides underlying mechanism: capacity for self-regulation operates as finite resource depleted through repeated acts of choice and self-control.
 
@@ -2748,7 +2748,7 @@ Result: You stay committed to primary task without additional mental burden of d
 
 Studies: Gollwitzer 493-503 found implementation intentions increased goal attainment from 34% to 71% across tasks — exercise, diet, studying, writing. For students, if-then plans for studying increased time on task 2x vs goal intention alone.
 
-#### How To Install — 5-Minute Morning Ritual
+### How To Install — 5-Minute Morning Ritual
 
 **Anticipate — 2 min:** Before starting deep block, ask: What are 2 distractions likely in next 3 hours? Write them.
 
@@ -2764,7 +2764,7 @@ Example sticky:
 
 Combine with Pomodoro: At start of each 25-min pomodoro, say if-then aloud — 5 sec. Makes cue salient.
 
-#### Integration — System Glue
+### Integration — System Glue
 
 - **+ GTD:** If-then is processing decision made explicit. When processing inbox, you write if-then for likely interruptions during doing.
 - **+ Eat the Frog / Rule of 3:** Biggest use case — protect frog block with if-thens for top distractions.
@@ -2773,7 +2773,7 @@ Combine with Pomodoro: At start of each 25-min pomodoro, say if-then aloud — 5
 
 > Goal intention says "I want to focus." Implementation intention says "When distraction X happens in situation Y, I will do Z." First is wish. Second is program installed in brain that runs automatically when willpower low. That automation is why Gollwitzer found dramatic increase — you delegate behavioral control to situational cues, eliminate effortful deliberation, and protect finite self-regulation for work that actually matters.
 
-### Interleaving — Mixing Tasks To Learn Faster, Not Just Faster To Forget
+## Interleaving — Mixing Tasks To Learn Faster, Not Just Faster To Forget
 
 Instead of dedicating entire five-hour block to single type of task or area of study, consider adopting strategy that involves mixing related but distinct types of work or topics. While it might initially feel slower and more cumbersome — possibly leading you to perceive yourself as "less productive" in moment — there is substantial research indicating that technique, known as interleaving, can significantly enhance long-term retention of information and improve capacity to apply knowledge in various contexts. Kornell and Bjork's experimental research confirmed that interleaved practice — despite subjectively feeling less productive than blocked study in moment — produces significantly better long-term retention and transfer of learning, because continuous switching forces brain to actively retrieve and discriminate between different concepts rather than passively processing familiar material — Kornell and Bjork 585-92.
 
@@ -2785,7 +2785,7 @@ By incorporating interleaving into study or work routine, you can enhance abilit
 
 This strategy particularly useful for individuals who are preparing for exams, learning new languages, or developing expertise in multiple areas. By mixing tasks and topics, you can create more dynamic and engaging learning experience that promotes long-term retention and mastery of material.
 
-#### Why Blocked Feels Productive But Fails Long-Term
+### Why Blocked Feels Productive But Fails Long-Term
 
 Most students study blocked: Chapter 5 problems for 3 hours, then Chapter 6 tomorrow. Feels productive because second and third hour, problems get faster — familiarity breeds fluency illusion. You think "I got this."
 
@@ -2807,7 +2807,7 @@ Switching away from Skill A for 45 minutes and returning forces you to reload co
 
 Bjork calls this desirable difficulty: conditions that slow initial learning but improve long-term retention and transfer. Interleaving feels less productive in moment — more errors, slower — because difficulty higher. But that difficulty is signal learning happening, not failing.
 
-#### How To Interleave Right — Not Random Multitasking
+### How To Interleave Right — Not Random Multitasking
 
 Interleaving is not multitasking — Mark showed multitasking reduces efficiency 40% and increases stress. Interleaving is structured single-tasking in alternating blocks, with clear boundaries, not switching every 2 minutes.
 
@@ -2843,7 +2843,7 @@ You maintain engagement and prevent fatigue because novelty resets attention —
 
 Final 20% of session should be interleaved test: random problems from A and B, no labels. Act of switching highlights areas where understanding gaps — you realize "I can do t-test when told it's t-test, but when mixed I pick ANOVA." Gap identified = precise target for next study — far more efficient than re-reading.
 
-#### When To Use Interleaving vs Blocked — Nuance
+### When To Use Interleaving vs Blocked — Nuance
 
 Not everything should be interleaved:
 
@@ -2855,7 +2855,7 @@ Not everything should be interleaved:
 
 - **Don't interleave unrelated domains in same hour:** Mixing biology and history every 20 min increases load without discrimination benefit — contexts too distinct. Better to interleave within biology, then later separate block for history — that's 3-3-3 deep structure: 3 hours one domain, but within domain interleaved.
 
-#### Integration With Other Methods — System View
+### Integration With Other Methods — System View
 
 - **+ Pomodoro / 3-3-3:** Use Pomodoro to time interleaved blocks — 2 pomos Skill A, 2 pomos Skill B, 1 pomo mixed. Deep 3h can still be interleaved — deep doesn't mean monotonous, means distraction-free, not single-type.
 
@@ -2867,7 +2867,7 @@ Not everything should be interleaved:
 
 > Interleaving feels like you're less productive in moment — more errors, slower — but research shows it's because brain forced to actively retrieve and discriminate rather than passively process familiar material. By challenging yourself to switch between different types of tasks or subjects — related but distinct, 45 min each, ending with mixed test — you develop more flexible thinking patterns, identify gaps, and build knowledge that transfers to novel situations. Over time, this approach leads to improved problem-solving skills and more versatile skill set — making you better equipped to handle complex challenges — not because you studied more hours, but because hours forced you to choose, not just execute.
 
-### Dual Coding — Draw It to Remember It
+## Dual Coding — Draw It to Remember It
 
 This strategy emphasizes integration of verbal and visual information to facilitate deeper encoding of memories or concepts. Rooted in Dual Coding Theory, it leverages brain's ability to process information through two distinct channels: visual — images, diagrams, charts — and auditory/textual — spoken or written words. Clark and Paivio's comprehensive review of dual coding theory and its educational applications established that information encoded through both verbal and visual systems produces superior retention and comprehension compared to single-channel processing, because two mental codes are functionally independent and can mutually reinforce each other during recall — Clark and Paivio 149-210. By distributing information across these channels, approach effectively reduces cognitive load and enhances comprehension.
 
@@ -2877,7 +2877,7 @@ You will find that when you combine visual aids with verbal explanations, brain 
 
 When you are planning complex project, important to go beyond merely listing steps in linear format. Consider creating visual representation, such as flowchart or mind map, to accompany written plan. Flowchart visually outlines sequence of tasks and illustrates relationships between different components, while mind map captures overarching ideas and organizes related concepts hierarchically. Visual structuring enables brain to recognize connections, relationships, and potential pathways that may not be as apparent through text alone. By combining methods, you can cultivate more comprehensive understanding of project and improve retention of information involved.
 
-#### Why Two Codes Beat One — Theory
+### Why Two Codes Beat One — Theory
 
 Paivio's Dual Coding Theory — 1971, expanded with Clark 1991 — says memory has two independent but interconnected systems:
 
@@ -2890,7 +2890,7 @@ When you encode verbal + visual simultaneously — e.g., you draw simple diagram
 
 Clark and Paivio also showed dual coding reduces cognitive load — Sweller — because you distribute load across channels. Reading dense text only overloads verbal channel. Adding diagram offloads spatial relationships to visual channel, freeing verbal to process meaning. Holistic understanding emerges because each channel carries what it does best: verbal carries sequence, causation; visual carries structure, relation, hierarchy.
 
-#### How To Do Dual Coding Right — Not Just Adding Pictures
+### How To Do Dual Coding Right — Not Just Adding Pictures
 
 Common mistake: Add decorative image — stock photo — and think dual coding. Doesn't work. Image must be _informative_ and _integrated_ with verbal, requiring you to transform verbal into visual yourself — generative learning.
 
@@ -2928,7 +2928,7 @@ Dual coding requires simultaneous engagement. Don't draw silently then read text
 
 Technique: After drawing, cover text, look at diagram, try to recall verbal explanation from memory — retrieval practice + dual coding combined — powerful. Then cover diagram, recall diagram from verbal — bidirectional.
 
-#### Practical Templates — Study, Work, Planning
+### Practical Templates — Study, Work, Planning
 
 **Study — Complex concept — e.g., Dual Coding itself:**
 
@@ -2955,7 +2955,7 @@ When you present flowchart + written plan together, team sees relationships — 
 - Meeting notes: Draw simple 2x2 matrix while taking notes — Urgent/Important — place tasks visually.
 - Email: Before sending complex explanation, add simple diagram — screenshot with arrows — comprehension doubles.
 
-#### Why Reduces Cognitive Load — And Enhances Comprehension
+### Why Reduces Cognitive Load — And Enhances Comprehension
 
 Cognitive Load Theory — Sweller — says working memory limited. Text describing spatial relationships — "A is above B which connects to C that feeds back to A" — high load, you must hold spatial model in verbal memory.
 
@@ -2963,7 +2963,7 @@ Diagram externalizes spatial model — you see A above B. Verbal channel freed t
 
 That's why combining visual aids with verbal explanations leaves brain better equipped to form connections and retain information — you aren't adding load, you are splitting load across two independent processors that mutually reinforce during recall.
 
-#### Common Pitfalls
+### Common Pitfalls
 
 - **Decorative visuals — doesn't help:** Pretty stock image of brain doesn't add retrieval path — must be structure-relevant — diagram of theory's structure.
 - **Copying provided diagram without transforming:** Less effective than self-drawing. If given diagram, redraw from memory, add own labels.
@@ -2971,7 +2971,7 @@ That's why combining visual aids with verbal explanations leaves brain better eq
 
 > Dual coding is not about being visual learner — myth. It's about all brains having two systems that work better together. When you integrate verbal and visual — create diagram or flowchart to visually represent relationships while simultaneously explaining in words — you create multiple pathways for retrieval, reduce load, and build holistic understanding that text alone can't provide. For complex project, don't just list steps linearly — draw flow, then write plan — your brain will recognize connections, relationships, potential pathways that text alone hides, and you'll remember them when it matters.
 
-### The "Done" List — Anti-To-Do List That Shows If You Were Productive or Just Busy
+## The "Done" List — Anti-To-Do List That Shows If You Were Productive or Just Busy
 
 Instead of simply maintaining to-do list, keep running log of what you actually accomplished. This helps avoid "False Sense of Accomplishment" trap. When you look back at day and see "answered 50 emails" compared to "wrote 2 pages of thesis," it gives clearer picture of whether you were genuinely productive or just busy.
 
@@ -2981,7 +2981,7 @@ It is important to note Done list is not meant to replace regular to-do list but
 
 It is also important to write down every single task you complete, no matter how small or seemingly insignificant. Practice helps reinforce habit of acknowledging accomplishments and can provide sense of satisfaction and motivation to continue working toward goals. Over time, you may find Done list becomes valuable resource for tracking progress and identifying areas where you can further improve productivity.
 
-#### Why To-Do List Lies — And Done List Tells Truth
+### Why To-Do List Lies — And Done List Tells Truth
 
 To-do list shows intentions. Done list shows reality. Gap between them is where self-deception lives.
 
@@ -3013,7 +3013,7 @@ If Done list says "Wrote 2 pages thesis = 3 hours" for 3 days in row, next time 
 
 Also reveals patterns: "I always do deep work 8-10am, shallow after 2pm" — biological prime time data. Or "I complete maintenance tasks only when I do 10-Minute Rule when noticing" — shows which system works.
 
-#### How To Keep Done List — Simple System That Sticks
+### How To Keep Done List — Simple System That Sticks
 
 **Format — Don't Overcomplicate**
 
@@ -3049,7 +3049,7 @@ Note unplanned — critical — shows interruptions that to-do hides. Over week,
 
 - **End of month — vs 10 Goals list:** Compare Done lists to 10 Goals present-tense statements. Are daily Dones moving toward yearly outcomes? If goal "I increased annual income to $90k by Dec 31, 2026" but Dones show 0 income-related actions for month, misalignment visible — adjust Rule of 3 to include income Must.
 
-#### Done List vs To-Do — Complementary, Not Replacement
+### Done List vs To-Do — Complementary, Not Replacement
 
 To-do helps plan and prioritize — future orientation — intention — Gollwitzer goal intention. Done allows reflect on what achieved and recognize progress — past orientation — learning.
 
@@ -3066,7 +3066,7 @@ Over time, you may find Done list becomes valuable resource — not just product
 
 > To-do asks "What should I do?" Done asks "What did I actually do — and was it what mattered?" Write down every single task you complete, no matter how small, not to be busy, but to see clearly whether day was busy or productive — and to have honest data to make tomorrow more aligned with goals that matter.
 
-### Principle of Saying No — Productive vs Busy Is Decided By What You Decline
+## Principle of Saying No — Productive vs Busy Is Decided By What You Decline
 
 Productive individuals excel at managing time and energy by carefully prioritizing tasks that align with goals and values. They understand importance of saying "no" to non-essential work and commitments that do not contribute to overall objectives, allowing them to focus efforts on what truly matters. In contrast, busy individuals tend to say "yes" to nearly every request or opportunity that comes their way, often stretching themselves too thin. This tendency can lead to feelings of overwhelm and burnout, as they juggle numerous responsibilities and projects that dilute effectiveness and hinder progress toward meaningful accomplishments. By recognizing difference between productive and busy behaviors, individuals can cultivate better habits that foster success and well-being.
 
@@ -3074,7 +3074,7 @@ Even though saying "no" can be challenging, it is crucial skill for maintaining 
 
 This is the core lever of Commitment Inventory — every yes is time taken from 100% pie. Productive is not about doing more; it's about declining more.
 
-#### Why Yes People Become Busy, Not Productive — Psychology
+### Why Yes People Become Busy, Not Productive — Psychology
 
 Saying yes feels good in moment, no feels bad — so we say yes by default — automaticity — Bargh.
 
@@ -3092,7 +3092,7 @@ Buehler et al.: You underestimate how long tasks take, even with experience, bec
 
 If you say yes to everything, you have no priorities — you let others set your agenda. Productive individuals have clear goals and values — 10 Goals list, North Star — so they can compare request to filter: Does this align? If not, no is obvious. Busy individuals have vague goals — "be helpful," "don't miss out" — so every request seems plausible, they say yes, projects dilute, progress toward meaningful accomplishments hindered.
 
-#### Saying No Is Skill, Not Personality — How To Build It
+### Saying No Is Skill, Not Personality — How To Build It
 
 Even though saying no can be challenging, it is crucial skill for maintaining focus and achieving long-term goals — meaning trainable, not innate. Four layers:
 
@@ -3163,7 +3163,7 @@ Productive individuals schedule Rest first — Commitment Inventory shows rest s
 
 Weekly Review question: "What did I say yes to this week that I should have said no to? What will I say no to next week to protect time and energy?"
 
-#### Integration — No As System Lever
+### Integration — No As System Lever
 
 - **+ Commitment Inventory:** Every yes added to pie chart. If pie >100%, must cut — no is cut lever. Saying no is not rejection, it's keeping pie at 100%.
 - **+ GTD:** Process step: "Can someone else do it? Should I do it at all?" No is valid process outcome — trash or Someday/Maybe, not To Do.
@@ -3176,7 +3176,7 @@ Weekly Review question: "What did I say yes to this week that I should have said
 
 Start today: Look at one request you said yes to this week that drains you. Practice one script — direct, redirect, not now, boundary — to say no to next similar request. Notice guilt arises, passes in 90 seconds, and time protected returns as focus for long-term goals, rest, self-care, and relationships that make productivity sustainable, not just busy.
 
-### The ABCDE Method — From To-Do List to Must-Do Sequence
+## The ABCDE Method — From To-Do List to Must-Do Sequence
 
 The ABCDE method, developed by Alan Lakein — and popularized by Brian Tracy — is task prioritization technique that categorizes tasks into five categories based on urgency and importance. Approach highlights critical tasks, streamlines less important ones, and helps minimize distractions. By promoting intention-centered mindset, ABCDE method enables individuals to regain control, reduce procrastination, and tackle prioritized tasks more effectively. It's widely used in self-management and project management, enhancing productivity and optimizing schedules. Mastering method involves understanding its categories, consistent practice, and integrating it with other productivity strategies.
 
@@ -3184,7 +3184,7 @@ To use ABCDE method, label each task on to-do list with letter from A to E. A st
 
 This is essentially Rule of 3 + Commitment Inventory + Principle of Saying No compressed into labeling system.
 
-#### The Breakdown — What Each Letter Really Means
+### The Breakdown — What Each Letter Really Means
 
 **A – Must do — High-priority tasks with serious consequences if not completed**
 
@@ -3242,7 +3242,7 @@ Examples: Excessive social media browsing, attending non-essential meetings, re-
 
 GTD calls this trash. Be ruthless: If task not connected to measurable outcome — 10 Goals — and not rest that protects energy, it's E. Delete.
 
-#### How To Implement — 5 Minutes Night Before
+### How To Implement — 5 Minutes Night Before
 
 **List:** Write down all tasks for day — brain dump — 10-20 items — GTD Collect.
 
@@ -3267,7 +3267,7 @@ E-2 Attend optional networking coffee — eliminate this week — at capacity
 
 **Execute:** Start with A-1. Do not move to B tasks until all A tasks finished. Single-task — Pomodoro — WIP 1 — focus on one task at time and avoid multitasking, which can reduce efficiency and increase stress — Mark. When you complete A task, you can reward yourself with small break or treat — positive reinforcement — Schultz — helps maintain motivation.
 
-#### Why It Regains Control and Reduces Procrastination — Mechanisms
+### Why It Regains Control and Reduces Procrastination — Mechanisms
 
 **Intention-centered mindset:** Labeling forces you to decide importance before doing — implementation intention — Gollwitzer — "If it's A, then I do first." Eliminates decision fatigue during day — Baumeister — you pre-decided.
 
@@ -3277,7 +3277,7 @@ E-2 Attend optional networking coffee — eliminate this week — at capacity
 
 **Minimizes distractions via D and E:** D and E explicitly label distractions — social media, busy work — as not your work. When urge to check phone hits, you see it's E — eliminated — you have if-then: "If urge to do E, then I will close and return to A-1 with one breath."
 
-#### Integration With System
+### Integration With System
 
 - **+ Rule of 3 / 1-3-5 / 3-3-3:** A-1 = Must / Big / 3-hour deep. B = Should / Medium / 3 shorts. C = Nice / Small / maintenance. D/E = cut.
 - **+ Eat the Frog:** A-1 is frog — do first, prime time — biological prime time.
@@ -3285,7 +3285,7 @@ E-2 Attend optional networking coffee — eliminate this week — at capacity
 - **+ GTD + Seinfeld:** Collect all → Assign A-E → Organize contexts — @Deep = As, @Shallow = Bs — Do As first → Review — mark X for days A-1 completed — chain.
 - **+ Principle of Saying No:** D and E are structured no — D = no to doing myself, E = no altogether. Communicate priorities effectively by showing your A list when declining.
 
-#### Regular Review — Keep Method Honest
+### Regular Review — Keep Method Honest
 
 Regularly reviewing and updating task list can help stay organized and ensure you are consistently prioritizing tasks that align with goals and values — Weekly Review.
 
@@ -3294,7 +3294,7 @@ Regularly reviewing and updating task list can help stay organized and ensure yo
 
 > ABCDE is not about labeling everything important. It's about admitting most things are not A, and giving yourself permission — and system — to do A-1 first with highest attention and effort, before B, before C, and never doing E. Master categories, practice consistently, integrate with Pomodoro, Rule of 3, and Done list, and you regain control — not by doing more, but by doing A first.
 
-### The Eisenhower Matrix — Urgent vs Important — And Why It Still Traps You
+## The Eisenhower Matrix — Urgent vs Important — And Why It Still Traps You
 
 This framework distinguishes between tasks that require immediate attention — Urgent — and those that contribute to long-term goals — Important. Busyness is often result of "Urgency Trap," where you spend all day reacting to immediate but low-value tasks — like non-essential emails — while ignoring important strategic work.
 
@@ -3307,7 +3307,7 @@ These categories help prioritize effectively, ensuring time and energy focused o
 
 Khedmatinejad and Asadi's empirical study applied the Eisenhower Matrix to time management and decision-making in library contexts, demonstrating how the urgent-important distinction helps individuals prioritize tasks more effectively and make better decisions about resource allocation — Khedmatinejad and Asadi 63-72. Their research confirms that using structured frameworks to distinguish urgency from importance reduces time spent on low-value activities and increases focus on strategic work, supporting the matrix's practical utility for managing the busy-versus-productive distinction. Rusli, Abu Bakar, and Abdul Hamid developed an improved interactive prioritization technique for requirements engineering that incorporates the Eisenhower Matrix alongside other prioritization methods, demonstrating how structured prioritization frameworks can manage complex interdependencies and stakeholder needs more effectively than ad hoc decision-making (Rusli et al. 320-325).
 
-#### Why Matrix Needed — Urgency Trap
+### Why Matrix Needed — Urgency Trap
 
 Eisenhower — 34th US President — reportedly said: "What is important is seldom urgent and what is urgent is seldom important." The Matrix operationalizes that.
 
@@ -3344,7 +3344,7 @@ Matrix forces explicit separation:
 
 Regularly assessing tasks using matrix helps identify where you may be spending too much time on low-value Q3/Q4 and make adjustments to improve productivity — exactly what Done List reveals.
 
-#### Critical Limitation — Sung Diagram
+### Critical Limitation — Sung Diagram
 
 Eisenhower Matrix often suggests urgent and important tasks should be done immediately. This advice can be misleading when person lacks proper skills or when task doesn't align with core responsibilities. Sung Diagram — Sung and Choi — addresses critical limitation in traditional framework: question of _who_ should complete task, not just _when_ it should be done. Introduces third dimension — "Fit" — creating more nuanced 7-region Venn diagram that helps avoid mere urgency effect and reduces decision fatigue by clarifying not only what needs to be done, but who should do it.
 
@@ -3391,7 +3391,7 @@ After evaluating task across all three dimensions, it falls into one of seven re
 
 Sung Diagram's key advantage over Eisenhower Matrix is preventing common mistake of assuming all urgent and important tasks must be done personally. By incorporating Fit dimension, helps individuals focus on tasks that genuinely require unique capabilities and align with core mission, while effectively delegating or eliminating everything else.
 
-#### Practical Integration — Use Both
+### Practical Integration — Use Both
 
 - **Quick daily — Eisenhower:** Fast sort — 4 boxes — for students, enough — Schedule Q2 first.
 
@@ -3403,7 +3403,7 @@ Sung Diagram's key advantage over Eisenhower Matrix is preventing common mistake
 
 > Eisenhower teaches: Urgent ≠ Important. Busyness = living in urgent. Productivity = scheduling important before it becomes urgent. Sung adds: Important + Urgent ≠ Yours. Even if important and urgent, if not fit — not most capable, not aligned with who you want to be — delegate. Protecting Fit is how you avoid urgency trap _and_ competency trap — doing things you can do but shouldn't, that dilute progress toward meaningful accomplishments.
 
-### Time-Blocking — Give Every Hour a Job, Or Your Day Will
+## Time-Blocking — Give Every Hour a Job, Or Your Day Will
 
 Time blocking is incredibly effective productivity method that helps individuals manage time more efficiently by dividing day into dedicated blocks. Each block assigned to specific task or cluster of related tasks, creating structured schedule that not only enhances focus but also minimizes distractions.
 
@@ -3425,7 +3425,7 @@ Time blocking is incredibly effective productivity method that helps individuals
 - Leave Yourself Buffer Time: Aim for at least 15% of weekly time to be completely free. This buffer zone allows you to adjust schedule as needed and prevents overwhelming feelings if things don’t go as planned.
 - Adjust Weekly: Reflect regularly on productivity patterns. Pay attention to when you feel most energetic and focused and try scheduling harder tasks during those times. Likewise, save easier tasks for when energy levels tend to dip.
 
-#### Why Blocking Works — Decisions Made Once
+### Why Blocking Works — Decisions Made Once
 
 Open calendar with no blocks = invitation for others to fill your time and for you to drift to urgent — Eisenhower Q3. Time blocking reverses: you decide in advance when Q2 — Not Urgent + Important — happens, so urgency can't steal it.
 
@@ -3443,7 +3443,7 @@ Buehler et al.: You underestimate time. Time tracking — monitor time spent —
 
 Mark: Switching tasks costs 23 minutes to regain focus. Blocking clusters related tasks — e.g., all emails 4-4:30pm, all admin together — minimizes switching. Day Theming takes this further: one type per day — no switching between marketing brain and finance brain — allows deeper focus.
 
-#### How To Block — From List To Calendar
+### How To Block — From List To Calendar
 
 **Step 1: Start with To-Do List — Then Prioritize Tasks Using Eisenhower / ABCDE / Sung**
 
@@ -3493,7 +3493,7 @@ Two calendars? Block in one source of truth, then sync.
 
 Monitor time spent on tasks to improve future time estimates. At end of block, compare planned vs actual — quick note in Done list: "Blocked 60 min, took 90." No judgment, data. Over 2 weeks, you learn base rates — Planning Fallacy correction.
 
-#### Common Techniques Expanded — Choose By Work Type
+### Common Techniques Expanded — Choose By Work Type
 
 **Day Theming — Reduce Switching Across Days**
 
@@ -3527,7 +3527,7 @@ Break work into 25-minute, high-focus sessions followed by short breaks. Inside 
 
 Integration: 3-hour deep block = 3x50 min pomos + 10 min breaks — 50/10 works better for deep than 25/5 for many.
 
-#### Tips To Make Blocking Stick — Realistic + Adjust Weekly
+### Tips To Make Blocking Stick — Realistic + Adjust Weekly
 
 - **Be Realistic — Avoid overcommitting by leaving space for unexpected tasks:** New blockers often block 100% of day — then fail → abandon. Start with 50% blocked, 50% buffer — gradually increase as estimates improve. Yes people especially overblock — practice saying no to your own list.
 
@@ -3543,7 +3543,7 @@ Integration: 3-hour deep block = 3x50 min pomos + 10 min breaks — 50/10 works 
 
 - **Implementation Intentions for Block Transitions:** Hardest part is starting block. Write if-then: "If block ends, then I will stand, stretch 2 min, close previous tab, open next block's material before checking phone." Reduces switching cost.
 
-#### Integration — Blocking As Operating System
+### Integration — Blocking As Operating System
 
 - **+ Eisenhower + ABCDE + Sung:** Prioritize before blocking — blocks reflect A / Do Now / Schedule, not C/E.
 - **+ Rule of 3 / 1-3-5 / 3-3-3:** Rule of 3 = 3 blocks that matter today — 1 big 3h deep, 3 medium 60 min shorts. 1-3-5 = 1 deep block, 3 medium, 5 small batched into one shallow block.
@@ -3552,13 +3552,13 @@ Integration: 3-hour deep block = 3x50 min pomos + 10 min breaks — 50/10 works 
 
 > Time blocking is not about controlling every minute. It's about deciding in advance when important but not urgent work — skill development, long-term planning, thesis — gets protected time, so urgency trap doesn't steal it. Prioritize first with Eisenhower, schedule everything including breaks and rest, use calendar you see, track time to correct Planning Fallacy, leave 15% buffer, and adjust weekly based on when you feel most energetic. Techniques like Day Theming, Time Boxing, and Pomodoro are flavors of same principle: give every hour a job — deep, shallow, rest — and execution becomes not decision, but doing.
 
-### Requirement Prioritization (RP)
+## Requirement Prioritization (RP)
 
 Establishing priorities for requirements is crucial for effectively ranking features according to their business importance, associated risks, and feasibility to enhance return on investment — ROI — while managing limited resources. Employing methods such as MoSCoW — Must-have, Should-have, Could-have, Won't-have — allows teams to successfully accomplish this objective. By focusing on most essential and impactful features first, we significantly mitigate project risks and align closely with stakeholder expectations.
 
 This is Eisenhower + ABCDE + Sung Diagram applied to projects, not just personal tasks. Every project — thesis, app, event, dissertation — has unlimited requests and limited time, budget, energy — Commitment Inventory 100%. Requirement Prioritization — RP — is decision framework for ranking what must be built now vs later vs never.
 
-#### Why Prioritization Is Crucial — Beyond To-Do Sorting
+### Why Prioritization Is Crucial — Beyond To-Do Sorting
 
 To-do prioritization — ABCDE — asks "What should _I_ do today?" RP asks "What should _product_ include given limited resources to maximize value and minimize risk?"
 
@@ -3578,7 +3578,7 @@ RP fixes both by ranking features according to three lenses:
 
 Enhance ROI while managing limited resources = Do highest value, lowest risk, most feasible first — maximize return per hour.
 
-### Kano Model — Why Satisfying Customers Isn't Enough To Delight Them
+## Kano Model — Why Satisfying Customers Isn't Enough To Delight Them
 
 The Kano Model is a comprehensive framework used for prioritizing product features by evaluating their influence on customer satisfaction. It classifies features into three primary categories: basic needs, performance needs, and excitement needs. Basic needs are fundamental expectations that customers anticipate; failing to address them leads to dissatisfaction. Performance needs are directly linked to customer satisfaction levels—improving these features typically results in higher satisfaction. Excitement needs refer to unexpected features that can delight customers, offering a competitive edge in the market. By understanding and applying these categories, product teams can strategically prioritize features that will most significantly impact customer satisfaction and contribute to the overall success of the product. Achieving this requires a thorough understanding of customer needs and preferences, which can be obtained through various methods such as market research, customer feedback, and usability testing. Utilizing the Kano Model enables teams to make informed decisions about feature prioritization during product development, ensuring they deliver maximum value to customers while efficiently managing resources and development efforts.
 
@@ -3591,7 +3591,7 @@ These categories help product teams prioritize features based on their potential
 
 Developed by Noriaki Kano in 1984 — a professor at Tokyo University of Science — the model explains why checklists like MoSCoW and ABCDE alone miss the emotional dimension: some features don't increase satisfaction linearly.
 
-#### The Three Main Types — Plus Two Hidden
+### The Three Main Types — Plus Two Hidden
 
 Kano surveyed customers with two questions per feature: "How do you feel if feature present?" and "How do you feel if feature absent?" Answers revealed non-linear patterns.
 
@@ -3660,7 +3660,7 @@ Presence or absence doesn't affect satisfaction — customer doesn't care. Many 
 
 Feature that some customers like, others dislike — e.g., too many notifications — more = annoyance.
 
-#### How To Apply — From Research To Roadmap
+### How To Apply — From Research To Roadmap
 
 Doing this effectively requires deep understanding of customer needs and preferences, which can be gathered through market research, customer feedback, and usability testing — not guessing.
 
@@ -3704,7 +3704,7 @@ By focusing on most critical and impactful, teams ensure delivering value while 
 
 Excitement → Performance → Basic is inevitable — expectation inflation. What delighted last year expected this year. So regularly repeat Kano survey every 6-12 months. Today's Spotify Wrapped — excitement — becoming performance — expected. If you don't renew excitement pipeline, you become commodity.
 
-#### Integration — Kano + Previous Methods
+### Integration — Kano + Previous Methods
 
 - **+ MoSCoW + ABCDE:** Basic = Must = A — Must do — serious consequences. Performance = Should = B. Excitement = Could = C — Nice to do that delights. Indifferent = Won't = E — Eliminate.
 - **+ Eisenhower:** Basic = Urgent+Important if broken — Do Now. Performance = Important+Not Urgent — Schedule. Excitement = Important+Fit+Not Urgent — Schedule small bets.
@@ -3714,7 +3714,7 @@ Excitement → Performance → Basic is inevitable — expectation inflation. Wh
 
 > Kano teaches: Meeting expectations prevents dissatisfaction — basic needs essential to function — but doesn't create satisfaction. Improving performance increases satisfaction linearly — directly impacts loyalty. Only unexpected excitement creates delight — wow factor that generates enthusiasm, engagement, brand loyalty, competitive advantage. Product teams that only do basics and performance become expected and comparable. Teams that understand categories and invest — after basics secure — in small excitement bets prioritize features that have most significant impact on customer satisfaction and overall success — not by building more, but by building right mix of expected, better, and delightful.
 
-### Weighted Scoring — Make Priority Math, Not Mood
+## Weighted Scoring — Make Priority Math, Not Mood
 
 Weighted scoring is prioritization method that assigns numerical values to tasks based on specific criteria, such as effort, value, and urgency, to determine relative importance. Method objectively ranks to-do lists by multiplying scores of each criterion by assigned weights — like 50% for impact and 30% for effort — providing data-driven approach that helps focus on high-impact work.
 
@@ -3722,7 +3722,7 @@ For example, task with high impact but low effort may receive higher score than 
 
 This is quantification of everything we've covered — ABCDE, Eisenhower, MoSCoW, Kano, Sung Fit — into one number that lets you compare apples and oranges.
 
-#### Why Feelings Fail — And Scoring Fixes
+### Why Feelings Fail — And Scoring Fixes
 
 Without scoring, prioritization is gut feel — which task feels most urgent today — mere urgency effect — or most recent — availability bias. In group projects, gut leads to argument — "My task more important!" — no objective way to evaluate.
 
@@ -3734,7 +3734,7 @@ Weighted scoring solves three biases:
 
 **Group Alignment:** When working on group projects or managing multiple tasks, objective ranking reduces conflict — not "I think," but "Score says." Rusli et al. showed structured prioritization frameworks manage complex interdependencies and stakeholder needs more effectively than ad-hoc decision-making — 320-325 — because criteria explicit.
 
-#### How It Works — Formula
+### How It Works — Formula
 
 For each task, assign numerical values to criteria, multiply by assigned weights, sum.
 
@@ -3796,7 +3796,7 @@ This objectively ranks to-do lists — task with high impact but low effort — 
 
 If you had task: "Send 2-sentence update to advisor — impact 4, ease 5" — score 4*0.4=1.6+3*0.2=0.6+5*0.2=1.0+4*0.2=0.8=4.0 — close to Methods but much less effort — might do first as quick win — Eat the Frog variant: do quick high-impact before deep — time-box.
 
-#### How To Use — Steps — 10 Minutes
+### How To Use — Steps — 10 Minutes
 
 **List:** Write down all tasks for day — to-do list in advance — clear overview — same as ABCDE List step.
 
@@ -3810,7 +3810,7 @@ If you had task: "Send 2-sentence update to advisor — impact 4, ease 5" — sc
 
 **Track and adjust weekly — Time Tracking:** Monitor time spent vs score — did high-score tasks take longer than estimated — Planning Fallacy? Adjust ease scores next time. Reflect regularly on productivity patterns — tip from time-blocking.
 
-#### Variations — Pick By Context
+### Variations — Pick By Context
 
 - **ICE — Impact, Confidence, Ease — 1-10 each, Score = (I×C×E):** Startup quick prioritization — Confidence = how sure you are impact real — useful when uncertainty high.
 
@@ -3822,7 +3822,7 @@ If you had task: "Send 2-sentence update to advisor — impact 4, ease 5" — sc
 
 Choose one, stick to it for 2 weeks — then adjust weights — not method hopping.
 
-#### Why Particularly Useful for Group Projects
+### Why Particularly Useful for Group Projects
 
 Method particularly useful for when working on group projects or managing multiple tasks, as it provides clear and objective way to evaluate and prioritize competing demands — key phrase.
 
@@ -3830,7 +3830,7 @@ In group, each member scores tasks independently, then average — Delphi. Diffe
 
 Also handles Sung Fit — who should do task — add Fit criterion — capability — task high impact but low fit for you — delegate — D — to person high fit — score for them higher.
 
-#### Integration — Scoring As Glue
+### Integration — Scoring As Glue
 
 - **+ Eisenhower + ABCDE + MoSCoW + Kano + Sung:** Weighted scoring is math that combines all — Impact = Kano + business importance + MoSCoW Must/Should, Urgency = Eisenhower urgency + ABCDE consequence, Ease = inverse effort/feasibility, Fit = Sung capability+ipseity. Score = one number that represents all frameworks.
 
@@ -3844,7 +3844,7 @@ Also handles Sung Fit — who should do task — add Fit criterion — capabilit
 
 > Weighted scoring doesn't make hard decisions for you — it makes criteria explicit, so decisions are consistent, not mood-dependent. By assigning numerical values to tasks based on specific criteria — effort, value, urgency, fit — and multiplying by assigned weights — like 50% for impact and 30% for effort — you objectively rank to-do lists, ensuring you focus on most valuable and impactful work — high impact low effort wins, but high impact high effort still outranks low impact busy work — and you have data-driven approach to say no, delegate, and focus on high-impact work that actually moves ROI, especially when managing multiple tasks or group projects with competing demands.
 
-### MoSCoW — Most Used RP Method — Simple, Brutal, Effective
+## MoSCoW — Most Used RP Method — Simple, Brutal, Effective
 
 Employing methods such as MoSCoW — Must-have, Should-have, Could-have, Won't-have — allows teams to successfully accomplish objective.
 
@@ -3922,7 +3922,7 @@ Examples:
 
 W requires courage — explicit no — but frees up time and mental energy for impactful work — same as E — low-value busy work elimination.
 
-#### How To Run MoSCoW — Step By Step
+### How To Run MoSCoW — Step By Step
 
 This is time-blocking + weekly review for projects.
 
@@ -3957,7 +3957,7 @@ This is time-blocking + weekly review for projects.
 
    Monitor time spent on Must vs Should vs Could — Done list should show 60%+ time on Must. If Done shows 30% on Could — productivity theater — adjust. Review weekly — stakeholder expectations shift, so re-evaluate W list — something Won't now may become Must later, but intentionally.
 
-#### MoSCoW vs Other RP — When To Use What
+### MoSCoW vs Other RP — When To Use What
 
 MoSCoW is qualitative, fast, good for small teams, MVPs, personal projects. For complex interdependencies — Rusli et al. improved interactive prioritization technique — 320-325 — you may combine with:
 
@@ -3967,7 +3967,7 @@ MoSCoW is qualitative, fast, good for small teams, MVPs, personal projects. For 
 
 But for most — thesis, startup, event — MoSCoW enough.
 
-#### Integration — Personal Productivity → Project Productivity
+### Integration — Personal Productivity → Project Productivity
 
 - **+ Commitment Inventory + Principle of Saying No:** MoSCoW is how you say no at project level — W list is explicit no — protects 100% pie.
 - **+ ABCDE + Eisenhower:** Personal ABCDE maps to project MoSCoW — A=M, B=S, C=C, D=delegate, E=W.

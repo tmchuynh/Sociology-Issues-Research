@@ -5,9 +5,8 @@
 AI-powered learning platforms, remote proctoring software, and predictive analytics systems are now deeply embedded in educational institutions, spanning from K-12 to higher education. While they are often marketed as objective, efficient, and innovative solutions to longstanding educational challenges, these technologies can unintentionally magnify existing inequalities, perpetuate systemic discrimination, and infringe on student privacy in novel and troubling ways. The so-called "black box" nature of many algorithms means that bias is not only present but also invisible and unaccountable. Students, parents, and even educators often have little understanding of—or control over—how vast amounts of personal and academic data are collected, processed, and used to make critical decisions. These decisions, which may include admissions, academic placements, and disciplinary actions, can profoundly shape students’ educational experiences and long-term opportunities. Moreover, the increasing reliance on algorithmic systems risks shifting power away from human judgment and eroding trust between students and educational institutions.
 
 
-## Why It Matters
 
-### Algorithmic Bias: The Illusion of Objectivity
+## Algorithmic Bias: The Illusion of Objectivity
 
 - Algorithms used for college admissions, course recommendations, or "at-risk" student identification can perpetuate racial and socioeconomic bias. While presented as neutral and data-driven, these systems are trained on historical data that reflects existing inequalities—meaning they learn to replicate discriminatory patterns.
 
@@ -23,7 +22,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - The bias is often invisible and unaccountable. Proprietary algorithms are treated as trade secrets, so schools, teachers, students, and families cannot examine how decisions are made, challenge biased outcomes, or demand transparency.
 
-### Remote Proctoring: Surveillance Disguised as Academic Integrity
+## Remote Proctoring: Surveillance Disguised as Academic Integrity
 
 - Remote proctoring software disproportionately flags students of color and monitors students in invasive ways (scanning rooms, tracking eye movements). These systems use facial recognition, eye-tracking, audio monitoring, and behavioral analysis to detect "cheating," but the technology is rife with problems.
 
@@ -47,7 +46,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - False accusations of cheating have serious consequences: failing the exam, failing the course, academic integrity violations on permanent records, suspension, or expulsion. Appealing these decisions is often difficult, especially when the "evidence" is algorithmic scores rather than clear proof.
 
-### Data Collection and Privacy Violations
+## Data Collection and Privacy Violations
 
 - Data collected on students—from browsing history to biometric data—raises privacy concerns and can be sold to third parties. Educational technology companies gather massive amounts of data on students, often with minimal oversight or informed consent.
 
@@ -65,7 +64,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - Predictive profiles can limit futures. Data analytics companies build psychological and behavioral profiles of students that may be used by colleges, employers, or others to make decisions—turning childhood mistakes or struggles into permanent digital scarlet letters.
 
-### Surveillance Culture and Its Impact on Learning
+## Surveillance Culture and Its Impact on Learning
 
 - Constant monitoring changes student behavior in harmful ways. When students know they're being watched and assessed at all times, they may become risk-averse, less creative, and less willing to experiment or make mistakes—all essential to learning.
 
@@ -77,7 +76,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - Critical thinking and dissent are chilled. Students may self-censor in online discussions, avoid controversial topics, or hesitate to challenge ideas if they know their participation is tracked, analyzed, and potentially used against them.
 
-### The School-to-Prison Pipeline Goes Digital
+## The School-to-Prison Pipeline Goes Digital
 
 - Behavioral monitoring algorithms can flag students for "concerning" online activity, such as researching mental health, LGBTQ+ identity, protest movements, or even assigned coursework on topics like terrorism or revolution. These flags may be reported to school administrators, parents, or law enforcement. (Schools use AI to monitor kids, hoping to prevent violence. Our investigation found security risks, 2025)
 
@@ -87,7 +86,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - Students have been visited by police, interrogated, or even arrested based on algorithmic flags—sometimes for creative writing assignments, song lyrics, or venting frustration online.
 
-### Economic and Educational Inequities
+## Economic and Educational Inequities
 
 - Wealthy schools and students benefit most from educational technology while bearing fewer burdens. They access premium platforms, have IT support, and can opt out of invasive tools by switching to private schools or hiring tutors.
 
@@ -97,7 +96,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - "Personalized learning" can become "personalized inequality." Adaptive algorithms that sort students into differentiated learning paths may entrench rather than address achievement gaps, giving some students rigorous challenges while others get watered-down content.
 
-### Lack of Regulation and Accountability
+## Lack of Regulation and Accountability
 
 - Educational technology is largely unregulated, with regulatory frameworks lagging far behind the rapid pace of technological change. Unlike medical devices or financial services, ed-tech faces minimal oversight regarding efficacy, safety, bias, or privacy. Companies can deploy experimental, unproven algorithms on students without demonstrating that these systems are effective, fair, or safe. There are few requirements for independent validation or public reporting of outcomes.
 
@@ -109,7 +108,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - Audit and transparency requirements remain minimal or nonexistent. Few jurisdictions mandate algorithmic impact assessments, independent bias audits, or public disclosure of how ed-tech systems make decisions and what data they use. (Algorithmic Accountability Act of 2025, n.d.) As a result, potentially harmful systems can operate unchecked, and meaningful accountability is rare.
 
-### Resistance and Harm to Marginalized Communities
+## Resistance and Harm to Marginalized Communities
 
 - Indigenous students' data sovereignty is violated. Tribal nations have specific concerns about data collection on Indigenous children, which may be used without consent or cultural understanding, and which violates principles of Indigenous data sovereignty.
 
@@ -119,7 +118,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - LGBTQ+ students risk being outed. Algorithms that analyze writing, social patterns, or search history could identify students exploring their identity before they're ready to disclose, potentially putting them at risk in unsupportive homes or communities.
 
-### The Pedagogy of Surveillance vs. The Pedagogy of Trust
+## The Pedagogy of Surveillance vs. The Pedagogy of Trust
 
 - Surveillance-based education assumes students are problems to manage rather than humans to nurture. It prioritizes compliance, control, and risk mitigation over curiosity, growth, and agency.
 
@@ -127,7 +126,7 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 
 - The presence of surveillance changes what education means. When every click, glance, and word is monitored and analyzed, education becomes performance for algorithms rather than authentic intellectual and personal development.
 
-### What Students and Families Deserve
+## What Students and Families Deserve
 
 - **Transparency**
 
