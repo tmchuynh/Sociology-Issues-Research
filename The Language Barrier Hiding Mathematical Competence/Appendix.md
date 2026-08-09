@@ -552,8 +552,6 @@ Rock-Paper-Scissors equilibrium: each player plays (1/3,1/3). Expected payoff 0.
 
 **Indifference principle:** In mixed equilibrium, player randomizes to make opponent indifferent among strategies in support. This gives linear equations to solve.
 
-
-
 ### Mathematical Techniques
 
 The mathematics needed scales with the game. Simple parlor games need arithmetic; general existence and computation need topology, convex analysis, and fixed-point theorems (Weil 360-363; Binmore 25-34).
@@ -684,8 +682,6 @@ Foundation of auction theory (Vickrey, Myerson), signaling games (Spence educati
 In all cases, mathematics turns "what will others do?" into fixed-point, optimization, or dynamical systems problems — making intuition precise and testable.
 
 Game theory is the mathematics of $u_i(s_i, s_{-i})$ — your payoff depends on others' choices. Nash equilibrium is the point where expectations are consistent and no one regrets their choice given others' choices — the natural rest point of strategic reasoning.
-
-
 
 ### Prisoner's Dilemma
 
