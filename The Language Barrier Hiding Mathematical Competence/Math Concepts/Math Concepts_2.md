@@ -940,3 +940,856 @@ Every proof in hierarchy uses same scheme: If no structure, then randomness/unif
 For Green-Tao, this dichotomy lifted to relative world — even sparse primes obey it because envelope $\nu$ provides random background to compare to.
 
 Thus Green-Tao is ultimate vindication of Ramsey philosophy: **Even the set that looks most random cannot escape perfect arithmetic order.**
+
+## Roth's Theorem — The First Density Theorem
+
+If van der Waerden says any coloring of $\mathbb{N}$ forces a 3-term AP, Roth says you don't even need to color everything. A single set occupying positive fraction of integers already forces a 3-term AP.
+
+First time density, not partition, forces arithmetic order — $k=3$ case of Szemerédi, analytic heart that later powers Green-Tao.
+
+> **Roth's Theorem 1953:** Any subset of $\mathbb{N}$ with positive upper density contains a non-trivial 3-term AP.
+
+Proved by Klaus Roth — Fields Medal 1958 — launched modern additive combinatorics.
+
+### Formal Statement
+
+**Upper density:**
+
+$$\displaystyle \bar d(A)=\limsup_{N\to\infty}\dfrac{\left|A\cap[1,N]\right|}{N}$$
+
+Fraction of $\left\{1,\dots,N\right\}$ belonging to $A$, taken $\limsup$ — best infinitely often.
+
+If $\displaystyle \bar d(A)=\delta>0$ then exists $a,d$ with $d\neq0$ and $\displaystyle a,\;a+d,\;a+2d\in A$ three equally spaced numbers inside $A$, non-trivial $d\neq0$.
+
+Note $\bar d$ uses $\limsup$, not limit — allows sets like numbers starting with $1$, density oscillates $10\%$ to $55\%$, still $\bar d>0$ so Roth applies.
+
+**Quantitative finite form:**
+
+Let
+
+$$\displaystyle r_{3}(N)=\max\left\{\left|A\right|:A\subset[1,N],\;A\text{ contains no non-trivial }3\text{-AP}\right\}$$
+
+Largest AP-free size.
+
+Roth proved:
+
+$$\displaystyle r_{3}(N)=O\!\left(\dfrac{N}{\log\log N}\right)$$
+
+Because $\displaystyle\dfrac{1}{\log\log N}\to0$, we have $\displaystyle\frac{r_{3}(N)}{N}\to0$.
+
+Consequence: Fix $\delta>0$. For large $N$,
+
+$$\displaystyle \delta N > C\cdot\dfrac{N}{\log\log N}\ge r_{3}(N)$$
+
+since $\displaystyle\dfrac{1}{\log\log N}\to0$. So any $A\subset[1,N]$ with $\left|A\right|\ge\delta N$ must contain $3$-AP.
+
+Take $A\subset\mathbb{N}$ with $\bar d(A)=\delta>0$ — then infinitely many $N$ with $\left|A\cap[1,N]\right|\ge\tfrac{\delta}{2}N$. For large such $N$, $\left|A\cap[1,N]\right|>r_{3}(N)$ → contains $3$-AP. So infinite set with positive upper density contains $3$-AP — actually infinitely many.
+
+Question since: how fast does $\displaystyle \dfrac{r_{3}(N)}{N}\to0$?
+
+Roth gave $\displaystyle O\!\left(\tfrac{1}{\log\log N}\right)$. Behrend gives lower bound $\displaystyle\Omega\!\left(\exp\!\left(-C\sqrt{\log N}\right)\right)=\dfrac{1}{\exp\!\left(C\sqrt{\log N}\right)}$. Gap huge: $\exp(-C\sqrt{\log N})$ decays slower than any $\left(\log N\right)^{-c}$? Actually faster than $\left(\log\log N\right)^{-1}$? Let's compare: $\exp(C\sqrt{\log N})\gg\log\log N$ for large $N$, so Behrend upper on density $\displaystyle\frac{r_{3}(N)}{N}\ge\frac{1}{\exp(C\sqrt{\log N})}$ much larger than Roth's $\dfrac{1}{\log\log N}$? No, $\dfrac{1}{\exp(\sqrt{\log N})}\ll\dfrac{1}{\log\log N}$ eventually — so Roth upper bound far from Behrend lower bound. Closing gap is $70$-year program culminating in Bloom-Sisask $\displaystyle\frac{1}{(\log N)^{1+c}}$.
+
+In van der Waerden language: $W(2,3)=9$ says $2$-coloring of $\left[1,9\right]$ forces monochrome $3$-AP. Roth says you don't need to color all numbers — single color class of density $\delta>0$ already forces $3$-AP inside itself. Density version strictly stronger than coloring version for $k=3$.
+
+### Why It's Hard: Naive Count Fails
+
+Let $A\subset[1,N]$, $\left|A\right|=\delta N$. Count $3$-APs including trivial $d=0$:
+
+$$\displaystyle T_{3}(A)=\sum_{x,d}1_{A}(x)1_{A}(x+d)1_{A}(x+2d)=N^{2}\sum_{r}\left|\widehat{1_{A}}(r)\right|^{2}\widehat{1_{A}}(-2r)$$
+
+Fourier identity.
+
+**What is $T_{3}$?** $\displaystyle T_{3}$ counts pairs $\left(x,d\right)$ with $x,x+d,x+2d\in A$. For each $a=x$, $d$ arbitrary $\left(-N\le d\le N\right)$, includes $d=0$ gives $N$ trivial APs $a,a,a$. Nontrivial when $d\neq0$. $N^{2}$ choices $\left(x,d\right)$ total.
+
+**If $A$ random density $\delta$:** Choose each $n\in[1,N]$ independently with probability $\delta$. Then $\displaystyle\mathbb{E}\left[1_{A}(x)1_{A}(x+d)1_{A}(x+2d)\right]=\delta^{3}$ for $d\neq0$ distinct points. So
+
+$$\displaystyle \mathbb{E}\left[T_{3}(A)\right]\approx\delta^{3}N^{2}$$
+
+Many — $N^{2}$ vs $N$ — so random set expects $\approx\delta^{3}N^{2}$ progressions, e.g., $\delta=\tfrac{1}{10}$, $N=10^{6}$ expects $10^{12}\cdot10^{-3}=10^{9}$ $3$-APs. So random dense set has many APs.
+
+**Why naive expectation not proof?** Structured set could conspire to cancel.
+
+Example: evens only — still many APs, not counterexample. Need set where Fourier phases cancel to make $T_{3}$ small despite large $\delta$.
+
+Write balanced function:
+
+$$\displaystyle f=1_{A}-\delta1_{[1,N]}$$
+
+mean zero, $\displaystyle\widehat{f}(0)=0$.
+
+Expand:
+
+$$\displaystyle T_{3}(A)=\sum_{x,d}\left(\delta+f(x)\right)\left(\delta+f(x+d)\right)\left(\delta+f(x+2d)\right)$$
+
+Main term $\displaystyle\delta^{3}\sum_{x,d}1=\delta^{3}N^{2}$.
+
+Cross terms involve $\displaystyle\sum_{r\neq0}\left|\widehat{f}(r)\right|^{2}\widehat{f}(-2r)$ etc. So
+
+$$\displaystyle T_{3}(A)=\delta^{3}N^{2}+ N^{2}\sum_{r\neq0}\left|\widehat{1_{A}}(r)\right|^{2}\widehat{1_{A}}(-2r)+\text{lower}$$
+
+If $A$ has no nontrivial $3$-AP, then $T_{3}(A)=N$ trivial only — essentially $0$ compared to $\delta^{3}N^{2}$. So sum over $r\neq0$ must be $\approx-\delta^{3}N^{2}$ to cancel main term.
+
+Hence some $\left|\widehat{f}(r)\right|$ must be large — cannot have all $\left|\widehat{f}(r)\right|$ small.
+
+Formally:
+
+$$\displaystyle \exists r\neq0:\;\left|\widehat{f}(r)\right|\gg\delta^{2}$$
+
+with $\displaystyle\widehat{f}(r)=\dfrac{1}{N}\sum_{x=1}^{N}f(x)e^{-2\pi i r x/N}$.
+
+**Plain meaning:** Large Fourier coefficient at frequency $r$ means $A$ correlates with linear phase $\displaystyle e^{2\pi i r x/N}$ — wave with period $\displaystyle N/r$.
+
+$$\displaystyle \left|\sum_{x\in A}e^{2\pi i r x/N}\right|\gg\delta^{2}N$$
+
+Random set has $\displaystyle\left|\sum_{x\in A}e^{2\pi i r x/N}\right|\approx\sqrt{\delta N}\ll\delta^{2}N$ — flat spectrum, all frequencies small $O(\sqrt{N})$.
+
+No $3$-APs forces spike: some $r\neq0$ where sum large — bias. $A$ prefers regions where phase $\approx1$, avoids where $\approx-1$.
+
+Think: sprinkle dots randomly on circle — no direction stands out. If dots cluster in arc, Fourier at corresponding frequency spikes.
+
+So strategy: no APs $\implies$ bias $\implies$ denser on subprogression $\implies$ iterate — Roth density increment.
+
+This is why Fourier needed — counting alone $\delta^{3}N^{2}$ heuristic says many APs, but need to rule out conspiratorial cancellation. Fourier converts cancellation into structural bias that can be exploited.
+
+### The Proof: Density Increment via Fourier — Plain Terms
+
+Three ideas now standard:
+
+**Idea 1: Fourier bias.**
+
+Let $f=1_A-\delta1_{[1,N]}$ balanced function — mean zero, positive where $A$ denser than average, negative where sparser.
+
+If $A$ has no nontrivial 3-AP, then $T_3(A)\approx0$ ignoring trivial $N$ APs with $d=0$, but main term from average $\delta$ contributes $\delta^3 N^2$. To cancel $\delta^3 N^2$ to near 0, some Fourier coefficient must be large:
+
+$$\exists r\neq0:\;|\hat f(r)|\gg\delta^2.$$
+
+Large Fourier coefficient means $A$ correlates with linear phase $e^{2\pi i r x/N}$ — wave. $A$ prefers places where wave phase near 1, avoids where phase -1. Not uniform — clusters in arithmetic sense, e.g., prefers certain residues mod $q$.
+
+Analogy: If you sprinkle dots randomly on circle, no direction stands out. If Fourier spike, dots cluster in some arc — bias.
+
+**Idea 2: From bias to density increment.**
+
+Large Fourier coefficient implies $A$ significantly denser on some long arithmetic progression $P\subset[1,N]$ length $N'\ge N^c$.
+
+Precisely: exists $P$, $|P|\ge N^{c}$ with
+
+$$\dfrac{|A\cap P|}{|P|}\ge\delta + c'\delta^2$$
+
+Gain $\Omega(\delta^2)$ density by restricting to $P$.
+
+Why? $e^{\tfrac{2\pi i r x}{N}}$ roughly constant on progression with step $q$ where $\dfrac{r q}{N}$ small mod 1. Pigeonhole over $q$ — Dirichlet. Densest subprogression where phase near 1 must have higher density.
+
+Intuition: If $A$ clusters mod $q$, look at densest residue class mod $q$ — it has higher density than average. If $A$ clusters on intervals, look at densest interval.
+
+**Idea 3: Iterate to contradiction.**
+
+Now repeat. $A_1=A\cap P$, rescaled to $[1,N']$. Has density $\delta_1\ge\delta+c'\delta^2$ and still no 3-AP — subset of AP-free set still AP-free.
+
+Apply again: get $P_2$, density $\delta_2\ge\delta_1+c'\delta_1^2$, etc.
+
+Density increases by at least $\Omega(\delta^2)$ each step, so after $O\left(\dfrac{1}{\delta}\right)$ steps density would exceed 1 — impossible, since density $\le1$.
+
+Therefore process must stop because we found 3-AP before that.
+
+$O\left(\dfrac{1}{\delta}\right)$ steps, each shrinking $N$ to about $\sqrt N$ (or $N^c$), yields $N$ must be at least $\exp\left(\exp\left(O\left(\dfrac{1}{\delta}\right)\right)\right)$ to run that many steps, giving $r_3(N)\ll \dfrac{N}{\log\log N}$.
+
+This density increment strategy — if no pattern, then denser on substructure, iterate — is template for Szemerédi, Gowers, Green-Tao.
+
+Same meta-theorem: disorder budget finite. Budget = $\dfrac{1}{\delta}$. Each step without pattern spends budget by increasing density. Cannot increase forever.
+
+### How Large Can AP-Free Set Be? Bounds War
+
+Let $r_{3}(N)$ be max size of $3$-AP-free subset of $$ — no $a, a+d, a+2d$ with $d\neq0$ inside.[1][N]
+
+Roth proved $\displaystyle\frac{r_{3}(N)}{N}\to0$. Question: how fast?
+
+**Lower bound — Behrend 1946: how to avoid**
+
+Construction:
+
+1. Cube $\left\{0,\dots,m-1\right\}^{d}$.
+2. Sphere layer $\displaystyle S_{R}= \left\{ x : \sum_{i=1}^{d} x_{i}^{2}=R \right\}$.
+3. No $3$-AP on sphere: if $x+z=2y$ and $\left\|x\right\|_{2}^{2}=\left\|z\right\|_{2}^{2}=\left\|y\right\|_{2}^{2}=R$, then $\left\|\tfrac{x+z}{2}\right\|_{2}<R$ unless $x=z$ by strict convexity. So distinct $x,y,z$ in AP cannot all lie on same sphere.
+4. Choose densest $R$ — $\displaystyle\left|S_{R}\right|\ge \dfrac{m^{d}}{d m^{2}}$.
+5. Map to integers $\displaystyle n = \sum_{i=1}^{d} x_{i} (2m)^{i-1}$ base $2m$ — no carries, so $x+z=2y \iff n_{x}+n_{z}=2n_{y}$. AP-free in cube $\implies$ AP-free in $\mathbb{Z}$.
+
+Optimizing $\displaystyle d\approx\sqrt{\log N}$ gives:
+
+$$\displaystyle r_{3}(N)\ge N\cdot\exp\!\left(-C\sqrt{\log N}\right)=\dfrac{N}{\exp\!\left(C\sqrt{\log N}\right)} $$
+
+So $\displaystyle r_{3}(N)=N^{1-o(1)}$ — almost linear. For $N=10^{6}$, $\displaystyle\frac{N}{\exp\!\left(C\sqrt{\log N}\right)}\approx\tfrac{N}{50}$ — still $2\%$, no $3$-AP.
+
+Elkin 2008:
+
+$$\displaystyle r_{3}(N)\ge N\cdot\dfrac{\log^{1/4}N}{\exp\!\left(C\sqrt{\log N}\right)} $$
+
+extra $\log^{1/4}N$ from better sphere packing.
+
+**Upper bounds — $70$ years pushing $\log\log$ down to $\log$:**
+
+- **Roth 1953:**
+
+$$\displaystyle r_{3}(N)\ll\dfrac{N}{\log\log N}$$
+
+One large Fourier coefficient $\left|\widehat{f}(r)\right|\gg\delta^{2}$ gives increment $\displaystyle\delta\to\delta+c'\delta^{2}$ on $P$, $\left|P\right|\ge N^{c}$. After $\displaystyle O\!\left(\tfrac{1}{\delta}\right)$ steps density $>1$.
+
+- **Szemerédi & Heath-Brown:**
+
+$$\displaystyle r_{3}(N)\ll\dfrac{N}{\left(\log N\right)^{c}}$$
+
+for some small $c>0$ — Bohr sets $\displaystyle B(S,\rho)=\left\{x:\left\|\dfrac{rx}{N}\right\|<\rho\;\forall r\in S\right\}$ instead of progressions.
+
+- **Bourgain 1999-2008:**
+
+$$\displaystyle r_{3}(N)\ll N\cdot\dfrac{\sqrt{\log\log N}}{\sqrt{\log N}} \quad\text{and}\quad N\cdot\dfrac{\left(\log\log N\right)^{2}}{\left(\log N\right)^{2/3}}$$
+
+refined restriction, almost-periodicity.
+
+- **Sanders 2011:**
+
+$$\displaystyle r_{3}(N)\ll N\cdot\dfrac{\left(\log\log N\right)^{5}}{\log N}$$
+
+almost $\displaystyle\frac{N}{\log N}$ — Croot-Sisask lemma.
+
+- **Bloom & Sisask 2020 breakthrough:**
+
+$$\displaystyle r_{3}(N)\ll\dfrac{N}{\left(\log N\right)^{1+c}} \qquad c>0$$
+
+Broke $\displaystyle\frac{N}{\log N}$ barrier.
+
+Why new? Old: one large coefficient $\implies$ increment $\displaystyle\delta\to\delta+\Omega\!\left(\delta^{2}\right)$. Need $\displaystyle O\!\left(\tfrac{1}{\delta}\right)$ steps.
+
+New: many large coefficients, large spectrum $\displaystyle\Delta_{\eta}(f)=\left\{r:\left|\widehat{f}(r)\right|\ge\eta\right\}$ has additive structure — $\Delta+\Delta$ small. Spectral boosting uses $\displaystyle\left\langle 1_{A}*1_{A}, f\right\rangle$ to boost $\eta$. Almost-periodicity: exists measure $\mu$ on Bohr set with $\displaystyle\left\|1_{A}* \mu - 1_{A}\right\|_{2}$ small, so density increment $\displaystyle\delta\to\delta+\Omega\!\left(\delta\right)$ on much larger Bohr set — loses only $\exp\!\left(-O\!\left(\tfrac{1}{\delta}\right)\right)$ not $N^{c}$.
+
+So $\displaystyle O\!\left(\log\tfrac{1}{\delta}\right)$ steps $\implies$ $\displaystyle\left(\log N\right)^{1+c}$.
+
+**Why $\displaystyle\frac{N}{\log N}$ threshold matters for Erdős:**
+
+Erdős conjecture: $\displaystyle\sum_{a\in A}\tfrac{1}{a}=\infty\implies A$ contains $3$-AP.
+
+If $\displaystyle\left|A\cap[1,N]\right|\approx\dfrac{N}{\log N}$ then $\displaystyle\sum_{a\le N}\tfrac{1}{a}\sim\int^{N}\dfrac{d\left|A\cap[1,t]\right|}{t}\sim\dfrac{\log N}{\log N}\to\infty$ diverges — harmonic $\displaystyle\sum\tfrac{1}{n\log n}$ diverges.
+
+If $\displaystyle\left|A\cap[1,N]\right|\ll\dfrac{N}{\left(\log N\right)^{1+c}}$ then $\displaystyle\sum\tfrac{1}{a}\ll\sum\dfrac{1}{n\left(\log n\right)^{1+c}}<\infty$ — integral $\displaystyle\int^{\infty}\dfrac{dx}{x\left(\log x\right)^{1+c}}=\dfrac{1}{c\left(\log x\right)^{c}}<\infty$.
+
+Hence Bloom-Sisask: any $3$-AP-free $A$ has $\displaystyle\sum\tfrac{1}{a}<\infty$, so divergent reciprocal sum forces $3$-AP — $k=3$ case of Erdős.
+
+For $k\ge4$, best lower bound still $\displaystyle\frac{N}{\exp\!\left(C\sqrt{\log N}\right)}$, best upper $\displaystyle\frac{N}{\left(\log N\right)^{c}}$ — huge gap, requires $\displaystyle U^{k}$ norms, nilsequences, far beyond.
+
+### Why Bloom-Sisask Matters: Erdős $3,000 Conjecture
+
+Erdős offered prizes:
+
+> **Erdős Conjecture on APs:** If $A\subset\mathbb{N}$ satisfies $\displaystyle\sum_{a\in A}\dfrac{1}{a}=\infty$, then $A$ contains $k$-term APs for every $k$.
+
+Divergent reciprocal sum means not too sparse. Primes satisfy since $\displaystyle\sum\dfrac{1}{p}=\infty$ harmonic over primes diverges like $\log\log N$.
+
+Connection to $r_3(N)$:
+
+If $r_3(N)\approx \dfrac{N}{\log\log N}$, set can be 3-AP-free and still have divergent reciprocal sum, because $\displaystyle\sum \dfrac{1}{(\tfrac{N}{\log\log N})^{-1}}$ diverges? Let's see: size of AP-free set at $N$ about $\dfrac{N}{\log\log N}$ → density $\dfrac{N}{\log\log N}$ → sum of reciprocals $\displaystyle\sum \dfrac{1}{a}$ about $\displaystyle\int \dfrac{dN}{N\log\log N}$? Actually integral of density $\dfrac{dN}{N}$? For set with $|A\cap[1,N]|\sim \dfrac{N}{\log\log N}$, sum $\displaystyle\sum_{a\le N}\dfrac{1}{a}\sim\int^N \left(\tfrac{1}{t}\right) d|A\cap[1,t]|\sim\dfrac{\log N}{\log\log N}\to\infty$ diverges. So Roth bound says nothing about Erdős.
+
+If $r_3(N)\ll \dfrac{N}{(\log N)^{1+c}}$, then any 3-AP-free $A$ has $\displaystyle\sum \dfrac{1}{a}<\infty$ because $\displaystyle\sum N^{-1}(\log N)^{-1-c}$ converges — integral test: $\displaystyle\int \dfrac{dx}{x(\log x)^{1+c}}$ converges for $c>0$.
+
+Bloom-Sisask therefore proved:
+
+> **$k=3$ case of Erdős conjecture true.** Any set with divergent reciprocal sum contains 3-term AP.
+
+First unconditional progress on Erdős for any $k\ge3$. $\dfrac{N}{\log N}$ was psychological barrier — exactly threshold where harmonic series switches from divergence to convergence.
+
+For $k\ge4$, Erdős conjecture remains wide open. Even $k=4$ would require $r_4(N)\ll \dfrac{N}{(\log N)^{1+c}}$, far beyond current technology — best $r_4(N)$ bounds still $\dfrac{N}{(\log N)^c}$.
+
+### From Roth to Szemerédi to Green-Tao
+
+- **Roth $k=3$:** Fourier + density increment. Needs one large Fourier coefficient — linear phase $\displaystyle e^{2\pi i r x/N}$.
+- **Szemerédi $k\ge4$, 1975:** Roth Fourier fails — $4$-APs need quadratic Fourier. Szemerédi used pure combinatorics, invented Regularity Lemma — partitions graph into random-like pieces. Vastly more complex.
+- **Gowers $k\ge4$, 2001:** Extended Roth analytic approach by inventing higher-order Fourier analysis and Gowers uniformity norms $\displaystyle U^{k}$. Set with no $4$-AP must correlate with quadratic phase $\displaystyle e^{2\pi i\left(\alpha n^{2}+\beta n\right)}$, not just linear. Won Fields Medal.
+- **Green-Tao 2004:** Needed Gowers $\displaystyle U^{3}$ norm and relative version to handle primes — relative Szemerédi inside pseudorandom majorant.
+
+**Why Roth fails for $k\ge4$:**
+
+Count $4$-APs:
+
+$$\displaystyle T_{4}(A)=\sum_{x,d}1_{A}(x)1_{A}(x+d)1_{A}(x+2d)1_{A}(x+3d)=N^{2}\sum_{r,s}\widehat{1_{A}}(r)\widehat{1_{A}}(s)\widehat{1_{A}}(-2r-s)\widehat{1_{A}}(r+2s)$$
+
+Four linear phases not enough — quadratic phases $\displaystyle e^{2\pi i\alpha x^{2}}$ are uniform in $\displaystyle U^{2}$ — all linear Fourier coefficients $\displaystyle\left|\widehat{f}(r)\right|$ small — but still cause many $4$-APs to be missing or overcounted.
+
+Example: $A=\left\{x:\left\| \alpha x^{2}\right\|<\delta\right\}$ — level set of quadratic phase. Then $\displaystyle\left|\widehat{1_{A}}(r)\right|=o(N)$ for all $r\neq0$ — Fourier uniform, looks random to Roth — but $\displaystyle\left\|1_{A}\right\|_{U^{3}}$ large — contains many $4$-APs structure.
+
+So need higher-order uniformity.
+
+**Szemerédi 1975:**
+
+Proved for all $k$,
+
+$$\displaystyle \bar d(A)>0\implies A\text{ contains }k\text{-AP}$$
+
+Equivalently $\displaystyle r_{k}(N)=o(N)$.
+
+Method: Purely combinatorial, no Fourier. Invented Szemerédi Regularity Lemma — any graph can be partitioned into $\displaystyle O_{\epsilon}(1)$ pieces where between pieces edges random-like $\displaystyle\left|e(X,Y)-\delta|X||Y|\right|<\epsilon|X||Y|$.
+
+Used to build hypergraph regularity for $k$-AP hypergraph. Proof enormous — $N(\delta,k)$ tower of exponentials of height $O(1/\delta)$ — $\displaystyle\exp^{(O(1/\delta))}(1)$.
+
+Gives no explicit good bound, but qualitative.
+
+**Gowers 2001 — Fourier revived:**
+
+Invented Gowers uniformity norms:
+
+$$\displaystyle \left\|f\right\|_{U^{2}}^{4}=\mathbb{E}_{x,h_{1},h_{2}}f(x)\overline{f(x+h_{1})f(x+h_{2})}f(x+h_{1}+h_{2})$$
+
+$$\displaystyle \left\|f\right\|_{U^{3}}^{8}=\mathbb{E}_{x,h_{1},h_{2},h_{3}}\prod_{\omega\in\{0,1\}^{3}}C^{|\omega|}f(x+\omega\cdot h)$$
+
+In general $\displaystyle\left\|f\right\|_{U^{k}}$ measures correlation with degree $\displaystyle(k-1)$ polynomial phases.
+
+- $\displaystyle\left\|f\right\|_{U^{2}}$ small $\iff$ all $\displaystyle\left|\widehat{f}(r)\right|$ small — linear uniform.
+- $\displaystyle\left\|f\right\|_{U^{3}}$ small $\iff$ no correlation with quadratic phases $\displaystyle e^{2\pi i(\alpha n^{2}+\beta n)}$.
+
+**Inverse theorem:** If $\displaystyle\left\|f\right\|_{U^{k}}\ge\eta$, then $\displaystyle f$ correlates with $(k-1)$-step nilsequence — generalized polynomial phase on nilmanifold.
+
+For $k=3$, nilsequence = linear phase $\displaystyle e^{2\pi i r x/N}$ — Roth.
+
+For $k=4$, nilsequence = quadratic phase $\displaystyle e^{2\pi i(\alpha x^{2}+\beta x)}$ plus bracket polynomials — Gowers.
+
+Proof then: If $A$ no $k$-AP, balanced $f$ has large $\displaystyle U^{k-1}$ norm → correlates with nilsequence → density increment on Bohr-nil Bohr set → iterate. Gives
+
+$$\displaystyle r_{k}(N)\ll\dfrac{N}{\left(\log\log N\right)^{c_{k}}}$$
+
+with explicit $c_{k}=2^{-2^{k+9}}$ — first reasonable bound since Szemerédi.
+
+Fields Medal 1998? Actually 1998? No, Gowers Fields 1998 for earlier, but this work core.
+
+**Green-Tao 2004 — relative version:**
+
+Need Roth/Gowers for primes density $0$. Primes $\displaystyle\pi(N)\sim\dfrac{N}{\log N}$ — $\displaystyle\delta(N)=\tfrac{1}{\log N}\to0$, so Szemerédi not apply.
+
+Idea: find pseudorandom majorant $\displaystyle\nu$ with
+
+1. $\displaystyle 0\le c\cdot1_{prime}\le\nu$,
+2. $\displaystyle\mathbb{E}\nu=1+o(1)$,
+3. $\displaystyle\left\|\nu-1\right\|_{U^{k-1}}=o(1)$ — $\nu$ looks like $1$ for $k$-AP counts.
+
+Then prove **relative Szemerédi:** If $\displaystyle0\le f\le\nu$ and $\displaystyle\mathbb{E}f\ge\delta>0$, then $f$ contains $\displaystyle\ge c(\delta,k)N^{2}$ $k$-APs.
+
+Ingredients: generalized von Neumann — if $\displaystyle\left\|f\right\|_{U^{k-1}}$ small relative to $\nu$, $k$-AP count $\approx\delta^{k}N^{2}$; dense model theorem — any $0\le f\le\nu$ has model $\displaystyle\tilde f$ with $0\le\tilde f\le1$ and $\displaystyle\left\|f-\tilde f\right\|_{U^{k-1}}=o(1)$; then apply Gowers inverse to $\tilde f$.
+
+For primes, after $W$-trick $W=\prod_{p\le w}p$, define
+
+$$\displaystyle \tilde f(n)=\dfrac{\phi(W)}{W}\log N\cdot1_{prime}(Wn+1)$$
+
+mean $\approx1$, bounded by Selberg sieve $\displaystyle\nu$, so relative Szemerédi gives $k$-APs in $Wn+1$ primes → $k$-APs in primes.
+
+Thus Roth seed:
+
+> **If no pattern, then bias, then denser substructure, iterate**
+
+universal template.
+
+In Ramsey terms: $\displaystyle r_{3}(N)$ inverse of $\displaystyle W(2,3)$ in density form. $\displaystyle W(2,3)=9$ says $2$-coloring of $\displaystyle[1,9]$ forces monochrome $3$-AP. Roth says even one color class of positive density $\displaystyle\delta>0$ forces it — no need to color rest. Bridge from pigeonhole coloring to analytic density, without it Szemerédi and Green-Tao would not exist.
+
+## Behrend's Construction — The Limit of How Far You Can Avoid Order
+
+If Roth says dense sets must contain $3$-AP, Behrend says you can be almost dense and still avoid one. Ultimate counterexample — lower bound sandwiching $r_{3}(N)$.
+
+Let
+
+$$\displaystyle r_{3}(N)=\max\left\{\left|A\right|:A\subset[1,N],\,A\text{ contains no }a,a+d,a+2d,\;d\neq0\right\}.$$
+
+- Roth upper: $r_{3}(N)$ cannot be too big, otherwise $3$-AP forced.
+- Behrend lower: $r_{3}(N)$ can be at least this big while AP-free.
+
+Together:
+
+$$\displaystyle N\cdot\exp\!\left(-C\sqrt{\log N}\right)\le r_{3}(N)\le\dfrac{N}{\left(\log N\right)^{1+c}}$$
+
+For $62$ years Behrend lower unbeaten. Shattered pre-1946 intuition that AP-free sets must be polynomially small.
+
+### Intuition Before Behrend: Power-Law Conjecture
+
+Erdős and Turán $1930$s conjectured AP-free must be tiny, like $\displaystyle N^{0.9}$ or $\displaystyle N^{1-\epsilon}$ or even $\displaystyle\frac{N}{\left(\log N\right)^{C}}$ — power-law saving over $N$.
+
+**Simple picture:** You want many numbers from $\left[1,N\right]$ with no three equally spaced. How many can you keep? If you keep $N^{0.9}$, you keep almost all — $10\%$ loss in exponent. If you keep $\displaystyle\frac{N}{\left(\log N\right)^{C}}$, you keep $N$ divided by slowly growing factor.
+
+**Why they thought power-law small:** easy greedy construction gives $\displaystyle N^{0.63}$ and looks optimal.
+
+Construction — numbers with no digit $2$ in base $3$, Stanley sequence:
+
+$$\displaystyle A_{3}=\left\{ n : \text{base-}3\text{ expansion of }n\text{ uses only }0,1\right\}=\left\{0,1,3,4,9,10,12,13,\dots\right\}$$
+
+Take $x,y,z\in A_{3}$ with $x+z=2y$. Look digitwise: each digit $x_{i},z_{i}\in\left\{0,1\right\}$, so $x_{i}+z_{i}\in\left\{0,1,2\right\}$. $2y_{i}\in\left\{0,2\right\}$. For equality $x_{i}+z_{i}=2y_{i}$ without carries — base $3$ large enough — need $x_{i}+z_{i}=0$ or $2$. If $1$, left $1$ odd cannot equal $0$ or $2$. So forces $x_{i}=z_{i}=y_{i}$. Thus $x=z=y$ — no nontrivial $3$-AP.
+
+Size: up to $\displaystyle 3^{k}$, numbers with $k$ base-$3$ digits using $0,1$ only are $\displaystyle2^{k}$. So $N=3^{k}$ gives $\left|A\right|=2^{k}=N^{\log_{3}2}$.
+
+$$\displaystyle \log_{3}2=\dfrac{\log2}{\log3}\approx0.6309$$
+
+So $\displaystyle\left|A\right|=N^{\log_{3}2}\approx N^{0.63}$ AP-free.
+
+If simple greedy gives $\displaystyle N^{0.63}$, perhaps maximal is $\displaystyle N^{0.9}$? Could you do much better? $1930$s intuition: you cannot get close to $N$ — must lose power $\displaystyle N^{\epsilon}$.
+
+Behrend $1946$ destroyed this.
+
+**What Behrend showed:** $\displaystyle N^{1-o(1)}$ possible — $\displaystyle\frac{N}{\text{something growing slower than }N^{\epsilon}}$ for any $\epsilon>0$.
+
+Precise meaning $N^{1-o(1)}$:
+
+$$\displaystyle \frac{\log r_{3}(N)}{\log N}\to1$$
+
+So
+
+$$\displaystyle r_{3}(N)=N\cdot\exp\!\left(-o\!\left(\log N\right)\right)$$
+
+not $\displaystyle N^{1-\epsilon}=N\cdot\exp\!\left(-\epsilon\log N\right)$.
+
+In words: ratio $\displaystyle\frac{r_{3}(N)}{N}=\exp\!\left(-o(\log N)\right)$ tends to $0$, but slower than any $\displaystyle N^{-\epsilon}=\exp\!\left(-\epsilon\log N\right)$. You lose factor $\displaystyle\exp\!\left(o(\log N)\right)$, which is $\displaystyle N^{o(1)}$, negligible compared to $\displaystyle N^{\epsilon}$.
+
+**Compare table**
+
+| $N$        | Power law $\displaystyle N^{0.9}$ | Behrend $\displaystyle N\cdot\exp\!\left(-\sqrt{\log N}\right)$ | Density $\displaystyle\frac{\left                                                                                                    | A\right | }{N}$ |
+| :--------- | :-------------------------------- | :-------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | ------- | ----- |
+| $10^{4}$   | $3981$                            | $\sim1800$                                                      | $\displaystyle18\%$                                                                                                                  |
+| $10^{10}$  | $10^{9}$                          | $3.1\times10^{8}$                                               | $\displaystyle3.1\%$                                                                                                                 |
+| $10^{20}$  | $10^{18}$                         | $6.7\times10^{17}$                                              | $\displaystyle6.7\%$ — wait $\displaystyle\frac{6.7\times10^{17}}{10^{20}}=0.0067=0.67\%$ actually, but order $\displaystyle10^{-2}$ |
+| $10^{100}$ | $10^{90}$                         | $3.8\times10^{95}$                                              | $\displaystyle10^{-5}$ fraction, but $\displaystyle10^{5}$ times larger than $N^{0.9}$                                               |
+
+Check: For $N=10^{100}$, $\displaystyle N^{0.9}=10^{90}$, Behrend $\approx3.8\times10^{95}$ —
+
+$$\displaystyle \frac{3.8\times10^{95}}{10^{90}}=3.8\times10^{5}$$
+
+times larger. So eventually Behrend vastly beats power law.
+
+**Why $\displaystyle\exp\!\left(-\sqrt{\log N}\right)$ slower decay than $\displaystyle N^{-\epsilon}$:**
+
+$\displaystyle\exp\!\left(-\sqrt{\log N}\right)$ decays to $0$ slower than any $N^{-\epsilon}=\exp\!\left(-\epsilon\log N\right)$, because
+
+$$\displaystyle \sqrt{\log N}\ll\epsilon\log N\quad\text{as }N\to\infty$$
+
+for any fixed $\epsilon>0$. Square root vs linear — linear wins.
+
+So:
+
+$$\displaystyle \frac{N\cdot\exp\!\left(-\sqrt{\log N}\right)}{N^{1-\epsilon}}=\frac{N}{N^{1-\epsilon}}\cdot\exp\!\left(-\sqrt{\log N}\right)=N^{\epsilon}\exp\!\left(-\sqrt{\log N}\right)=\exp\!\left(\epsilon\log N-\sqrt{\log N}\right)\to\infty$$
+
+Numerator $\displaystyle\epsilon\log N$ dominates $\displaystyle\sqrt{\log N}$. Ratio $\to\infty$.
+
+In plain: $N^{\epsilon}$ grows much faster than $\displaystyle\exp\!\left(\sqrt{\log N}\right)$. So dividing $N$ by $\displaystyle\exp\!\left(\sqrt{\log N}\right)$ loses much less than dividing $N$ by $N^{\epsilon}= \exp(\epsilon\log N)$.
+
+Hence Behrend sets eventually vastly larger than any power-law bound $\displaystyle N^{1-\epsilon}$. Erdős-Turán power-law false — you can stay within $\displaystyle N^{1-o(1)}$.
+
+**Clarification on history:**
+
+Erdős-Turán $1936$ actually conjectured stronger: $\displaystyle r_{k}(N)=o(N)$ — density $0$, not just power law. But many believed true order $\displaystyle N/\left(\log N\right)^{C}$ or $\displaystyle N^{1-c}$ — some polynomial saving.
+
+Behrend showed even $\displaystyle\frac{N}{\left(\log N\right)^{100}}$ eventually smaller than Behrend? No, compare: $\displaystyle\frac{N}{\left(\log N\right)^{100}}$ vs $\displaystyle\frac{N}{\exp\!\left(C\sqrt{\log N}\right)}$. Since
+
+$$\displaystyle \exp\!\left(C\sqrt{\log N}\right)\gg\left(\log N\right)^{100}\quad\text{for large }N$$
+
+because $\displaystyle C\sqrt{\log N}\gg100\log\log N$, we have
+
+$$\displaystyle \frac{N}{\exp\!\left(C\sqrt{\log N}\right)}\ll\frac{N}{\left(\log N\right)^{100}}$$
+
+so Behrend lower does not rule out $\displaystyle N/\left(\log N\right)^{100}$ upper — it rules out $\displaystyle N^{0.99}=N/N^{0.01}$ upper, since $\displaystyle N^{0.01}=\exp\!\left(0.01\log N\right)\gg\exp\!\left(C\sqrt{\log N}\right)$.
+
+Important distinction:
+
+- Power-law $\displaystyle N^{1-\epsilon}$ ruled out — cannot have $\displaystyle r_{3}(N)\le N^{1-\epsilon}$.
+- Polylog $\displaystyle N/\left(\log N\right)^{C}$ still possible — and Bloom-Sisask proved $\displaystyle N/\left(\log N\right)^{1+c}$ indeed upper bound, consistent with Behrend.
+
+Thus Behrend killed $\displaystyle N^{0.9}$ guess, forced new regime $\displaystyle N^{1-o(1)}$ — intermediate between polynomial $\displaystyle N^{1-\epsilon}$ and $\displaystyle N/\text{polylog}$. Lives in strange zone $\displaystyle\exp\!\left(-C\sqrt{\log N}\right)$ — decays faster than $\displaystyle1/\text{polylog}$? No, decays slower than $\displaystyle1/\text{polylog}$? Actually $\displaystyle\exp\!\left(-C\sqrt{\log N}\right)\ll\frac{1}{\left(\log N\right)^{100}}$, so Behrend density smaller than polylog density — but still $\displaystyle N^{o(1)}$ close to $N$.
+
+This is why $r_{3}(N)$ problem hard: true answer lives in $\displaystyle N^{1-o(1)}$ regime where linear Fourier cannot reach — needs quadratic Fourier, Bohr sets, spectral boosting.
+
+### Construction: Spheres Have No $3$-Term Lines
+
+Key geometric fact: line intersects sphere in at most $2$ points. If $x,y,z$ distinct collinear with $y$ midpoint of $x,z$, cannot all lie on same sphere centered at origin, because
+
+$$\displaystyle \left\|y\right\|^{2}=\left\|\frac{x+z}{2}\right\|^{2}<\frac{\left\|x\right\|^{2}+\left\|z\right\|^{2}}{2}$$
+
+by strict convexity of $\displaystyle L^{2}$ norm unless $x=z$.
+
+So sphere is $3$-AP-free.
+
+**Why? Simple terms:** Take any sphere — e.g., circle in plane. Take two distinct points $x,z$ on circle. Their midpoint $y=\frac{x+z}{2}$ lies strictly inside circle — closer to center — not on circle, unless $x=z$. This is because sphere bulges outward — straight line chord inside.
+
+If $x,y,z$ form $3$-AP in $\mathbb{Z}^{d}$, meaning $\displaystyle x+z=2y$, then $y$ is midpoint, $x,y,z$ collinear. So if all three on same sphere radius $R$, then $\left\|x\right\|^{2}=\left\|y\right\|^{2}=\left\|z\right\|^{2}=R$, but midpoint inequality gives $\left\|y\right\|^{2}<R$ contradiction unless $x=z$. So no distinct triple in AP can sit on one sphere.
+
+This geometric observation turns AP-free problem into sphere-packing.
+
+**Step 1: Grid in high dimensions.**
+
+Fix integers $d,m$. Grid
+
+$$\displaystyle G=\left\{0,1,\dots,m-1\right\}^{d}\subset\mathbb{Z}^{d}$$
+
+Think $d$-dimensional cube with side $m$. Size
+
+$$\displaystyle \left|G\right|=m^{d}$$
+
+For $x\in G$, squared length
+
+$$\displaystyle S(x)=\sum_{i=1}^{d}x_{i}^{2}=\left\|x\right\|^{2}$$
+
+ranges $\displaystyle0$ to $d(m-1)^{2}$ — at most $\displaystyle dm^{2}$ distinct integer values, because each $x_{i}^{2}\le(m-1)^{2}$, sum $\le d(m-1)^{2}<dm^{2}$.
+
+Only $\displaystyle dm^{2}$ possible $S$ values, but $\displaystyle m^{d}$ points. Pigeonhole principle: some $R$ gets many points:
+
+$$\displaystyle \exists R:\;\left|\left\{x\in G:\left\|x\right\|^{2}=R\right\}\right|\ge\frac{m^{d}}{dm^{2}}=\frac{m^{d-2}}{d}$$
+
+Average points per radius at least total divided by number radii. So there exists sphere radius $\sqrt{R}$ containing at least $\displaystyle\frac{m^{d-2}}{d}$ grid points.
+
+Call set $T_{R}$ — all grid points on that sphere.
+
+$T_{R}$ has no $3$-AP in $\mathbb{Z}^{d}$: if $x+z=2y$ with $x,z\in T_{R}$, $x\neq z$, then $y$ midpoint would also need $\left\|y\right\|^{2}=R$ to stay in $T_{R}$, impossible by convexity as above.
+
+**Simple count example:** Take $d=2$, $m=3$, $G=3\times3=9$ points. $S$ values $0,1,2,4,5,8$. Pigeonhole: some $R$ has $\ge 9/8$ points? Actually $\ge2$. Sphere $R=1$ has $(1,0),(0,1)$ — 2 points — no $3$-AP.
+
+In high $d$, pigeonhole gain huge: $m^{d}$ vs $dm^{2}$ — exponential vs polynomial.
+
+**Step 2: Map to integers without creating APs.**
+
+Need set of integers AP-free, not $\mathbb{Z}^{d}$ points. Encode vector as base-$(2m)$ number:
+
+$$\displaystyle \phi(x)=\sum_{i=1}^{d}x_{i}(2m)^{i-1}=x_{1}+x_{2}(2m)+x_{3}(2m)^{2}+\cdots+x_{d}(2m)^{d-1}$$
+
+Why base $2m$? Digits $x_{i}\in[0,m-1]$, so $x_{i}+z_{i}\in[0,2m-2]<2m$. No carry when adding in base $2m$. Similarly $2y_{i}\in[0,2m-2]<2m$ no carry.
+
+Thus
+
+$$\displaystyle \phi(x)+\phi(z)=2\phi(y)\iff x_{i}+z_{i}=2y_{i}\;\forall i\iff x+z=2y$$
+
+coordinate-wise. Equality of integers equivalent to equality digitwise because no carries.
+
+Since $T_{R}$ has no solution $x+z=2y$ with $x\neq z$, $\phi(T_{R})$ has no $3$-term AP in integers.
+
+Where does $\phi(T_{R})$ live? Max value $< (2m)^{d}$, because largest digit $m-1<2m$, so
+
+$$\displaystyle A=\phi(T_{R})\subset\left[0,(2m)^{d}\right)$$
+
+AP-free with
+
+$$\displaystyle \left|A\right|\ge\frac{m^{d-2}}{d}$$
+
+**Simple terms:** We turned $d$-dimensional points into $1$-dimensional numbers by writing coordinates as digits in large base — like packing vector into decimal expansion. Base large enough prevents digits interfering. AP property preserved digitwise.
+
+**Step 3: Optimize $d,m$.**
+
+We have $N\approx(2m)^{d}$. So $\displaystyle\log N\approx d\log(2m)$.
+
+Size $\displaystyle\left|A\right|\ge\frac{m^{d-2}}{d}=\frac{(2m)^{d}}{d(2m)^{2}2^{d}}\cdot 2^{d}$? Let's compute clean:
+
+$$\displaystyle \frac{m^{d-2}}{d}= \frac{(2m)^{d}}{d}\cdot\frac{m^{d-2}}{(2m)^{d}}=\frac{(2m)^{d}}{d}\cdot\frac{1}{m^{2}2^{d}}=\frac{N}{d\,m^{2}2^{d}}$$
+
+up to factor. So
+
+$$\displaystyle \frac{\left|A\right|}{N}\ge\frac{1}{d\,m^{2}2^{d}}$$
+
+Take logs: $\displaystyle\log\left(\frac{N}{\left|A\right|}\right)\approx\log d+2\log m+d\log2$.
+
+We want minimize this loss given $d\log(2m)\approx\log N$.
+
+Set $\displaystyle d\approx\sqrt{\log N}$ and $\displaystyle\log m\approx\sqrt{\log N}$ — balance $2\log m\approx d$.
+
+More precisely choose
+
+$$\displaystyle d=\left\lfloor\sqrt{\frac{\log N}{\log2}}\right\rfloor,\quad m=\left\lfloor\frac{1}{2}N^{1/d}\right\rfloor\approx\exp\!\left(\sqrt{\log N}\right)$$
+
+Then $(2m)^{d}=N$ and
+
+$$\displaystyle \log\left(\frac{N}{\left|A\right|}\right)=O\!\left(\sqrt{\log N}\right)$$
+
+so
+
+$$\displaystyle \left|A\right|=N\cdot\exp\!\left(-O\!\left(\sqrt{\log N}\right)\right)$$
+
+Precise bound Behrend proved:
+
+$$\displaystyle r_{3}(N)\ge N\cdot\exp\!\left(-C\sqrt{\log N}\right)$$
+
+for absolute $C$, original $C=2\sqrt{2}+o(1)$ after optimization $\displaystyle C=2\sqrt{2\log2}$ etc.
+
+**Simple final picture:** High dimension $d$ gives many points per sphere — $m^{d}/dm^{2}$ — but encoding blows up $N=(2m)^{d}$ exponential in $d$. Too small $d$, pigeonhole weak; too large $d$, $2^{d}$ loss big. Optimum $d\approx\sqrt{\log N}$ balances — loss $\displaystyle\exp\!\left(C\sqrt{\log N}\right)$.
+
+Result: AP-free set almost size $N$ — density $\displaystyle\exp\!\left(-C\sqrt{\log N}\right)$ — decays slower than any power $N^{-\epsilon}$, so $r_{3}(N)=N^{1-o(1)}$.
+
+### Elkin's Tweak 2008 — Thick Shell
+
+$62$ years no one beat Behrend. Problem: Behrend uses infinitely thin sphere — only points with exactly $\displaystyle\left\|x\right\|^{2}=R$. Most points near but not exactly on that radius wasted.
+
+**Simple count of waste:** Grid $G=\left\{0,\dots,m-1\right\}^{d}$ has $m^{d}$ points. Values $S(x)=\left\|x\right\|^{2}$ range $\left[0,dm^{2}\right]$, about $dm^{2}$ possibilities. Best sphere gets $\displaystyle\frac{m^{d}}{dm^{2}}$ points. But total points $m^{d}$ — we keep only $\displaystyle\frac{1}{dm^{2}}$ fraction — about $\displaystyle\frac{1}{\text{poly}(d,m)}$ fraction. Most points lie on other radii, not used.
+
+Idea: use thick shell — doughnut — to keep many radii at once.
+
+$$\displaystyle \text{Shell}_{R,\delta}=\left\{x\in G : R\le\left\|x\right\|^{2}\le R+\delta\right\}$$
+
+Layer thickness $\delta$. Number of points roughly $\displaystyle\approx\delta\cdot\frac{m^{d}}{dm^{2}}$ if radii distribution roughly uniform — $\delta$ times more than thin sphere.
+
+For $\delta\approx\sqrt{d}$, get factor $\sqrt{d}\approx\left(\log N\right)^{1/4}$ extra — small but real.
+
+**But problem:** thin sphere is perfectly $3$-AP-free — line hits sphere at most $2$ points. Thick shell is not: line can go through shell, exit, re-enter? Actually convex shell: line can intersect thick shell in $3$ points? Yes. Take $x,z$ on outer radius, midpoint $y$ may fall inside shell thickness — still inside shell — so $x,y,z$ all in shell forming $3$-AP. So thick shell contains many $3$-APs.
+
+Elkin innovation: inside thick shell, $3$-APs are still rare if $\delta$ small relative to $m^{2}$.
+
+**Count $3$-APs In Shell:**
+
+Take $x,z\in\text{Shell}$, $y=\frac{x+z}{2}$ integer midpoint. Condition $x+z=2y$. When does $y$ stay in shell?
+
+Write $\left\|y\right\|^{2}= \left\|\frac{x+z}{2}\right\|^{2}= \frac{\left\|x\right\|^{2}+\left\|z\right\|^{2}}{2}-\frac{\left\|x-z\right\|^{2}}{4}$
+
+by parallelogram law:
+
+$$\displaystyle \left\|\frac{x+z}{2}\right\|^{2}+\left\|\frac{x-z}{2}\right\|^{2}= \frac{\left\|x\right\|^{2}+\left\|z\right\|^{2}}{2}$$
+
+So
+
+$$\displaystyle \left\|y\right\|^{2}= \frac{\left\|x\right\|^{2}+\left\|z\right\|^{2}}{2}-\frac{\left\|x-z\right\|^{2}}{4}$$
+
+If $\left\|x\right\|^{2},\left\|z\right\|^{2}\in\left[R,R+\delta\right]$, then average $\in\left[R,R+\delta\right]$, but subtracting $\displaystyle\frac{\left\|x-z\right\|^{2}}{4}$ pushes $\left\|y\right\|^{2}$ below $R$ unless $\left\|x-z\right\|^{2}\le4\delta$.
+
+Thus for $y$ to stay in shell $\left[R,R+\delta\right]$, need $\displaystyle\left\|x-z\right\|^{2}\le4\delta$ — $x,z$ close.
+
+So $3$-APs in thick shell correspond to pairs $x,z$ close: distance $\le2\sqrt{\delta}$.
+
+Number of such close pairs much smaller than total pairs if $\delta\ll m^{2}$.
+
+Formal count: For fixed $x$, number of $z$ with $\left\|x-z\right\|\le2\sqrt{\delta}$ about volume of ball radius $2\sqrt{\delta}$ in $\mathbb{Z}^{d}$ — about $\displaystyle\left(C\sqrt{\delta/d}\right)^{d}$? Actually $\approx\left(\frac{c\delta}{d}\right)^{d/2}$ tiny if $\delta\ll d m^{2}$.
+
+Elkin chooses $\delta=c_{1}d$ or $\approx\sqrt{d}$? Standard choice $\delta\approx c d$ gives extra $\sqrt{d}$ gain. Let's follow Elkin optimal: $\delta\approx m^{2}/\sqrt{d}$? Wait need precise.
+
+Elkin's analysis: Choose $m$ large, $d\approx\sqrt{\log N}$, shell thickness $\displaystyle\delta\approx c\frac{m^{2}}{\sqrt{d}}$? Different parametrizations equivalent.
+
+Simplify: choose $\delta\approx\epsilon m^{2}$ small constant fraction, then ball volume still $\approx(\epsilon)^{d/2}m^{d}$ — still exponential but factor $(\epsilon)^{d/2}$ small. Number of $3$-APs in shell about $m^{d}\cdot(\text{small})^{d}$ $\ll$ shell size.
+
+Thus we can destroy all $3$-APs by deleting one point per AP, losing little.
+
+**Probabilistic deletion method**
+
+1. Take thick shell $S=\text{Shell}_{R,\delta}$ size $\displaystyle\left|S\right|\approx\delta\frac{m^{d}}{dm^{2}}$.
+2. Count number of $3$-APs inside $S$: call $T$ = number of triples $\left\{x,y,z\right\}$ with $x+z=2y$, $x\neq z$, all in $S$. Show $T\ll\left|S\right|$ if $\delta$ not too large — e.g., $T\le\left|S\right|/10$.
+3. Form random subset $S'$ by picking each $x\in S$ with probability $p\approx\frac{1}{2}$? Actually Elkin picks random shift + then deletion: for each $3$-AP triple, delete one point. Number deleted $\le T$. So remaining $\left|S'\right|\ge\left|S\right|-T\ge\frac{9}{10}\left|S\right|$ — still large, now $3$-AP-free.
+
+More careful Elkin uses random subset where each point kept with probability $p$ small to reduce $T$ to $p^{3}T$ while keeping $p\left|S\right|$ points — choose $p$ so $p^{3}T\ll p\left|S\right|$.
+
+Result after deletion: $3$-AP-free set in $\mathbb{Z}^{d}$ size $\approx\left|S\right|$.
+
+Then map to integers via same base-$(2m)$ map $\displaystyle\phi(x)=\sum_{i=1}^{d}x_{i}(2m)^{i-1}$ — still no carries, preserves AP-free.
+
+**Result:**
+
+$$\displaystyle r_{3}(N)\ge C_{1}\frac{N\log^{1/4}N}{\exp\!\left(2\sqrt{2}\sqrt{\log N}\right)}$$
+
+for $C_{1}>0$.
+
+Some forms write:
+
+$$\displaystyle r_{3}(N)\ge\frac{N}{\exp\!\left(C\sqrt{\log N}\right)}\cdot\log^{1/4}N$$
+
+i.e., Behrend $\displaystyle\frac{N}{\exp\!\left(C\sqrt{\log N}\right)}$ times extra $\displaystyle\log^{1/4}N$.
+
+**Why $\log^{1/4}N$? Simple origin:**
+
+Optimal $d\approx\sqrt{\frac{2}{\log2}\log N}$. Thickness $\delta\approx c\sqrt{d}\,m^{2}$? Shell volume $\propto\delta$ gives factor $\delta/(m^{2})\propto\sqrt{d}\propto\left(\log N\right)^{1/4}$. Indeed $\sqrt{d}=\left(\log N\right)^{1/4}$ up to constants.
+
+So extra factor is $\displaystyle\sqrt{d}=\left(\log N\right)^{1/4}$.
+
+Green & Wolf 2010 refined constant to
+
+$$\displaystyle r_{3}(N)\ge C\frac{N\log^{1/4}N}{2^{2\sqrt{2}\sqrt{\log_{2}N}}}= \frac{N\log^{1/4}N}{\exp\!\left(2\sqrt{2\log2}\sqrt{\log N}\right)}$$
+
+with $C=2\sqrt{2\log2}\approx2.355...$ improved $C$ from $2\sqrt{2}\approx2.828$.
+
+Improvement tiny — $\sqrt{\log N}$ vs $\exp(\sqrt{\log N})$ — dominant term still $\displaystyle\exp\!\left(-C\sqrt{\log N}\right)$. But conceptually huge: showed Behrend not optimal, thick shells can be made to work, opened door to further improvements via more efficient removal, using central limit theorem for distribution of $\left\|x\right\|^{2}$ — Gaussian — to get more precise density of shell.
+
+In Fourier language: Behrend sets are $U^{2}$-uniform — no large linear Fourier coefficient — but have quadratic structure sphere. Elkin shows you can take thickened quadratic level set and still kill remaining additive structure by sparse random deletion — first use of probabilistic method inside Behrend construction.
+
+### Why It Defines Boundary for Roth and Szemerédi
+
+Behrend tells us:
+
+> You cannot prove $\displaystyle r_{3}(N)\le N^{0.99}$. You cannot even prove $\displaystyle r_{3}(N)\le\dfrac{N}{\exp\!\left(c\sqrt{\log N}\right)}$ with $c<C$. Because Behrend sets of size $\displaystyle\frac{N}{\exp\!\left(C\sqrt{\log N}\right)}$ AP-free exist.
+
+**Correction of common confusion:**
+
+Many think Behrend rules out $\displaystyle\frac{N}{\left(\log N\right)^{100}}$ upper bound. It does not.
+
+Compare growth:
+
+$$\displaystyle \exp\!\left(C\sqrt{\log N}\right)\quad\text{vs}\quad\left(\log N\right)^{100}$$
+
+Take logs:
+
+$$\displaystyle \log\left(\exp\!\left(C\sqrt{\log N}\right)\right)=C\sqrt{\log N}$$
+
+$$\displaystyle \log\left(\left(\log N\right)^{100}\right)=100\log\log N$$
+
+Since $\displaystyle\sqrt{\log N}\gg\log\log N$ as $N\to\infty$, we have
+
+$$\displaystyle \exp\!\left(C\sqrt{\log N}\right)\gg\left(\log N\right)^{100}\quad\text{eventually}$$
+
+Thus
+
+$$\displaystyle \frac{N}{\exp\!\left(C\sqrt{\log N}\right)}\ll\frac{N}{\left(\log N\right)^{100}}$$
+
+Behrend lower bound is smaller than $\displaystyle\frac{N}{\left(\log N\right)^{100}}$, so $\displaystyle\frac{N}{\left(\log N\right)^{100}}$ upper bound is still possible — and indeed Bloom-Sisask proved $\displaystyle\frac{N}{\left(\log N\right)^{1+c}}$ which is $\ll\frac{N}{\left(\log N\right)^{100}}$? Actually $\displaystyle\frac{N}{(\log N)^{1+c}}\gg\frac{N}{(\log N)^{100}}$ for large $c$? Wait $1+c\approx1.01$ vs $100$, so $N/(\log N)^{1.01}$ much larger than $N/(\log N)^{100}$. So $\displaystyle N/(\log N)^{100}$ upper would be stronger than Bloom-Sisask. Behrend does not rule it out.
+
+What Behrend does rule out:
+
+$$\displaystyle r_{3}(N)\le N^{0.99}= \frac{N}{N^{0.01}}$$
+
+Because
+
+$$\displaystyle N^{0.01}=\exp\!\left(0.01\log N\right)\gg\exp\!\left(C\sqrt{\log N}\right)$$
+
+for large $N$, since $0.01\log N\gg C\sqrt{\log N}$. So $\displaystyle\frac{N}{N^{0.01}}\ll\frac{N}{\exp(C\sqrt{\log N})}$ — if you claimed $r_{3}(N)\le N^{0.99}$, you would claim maximal AP-free $\le$ smaller than Behrend construction which we know exists size $\displaystyle\frac{N}{\exp(C\sqrt{\log N})}$ — contradiction. So $\displaystyle N^{1-\epsilon}$ upper impossible.
+
+Precise barrier: You cannot prove
+
+$$\displaystyle r_{3}(N)\le\frac{N}{\exp\!\left(c\sqrt{\log N}\right)}\quad\text{for any }c>C_{\text{Behrend}}$$
+
+Because construction achieves $\displaystyle\frac{N}{\exp(C\sqrt{\log N})}$. But you could hope to prove $\displaystyle r_{3}(N)\le\frac{N}{\exp(c\sqrt{\log N})}$ with $c<C$? No, that would be weaker upper, larger bound — allowed. Actually lower bound says $r_{3}\ge N\exp(-C\sqrt{\log N})$, so any upper bound $\le N\exp(-c\sqrt{\log N})$ with $c>C$ would be $\ll$ lower bound eventually, impossible. So limit is $C$.
+
+Thus true $r_{3}(N)$ lives in window:
+
+$$\displaystyle N\exp\!\left(-C_{1}\sqrt{\log N}\right)\le r_{3}(N)\le\frac{N}{\left(\log N\right)^{1+c_{2}}}$$
+
+Left almost $N$, right $N/\text{polylog}$.
+
+**Why regularity lemma necessary:**
+
+If AP-free sets were small like $\displaystyle N^{0.9}$, you could find $3$-AP by simple averaging — any dense set $\delta N$ with $\delta=N^{-0.1}$ would contain many triples $x,x+d,x+2d$ — $\approx\delta^{3}N^{2}$ expected — and pigeonhole would force.
+
+Behrend showed AP-free sets can be large — $\displaystyle N^{1-o(1)}$ — density $\displaystyle\exp(-C\sqrt{\log N})$ which tends to $0$ slower than any $N^{-\epsilon}$. So they are almost dense, look random to linear tests, but hide structure.
+
+They are pseudorandom: take Behrend set $A=\phi(T_{R})$. Its balanced function $f=1_{A}-\delta1_{[1,N]}$ has
+
+$$\displaystyle \left|\widehat{f}(r)\right|=\left|\frac{1}{N}\sum_{x\in A}e^{2\pi i r x/N}-\delta\frac{1}{N}\sum_{x\le N}e^{2\pi i r x/N}\right|=o(\delta N)$$
+
+for all $r\neq0$ — no large linear Fourier coefficient. In Gowers norms:
+
+$$\displaystyle \left\|1_{A}-\delta\right\|_{U^{2}}=o(1)$$
+
+$U^{2}$-uniform — looks random to Roth test.
+
+But
+
+$$\displaystyle \left\|1_{A}-\delta\right\|_{U^{3}}\gg1$$
+
+large — has quadratic bias — lives on sphere $\sum x_{i}^{2}=R$ — quadratic condition $\displaystyle\sum x_{i}^{2}=R$ preserved by $\phi$? Actually $\phi$ maps quadratic condition to digit quadratic.
+
+So Roth linear Fourier cannot detect Behrend sets — they appear random to linear phases $\displaystyle e^{2\pi i r x/N}$. Therefore Roth method can never prove $\displaystyle r_{3}(N)\ll\frac{N}{\exp(\sqrt{\log N})}$ — would need to detect quadratic structure.
+
+This forces higher-order Fourier analysis. Szemerédi regularity lemma was invented because such examples exist — need decomposition of any large set into structured part + pseudorandom part where structured part includes quadratic and higher-degree nilsequences, not just linear.
+
+In Fourier terms:
+
+- Behrend: $U^{2}$-uniform — $\displaystyle\left\|\cdot\right\|_{U^{2}}$ small — no linear bias.
+- But $U^{3}$-nonuniform — $\displaystyle\left\|\cdot\right\|_{U^{3}}$ large — quadratic bias sphere.
+
+Bloom-Sisask pushes Roth beyond $\displaystyle N/\log N$ by using spectral boosting — many large Fourier coefficients have additive structure — almost-periodicity — first step toward quadratic.
+
+Full resolution $r_{3}(N)=N\exp(-\Theta(\sqrt{\log N}))$ conjectured — experts believe true size closer to Behrend lower than Roth upper — would require optimal quadratic Fourier inverse, which is exactly what $U^{3}$ inverse theorem does: if $\left\|f\right\|_{U^{3}}\ge\eta$, then $f$ correlates with quadratic phase $\displaystyle e^{2\pi i(\alpha n^{2}+\beta n)}$ or nilsequence.
+
+Behrend construction is thus compass: it tells us maximal disorder avoiding order, and its size dictates how sophisticated order-finding tool must be — must be at least quadratic.
+
+### Behrend-Roth Gap and Bloom-Sisask Closure
+
+For $70$ years:
+
+**Lower** — Behrend $1946$ + Elkin $2008$:
+
+$$\displaystyle r_{3}(N)\ge C_{1}\frac{N\log^{1/4}N}{\exp\!\left(C_{0}\sqrt{\log N}\right)}=N\cdot\exp\!\left(-C_{0}\sqrt{\log N}+ \tfrac{1}{4}\log\log N+O(1)\right)$$
+
+with $C_{0}=2\sqrt{2}\approx2.828$, later $C_{0}=2\sqrt{2\log2}\approx2.355$.
+
+**Upper** — progression of improvements:
+
+$$
+\displaystyle \begin{aligned}
+\text{Roth 1953:}&\quad r_{3}(N)\ll\frac{N}{\log\log N}\\
+\text{Heath-Brown + Szemerédi:}&\quad r_{3}(N)\ll\frac{N}{\left(\log N\right)^{c}}\\
+\text{Bourgain 1999:}&\quad r_{3}(N)\ll N\cdot\frac{\sqrt{\log\log N}}{\sqrt{\log N}}\\
+\text{Bourgain 2008:}&\quad r_{3}(N)\ll N\cdot\frac{\left(\log\log N\right)^{2}}{\left(\log N\right)^{2/3}}\\
+\text{Sanders 2011:}&\quad r_{3}(N)\ll\frac{N\left(\log\log N\right)^{5}}{\log N}
+\end{aligned}
+$$
+
+**Massive gap**: $\displaystyle\exp\!\left(\sqrt{\log N}\right)$ vs $\displaystyle\log N$.
+
+To see scale, write densities $\displaystyle\frac{r_{3}(N)}{N}$:
+
+$$\displaystyle \exp\!\left(-C\sqrt{\log N}\right)\le\frac{r_{3}(N)}{N}\ll\frac{\left(\log\log N\right)^{5}}{\log N}$$
+
+Take $N=10^{100}$: $\displaystyle\exp\!\left(-C\sqrt{\log N}\right)\approx10^{-5}$, $\displaystyle\frac{\left(\log\log N\right)^{5}}{\log N}\approx\frac{5^{5}}{230}\approx13\%$ — upper allows $13\%$, lower says $0.001\%$ achievable AP-free. Gap $10^{4}$ factor, grows.
+
+**Bloom & Sisask 2020 closed half:**
+
+$$\displaystyle r_{3}(N)\ll\frac{N}{\left(\log N\right)^{1+c}},\qquad c>0$$
+
+First time upper bound is $\displaystyle o\!\left(\frac{N}{\log N}\right)$, smaller than $\displaystyle\frac{N}{\log N}$. Their $c\approx0.01$? Later Kelley-Meka $2023$ improved to $\displaystyle\exp\!\left(-c(\log N)^{1/12}\right)$? Actually Kelley-Meka broke to $\displaystyle\frac{N}{\exp(c(\log N)^{1/9})}$ — much closer to Behrend, but we keep focus on threshold.
+
+**Why $\displaystyle\frac{N}{\log N}$ threshold matters — reciprocal sum viewpoint:**
+
+Consider set $A\subset\mathbb{N}$ with counting function $\displaystyle A(N)=\left|A\cap[1,N]\right|$.
+
+Reciprocal sum up to $N$:
+
+$$\displaystyle S(N)=\sum_{\substack{a\in A\\a\le N}}\frac{1}{a}\approx\int_{2}^{N}\frac{dA(t)}{t}$$
+
+Integration by parts:
+
+$$\displaystyle S(N)=\frac{A(N)}{N}+\int_{2}^{N}\frac{A(t)}{t^{2}}dt$$
+
+If $\displaystyle A(t)\approx\frac{t}{\log t}$, like primes by Prime Number Theorem $\displaystyle\pi(t)\sim\frac{t}{\log t}$, then
+
+$$\displaystyle \int_{2}^{N}\frac{dt}{t\log t}= \log\log N\to\infty$$
+
+So $\displaystyle\sum_{a\in A}\frac{1}{a}$ diverges — harmonic over $\displaystyle t\log t$.
+
+If $\displaystyle A(t)\ll\frac{t}{\left(\log t\right)^{1+c}}$ with $c>0$, then
+
+$$\displaystyle \int_{2}^{N}\frac{dt}{t\left(\log t\right)^{1+c}}=\frac{1}{c}\left(\frac{1}{\left(\log2\right)^{c}}-\frac{1}{\left(\log N\right)^{c}}\right)<\infty$$
+
+converges, because $\displaystyle\int^{\infty}\frac{dx}{x(\log x)^{1+c}}<\infty$.
+
+Thus:
+
+- Density $\displaystyle\frac{t}{\log t}$ → divergent reciprocals.
+- Density $\displaystyle\frac{t}{(\log t)^{1+c}}$ → convergent reciprocals.
+
+Primes sit exactly at threshold $\displaystyle\frac{N}{\log N}$.
+
+Erdős conjecture: If $\displaystyle\sum_{a\in A}\frac{1}{a}=\infty$, then $A$ contains $k$-AP for all $k$.
+
+For $k=3$, need to show any $A$ with divergent reciprocals contains $3$-AP. Contrapositive: If $A$ is $3$-AP-free, then $\displaystyle\sum\frac{1}{a}<\infty$.
+
+If we only knew Roth upper $\displaystyle\frac{N}{\log\log N}$, then $3$-AP-free could still have $\displaystyle A(N)\approx\frac{N}{\log\log N}$, and
+
+$$\displaystyle \int\frac{dt}{t\log\log t}\sim\log N\cdot\text{? Actually }\int\frac{dt}{t\log\log t}\text{ diverges faster than }\log\log N$$
+
+so reciprocal sum could diverge — cannot rule out. Need upper below $\displaystyle\frac{N}{\log N}$.
+
+Bloom-Sisask $\displaystyle\ll\frac{N}{(\log N)^{1+c}}$ gives convergent reciprocals:
+
+$$\displaystyle \text{if }A\;3\text{-AP-free}\implies A(N)\ll\frac{N}{(\log N)^{1+c}}\implies\sum_{a\in A}\frac{1}{a}<\infty$$
+
+Hence any $A$ with $\displaystyle\sum\frac{1}{a}=\infty$ must contain $3$-AP — $k=3$ case of Erdős conjecture proved.
+
+**Picture of gap closure:**
+
+$$\displaystyle \underbrace{N\exp\!\left(-C\sqrt{\log N}\right)}_{\text{Behrend lower, maximal disorder you can build}} \le r_{3}(N) \le \underbrace{\frac{N}{(\log N)^{1+c}}}_{\text{Bloom-Sisask upper, order must appear}}$$
+
+Left side says: you can avoid $3$-AP while keeping density $\displaystyle\exp(-C\sqrt{\log N})$.
+
+Right side says: you cannot avoid $3$-AP if density $\displaystyle\ge(\log N)^{-1-c}$.
+
+True $r_{3}(N)$ lies somewhere between. Behrend is compass — tells how far we can hope to push upper bound. Until we match $\displaystyle N\exp(-C\sqrt{\log N})$, we haven't finished — upper still larger than known construction.
+
+Most experts believe true order closer to Behrend:
+
+$$\displaystyle r_{3}(N)=N\exp\!\left(-\Theta\!\left(\sqrt{\log N}\right)\right)$$
+
+meaning there exist constants $c_{1},c_{2}>0$ with
+
+$$\displaystyle N\exp\!\left(-c_{1}\sqrt{\log N}\right)\le r_{3}(N)\le N\exp\!\left(-c_{2}\sqrt{\log N}\right)$$
+
+Conjecture: exponent $\sqrt{\log N}$ is correct, only constant in front uncertain.
+
+**Ramsey language:** Behrend is extremal construction for $R_{3}$, like $5$-cycle is for $R(3,3)=6$. $R(3,3)=6$ says any $2$-coloring of $K_{6}$ has monochrome triangle; $C_{5}$ coloring of $K_{5}$ shows $5$ not enough — maximal disorder avoiding order. Similarly Behrend set shows $N\exp(-C\sqrt{\log N})$ size can avoid $3$-AP — maximal disorder. Its size dictates how sophisticated order-finding tool must be: to beat $\displaystyle N/\log N$ need beyond linear Fourier — need to detect sphere quadratic structure $\displaystyle\sum x_{i}^{2}=R$. Roth tool sees only linear phases $\displaystyle e^{2\pi i r x/N}$ — blind to spheres. Bloom-Sisask and Kelley-Meka use almost-periodicity, spectral boosting, higher energies $\displaystyle E_{k}$ to detect quadratic bias.
+
+In short: Behrend defines limit of avoidance, Roth defines guarantee of order, Bloom-Sisask bridges them at $\displaystyle\frac{N}{\log N}$ threshold — first time upper crosses divergent harmonic series barrier.
