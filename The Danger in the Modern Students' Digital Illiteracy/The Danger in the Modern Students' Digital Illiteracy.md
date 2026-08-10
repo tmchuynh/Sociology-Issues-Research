@@ -269,7 +269,9 @@ Young people deserve cultural roots that foster understanding of their origins, 
 
 Withholding either roots or wings from students constitutes educational malpractice and injustice. Providing only roots without wings idealizes the past while leaving students unprepared for contemporary challenges. Conversely, offering only wings without roots produces skilled workers who lack a sense of self, purpose, or collective responsibility. Culturally sustaining media literacy provides both, affirming the value of individual and community knowledge while equipping students with the tools necessary to interrogate the world, pursue truth, and contribute to a more just and democratic future (Paris and Alim; Freire; Mihailidis).
 
-## References
+<div style="page-break-after: always;"></div>
+
+# References
 
 "Media Literacy Law in Illinois." NPR Illinois, July 8, 2021. https://www.nprillinois.org/2021-07-14/media-literacy-requirement-animal-products-ban-among-latest-53-bills-signed-by-pritzker
 

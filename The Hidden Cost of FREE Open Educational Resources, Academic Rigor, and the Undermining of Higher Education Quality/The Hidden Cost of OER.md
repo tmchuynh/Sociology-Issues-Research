@@ -322,7 +322,9 @@ Universities benefit from OER mandates by getting good publicity, cutting costs,
 
 There are better ways to address textbook costs, such as regulating commercial publishers (Senack, 2016), investing in high-quality OER with proper review and upkeep (like the OpenStax model with enough funding; Allen et al., 2015; Pitt et al., 2020), protecting faculty choice (Belikov & Bodily, 2016), trying inclusive access or subsidy models, and most importantly, increasing public investment to tackle the root causes (SHEEO, 2020). Students should have both affordable and high-quality materials, not one or the other. Current adoption rates—8-10% overall, mostly in lower-division courses, with over 90% of courses still using commercial materials—show that OER often acts as a symbolic fix, saving only 2-4% of total attendance costs, while tuition keeps rising (making up 50-70% of total costs and increasing by 20-35% in the same period). The "hidden cost of free" falls on students through lower educational quality, on faculty through unpaid work, and on society by producing graduates who are less prepared for their careers. This allows institutions to appear to be addressing affordability issues without making meaningful changes to their priorities.
 
-## References
+<div style="page-break-after: always;"></div>
+
+# References
 
 Allen, G., Guzman-Alvarez, A., Molinaro, M., & Larsen, D. (2015). Assessing the impact and efficacy of the open-access ChemWiki textbook project. Educause Learning Initiative Brief. [https://library.educause.edu/resources/2015/1/assessing-the-impact-and-efficacy-of-the-openaccess-chemwiki-textbook-project](https://library.educause.edu/resources/2015/1/assessing-the-impact-and-efficacy-of-the-openaccess-chemwiki-textbook-project)
 

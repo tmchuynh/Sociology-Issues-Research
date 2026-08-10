@@ -4,8 +4,6 @@
 
 College students face unprecedented rates of anxiety, depression, and burnout, with studies showing that more than 60% of students meet criteria for at least one mental health problem—rates that have nearly doubled in the past decade. (Michigan, 2025) Mental health has become the leading reason students leave college, surpassing even academic failure. (Marken, 2024) Yet instead of investing in adequate counseling staff and comprehensive mental health infrastructure, many universities offer mental health apps and digital tools as low-cost substitutes, treating a public health crisis with technological Band-Aids. This approach raises critical questions about quality, accessibility, effectiveness, and whether institutions are truly prioritizing student well-being or simply managing liability and costs while maintaining the appearance of care. The gap between what students need and what they receive has never been wider, and the consequences—academic failure, dropout, and in the most tragic cases, suicide—have never been more severe.
 
-
-
 ## The Counseling Crisis: Overwhelmed and Understaffed
 
 - Campus counseling centers are severely understaffed—students wait weeks or months for appointments, or are limited to a few sessions. The International Association of Counseling Services (IACS) recommends a ratio of 1 counselor per 1,000-1,500 students, but many schools operate at 1 per 2,000-4,000 students or worse. Some large public universities have ratios exceeding 1:5,000. (Staff to Student Ratios, n.d.)
@@ -306,12 +304,11 @@ What they often get instead:
 
 - Cultural change: Campus-wide commitment to well-being over achievement, rest over productivity, community over competition
 
-
 ## The Bottom Line
 
 The college mental health crisis is real, growing, and multifaceted—driven by academic pressure, financial stress, social isolation, systemic inequities, and an uncertain world. Students are suffering at unprecedented rates, and universities are responding with digital Band-Aids: apps, chatbots, and wellness workshops that create the appearance of care without the substance of meaningful support. While digital tools can play a supplementary role in comprehensive mental health systems, they cannot replace human connection, clinical expertise, therapeutic relationships, or institutional responsibility. Apps cannot conduct suicide risk assessments, provide trauma therapy, prescribe and manage medications, or offer the attuned presence that heals. Universities must invest in adequate counseling staff, eliminate session limits and waitlists, provide crisis services 24/7, hire diverse clinicians who reflect student demographics, offer specialized treatment for complex conditions, and—most importantly—address the systemic factors driving student distress in the first place. This means rethinking academic pressure, addressing financial insecurity, building authentic community, and committing to student well-being as central to educational mission, not peripheral to it. Anything less is a Band-Aid on a wound that requires real healing—and students deserve better. They deserve care, not just crisis management. They deserve therapists, not just apps. They deserve institutions that value their humanity, not just their tuition dollars. The mental health crisis won't be solved by technology alone—it will be solved by institutions that choose to prioritize the people they serve and invest accordingly. Until then, students will continue to suffer, drop out, and in the most heartbreaking cases, die—while universities point to their mental health apps and claim they did everything they could. It's not enough. It never was.
 
-
+<div style="page-break-after: always;"></div>
 
 # References
 

@@ -1089,7 +1089,7 @@ What's the version you can do in 2-5 minutes on the worst day? Define it explici
 - "Practice at least 1 problem from memory"
 - "Read at least 1 page"
 
-Write it on calendar top: "Daily: ******\_****** min of ******\_\_\_\_******"
+Write it on calendar top: "Daily: **\*\***\_**\*\*** min of **\*\***\_\_\_\_**\*\***"
 
 **Step 3: Create visible tracker**
 Get a large wall calendar or print a month. Red marker. Each day you complete the minimum, put a big X over the day—no partial — either X or blank.
@@ -1662,9 +1662,9 @@ No app needed: a kitchen timer, a phone timer in airplane mode, or a simple toma
 
 **Advanced — add after week:**
 
-* Tomato timer apps — Forest, Focus Keeper — add visual chain — Seinfeld.
-* Pair with Ivy Lee: Morning, pick 6 tasks. Estimate pomodoros per task — e.g., Methods draft = 4 pomodoros. Schedule hardest pomodoros in biological prime time.
-* Pair with Commitment Inventory: Track pomodoros per commitment category for the week — see where time really goes vs where you want it.
+- Tomato timer apps — Forest, Focus Keeper — add visual chain — Seinfeld.
+- Pair with Ivy Lee: Morning, pick 6 tasks. Estimate pomodoros per task — e.g., Methods draft = 4 pomodoros. Schedule hardest pomodoros in biological prime time.
+- Pair with Commitment Inventory: Track pomodoros per commitment category for the week — see where time really goes vs where you want it.
 
 **Starter Protocol for Heads-Down Workers:**
 
@@ -3311,7 +3311,6 @@ Khedmatinejad and Asadi's empirical study applied the Eisenhower Matrix to time 
 
 Eisenhower — 34th US President — reportedly said: "What is important is seldom urgent and what is urgent is seldom important." The Matrix operationalizes that.
 
-
 Most people live in Quadrants 1 and 3 — urgent — because urgent screams. Email notifications, Slack, a deadline tomorrow, someone asking now — all feel urgent. The brain treats urgent as important — the mere urgency effect — a cognitive bias in which we choose urgent over important, even when important pays more. Result: busy all day reacting to immediate but low-value tasks — non-essential emails — while ignoring important strategic work — thesis, skill development, health, relationships — that never screams but determines life.
 
 Matrix forces explicit separation:
@@ -3588,7 +3587,6 @@ The Kano Model is a comprehensive framework used for prioritizing product featur
 
 These categories help product teams prioritize features based on their potential impact on customer satisfaction and overall product success. By focusing on the most critical and impactful features, teams can ensure they deliver value while managing resources effectively.
 
-
 Developed by Noriaki Kano in 1984 — a professor at Tokyo University of Science — the model explains why checklists like MoSCoW and ABCDE alone miss the emotional dimension: some features don't increase satisfaction linearly.
 
 ### The Three Main Types — Plus Two Hidden
@@ -3680,11 +3678,11 @@ Kano's insight: Customers poor at articulating excitement needs. Use:
 
 Create table:
 
-Feature | If Present feeling | If Absent feeling | Category | Action
-| --- | --- | --- | --- | --- |
-Login works | Neutral | Very Dissatisfied | Basic | Must — make reliable
-Fast search | Satisfied | Dissatisfied | Performance | Should — invest proportional
-Surprise template | Delighted | Neutral | Excitement | Could — small bet for wow
+| Feature           | If Present feeling | If Absent feeling | Category    | Action                       |
+| ----------------- | ------------------ | ----------------- | ----------- | ---------------------------- |
+| Login works       | Neutral            | Very Dissatisfied | Basic       | Must — make reliable         |
+| Fast search       | Satisfied          | Dissatisfied      | Performance | Should — invest proportional |
+| Surprise template | Delighted          | Neutral           | Excitement  | Could — small bet for wow    |
 
 Visualize: X-axis = implementation degree, Y-axis = satisfaction. Basic curve flat positive then drops negative steeply if absent. Performance linear 45°. Excitement flat at zero when absent, then steep positive when present — wow curve.
 
@@ -3976,9 +3974,9 @@ But for most — thesis, startup, event — MoSCoW enough.
 
 > Establishing priorities for requirements is crucial because resources limited and requests unlimited. Employing MoSCoW — Must-have, Should-have, Could-have, Won't-have — allows you to rank features by business importance, risk, feasibility, focus on most essential and impactful first, mitigate risks, and align with stakeholder expectations — not by building more, but by explicitly deciding what you will _not_ build now. By focusing on most essential first, you significantly enhance ROI while managing limited resources — same principle that makes productive individuals productive: they excel at managing time and energy by saying no to non-essential.
 
----
+<div style="page-break-after: always;"></div>
 
-## References
+# References
 
 Adamczyk, Piotr D., and Brian P. Bailey. "If Not Now, When? The Effects of Interruption at Different Moments within Task Execution." _Proceedings of CHI'04_, 2004, pp. 271–78.
 

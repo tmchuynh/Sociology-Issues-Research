@@ -4,8 +4,6 @@
 
 AI-powered learning platforms, remote proctoring software, and predictive analytics systems are now deeply embedded in educational institutions, spanning from K-12 to higher education. While they are often marketed as objective, efficient, and innovative solutions to longstanding educational challenges, these technologies can unintentionally magnify existing inequalities, perpetuate systemic discrimination, and infringe on student privacy in novel and troubling ways. The so-called "black box" nature of many algorithms means that bias is not only present but also invisible and unaccountable. Students, parents, and even educators often have little understanding of—or control over—how vast amounts of personal and academic data are collected, processed, and used to make critical decisions. These decisions, which may include admissions, academic placements, and disciplinary actions, can profoundly shape students’ educational experiences and long-term opportunities. Moreover, the increasing reliance on algorithmic systems risks shifting power away from human judgment and eroding trust between students and educational institutions.
 
-
-
 ## Algorithmic Bias: The Illusion of Objectivity
 
 - Algorithms used for college admissions, course recommendations, or "at-risk" student identification can perpetuate racial and socioeconomic bias. While presented as neutral and data-driven, these systems are trained on historical data that reflects existing inequalities—meaning they learn to replicate discriminatory patterns.
@@ -129,7 +127,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
 ## What Students and Families Deserve
 
 - **Transparency**
-
   - Clear, accessible information about what data is collected on students.
 
   -  Explanation of how data is used, who has access, and how long it is retained.
@@ -137,7 +134,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   -  Regular reporting to students and families about data practices.
 
 - Consent
-
   - Meaningful opt-in (not just opt-out) for non-essential data collection and surveillance.
 
   -  Informed consent processes that ensure students and families truly understand what they’re agreeing to.
@@ -145,7 +141,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   -  The right to withdraw consent at any time without penalty.
 
 - Algorithmic Accountability
-
   - Independent audits of algorithms for bias, accuracy, and fairness.
 
   - Public reporting of outcomes by demographic group to identify disparities.
@@ -153,7 +148,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   -  Transparent explanations of how algorithmic decisions are made.
 
 - Data Minimization
-
   - Only collecting data that is truly necessary for educational purposes.
 
   - Prohibiting the use of student data for marketing or non-educational purposes.
@@ -161,7 +155,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   - Regular deletion of outdated or unnecessary data.
 
 - Privacy by Design
-
   - Ed-tech tools should be built with strong privacy protections as the default, not as an afterthought.
 
   - End-to-end encryption and secure data storage.
@@ -169,7 +162,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   - Minimizing the number of people and vendors who can access sensitive information.
 
 - Right to Access and Deletion
-
   - Students and families should be able to see all data collected about them in a clear, accessible format.
 
   - The right to request correction or deletion of inaccurate or unwanted data.
@@ -177,7 +169,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   - Mechanisms for appealing or contesting data-driven decisions.
 
 - Human Decision-Making
-
   - Important decisions (admissions, placement, discipline) should not be made by algorithms alone.
 
   - Human oversight and robust appeal processes must be in place.
@@ -185,7 +176,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   - Students and families should be able to speak directly with decision-makers.
 
 - Equity Impact Assessments
-
   - Before adopting new ed-tech, schools should assess potential harms to marginalized students.
 
   - Ongoing monitoring for disparate impacts on race, class, disability, gender, and immigration status.
@@ -193,7 +183,6 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   - Involving students and families from diverse backgrounds in decision-making.
 
 - Alternatives to Invasive Proctoring
-
   - Implementing honor codes, open-note exams, and alternative assessments.
 
   - Designing assessments that reduce the need for surveillance.
@@ -201,19 +190,17 @@ AI-powered learning platforms, remote proctoring software, and predictive analyt
   - Rebuilding cultures of academic integrity based on trust, not suspicion.
 
 - Regulation and Enforcement
-
   - Strong laws protecting student privacy and prohibiting discriminatory algorithms.
 
   - Real penalties for violations, including fines and loss of contracts.
 
   - Independent oversight bodies to investigate complaints and enforce standards.
 
-
 ## The Bottom Line
 
 Educational technology is not neutral. Algorithms embed the biases of their creators and the data they're trained on, and surveillance systems treat students as subjects to monitor rather than people to empower. The rush to digitize education has outpaced ethical consideration, regulatory protection, and evidence of benefit. Students—especially those already marginalized by race, class, disability, or immigration status—bear the greatest burdens and risks. As schools increasingly rely on AI and surveillance tools, we must ask: What kind of education do we want? One that tracks, sorts, and controls? Or one that trusts, nurtures, and liberates? The algorithms we deploy on students today are shaping not just their education, but their relationship to power, privacy, and possibility for the rest of their lives.
 
-
+<div style="page-break-after: always;"></div>
 
 # References
 
@@ -234,6 +221,3 @@ Brislin, S. J., Choi, M., Perkins, E. R., Ahonen, L., McCoy, H., Boxer, P., Clar
 Prothero, A. (February 13, 2024). A New Digital Divide? Low-Income Students See More Ads in the Tech Their Schools Use. Education Week. https://www.edweek.org/technology/a-new-digital-divide-low-income-students-see-more-ads-in-the-tech-their-schools-use/2024/02
 
 (n.d.). Algorithmic Accountability Act of 2025. https://www.congress.gov/bill/119th-congress/senate-bill/2164/text
-
-
- 

@@ -416,9 +416,9 @@ When this moment occurs, acknowledge it. Honor it. While life presents you with 
 
 The next time someone asks, "How hard are you working?" consider that a better question might be, "How well is it working?"
 
----
+<div style="page-break-after: always;"></div>
 
-## References
+# References
 
 Agarwal, Pooja K., and Henry L. Roediger. "Lessons for Learning: How Cognitive Psychology Informs Classroom Practice." _The Phi Delta Kappan_, vol. 100, no. 4, 2018, pp. 8–12. JSTOR, https://www.jstor.org/stable/26552478. Accessed 10 Apr. 2026.
 

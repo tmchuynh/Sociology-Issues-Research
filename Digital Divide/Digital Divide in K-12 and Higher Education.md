@@ -4,8 +4,6 @@
 
 Unequal access to technology and reliable internet creates profound barriers to learning, especially for low-income students, rural communities, and underserved schools. This "digital divide" encompasses far more than simply owning a device—it includes access to reliable high-speed connectivity, digital literacy skills, technical support when things go wrong, the quality and sophistication of educational technology available, and the capacity to use technology for creation and innovation rather than just consumption. In an educational landscape increasingly dependent on digital tools, platforms, and resources, the digital divide has become one of the most significant drivers of educational inequality, determining not just who can complete homework assignments but who can access advanced coursework, participate in remote learning, develop 21st-century skills, and ultimately compete for college admission and career opportunities in a digital economy.
 
-
-
 ## Access Barriers: The Foundation of Inequality
 
 - Students without devices or internet struggle to complete homework, access online learning platforms, and participate in remote/hybrid education. What seems like a simple assignment—"research this topic online and submit via Google Classroom"—becomes an insurmountable barrier for students without home internet or devices.
@@ -75,7 +73,6 @@ Unequal access to technology and reliable internet creates profound barriers to 
 - Low-income students may struggle to participate fully, especially if they're balancing work schedules or sharing devices with family members. A student working 30+ hours per week to afford college, living at home sharing one computer with siblings, cannot easily attend synchronous online class sessions, participate in virtual study groups, or complete time-intensive digital assignments.
 
 - Digital literacy gaps affect academic performance. Students who didn't have consistent technology access in K-12 may lack skills in:
-
   - Word processing: formatting documents, using templates, track changes, citations
 
   - Spreadsheets: formulas, data analysis, chart creation
@@ -216,12 +213,11 @@ Higher Education:
 
 - Inclusive course design that doesn't assume home technology access
 
-
 ## The Bottom Line
 
 The digital divide is not just about who has a computer—it's about who has equitable opportunities to learn, grow, and succeed in an increasingly digital world. Technology in education was supposed to be the great equalizer, democratizing access to information and opportunity. Instead, without intentional intervention, it has become an amplifier of existing inequalities, creating a system where privileged students gain powerful tools for learning and creation while marginalized students are left further behind or given inferior technology experiences. Access to technology is no longer a luxury—it's a necessity for education, employment, civic participation, and full membership in society. Students cannot "just work harder" when they lack the basic infrastructure to complete assignments, access learning materials, or develop digital skills. The digital divide is a solvable problem, but it requires recognizing internet access as a public utility and basic right, investing in infrastructure and devices, providing ongoing support and training, and committing to digital equity as a core educational justice issue. Without intentional investment in infrastructure, devices, training, and support for underserved communities, technology in education risks deepening existing inequalities rather than bridging them. Every day we delay, more students fall behind—academically, economically, and civically—through no fault of their own. Digital equity is not merely a nice-to-have improvement; it is a fundamental requirement for educational justice and opportunity in the 21st century.
 
-
+<div style="page-break-after: always;"></div>
 
 # References
 

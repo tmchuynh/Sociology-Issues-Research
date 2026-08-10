@@ -4,7 +4,6 @@
 
 Teachers are leaving the profession at alarming rates—up to 55% within their first five years, with some districts experiencing annual turnover rates of 20-30%—due to overwhelming stress, technology overload, inadequate mental health support, and workplace conditions that prioritize standardized performance metrics over human well-being ("Teacher Burnout: ZipDo Education Reports 2026"; Ingersoll). This exodus represents not just a staffing crisis, but a fundamental breakdown in how society values and supports one of its most essential professions (Santoro; Goldstein). What was once viewed as a stable, respected calling has become widely regarded as an unsustainable career characterized by impossible demands, inadequate compensation, eroding autonomy, and complete disregard for educator wellness (Allegretto, "Teacher Pay Rises in 2023"; Darling-Hammond). The teachers who remain often operate in survival mode, compromising their physical health, mental well-being, family relationships, and passion for teaching just to make it through each day (Maslach and Leiter; Greenberg et al.). This is not merely a workforce problem—it's a moral crisis that threatens the foundation of public education and the futures of millions of children who deserve stable, supported, thriving educators (Chetty et al.; Ronfeldt et al.).
 
-
 ## Why It Matters
 
 ## The Relentless Nature of Teacher Stress
@@ -317,13 +316,13 @@ Teachers are leaving the profession at alarming rates—up to 55% within their f
 
 - Union protections allowing collective bargaining for working conditions, due process, and grievance procedures (Goldstein)
 
-
 ## The Bottom Line
 
 Teaching has become an unsustainable profession by design, not by accident (Santoro; Ingersoll). The exodus of educators—early-career teachers fleeing before they fully develop their skills (Borman and Dowling), veteran teachers retiring early or leaving mid-career despite decades of investment (Santoro), teachers of color driven out at higher rates by additional stressors and hostile environments (Achinstein et al.; Ingersoll and May)—represents not just a workforce crisis but a societal moral failure (Darling-Hammond; Goldstein). Teachers are bleeding out—physically, emotionally, and professionally—while being told to do more with less, blamed for problems they didn't create and cannot solve alone (Ravitch), surveilled and micromanaged despite being credentialed professionals (Santoro; Au), and compensated inadequately for work that demands their full humanity (Allegretto and Mishel; Allegretto, "Teacher Pay Penalty Still Looms Large"). The mental health of teachers is not a luxury, a personal problem, or an individual weakness to overcome through yoga and self-care apps—it is an urgent systemic crisis that affects millions of students who deserve stable, supported, thriving educators capable of providing the intellectual challenge, emotional support, and transformative relationships that drive learning and development (Greenberg et al.; Maslach et al., "Job Burnout"; Chetty et al.). Without meaningful investment in teacher well-being (Greenberg et al.; Figley), reasonable and humane working conditions (Johnson et al.; Kraft and Papay), competitive compensation that allows educators to support themselves and their families with dignity (Allegretto and Mishel; Podolsky et al.), and profound cultural change that values educators as the skilled, essential professionals they are (Goldstein; Darling-Hammond), the exodus will continue and accelerate—and an entire generation of students, particularly those already facing the greatest challenges and inequities (Simon and Johnson; Ronfeldt et al.), will pay the price in lost learning, lost relationships, lost opportunity, and lost potential. Teachers cannot pour from empty cups, and right now, those cups are bone dry, shattered on the floor of under-resourced classrooms where educators work miracles daily despite being set up to fail (Maslach and Leiter; Skaalvik and Skaalvik). The teaching crisis is a societal choice—we have chosen to undervalue, undersupport, and exploit the people we entrust with our children's futures—and it will require societal commitment and investment to fix (Darling-Hammond; Goldstein; Ravitch). Teachers are not asking for charity or special treatment; they are demanding what every worker deserves: fair pay, reasonable conditions, respect, and the support necessary to do their jobs well without sacrificing their health, families, and lives (Hochschild; Isenbarger and Zembylas; Santoro). Until we provide that, we will continue losing talented, dedicated educators—and the students, communities, and society we claim to value will be immeasurably poorer for it (Ingersoll; Ronfeldt et al.; Chetty et al.).
 
+<div style="page-break-after: always;"></div>
 
-## References
+# References
 
 Achinstein, Betty, et al. "Retaining Teachers of Color: A Pressing Problem and a Potential Strategy for Hard-to-Staff Schools." *Review of Educational Research*, vol. 80, no. 1, 2010, pp. 71–107, doi.org/10.3102/0034654309355994.
 
@@ -381,7 +380,7 @@ Hochschild, Arlie Russell. *The Managed Heart: Commercialization of Human Feeli
 
 Ingersoll, Richard M. "Teacher Turnover and Teacher Shortages: An Organizational Analysis." *American Educational Research Journal*, vol. 38, no. 3, 2001, pp. 499–534, doi.org/10.3102/00028312038003499.
 
-Ingersoll, Richard M., and Henry May. "Recruitment, Retention and the Minority Teacher Shortage." *Consortium for Policy Research in Education*, 2011, repository.upenn.edu/cpre\_researchreports/69/.
+Ingersoll, Richard M., and Henry May. "Recruitment, Retention and the Minority Teacher Shortage." *Consortium for Policy Research in Education*, 2011, repository.upenn.edu/cpre_researchreports/69/.
 
 Isenbarger, Lynn, and Michalinos Zembylas. "The Emotional Labour of Caring in Teaching." *Teaching and Teacher Education*, vol. 22, no. 1, 2006, pp. 120–134, doi.org/10.1016/j.tate.2005.07.002.
 
