@@ -409,10 +409,9 @@ Then test $\displaystyle q+r\stackrel{?}{=}k$.
 
 **Illustrated addition for $\displaystyle45$:**
 
-$$
-\displaystyle\begin{array}{r}
-  2025 = 20\cdot100+25\\
-  q=20\\
+$$\begin{array}{r}
+  2025 = 20\cdot100+25\\[5pt]
+  q=20\\[5pt]
   r=25\\ \hline
   q+r=45
 \end{array}
@@ -1363,13 +1362,12 @@ Small computation: Row $4$ starts $5=B_{3}$, then $\displaystyle5+2=7$, $\displa
 
 Write triangle left-aligned:
 
-$$
-\displaystyle\begin{array}{ccccccc}
-n=1:&1\\
-n=2:&1&2\\
-n=3:&2&3&5\\
-n=4:&5&7&10&15\\
-n=5:&15&20&27&37&52\\
+$$\begin{array}{ccccccc}
+n=1:&1\\[5pt]
+n=2:&1&2\\[5pt]
+n=3:&2&3&5\\[5pt]
+n=4:&5&7&10&15\\[5pt]
+n=5:&15&20&27&37&52\\[5pt]
 n=6:&52&67&87&114&151&203
 \end{array}
 $$
@@ -1421,12 +1419,11 @@ So triangle computes binomial convolution iteratively using Pascal's identity $\
 Row $5$ last entry $52$:
 
 $$
-\displaystyle
 \begin{align*}
-a_{5,5} &= \sum_{j=0}^{4}\binom{4}{j}B_{4-j} \\
-&= \binom{4}{0}B_{4}+\binom{4}{1}B_{3}+\binom{4}{2}B_{2}+\binom{4}{3}B_{1}+\binom{4}{4}B_{0} \\
-&= 1\cdot15+4\cdot5+6\cdot2+4\cdot1+1\cdot1 \\
-&= 15+20+12+4+1 \\
+a_{5,5} &= \sum_{j=0}^{4}\binom{4}{j}B_{4-j} \\[5pt]
+&= \binom{4}{0}B_{4}+\binom{4}{1}B_{3}+\binom{4}{2}B_{2}+\binom{4}{3}B_{1}+\binom{4}{4}B_{0} \\[5pt]
+&= 1\cdot15+4\cdot5+6\cdot2+4\cdot1+1\cdot1 \\[5pt]
+&= 15+20+12+4+1 \\[5pt]
 &= 52
 \end{align*}
 $$

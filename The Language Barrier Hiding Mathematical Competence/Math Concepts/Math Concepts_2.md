@@ -251,7 +251,7 @@ Try to paint integers red/blue to break equally-spaced patterns — you can dela
 
 This idea launched three generations — each stronger, each asking "how sparse can host be and still force AP?"
 
-#### 1. Szemerédi 1975 — From Partition to Density
+#### Szemerédi 1975 — From Partition to Density
 
 van der Waerden: you color _all_ of $\mathbb{N}$ with $r$ colors — whole line partitioned — one color forces $k$-AP.
 
@@ -269,7 +269,7 @@ Strictly stronger — Szemerédi applies to sets that are not complements of par
 
 Proof created regularity lemma, launched additive combinatorics.
 
-#### 2. Green-Tao 2004 — Density Zero Still Forces
+#### Green-Tao 2004 — Density Zero Still Forces
 
 Primes $P=\{2,3,5,7,11,\dots\}$ have density $0$ — $|P\cap[1,N]|\sim N/\log N$, so $|P|/N\to0$. Szemerédi does NOT apply.
 
@@ -410,7 +410,7 @@ Density → recurrence: system returns close to itself infinitely often.
 
 Then Furstenberg proved multiple recurrence theorem — ergodic Szemerédi.
 
-Impact: created ergodic Ramsey theory — field connecting number theory to dynamics. Furstenberg correspondence principle now standard tool: combinatorics ↔ dynamics.
+Impact: created ergodic Ramsey theory — field connecting number theory to dynamics. Furstenberg correspondence principle now standard tool: combinatorics dynamics.
 
 Furstenberg won Abel Prize 2020 partly for this translation.
 
@@ -1699,12 +1699,11 @@ with $C_{0}=2\sqrt{2}\approx2.828$, later $C_{0}=2\sqrt{2\log2}\approx2.355$.
 
 **Upper** — progression of improvements:
 
-$$
-\displaystyle \begin{aligned}
-\text{Roth 1953:}&\quad r_{3}(N)\ll\frac{N}{\log\log N}\\
-\text{Heath-Brown + Szemerédi:}&\quad r_{3}(N)\ll\frac{N}{\left(\log N\right)^{c}}\\
-\text{Bourgain 1999:}&\quad r_{3}(N)\ll N\cdot\frac{\sqrt{\log\log N}}{\sqrt{\log N}}\\
-\text{Bourgain 2008:}&\quad r_{3}(N)\ll N\cdot\frac{\left(\log\log N\right)^{2}}{\left(\log N\right)^{2/3}}\\
+$$ \begin{aligned}
+\text{Roth 1953:}&\quad r_{3}(N)\ll\frac{N}{\log\log N}\\[5pt]
+\text{Heath-Brown + Szemerédi:}&\quad r_{3}(N)\ll\frac{N}{\left(\log N\right)^{c}}\\[5pt]
+\text{Bourgain 1999:}&\quad r_{3}(N)\ll N\cdot\frac{\sqrt{\log\log N}}{\sqrt{\log N}}\\[5pt]
+\text{Bourgain 2008:}&\quad r_{3}(N)\ll N\cdot\frac{\left(\log\log N\right)^{2}}{\left(\log N\right)^{2/3}}\\[5pt]
 \text{Sanders 2011:}&\quad r_{3}(N)\ll\frac{N\left(\log\log N\right)^{5}}{\log N}
 \end{aligned}
 $$

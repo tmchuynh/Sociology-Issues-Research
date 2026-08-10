@@ -62,7 +62,6 @@ $$\displaystyle S(n,k)=k\,S(n-1,k)+S(n-1,k-1)$$
 Fix element $n$:
 
 $$
-\displaystyle
 \begin{align*}
 \text{Case 1: } \{n\}\text{ not singleton}&: \text{ partition }[n-1]\text{ into }k\text{ blocks }[S(n-1,k)\text{ ways}],\\[12pt]
 &\quad \text{choose one of }k\text{ blocks to insert }n\text{ into }[k\text{ choices}]\\[12pt]
@@ -94,7 +93,6 @@ Number of onto functions $f:\{1,\dots,n\}\to\{1,\dots,k\}$ is $k!S(n,k)$ because
 Count onto functions by inclusion-exclusion: total functions $k^{n}$, subtract those missing at least one value.
 
 $$
-\displaystyle
 \begin{align*}
 k!S(n,k) &= \sum_{j=0}^{k}(-1)^{j}\binom{k}{j}(k-j)^{n}\\[12pt]
 &= \sum_{j=0}^{k}(-1)^{k-j}\binom{k}{j}j^{n}
@@ -114,7 +112,6 @@ $$\displaystyle S(3,2)=\dfrac{1}{2!}\left[\binom{2}{0}0^{3}-\binom{2}{1}1^{3}+\b
 **Small values:**
 
 $$
-\displaystyle
 \begin{align*}
 S(n,0)&=\begin{cases}1&n=0\\0&n>0\end{cases}\\[12pt]
 S(n,1)&=1\\[12pt]
@@ -138,7 +135,6 @@ Labeled balls — $A,B,C$ distinct. Identical boxes — only which balls are tog
 Example $n=3,k=2$:
 
 $$
-\displaystyle
 \begin{align*}
 \{A,B\}\{C\}\\[12pt]
 \{A,C\}\{B\}\\[12pt]
@@ -153,7 +149,6 @@ $$\displaystyle S(n,k)=\dfrac{\#\text{onto functions}}{k!}$$
 **Why the special values make sense:**
 
 $$
-\displaystyle
 \begin{align*}
 S(n,1)&=1 &&\text{All balls in one box: only }\{[n]\}\\[12pt]
 S(n,n)&=1 &&\text{Each ball alone: only }\{1\}\{2\}\cdots\{n\}\\[12pt]
@@ -173,7 +168,6 @@ $$\displaystyle S(4,2)=\dfrac{2^{4}-2}{2}=7$$
 Picture building partitions of $\{1,\dots,n\}$ from partitions of $\{1,\dots,n-1\}$.
 
 $$
-\displaystyle
 \begin{align*}
 \text{Let }P_{n-1}&\text{ be partition of }[n-1]\\[12pt]
 \text{Insert }n&:
@@ -187,7 +181,6 @@ $$
 Formally:
 
 $$
-\displaystyle
 \begin{align*}
 S(n,k) &= kS(n-1,k) &&\text{(n joins)} + S(n-1,k-1) &&\text{(n alone)}
 \end{align*}
@@ -196,7 +189,6 @@ $$
 Example $n=4,k=2$:
 
 $$
-\displaystyle
 \begin{align*}
 S(4,2) &= 2S(3,2)+S(3,1)\\[12pt]
 &=2\cdot3+1=7
@@ -208,7 +200,6 @@ $2S(3,2)$: take $3$ partitions of $\{A,B,C\}$ into $2$ blocks, insert $D$ into e
 The full $7$ for $\{A,B,C,D\}$:
 
 $$
-\displaystyle
 \begin{align*}
 3+1\text{ shape}&: \{A\}\{BCD\},\{B\}\{ACD\},\{C\}\{ABD\},\{D\}\{ABC\} && 4\\[12pt]
 2+2\text{ shape}&: \{AB\}\{CD\},\{AC\}\{BD\},\{AD\}\{BC\} && 3
@@ -224,7 +215,6 @@ Total functions $k^{n}$. Let $A_{i}$ = functions missing value $i$ $\left(\text{
 By inclusion-exclusion:
 
 $$
-\displaystyle
 \begin{align*}
 \#\text{onto} &= \sum_{j=0}^{k}(-1)^{j}\binom{k}{j}(k-j)^{n}\\[12pt]
 &= \sum_{j=0}^{k}(-1)^{k-j}\binom{k}{j}j^{n}\quad (j\mapsto k-j)
@@ -240,7 +230,6 @@ $$\displaystyle S(n,k)=\dfrac{\#\text{onto}}{k!}=\dfrac{1}{k!}\sum_{j=0}^{k}(-1)
 Example $\displaystyle n=4,k=2$:
 
 $$
-\displaystyle
 \begin{align*}
 S(4,2) &= \dfrac{1}{2!}\left[\binom{2}{0}0^{4}-\binom{2}{1}1^{4}+\binom{2}{2}2^{4}\right]\\[12pt]
 &= \dfrac{1}{2}\left[0-2+16\right]=7
@@ -256,7 +245,6 @@ $$\displaystyle B_{n}= \sum_{k=0}^{n} S(n,k)$$
 Fix $n$, sum over possible number of blocks $k$. $B_{n}$ counts all partitions regardless of $k$.
 
 $$
-\displaystyle
 \begin{align*}
 B_{0}&=S(0,0)=1\\[12pt]
 B_{1}&=S(1,1)=1\\[12pt]
@@ -272,7 +260,6 @@ This matches recurrence $B_{n+1}=\sum_{k=0}^{n}\binom{n}{k}B_{k}$: choose $k$ el
 **Generating functions:**
 
 $$
-\displaystyle
 \begin{align*}
 \sum_{n\ge k} S(n,k)\dfrac{x^{n}}{n!} &= \dfrac{(e^{x}-1)^{k}}{k!}\\[12pt]
 \sum_{n\ge0} B_{n}\dfrac{x^{n}}{n!} &= \exp(e^{x}-1)=\sum_{k\ge0}\dfrac{(e^{x}-1)^{k}}{k!}
@@ -320,7 +307,6 @@ $$\displaystyle c(n,k) = (n-1) \cdot c(n-1,k) + c(n-1,k-1)$$
 Fix element $n$:
 
 $$
-\displaystyle
 \begin{align*}
 \text{Case 1: }n\text{ not singleton cycle}&: \text{ take permutation of }[n-1]\text{ into }k\text{ cycles }[c(n-1,k)\text{ ways}],\\[12pt]
 &\quad \text{insert }n\text{ after any of }n-1\text{ elements in its cycle }[(n-1)\text{ places}]\\[12pt]
@@ -385,7 +371,6 @@ $m=1$: $0!=1$ cycle: $(A)$.
 Permutations of $\{A,B,C\}$ = $3!=6$ total, split by cycle count:
 
 $$
-\displaystyle
 \begin{align*}
 k=3&: (A)(B)(C) && 1\\[12pt]
 k=2&: (A)(B\,C),\;(B)(A\,C),\;(C)(A\,B) && 3\\[12pt]
@@ -403,7 +388,6 @@ All permutations $4!=24$ split as $c(4,1)=6$, $c(4,2)=11$, $c(4,3)=6$, $c(4,4)=1
 For $c(4,2)$, two shapes:
 
 $$
-\displaystyle
 \begin{align*}
 \text{Shape }3+1&: \text{choose singleton }\binom{4}{1}=4\text{ ways}\\[12pt]
 &\quad\text{remaining }3\text{ elements have }(3-1)!=2\text{ 3-cycles each}\\[12pt]
@@ -413,7 +397,6 @@ $$
 $$
 
 $$
-\displaystyle
 \begin{align*}
 \text{Shape }2+2&: \text{partition }4\text{ into two pairs }\dfrac{1}{2}\binom{4}{2}=3\text{ ways}\\[12pt]
 &\quad\text{each pair }2\text{-cycle unique}\\[12pt]
@@ -435,7 +418,6 @@ Example: cycle $(A\,B\,C)$ has arrows $A\to B$, $B\to C$, $C\to A$. Insert $D$ a
 So
 
 $$
-\displaystyle
 \begin{align*}
 c(n,k) &= (n-1)c(n-1,k) &&\text{ $n$ inserted into existing cycle}\\[12pt]
 &\quad + c(n-1,k-1) &&\text{ $n$ as singleton $(n)$}
@@ -445,7 +427,6 @@ $$
 Check:
 
 $$
-\displaystyle
 \begin{align*}
 c(4,2) &= 3c(3,2)+c(3,1)=3\cdot3+2=11\\[12pt]
 c(4,3) &= 3c(3,3)+c(3,2)=3\cdot1+3=6\\[12pt]
@@ -462,7 +443,6 @@ $$\displaystyle c(n,k)=\left[{n\atop k}\right]\ge0,\qquad s(n,k)=(-1)^{n-k}c(n,k
 $s(n,k)$ appears when expanding falling factorial:
 
 $$
-\displaystyle
 \begin{align*}
 x^{\underline{n}} &= x(x-1)(x-2)\cdots(x-n+1)\\[12pt]
 &= \sum_{k=0}^{n}s(n,k)x^{k}
@@ -472,7 +452,6 @@ $$
 Example $n=3$:
 
 $$
-\displaystyle
 \begin{align*}
 x^{\underline{3}} &= x(x-1)(x-2)=x^{3}-3x^{2}+2x\\[12pt]
 &= s(3,3)x^{3}+s(3,2)x^{2}+s(3,1)x\\[12pt]
@@ -502,7 +481,6 @@ Equality only when all $m_{i}\le2$, because $(1-1)!=0!=1$, $(2-1)!=1!=1$. For $n
 **Quick closed forms:**
 
 $$
-\displaystyle
 \begin{align*}
 c(n,0)&=\begin{cases}1&n=0\\0&n>0\end{cases}\\[12pt]
 c(n,1)&=(n-1)!\\[12pt]
@@ -523,7 +501,6 @@ Because every permutation has some $k$ cycles. Compare $S$ row sum $B_{n}$ count
 **Exponential generating functions:**
 
 $$
-\displaystyle
 \begin{align*}
 \sum_{n\ge k}c(n,k)\dfrac{x^{n}}{n!} &= \dfrac{\left(-\ln(1-x)\right)^{k}}{k!}\\[12pt]
 \sum_{n\ge k}S(n,k)\dfrac{x^{n}}{n!} &= \dfrac{(e^{x}-1)^{k}}{k!}
@@ -547,7 +524,6 @@ The row sum of the second kind is the Bell number $B_n$. The row sum of the firs
 **Row sums via:**
 
 $$
-\displaystyle
 \begin{align*}
 \sum_{k} S(4,k) &= 1+7+6+1 = 15 = B_{4}\\[12pt]
 \sum_{k} c(4,k) &= 6+11+6+1 = 24 = 4!
@@ -566,7 +542,6 @@ $$\displaystyle [4]=\{A,B,C,D\},\qquad n=4$$
 **$k=1$ — one block / one cycle:**
 
 $$
-\displaystyle
 \begin{align*}
 S(4,1)&=1: &&\{A,B,C,D\}\\[12pt]
 c(4,1)&=(4-1)!=6: &&(A\,B\,C\,D),\;(A\,B\,D\,C),\;(A\,C\,B\,D),\;(A\,C\,D\,B),\;(A\,D\,B\,C),\;(A\,D\,C\,B)
@@ -582,7 +557,6 @@ $$\displaystyle \dfrac{c(4,1)}{S(4,1)}=\dfrac{6}{1}=3!= (4-1)!$$
 For sets:
 
 $$
-\displaystyle
 \begin{align*}
 \text{type }3+1&: \binom{4}{1}=4\text{ ways: choose singleton}\\[12pt]
 &\{A\}\{BCD\},\{B\}\{ACD\},\{C\}\{ABD\},\{D\}\{ABC\}\\[12pt]
@@ -595,7 +569,6 @@ $$
 For cycles:
 
 $$
-\displaystyle
 \begin{align*}
 \text{type }3+1&: \binom{4}{1}=4\text{ choices singleton }\times(3-1)!=2\text{ cycles on triple}\\[12pt]
 &=8\text{ : }(A)(B\,C\,D),(A)(B\,D\,C),(B)(A\,C\,D),\dots\\[12pt]
@@ -612,7 +585,6 @@ $$\displaystyle c(4,2)-S(4,2)=4,\qquad \dfrac{c(4,2)}{S(4,2)}=\dfrac{11}{7}$$
 **$k=3$ — three blocks — shape must be $2+1+1$:**
 
 $$
-\displaystyle
 \begin{align*}
 S(4,3)&=\binom{4}{2}=6: &&\text{choose which pair together}\\[12pt]
 &\{AB\}\{C\}\{D\},\{AC\}\{B\}\{D\},\{AD\}\{B\}\{C\},\{BC\}\{A\}\{D\},\{BD\}\{A\}\{C\},\{CD\}\{A\}\{B\}\\[12pt]
@@ -629,7 +601,6 @@ Thus $c(4,3)=S(4,3)$.
 **$k=4$ — four blocks — all singletons:**
 
 $$
-\displaystyle
 \begin{align*}
 S(4,4)&=1: \{A\}\{B\}\{C\}\{D\}\\[12pt]
 c(4,4)&=1: (A)(B)(C)(D)
@@ -639,7 +610,6 @@ $$
 **Row sums — why $B_{4}$ and $4!$:**
 
 $$
-\displaystyle
 \begin{align*}
 \sum_{k=1}^{4}S(4,k) &= S(4,1)+S(4,2)+S(4,3)+S(4,4)\\[12pt]
 &=1+7+6+1=15=B_{4}\\[12pt]
@@ -650,7 +620,6 @@ $$
 Every partition has some $k$ blocks, partition counted once in exactly one $S(4,k)$.
 
 $$
-\displaystyle
 \begin{align*}
 \sum_{k=1}^{4}c(4,k) &= c(4,1)+c(4,2)+c(4,3)+c(4,4)\\[12pt]
 &=6+11+6+1=24=4!\\[12pt]
@@ -663,7 +632,6 @@ Every permutation decomposes uniquely into cycles, with some $k$ cycles, counted
 General identities:
 
 $$
-\displaystyle
 \begin{align*}
 \sum_{k=0}^{n} S(n,k) &= B_{n}\\[12pt]
 \sum_{k=0}^{n} c(n,k) &= n!\\[12pt]
@@ -690,7 +658,6 @@ While $S(n,k)$ same sum without $(m_{i}-1)!$ factor. Thus $c\ge S$ with equality
 For $n=4$, shape summary:
 
 $$
-\displaystyle
 \begin{array}{c|c|c|c}
 k & \text{shape} & S\text{ contribution} & c\text{ contribution}\\[5pt]\hline\\
 1 & 4 & 1 & (4-1)!=6\\[12pt]
@@ -830,14 +797,14 @@ Relation to Bell and Catalan: $B_{n}$ sums $S$, while $C_{n}$ does not sum $c$ �
 
 - **Combinatorial enumeration:** Exponential generating functions:
 
-    $$
-    \begin{align*}
-    \sum_{n\ge k}S(n,k)\dfrac{x^{n}}{n!} &= \dfrac{(e^{x}-1)^{k}}{k!}\\[12pt]
-    \sum_{n\ge k}c(n,k)\dfrac{x^{n}}{n!} &= \dfrac{\left(-\ln(1-x)\right)^{k}}{k!}
-    \end{align*}
-    $$
+  $$
+  \begin{align*}
+  \sum_{n\ge k}S(n,k)\dfrac{x^{n}}{n!} &= \dfrac{(e^{x}-1)^{k}}{k!}\\[12pt]
+  \sum_{n\ge k}c(n,k)\dfrac{x^{n}}{n!} &= \dfrac{\left(-\ln(1-x)\right)^{k}}{k!}
+  \end{align*}
+  $$
 
-    Bell $B(x)=e^{e^{x}-1}$ is $k$-sum of first. These EGFs used in analytic combinatorics and to compute $B_{n},C_{n}$ asymptotics.
+  Bell $B(x)=e^{e^{x}-1}$ is $k$-sum of first. These EGFs used in analytic combinatorics and to compute $B_{n},C_{n}$ asymptotics.
 
 - **Cryptography / set partitions:** Number of equivalence relations on $n$-element set = $B_{n}$; used in logic, database dependency theory, and type theory.
 
@@ -904,7 +871,6 @@ For $k$-digit $n$, $\displaystyle10^{k-1}\le n<10^{k}$ and
 $$\displaystyle S(n)\le k\cdot 9^{2}=81k$$
 
 $$
-\displaystyle
 \begin{align*}
 k\ge4 &\implies 10^{k-1}\ge1000>81k\\[5pt]
 &\implies S(n)<n
@@ -914,7 +880,6 @@ $$
 So any $n\ge1000$ strictly decreases under $S$. Iteration must drop below $1000$ and stay below $1000$ $\left(\text{since max }S\text{ on }<1000\text{ is }3\cdot81=243\right)$. Checking $1\le n<1000$ by hand/computer shows only attractors are fixed point $1$ and the 8-cycle. Hence every $n$ ends in one of two.
 
 $$
-\displaystyle
 \begin{align*}
 \text{Attractor}_{1}&:1\\[5pt]
 \text{Attractor}_{2}&:4,16,37,58,89,145,42,20
@@ -948,11 +913,10 @@ $$\displaystyle S(n)=\sum_{\text{decimal digits }d\text{ of }n}d^{2}$$
 Define orbit:
 
 $$
-\displaystyle
 \begin{align*}
-n_{0}&=n\\
-n_{1}&=S(n_{0})\\
-n_{2}&=S(n_{1})\\
+n_{0}&=n\\[5pt]
+n_{1}&=S(n_{0})\\[5pt]
+n_{2}&=S(n_{1})\\[5pt]
 &\vdots
 \end{align*}
 $$
@@ -964,9 +928,8 @@ $$\displaystyle 4\to16\to37\to58\to89\to145\to42\to20\to4$$
 **1. Heredity — happiness travels forward and backward along orbit**
 
 $$
-\displaystyle
 \begin{align*}
-\text{If }n\text{ happy, }S(n)\text{ happy}\\
+\text{If }n\text{ happy, }S(n)\text{ happy}\\[5pt]
 \text{If }n\text{ unhappy, }S(n)\text{ unhappy}
 \end{align*}
 $$
@@ -974,9 +937,8 @@ $$
 Why: Orbit of $S(n)$ is suffix of orbit of $n$.
 
 $$
-\displaystyle
 \begin{align*}
-n&\to S(n)\to S(S(n))\to\cdots\to1 &&\text{ if }n\text{ happy}\\
+n&\to S(n)\to S(S(n))\to\cdots\to1 &&\text{ if }n\text{ happy}\\[5pt]
 n&\to S(n)\to\cdots\to4\to16\to\cdots &&\text{ if }n\text{ unhappy}
 \end{align*}
 $$
@@ -984,10 +946,9 @@ $$
 Example:
 
 $$
-\displaystyle
 \begin{align*}
-23&\to13\to10\to1\\
-\text{So }23\text{ happy}&\implies13\text{ happy, }10\text{ happy, }1\text{ happy}\\
+23&\to13\to10\to1\\[5pt]
+\text{So }23\text{ happy}&\implies13\text{ happy, }10\text{ happy, }1\text{ happy}\\[5pt]
 \text{Indeed }13\to10\to1,\;10\to1,\;1\to1
 \end{align*}
 $$
@@ -995,10 +956,9 @@ $$
 Example unhappy:
 
 $$
-\displaystyle
 \begin{align*}
-36&\to45\to41\to17\to50\to25\to29\to85\to89\to145\to42\to20\to4\to16\to37\to58\to89\cdots\\
-\text{Thus }&45,41,17,50,25,29,85,89,145,42,20,4,16,37,58\text{ all unhappy}\\
+36&\to45\to41\to17\to50\to25\to29\to85\to89\to145\to42\to20\to4\to16\to37\to58\to89\cdots\\[5pt]
+\text{Thus }&45,41,17,50,25,29,85,89,145,42,20,4,16,37,58\text{ all unhappy}\\[5pt]
 \text{because each eventually hits cycle}
 \end{align*}
 $$
@@ -1006,9 +966,8 @@ $$
 Consequence:
 
 $$
-\displaystyle
 \begin{align*}
-\text{If you ever see }1\text{ in orbit, whole orbit happy}\\
+\text{If you ever see }1\text{ in orbit, whole orbit happy}\\[5pt]
 \text{If you ever see }4\text{ in orbit, whole orbit unhappy}
 \end{align*}
 $$
@@ -1022,9 +981,8 @@ $$\displaystyle S(n)\text{ depends only on multiset of digits}$$
 Because addition commutative: $a^{2}+b^{2}=b^{2}+a^{2}$.
 
 $$
-\displaystyle
 \begin{align*}
-n&=\overline{d_{k}\cdots d_{0}}_{10}\\
+n&=\overline{d_{k}\cdots d_{0}}_{10}\\[5pt]
 S(n)&=d_{k}^{2}+\cdots+d_{0}^{2}
 \end{align*}
 $$
@@ -1032,9 +990,8 @@ $$
 Permuting $d_{i}$ does not change sum.
 
 $$
-\displaystyle
 \begin{align*}
-S(19)&=1^{2}+9^{2}=1+81=82\\
+S(19)&=1^{2}+9^{2}=1+81=82\\[5pt]
 S(91)&=9^{2}+1^{2}=81+1=82
 \end{align*}
 $$
@@ -1046,10 +1003,9 @@ $$\displaystyle n\text{ and any permutation }\pi(n)\text{ have same }n_{1}=S(n)$
 If $n_{1}$ happy, then $n$ happy. So:
 
 $$
-\displaystyle
 \begin{align*}
-19\text{ happy}&\implies91\text{ happy}\\
-\text{Check: }19\to82\to68\to100\to1\\
+19\text{ happy}&\implies91\text{ happy}\\[5pt]
+\text{Check: }19\to82\to68\to100\to1\\[5pt]
 91\to82\to68\to100\to1\text{ same tail}
 \end{align*}
 $$
@@ -1061,9 +1017,8 @@ $$\displaystyle \text{If }n\text{ happy, every rearrangement of its decimal digi
 Similarly unhappy permutations stay unhappy:
 
 $$
-\displaystyle
 \begin{align*}
-36\text{ unhappy}&\implies63\text{ unhappy}\\
+36\text{ unhappy}&\implies63\text{ unhappy}\\[5pt]
 36\to45,\;63\to9^{2}+36=45\text{ same next step}
 \end{align*}
 $$
@@ -1075,9 +1030,8 @@ $$\displaystyle 0^{2}=0$$
 So:
 
 $$
-\displaystyle
 \begin{align*}
-S(109)&=1^{2}+0^{2}+9^{2}=1+81=82=S(19)\\
+S(109)&=1^{2}+0^{2}+9^{2}=1+81=82=S(19)\\[5pt]
 S(1009)&=1^{2}+0^{2}+0^{2}+9^{2}=82
 \end{align*}
 $$
@@ -1089,9 +1043,8 @@ $$\displaystyle S(\text{insert }0\text{ into }n)=S(n)$$
 Therefore:
 
 $$
-\displaystyle
 \begin{align*}
-n\text{ happy}&\implies n\text{ with zeros inserted anywhere happy}\\
+n\text{ happy}&\implies n\text{ with zeros inserted anywhere happy}\\[5pt]
 n\text{ unhappy}&\implies n\text{ with zeros inserted anywhere unhappy}
 \end{align*}
 $$
@@ -1099,18 +1052,16 @@ $$
 Examples:
 
 $$
-\displaystyle
 \begin{align*}
-19\text{ happy}&\implies109\text{ happy, }1009\text{ happy, }10009\text{ happy, }10^{k}\cdot19\text{ happy? }\\
+19\text{ happy}&\implies109\text{ happy, }1009\text{ happy, }10009\text{ happy, }10^{k}\cdot19\text{ happy? }\\[5pt]
 \text{Note: }19\cdot10^{k}=190\cdots0\text{ has digits }1,9,0\dots0\text{, }S=82\text{ happy}
 \end{align*}
 $$
 
 $$
-\displaystyle
 \begin{align*}
-20\text{ unhappy}&\implies200\text{ unhappy, }2000\text{ unhappy}\\
-\text{Check: }20\to4\to16\cdots\text{ unhappy}\\
+20\text{ unhappy}&\implies200\text{ unhappy, }2000\text{ unhappy}\\[5pt]
+\text{Check: }20\to4\to16\cdots\text{ unhappy}\\[5pt]
 2\to4\to\text{ cycle, so }2,20,200,\dots\text{ all unhappy}
 \end{align*}
 $$
@@ -1122,10 +1073,9 @@ So $S$ can be thought as operating on non-zero digits only.
 Happy infinitude:
 
 $$
-\displaystyle
 \begin{align*}
-1&\text{ happy}\\
-S(10^{k})&=1^{2}=1\text{ happy}\\
+1&\text{ happy}\\[5pt]
+S(10^{k})&=1^{2}=1\text{ happy}\\[5pt]
 \text{So }1,10,100,1000,\dots,10^{k},\dots\text{ infinite happy family}
 \end{align*}
 $$
@@ -1135,10 +1085,9 @@ More generally, $a\cdot10^{k}$ with $a$ happy digit? Actually $7$ happy because 
 Unhappy infinitude:
 
 $$
-\displaystyle
 \begin{align*}
-2&\to4\to16\to\cdots\text{ cycle — unhappy}\\
-S(2\cdot10^{k})&=2^{2}=4\text{ — enters cycle}\\
+2&\to4\to16\to\cdots\text{ cycle — unhappy}\\[5pt]
+S(2\cdot10^{k})&=2^{2}=4\text{ — enters cycle}\\[5pt]
 \text{So }2,20,200,2000,\dots,2\cdot10^{k},\dots\text{ infinite unhappy family}
 \end{align*}
 $$
@@ -1152,9 +1101,8 @@ Stronger: both have positive lower density — there is constant $c>0$ such that
 Combine 2 and 3:
 
 $$
-\displaystyle
 \begin{align*}
-\text{Permutation}&: \text{order irrelevant}\\
+\text{Permutation}&: \text{order irrelevant}\\[5pt]
 \text{Zero}&: 0\text{ digits irrelevant}
 \end{align*}
 $$
@@ -1172,14 +1120,13 @@ $$\displaystyle M(n_{1})=M(n_{2})\implies S(n_{1})=S(n_{2})\implies\text{same fa
 Examples:
 
 $$
-\displaystyle
 \begin{align*}
-112&\to1^{2}+1^{2}+2^{2}=6\\
-121&\to1^{2}+2^{2}+1^{2}=6\\
-211&\to6\\
-1120&\to1^{2}+1^{2}+2^{2}+0^{2}=6\\
-1012&\to6\\
-\text{All have }M=\{1,1,2\},\;S=6,\;6\to36\to\cdots\text{ unhappy}\\
+112&\to1^{2}+1^{2}+2^{2}=6\\[5pt]
+121&\to1^{2}+2^{2}+1^{2}=6\\[5pt]
+211&\to6\\[5pt]
+1120&\to1^{2}+1^{2}+2^{2}+0^{2}=6\\[5pt]
+1012&\to6\\[5pt]
+\text{All have }M=\{1,1,2\},\;S=6,\;6\to36\to\cdots\text{ unhappy}\\[5pt]
 \text{So }112,121,211,1120,1012\text{ all unhappy together}
 \end{align*}
 $$
@@ -1187,11 +1134,10 @@ $$
 Another:
 
 $$
-\displaystyle
 \begin{align*}
-19&:M=\{1,9\},\;S=82\text{ happy}\\
-91&:M=\{9,1\},\;S=82\text{ happy}\\
-109&:M=\{1,9\},\;S=82\text{ happy}\\
+19&:M=\{1,9\},\;S=82\text{ happy}\\[5pt]
+91&:M=\{9,1\},\;S=82\text{ happy}\\[5pt]
+109&:M=\{1,9\},\;S=82\text{ happy}\\[5pt]
 9010&:M=\{9,1\},\;S=82\text{ happy}
 \end{align*}
 $$
@@ -1199,9 +1145,8 @@ $$
 Thus to test a number, you can sort digits descending and delete zeros — canonical representative.
 
 $$
-\displaystyle
 \begin{align*}
-\text{Canonical}(1012)&=211\\
+\text{Canonical}(1012)&=211\\[5pt]
 \text{Canonical}(109)&=91
 \end{align*}
 $$
@@ -1235,7 +1180,6 @@ Example $n=145$: digits $1,4,5$ → $S(145)=1^{2}+4^{2}+5^{2}=1+16+25=42$.
 Iterating creates orbit:
 
 $$
-\displaystyle
 \begin{align*}
 n_{0}&=n\\[5pt]
 n_{1}&=S(n_{0})\\[5pt]
@@ -1247,7 +1191,6 @@ $$
 Two worked orbits with:
 
 $$
-\displaystyle
 \begin{align*}
 23 &\to S(23)=2^{2}+3^{2}=4+9=13\\[5pt]
 &\to S(13)=1^{2}+3^{2}=1+9=10\\[5pt]
@@ -1257,7 +1200,6 @@ $$
 $$
 
 $$
-\displaystyle
 \begin{align*}
 36 &\to 3^{2}+6^{2}=9+36=45\\[5pt]
 &\to 4^{2}+5^{2}=16+25=41\\[5pt]
@@ -1291,7 +1233,6 @@ Because each digit at most $9$.
 Compare $n$ vs $81k$:
 
 $$
-\displaystyle
 \begin{align*}
 k=1&: n\le9,\;81k=81\\[5pt]
 k=2&: n\le99,\;81k=162\\[5pt]
@@ -1312,7 +1253,6 @@ Cannot decrease forever $\left(\text{positive integers}\right)$, must enter $$. 
 Therefore to understand all $n$, it suffices to compute orbits of $1$ to $999$ — finite check. That computation reveals exactly two attractors:
 
 $$
-\displaystyle
 \begin{align*}
 1&\to1\text{ — fixed point}\\[5pt]
 4&\to16\to37\to58\to89\to145\to42\to20\to4\text{ — 8-cycle}
@@ -1340,7 +1280,6 @@ $0^{2}=0$ adds nothing. So appending zeros does not change fate.
 _Heredity:_
 
 $$
-\displaystyle
 \begin{align*}
 n\text{ happy}&\implies S(n)\text{ happy}\\[5pt]
 n\text{ unhappy}&\implies S(n)\text{ unhappy}
@@ -1352,7 +1291,6 @@ Because $S(n)$ is next step in orbit — if orbit of $n$ ends at $1$, orbit of $
 _Infinitude:_
 
 $$
-\displaystyle
 \begin{align*}
 1&\text{ happy}\implies10^{k}\text{ happy for all }k\ge0\\[5pt]
 2&\to4\text{ unhappy}\implies2\cdot10^{k}\text{ unhappy for all }k\ge0
@@ -1368,7 +1306,6 @@ $$\displaystyle D(X)=\dfrac{\#\{n\le X: n\text{ happy}\}}{X}$$
 Computations:
 
 $$
-\displaystyle
 \begin{align*}
 D(10^{3})&\approx0.20\\[5pt]
 D(10^{6})&\approx0.15\\[5pt]
@@ -1480,7 +1417,6 @@ Example $n=18$: $s=9$, $q=18/9=2$.
 Example $n=1729$:
 
 $$
-\displaystyle
 \begin{align*}
 s(1729)&=1+7+2+9=19\\[5pt]
 \dfrac{1729}{19}&=91\quad\text{since }19\cdot91=19\cdot90+19=1710+19=1729
@@ -1492,7 +1428,6 @@ So $1729$ Harshad.
 **Why powers of 10 always work:**
 
 $$
-\displaystyle
 \begin{align*}
 n&=10^{k}=1\underbrace{0\dots0}_{k}\\[5pt]
 s(n)&=1\\[5pt]
@@ -1511,7 +1446,6 @@ $$\displaystyle 10\equiv1\pmod9\implies10^{i}\equiv1^{i}\equiv1\pmod9$$
 Hence
 
 $$
-\displaystyle
 \begin{align*}
 n&=\sum d_{i}10^{i}\equiv\sum d_{i}=s(n)\pmod9
 \end{align*}
@@ -1520,7 +1454,6 @@ $$
 So $n-s(n)$ always divisible by $9$. If $n$ Harshad, $n=q s(n)$, then
 
 $$
-\displaystyle
 \begin{align*}
 q s(n) &\equiv s(n)\pmod9\\[5pt]
 s(n)(q-1)&\equiv0\pmod9
@@ -1658,7 +1591,6 @@ This was first restriction linking FLT failure to special primes. At the time FL
 - **Meissner 1913 — first Wieferich found:** Using desk calculations, German mathematician Walther Meissner found $p=1093$ satisfies $\displaystyle 2^{1092}\equiv1\mod1093^{2}$. Computation:
 
 $$
-\displaystyle
 \begin{align*}
 1093^{2}&=1194649\\[5pt]
 2^{1092}\mod1194649&=1
@@ -1727,7 +1659,6 @@ $$\displaystyle q_{p}(a)=\dfrac{a^{p-1}-1}{p}\in\mathbb{Z}$$
 Properties:
 
 $$
-\displaystyle
 \begin{align*}
 q_{p}(ab)&\equiv q_{p}(a)+q_{p}(b)\pmod p\\[5pt]
 q_{p}(a^{k})&\equiv k q_{p}(a)\pmod p
@@ -1745,7 +1676,6 @@ Expected count up to $X$:
 $$\displaystyle E(X)=\sum_{p\le X}\dfrac{1}{p}\sim \log\log X+\text{Mertens for primes}$$
 
 $$
-\displaystyle
 \begin{align*}
 X=10^{3}&:\log\log X\approx1.93\\[5pt]
 X=10^{17}&:\log\log X\approx3.66\\[5pt]
@@ -1768,7 +1698,6 @@ So even up to googol, expect ~5 Wieferich. Explains 2 found and why third may be
 **Other Bases:**
 
 $$
-\displaystyle
 \begin{align*}
 \text{Base }2&:1093,3511\\[5pt]
 \text{Base }3&:11,1006003\\[5pt]
@@ -1797,7 +1726,6 @@ $2$ is Wieferich base $5$ because $5^{1}=5$, $5-1=4$ divisible by $2^{2}=4$.
 #### Summary
 
 $$
-\displaystyle
 \begin{align*}
 \text{Fermat}&: a^{p-1}=1+p\,q_{p}(a)\\[5pt]
 \text{Wieferich}&: q_{p}(a)\equiv0\pmod p\iff a^{p-1}=1+p^{2}k\\[5pt]
@@ -1862,9 +1790,8 @@ By Wilson's theorem integer.
 Example $p=5$:
 
 $$
-\displaystyle
 \begin{align*}
-4!&=24\\
+4!&=24\\[5pt]
 W(5)&=\dfrac{24+1}{5}=5
 \end{align*}
 $$
@@ -1872,9 +1799,8 @@ $$
 Example $p=7$:
 
 $$
-\displaystyle
 \begin{align*}
-6!&=720\\
+6!&=720\\[5pt]
 W(7)&=\dfrac{721}{7}=103
 \end{align*}
 $$
@@ -1906,11 +1832,10 @@ $$\displaystyle 5,\;13,\;563$$
 **1. $p=5$**
 
 $$
-\displaystyle
 \begin{align*}
-4!&=24\\
-4!+1&=25\\
-\dfrac{25}{5^{2}}&=1\\
+4!&=24\\[5pt]
+4!+1&=25\\[5pt]
+\dfrac{25}{5^{2}}&=1\\[5pt]
 W(5)&=5\equiv0\mod5
 \end{align*}
 $$
@@ -1918,13 +1843,12 @@ $$
 **2. $p=13$**
 
 $$
-\displaystyle
 \begin{align*}
-12!&=479001600\\
-12!+1&=479001601\\
-\dfrac{12!+1}{13}&=36846277=W(13)\\
-\dfrac{W(13)}{13}&=\dfrac{36846277}{13}=2834329\\
-13^{2}&=169,\;479001601/169=2834329\\
+12!&=479001600\\[5pt]
+12!+1&=479001601\\[5pt]
+\dfrac{12!+1}{13}&=36846277=W(13)\\[5pt]
+\dfrac{W(13)}{13}&=\dfrac{36846277}{13}=2834329\\[5pt]
+13^{2}&=169,\;479001601/169=2834329\\[5pt]
 \text{Thus }12!&\equiv-1\mod169
 \end{align*}
 $$
@@ -1936,10 +1860,9 @@ Check $W(13)\mod13=0$.
 $562!$ has about $\displaystyle\log_{10}562!\approx1306$ digits — impossible to write. Compute iteratively modulo $p^{2}=316969$:
 
 $$
-\displaystyle
 \begin{align*}
-r_{1}&=1\\
-r_{k+1}&=r_{k}\cdot(k+1)\mod316969,\;k=1\dots562\\
+r_{1}&=1\\[5pt]
+r_{k+1}&=r_{k}\cdot(k+1)\mod316969,\;k=1\dots562\\[5pt]
 \text{Result }r_{562}&=316968\equiv-1\mod316969
 \end{align*}
 $$
@@ -1969,11 +1892,10 @@ Expected number up to $X$:
 $$\displaystyle E(X)=\sum_{p\le X}\dfrac{1}{p}\sim\log\log X$$
 
 $$
-\displaystyle
 \begin{align*}
-X=13&: \sum_{p\le13}\dfrac{1}{p}=\dfrac12+\dfrac13+\dfrac15+\dfrac17+\dfrac1{11}+\dfrac1{13}\approx1.17\\
-X=563&: \log\log563\approx1.90\text{ expects }~2\text{ Wilson}\\
-X=2\times10^{13}&: \log\log X\approx3.4\text{ expects }~3\text{-}4\\
+X=13&: \sum_{p\le13}\dfrac{1}{p}=\dfrac12+\dfrac13+\dfrac15+\dfrac17+\dfrac1{11}+\dfrac1{13}\approx1.17\\[5pt]
+X=563&: \log\log563\approx1.90\text{ expects }~2\text{ Wilson}\\[5pt]
+X=2\times10^{13}&: \log\log X\approx3.4\text{ expects }~3\text{-}4\\[5pt]
 X=10^{100}&: \log\log X\approx5.43\text{ expects }~5
 \end{align*}
 $$
@@ -2058,14 +1980,13 @@ So for true prime $p$, $p-1$ bases pass. For Carmichael $n$, $\varphi(n)$ bases 
 **First examples:**
 
 $$
-\displaystyle
 \begin{align*}
-561&=3\cdot11\cdot17\\
-1105&=5\cdot13\cdot17\\
-1729&=7\cdot13\cdot19\\
-2465&=5\cdot17\cdot29\\
-2821&=7\cdot13\cdot31\\
-6601&=7\cdot23\cdot41\\
+561&=3\cdot11\cdot17\\[5pt]
+1105&=5\cdot13\cdot17\\[5pt]
+1729&=7\cdot13\cdot19\\[5pt]
+2465&=5\cdot17\cdot29\\[5pt]
+2821&=7\cdot13\cdot31\\[5pt]
+6601&=7\cdot23\cdot41\\[5pt]
 8911&=7\cdot19\cdot67
 \end{align*}
 $$
@@ -2073,10 +1994,9 @@ $$
 Check $561$:
 
 $$
-\displaystyle
 \begin{align*}
-2^{560}&\equiv1\mod561\\
-5^{560}&\equiv1\mod561\\
+2^{560}&\equiv1\mod561\\[5pt]
+5^{560}&\equiv1\mod561\\[5pt]
 7^{560}&\equiv1\mod561
 \end{align*}
 $$
@@ -2098,17 +2018,15 @@ Why (3) key: If $a^{n-1}\equiv1\mod n$, then $\mod p$ also $1$. Take $a$ primiti
 Examples with:
 
 $$
-\displaystyle
 \begin{align*}
-561&=3\cdot11\cdot17\\
-3-1=2&\mid560\\
-11-1=10&\mid560\\
+561&=3\cdot11\cdot17\\[5pt]
+3-1=2&\mid560\\[5pt]
+11-1=10&\mid560\\[5pt]
 17-1=16&\mid560=35\cdot16
 \end{align*}
 $$
 
 $$
-\displaystyle
 \begin{align*}
 341=11\cdot31\text{ not Carmichael: }31-1=30\nmid340
 \end{align*}
@@ -2117,17 +2035,15 @@ $$
 Indeed $3^{340}\equiv56\not\equiv1\mod341$, so base $3$ catches $341$.
 
 $$
-\displaystyle
 \begin{align*}
-1105&=5\cdot13\cdot17\\
+1105&=5\cdot13\cdot17\\[5pt]
 4&\mid1104,\;12\mid1104=92\cdot12,\;16\mid1104=69\cdot16
 \end{align*}
 $$
 
 $$
-\displaystyle
 \begin{align*}
-1729&=7\cdot13\cdot19\\
+1729&=7\cdot13\cdot19\\[5pt]
 6&\mid1728,\;12\mid1728=144\cdot12,\;18\mid1728=96\cdot18
 \end{align*}
 $$
@@ -2137,10 +2053,9 @@ $$
 If $6k+1,12k+1,18k+1$ prime, then product Carmichael because:
 
 $$
-\displaystyle
 \begin{align*}
-n&=(6k+1)(12k+1)(18k+1)\\
-n-1&=(6k+1)(12k+1)(18k+1)-1\\
+n&=(6k+1)(12k+1)(18k+1)\\[5pt]
+n-1&=(6k+1)(12k+1)(18k+1)-1\\[5pt]
 &\equiv0\mod6k,\;0\mod12k,\;0\mod18k
 \end{align*}
 $$
@@ -2160,9 +2075,8 @@ $$\displaystyle n\text{ Carmichael}\iff\lambda(n)\mid n-1$$
 Example $n=561$:
 
 $$
-\displaystyle
 \begin{align*}
-\lambda(561)&=\text{lcm}(2,10,16)=80\\
+\lambda(561)&=\text{lcm}(2,10,16)=80\\[5pt]
 80&\mid560
 \end{align*}
 $$
@@ -2172,14 +2086,13 @@ So exponent of group $(\mathbb{Z}/n\mathbb{Z})^{\times}$ divides $n-1$.
 - **Infinitude:** Alford-Granville-Pomerance 1994 proved infinitely many, at least $\displaystyle X^{2/7}$ up to $X$. Current best $\displaystyle X^{0.333...}$ by Harman. Conjectured $\displaystyle C(X)=X^{1-o(1)}$? Data:
 
 $$
-\displaystyle
 \begin{align*}
-C(10^{3})&=1\\
-C(10^{6})&=43\\
-C(10^{9})&=646\\
-C(10^{12})&=8241\\
-C(10^{15})&=105212\\
-C(10^{18})&=1401644\\
+C(10^{3})&=1\\[5pt]
+C(10^{6})&=43\\[5pt]
+C(10^{9})&=646\\[5pt]
+C(10^{12})&=8241\\[5pt]
+C(10^{15})&=105212\\[5pt]
+C(10^{18})&=1401644\\[5pt]
 C(10^{21})&\approx20138200
 \end{align*}
 $$
@@ -2199,11 +2112,10 @@ Miller-Rabin fixes: write $\displaystyle n-1=d\cdot2^{s}$, $d$ odd, check $\disp
 Example $561=2^{4}\cdot35+1$, base $2$:
 
 $$
-\displaystyle
 \begin{align*}
-2^{35}&\equiv263\mod561\\
-2^{70}&\equiv166\mod561\\
-2^{140}&\equiv67\mod561\\
+2^{35}&\equiv263\mod561\\[5pt]
+2^{70}&\equiv166\mod561\\[5pt]
+2^{140}&\equiv67\mod561\\[5pt]
 2^{280}&\equiv1\mod561
 \end{align*}
 $$
@@ -2213,9 +2125,8 @@ Never $\pm1$ before $1$, so Miller-Rabin declares composite — catches $561$.
 - **Distinction:**
 
 $$
-\displaystyle
 \begin{align*}
-\text{Fermat pseudoprime base }a&: n\text{ composite, }a^{n-1}\equiv1\mod n\text{ for one }a\\
+\text{Fermat pseudoprime base }a&: n\text{ composite, }a^{n-1}\equiv1\mod n\text{ for one }a\\[5pt]
 \text{Carmichael}&: n\text{ composite, }a^{n-1}\equiv1\mod n\text{ for all }a,\gcd(a,n)=1
 \end{align*}
 $$

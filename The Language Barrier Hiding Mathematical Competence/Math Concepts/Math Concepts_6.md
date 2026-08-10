@@ -623,7 +623,7 @@ Yes — this confusion happens a lot because the same person, **Ralph E. Gomory*
 
 > Ralph Gomory has two famous "Gomory's theorems" — one is a puzzle about dominoes, the other is an algorithm for optimizing airlines and factories. Same brain, different fields. Don't mix them.
 
-#### 1. Gomory's Chessboard Theorem — This Chapter — Combinatorics / Tiling
+#### Gomory's Chessboard Theorem — This Chapter — Combinatorics / Tiling
 
 - **Field:** Recreational mathematics, polyomino tiling, matching theory.
 - **Year:** 1973, popularized by Golomb and Martin Gardner.
@@ -632,7 +632,7 @@ Yes — this confusion happens a lot because the same person, **Ralph E. Gomory*
 - **Nature:** Existence theorem — guarantees at least one tiling. Proof is visual, elementary.
 - **Use:** Puzzle, teaching invariants, matching theory.
 
-#### 2. Gomory Cuts / Gomory's Cutting Plane Method — Operations Research — Integer Programming
+#### Gomory Cuts / Gomory's Cutting Plane Method — Operations Research — Integer Programming
 
 - **Field:** Optimization, operations research, integer linear programming (ILP).
 - **Year:** 1958, paper "Outline of an algorithm for integer solutions to linear programs." This is the work that made Gomory famous and got him the National Medal of Science.
@@ -678,7 +678,7 @@ While Gomory cuts show that for integer programs, fractional obstructions can be
 
 Why does a simple domino puzzle matter beyond recreation? Because it's a clean model where deep phenomena appear in elementary form.
 
-#### 1. Elementary Bipartite Graphs — Robust Matchings
+#### Elementary Bipartite Graphs — Robust Matchings
 
 Recall: domino tilings = perfect matchings in grid graph $G = (W \cup B, E)$.
 
@@ -721,7 +721,7 @@ Ok, formal fact: A bipartite graph is elementary iff its allowed edges (edges th
 
 Why mathematicians care: Elementary bipartite graphs have nice structure theorem (Dulmage-Mendelsohn decomposition). Gomory gives a natural infinite family that is elementary, useful as base case for induction.
 
-#### 2. Hall's Theorem Made Easy — From Exponential to Constant
+#### Hall's Theorem Made Easy — From Exponential to Constant
 
 **Hall's Marriage Theorem:** $G=(W\cup B,E)$ with $|W|=|B|$ has perfect matching iff for all $S\subseteq W$, $|N(S)| \ge |S|$.
 
@@ -741,7 +741,7 @@ So Gomory identifies a class where **global count implies local expansion**. Tha
 
 This is pedagogically valuable: it shows a situation where an NP-hard-looking condition collapses to $O(1)$.
 
-#### 3. Polyomino Theory — Base Case for Larger Tiles
+#### Polyomino Theory — Base Case for Larger Tiles
 
 Solomon Golomb invented polyominoes — connected sets of squares. Domino is order 2 polyomino.
 

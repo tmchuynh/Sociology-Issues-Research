@@ -740,7 +740,7 @@ Empirical studies have identified associations between exposure to violent video
 
 Given the research evidence — which shows small-to-moderate average effects overall, but larger effects for younger children, high-dose users, and children with pre-existing vulnerabilities, and benefits from gaming when use is moderate and balanced — several layered strategies can help mitigate potential harms while preserving the cognitive, social, and motivational benefits of gaming (Anderson and Bushman; Gentile 594-602; King et al. 2019; Griffiths et al. 2016). Effective solutions require multi-level approaches at the family, school, industry, and policy levels rather than a single ban or fix (King et al. 2019; Nathanson).
 
-### 1. Parental Mediation
+### Parental Mediation
 
 Parental involvement is consistently identified as the single most powerful moderator of effects (Nathanson). Nathanson and meta-analytic evidence show that parental mediation of media can significantly reduce effects on aggression, fear, and academic displacement, with effect sizes comparable to the media effects themselves (Nathanson).
 
@@ -754,7 +754,7 @@ There are three evidence-based forms:
 
 Implementation barriers include parents underestimating violent content, overestimating their monitoring, and low digital literacy (Abbas et al.; Hanewinkel et al.). Solutions include pediatrician guidance at well-child visits, school-based parent education nights, and industry making parental controls simpler and default-on (American Academy of Pediatrics; Nathanson).
 
-### 2. Age-Appropriate Content Guidelines and Improved Rating Systems
+### Age-Appropriate Content Guidelines and Improved Rating Systems
 
 Respecting age ratings and ensuring developmentally appropriate content is particularly important for younger children, who show stronger effects from violent media exposure as Griffiths noted (Griffiths 1999; Wilson).
 
@@ -767,7 +767,7 @@ Improvements could include:
 - **Default age-gating on platforms:** Requiring age verification for M-rated purchases on digital stores, similar to current systems in Germany and Australia (Hanewinkel et al.).
 - **Science educators have also developed resources** for teaching about violent video games in educational contexts, using games as case studies to teach critical thinking about media design, narrative justification of violence, and procedural rhetoric — turning the game into a learning object rather than just consumption (Nathanson; Gentile et al. 2021).
 
-### 3. Intervention Programs for Digital Addiction and Problematic Gaming
+### Intervention Programs for Digital Addiction and Problematic Gaming
 
 A scoping review of digital addiction intervention programs for children and adolescents identified evidence-based approaches for the small subset — approximately 2-5% — who develop problematic patterns characterized by loss of control, withdrawal, and functional impairment, now recognized as Gaming Disorder in ICD-11 (World Health Organization; King et al. 2019).
 
@@ -780,7 +780,7 @@ A scoping review of digital addiction intervention programs for children and ado
 
 These interventions show promise for addressing problematic gaming patterns before they escalate to clinical levels, but access is limited and stigma prevents help-seeking. Schools can serve as first-line screening sites (King et al. 2019; Internet Addiction among Secondary School Adolescents 74-80).
 
-### 4. Balanced Media Diets and Structured Routines
+### Balanced Media Diets and Structured Routines
 
 Encouraging diverse activities beyond gaming can prevent problematic patterns and promote healthy development. The American Academy of Pediatrics recommends a Family Media Use Plan that allocates time for sleep, physical activity, schoolwork, and family interaction first, then media (American Academy of Pediatrics).
 
@@ -792,7 +792,7 @@ Research shows that gaming can negatively impact work and study attitudes when i
 - **Creative and prosocial gaming alternatives:** Encouraging games that require building, cooperation, and problem-solving like Minecraft in creative mode, Portal, or cooperative puzzle games, which show positive associations with creativity and prosocial behavior (Weis and Cerankosky; Griffiths 1999).
 - **Tech-free zones and times:** Meals, family outings, and one weekend day as screen-free to preserve face-to-face interaction (American Academy of Pediatrics; Nathanson).
 
-### 5. Education and Media Literacy
+### Education and Media Literacy
 
 Teaching critical media literacy skills can help young people understand the distinction between virtual and real-world violence and develop healthy skepticism toward media messages (Nathanson; Gentile et al. 2021).
 
@@ -803,7 +803,7 @@ Effective curricula teach:
 - **News literacy about game violence research:** Teaching adolescents that effects are probabilistic, not deterministic, and that individual vulnerability matters — moving beyond "games make you violent" to nuanced understanding (Anderson and Bushman; Gervasi et al.).
 - **Empathy training:** Programs that pair media literacy with social-emotional learning show reductions in aggression that are larger than media literacy alone (Nathanson; Wilson).
 
-### 6. Industry-Level Solutions and Ethical Game Design
+### Industry-Level Solutions and Ethical Game Design
 
 Developers can reduce potential harms without sacrificing fun through ethical design choices informed by research (King et al. 2019; Griffiths 1999):
 
@@ -813,13 +813,13 @@ Developers can reduce potential harms without sacrificing fun through ethical de
 - **Reduce predatory monetization:** Loot boxes, endless grind loops, and dark patterns that encourage excessive play increase risk for problematic use (King et al. 2019; Griffiths 63-74). Ethical monetization and built-in breaks support healthier use.
 - **Provide robust moderation tools** in online games to reduce cyber victimization, hate speech, and harassment that Awan et al. documented as a separate risk pathway (Anti-Defamation League; Kowalski et al.).
 
-### 7. School and Community-Level Supports
+### School and Community-Level Supports
 
 - **Recess, after-school programs, and structured activities:** Providing attractive alternatives to unsupervised gaming, especially for low-income youth where Ward found gaming may otherwise be a substitute for riskier behavior. When alternative activities are present, displacement effects shrink (Weis and Cerankosky; American Academy of Pediatrics).
 - **Screening and early intervention in schools:** Training school counselors to recognize signs of problematic gaming, sleep deprivation, and aggression-related changes, with referral pathways (King et al. 2019; Gentile 594-602).
 - **Teacher training:** Helping teachers distinguish between typical gaming enthusiasm and impairment, and avoid stigmatizing gamers while still setting clear expectations for homework and sleep (Weis and Cerankosky; Nathanson).
 
-### 8. Policy and Research Needs
+### Policy and Research Needs
 
 - **Independent funding for longitudinal research** that tracks academic, social, and criminal outcomes over years, with better measures of content, dose, and context, to move beyond short-term lab studies (Huesmann et al.; Gentile et al. 2011; King et al. 2019).
 - **Transparent data sharing** from industry on playtime patterns to allow public health research while protecting privacy (King et al. 2019).

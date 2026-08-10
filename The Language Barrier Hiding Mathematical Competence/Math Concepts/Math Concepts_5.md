@@ -24,7 +24,7 @@ If $=0$, they commute — order doesn't matter. If $[x,y]\neq 0$, they don't —
 
 #### The Three Axioms
 
-##### 1. Bilinearity
+##### Bilinearity
 
 $$[ax+by, z] = a[x,z] + b[y,z], \quad [z, ax+by] = a[z,x] + b[z,y]$$
 
@@ -50,7 +50,7 @@ Example: For $\mathfrak{so}(3)$ with basis $J_x,J_y,J_z$, we have $[J_x,J_y]=J_z
 
 2. The $ad$ map is linear. Define $ad_x: \mathfrak{g} \to \mathfrak{g}$ by $ad_x(y) = [x,y]$ — "bracket with $x$." Bilinearity says for fixed $x$, $ad_x$ is a linear transformation. So each element of the Lie algebra acts as a linear operator on the algebra itself. This is how the algebra studies itself.
 
-##### 2. Alternating Property — $[x,x]=0$[x]
+##### Alternating Property — $[x,x]=0$[x]
 
 $$[x,x]=0 \quad \forall x$$
 
@@ -72,7 +72,7 @@ Swapping order flips the sign.
 
 A Lie algebra where all $=0$ is called **abelian**. It's flat $\mathbb{R}^n$. Non-abelian means some $[x,y]\neq 0$ — that's where interesting geometry lives.[x][y]
 
-##### 3. Jacobi Identity — The Heart of It
+##### Jacobi Identity — The Heart of It
 
 $$[x,] + [y,] + [z,] = 0$$[y][z][x]
 
@@ -164,7 +164,7 @@ Formally, the Lie algebra is $\mathfrak{g} = T_e G$ — the tangent space at ide
 
 The extra magic is the **Lie bracket**. The flat plane forgets how curved the group is. The bracket $$ is a little memory chip that says "if you go a tiny bit in X direction, then Y, then back, you don't quite return — here's how much curvature you felt."[X][Y]
 
-#### 1. Tangent Space at Identity — In More Detail
+#### Tangent Space at Identity — In More Detail
 
 For a matrix group, this is very concrete.
 
@@ -189,7 +189,7 @@ Other examples:
 
 Dimension of $\mathfrak{g}$ = dimension of $G$.
 
-#### 2. The Lie Bracket — What Does "Failure to Commute" Mean?
+#### The Lie Bracket — What Does "Failure to Commute" Mean?
 
 For matrix groups, the bracket has a simple formula:
 
@@ -217,7 +217,7 @@ This commutator operation automatically gives you a Lie algebra because it satis
 
 > Jacobi says if you have three infinitesimal motions, the way they interfere with each other has to balance out. It's the price we pay for working on a flat plane that remembers curvature.
 
-#### 3. Infinitesimal Motions and Generators
+#### Infinitesimal Motions and Generators
 
 A generator is just a basis vector of the Lie algebra. Any tiny motion near identity is a combination of generators.
 
@@ -243,7 +243,7 @@ Any angular velocity vector $\omega = (\omega_x, \omega_y, \omega_z)$ — the th
 
 Their brackets encode the geometry of 3D space: $[J_x, J_y] = J_z$ (and cyclic permutations). That says: doing an x-rotation then a y-rotation is slightly different from y then x, and the difference is a z-rotation.
 
-#### 4. The Exponential Map — From Flat to Curved
+#### The Exponential Map — From Flat to Curved
 
 How do we go back from the easy flat algebra to the hard curved group? We exponentiate.
 
@@ -272,7 +272,7 @@ $$e^{tX}e^{tY}e^{-tX}e^{-tY}=I+t^2[X,Y]+O(t^3)$$
 
 So $e^{tX}e^{tY}=e^{tY}e^{tX}$ for all small $t$ if and only if $=0$.[X][Y]
 
-#### 5. Baker-Campbell-Hausdorff (BCH) Formula
+#### Baker-Campbell-Hausdorff (BCH) Formula
 
 If we know how to multiply $e^X e^Y$, do we get $e^{\text{something}}$? Yes, and that "something" only uses brackets.
 
@@ -284,7 +284,7 @@ If $=0$ for all $X,Y$, all correction terms die and $e^X e^Y = e^{X+Y}$. That's 
 
 This is why the Lie algebra determines the local group law. If you know all brackets, you know how to multiply nearby group elements.
 
-#### 6. Lie's Three Theorems — Why We Bother
+#### Lie's Three Theorems — Why We Bother
 
 1. **Existence:** Every abstract Lie algebra (a vector space with a bilinear, skew-symmetric bracket satisfying Jacobi) comes from _some_ Lie group (at least locally). You can invent a bracket table and it will be geometrically realizable.
 2. **Uniqueness:** If two simply connected Lie groups have the same Lie algebra, they are the same group. More generally, maps between simply connected groups are the same as maps between their Lie algebras. So to understand group homomorphisms, it suffices to study linear maps preserving brackets.
@@ -312,7 +312,7 @@ Why do we care? If $I$ is an ideal, you can form the **quotient** $\mathfrak{g}/
 
 Think of it like this: a subalgebra $S$ is "closed under bracketing with itself": $[S,S]\subseteq S$. An ideal is much stronger: it's "closed under bracketing with the *whole* algebra."
 
-#### 1. Abelian Type — The Boring but Important One
+#### Abelian Type — The Boring but Important One
 
 All brackets zero: $=0$ for all $x,y$. All structure constants $c_{ij}^k = 0$.[x][y]
 
@@ -326,7 +326,7 @@ The group is commutative. Its representation theory is trivial: every irreducibl
 
 This is the simplest building block, but alone it can't make rotations, because rotations don't commute.
 
-#### 2. Simple — The Atoms
+#### Simple — The Atoms
 
 **Definition:** Non-abelian, and has no non-trivial ideals — only $0$ and $\mathfrak{g}$ itself. You cannot break it into smaller pieces.
 
@@ -350,7 +350,7 @@ where $ad_X(Y)=[X,Y]$. So $B$ measures how much $X$ and $Y$ interact via double 
 
 Simple algebras are the atoms. Everything semisimple is made of them.
 
-#### 3. Semisimple — Molecules Made of Atoms
+#### Semisimple — Molecules Made of Atoms
 
 **Definition:** $\mathfrak{g} = \mathfrak{s}_1 \oplus \cdots \oplus \mathfrak{s}_k$ where each $\mathfrak{s}_i$ is simple, direct sum meaning they commute with each other: $[\mathfrak{s}_i, \mathfrak{s}_j]=0$ for $i\neq j$.
 
@@ -410,7 +410,7 @@ And five exceptional jewels that don't fit families:
 
 This classification is considered one of the greatest achievements of mathematics. We know *all* possible continuous simple symmetries.
 
-#### 4. Reductive — What Physicists Actually Use
+#### Reductive — What Physicists Actually Use
 
 **Definition:** $\mathfrak{g} = \mathfrak{z} \oplus \mathfrak{s}$ where $\mathfrak{z}$ is abelian (the center — elements commuting with everything) and $\mathfrak{s}$ is semisimple.
 
